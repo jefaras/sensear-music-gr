@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
@@ -207,7 +208,15 @@ export default function RestaurantsBars() {
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg 2400w"
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Stylish restaurant and bar interior with curated music atmosphere for dining experiences"
-                className="absolute w-full h-full object-cover"
+                className="absolute w-full h-full object-cover md:hidden"
+              />
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg 2400w"
+                sizes="(max-width: 1800px) 100vw, 1800px"
+                alt="Stylish restaurant and bar interior with curated music atmosphere for dining experiences"
+                className="absolute w-full h-full object-cover hidden md:block"
                 style={{ 
                   top: '-15%',
                   height: '130%',
