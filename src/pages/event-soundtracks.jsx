@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { Button } from '@/components/ui/button';
@@ -7,6 +8,8 @@ import { Music, Disc, Headphones, Settings, CheckCircle } from 'lucide-react';
 import Breadcrumbs from "../components/Breadcrumbs";
 
 export default function EventSoundtracks() {
+  const [scrollY, setScrollY] = useState(0);
+
   useEffect(() => {
     document.title = "Event Music & AV Production | SensEar";
 
@@ -21,7 +24,6 @@ export default function EventSoundtracks() {
       document.head.appendChild(meta);
     }
 
-    // Add locale and language meta tags
     const localeTag = document.querySelector('meta[property="og:locale"]');
     if (localeTag) {
       localeTag.setAttribute('content', 'en_US');
@@ -179,6 +181,10 @@ export default function EventSoundtracks() {
       structuredDataScript.textContent = JSON.stringify(structuredData);
       document.head.appendChild(structuredDataScript);
     }
+
+    const handleScroll = () => setScrollY(window.scrollY);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const whatWeDo = [
@@ -214,31 +220,54 @@ export default function EventSoundtracks() {
 
   return (
     <div className="bg-[#faebe3]">
-      <section
-        className="relative min-h-screen flex items-center justify-center bg-black bg-cover bg-center pt-20 md:pt-0"
-        style={{ backgroundImage: "url(https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg)" }}
-        role="img"
-        aria-label="Professional event production with immersive music curation and AV setup"
-      >
-        <div className="absolute inset-0 bg-black/40" />
-        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 animate-fade-in-up leading-tight">Event Soundtracks: <br /> Music &amp; Audio setup for Events</h1>
-          <p className="text-xl text-white/80 leading-relaxed mb-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>We design soundtracks that move with the energy of your event. Immersive Sound for Unforgettable Moments.</p>
-          <div className="animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-            <Link to={createPageUrl("ContactUs")}>
-              <Button size="lg" className="bg-gray-50 text-black px-8 py-6 text-lg font-medium rounded-md inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 hover:bg-[#f0dfd5]" aria-label="Book an event music consultation">Book an Event Consultation</Button>
-            </Link>
+      {/* Hero Section - Similar to Home but smaller heading */}
+      <section className="relative pt-32 pb-20 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Event Soundtracks section">
+        {/* Text content */}
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="w-full">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-6 leading-[1.1]">
+              Event Soundtracks:<br />
+              Music &amp; Audio setup for Events
+            </h1>
+            
+            <div className="mb-8 max-w-4xl">
+              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
+                We design soundtracks that move with the energy of your event. Immersive Sound for Unforgettable Moments.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Hero Image - Larger with parallax */}
+        <div className="w-full px-6">
+          <div className="mx-auto" style={{ maxWidth: '1800px' }}>
+            <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg 2400w"
+                sizes="(max-width: 1800px) 100vw, 1800px"
+                alt="Professional event production with immersive music curation and AV setup"
+                className="absolute w-full h-full object-cover"
+                style={{ 
+                  top: '-15%',
+                  height: '130%',
+                  transform: `translateY(${scrollY * 0.15}px)`,
+                  transformOrigin: 'center top'
+                }}
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Breadcrumbs */}
-      <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
+      {/* Breadcrumbs - COMMENTED OUT */}
+      {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
         <Breadcrumbs items={[
           { label: "Services", path: createPageUrl("Services") },
           { label: "Event Soundtracks", path: createPageUrl("event-soundtracks") }
         ]} />
-      </div>
+      </div> */}
       
       <section className="py-24" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="what-we-do-heading">
         <div className="max-w-5xl mx-auto px-6">

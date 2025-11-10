@@ -1,13 +1,15 @@
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { Users, FileText, TrendingUp, CheckCircle } from 'lucide-react'; // Import the new icons
+import { Users, FileText, TrendingUp, CheckCircle } from 'lucide-react';
 import Breadcrumbs from "../components/Breadcrumbs";
 
 export default function SonicStrategy() {
+  const [scrollY, setScrollY] = useState(0);
+
   useEffect(() => {
     document.title = "Sonic Strategy & Audio Branding | SensEar";
     
@@ -22,7 +24,6 @@ export default function SonicStrategy() {
       document.head.appendChild(meta);
     }
 
-    // Add locale and language meta tags
     const localeTag = document.querySelector('meta[property="og:locale"]');
     if (localeTag) {
       localeTag.setAttribute('content', 'en_US');
@@ -38,14 +39,13 @@ export default function SonicStrategy() {
       languageTag.setAttribute('content', 'en');
     } else {
       const meta = document.createElement('meta');
-      meta.setAttribute('http-equiv', 'content-language'); // Corrected attribute name
+      meta.setAttribute('http-equiv', 'content-language');
       meta.content = 'en';
       document.head.appendChild(meta);
     }
 
     document.documentElement.lang = 'en';
 
-    // Add robots meta tag - SERVICE PAGE: index, follow
     let robotsMeta = document.querySelector('meta[name="robots"]');
     if (robotsMeta) {
       robotsMeta.setAttribute('content', 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
@@ -56,7 +56,6 @@ export default function SonicStrategy() {
       document.head.appendChild(robotsMeta);
     }
 
-    // Add googlebot specific tag
     let googlebotMeta = document.querySelector('meta[name="googlebot"]');
     if (googlebotMeta) {
       googlebotMeta.setAttribute('content', 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
@@ -67,7 +66,6 @@ export default function SonicStrategy() {
       document.head.appendChild(googlebotMeta);
     }
 
-    // Add canonical link
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (canonicalLink) {
       canonicalLink.setAttribute('href', 'https://sensear.music/sonic-strategy');
@@ -78,7 +76,6 @@ export default function SonicStrategy() {
       document.head.appendChild(canonicalLink);
     }
 
-    // Open Graph tags
     const ogTags = [
       { property: 'og:title', content: 'Sonic Strategy & Audio Branding | SensEar' },
       { property: 'og:description', content: description },
@@ -99,7 +96,6 @@ export default function SonicStrategy() {
       }
     });
 
-    // Twitter Card tags
     const twitterTags = [
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:title', content: 'Sonic Strategy & Audio Branding | SensEar' },
@@ -119,7 +115,6 @@ export default function SonicStrategy() {
       }
     });
 
-    // Add structured data
     const structuredData = [
       {
         "@context": "https://schema.org",
@@ -180,25 +175,28 @@ export default function SonicStrategy() {
       structuredDataScript.textContent = JSON.stringify(structuredData);
       document.head.appendChild(structuredDataScript);
     }
+
+    const handleScroll = () => setScrollY(window.scrollY);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const whatWeDo = [
   {
-    icon: Users, // Added icon
+    icon: Users,
     title: 'Sonic DNA workshop',
     description: "We schedule a workshop with your team where we explore your brand values, customer personas, and emotional targets. We guide you through curated mood boards and reference tracks to co-create your brand's sonic personality."
   },
   {
-    icon: FileText, // Added icon
+    icon: FileText,
     title: 'Sonic strategy plan',
     description: 'We cover how each space will be scored throughout the day, how your signature sounds will support marketing and guest touchpoints, and provide audio demos so you can hear exactly what your guests will feel.'
   },
   {
-    icon: TrendingUp, // Added icon
+    icon: TrendingUp,
     title: 'Sonic rebranding roadmap',
     description: 'We give you a clear roadmap to manage that shift—aligned with your brand calendar and marketing goals. Whether you are launching a new venue or reinventing your brand, we ensure the transition feels effortless.'
   }];
-
 
   const problemsWeSolve = [
   {
@@ -222,33 +220,56 @@ export default function SonicStrategy() {
     description: 'When everyone controls the music, consistency breaks down. We give you structure and flexibility—clear guidelines, curated content, and optional tech for seamless control.'
   }];
 
-
   return (
     <div className="bg-[#faebe3]">
-      <section 
-        className="relative min-h-screen flex items-center justify-center bg-cover bg-center pt-20 md:pt-0" 
-        style={{ backgroundImage: "url(https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg)" }}
-        role="img"
-        aria-label="Strategic sonic branding consultation and music curation planning session">
-        <div className="absolute inset-0 bg-black/40" />
-        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 animate-fade-in-up leading-tight">Sonic Strategy: <br /> Exclusive consultancy & music branding guidelines</h1>
-          <p className="text-xl text-white/80 leading-relaxed mb-8 animate-fade-in-up" style={{animationDelay: '0.2s'}}>Ultra-specialized advisory that translates brand vision into an ownable sound.</p>
-          <div className="animate-fade-in-up" style={{animationDelay: '0.4s'}}>
-            <Link to={createPageUrl("ContactUs")}>
-              <Button size="lg" className="bg-slate-50 text-black px-8 py-6 text-lg font-medium rounded-md inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 hover:bg-[#f0dfd5]" aria-label="Book a sonic strategy consultation session">Book a Sonic Strategy Session</Button>
-            </Link>
+      {/* Hero Section - Similar to Home but smaller heading */}
+      <section className="relative pt-32 pb-20 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Sonic Strategy section">
+        {/* Text content */}
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="w-full">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-6 leading-[1.1]">
+              Sonic Strategy:<br />
+              Exclusive consultancy & music branding guidelines
+            </h1>
+            
+            <div className="mb-8 max-w-4xl">
+              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
+                Ultra-specialized advisory that translates brand vision into an ownable sound.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Hero Image - Larger with parallax */}
+        <div className="w-full px-6">
+          <div className="mx-auto" style={{ maxWidth: '1800px' }}>
+            <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg 2400w"
+                sizes="(max-width: 1800px) 100vw, 1800px"
+                alt="Strategic sonic branding consultation and music curation planning session"
+                className="absolute w-full h-full object-cover"
+                style={{ 
+                  top: '-15%',
+                  height: '130%',
+                  transform: `translateY(${scrollY * 0.15}px)`,
+                  transformOrigin: 'center top'
+                }}
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Breadcrumbs */}
-      <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
+      {/* Breadcrumbs - COMMENTED OUT */}
+      {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
         <Breadcrumbs items={[
           { label: "Services", path: createPageUrl("Services") },
           { label: "Sonic Strategy", path: createPageUrl("sonic-strategy") }
         ]} />
-      </div>
+      </div> */}
 
       <section className="py-24" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="what-we-do-heading">
         <div className="max-w-5xl mx-auto px-6">

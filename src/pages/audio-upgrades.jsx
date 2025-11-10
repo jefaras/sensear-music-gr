@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { Button } from '@/components/ui/button';
@@ -7,6 +8,8 @@ import { Volume2, Settings, Wrench, CheckCircle, Lightbulb, Package, CheckSquare
 import Breadcrumbs from "../components/Breadcrumbs";
 
 export default function AudioUpgrades() {
+  const [scrollY, setScrollY] = useState(0);
+
   useEffect(() => {
     document.title = "Audio Upgrades | SensEar Sound Optimization";
 
@@ -182,6 +185,10 @@ export default function AudioUpgrades() {
       structuredDataScript.textContent = JSON.stringify(structuredData);
       document.head.appendChild(structuredDataScript);
     }
+
+    const handleScroll = () => setScrollY(window.scrollY);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const whatWeDo = [
@@ -242,34 +249,57 @@ export default function AudioUpgrades() {
 
   return (
     <div className="bg-[#faebe3]">
-      <section
-        className="relative min-h-screen flex items-center justify-center bg-cover bg-center pt-24 md:pt-0"
-        style={{
-          backgroundImage: "url(https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg)"
-        }}
-        role="img"
-        aria-label="Professional audio equipment optimization and acoustic calibration for venues">
-
-        <div className="absolute inset-0 bg-black/40" />
-        
-        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 animate-fade-in-up leading-tight">Audio Upgrades: <br /> Sound in perfect alignment with your space</h1>
-          <p className="text-base sm:text-lg md:text-xl text-white/80 leading-relaxed mb-8 animate-fade-in-up px-4" style={{ animationDelay: '0.2s' }}>On-site acoustic checks, system tuning, and immersive AV design, tailored to your layout, energy flow, and aesthetic.</p>
-          <div className="animate-fade-in-up px-4" style={{ animationDelay: '0.4s' }}>
+      {/* Hero Section - Similar to Home but smaller heading */}
+      <section className="relative pt-32 pb-20 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Audio Upgrades section">
+        {/* Text content */}
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="w-full">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-6 leading-[1.1]">
+              Audio Upgrades:<br />
+              Sound in perfect alignment with your space
+            </h1>
+            
+            <div className="mb-8 max-w-4xl">
+              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
+                On-site acoustic checks, system tuning, and immersive AV design, tailored to your layout, energy flow, and aesthetic.
+              </p>
+            </div>
             <Link to={createPageUrl("ContactUs")}>
-              <Button size="lg" className="bg-gray-50 text-black px-8 py-6 text-lg font-medium rounded-md inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 hover:bg-[#f0dfd5]" aria-label="Book an audio experience assessment">Book an Audio Experience Assessment</Button>
+              <Button size="lg" className="bg-black text-white px-8 py-6 text-lg font-medium rounded-md inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 hover:bg-[#333]" aria-label="Book an audio experience assessment">Book an Audio Experience Assessment</Button>
             </Link>
+          </div>
+        </div>
+
+        {/* Hero Image - Larger with parallax */}
+        <div className="w-full px-6 mt-12 md:mt-24">
+          <div className="mx-auto" style={{ maxWidth: '1800px' }}>
+            <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg 2400w"
+                sizes="(max-width: 1800px) 100vw, 1800px"
+                alt="Professional audio equipment optimization and acoustic calibration for venues"
+                className="absolute w-full h-full object-cover"
+                style={{ 
+                  top: '-15%',
+                  height: '130%',
+                  transform: `translateY(${scrollY * 0.15}px)`,
+                  transformOrigin: 'center top'
+                }}
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Breadcrumbs */}
-      <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
+      {/* Breadcrumbs - COMMENTED OUT */}
+      {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
         <Breadcrumbs items={[
         { label: "Services", path: createPageUrl("Services") },
         { label: "Audio Upgrades", path: createPageUrl("audio-upgrades") }]
         } />
-      </div>
+      </div> */}
 
       <section className="py-24" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b2/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="what-we-do-heading">
         <div className="max-w-5xl mx-auto px-6">
@@ -317,7 +347,6 @@ export default function AudioUpgrades() {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="py-20 bg-black text-white" aria-labelledby="cta-heading">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 id="cta-heading" className="text-4xl font-bold mb-6 leading-[1.25]">
