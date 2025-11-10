@@ -213,14 +213,14 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Hero Image - Moderately sized with rounded edges like Soundtrack.io */}
-          <div className="relative w-full max-w-6xl mx-auto">
+          {/* Hero Image - 10% bigger (max-w-7xl instead of max-w-6xl) */}
+          <div className="relative w-full max-w-7xl mx-auto">
             <div className="rounded-[2rem] overflow-hidden shadow-2xl">
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/82df3d965_Dogwood-Southern-Table-and-Bar-by-Square-Feet-Studio-Issue-18-Feature-The-Local-Project-Image-3-.jpg"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/82df3d965_Dogwood-Southern-Table-and-Bar-by-Square-Feet-Studio-Issue-18-Feature-The-Local-Project-Image-3-.jpg 800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/82df3d965_Dogwood-Southern-Table-and-Bar-by-Square-Feet-Studio-Issue-18-Feature-The-Local-Project-Image-3-.jpg 1600w"
-                sizes="(max-width: 768px) 100vw, 1200px"
+                sizes="(max-width: 768px) 100vw, 1280px"
                 alt="Vibrant group of people enjoying music and atmosphere at an energetic restaurant event"
                 className="w-full h-auto object-cover"
               />
