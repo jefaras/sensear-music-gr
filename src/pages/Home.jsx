@@ -234,7 +234,7 @@ export default function Home() {
       `}</style>
 
       {/* Hero Section - with silver foil background */}
-      <section className="relative pt-32 pb-20" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Hero section">
+      <section className="relative pt-32 pb-20 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Hero section">
         {/* Text content - constrained by max-w-7xl */}
         <div className="max-w-7xl mx-auto px-6">
           <div className="w-full">
@@ -269,19 +269,23 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Hero Image - FULL WIDTH 1800px, breaks out of container, with working parallax */}
+        {/* Hero Image - FULL WIDTH 1800px with WORKING parallax */}
         <div className="w-full px-6">
           <div className="mx-auto" style={{ maxWidth: '1800px' }}>
-            <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '56.25%' }}>
+            {/* Container: Shorter (40% height) to create parallax window */}
+            <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
+              {/* Image: Larger (130% scale) so it has room to move */}
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e4d7d2f3e_6588-16_13by51.png"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e4d7d2f3e_6588-16_13by51.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e4d7d2f3e_6588-16_13by51.png 2400w"
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Luxury hotel lounge interior with sophisticated ambiance showcasing music curation atmosphere"
-                className="absolute inset-0 w-full h-full object-cover"
+                className="absolute w-full h-full object-cover"
                 style={{ 
-                  transform: `translateY(${scrollY * 0.05}px)`,
+                  top: '-15%',
+                  height: '130%',
+                  transform: `translateY(${scrollY * 0.15}px)`,
                   transformOrigin: 'center top'
                 }}
               />
