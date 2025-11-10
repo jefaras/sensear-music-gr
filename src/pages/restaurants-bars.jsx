@@ -206,24 +206,26 @@ export default function RestaurantsBars() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg 2400w"
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Stylish restaurant and bar interior with curated music atmosphere for dining experiences"
-                className="absolute w-full h-full object-cover md:hidden"
-              />
+                className="absolute w-full h-full object-cover md:hidden" />
+
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg 2400w"
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Stylish restaurant and bar interior with curated music atmosphere for dining experiences"
                 className="absolute w-full h-full object-cover hidden md:block"
-                style={{ 
+                style={{
                   top: '-15%',
                   height: '130%',
                   transform: `translateY(${scrollY * 0.15}px)`,
                   transformOrigin: 'center top'
-                }}
-              />
+                }} />
+
             </div>
           </div>
         </div>
@@ -231,11 +233,11 @@ export default function RestaurantsBars() {
 
       {/* Breadcrumbs - COMMENTED OUT */}
       {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
-        <Breadcrumbs items={[
-        { label: "Industries", path: createPageUrl("Industries") },
-        { label: "Restaurants & Bars", path: createPageUrl("restaurants-bars") }]
-        } />
-      </div> */}
+         <Breadcrumbs items={[
+         { label: "Industries", path: createPageUrl("Industries") },
+         { label: "Restaurants & Bars", path: createPageUrl("restaurants-bars") }]
+         } />
+        </div> */}
 
       <section className="py-20 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="problems-heading">
         <div className="max-w-4xl mx-auto px-6">
@@ -269,7 +271,7 @@ export default function RestaurantsBars() {
                 <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
                 <div>
                   <h3 className="text-lg sm:text-xl font-bold mb-2">Atmosphere does not support revenue goals</h3>
-                  <p className="text-sm sm:text-base text-black/70">Music affects how guests move, order, and interact. We curate sound to guide the rhythm of your space—encouraging that extra drink, shared plate, or dessert at just the right moment.</p>
+                  <p className="text-sm sm:text-base text-black/70">Music affects how guests move, order, and interact. We curate music to guide the rhythm of your space, encouraging that extra drink, shared plate, or dessert at just the right moment.</p>
                 </div>
               </div>
             </article>
@@ -284,6 +286,6 @@ export default function RestaurantsBars() {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 }
