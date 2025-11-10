@@ -177,10 +177,64 @@ export default function Home() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const clients = [
+    {
+      name: "Klouvi Bar",
+      location: "Athens",
+      logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b8c4f5bc6_Klouvi-Bar_final.jpg"
+    },
+    {
+      name: "Blue Bamboo",
+      location: "Athens-Serifos",
+      logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/17f736607_Blue-Bamboo_final.jpg"
+    },
+    {
+      name: "The Rooster",
+      location: "Antiparos",
+      logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/84145d1c2_The-Rooster_final.jpg"
+    },
+    {
+      name: "Beach House",
+      location: "Antiparos",
+      logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/730cfd91d_Beach-House_final.jpg"
+    },
+    {
+      name: "Pelicanos",
+      location: "Sifnos",
+      logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fc48e3d65_Pelicanos_final.jpg"
+    },
+    {
+      name: "Yam",
+      location: "Antiparos",
+      logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/65422bc1d_fav.png"
+    }
+  ];
+
   return (
     <div className="bg-[#faebe3]">
+      <style>{`
+        @keyframes scroll-left {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-50%);
+          }
+        }
+        
+        .animate-scroll {
+          animation: scroll-left 30s linear infinite;
+          white-space: nowrap; /* Ensures content stays on one line */
+          width: fit-content; /* Allows the flex container to stretch to its full content width */
+        }
+        
+        .animate-scroll:hover {
+          animation-play-state: paused;
+        }
+      `}</style>
+
       {/* Hero Section - with silver foil background */}
-      <section className="relative pt-32 pb-20 px-6" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Hero section">
+      <section className="relative pt-32 pb-20 px-6 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Hero section">
         <div className="max-w-7xl mx-auto">
           <div className="w-full">
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-black mb-6 leading-[1.1]">
@@ -213,70 +267,63 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Hero Image - 10% bigger (max-w-7xl instead of max-w-6xl) */}
-          <div className="relative w-full max-w-7xl mx-auto">
-            <div className="rounded-[2rem] overflow-hidden shadow-2xl">
+          {/* Hero Image - 20% bigger with parallax effect, properly contained */}
+          <div className="relative w-full" style={{ maxWidth: 'calc(100% + 200px)', marginLeft: '-100px', marginRight: '-100px' }}>
+            <div className="rounded-[2rem] overflow-hidden shadow-2xl" style={{ height: '600px' }}>
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/82df3d965_Dogwood-Southern-Table-and-Bar-by-Square-Feet-Studio-Issue-18-Feature-The-Local-Project-Image-3-.jpg"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/82df3d965_Dogwood-Southern-Table-and-Bar-by-Square-Feet-Studio-Issue-18-Feature-The-Local-Project-Image-3-.jpg 800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/82df3d965_Dogwood-Southern-Table-and-Bar-by-Square-Feet-Studio-Issue-18-Feature-The-Local-Project-Image-3-.jpg 1600w"
-                sizes="(max-width: 768px) 100vw, 1280px"
+                sizes="100vw"
                 alt="Vibrant group of people enjoying music and atmosphere at an energetic restaurant event"
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover"
+                style={{ 
+                  transform: `translateY(${Math.min(scrollY * 0.1, 60)}px)`,
+                  objectPosition: 'center'
+                }}
               />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Trusted By Section - Black background with more breathing room */}
-      <section className="py-20 bg-black" aria-labelledby="clients-heading">
+      {/* Trusted By Section - Black background with infinite scroll */}
+      <section className="py-20 bg-black overflow-hidden" aria-labelledby="clients-heading">
         <div className="max-w-7xl mx-auto px-6">
           <h2 id="clients-heading" className="text-2xl md:text-3xl font-bold text-center mb-12 text-white">Now playing in venues across Greece</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 md:gap-8 items-center justify-items-center" role="list">
-            {[
-            {
-              name: "Klouvi Bar",
-              location: "Athens",
-              logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b8c4f5bc6_Klouvi-Bar_final.jpg"
-            },
-            {
-              name: "Blue Bamboo",
-              location: "Athens-Serifos",
-              logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/17f736607_Blue-Bamboo_final.jpg"
-            },
-            {
-              name: "The Rooster",
-              location: "Antiparos",
-              logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/84145d1c2_The-Rooster_final.jpg"
-            },
-            {
-              name: "Beach House",
-              location: "Antiparos",
-              logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/730cfd91d_Beach-House_final.jpg"
-            },
-            {
-              name: "Pelicanos",
-              location: "Sifnos",
-              logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fc48e3d65_Pelicanos_final.jpg"
-            },
-            {
-              name: "Yam",
-              location: "Antiparos",
-              logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/65422bc1d_fav.png"
-            }].
-            map((client) =>
-            <div key={client.name} className="text-center" role="listitem">
-                <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-2 sm:p-3 border-4 border-white shadow-md">
-                  <img
-                  src={client.logo}
-                  alt={`${client.name} logo - SensEar music curation client`}
-                  className="max-w-full max-h-full object-contain" />
+          
+          {/* Infinite scrolling logo container */}
+          <div className="relative">
+            <div className="flex gap-12 animate-scroll">
+              {/* First set of logos */}
+              {clients.map((client, index) =>
+                <div key={`${client.name}-1-${index}`} className="flex-shrink-0 text-center" style={{ width: '180px' }}>
+                  <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
+                    <img
+                      src={client.logo}
+                      alt={`${client.name} logo - SensEar music curation client`}
+                      className="max-w-full max-h-full object-contain"
+                    />
+                  </div>
+                  <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">{client.name}</p>
+                  <p className="text-sm text-white/60 mt-1">{client.location}</p>
                 </div>
-                <p className="text-base sm:text-lg md:text-xl font-semibold text-white/90 tracking-widest uppercase">{client.name}</p>
-                <p className="text-xs sm:text-sm text-white/60 mt-1">{client.location}</p>
-              </div>
-            )}
+              )}
+              {/* Duplicate set for seamless loop */}
+              {clients.map((client, index) =>
+                <div key={`${client.name}-2-${index}`} className="flex-shrink-0 text-center" style={{ width: '180px' }}>
+                  <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
+                    <img
+                      src={client.logo}
+                      alt={`${client.name} logo - SensEar music curation client`}
+                      className="max-w-full max-h-full object-contain"
+                    />
+                  </div>
+                  <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">{client.name}</p>
+                  <p className="text-sm text-white/60 mt-1">{client.location}</p>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </section>

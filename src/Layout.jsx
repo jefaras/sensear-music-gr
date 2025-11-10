@@ -2,7 +2,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { createPageUrl } from "@/utils";
-import { Menu, X, ChevronDown, Facebook, Instagram, ChevronUp, Globe } from "lucide-react";
+import { Menu, X, ChevronDown, Facebook, Instagram, ChevronUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import ScrollToTop from "./components/ScrollToTop";
@@ -12,8 +12,6 @@ export default function Layout({ children }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [openDropdown, setOpenDropdown] = React.useState(null);
   const [isScrolled, setIsScrolled] = React.useState(false); // Added isScrolled state
-  const [selectedLanguage, setSelectedLanguage] = React.useState('EN'); // Track selected language
-  const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = React.useState(false); // State for language dropdown
 
   // Track scroll position for navigation height
   React.useEffect(() => {
@@ -63,26 +61,6 @@ export default function Layout({ children }) {
     { name: "Contact", path: createPageUrl("ContactUs") },
     { name: "Blog", path: createPageUrl("Blog") }
   ];
-
-  const languages = [
-    {
-      code: 'EN',
-      name: 'English',
-      flag: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/0fe5b1241_flag-united-kingdom_1f1ec-1f1e7.png'
-    },
-    {
-      code: 'EL',
-      name: 'Ελληνικά',
-      flag: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/6ab43f54e_flag-greece_1f1ec-1f1f7.png'
-    }
-  ];
-
-  const handleLanguageChange = (languageCode) => {
-    setSelectedLanguage(languageCode);
-    setOpenDropdown(null);
-    // TODO: Implement actual language switching functionality
-    console.log('Language changed to:', languageCode);
-  };
 
   const footerNavItems = {
     services: [
@@ -339,52 +317,6 @@ export default function Layout({ children }) {
                 }
               </div>
             )}
-            {/* Language Selector for Desktop */}
-            <div
-              className="relative group"
-              onMouseEnter={() => setIsLanguageDropdownOpen(true)}
-              onMouseLeave={() => setIsLanguageDropdownOpen(false)}
-            >
-              <button
-                className={`py-2 text-sm font-bold tracking-wide transition-colors relative flex items-center gap-2 hover:underline decoration-1 underline-offset-4 ${
-                  isScrolled ? 'text-slate-50' : 'text-black'
-                }`}
-                onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)} // For better accessibility
-              >
-                <Globe className="w-4 h-4" />
-                <span className="flex items-center gap-1">
-                  {selectedLanguage}
-                  <img
-                    src={languages.find(lang => lang.code === selectedLanguage)?.flag}
-                    alt={`${selectedLanguage} flag`}
-                    className="w-4 h-auto ml-1"
-                  />
-                </span>
-                {isLanguageDropdownOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
-              </button>
-
-              {isLanguageDropdownOpen && (
-                <div className="absolute top-full right-0 pt-2 w-40 z-10">
-                  <div className="bg-white rounded-lg shadow-xl border border-gray-100 overflow-hidden">
-                    {languages.map((lang) => (
-                      <button
-                        key={lang.code}
-                        onClick={() => {
-                          handleLanguageChange(lang.code);
-                          setIsLanguageDropdownOpen(false); // Close dropdown after selection
-                        }}
-                        className={`block px-4 py-2 text-sm text-black flex items-center gap-2 w-full text-left transition-colors hover:bg-peach-layer ${
-                          selectedLanguage === lang.code ? 'bg-peach-layer font-medium' : ''
-                        }`}
-                      >
-                        <img src={lang.flag} alt={`${lang.name} flag`} className="w-5 h-auto" />
-                        {lang.name}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
           </div>
 
           {/* Mobile Menu Button */}
@@ -433,38 +365,6 @@ export default function Layout({ children }) {
                   }
                 </div>
               )}
-              {/* Language Selector for Mobile */}
-              <div className="border-t border-peach/20 pt-4 mt-4"> {/* Separator */}
-                <button
-                  onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
-                  className="block text-base font-bold py-2 text-white/90 hover:text-peach flex items-center gap-2 w-full text-left"
-                >
-                  <Globe className="w-5 h-5" />
-                  <span>Language: {languages.find(lang => lang.code === selectedLanguage)?.name}</span>
-                  {isLanguageDropdownOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
-                </button>
-
-                {isLanguageDropdownOpen && (
-                  <div className="pl-4 space-y-1 mt-1">
-                    {languages.map((lang) => (
-                      <button
-                        key={lang.code}
-                        onClick={() => {
-                          handleLanguageChange(lang.code);
-                          setIsLanguageDropdownOpen(false); // Close dropdown after selection
-                          setIsMenuOpen(false); // Also close main mobile menu
-                        }}
-                        className={`block text-sm py-2 text-white/70 hover:text-peach flex items-center gap-2 w-full text-left ${
-                          selectedLanguage === lang.code ? 'text-white underline' : ''
-                        }`}
-                      >
-                        <img src={lang.flag} alt={`${lang.name} flag`} className="w-5 h-auto" />
-                        {lang.name}
-                      </button>
-                    ))}
-                  </div>
-                )}
-              </div>
             </div>
           </div>
         }
