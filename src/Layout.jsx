@@ -269,7 +269,7 @@ export default function Layout({ children }) {
               <h1 className={`text-2xl font-bold tracking-wide font-syne transition-colors duration-300 ${
                 isScrolled ? 'text-white' : 'text-black'
               }`}>SENSEAR</h1>
-              <p className={`text-xs -mt-1 font-syne font-bold transition-colors duration-300 ${
+              <p className={`text-xs -mt-1 font-syne transition-colors duration-300 ${
                 isScrolled ? 'text-white' : 'text-black'
               }`}>Soundtracking Unique Experiences</p>
             </div>
