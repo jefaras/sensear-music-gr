@@ -180,7 +180,7 @@ export default function Home() {
   return (
     <div className="bg-[#faebe3]">
       {/* Hero Section - with silver foil background */}
-      <section className="relative pt-32 pb-12 px-6 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Hero section">
+      <section className="relative pt-32 pb-20 px-6" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Hero section">
         <div className="max-w-7xl mx-auto">
           <div className="w-full">
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-black mb-6 leading-[1.1]">
@@ -194,7 +194,7 @@ export default function Home() {
               </p>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Link to={createPageUrl("ContactUs")}>
                 <Button 
                   className="bg-black hover:bg-black/80 text-white px-8 py-6 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto"
@@ -212,26 +212,25 @@ export default function Home() {
               </Link>
             </div>
           </div>
-        </div>
 
-        {/* Hero Image - Bigger with negative margins and parallax */}
-        <div className="mt-12 -mx-6 md:-mx-12 lg:-mx-16 rounded-3xl overflow-hidden shadow-2xl">
-          <div className="overflow-hidden">
-            <img
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/82df3d965_Dogwood-Southern-Table-and-Bar-by-Square-Feet-Studio-Issue-18-Feature-The-Local-Project-Image-3-.jpg"
-              srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/82df3d965_Dogwood-Southern-Table-and-Bar-by-Square-Feet-Studio-Issue-18-Feature-The-Local-Project-Image-3-.jpg 800w,
-                      https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/82df3d965_Dogwood-Southern-Table-and-Bar-by-Square-Feet-Studio-Issue-18-Feature-The-Local-Project-Image-3-.jpg 1600w"
-              sizes="(max-width: 768px) 100vw, 100vw"
-              alt="Vibrant group of people enjoying music and atmosphere at an energetic restaurant event"
-              className="w-full h-auto object-cover"
-              style={{ transform: `translateY(${scrollY * 0.15}px)` }}
-            />
+          {/* Hero Image - Moderately sized with rounded edges like Soundtrack.io */}
+          <div className="relative w-full max-w-6xl mx-auto">
+            <div className="rounded-[2rem] overflow-hidden shadow-2xl">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/82df3d965_Dogwood-Southern-Table-and-Bar-by-Square-Feet-Studio-Issue-18-Feature-The-Local-Project-Image-3-.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/82df3d965_Dogwood-Southern-Table-and-Bar-by-Square-Feet-Studio-Issue-18-Feature-The-Local-Project-Image-3-.jpg 800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/82df3d965_Dogwood-Southern-Table-and-Bar-by-Square-Feet-Studio-Issue-18-Feature-The-Local-Project-Image-3-.jpg 1600w"
+                sizes="(max-width: 768px) 100vw, 1200px"
+                alt="Vibrant group of people enjoying music and atmosphere at an energetic restaurant event"
+                className="w-full h-auto object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Trusted By Section - Black background */}
-      <section className="py-16 bg-black" aria-labelledby="clients-heading">
+      {/* Trusted By Section - Black background with more breathing room */}
+      <section className="py-20 bg-black" aria-labelledby="clients-heading">
         <div className="max-w-7xl mx-auto px-6">
           <h2 id="clients-heading" className="text-2xl md:text-3xl font-bold text-center mb-12 text-white">Now playing in venues across Greece</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 md:gap-8 items-center justify-items-center" role="list">
