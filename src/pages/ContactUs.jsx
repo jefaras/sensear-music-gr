@@ -274,9 +274,9 @@ export default function ContactUs() {
             </h1>
             
             <div className="mb-8 max-w-4xl">
-              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
-                We are here to help you create the perfect soundscape for your business or event. 
-                Give us a call or send us an email, and one of our music experts will respond within 24 hours!
+              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">We are here to help you create the perfect soundscape for your business or event. Give us a call or send us an email, and we will respond within 24 hours!
+
+
               </p>
             </div>
           </div>
@@ -292,6 +292,7 @@ export default function ContactUs() {
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/23e1cb39d_2021ef69ab7c3df8f2f35f2532f4ec65.jpg 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/23e1cb39d_2021ef69ab7c3df8f2f35f2532f4ec65.jpg 2400w"
 
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Contact SensEar for music curation consultation"
                 className="absolute w-full h-full object-cover md:hidden" />
@@ -301,6 +302,7 @@ export default function ContactUs() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/23e1cb39d_2021ef69ab7c3df8f2f35f2532f4ec65.jpg"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/23e1cb39d_2021ef69ab7c3df8f2f35f2532f4ec65.jpg 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/23e1cb39d_2021ef69ab7c3df8f2f35f2532f4ec65.jpg 2400w"
+
 
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Contact SensEar for music curation consultation"
@@ -319,10 +321,10 @@ export default function ContactUs() {
 
       {/* Breadcrumbs - COMMENTED OUT */}
       {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
-         <Breadcrumbs items={[
-           { label: "Contact", path: createPageUrl("ContactUs") }
-         ]} />
-        </div> */}
+          <Breadcrumbs items={[
+            { label: "Contact", path: createPageUrl("ContactUs") }
+          ]} />
+         </div> */}
 
       <section className="py-20 bg-[#faebe3]" aria-labelledby="contact-heading">
         <div className="max-w-6xl mx-auto px-6">
