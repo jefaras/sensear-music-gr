@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
@@ -193,67 +192,38 @@ export default function ServiceEnvironmentShapesWaitTime() {
   return (
     <div className="bg-[#faebe3] min-h-screen">
       <section 
-        className="relative pt-32 pb-20 overflow-hidden"
-        style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
-        aria-label="How Service Environments Shape Perceived Waiting Time">
-
-        {/* Text content */}
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="w-full">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-6 leading-[1.1]">
-              How your service environment<br />
-              shapes perceived wait time
-            </h1>
-            
-            <div className="mb-8 max-w-4xl">
-              <div className="flex items-center gap-6 text-sm text-black/60 mb-4">
-                <div className="flex items-center gap-2">
-                  <Calendar className="w-4 h-4" aria-hidden="true" />
-                  <time dateTime="2025-01-15">January 15, 2025</time>
-                </div>
-                <div className="flex items-center gap-2">
-                  <User className="w-4 h-4" aria-hidden="true" />
-                  <span>SensEar</span>
-                </div>
-                <div className="text-black/50">
-                  <span>6 min read</span>
-                </div>
-              </div>
-              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
-                How atmospheric elements like music influence perceived wait times and customer satisfaction.
-              </p>
-            </div>
-          </div>
+        className="relative min-h-screen flex items-center justify-center text-white pt-20 md:pt-0 overflow-hidden"
+        role="img"
+        aria-label="Service environment design reducing customer perceived waiting time through atmosphere">
+        
+        {/* Parallax Background */}
+        <div 
+          className="absolute inset-0 z-0"
+          style={{
+            transform: `translateY(${scrollY * 0.5}px)`,
+            backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1472df5cb_aiease_1760708154014.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center"
+          }}
+        >
+          <div className="absolute inset-0 bg-black/70" />
         </div>
 
-        {/* Hero Image - Larger with parallax */}
-        <div className="w-full px-6">
-          <div className="mx-auto" style={{ maxWidth: '1800px' }}>
-            <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
-              {/* Mobile/Tablet version - NO parallax */}
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1472df5cb_aiease_1760708154014.jpg"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1472df5cb_aiease_1760708154014.jpg 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1472df5cb_aiease_1760708154014.jpg 2400w"
-                sizes="(max-width: 1800px) 100vw, 1800px"
-                alt="Service environment design reducing customer perceived waiting time through atmosphere"
-                className="absolute w-full h-full object-cover md:hidden"
-              />
-              {/* Desktop version - WITH parallax */}
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1472df5cb_aiease_1760708154014.jpg"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1472df5cb_aiease_1760708154014.jpg 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1472df5cb_aiease_1760708154014.jpg 2400w"
-                sizes="(max-width: 1800px) 100vw, 1800px"
-                alt="Service environment design reducing customer perceived waiting time through atmosphere"
-                className="absolute w-full h-full object-cover hidden md:block"
-                style={{ 
-                  top: '-15%',
-                  height: '130%',
-                  transform: `translateY(${scrollY * 0.15}px)`,
-                  transformOrigin: 'center top'
-                }}
-              />
+        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            How your service environment shapes perceived wait time
+          </h1>
+          <div className="flex items-center justify-center gap-6 text-sm text-white/80">
+            <div className="flex items-center gap-2">
+              <Calendar className="w-4 h-4" aria-hidden="true" />
+              <time dateTime="2025-01-15">January 15, 2025</time>
+            </div>
+            <div className="flex items-center gap-2">
+              <User className="w-4 h-4" aria-hidden="true" />
+              <span>SensEar</span>
+            </div>
+            <div className="text-white/60">
+              <span>6 min read</span>
             </div>
           </div>
         </div>
@@ -277,7 +247,7 @@ export default function ServiceEnvironmentShapesWaitTime() {
             <h2 className="text-3xl font-bold text-black mt-12 mb-6">Why waiting feels longer than it is</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              <a href="https://www.researchgate.net/profile/Ale-Smidts/publication/247220346_Effects_of_waiting_on_the_satisfaction_with_the_service_Beyond_objective_time_measures/links/5cc83a9e4585156cd7bc091c/Effects-of-waiting-on-the-satisfaction-with_the-service-Beyond-objective-time-measures.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Customers often overestimate how long they have waited</a>, and satisfaction drops as perceived wait length grows. Traditional fixes focus on operations that cut actual queue time, but <a href="https://www.researchgate.net/profile/Naveen-Donthu/publication/242337184_Closing_the_gap_between_perceived_and_actual_waiting_times_in_a_call_center_Results_from_a_field_study/links/64bff61a8de7ed28bac2b9e0/Closing-the-gap-between-perceived-and-actual-waiting-times-in-a-call-center-Results-from-a-field-study.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">research shows the setting and information during the wait also shape satisfaction</a>, sometimes more than small shifts in seconds or minutes.
+              <a href="https://www.researchgate.net/profile/Ale-Smidts/publication/247220346_Effects_of_waiting_on_the_satisfaction_with_the_service_Beyond_objective_time_measures/links/5cc83a9e4585156cd7bc091c/Effects-of-waiting-on-the-satisfaction-with-the-service-Beyond-objective-time-measures.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Customers often overestimate how long they have waited</a>, and satisfaction drops as perceived wait length grows. Traditional fixes focus on operations that cut actual queue time, but <a href="https://www.researchgate.net/profile/Naveen-Donthu/publication/242337184_Closing_the_gap_between_perceived_and_actual_waiting_times_in_a_call_center_Results_from_a_field_study/links/64bff61a8de7ed28bac2b9e0/Closing-the-gap-between-perceived-and-actual-waiting-times-in-a-call-center-Results-from-a-field-study.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">research shows the setting and information during the wait also shape satisfaction</a>, sometimes more than small shifts in seconds or minutes.
             </p>
 
             <h2 className="text-3xl font-bold text-black mt-12 mb-6">How the environment shapes perception</h2>
