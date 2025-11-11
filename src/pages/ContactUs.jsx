@@ -238,25 +238,6 @@ export default function ContactUs() {
     setIsSubmitting(false);
   };
 
-  const faqs = [
-      {
-        question: "What is the difference between background music and bespoke curation?",
-        answer: "Background Music offers pre-curated, automated playlists for a seamless ambiance, ideal for general business needs. Bespoke Curation is a fully customized music strategy, crafted to reflect a brand's identity and create a unique, immersive experience. It is ideal for luxury venues, boutique spaces, and businesses seeking a signature sound experience."
-      },
-      {
-        question: "How long does it take to create a custom playlist?",
-        answer: "It varies. For a single venue with a clear music profile, it may take just a few days. For larger or multi-location clients, it can take a week or more to finalize the whole process."
-      },
-      {
-        question: "Do I need special equipment for playing your music playlists?",
-        answer: "Basic sound systems work just fine, but if you want specialized audio-visual solutions, we can provide design, purchase, and installation services. For more info see our AV Design & Integration section."
-      },
-      {
-        question: "Do you offer support after setup?",
-        answer: "Yes. We are available for ongoing support, updates, and any adjustments you need along the way. Just send us a message and we will talk about it."
-      }
-  ];
-
   if (isSuccess) {
     return (
       <div className="min-h-screen pt-24 flex items-center justify-center bg-[#faebe3]" role="alert" aria-live="polite">
@@ -560,14 +541,41 @@ export default function ContactUs() {
             Find answers to common questions about our <Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">music curation services</Link>. For more detailed information, visit our <Link to={createPageUrl("FAQ")} className="underline hover:text-black font-semibold">complete FAQ page</Link>.
           </p>
           <Accordion type="single" collapsible className="w-full space-y-4">
-            {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
-                <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">{faq.question}</AccordionTrigger>
-                <AccordionContent className="text-base text-black/70 pt-2 pb-4">
-                  {faq.answer}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
+            <AccordionItem value="item-0" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
+              <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
+                What is the difference between background music and bespoke curation?
+              </AccordionTrigger>
+              <AccordionContent className="text-base text-black/70 pt-2 pb-4">
+                Background Music offers pre-curated, automated playlists for a seamless ambiance, ideal for general business needs. Bespoke Curation is a fully customized music strategy, crafted to reflect a brand's identity and create a unique, immersive experience. It is ideal for luxury venues, boutique spaces, and businesses seeking a signature sound experience.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-1" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
+              <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
+                How long does it take to create a custom playlist?
+              </AccordionTrigger>
+              <AccordionContent className="text-base text-black/70 pt-2 pb-4">
+                It varies. For a single venue with a clear music profile, it may take just a few days. For larger or multi-location clients, it can take a week or more to finalize the whole process.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-2" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
+              <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
+                Do I need special equipment for playing your music playlists?
+              </AccordionTrigger>
+              <AccordionContent className="text-base text-black/70 pt-2 pb-4">
+                Basic sound systems work just fine, but if you want specialized audio-visual solutions, we can provide design, purchase, and installation services. For more info see our AV Design & Integration section.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-3" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
+              <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
+                Do you offer support after setup?
+              </AccordionTrigger>
+              <AccordionContent className="text-base text-black/70 pt-2 pb-4">
+                Yes. We are available for ongoing support, updates, and any adjustments you need along the way. Just send us a message and we will talk about it.
+              </AccordionContent>
+            </AccordionItem>
           </Accordion>
           <div className="text-center mt-12">
             <Link to={createPageUrl("FAQ")}>
