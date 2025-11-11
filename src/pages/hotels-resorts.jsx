@@ -309,7 +309,7 @@ export default function HotelsResorts() {
               Learn why <Link to={createPageUrl("three-reasons-make-music-hospitality")} className="underline hover:text-black font-semibold">music should be part of your hospitality strategy</Link> and discover <Link to={createPageUrl("brand-music-converts-browsers-buyers")} className="underline hover:text-black font-semibold">how brand-fit music converts browsers into buyers</Link>. See success stories like <Link to={createPageUrl("beach-house-antiparos")} className="underline hover:text-black font-semibold">Beach House Antiparos</Link>
             </p>
             <Link to={createPageUrl("ContactUs")}>
-              <Button size="lg" className="bg-black text-white hover:bg-black/80" aria-label="Schedule a hotel sound consultation">Schedule a Hotel Sound Consultation</Button>
+              <Button size="lg" className="bg-black text-white hover:bg-black/80" aria-label="Transform Your Hotel's Atmosphere">Transform Your Hotel's Atmosphere</Button>
             </Link>
           </div>
         </div>

@@ -281,7 +281,7 @@ export default function RestaurantsBars() {
                 See success stories from venues like <Link to={createPageUrl("blue-bamboo")} className="underline hover:text-black font-semibold">Blue Bamboo</Link> and <Link to={createPageUrl("klouvi-bar")} className="underline hover:text-black font-semibold">Klouvi Bar</Link>, or explore <Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">our full services</Link>. Learn <Link to={createPageUrl("brand-music-converts-browsers-buyers")} className="underline hover:text-black font-semibold">how brand-fit music converts browsers into buyers</Link> and <Link to={createPageUrl("background-music-shapes-customer-behavior")} className="underline hover:text-black font-semibold">how background music shapes customer behavior</Link>.
             </p>
             <Link to={createPageUrl("ContactUs")}>
-              <Button size="lg" className="bg-black text-white hover:bg-black/80 w-full sm:w-auto px-6 sm:px-8 py-6 text-base sm:text-lg whitespace-normal" aria-label="Schedule a restaurant or bar sound consultation">Schedule a Restaurant/Bar Sound Consultation</Button>
+              <Button size="lg" className="bg-black text-white hover:bg-black/80 w-full sm:w-auto px-6 sm:px-8 py-6 text-base sm:text-lg whitespace-normal" aria-label="Create Your Venue's Vibe">Create Your Venue's Vibe</Button>
             </Link>
           </div>
         </div>

@@ -277,11 +277,11 @@ export default function RetailStores() {
             </article>
           </div>
           <div className="text-center mt-16">
-            <p className="text-black/70 mb-6 px-4">
-              See solutions for other <Link to={createPageUrl("Industries")} className="underline hover:text-black font-semibold">industries we serve</Link> or explore our <Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">full service range</Link>.
+            <p className="text-black/70 mb-6">
+              Discover <Link to={createPageUrl("brand-music-converts-browsers-buyers")} className="underline hover:text-black font-semibold">how brand-fit music converts browsers into buyers</Link> and learn about <Link to={createPageUrl("background-music-shapes-customer-behavior")} className="underline hover:text-black font-semibold">music's influence on customer behavior</Link>. Explore our <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">signature playlists service</Link>.
             </p>
             <Link to={createPageUrl("ContactUs")}>
-              <Button size="lg" className="bg-black text-white hover:bg-black/80 w-full sm:w-auto px-6 sm:px-8 py-6 text-base sm:text-lg whitespace-normal" aria-label="Schedule a retail store sound consultation">Schedule a Retail Store Sound Consultation</Button>
+              <Button size="lg" className="bg-black text-white hover:bg-black/80 w-full sm:w-auto px-6 sm:px-8 py-6 text-base sm:text-lg whitespace-normal" aria-label="Enhance Your Shopping Experience">Enhance Your Shopping Experience</Button>
             </Link>
           </div>
         </div>

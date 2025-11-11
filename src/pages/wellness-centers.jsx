@@ -339,8 +339,8 @@ export default function WellnessCenters() {
       </section>
 
       {/* Problems We Solve Section */}
-      <section className="py-20 animated-gradient" aria-labelledby="problems-heading">
-        <div className="max-w-4xl mx-auto px-6">
+      <section className="py-24 animated-gradient" aria-labelledby="problems-heading">
+        <div className="max-w-6xl mx-auto px-6">
           <h2 id="problems-heading" className="text-2xl sm:text-3xl font-bold text-black text-center mb-6">Problems we solve</h2>
           
           {/* Wellness & Spa */}
@@ -412,11 +412,11 @@ export default function WellnessCenters() {
           </div>
 
           <div className="text-center mt-16">
-            <p className="text-black/70 mb-6 px-4">
-              See solutions for other <Link to={createPageUrl("Industries")} className="underline hover:text-black font-semibold">industries we serve</Link> or view our <Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">complete services</Link>.
+            <p className="text-black/70 mb-6">
+              Discover <Link to={createPageUrl("background-music-shapes-customer-behavior")} className="underline hover:text-black font-semibold">how music influences behavior</Link>, explore our <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">signature playlists</Link>, or see all <Link to={createPageUrl("Industries")} className="underline hover:text-black font-semibold">industries we serve</Link>.
             </p>
             <Link to={createPageUrl("ContactUs")}>
-              <Button size="lg" className="bg-black text-white hover:bg-black/80 w-full sm:w-auto px-6 sm:px-8 py-6 text-base sm:text-lg whitespace-normal" aria-label="Schedule a wellness center sound consultation">Schedule a Wellness Center Sound Consultation</Button>
+              <Button size="lg" className="bg-black text-white hover:bg-black/80 w-full sm:w-auto px-6 sm:px-8 py-6 text-base sm:text-lg whitespace-normal" aria-label="Design Your Healing Soundscape">Design Your Healing Soundscape</Button>
             </Link>
           </div>
         </div>
