@@ -224,93 +224,233 @@ export default function Industries() {
             Strategic Sound for Hospitality, Retail & Wellness
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8" role="list">
-            {[
-            {
-              icon: Building2,
-              title: "Hotels & Resorts",
-              description: "Guide your guests through a day of sonic luxury, with music matched perfectly to every phase of the day, venue and mood, so each moment becomes a lasting memory.",
-              link: createPageUrl("hotels-resorts"),
-              image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png",
-              alt: "Luxury hotel lobby with elegant music atmosphere and sound design"
-            },
-            {
-              icon: UtensilsCrossed,
-              title: "Restaurants & Bars",
-              description: "Our bespoke playlists spice up every sip and bite, creating the perfect audio setting to lift the spirit, encourage longer stays & turn first time diners into regulars.",
-              link: createPageUrl("restaurants-bars"),
-              image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg",
-              alt: "Upscale restaurant interior with curated background music ambiance"
-            },
-            {
-              icon: ShoppingBag,
-              title: "Retail Stores",
-              description: "Our curated music strategy weaves your brand identity, inviting customers to stay longer, discover more, and become devoted clients.",
-              link: createPageUrl("retail-stores"),
-              image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg",
-              alt: "Modern retail store showcasing music curation for enhanced shopping experience"
-            },
-            {
-              icon: Sparkles,
-              title: "Wellness Centers",
-              description: "Surround your guests with harmonies designed to melt away tension and guide them in revitalizing peace, enhancing the impact of each session.",
-              link: createPageUrl("wellness-centers"),
-              image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/3b2d2e497_Shade-by-Starpool-Design-Cristiano-Mino-.jpg",
-              alt: "Serene wellness center spa with therapeutic ambient music soundscape"
-            },
-            {
-              icon: PartyPopper,
-              title: "Events & Experiences",
-              description: "We create tailored audio journeys for events of all sizes, turning each toast and dance into a musical fabric of togetherness.",
-              link: createPageUrl("events-experiences"),
-              image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/6ab396617_3e1b0b33902175e823a09d4a2f172133-.jpg",
-              alt: "Professional event venue with immersive audio and music production setup"
-            },
-            {
-              icon: Sparkles,
-              title: "Art, Museums & Fashion",
-              description: "From gallery openings to fashion show finales, we build living soundtracks that feel intentional, human, and precisely on-brand.",
-              link: createPageUrl("art-museums-fashion"),
-              image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d3177c205_802543-exposition-annees-80-au-mad.jpg",
-              alt: "Art museum and fashion exhibition with curated music atmosphere"
-            }].
-            map((industry, index) =>
-            <article key={index} role="listitem">
-                <Link to={industry.link} aria-label={`Learn more about ${industry.title} music curation services`}>
-                  <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 h-full bg-white">
-                    <div className="relative aspect-[4/3] overflow-hidden">
-                      <img
-                      src={industry.image}
-                      srcSet={`${industry.image} 800w,
-                                ${industry.image} 1200w`}
+            {/* Industry 1: Hotels & Resorts */}
+            <article role="listitem">
+              <Link to={createPageUrl("hotels-resorts")} aria-label="Learn more about Hotels & Resorts music curation services">
+                <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 h-full bg-white">
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png"
+                      srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png 800w,
+                                https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png 1200w"
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      alt={industry.alt}
+                      alt="Luxury hotel lobby with elegant music atmosphere and sound design"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
 
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" aria-hidden="true" />
-                      
-                      <div className="absolute top-4 left-4">
-                        <div className="bg-red-50 text-black opacity-80 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
-                          <industry.icon className="w-7 h-7 text-black" />
-                        </div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" aria-hidden="true" />
+                    
+                    <div className="absolute top-4 left-4">
+                      <div className="bg-red-50 text-black opacity-80 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                        <Building2 className="w-7 h-7 text-black" />
                       </div>
                     </div>
+                  </div>
 
-                    <div className="p-6">
-                      <h3 className="text-2xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                        {industry.title}
-                      </h3>
-                      <p className="text-black/70 mb-4">
-                        {industry.description}
-                      </p>
-                      <div className="flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
-                        <span>Explore Solutions</span>
-                        <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                  <div className="p-6">
+                    <h3 className="text-2xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
+                      Hotels & Resorts
+                    </h3>
+                    <p className="text-black/70 mb-4">
+                      Guide your guests through a day of sonic luxury, with music matched perfectly to every phase of the day, venue and mood, so each moment becomes a lasting memory.
+                    </p>
+                    <div className="flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
+                      <span>Explore Solutions</span>
+                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                    </div>
+                  </div>
+                </Card>
+              </Link>
+            </article>
+
+            {/* Industry 2: Restaurants & Bars */}
+            <article role="listitem">
+              <Link to={createPageUrl("restaurants-bars")} aria-label="Learn more about Restaurants & Bars music curation services">
+                <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 h-full bg-white">
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg"
+                      srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg 800w,
+                                https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg 1200w"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      alt="Upscale restaurant interior with curated background music ambiance"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" aria-hidden="true" />
+                    
+                    <div className="absolute top-4 left-4">
+                      <div className="bg-red-50 text-black opacity-80 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                        <UtensilsCrossed className="w-7 h-7 text-black" />
                       </div>
                     </div>
-                  </Card>
-                </Link>
-              </article>
-            )}
+                  </div>
+
+                  <div className="p-6">
+                    <h3 className="text-2xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
+                      Restaurants & Bars
+                    </h3>
+                    <p className="text-black/70 mb-4">
+                      Our bespoke playlists spice up every sip and bite, creating the perfect audio setting to lift the spirit, encourage longer stays & turn first time diners into regulars.
+                    </p>
+                    <div className="flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
+                      <span>Explore Solutions</span>
+                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                    </div>
+                  </div>
+                </Card>
+              </Link>
+            </article>
+
+            {/* Industry 3: Retail Stores */}
+            <article role="listitem">
+              <Link to={createPageUrl("retail-stores")} aria-label="Learn more about Retail Stores music curation services">
+                <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 h-full bg-white">
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg"
+                      srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg 800w,
+                                https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg 1200w"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      alt="Modern retail store showcasing music curation for enhanced shopping experience"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" aria-hidden="true" />
+                    
+                    <div className="absolute top-4 left-4">
+                      <div className="bg-red-50 text-black opacity-80 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                        <ShoppingBag className="w-7 h-7 text-black" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="p-6">
+                    <h3 className="text-2xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
+                      Retail Stores
+                    </h3>
+                    <p className="text-black/70 mb-4">
+                      Our curated music strategy weaves your brand identity, inviting customers to stay longer, discover more, and become devoted clients.
+                    </p>
+                    <div className="flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
+                      <span>Explore Solutions</span>
+                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                    </div>
+                  </div>
+                </Card>
+              </Link>
+            </article>
+
+            {/* Industry 4: Wellness Centers */}
+            <article role="listitem">
+              <Link to={createPageUrl("wellness-centers")} aria-label="Learn more about Wellness Centers music curation services">
+                <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 h-full bg-white">
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/3b2d2e497_Shade-by-Starpool-Design-Cristiano-Mino-.jpg"
+                      srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/3b2d2e497_Shade-by-Starpool-Design-Cristiano-Mino-.jpg 800w,
+                                https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/3b2d2e497_Shade-by-Starpool-Design-Cristiano-Mino-.jpg 1200w"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      alt="Serene wellness center spa with therapeutic ambient music soundscape"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" aria-hidden="true" />
+                    
+                    <div className="absolute top-4 left-4">
+                      <div className="bg-red-50 text-black opacity-80 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                        <Sparkles className="w-7 h-7 text-black" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="p-6">
+                    <h3 className="text-2xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
+                      Wellness Centers
+                    </h3>
+                    <p className="text-black/70 mb-4">
+                      Surround your guests with harmonies designed to melt away tension and guide them in revitalizing peace, enhancing the impact of each session.
+                    </p>
+                    <div className="flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
+                      <span>Explore Solutions</span>
+                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                    </div>
+                  </div>
+                </Card>
+              </Link>
+            </article>
+
+            {/* Industry 5: Events & Experiences */}
+            <article role="listitem">
+              <Link to={createPageUrl("events-experiences")} aria-label="Learn more about Events & Experiences music curation services">
+                <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 h-full bg-white">
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/6ab396617_3e1b0b33902175e823a09d4a2f172133-.jpg"
+                      srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/6ab396617_3e1b0b33902175e823a09d4a2f172133-.jpg 800w,
+                                https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/6ab396617_3e1b0b33902175e823a09d4a2f172133-.jpg 1200w"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      alt="Professional event venue with immersive audio and music production setup"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" aria-hidden="true" />
+                    
+                    <div className="absolute top-4 left-4">
+                      <div className="bg-red-50 text-black opacity-80 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                        <PartyPopper className="w-7 h-7 text-black" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="p-6">
+                    <h3 className="text-2xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
+                      Events & Experiences
+                    </h3>
+                    <p className="text-black/70 mb-4">
+                      We create tailored audio journeys for events of all sizes, turning each toast and dance into a musical fabric of togetherness.
+                    </p>
+                    <div className="flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
+                      <span>Explore Solutions</span>
+                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                    </div>
+                  </div>
+                </Card>
+              </Link>
+            </article>
+
+            {/* Industry 6: Art, Museums & Fashion */}
+            <article role="listitem">
+              <Link to={createPageUrl("art-museums-fashion")} aria-label="Learn more about Art, Museums & Fashion music curation services">
+                <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 h-full bg-white">
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d3177c205_802543-exposition-annees-80-au-mad.jpg"
+                      srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d3177c205_802543-exposition-annees-80-au-mad.jpg 800w,
+                                https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d3177c205_802543-exposition-annees-80-au-mad.jpg 1200w"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      alt="Art museum and fashion exhibition with curated music atmosphere"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" aria-hidden="true" />
+                    
+                    <div className="absolute top-4 left-4">
+                      <div className="bg-red-50 text-black opacity-80 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                        <Sparkles className="w-7 h-7 text-black" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="p-6">
+                    <h3 className="text-2xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
+                      Art, Museums & Fashion
+                    </h3>
+                    <p className="text-black/70 mb-4">
+                      From gallery openings to fashion show finales, we build living soundtracks that feel intentional, human, and precisely on-brand.
+                    </p>
+                    <div className="flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
+                      <span>Explore Solutions</span>
+                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                    </div>
+                  </div>
+                </Card>
+              </Link>
+            </article>
           </div>
           <p className="text-center text-black/70 mb-12 max-w-3xl mx-auto text-lg mt-12">
             Every industry has unique soundscape needs. Discover how our <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">signature playlists</Link> and <Link to={createPageUrl("event-soundtracks")} className="underline hover:text-black font-semibold">event services</Link> can transform your space. Learn from our <Link to={createPageUrl("AboutUs")} className="underline hover:text-black font-semibold">experienced team</Link>.
