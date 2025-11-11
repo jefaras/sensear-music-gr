@@ -303,7 +303,7 @@ This inquiry has been saved to the database and can be viewed in the admin panel
             
             <div className="mb-8 max-w-4xl">
               <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
-                We are here to help you create the perfect soundscape for your business or event. 
+                We are here to help you create the perfect soundscape for your business or event. <br/>
                 Give us a call or send us an email, and one of our music experts will respond within 24 hours!
               </p>
             </div>
