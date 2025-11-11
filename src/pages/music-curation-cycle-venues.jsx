@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, Calendar, User } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 import Breadcrumbs from "../components/Breadcrumbs";
 
@@ -213,27 +213,69 @@ export default function MusicCurationCycleVenues() {
   return (
     <div className="bg-[#faebe3]">
       <section 
-        className="relative min-h-screen flex items-center justify-center text-white pt-20 md:pt-0 overflow-hidden"
-        role="img"
-        aria-label="Data analytics for music curation optimization and performance tracking">
+        className="relative pt-32 pb-20 overflow-hidden"
+        style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
+        aria-label="The Music Curation Cycle for Venues">
 
-        {/* Parallax Background */}
-        <div 
-          className="absolute inset-0 z-0"
-          style={{
-            transform: `translateY(${scrollY * 0.5}px)`,
-            backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e0fc2b036_43b114fc2a27cb08c8b377305973c588_X-Design.png')",
-            backgroundSize: "cover",
-            backgroundPosition: "center"
-          }}
-        >
-          <div className="absolute inset-0 bg-black/70" />
+        {/* Text content */}
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="w-full">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-6 leading-[1.1]">
+              The Music Curation Cycle:<br />
+              Analyze, Optimize & Evolve
+            </h1>
+            
+            <div className="mb-8 max-w-4xl">
+              <div className="flex items-center gap-6 text-sm text-black/60 mb-4">
+                <div className="flex items-center gap-2">
+                  <Calendar className="w-4 h-4" aria-hidden="true" />
+                  <time dateTime="2025-01-15">January 15, 2025</time>
+                </div>
+                <div className="flex items-center gap-2">
+                  <User className="w-4 h-4" aria-hidden="true" />
+                  <span>SensEar Team</span>
+                </div>
+                <div className="text-black/50">
+                  <span>5 min read</span>
+                </div>
+              </div>
+              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
+                How continuous music curation optimization enhances venue atmosphere with data-driven strategies.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            The Music Curation Cycle for Venues: Analyze, Optimize & Evolve Your Sonic Identity
-          </h1>
+        {/* Hero Image - Larger with parallax */}
+        <div className="w-full px-6">
+          <div className="mx-auto" style={{ maxWidth: '1800px' }}>
+            <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
+              {/* Mobile/Tablet version - NO parallax */}
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e0fc2b036_43b114fc2a27cb08c8b377305973c588_X-Design.png"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e0fc2b036_43b114fc2a27cb08c8b377305973c588_X-Design.png 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e0fc2b036_43b114fc2a27cb08c8b377305973c588_X-Design.png 2400w"
+                sizes="(max-width: 1800px) 100vw, 1800px"
+                alt="Data analytics for music curation optimization and performance tracking"
+                className="absolute w-full h-full object-cover md:hidden"
+              />
+              {/* Desktop version - WITH parallax */}
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e0fc2b036_43b114fc2a27cb08c8b377305973c588_X-Design.png"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e0fc2b036_43b114fc2a27cb08c8b377305973c588_X-Design.png 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e0fc2b036_43b114fc2a27cb08c8b377305973c588_X-Design.png 2400w"
+                sizes="(max-width: 1800px) 100vw, 1800px"
+                alt="Data analytics for music curation optimization and performance tracking"
+                className="absolute w-full h-full object-cover hidden md:block"
+                style={{ 
+                  top: '-15%',
+                  height: '130%',
+                  transform: `translateY(${scrollY * 0.15}px)`,
+                  transformOrigin: 'center top'
+                }}
+              />
+            </div>
+          </div>
         </div>
       </section>
 

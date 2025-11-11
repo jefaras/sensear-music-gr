@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
@@ -202,39 +203,67 @@ export default function WhatExactlyDoesMusicCuratorDo() {
   return (
     <div className="bg-[#faebe3] min-h-screen">
       <section 
-        className="relative min-h-screen flex items-center justify-center text-white pt-20 md:pt-0 overflow-hidden"
-        role="img"
-        aria-label="Professional music curator at work designing brand soundtracks and strategic playlists">
+        className="relative pt-32 pb-20 overflow-hidden"
+        style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
+        aria-label="What Exactly Does a Music Curator Do?">
 
-        {/* Parallax Background */}
-        <div 
-          className="absolute inset-0 z-0"
-          style={{
-            transform: `translateY(${scrollY * 0.5}px)`,
-            backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9fc56aeca_aiease_1760529744739.jpg')",
-            backgroundSize: "cover",
-            backgroundPosition: "center"
-          }}
-        >
-          <div className="absolute inset-0 bg-black/40" />
+        {/* Text content */}
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="w-full">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-6 leading-[1.1]">
+              What Exactly Does<br />
+              a Music Curator Do?
+            </h1>
+            
+            <div className="mb-8 max-w-4xl">
+              <div className="flex items-center gap-6 text-sm text-black/60 mb-4">
+                <div className="flex items-center gap-2">
+                  <Calendar className="w-4 h-4" aria-hidden="true" />
+                  <time dateTime="2025-01-10">January 10, 2025</time>
+                </div>
+                <div className="flex items-center gap-2">
+                  <User className="w-4 h-4" aria-hidden="true" />
+                  <span>SensEar Team</span>
+                </div>
+                <div className="text-black/50">
+                  <span>6 min read</span>
+                </div>
+              </div>
+              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
+                The SensEar approach to turning brand voice into living sound
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            What Exactly Does a Music Curator Do?
-          </h1>
-          <p className="text-xl text-white/80 mb-6">The SensEar approach to turning brand voice into living sound</p>
-          <div className="flex items-center justify-center gap-6 text-sm text-white/80">
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" aria-hidden="true" />
-              <time dateTime="2025-01-10">January 10, 2025</time>
-            </div>
-            <div className="flex items-center gap-2">
-              <User className="w-4 h-4" aria-hidden="true" />
-              <span>SensEar Team</span>
-            </div>
-            <div className="text-white/60">
-              <span>6 min read</span>
+        {/* Hero Image - Larger with parallax */}
+        <div className="w-full px-6">
+          <div className="mx-auto" style={{ maxWidth: '1800px' }}>
+            <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
+              {/* Mobile/Tablet version - NO parallax */}
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9fc56aeca_aiease_1760529744739.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9fc56aeca_aiease_1760529744739.jpg 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9fc56aeca_aiease_1760529744739.jpg 2400w"
+                sizes="(max-width: 1800px) 100vw, 1800px"
+                alt="Professional music curator at work designing brand soundtracks and strategic playlists"
+                className="absolute w-full h-full object-cover md:hidden"
+              />
+              {/* Desktop version - WITH parallax */}
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9fc56aeca_aiease_1760529744739.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9fc56aeca_aiease_1760529744739.jpg 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9fc56aeca_aiease_1760529744739.jpg 2400w"
+                sizes="(max-width: 1800px) 100vw, 1800px"
+                alt="Professional music curator at work designing brand soundtracks and strategic playlists"
+                className="absolute w-full h-full object-cover hidden md:block"
+                style={{ 
+                  top: '-15%',
+                  height: '130%',
+                  transform: `translateY(${scrollY * 0.15}px)`,
+                  transformOrigin: 'center top'
+                }}
+              />
             </div>
           </div>
         </div>
