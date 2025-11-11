@@ -314,81 +314,157 @@ export default function Services() {
               From strategic <Link to={createPageUrl("sonic-strategy")} className="underline hover:text-black font-semibold">sonic branding consultancy</Link> to <Link to={createPageUrl("event-soundtracks")} className="underline hover:text-black font-semibold">immersive music event experiences</Link>, we offer comprehensive solutions. Read our <Link to={createPageUrl("CaseStudies")} className="underline hover:text-black font-semibold">case studies</Link> to see how we've transformed venues across Greece.
             </p>
           <div className="grid md:grid-cols-2 gap-8 items-stretch" role="list">
-            {[
-            {
-              icon: Music,
-              title: "Signature Playlists",
-              description: "Bespoke, brand-exclusive playlists sourced from rare archives for venues that refuse to sound generic.",
-              link: createPageUrl("signature-playlists"),
-              cta: "Create Your Signature Sound",
-              image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg",
-              alt: "Bespoke music curation and playlist creation for unique venue atmosphere"
-            },
-            {
-              icon: Sparkles,
-              title: "Event Soundtracks",
-              description: "Artfully selected, custom-curated soundtracks and seamless AV production that elevate events into immersive, unforgettable moments.",
-              link: createPageUrl("event-soundtracks"),
-              cta: "Design Your Event Atmosphere",
-              image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg",
-              alt: "Professional event production with immersive music curation and AV setup"
-            },
-            {
-              icon: BarChart,
-              title: "Sonic Strategy",
-              description: "Ultra-specialized music consultancy & sound branding guidelines that forge an inimitable sonic identity.",
-              link: createPageUrl("sonic-strategy"),
-              cta: "Build Your Sound Strategy",
-              image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg",
-              alt: "Strategic sonic branding consultation and music curation planning session"
-            },
-            {
-              icon: SlidersHorizontal,
-              title: "Audio Upgrades",
-              description: "Professional on-site sound checks, optimization and audio calibration, that fix any sound related issue.",
-              link: createPageUrl("audio-upgrades"),
-              cta: "Optimize Your Sound System",
-              image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg",
-              alt: "Professional audio equipment optimization and acoustic calibration for venues"
-            }].
-            map((service, index) =>
-            <article key={index} role="listitem">
-              <Link to={service.link} aria-label={service.cta}>
+            {/* Service 1: Signature Playlists */}
+            <article role="listitem">
+              <Link to={createPageUrl("signature-playlists")} aria-label="Create Your Signature Sound">
                 <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 h-full bg-white">
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <img
-                      src={service.image}
-                      srcSet={`${service.image.replace('w=800', 'w=800')} 800w,
-                              ${service.image.replace('w=800', 'w=1200')} 1200w`}
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg"
+                      srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg 800w,
+                              https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg 1200w"
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      alt={service.alt}
+                      alt="Bespoke music curation and playlist creation for unique venue atmosphere"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
 
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" aria-hidden="true" />
                     
                     <div className="absolute top-4 left-4">
                       <div className="bg-red-50 text-black opacity-75 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
-                        <service.icon className="w-8 h-8" />
+                        <Music className="w-8 h-8" />
                       </div>
                     </div>
                   </div>
 
                   <div className="p-6">
                     <h3 className="text-2xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      {service.title}
+                      Signature Playlists
                     </h3>
                     <p className="text-black/70 mb-4">
-                      {service.description}
+                      Bespoke, brand-exclusive playlists sourced from rare archives for venues that refuse to sound generic.
                     </p>
                     <div className="flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
-                      <span>{service.cta}</span>
+                      <span>Create Your Signature Sound</span>
                       <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
                     </div>
                   </div>
                 </Card>
               </Link>
             </article>
-            )}
+
+            {/* Service 2: Event Soundtracks */}
+            <article role="listitem">
+              <Link to={createPageUrl("event-soundtracks")} aria-label="Design Your Event Atmosphere">
+                <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 h-full bg-white">
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg"
+                      srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg 800w,
+                              https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg 1200w"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      alt="Professional event production with immersive music curation and AV setup"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" aria-hidden="true" />
+                    
+                    <div className="absolute top-4 left-4">
+                      <div className="bg-red-50 text-black opacity-75 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                        <Sparkles className="w-8 h-8" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="p-6">
+                    <h3 className="text-2xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
+                      Event Soundtracks
+                    </h3>
+                    <p className="text-black/70 mb-4">
+                      Artfully selected, custom-curated soundtracks and seamless AV production that elevate events into immersive, unforgettable moments.
+                    </p>
+                    <div className="flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
+                      <span>Design Your Event Atmosphere</span>
+                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                    </div>
+                  </div>
+                </Card>
+              </Link>
+            </article>
+
+            {/* Service 3: Sonic Strategy */}
+            <article role="listitem">
+              <Link to={createPageUrl("sonic-strategy")} aria-label="Build Your Sound Strategy">
+                <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 h-full bg-white">
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg"
+                      srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg 800w,
+                              https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg 1200w"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      alt="Strategic sonic branding consultation and music curation planning session"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" aria-hidden="true" />
+                    
+                    <div className="absolute top-4 left-4">
+                      <div className="bg-red-50 text-black opacity-75 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                        <BarChart className="w-8 h-8" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="p-6">
+                    <h3 className="text-2xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
+                      Sonic Strategy
+                    </h3>
+                    <p className="text-black/70 mb-4">
+                      Ultra-specialized music consultancy & sound branding guidelines that forge an inimitable sonic identity.
+                    </p>
+                    <div className="flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
+                      <span>Build Your Sound Strategy</span>
+                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                    </div>
+                  </div>
+                </Card>
+              </Link>
+            </article>
+
+            {/* Service 4: Audio Upgrades */}
+            <article role="listitem">
+              <Link to={createPageUrl("audio-upgrades")} aria-label="Optimize Your Sound System">
+                <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 h-full bg-white">
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg"
+                      srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg 800w,
+                              https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg 1200w"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      alt="Professional audio equipment optimization and acoustic calibration for venues"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" aria-hidden="true" />
+                    
+                    <div className="absolute top-4 left-4">
+                      <div className="bg-red-50 text-black opacity-75 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                        <SlidersHorizontal className="w-8 h-8" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="p-6">
+                    <h3 className="text-2xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
+                      Audio Upgrades
+                    </h3>
+                    <p className="text-black/70 mb-4">
+                      Professional on-site sound checks, optimization and audio calibration, that fix any sound related issue.
+                    </p>
+                    <div className="flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
+                      <span>Optimize Your Sound System</span>
+                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                    </div>
+                  </div>
+                </Card>
+              </Link>
+            </article>
           </div>
           <div className="text-center mt-12">
             <p className="text-black/70 mb-4 max-w-3xl mx-auto">
