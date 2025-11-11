@@ -224,13 +224,23 @@ export default function CaseStudies() {
         <div className="w-full px-6">
           <div className="mx-auto" style={{ maxWidth: '1800px' }}>
             <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
+              {/* Mobile/Tablet version - NO parallax */}
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/73ec5d36a_pxbee_2025-10-16_20-23-07.jpg"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/73ec5d36a_pxbee_2025-10-16_20-23-07.jpg 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/73ec5d36a_pxbee_2025-10-16_20-23-07.jpg 2400w"
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Professional music curation success stories and case study showcase"
-                className="absolute w-full h-full object-cover"
+                className="absolute w-full h-full object-cover md:hidden"
+              />
+              {/* Desktop version - WITH parallax */}
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/73ec5d36a_pxbee_2025-10-16_20-23-07.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/73ec5d36a_pxbee_2025-10-16_20-23-07.jpg 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/73ec5d36a_pxbee_2025-10-16_20-23-07.jpg 2400w"
+                sizes="(max-width: 1800px) 100vw, 1800px"
+                alt="Professional music curation success stories and case study showcase"
+                className="absolute w-full h-full object-cover hidden md:block"
                 style={{ 
                   top: '-15%',
                   height: '130%',
