@@ -334,9 +334,6 @@ export default function ContactUs() {
                 <h3 className="text-3xl font-bold text-black mb-6">
                   Contact Information
                 </h3>
-                <blockquote className="border-l-4 border-black pl-4 italic text-black/70 leading-relaxed mb-8">
-                  "We have helped venues boost their ambiance and revenue. Ready to see results? Let's discuss your vision."
-                </blockquote>
               </div>
 
               <address className="space-y-6 not-italic">
