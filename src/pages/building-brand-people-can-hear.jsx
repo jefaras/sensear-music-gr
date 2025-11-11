@@ -11,7 +11,7 @@ export default function BuildingBrandPeopleCanHear() {
 
   useEffect(() => {
     document.title = "Building a Brand People Can Hear | SensEar Sonic Branding Guide";
-    
+
     const description = "Learn how to create sonic brand identity through strategic music curation and audio branding. Transform your brand into a memorable sound experience.";
     const pageUrl = 'https://sensear.music/building-brand-people-can-hear';
     const imageUrl = 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1749ad78f_BuildingaBrandPeopleCanHear-TheSensEarGuidetoSonicBranding.png';
@@ -79,17 +79,17 @@ export default function BuildingBrandPeopleCanHear() {
     }
 
     const ogTags = [
-      { property: 'og:title', content: 'Building a Brand People Can Hear | SensEar' },
-      { property: 'og:description', content: description },
-      { property: 'og:image', content: imageUrl },
-      { property: 'og:url', content: pageUrl },
-      { property: 'og:type', content: 'article' },
-      { property: 'article:published_time', content: '2025-01-13T09:00:00Z' },
-      { property: 'article:author', content: 'SensEar Team' },
-      { property: 'article:section', content: 'Branding' }
-    ];
+    { property: 'og:title', content: 'Building a Brand People Can Hear | SensEar' },
+    { property: 'og:description', content: description },
+    { property: 'og:image', content: imageUrl },
+    { property: 'og:url', content: pageUrl },
+    { property: 'og:type', content: 'article' },
+    { property: 'article:published_time', content: '2025-01-13T09:00:00Z' },
+    { property: 'article:author', content: 'SensEar Team' },
+    { property: 'article:section', content: 'Branding' }];
 
-    ogTags.forEach(tag => {
+
+    ogTags.forEach((tag) => {
       let metaTag = document.querySelector(`meta[property="${tag.property}"]`);
       if (metaTag) {
         metaTag.setAttribute('content', tag.content);
@@ -102,13 +102,13 @@ export default function BuildingBrandPeopleCanHear() {
     });
 
     const twitterTags = [
-      { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'Building a Brand People Can Hear | SensEar' },
-      { name: 'twitter:description', content: description },
-      { name: 'twitter:image', content: imageUrl }
-    ];
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Building a Brand People Can Hear | SensEar' },
+    { name: 'twitter:description', content: description },
+    { name: 'twitter:image', content: imageUrl }];
 
-    twitterTags.forEach(tag => {
+
+    twitterTags.forEach((tag) => {
       let metaTag = document.querySelector(`meta[name="${tag.name}"]`);
       if (metaTag) {
         metaTag.setAttribute('content', tag.content);
@@ -121,67 +121,67 @@ export default function BuildingBrandPeopleCanHear() {
     });
 
     const structuredData = [
-      {
-        "@context": "https://schema.org",
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "SensEar",
+      "url": "https://sensear.music",
+      "logo": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg",
+      "sameAs": [
+      "https://www.facebook.com/61575909304249/",
+      "https://www.instagram.com/sensear.music"]
+
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Building a Brand People Can Hear",
+      "description": description,
+      "image": imageUrl,
+      "author": {
+        "@type": "Organization",
+        "name": "SensEar"
+      },
+      "publisher": {
         "@type": "Organization",
         "name": "SensEar",
-        "url": "https://sensear.music",
-        "logo": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg",
-        "sameAs": [
-          "https://www.facebook.com/61575909304249/",
-          "https://www.instagram.com/sensear.music"
-        ]
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Building a Brand People Can Hear",
-        "description": description,
-        "image": imageUrl,
-        "author": {
-          "@type": "Organization",
-          "name": "SensEar"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "SensEar",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg"
-          }
-        },
-        "datePublished": "2025-01-13",
-        "dateModified": "2025-01-13",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": pageUrl
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg"
         }
       },
-      {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://sensear.music/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Blog",
-            "item": "https://sensear.music/blog"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Building a Brand People Can Hear",
-            "item": pageUrl
-          }
-        ]
+      "datePublished": "2025-01-13",
+      "dateModified": "2025-01-13",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": pageUrl
       }
-    ];
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://sensear.music/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://sensear.music/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Building a Brand People Can Hear",
+        "item": pageUrl
+      }]
+
+    }];
+
 
     let structuredDataScript = document.querySelector('script[type="application/ld+json"]');
     if (structuredDataScript) {
@@ -201,7 +201,7 @@ export default function BuildingBrandPeopleCanHear() {
   return (
     <div className="bg-[#faebe3] min-h-screen">
       {/* Hero Section - Similar to Home but smaller heading */}
-      <section 
+      <section
         className="relative pt-24 pb-20 overflow-hidden"
         style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
         aria-label="Building Brand People Can Hear section">
@@ -209,9 +209,9 @@ export default function BuildingBrandPeopleCanHear() {
         {/* Text content */}
         <div className="max-w-7xl mx-auto px-6">
           <div className="w-full">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] font-bold text-black mb-6 leading-[1.1]">
-              Building a Brand<br />
-              People Can Hear
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] font-bold text-black mb-6 leading-[1.1]">Building a Brand People Can Hear
+
+
             </h1>
             
             <div className="mb-8 max-w-4xl">
@@ -244,25 +244,27 @@ export default function BuildingBrandPeopleCanHear() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/c9661c684_AI_Generated_Image_2025-10-17.png"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/c9661c684_AI_Generated_Image_2025-10-17.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/c9661c684_AI_Generated_Image_2025-10-17.png 2400w"
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Sonic branding strategy building brand identity through music"
-                className="absolute w-full h-full object-cover md:hidden"
-              />
+                className="absolute w-full h-full object-cover md:hidden" />
+
               {/* Desktop version - WITH parallax */}
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/c9661c684_AI_Generated_Image_2025-10-17.png"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/c9661c684_AI_Generated_Image_2025-10-17.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/c9661c684_AI_Generated_Image_2025-10-17.png 2400w"
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Sonic branding strategy building brand identity through music"
                 className="absolute w-full h-full object-cover hidden md:block"
-                style={{ 
+                style={{
                   top: '-15%',
                   height: '130%',
                   transform: `translateY(${scrollY * 0.15}px)`,
                   transformOrigin: 'center top'
-                }}
-              />
+                }} />
+
             </div>
           </div>
         </div>
@@ -360,6 +362,6 @@ export default function BuildingBrandPeopleCanHear() {
           </Link>
         </div>
       </div>
-    </div>
-  );
+    </div>);
+
 }
