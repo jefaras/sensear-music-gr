@@ -181,10 +181,10 @@ export default function PlaylistsDemos() {
             Ready to create your signature sound?
           </h2>
           <p className="text-lg sm:text-xl text-black/80 mb-8">
-            <Link to={createPageUrl("Industries")} className="underline hover:text-black font-semibold">View the Industries's experiences we upgrade</Link>
+            View the <Link to={createPageUrl("Industries")} className="underline hover:text-black font-semibold">Industries's experiences</Link> we upgrade.
           </p>
           <p className="text-lg sm:text-xl text-black/80 mb-8">
-            <Link to={createPageUrl("CaseStudies")} className="underline hover:text-black font-semibold">Read our Case Studies and find out how we can help</Link>
+            Read our <Link to={createPageUrl("CaseStudies")} className="underline hover:text-black font-semibold">Case Studies</Link> and find out how we can help.
           </p>
           <Link to={createPageUrl("ContactUs")}>
             <Button size="lg" className="bg-black hover:bg-black/80 text-white px-8 py-4 text-lg">
