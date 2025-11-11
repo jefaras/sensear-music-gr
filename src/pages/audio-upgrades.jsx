@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
@@ -13,22 +12,18 @@ export default function AudioUpgrades() {
   useEffect(() => {
     document.title = "Audio Upgrades | SensEar Sound Optimization";
 
-    // Find an existing meta description tag
     let metaDescription = document.querySelector('meta[name="description"]');
     const description = "Professional sound checks, acoustic optimization, and audio calibration. Guaranteed fixes for any venue sound issue. Book your assessment today.";
 
     if (metaDescription) {
-      // If found, update its content
       metaDescription.setAttribute('content', description);
     } else {
-      // If not found, create a new one and append it to the head
       metaDescription = document.createElement('meta');
       metaDescription.name = 'description';
       metaDescription.content = description;
       document.head.appendChild(metaDescription);
     }
 
-    // Add locale and language meta tags
     const localeTag = document.querySelector('meta[property="og:locale"]');
     if (localeTag) {
       localeTag.setAttribute('content', 'en_US');
@@ -51,7 +46,6 @@ export default function AudioUpgrades() {
 
     document.documentElement.lang = 'en';
 
-    // Add robots meta tag - SERVICE PAGE: index, follow
     let robotsMeta = document.querySelector('meta[name="robots"]');
     if (robotsMeta) {
       robotsMeta.setAttribute('content', 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
@@ -62,7 +56,6 @@ export default function AudioUpgrades() {
       document.head.appendChild(robotsMeta);
     }
 
-    // Add googlebot specific tag
     let googlebotMeta = document.querySelector('meta[name="googlebot"]');
     if (googlebotMeta) {
       googlebotMeta.setAttribute('content', 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
@@ -73,7 +66,6 @@ export default function AudioUpgrades() {
       document.head.appendChild(googlebotMeta);
     }
 
-    // Add canonical link
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (canonicalLink) {
       canonicalLink.setAttribute('href', 'https://sensear.music/audio-upgrades');
@@ -84,13 +76,11 @@ export default function AudioUpgrades() {
       document.head.appendChild(canonicalLink);
     }
 
-    // Open Graph tags
     const ogTags = [
     { property: 'og:title', content: 'Audio Upgrades | SensEar Sound Optimization' },
     { property: 'og:description', content: description },
     { property: 'og:image', content: 'https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=1600&q=80' },
     { property: 'og:url', content: 'https://sensear.music/audio-upgrades' }];
-
 
     ogTags.forEach((tag) => {
       let metaTag = document.querySelector(`meta[property="${tag.property}"]`);
@@ -104,13 +94,11 @@ export default function AudioUpgrades() {
       }
     });
 
-    // Twitter Card tags
     const twitterTags = [
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Audio Upgrades | SensEar Sound Optimization' },
     { name: 'twitter:description', content: description },
     { name: 'twitter:image', content: 'https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=1600&q=80' }];
-
 
     twitterTags.forEach((tag) => {
       let metaTag = document.querySelector(`meta[name="${tag.name}"]`);
@@ -124,7 +112,6 @@ export default function AudioUpgrades() {
       }
     });
 
-    // Add structured data
     const structuredData = [
     {
       "@context": "https://schema.org",
@@ -135,7 +122,6 @@ export default function AudioUpgrades() {
       "sameAs": [
       "https://www.facebook.com/61575909304249/",
       "https://www.instagram.com/sensear.music"]
-
     },
     {
       "@context": "https://schema.org",
@@ -172,9 +158,7 @@ export default function AudioUpgrades() {
         "name": "Audio Upgrades",
         "item": "https://sensear.music/audio-upgrades"
       }]
-
     }];
-
 
     let structuredDataScript = document.querySelector('script[type="application/ld+json"]');
     if (structuredDataScript) {
@@ -191,67 +175,9 @@ export default function AudioUpgrades() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const whatWeDo = [
-  {
-    icon: Settings,
-    title: "On-site acoustic audits and layout assessments",
-    description: "We analyze your space's acoustics and current setup to identify issues and opportunities for improvement."
-  },
-  {
-    icon: Volume2,
-    title: "Hardware testing and zone performance",
-    description: "We test speakers, amplifiers, and coverage to ensure every zone delivers crystal-clear sound."
-  },
-  {
-    icon: Wrench,
-    title: "Redesigns for clarity and immersive flow",
-    description: "We create tailored solutions that enhance clarity, coverage, and create an immersive audio experience."
-  },
-  {
-    icon: Lightbulb,
-    title: "Tailored AV proposals based on your needs and aesthetics",
-    description: "We design custom audio-visual solutions that align with your venue's unique character and functional requirements."
-  },
-  {
-    icon: Package,
-    title: "Procurement and installation with trusted AV partners",
-    description: "We source premium equipment and coordinate professional installation through our network of certified partners."
-  },
-  {
-    icon: CheckSquare,
-    title: "Final tuning and walkthrough under real conditions",
-    description: "We calibrate your system during actual operations, ensuring optimal performance in live environment conditions."
-  }];
-
-
-  const problemsWeSolve = [
-  {
-    title: 'Sound that does not fit the room',
-    description: 'Harsh reflections, dead zones, or overpowering volumes often stem from mismatched layouts or poor calibration. We balance sound to fit your space—clean, even, and immersive.'
-  },
-  {
-    title: 'Guests struggling to hold a conversation',
-    description: 'If the music is too loud—or too uneven—guests leave faster. We design a sound environment that supports social flow without sacrificing presence or clarity.'
-  },
-  {
-    title: 'Equipment that underperforms or is overcomplicated',
-    description: 'Too often, venues are sold the wrong gear or setups they cannot manage. We simplify, optimize, and make sure your team can run the system without stress.'
-  },
-  {
-    title: 'No clear support or accountability',
-    description: 'You should not have to chase multiple suppliers for basic sound performance. We handle everything—from diagnosis to delivery—as your all-in-one partner.'
-  },
-  {
-    title: 'Spaces that look premium compromised by weak sound',
-    description: 'Great design deserves sound to match. We make sure your venue sounds as considered as it looks.'
-  }];
-
-
   return (
     <div className="bg-[#faebe3]">
-      {/* Hero Section - Similar to Home but smaller heading */}
       <section className="relative pt-32 pb-20 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Audio Upgrades section">
-        {/* Text content */}
         <div className="max-w-7xl mx-auto px-6">
           <div className="w-full">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-6 leading-[1.1]">
@@ -265,12 +191,11 @@ export default function AudioUpgrades() {
               </p>
             </div>
             <Link to={createPageUrl("ContactUs")}>
-              <Button size="lg" className="bg-black text-white px-8 py-6 text-lg font-medium rounded-md inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 hover:bg-[#333]" aria-label="Book an audio experience assessment">Book an Audio Experience Assessment</Button>
+              <Button size="lg" className="bg-black text-white px-8 py-6 text-lg font-medium rounded-md inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 hover:bg-black/80" aria-label="Book an audio experience assessment">Book an Audio Experience Assessment</Button>
             </Link>
           </div>
         </div>
 
-        {/* Hero Image - Larger with parallax */}
         <div className="w-full px-6 mt-12 md:mt-24">
           <div className="mx-auto" style={{ maxWidth: '1800px' }}>
             <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
@@ -292,14 +217,6 @@ export default function AudioUpgrades() {
           </div>
         </div>
       </section>
-
-      {/* Breadcrumbs - COMMENTED OUT */}
-      {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
-        <Breadcrumbs items={[
-        { label: "Services", path: createPageUrl("Services") },
-        { label: "Audio Upgrades", path: createPageUrl("audio-upgrades") }]
-        } />
-      </div> */}
 
       <section className="py-24" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b2/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="what-we-do-heading">
         <div className="max-w-5xl mx-auto px-6">
@@ -335,7 +252,7 @@ export default function AudioUpgrades() {
               </Card>
             </article>
 
-            <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.7s' }>
+            <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
               <Card className="bg-white p-8 shadow-lg h-full">
                 <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
                   <Lightbulb className="w-8 h-8" />
@@ -448,6 +365,6 @@ export default function AudioUpgrades() {
           </Link>
         </div>
       </section>
-    </div>);
-
+    </div>
+  );
 }
