@@ -210,31 +210,31 @@ export default function Home() {
   }];
 
   const blogPosts = [
-    {
-      title: "Three Reasons to Make Music Part of Your Luxury Hospitality Marketing Strategy",
-      description: <>Curated music is a practical way to shape how guests feel, what they remember, and how they spend. Learn how <Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black">hotels and resorts</Link> benefit from strategic music curation.</>,
-      link: createPageUrl("three-reasons-make-music-hospitality"),
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9619c7d50_e56c8a322bf8043723ba7e215cf5e636.jpg",
-      alt: "Luxury hotel interior lobby showcasing ambient music design for hospitality",
-      linkText: "Read more"
-    },
-    {
-      title: "How Brand-Fit Music Converts Browsers into Buyers",
-      description: <>Evidence-based research showing how brand-aligned music increases sales by 9.1%. Perfect for <Link to={createPageUrl("restaurants-bars")} className="underline hover:text-black">restaurants and bars</Link> looking to enhance their atmosphere.</>,
-      link: createPageUrl("brand-music-converts-browsers-buyers"),
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ef99620ec_3dcbb42176ccd5762fc415dc0d74dd2d.jpg",
-      alt: "Restaurant with ambient lighting demonstrating how music influences customer behavior and sales",
-      linkText: "Explore insights"
-    },
-    {
-      title: "What Exactly Does a Music Curator Do?",
-      description: <>Learn how the right music translates your visual language into an emotional experience. Explore our <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black">signature playlists service</Link>.</>,
-      link: createPageUrl("what-exactly-does-music-curator-do"),
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/254c849b4_Screenshot2025-05-06at52431PM.png",
-      alt: "Music curator at work selecting tracks for bespoke playlist curation service",
-      linkText: "Read article"
-    }
-  ];
+  {
+    title: "Three Reasons to Make Music Part of Your Luxury Hospitality Marketing Strategy",
+    description: <>Curated music is a practical way to shape how guests feel, what they remember, and how they spend. Learn how <Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black">hotels and resorts</Link> benefit from strategic music curation.</>,
+    link: createPageUrl("three-reasons-make-music-hospitality"),
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9619c7d50_e56c8a322bf8043723ba7e215cf5e636.jpg",
+    alt: "Luxury hotel interior lobby showcasing ambient music design for hospitality",
+    linkText: "Read more"
+  },
+  {
+    title: "How Brand-Fit Music Converts Browsers into Buyers",
+    description: <>Evidence-based research showing how brand-aligned music increases sales by 9.1%. Perfect for <Link to={createPageUrl("restaurants-bars")} className="underline hover:text-black">restaurants and bars</Link> looking to enhance their atmosphere.</>,
+    link: createPageUrl("brand-music-converts-browsers-buyers"),
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ef99620ec_3dcbb42176ccd5762fc415dc0d74dd2d.jpg",
+    alt: "Restaurant with ambient lighting demonstrating how music influences customer behavior and sales",
+    linkText: "Explore insights"
+  },
+  {
+    title: "What Exactly Does a Music Curator Do?",
+    description: <>Learn how the right music translates your visual language into an emotional experience. Explore our <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black">signature playlists service</Link>.</>,
+    link: createPageUrl("what-exactly-does-music-curator-do"),
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/254c849b4_Screenshot2025-05-06at52431PM.png",
+    alt: "Music curator at work selecting tracks for bespoke playlist curation service",
+    linkText: "Read article"
+  }];
+
 
   return (
     <div className="bg-[#faebe3]">
@@ -269,9 +269,9 @@ export default function Home() {
             </h1>
             
             <div className="mb-8 max-w-5xl">
-              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
-                Every venue has a story. Let music tell yours.<br />
-                We craft bespoke playlists for Hotels, Restaurants, Bars & Events that create atmosphere, emotional connections and loyal guests.
+              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">Every venue has a story. Let music tell yours.
+We craft bespoke Playlists for Hotels, Restaurants, Bars & Events that create atmosphere, emotional connections & loyal guests. Not just background music.
+
               </p>
             </div>
             
@@ -305,6 +305,7 @@ export default function Home() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e4d7d2f3e_6588-16_13by51.png"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e4d7d2f3e_6588-16_13by51.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e4d7d2f3e_6588-16_13by51.png 2400w"
+
 
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Luxury hotel lounge interior with sophisticated ambiance showcasing music curation atmosphere"
@@ -493,6 +494,8 @@ export default function Home() {
 
 
 
+
+
                   sizes="(max-width: 768px) 100vw, 50vw"
                   alt="Vintage car with SensEar branding stickers representing mobile audio experiences"
                   className="w-full h-full object-cover" />
@@ -517,16 +520,16 @@ export default function Home() {
           </header>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12" role="list">
-            {blogPosts.map((post, index) => (
-              <article key={index} role="listitem">
+            {blogPosts.map((post, index) =>
+            <article key={index} role="listitem">
                 <Card className="overflow-hidden hover:shadow-2xl transition-all duration-300 group bg-white">
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <img
-                      src={post.image}
-                      srcSet={`${post.image} 800w, ${post.image} 1200w`}
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      alt={post.alt}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                    src={post.image}
+                    srcSet={`${post.image} 800w, ${post.image} 1200w`}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    alt={post.alt}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                   </div>
                   <div className="p-6">
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
@@ -542,7 +545,7 @@ export default function Home() {
                   </div>
                 </Card>
               </article>
-            ))}
+            )}
           </div>
 
           <div className="text-center">
