@@ -302,9 +302,9 @@ This inquiry has been saved to the database and can be viewed in the admin panel
             </h1>
             
             <div className="mb-8 max-w-4xl">
-              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">Want help with creating the perfect soundscape for your business or event? Give us a call, send us an email or fill in the contact form, and one of our music experts will respond within 24 hours!
-
-
+              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">Want help with creating the perfect soundscape for your business or event? 
+              <br/>
+              Give us a call or fill in the contact form and we will respond within 24 hours!
               </p>
             </div>
           </div>
