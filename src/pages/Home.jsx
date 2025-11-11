@@ -178,37 +178,37 @@ export default function Home() {
   }, []);
 
   const clients = [
-    {
-      name: "Klouvi Bar",
-      location: "Athens",
-      logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b8c4f5bc6_Klouvi-Bar_final.jpg"
-    },
-    {
-      name: "Blue Bamboo",
-      location: "Athens-Serifos",
-      logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/17f736607_Blue-Bamboo_final.jpg"
-    },
-    {
-      name: "The Rooster",
-      location: "Antiparos",
-      logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/84145d1c2_The-Rooster_final.jpg"
-    },
-    {
-      name: "Beach House",
-      location: "Antiparos",
-      logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/730cfd91d_Beach-House_final.jpg"
-    },
-    {
-      name: "Pelicanos",
-      location: "Sifnos",
-      logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fc48e3d65_Pelicanos_final.jpg"
-    },
-    {
-      name: "Yam",
-      location: "Antiparos",
-      logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/65422bc1d_fav.png"
-    }
-  ];
+  {
+    name: "Klouvi Bar",
+    location: "Athens",
+    logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b8c4f5bc6_Klouvi-Bar_final.jpg"
+  },
+  {
+    name: "Blue Bamboo",
+    location: "Athens-Serifos",
+    logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/17f736607_Blue-Bamboo_final.jpg"
+  },
+  {
+    name: "The Rooster",
+    location: "Antiparos",
+    logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/84145d1c2_The-Rooster_final.jpg"
+  },
+  {
+    name: "Beach House",
+    location: "Antiparos",
+    logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/730cfd91d_Beach-House_final.jpg"
+  },
+  {
+    name: "Pelicanos",
+    location: "Sifnos",
+    logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fc48e3d65_Pelicanos_final.jpg"
+  },
+  {
+    name: "Yam",
+    location: "Antiparos",
+    logo: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/65422bc1d_fav.png"
+  }];
+
 
   return (
     <div className="bg-[#faebe3]">
@@ -238,8 +238,8 @@ export default function Home() {
         {/* Text content - constrained by max-w-7xl */}
         <div className="max-w-7xl mx-auto px-6">
           <div className="w-full">
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-black mb-6 leading-[1.1]">
-              Music Curation that Transforms Spaces into Experiences
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-black mb-6 leading-[1.1]">Music Curation that transforms Spaces into Experiences
+
             </h1>
             
             <div className="mb-8 max-w-5xl">
@@ -251,14 +251,14 @@ export default function Home() {
             
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Link to={createPageUrl("ContactUs")}>
-                <Button 
+                <Button
                   className="bg-black hover:bg-black/80 text-white px-8 py-6 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto"
                   aria-label="Contact us for music curation consultation">
                   Contact us
                 </Button>
               </Link>
               <Link to={createPageUrl("AboutUs")}>
-                <Button 
+                <Button
                   variant="outline"
                   className="bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 w-full sm:w-auto"
                   aria-label="Discover our music curation approach">
@@ -279,16 +279,17 @@ export default function Home() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e4d7d2f3e_6588-16_13by51.png"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e4d7d2f3e_6588-16_13by51.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e4d7d2f3e_6588-16_13by51.png 2400w"
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Luxury hotel lounge interior with sophisticated ambiance showcasing music curation atmosphere"
                 className="absolute w-full h-full object-cover"
-                style={{ 
+                style={{
                   top: '-15%',
                   height: '130%',
                   transform: `translateY(${scrollY * 0.15}px)`,
                   transformOrigin: 'center top'
-                }}
-              />
+                }} />
+
             </div>
           </div>
         </div>
@@ -304,13 +305,13 @@ export default function Home() {
             <div className="flex gap-12 animate-scroll">
               {/* First set of logos */}
               {clients.map((client, index) =>
-                <div key={`${client.name}-1-${index}`} className="flex-shrink-0 text-center" style={{ width: '180px' }}>
+              <div key={`${client.name}-1-${index}`} className="flex-shrink-0 text-center" style={{ width: '180px' }}>
                   <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
                     <img
-                      src={client.logo}
-                      alt={`${client.name} logo - SensEar music curation client`}
-                      className="max-w-full max-h-full object-contain"
-                    />
+                    src={client.logo}
+                    alt={`${client.name} logo - SensEar music curation client`}
+                    className="max-w-full max-h-full object-contain" />
+
                   </div>
                   <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">{client.name}</p>
                   <p className="text-sm text-white/60 mt-1">{client.location}</p>
@@ -318,13 +319,13 @@ export default function Home() {
               )}
               {/* Duplicate set for seamless loop */}
               {clients.map((client, index) =>
-                <div key={`${client.name}-2-${index}`} className="flex-shrink-0 text-center" style={{ width: '180px' }}>
+              <div key={`${client.name}-2-${index}`} className="flex-shrink-0 text-center" style={{ width: '180px' }}>
                   <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
                     <img
-                      src={client.logo}
-                      alt={`${client.name} logo - SensEar music curation client`}
-                      className="max-w-full max-h-full object-contain"
-                    />
+                    src={client.logo}
+                    alt={`${client.name} logo - SensEar music curation client`}
+                    className="max-w-full max-h-full object-contain" />
+
                   </div>
                   <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">{client.name}</p>
                   <p className="text-sm text-white/60 mt-1">{client.location}</p>
@@ -464,6 +465,8 @@ export default function Home() {
                                   https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e7baf90ef_car-1.png 1600w"
 
 
+
+
                   sizes="(max-width: 768px) 100vw, 50vw"
                   alt="Vintage car with SensEar branding stickers representing mobile audio experiences"
                   className="w-full h-full object-cover" />
@@ -498,6 +501,7 @@ export default function Home() {
 
 
 
+
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     alt="Luxury hotel interior lobby showcasing ambient music design for hospitality"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
@@ -528,6 +532,7 @@ export default function Home() {
 
 
 
+
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     alt="Restaurant with ambient lighting demonstrating how music influences customer behavior and sales"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
@@ -555,6 +560,7 @@ export default function Home() {
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/254c849b4_Screenshot2025-05-06at52431PM.png"
                     srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/254c849b4_Screenshot2025-05-06at52431PM.png 800w,
                             https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/254c849b4_Screenshot2025-05-06at52431PM.png 1200w"
+
 
 
 
