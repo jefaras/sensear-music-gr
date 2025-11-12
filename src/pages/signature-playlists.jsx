@@ -302,20 +302,38 @@ export default function SignaturePlaylists() {
         <div className="max-w-5xl mx-auto px-6">
           <h2 id="what-we-do-heading" className="text-4xl font-bold text-center mb-6 leading-[1.25]">What We Do</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            {whatWeDo.map((item) =>
-            <article key={item.title}>
-                <Card className="bg-white p-8 shadow-lg">
-                  <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
-                    <item.icon className="w-8 h-8" />
-                  </div>
-                  <h3 className="text-2xl font-bold mb-4">{item.title}</h3>
-                  <p className="text-black/70">{item.description}</p>
-                </Card>
-              </article>
-            )}
+            <article>
+              <Card className="bg-white p-8 shadow-lg">
+                <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                  <Target className="w-8 h-8" />
+                </div>
+                <h3 className="text-2xl font-bold mb-4">Curated playlists to amplify your brand</h3>
+                <p className="text-black/70">We design branded playlists that transform your atmosphere & encourage longer stays, higher spend and memorable visits.</p>
+              </Card>
+            </article>
+
+            <article>
+              <Card className="bg-white p-8 shadow-lg">
+                <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                  <Gem className="w-8 h-8" />
+                </div>
+                <h3 className="text-2xl font-bold mb-4">Rare finds, perfectly set up for your venue</h3>
+                <p className="text-black/70">Every track is hand-picked from rare vinyl collections & sequenced to follow your venue's flow and branding.</p>
+              </Card>
+            </article>
+
+            <article>
+              <Card className="bg-white p-8 shadow-lg">
+                <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                  <RefreshCw className="w-8 h-8" />
+                </div>
+                <h3 className="text-2xl font-bold mb-4">Evolving playlists to keep your vibe alive</h3>
+                <p className="text-black/70">Monthly rotations ensure the sound is always fresh, exciting and evolving with your space.</p>
+              </Card>
+            </article>
           </div>
           <p className="text-center text-black/70 mt-12 max-w-3xl mx-auto">
-            Our playlists work best when paired with our <Link to={createPageUrl("sonic-strategy")} className="underline hover:text-black font-semibold">sonic strategy service</Link>. See real results in our <Link to={createPageUrl("pelicanos-sifnos-restaurant")} className="underline hover:text-black font-semibold">Pelicanos case study</Link> and understand <Link to={createPageUrl("brand-music-converts-browsers-buyers")} className="underline hover:text-black font-semibold">how brand-fit music converts browsers into buyers</Link>. Perfect for <Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black font-semibold">hotels</Link>, <Link to={createPageUrl("restaurants-bars")} className="underline hover:text-black font-semibold">restaurants</Link>, and <Link to={createPageUrl("retail-stores")} className="underline hover:text-black font-semibold">retail spaces</Link>.
+            <span>Our playlists work best when paired with our </span><Link to={createPageUrl("sonic-strategy")} className="underline hover:text-black font-semibold">sonic strategy service</Link><span>. See real results in our </span><Link to={createPageUrl("pelicanos-sifnos-restaurant")} className="underline hover:text-black font-semibold">Pelicanos case study</Link><span> and understand </span><Link to={createPageUrl("brand-music-converts-browsers-buyers")} className="underline hover:text-black font-semibold">how brand-fit music converts browsers into buyers</Link><span>. Perfect for </span><Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black font-semibold">hotels</Link><span>, </span><Link to={createPageUrl("restaurants-bars")} className="underline hover:text-black font-semibold">restaurants</Link><span>, and </span><Link to={createPageUrl("retail-stores")} className="underline hover:text-black font-semibold">retail spaces</Link><span>.</span>
           </p>
         </div>
       </section>
@@ -324,17 +342,45 @@ export default function SignaturePlaylists() {
         <div className="max-w-5xl mx-auto px-6">
           <h2 id="features-heading" className="text-4xl font-bold text-center mb-6 leading-[1.25]">Key Features & Benefits</h2>
           <ul className="grid md:grid-cols-2 gap-x-8 gap-y-4">
-            {features.map((feature, index) =>
-            <li key={index} className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1" aria-hidden="true">
-                    <Check className="w-4 h-4 text-peach" />
-                </div>
-                <p className="text-lg text-black/80">{feature}</p>
-              </li>
-            )}
+            <li className="flex items-start gap-3">
+              <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1" aria-hidden="true">
+                <Check className="w-4 h-4 text-peach" />
+              </div>
+              <p className="text-lg text-black/80">No algorithm repetition, hand-selected library only</p>
+            </li>
+            <li className="flex items-start gap-3">
+              <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1" aria-hidden="true">
+                <Check className="w-4 h-4 text-peach" />
+              </div>
+              <p className="text-lg text-black/80">Fresh rotations and updates each month</p>
+            </li>
+            <li className="flex items-start gap-3">
+              <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1" aria-hidden="true">
+                <Check className="w-4 h-4 text-peach" />
+              </div>
+              <p className="text-lg text-black/80">Adaptive scheduling by zone and time of day</p>
+            </li>
+            <li className="flex items-start gap-3">
+              <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1" aria-hidden="true">
+                <Check className="w-4 h-4 text-peach" />
+              </div>
+              <p className="text-lg text-black/80">Global rights clearance</p>
+            </li>
+            <li className="flex items-start gap-3">
+              <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1" aria-hidden="true">
+                <Check className="w-4 h-4 text-peach" />
+              </div>
+              <p className="text-lg text-black/80">Cloud dashboard for multi-site control</p>
+            </li>
+            <li className="flex items-start gap-3">
+              <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1" aria-hidden="true">
+                <Check className="w-4 h-4 text-peach" />
+              </div>
+              <p className="text-lg text-black/80">Curator hotline for fast feedback and playlist tweaks</p>
+            </li>
           </ul>
           <p className="text-center text-black/70 mt-12 max-w-3xl mx-auto">
-            Learn how our continuous <Link to={createPageUrl("music-curation-cycle-venues")} className="underline hover:text-black font-semibold">analyze and optimize approach</Link> ensures your soundscapes evolve with your venue. Complement with our <Link to={createPageUrl("music-for-events")} className="underline hover:text-black font-semibold">music for events</Link>. Perfect for all <Link to={createPageUrl("Industries")} className="underline hover:text-black font-semibold">industries we serve</Link>.
+            <span>Learn how our continuous </span><Link to={createPageUrl("music-curation-cycle-venues")} className="underline hover:text-black font-semibold">analyze and optimize approach</Link><span> ensures your soundscapes evolve with your venue. Complement with our </span><Link to={createPageUrl("music-for-events")} className="underline hover:text-black font-semibold">music for events</Link><span>. Perfect for all </span><Link to={createPageUrl("Industries")} className="underline hover:text-black font-semibold">industries we serve</Link><span>.</span>
           </p>
         </div>
       </section>
@@ -343,21 +389,59 @@ export default function SignaturePlaylists() {
         <div className="max-w-5xl mx-auto px-6">
           <h2 id="problems-heading" className="text-4xl font-bold text-center mb-6 leading-[1.25]">Problems We Solve</h2>
           <div className="grid md:grid-cols-2 gap-8">
-            {problemsWeSolve.map((problem) =>
-            <article key={problem.title} className="p-6 bg-white rounded-lg shadow-md">
-                <div className="flex items-start gap-4">
-                  <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
-                  <div>
-                    <h3 className="text-xl font-bold mb-2">{problem.title}</h3>
-                    <p className="text-black/70">{problem.description}</p>
-                  </div>
+            <article className="p-6 bg-white rounded-lg shadow-md">
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
+                <div>
+                  <h3 className="text-xl font-bold mb-2">Generic playlists that miss the mark</h3>
+                  <p className="text-black/70">Streaming services and in-store providers often rely on templates. The result feels flat or unrelated to your space. We tailor music to your brand identity and venue rhythm—no filler, no guesswork.</p>
                 </div>
-              </article>
-            )}
+              </div>
+            </article>
+
+            <article className="p-6 bg-white rounded-lg shadow-md">
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
+                <div>
+                  <h3 className="text-xl font-bold mb-2">Music that fails to evolve with the guest flow</h3>
+                  <p className="text-black/70">What works at 10 AM may not work at 10 PM. We sequence playlists to shift naturally with your customer traffic, energy levels, and time of day.</p>
+                </div>
+              </div>
+            </article>
+
+            <article className="p-6 bg-white rounded-lg shadow-md">
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
+                <div>
+                  <h3 className="text-xl font-bold mb-2">Repetitive tracks that tire both guests and staff</h3>
+                  <p className="text-black/70">Our selections refresh monthly, pulling from private archives, white-label promos, and feedback from your team.</p>
+                </div>
+              </div>
+            </article>
+
+            <article className="p-6 bg-white rounded-lg shadow-md">
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
+                <div>
+                  <h3 className="text-xl font-bold mb-2">No central control over what is playing</h3>
+                  <p className="text-black/70">We offer a centralized platform and curator hotline to keep your brand voice consistent—without micromanaging.</p>
+                </div>
+              </div>
+            </article>
+
+            <article className="p-6 bg-white rounded-lg shadow-md">
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
+                <div>
+                  <h3 className="text-xl font-bold mb-2">Audio rights and compliance concerns</h3>
+                  <p className="text-black/70">Many venues play unlicensed music unknowingly. We provide globally cleared tracks, keeping you compliant and future-proof.</p>
+                </div>
+              </div>
+            </article>
           </div>
           <div className="text-center mt-12">
             <p className="text-black/70">
-              Discover <Link to={createPageUrl("music-influence-consumer-behavior")} className="underline hover:text-black font-semibold">how music influences consumer behavior</Link> and why our approach delivers results. See success stories like <Link to={createPageUrl("blue-bamboo")} className="underline hover:text-black font-semibold">Blue Bamboo</Link> and <Link to={createPageUrl("beach-house-antiparos")} className="underline hover:text-black font-semibold">Beach House Antiparos</Link>.
+              <span>Discover </span><Link to={createPageUrl("music-influence-consumer-behavior")} className="underline hover:text-black font-semibold">how music influences consumer behavior</Link><span> and why our approach delivers results. See success stories like </span><Link to={createPageUrl("blue-bamboo")} className="underline hover:text-black font-semibold">Blue Bamboo</Link><span> and </span><Link to={createPageUrl("beach-house-antiparos")} className="underline hover:text-black font-semibold">Beach House Antiparos</Link><span>.</span>
             </p>
           </div>
         </div>

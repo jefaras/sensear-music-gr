@@ -286,7 +286,7 @@ export default function AudioUpgrades() {
             </article>
           </div>
           <p className="text-center text-black/70 mt-12 max-w-3xl mx-auto">
-            Sound in perfect alignment with your space. Essential for <Link to={createPageUrl("restaurants-bars")} className="underline hover:text-black font-semibold">restaurants & bars</Link>, <Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black font-semibold">hotels</Link>, and <Link to={createPageUrl("retail-stores")} className="underline hover:text-black font-semibold">retail spaces</Link>. Complements our <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">signature playlists</Link> perfectly.
+            <span>Sound in perfect alignment with your space. Essential for </span><Link to={createPageUrl("restaurants-bars")} className="underline hover:text-black font-semibold">restaurants & bars</Link><span>, </span><Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black font-semibold">hotels</Link><span>, and </span><Link to={createPageUrl("retail-stores")} className="underline hover:text-black font-semibold">retail spaces</Link><span>. Complements our </span><Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">signature playlists</Link><span> perfectly.</span>
           </p>
         </div>
       </section>

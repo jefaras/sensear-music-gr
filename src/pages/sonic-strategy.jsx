@@ -275,20 +275,38 @@ export default function SonicStrategy() {
         <div className="max-w-5xl mx-auto px-6">
           <h2 id="what-we-do-heading" className="text-4xl font-bold text-center mb-6 leading-[1.25]">What We Do</h2>
           <div className="grid md:grid-cols-3 gap-8" role="list">
-            {whatWeDo.map((item) =>
-            <article key={item.title} role="listitem">
+            <article role="listitem">
               <Card className="bg-white p-8 shadow-lg">
                 <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
-                  <item.icon className="w-8 h-8" />
+                  <Users className="w-8 h-8" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4">{item.title}</h3>
-                <p className="text-black/70">{item.description}</p>
+                <h3 className="text-2xl font-bold mb-4">Sonic DNA workshop</h3>
+                <p className="text-black/70">We schedule a workshop with your team where we explore your brand values, customer personas, and emotional targets. We guide you through curated mood boards and reference tracks to co-create your brand's sonic personality.</p>
               </Card>
             </article>
-            )}
+
+            <article role="listitem">
+              <Card className="bg-white p-8 shadow-lg">
+                <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                  <FileText className="w-8 h-8" />
+                </div>
+                <h3 className="text-2xl font-bold mb-4">Sonic strategy plan</h3>
+                <p className="text-black/70">We cover how each space will be scored throughout the day, how your signature sounds will support marketing and guest touchpoints, and provide audio demos so you can hear exactly what your guests will feel.</p>
+              </Card>
+            </article>
+
+            <article role="listitem">
+              <Card className="bg-white p-8 shadow-lg">
+                <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                  <TrendingUp className="w-8 h-8" />
+                </div>
+                <h3 className="text-2xl font-bold mb-4">Sonic rebranding roadmap</h3>
+                <p className="text-black/70">We give you a clear roadmap to manage that shift—aligned with your brand calendar and marketing goals. Whether you are launching a new venue or reinventing your brand, we ensure the transition feels effortless.</p>
+              </Card>
+            </article>
           </div>
           <p className="text-center text-black/70 mt-12 max-w-3xl mx-auto">
-            Our sonic strategy process complements our <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">playlists service</Link> perfectly. Once we define your sonic identity, we can implement it through <Link to={createPageUrl("audio-upgrades")} className="underline hover:text-black font-semibold">audio system optimization</Link> and ongoing curation. Ideal for <Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black font-semibold">hotels & resorts</Link>, <Link to={createPageUrl("restaurants-bars")} className="underline hover:text-black font-semibold">restaurants & bars</Link>, and <Link to={createPageUrl("retail-stores")} className="underline hover:text-black font-semibold">retail spaces</Link> seeking a distinctive sonic identity.
+            <span>Our sonic strategy process complements our </span><Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">playlists service</Link><span> perfectly. Once we define your sonic identity, we can implement it through </span><Link to={createPageUrl("audio-upgrades")} className="underline hover:text-black font-semibold">audio system optimization</Link><span> and ongoing curation. Ideal for </span><Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black font-semibold">hotels & resorts</Link><span>, </span><Link to={createPageUrl("restaurants-bars")} className="underline hover:text-black font-semibold">restaurants & bars</Link><span>, and </span><Link to={createPageUrl("retail-stores")} className="underline hover:text-black font-semibold">retail spaces</Link><span> seeking a distinctive sonic identity.</span>
           </p>
         </div>
       </section>
@@ -297,24 +315,62 @@ export default function SonicStrategy() {
         <div className="max-w-5xl mx-auto px-6">
           <h2 id="problems-heading" className="text-4xl font-bold text-center mb-6 leading-[1.25]">Problems We Solve</h2>
           <div className="grid md:grid-cols-2 gap-8" role="list">
-            {problemsWeSolve.map((problem) =>
-            <article key={problem.title} role="listitem" className="p-6 bg-gray-50 rounded-lg">
-                <div className="flex items-start gap-4">
-                  <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
-                  <div>
-                    <h3 className="text-xl font-bold mb-2">{problem.title}</h3>
-                    <p className="text-black/70">{problem.description}</p>
-                  </div>
+            <article role="listitem" className="p-6 bg-gray-50 rounded-lg">
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
+                <div>
+                  <h3 className="text-xl font-bold mb-2">Atmosphere that feels flat or forgettable</h3>
+                  <p className="text-black/70">Even well-designed spaces can fall short without the right audio cues. We build immersive soundscapes that add depth, emotion, and create lasting impressions.</p>
                 </div>
-              </article>
-            )}
+              </div>
+            </article>
+
+            <article role="listitem" className="p-6 bg-gray-50 rounded-lg">
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
+                <div>
+                  <h3 className="text-xl font-bold mb-2">Inconsistent sound across locations</h3>
+                  <p className="text-black/70">When the mood changes from one site to the next, the brand experience gets lost. We create sonic consistency across venues, hours, and guest touchpoints.</p>
+                </div>
+              </div>
+            </article>
+
+            <article role="listitem" className="p-6 bg-gray-50 rounded-lg">
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
+                <div>
+                  <h3 className="text-xl font-bold mb-2">Music that does not reflect who you are</h3>
+                  <p className="text-black/70">Generic playlists, ad-based radio, or mismatched tracks can dilute your atmosphere. We design a sonic language that speaks your brand fluently.</p>
+                </div>
+              </div>
+            </article>
+
+            <article role="listitem" className="p-6 bg-gray-50 rounded-lg">
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
+                <div>
+                  <h3 className="text-xl font-bold mb-2">No in-house sound expertise</h3>
+                  <p className="text-black/70">You have a clear vision but lack the time or team to shape it in sound. We lead the process—from sonic profiling to curated guidelines and rollout.</p>
+                </div>
+              </div>
+            </article>
+
+            <article role="listitem" className="p-6 bg-gray-50 rounded-lg">
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
+                <div>
+                  <h3 className="text-xl font-bold mb-2">Too many hands on the playlist</h3>
+                  <p className="text-black/70">When everyone controls the music, consistency breaks down. We give you structure and flexibility—clear guidelines, curated content, and optional tech for seamless control.</p>
+                </div>
+              </div>
+            </article>
           </div>
           <div className="text-center mt-12">
             <p className="text-black/70 mb-6">
-              See how we've solved similar challenges in our <Link to={createPageUrl("CaseStudies")} className="underline hover:text-black font-semibold">case studies</Link>, including success stories from <Link to={createPageUrl("blue-bamboo")} className="underline hover:text-black font-semibold">Blue Bamboo</Link> and <Link to={createPageUrl("klouvi-bar")} className="underline hover:text-black font-semibold">Klouvi Bar</Link>. Learn more about <Link to={createPageUrl("building-brand-people-can-hear")} className="underline hover:text-black font-semibold">building your brand through sound</Link>.
+              <span>See how we've solved similar challenges in our </span><Link to={createPageUrl("CaseStudies")} className="underline hover:text-black font-semibold">case studies</Link><span>, including success stories from </span><Link to={createPageUrl("blue-bamboo")} className="underline hover:text-black font-semibold">Blue Bamboo</Link><span> and </span><Link to={createPageUrl("klouvi-bar")} className="underline hover:text-black font-semibold">Klouvi Bar</Link><span>. Learn more about </span><Link to={createPageUrl("building-brand-people-can-hear")} className="underline hover:text-black font-semibold">building your brand through sound</Link><span>.</span>
             </p>
             <p className="text-black/70 mb-6">
-              Explore our <Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">full range of services</Link> or learn <Link to={createPageUrl("AboutUs")} className="underline hover:text-black font-semibold">more about our team</Link>.
+              <span>Explore our </span><Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">full range of services</Link><span> or learn </span><Link to={createPageUrl("AboutUs")} className="underline hover:text-black font-semibold">more about our team</Link><span>.</span>
             </p>
           </div>
         </div>
