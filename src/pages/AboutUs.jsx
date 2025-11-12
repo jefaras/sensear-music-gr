@@ -535,9 +535,6 @@ Known for her instinctive selections and taste for rare grooves, she brings dept
           <p className="text-center mt-12 text-lg text-black/80 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
             <span>Experience our unique approach through our </span><Link to={createPageUrl("signature-soundscapes")} className="underline hover:text-black">signature soundscapes</Link><span> or explore solutions for your </span><Link to={createPageUrl("Industries")} className="underline hover:text-black">specific industry</Link><span>.</span>
           </p>
-          <p className="text-center mt-6 text-lg text-black/80 animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
-            <span>Experience our unique approach through our </span><Link to={createPageUrl("signature-soundscapes")} className="underline hover:text-black">signature soundscapes</Link><span> or explore solutions for your </span><Link to={createPageUrl("Industries")} className="underline hover:text-black">specific industry</Link><span>.</span>
-          </p>
         </div>
       </section>
     </div>
