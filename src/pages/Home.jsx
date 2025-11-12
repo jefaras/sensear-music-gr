@@ -497,7 +497,7 @@ export default function Home() {
                 <div>
                   <h3 className="text-xl font-bold mb-2 text-black">Delight Your Guests</h3>
                   <p className="text-black/70 leading-relaxed">
-                    <span>Curated music is a practical way to shape how guests feel, what they remember, and how they spend. Learn </span><Link to={createPageUrl("three-reasons-make-music-hospitality")} className="underline hover:text-black font-semibold">how hotels and resorts benefit</Link><span> from strategic music curation.</span>
+                    Increase satisfaction and encourage longer & repeat visits.
                   </p>
                 </div>
               </article>
