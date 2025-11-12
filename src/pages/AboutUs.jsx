@@ -200,16 +200,17 @@ export default function AboutUs() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/361e48e4b_85051705_172264584193922_2910039908695408640_n.jpg"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/361e48e4b_85051705_172264584193922_2910039908695408640_n.jpg 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/361e48e4b_85051705_172264584193922_2910039908695408640_n.jpg 2400w"
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="SensEar music curation team collaborating on sonic branding project"
                 className="absolute w-full h-full object-cover"
-                style={{ 
+                style={{
                   top: '-15%',
                   height: '130%',
                   transform: `translateY(${scrollY * 0.15}px)`,
                   transformOrigin: 'center top'
-                }}
-              />
+                }} />
+              
             </div>
           </div>
         </div>
@@ -217,10 +218,10 @@ export default function AboutUs() {
 
       {/* Breadcrumbs - COMMENTED OUT */}
       {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
-        <Breadcrumbs items={[
-        { label: "About", path: createPageUrl("AboutUs") }]
-        } />
-      </div> */}
+         <Breadcrumbs items={[
+         { label: "About", path: createPageUrl("AboutUs") }]
+         } />
+        </div> */}
       
       {/* Timeline */}
       <section className="py-20 bg-white" aria-labelledby="timeline-heading">
@@ -409,7 +410,7 @@ export default function AboutUs() {
         <div className="max-w-6xl mx-auto px-6">
           <h2 id="vision-heading" className="text-4xl font-bold text-center mb-4 animate-fade-in-up text-peach">Our Vision</h2>
           <p className="text-2xl text-center max-w-4xl mx-auto text-white/90 animate-fade-in-up leading-relaxed" style={{ animationDelay: '0.2s' }}>
-            <span>To become the leading music partner for sophisticated hospitality brands and events seeking to express identity, elevate atmosphere, and create lasting guest connections through curated sound. Learn more about our approach through our </span><Link to={createPageUrl("sonic-strategy")} className="underline hover:text-peach font-semibold">sonic strategy service</Link><span>.</span>
+            <span className="">To become the leading music partner for eclectic hospitality brands & events seeking to express identity, elevate atmosphere & create lasting guest connections. Learn more about our </span><Link to={createPageUrl("sonic-strategy")} className="underline hover:text-peach font-semibold">sonic strategy service</Link><span>.</span>
           </p>
         </div>
       </section>
@@ -537,6 +538,6 @@ Known for her instinctive selections and taste for rare grooves, she brings dept
           </p>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 }
