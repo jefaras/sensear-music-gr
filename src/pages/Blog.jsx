@@ -439,306 +439,49 @@ export default function Blog() {
         <div className="max-w-7xl mx-auto px-6">
           <h2 id="recent-articles-heading" className="text-3xl font-bold text-black mb-8 leading-[1.25]">Recent Articles</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8" role="list">
-            {/* Blog Post 1 */}
-            <article role="listitem" key={1}>
-              <Link to={posts[1].link} className="block" aria-label={`Read more about: ${posts[1].title}`}>
-                <Card className="overflow-hidden hover:shadow-xl transition-all group cursor-pointer bg-white">
-                  <div className="relative aspect-[4/3] overflow-hidden">
-                    <img
-                      src={posts[1].image}
-                      srcSet={`${posts[1].image} 800w, ${posts[1].image.replace('w=800', 'w=1200')} 1200w`}
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      alt={posts[1].alt}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    />
-                    <div className="absolute inset-0" />
-                  </div>
-                  <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">
-                      {posts[1].category}
-                    </Badge>
-                    <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      {posts[1].title}
-                    </h3>
-                    <p className="text-black/70 mb-4 leading-relaxed">
-                      {posts[1].excerpt}
-                    </p>
-                    <div className="flex items-center gap-4 text-xs text-black/60 mb-4" aria-label="Article metadata">
-                      <div className="flex items-center gap-1">
-                        <Calendar className="w-3 h-3" aria-hidden="true" />
-                        <time dateTime={posts[1].date}>{posts[1].displayDate}</time>
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <User className="w-3 h-3" aria-hidden="true" />
-                        <span>{posts[1].author}</span>
-                      </div>
+            {posts.slice(1).map((post, index) => (
+              <article role="listitem" key={post.link}>
+                <Link to={post.link} className="block" aria-label={`Read more about: ${post.title}`}>
+                  <Card className="overflow-hidden hover:shadow-xl transition-all group cursor-pointer bg-white">
+                    <div className="relative aspect-[4/3] overflow-hidden">
+                      <img
+                        src={post.image}
+                        srcSet={`${post.image} 800w, ${post.image.replace('w=800', 'w=1200')} 1200w`}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        alt={post.alt}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                      />
+                      <div className="absolute inset-0" />
                     </div>
-                    <div className="inline-flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
-                      <span>Read More</span>
-                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
-                    </div>
-                  </div>
-                </Card>
-              </Link>
-            </article>
-
-            {/* Blog Post 2 */}
-            <article role="listitem" key={2}>
-              <Link to={posts[2].link} className="block" aria-label={`Read more about: ${posts[2].title}`}>
-                <Card className="overflow-hidden hover:shadow-xl transition-all group cursor-pointer bg-white">
-                  <div className="relative aspect-[4/3] overflow-hidden">
-                    <img
-                      src={posts[2].image}
-                      srcSet={`${posts[2].image} 800w, ${posts[2].image.replace('w=800', 'w=1200')} 1200w`}
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      alt={posts[2].alt}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    />
-                    <div className="absolute inset-0" />
-                  </div>
-                  <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">
-                      {posts[2].category}
-                    </Badge>
-                    <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      {posts[2].title}
-                    </h3>
-                    <p className="text-black/70 mb-4 leading-relaxed">
-                      {posts[2].excerpt}
-                    </p>
-                    <div className="flex items-center gap-4 text-xs text-black/60 mb-4" aria-label="Article metadata">
-                      <div className="flex items-center gap-1">
-                        <Calendar className="w-3 h-3" aria-hidden="true" />
-                        <time dateTime={posts[2].date}>{posts[2].displayDate}</time>
+                    <div className="p-6">
+                      <Badge className="mb-3 bg-black/5 text-black border-black/10">
+                        {post.category}
+                      </Badge>
+                      <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
+                        {post.title}
+                      </h3>
+                      <p className="text-black/70 mb-4 leading-relaxed">
+                        {post.excerpt}
+                      </p>
+                      <div className="flex items-center gap-4 text-xs text-black/60 mb-4" aria-label="Article metadata">
+                        <div className="flex items-center gap-1">
+                          <Calendar className="w-3 h-3" aria-hidden="true" />
+                          <time dateTime={post.date}>{post.displayDate}</time>
+                        </div>
+                        <div className="flex items-center gap-1">
+                          <User className="w-3 h-3" aria-hidden="true" />
+                          <span>{post.author}</span>
+                        </div>
                       </div>
-                      <div className="flex items-center gap-1">
-                        <User className="w-3 h-3" aria-hidden="true" />
-                        <span>{posts[2].author}</span>
+                      <div className="inline-flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
+                        <span>Read More</span>
+                        <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
                       </div>
                     </div>
-                    <div className="inline-flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
-                      <span>Read More</span>
-                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
-                    </div>
-                  </div>
-                </Card>
-              </Link>
-            </article>
-
-            {/* Blog Post 3 */}
-            <article role="listitem" key={3}>
-              <Link to={posts[3].link} className="block" aria-label={`Read more about: ${posts[3].title}`}>
-                <Card className="overflow-hidden hover:shadow-xl transition-all group cursor-pointer bg-white">
-                  <div className="relative aspect-[4/3] overflow-hidden">
-                    <img
-                      src={posts[3].image}
-                      srcSet={`${posts[3].image} 800w, ${posts[3].image.replace('w=800', 'w=1200')} 1200w`}
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      alt={posts[3].alt}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    />
-                    <div className="absolute inset-0" />
-                  </div>
-                  <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">
-                      {posts[3].category}
-                    </Badge>
-                    <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      {posts[3].title}
-                    </h3>
-                    <p className="text-black/70 mb-4 leading-relaxed">
-                      {posts[3].excerpt}
-                    </p>
-                    <div className="flex items-center gap-4 text-xs text-black/60 mb-4" aria-label="Article metadata">
-                      <div className="flex items-center gap-1">
-                        <Calendar className="w-3 h-3" aria-hidden="true" />
-                        <time dateTime={posts[3].date}>{posts[3].displayDate}</time>
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <User className="w-3 h-3" aria-hidden="true" />
-                        <span>{posts[3].author}</span>
-                      </div>
-                    </div>
-                    <div className="inline-flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
-                      <span>Read More</span>
-                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
-                    </div>
-                  </div>
-                </Card>
-              </Link>
-            </article>
-
-            {/* Blog Post 4 */}
-            <article role="listitem" key={4}>
-              <Link to={posts[4].link} className="block" aria-label={`Read more about: ${posts[4].title}`}>
-                <Card className="overflow-hidden hover:shadow-xl transition-all group cursor-pointer bg-white">
-                  <div className="relative aspect-[4/3] overflow-hidden">
-                    <img
-                      src={posts[4].image}
-                      srcSet={`${posts[4].image} 800w, ${posts[4].image.replace('w=800', 'w=1200')} 1200w`}
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      alt={posts[4].alt}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    />
-                    <div className="absolute inset-0" />
-                  </div>
-                  <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">
-                      {posts[4].category}
-                    </Badge>
-                    <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      {posts[4].title}
-                    </h3>
-                    <p className="text-black/70 mb-4 leading-relaxed">
-                      {posts[4].excerpt}
-                    </p>
-                    <div className="flex items-center gap-4 text-xs text-black/60 mb-4" aria-label="Article metadata">
-                      <div className="flex items-center gap-1">
-                        <Calendar className="w-3 h-3" aria-hidden="true" />
-                        <time dateTime={posts[4].date}>{posts[4].displayDate}</time>
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <User className="w-3 h-3" aria-hidden="true" />
-                        <span>{posts[4].author}</span>
-                      </div>
-                    </div>
-                    <div className="inline-flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
-                      <span>Read More</span>
-                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
-                    </div>
-                  </div>
-                </Card>
-              </Link>
-            </article>
-
-            {/* Blog Post 5 */}
-            <article role="listitem" key={5}>
-              <Link to={posts[5].link} className="block" aria-label={`Read more about: ${posts[5].title}`}>
-                <Card className="overflow-hidden hover:shadow-xl transition-all group cursor-pointer bg-white">
-                  <div className="relative aspect-[4/3] overflow-hidden">
-                    <img
-                      src={posts[5].image}
-                      srcSet={`${posts[5].image} 800w, ${posts[5].image.replace('w=800', 'w=1200')} 1200w`}
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      alt={posts[5].alt}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    />
-                    <div className="absolute inset-0" />
-                  </div>
-                  <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">
-                      {posts[5].category}
-                    </Badge>
-                    <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      {posts[5].title}
-                    </h3>
-                    <p className="text-black/70 mb-4 leading-relaxed">
-                      {posts[5].excerpt}
-                    </p>
-                    <div className="flex items-center gap-4 text-xs text-black/60 mb-4" aria-label="Article metadata">
-                      <div className="flex items-center gap-1">
-                        <Calendar className="w-3 h-3" aria-hidden="true" />
-                        <time dateTime={posts[5].date}>{posts[5].displayDate}</time>
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <User className="w-3 h-3" aria-hidden="true" />
-                        <span>{posts[5].author}</span>
-                      </div>
-                    </div>
-                    <div className="inline-flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
-                      <span>Read More</span>
-                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
-                    </div>
-                  </div>
-                </Card>
-              </Link>
-            </article>
-
-            {/* Blog Post 6 */}
-            <article role="listitem" key={6}>
-              <Link to={posts[6].link} className="block" aria-label={`Read more about: ${posts[6].title}`}>
-                <Card className="overflow-hidden hover:shadow-xl transition-all group cursor-pointer bg-white">
-                  <div className="relative aspect-[4/3] overflow-hidden">
-                    <img
-                      src={posts[6].image}
-                      srcSet={`${posts[6].image} 800w, ${posts[6].image.replace('w=800', 'w=1200')} 1200w`}
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      alt={posts[6].alt}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    />
-                    <div className="absolute inset-0" />
-                  </div>
-                  <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">
-                      {posts[6].category}
-                    </Badge>
-                    <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      {posts[6].title}
-                    </h3>
-                    <p className="text-black/70 mb-4 leading-relaxed">
-                      {posts[6].excerpt}
-                    </p>
-                    <div className="flex items-center gap-4 text-xs text-black/60 mb-4" aria-label="Article metadata">
-                      <div className="flex items-center gap-1">
-                        <Calendar className="w-3 h-3" aria-hidden="true" />
-                        <time dateTime={posts[6].date}>{posts[6].displayDate}</time>
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <User className="w-3 h-3" aria-hidden="true" />
-                        <span>{posts[6].author}</span>
-                      </div>
-                    </div>
-                    <div className="inline-flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
-                      <span>Read More</span>
-                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
-                    </div>
-                  </div>
-                </Card>
-              </Link>
-            </article>
-
-            {/* Blog Post 7 */}
-            <article role="listitem" key={7}>
-              <Link to={posts[7].link} className="block" aria-label={`Read more about: ${posts[7].title}`}>
-                <Card className="overflow-hidden hover:shadow-xl transition-all group cursor-pointer bg-white">
-                  <div className="relative aspect-[4/3] overflow-hidden">
-                    <img
-                      src={posts[7].image}
-                      srcSet={`${posts[7].image} 800w, ${posts[7].image.replace('w=800', 'w=1200')} 1200w`}
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      alt={posts[7].alt}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    />
-                    <div className="absolute inset-0" />
-                  </div>
-                  <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">
-                      {posts[7].category}
-                    </Badge>
-                    <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      {posts[7].title}
-                    </h3>
-                    <p className="text-black/70 mb-4 leading-relaxed">
-                      {posts[7].excerpt}
-                    </p>
-                    <div className="flex items-center gap-4 text-xs text-black/60 mb-4" aria-label="Article metadata">
-                      <div className="flex items-center gap-1">
-                        <Calendar className="w-3 h-3" aria-hidden="true" />
-                        <time dateTime={posts[7].date}>{posts[7].displayDate}</time>
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <User className="w-3 h-3" aria-hidden="true" />
-                        <span>{posts[7].author}</span>
-                      </div>
-                    </div>
-                    <div className="inline-flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
-                      <span>Read More</span>
-                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
-                    </div>
-                  </div>
-                </Card>
-              </Link>
-            </article>
+                  </Card>
+                </Link>
+              </article>
+            ))}
           </div>
         </div>
       </section>
@@ -750,7 +493,7 @@ export default function Blog() {
             Stay Updated
           </h2>
           <p className="text-xl text-black/70 mb-8">
-            Subscribe to receive our latest insights and industry news. Learn more <Link to={createPageUrl("AboutUs")} className="underline hover:text-black font-semibold">about our team</Link> or <Link to={createPageUrl("ContactUs")} className="underline hover:text-black font-semibold">get in touch</Link> to discuss your project.
+            <span>Subscribe to receive our latest insights and industry news. Learn more </span><Link to={createPageUrl("AboutUs")} className="underline hover:text-black font-semibold">about our team</Link><span> or </span><Link to={createPageUrl("ContactUs")} className="underline hover:text-black font-semibold">get in touch</Link><span> to discuss your project.</span>
           </p>
           <form className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto" aria-label="Newsletter subscription form">
             <Input
