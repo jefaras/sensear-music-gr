@@ -265,14 +265,9 @@ export default function Layout({ children }) {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <Link to={createPageUrl("Home")} className="flex items-center gap-3 group">
             <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg" alt="SensEar Logo" className="w-12 h-12 rounded-full group-hover:scale-110 transition-transform" />
-            <div>
-              <h1 className={`text-2xl font-bold tracking-wide font-syne transition-colors duration-300 ${
-                isScrolled ? 'text-white' : 'text-black'
-              }`}>SENSEAR</h1>
-              <p className={`text-xs -mt-1 font-syne transition-colors duration-300 ${
-                isScrolled ? 'text-white' : 'text-black'
-              }`}>Soundtracking Unique Experiences</p>
-            </div>
+            <h1 className={`text-3xl font-bold tracking-wide font-syne transition-colors duration-300 ${
+              isScrolled ? 'text-white' : 'text-black'
+            }`}>SENSEAR</h1>
           </Link>
 
           {/* Desktop Navigation - moved significantly more to the left with larger negative margin */}
@@ -381,10 +376,7 @@ export default function Layout({ children }) {
             <div className="lg:col-span-2">
               <Link to={createPageUrl("Home")} className="flex items-center gap-3 group mb-6 w-fit">
                 <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg" alt="SensEar Logo" className="w-12 h-12 rounded-full group-hover:scale-110 transition-transform" />
-                <div>
-                  <h1 className="text-2xl font-bold text-white tracking-wide font-syne">SENSEAR</h1>
-                  <p className="text-xs text-white -mt-1 font-syne">Soundtracking Unique Experiences</p>
-                </div>
+                <h1 className="text-3xl font-bold text-white tracking-wide font-syne">SENSEAR</h1>
               </Link>
               <div className="flex gap-6 mb-6">
                 <a href="https://www.facebook.com/61575909304249/" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-peach transition-colors" aria-label="Visit SensEar on Facebook">
