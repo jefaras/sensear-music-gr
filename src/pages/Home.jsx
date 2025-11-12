@@ -250,8 +250,8 @@ export default function Home() {
         
         .animate-scroll {
           animation: scroll-left 30s linear infinite;
-          white-space: nowrap; /* Ensures content stays on one line */
-          width: fit-content; /* Allows the flex container to stretch to its full content width */
+          white-space: nowrap;
+          width: fit-content;
         }
         
         .animate-scroll:hover {
@@ -331,33 +331,102 @@ Not just background music.
           <div className="relative">
             <div className="flex gap-12 animate-scroll">
               {/* First set of logos */}
-              {clients.map((client, index) =>
-              <div key={`${client.name}-1-${index}`} className="flex-shrink-0 text-center" style={{ width: '180px' }}>
-                  <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
-                    <img
-                    src={client.logo}
-                    alt={`${client.name} logo - SensEar music curation client`}
-                    className="max-w-full max-h-full object-contain" />
-
-                  </div>
-                  <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">{client.name}</p>
-                  <p className="text-sm text-white/60 mt-1">{client.location}</p>
+              <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
+                <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
+                  <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b8c4f5bc6_Klouvi-Bar_final.jpg" alt="Klouvi Bar logo - SensEar music curation client" className="max-w-full max-h-full object-contain" />
                 </div>
-              )}
+                <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Klouvi Bar</p>
+                <p className="text-sm text-white/60 mt-1">Athens</p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
+                <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
+                  <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/17f736607_Blue-Bamboo_final.jpg" alt="Blue Bamboo logo - SensEar music curation client" className="max-w-full max-h-full object-contain" />
+                </div>
+                <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Blue Bamboo</p>
+                <p className="text-sm text-white/60 mt-1">Athens-Serifos</p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
+                <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
+                  <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/84145d1c2_The-Rooster_final.jpg" alt="The Rooster logo - SensEar music curation client" className="max-w-full max-h-full object-contain" />
+                </div>
+                <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">The Rooster</p>
+                <p className="text-sm text-white/60 mt-1">Antiparos</p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
+                <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
+                  <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/730cfd91d_Beach-House_final.jpg" alt="Beach House logo - SensEar music curation client" className="max-w-full max-h-full object-contain" />
+                </div>
+                <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Beach House</p>
+                <p className="text-sm text-white/60 mt-1">Antiparos</p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
+                <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
+                  <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fc48e3d65_Pelicanos_final.jpg" alt="Pelicanos logo - SensEar music curation client" className="max-w-full max-h-full object-contain" />
+                </div>
+                <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Pelicanos</p>
+                <p className="text-sm text-white/60 mt-1">Sifnos</p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
+                <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
+                  <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/65422bc1d_fav.png" alt="Yam logo - SensEar music curation client" className="max-w-full max-h-full object-contain" />
+                </div>
+                <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Yam</p>
+                <p className="text-sm text-white/60 mt-1">Antiparos</p>
+              </div>
+              
               {/* Duplicate set for seamless loop */}
-              {clients.map((client, index) =>
-              <div key={`${client.name}-2-${index}`} className="flex-shrink-0 text-center" style={{ width: '180px' }}>
-                  <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
-                    <img
-                    src={client.logo}
-                    alt={`${client.name} logo - SensEar music curation client`}
-                    className="max-w-full max-h-full object-contain" />
-
-                  </div>
-                  <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">{client.name}</p>
-                  <p className="text-sm text-white/60 mt-1">{client.location}</p>
+              <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
+                <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
+                  <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b8c4f5bc6_Klouvi-Bar_final.jpg" alt="Klouvi Bar logo - SensEar music curation client" className="max-w-full max-h-full object-contain" />
                 </div>
-              )}
+                <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Klouvi Bar</p>
+                <p className="text-sm text-white/60 mt-1">Athens</p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
+                <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
+                  <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/17f736607_Blue-Bamboo_final.jpg" alt="Blue Bamboo logo - SensEar music curation client" className="max-w-full max-h-full object-contain" />
+                </div>
+                <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Blue Bamboo</p>
+                <p className="text-sm text-white/60 mt-1">Athens-Serifos</p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
+                <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
+                  <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/84145d1c2_The-Rooster_final.jpg" alt="The Rooster logo - SensEar music curation client" className="max-w-full max-h-full object-contain" />
+                </div>
+                <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">The Rooster</p>
+                <p className="text-sm text-white/60 mt-1">Antiparos</p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
+                <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
+                  <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/730cfd91d_Beach-House_final.jpg" alt="Beach House logo - SensEar music curation client" className="max-w-full max-h-full object-contain" />
+                </div>
+                <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Beach House</p>
+                <p className="text-sm text-white/60 mt-1">Antiparos</p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
+                <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
+                  <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fc48e3d65_Pelicanos_final.jpg" alt="Pelicanos logo - SensEar music curation client" className="max-w-full max-h-full object-contain" />
+                </div>
+                <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Pelicanos</p>
+                <p className="text-sm text-white/60 mt-1">Sifnos</p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
+                <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center bg-white rounded-lg p-3 border-4 border-white shadow-md">
+                  <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/65422bc1d_fav.png" alt="Yam logo - SensEar music curation client" className="max-w-full max-h-full object-contain" />
+                </div>
+                <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Yam</p>
+                <p className="text-sm text-white/60 mt-1">Antiparos</p>
+              </div>
             </div>
           </div>
         </div>
@@ -376,75 +445,125 @@ Not just background music.
           </header>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8" role="list">
-            {[
-            {
-              title: "Signature Playlists",
-              description: "Bespoke, brand-exclusive playlists sourced from rare archives for venues that refuse to sound generic.",
-              link: createPageUrl("signature-playlists"),
-              icon: Music,
-              image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg",
-              alt: "Bespoke music curation and playlist creation for unique venue atmosphere"
-            },
-            {
-              title: "Music for Events",
-              description: "Artfully selected and curated soundtracks & live DJ sets that elevate events into engaging, unforgettable moments.",
-              link: createPageUrl("event-soundtracks"),
-              icon: Sparkles,
-              image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg",
-              alt: "Professional event production with immersive music curation and AV setup"
-            },
-            {
-              title: "Sonic Strategy",
-              description: "Ultra-specialized music consultancy & sound branding guidelines that forge an inimitable sonic identity.",
-              link: createPageUrl("sonic-strategy"),
-              icon: BarChart,
-              image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg",
-              alt: "Strategic sonic branding consultation and music curation planning session"
-            },
-            {
-              title: "Audio Upgrades",
-              description: "Professional on-site sound checks, optimization and audio calibration, that fix any sound related issue.",
-              link: createPageUrl("audio-upgrades"),
-              icon: SlidersHorizontal,
-              image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg",
-              alt: "Professional audio equipment optimization and acoustic calibration for venues"
-            }].
-            map((service, index) =>
-            <article key={index} role="listitem">
-              <Link to={service.link} aria-label={`Learn more about ${service.title}`}>
-                <div
-                  className="group rounded-2xl bg-white/80 backdrop-blur-sm hover:bg-white hover:shadow-2xl transition-all duration-300 h-full flex flex-col overflow-hidden"
-                  style={{ animationDelay: `${index * 0.1}s` }}>
-
-                    <div className="relative aspect-[4/3] overflow-hidden">
-                      <img
-                      src={service.image}
-                      srcSet={`${service.image} 800w, ${service.image} 1200w`}
+            {/* Service 1: Signature Playlists */}
+            <article role="listitem">
+              <Link to={createPageUrl("signature-playlists")} aria-label="Learn more about Signature Playlists">
+                <div className="group rounded-2xl bg-white/80 backdrop-blur-sm hover:bg-white hover:shadow-2xl transition-all duration-300 h-full flex flex-col overflow-hidden">
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg"
+                      srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg 800w, https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg 1200w"
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
-                      alt={service.alt}
+                      alt="Bespoke music curation and playlist creation for unique venue atmosphere"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-
-                      <div className="absolute inset-0" aria-hidden="true" />
-                      
-                      <div className="absolute top-4 left-4">
-                        <div className="bg-red-50 text-black opacity-80 rounded-full w-12 h-12 flex items-center justify-center" aria-hidden="true">
-                          <service.icon className="w-6 h-6" />
-                        </div>
+                    <div className="absolute inset-0" aria-hidden="true" />
+                    <div className="absolute top-4 left-4">
+                      <div className="bg-red-50 text-black opacity-80 rounded-full w-12 h-12 flex items-center justify-center" aria-hidden="true">
+                        <Music className="w-6 h-6" />
                       </div>
                     </div>
-
-                    <div className="p-6 flex-grow flex flex-col">
-                      <h3 className="text-xl font-bold text-black mb-3">{service.title}</h3>
-                      <p className="text-black/70 mb-4 flex-grow text-sm">{service.description}</p>
-                      <div className="flex items-center text-black font-semibold group-hover:translate-x-2 transition-transform">
-                        <span>Learn More</span>
-                        <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
-                      </div>
+                  </div>
+                  <div className="p-6 flex-grow flex flex-col">
+                    <h3 className="text-xl font-bold text-black mb-3">Signature Playlists</h3>
+                    <p className="text-black/70 mb-4 flex-grow text-sm">Bespoke, brand-exclusive playlists sourced from rare archives for venues that refuse to sound generic.</p>
+                    <div className="flex items-center text-black font-semibold group-hover:translate-x-2 transition-transform">
+                      <span>Learn More</span>
+                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
                     </div>
+                  </div>
                 </div>
               </Link>
             </article>
-            )}
+
+            {/* Service 2: Music for Events */}
+            <article role="listitem">
+              <Link to={createPageUrl("event-soundtracks")} aria-label="Learn more about Music for Events">
+                <div className="group rounded-2xl bg-white/80 backdrop-blur-sm hover:bg-white hover:shadow-2xl transition-all duration-300 h-full flex flex-col overflow-hidden">
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg"
+                      srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg 800w, https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg 1200w"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                      alt="Professional event production with immersive music curation and AV setup"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                    <div className="absolute inset-0" aria-hidden="true" />
+                    <div className="absolute top-4 left-4">
+                      <div className="bg-red-50 text-black opacity-80 rounded-full w-12 h-12 flex items-center justify-center" aria-hidden="true">
+                        <Sparkles className="w-6 h-6" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-6 flex-grow flex flex-col">
+                    <h3 className="text-xl font-bold text-black mb-3">Music for Events</h3>
+                    <p className="text-black/70 mb-4 flex-grow text-sm">Artfully selected and curated soundtracks & live DJ sets that elevate events into engaging, unforgettable moments.</p>
+                    <div className="flex items-center text-black font-semibold group-hover:translate-x-2 transition-transform">
+                      <span>Learn More</span>
+                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </article>
+
+            {/* Service 3: Sonic Strategy */}
+            <article role="listitem">
+              <Link to={createPageUrl("sonic-strategy")} aria-label="Learn more about Sonic Strategy">
+                <div className="group rounded-2xl bg-white/80 backdrop-blur-sm hover:bg-white hover:shadow-2xl transition-all duration-300 h-full flex flex-col overflow-hidden">
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg"
+                      srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg 800w, https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg 1200w"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                      alt="Strategic sonic branding consultation and music curation planning session"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                    <div className="absolute inset-0" aria-hidden="true" />
+                    <div className="absolute top-4 left-4">
+                      <div className="bg-red-50 text-black opacity-80 rounded-full w-12 h-12 flex items-center justify-center" aria-hidden="true">
+                        <BarChart className="w-6 h-6" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-6 flex-grow flex flex-col">
+                    <h3 className="text-xl font-bold text-black mb-3">Sonic Strategy</h3>
+                    <p className="text-black/70 mb-4 flex-grow text-sm">Ultra-specialized music consultancy & sound branding guidelines that forge an inimitable sonic identity.</p>
+                    <div className="flex items-center text-black font-semibold group-hover:translate-x-2 transition-transform">
+                      <span>Learn More</span>
+                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </article>
+
+            {/* Service 4: Audio Upgrades */}
+            <article role="listitem">
+              <Link to={createPageUrl("audio-upgrades")} aria-label="Learn more about Audio Upgrades">
+                <div className="group rounded-2xl bg-white/80 backdrop-blur-sm hover:bg-white hover:shadow-2xl transition-all duration-300 h-full flex flex-col overflow-hidden">
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg"
+                      srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg 800w, https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg 1200w"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                      alt="Professional audio equipment optimization and acoustic calibration for venues"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                    <div className="absolute inset-0" aria-hidden="true" />
+                    <div className="absolute top-4 left-4">
+                      <div className="bg-red-50 text-black opacity-80 rounded-full w-12 h-12 flex items-center justify-center" aria-hidden="true">
+                        <SlidersHorizontal className="w-6 h-6" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-6 flex-grow flex flex-col">
+                    <h3 className="text-xl font-bold text-black mb-3">Audio Upgrades</h3>
+                    <p className="text-black/70 mb-4 flex-grow text-sm">Professional on-site sound checks, optimization and audio calibration, that fix any sound related issue.</p>
+                    <div className="flex items-center text-black font-semibold group-hover:translate-x-2 transition-transform">
+                      <span>Learn More</span>
+                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </article>
           </div>
         </div>
       </section>
@@ -458,21 +577,41 @@ Not just background music.
                         How We Help You Succeed
                     </h2>
                     <ul className="space-y-4 md:space-y-6 mt-6 md:mt-8 w-full" role="list">
-                        {[
-                { title: "Delight Your Guests", description: "Increase satisfaction and encourage longer visits." },
-                { title: "Elevate Your Brand", description: "Strengthen perception and loyalty with a memorable atmosphere." },
-                { title: "Empower Your Team", description: "Boost staff morale & productivity with energizing music." },
-                { title: "Total Control", description: "Take full control over your venue's music style & flow." },
-                { title: "Seamless Experience", description: "Ensure a smooth music experience across every area of your venue." }].
-                map((item, index) =>
-                <li key={index} className="flex items-start gap-3 w-full">
-                                <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-black mt-0.5 md:mt-1 flex-shrink-0" aria-hidden="true" />
-                                <div className="flex-1 min-w-0">
-                                    <h3 className="font-bold text-sm sm:text-base md:text-lg text-black break-words">{item.title}</h3>
-                                    <p className="text-xs sm:text-sm md:text-base text-black/70 break-words">{item.description}</p>
-                                </div>
-                            </li>
-                )}
+                        <li className="flex items-start gap-3 w-full">
+                          <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-black mt-0.5 md:mt-1 flex-shrink-0" aria-hidden="true" />
+                          <div className="flex-1 min-w-0">
+                              <h3 className="font-bold text-sm sm:text-base md:text-lg text-black break-words">Delight Your Guests</h3>
+                              <p className="text-xs sm:text-sm md:text-base text-black/70 break-words">Increase satisfaction and encourage longer visits.</p>
+                          </div>
+                        </li>
+                        <li className="flex items-start gap-3 w-full">
+                          <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-black mt-0.5 md:mt-1 flex-shrink-0" aria-hidden="true" />
+                          <div className="flex-1 min-w-0">
+                              <h3 className="font-bold text-sm sm:text-base md:text-lg text-black break-words">Elevate Your Brand</h3>
+                              <p className="text-xs sm:text-sm md:text-base text-black/70 break-words">Strengthen perception and loyalty with a memorable atmosphere.</p>
+                          </div>
+                        </li>
+                        <li className="flex items-start gap-3 w-full">
+                          <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-black mt-0.5 md:mt-1 flex-shrink-0" aria-hidden="true" />
+                          <div className="flex-1 min-w-0">
+                              <h3 className="font-bold text-sm sm:text-base md:text-lg text-black break-words">Empower Your Team</h3>
+                              <p className="text-xs sm:text-sm md:text-base text-black/70 break-words">Boost staff morale & productivity with energizing music.</p>
+                          </div>
+                        </li>
+                        <li className="flex items-start gap-3 w-full">
+                          <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-black mt-0.5 md:mt-1 flex-shrink-0" aria-hidden="true" />
+                          <div className="flex-1 min-w-0">
+                              <h3 className="font-bold text-sm sm:text-base md:text-lg text-black break-words">Total Control</h3>
+                              <p className="text-xs sm:text-sm md:text-base text-black/70 break-words">Take full control over your venue's music style & flow.</p>
+                          </div>
+                        </li>
+                        <li className="flex items-start gap-3 w-full">
+                          <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-black mt-0.5 md:mt-1 flex-shrink-0" aria-hidden="true" />
+                          <div className="flex-1 min-w-0">
+                              <h3 className="font-bold text-sm sm:text-base md:text-lg text-black break-words">Seamless Experience</h3>
+                              <p className="text-xs sm:text-sm md:text-base text-black/70 break-words">Ensure a smooth music experience across every area of your venue.</p>
+                          </div>
+                        </li>
                     </ul>
                     <div className="mt-8 md:mt-12 text-center lg:text-left w-full">
                       <Link to={createPageUrl("Industries")} className="inline-block w-full sm:w-auto">
@@ -490,18 +629,6 @@ Not just background music.
                   srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e7baf90ef_car-1.png 800w,
                                   https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e7baf90ef_car-1.png 1200w,
                                   https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e7baf90ef_car-1.png 1600w"
-
-
-
-
-
-
-
-
-
-
-
-
                   sizes="(max-width: 768px) 100vw, 50vw"
                   alt="Vintage car with SensEar branding stickers representing mobile audio experiences"
                   className="w-full h-full object-cover" />
@@ -526,32 +653,83 @@ Not just background music.
           </header>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12" role="list">
-            {blogPosts.map((post, index) =>
-            <article key={index} role="listitem">
-                <Card className="overflow-hidden hover:shadow-2xl transition-all duration-300 group bg-white">
-                  <div className="relative aspect-[4/3] overflow-hidden">
-                    <img
-                    src={post.image}
-                    srcSet={`${post.image} 800w, ${post.image} 1200w`}
+            {/* Blog Post 1 */}
+            <article role="listitem">
+              <Card className="overflow-hidden hover:shadow-2xl transition-all duration-300 group bg-white">
+                <div className="relative aspect-[4/3] overflow-hidden">
+                  <img
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9619c7d50_e56c8a322bf8043723ba7e215cf5e636.jpg"
+                    srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9619c7d50_e56c8a322bf8043723ba7e215cf5e636.jpg 800w, https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9619c7d50_e56c8a322bf8043723ba7e215cf5e636.jpg 1200w"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    alt={post.alt}
+                    alt="Luxury hotel interior lobby showcasing ambient music design for hospitality"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      {post.title}
-                    </h3>
-                    <p className="text-black/70 mb-4 leading-relaxed">
-                      {post.description}
-                    </p>
-                    <Link to={post.link} className="inline-flex items-center text-black font-semibold group-hover:translate-x-2 transition-transform" aria-label={`Read more about ${post.title}`}>
-                      <span>{post.linkText}</span>
-                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
-                    </Link>
-                  </div>
-                </Card>
-              </article>
-            )}
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
+                    Three Reasons to Make Music Part of Your Luxury Hospitality Marketing Strategy
+                  </h3>
+                  <p className="text-black/70 mb-4 leading-relaxed">
+                    Curated music is a practical way to shape how guests feel, what they remember, and how they spend. Learn how <Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black">hotels and resorts</Link> benefit from strategic music curation.
+                  </p>
+                  <Link to={createPageUrl("three-reasons-make-music-hospitality")} className="inline-flex items-center text-black font-semibold group-hover:translate-x-2 transition-transform" aria-label="Read more about Three Reasons to Make Music Part of Your Luxury Hospitality Marketing Strategy">
+                    <span>Read more</span>
+                    <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                  </Link>
+                </div>
+              </Card>
+            </article>
+
+            {/* Blog Post 2 */}
+            <article role="listitem">
+              <Card className="overflow-hidden hover:shadow-2xl transition-all duration-300 group bg-white">
+                <div className="relative aspect-[4/3] overflow-hidden">
+                  <img
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ef99620ec_3dcbb42176ccd5762fc415dc0d74dd2d.jpg"
+                    srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ef99620ec_3dcbb42176ccd5762fc415dc0d74dd2d.jpg 800w, https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ef99620ec_3dcbb42176ccd5762fc415dc0d74dd2d.jpg 1200w"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    alt="Restaurant with ambient lighting demonstrating how music influences customer behavior and sales"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
+                    How Brand-Fit Music Converts Browsers into Buyers
+                  </h3>
+                  <p className="text-black/70 mb-4 leading-relaxed">
+                    Evidence-based research showing how brand-aligned music increases sales by 9.1%. Perfect for <Link to={createPageUrl("restaurants-bars")} className="underline hover:text-black">restaurants and bars</Link> looking to enhance their atmosphere.
+                  </p>
+                  <Link to={createPageUrl("brand-music-converts-browsers-buyers")} className="inline-flex items-center text-black font-semibold group-hover:translate-x-2 transition-transform" aria-label="Read more about How Brand-Fit Music Converts Browsers into Buyers">
+                    <span>Explore insights</span>
+                    <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                  </Link>
+                </div>
+              </Card>
+            </article>
+
+            {/* Blog Post 3 */}
+            <article role="listitem">
+              <Card className="overflow-hidden hover:shadow-2xl transition-all duration-300 group bg-white">
+                <div className="relative aspect-[4/3] overflow-hidden">
+                  <img
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/254c849b4_Screenshot2025-05-06at52431PM.png"
+                    srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/254c849b4_Screenshot2025-05-06at52431PM.png 800w, https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/254c849b4_Screenshot2025-05-06at52431PM.png 1200w"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    alt="Music curator at work selecting tracks for bespoke playlist curation service"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
+                    What Exactly Does a Music Curator Do?
+                  </h3>
+                  <p className="text-black/70 mb-4 leading-relaxed">
+                    Learn how the right music translates your visual language into an emotional experience. Explore our <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black">signature playlists service</Link>.
+                  </p>
+                  <Link to={createPageUrl("what-exactly-does-music-curator-do")} className="inline-flex items-center text-black font-semibold group-hover:translate-x-2 transition-transform" aria-label="Read more about What Exactly Does a Music Curator Do?">
+                    <span>Read article</span>
+                    <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                  </Link>
+                </div>
+              </Card>
+            </article>
           </div>
 
           <div className="text-center">
