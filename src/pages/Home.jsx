@@ -197,8 +197,8 @@ export default function Home() {
       <section className="relative pt-24 pb-20 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Hero section">
         <div className="max-w-7xl mx-auto px-6">
           <div className="w-full">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[4rem] font-bold text-black mb-6 leading-[1.1]">
-              Music Curation that turns Spaces into Experiences
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[4rem] font-bold text-black mb-6 leading-[1.1]">Music Curation for Unique Experiences
+
             </h1>
             
             <div className="mb-8 max-w-5xl">
@@ -231,6 +231,8 @@ export default function Home() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/2be61da07_upscalemedia-transformed_ADOBE.png"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/2be61da07_upscalemedia-transformed_ADOBE.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/2be61da07_upscalemedia-transformed_ADOBE.png 2400w"
+
+
 
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Luxury rooftop bar with stunning sunset views and ambient music atmosphere"
@@ -360,89 +362,67 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 id="services-heading" className="text-4xl font-bold text-black mb-4 leading-[1.25]">How We Create Your Sonic Identity</h2>
             <p className="text-xl text-black/70 max-w-3xl mx-auto">
-              <span>We provide all the music solutions that will elevate your space or event and leave a lasting impression. Explore our </span><Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">full range of music curation services</Link><span>.</span>
+              <span className="">We provide all the music solutions that will elevate your space or event & leave a lasting impression. Explore our </span><Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">full range of music curation services</Link><span>.</span>
             </p>
           </div>
 
-          {/* First Row: Larger Cards (Signature Playlists & Music for Events) */}
-          <div className="grid md:grid-cols-2 gap-8 mb-8 items-stretch" role="list">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8" role="list">
             <article role="listitem">
-              <Link to={createPageUrl("signature-playlists")} aria-label="Create Your Signature Sound">
-                <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 h-full bg-white">
+              <Link to={createPageUrl("signature-playlists")} aria-label="Learn more about Signature Playlists">
+                <div className="group rounded-2xl bg-white/80 backdrop-blur-sm hover:bg-white hover:shadow-2xl transition-all duration-300 h-full flex flex-col overflow-hidden">
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg"
-                      srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg 800w,
-                              https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg 1200w"
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       alt="Bespoke music curation and playlist creation"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
 
-                    <div className="absolute inset-0" aria-hidden="true" />
-                    
+                    <div className="absolute inset-0" />
                     <div className="absolute top-4 left-4">
-                      <div className="bg-red-50 text-black opacity-75 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
-                        <Music className="w-8 h-8" />
+                      <div className="bg-red-50 text-black opacity-80 rounded-full w-12 h-12 flex items-center justify-center">
+                        <Music className="w-6 h-6" />
                       </div>
                     </div>
                   </div>
-
-                  <div className="p-6">
-                    <h3 className="text-2xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      Signature Playlists
-                    </h3>
-                    <p className="text-black/70 mb-4">
-                      Bespoke, brand-exclusive playlists sourced from rare archives for venues that refuse to sound generic.
-                    </p>
-                    <div className="flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
-                      <span>Create Your Signature Sound</span>
-                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                  <div className="p-6 flex-grow flex flex-col">
+                    <h3 className="text-xl font-bold text-black mb-3">Signature Playlists</h3>
+                    <p className="text-black/70 mb-4 flex-grow text-sm">Bespoke, brand-exclusive playlists sourced from rare archives for venues that refuse to sound generic.</p>
+                    <div className="flex items-center text-black font-semibold group-hover:translate-x-2 transition-transform">
+                      <span>Learn More</span>
+                      <ArrowRight className="ml-2 w-4 h-4" />
                     </div>
                   </div>
-                </Card>
+                </div>
               </Link>
             </article>
 
             <article role="listitem">
-              <Link to={createPageUrl("event-soundtracks")} aria-label="Design Your Event Atmosphere">
-                <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 h-full bg-white">
+              <Link to={createPageUrl("event-soundtracks")} aria-label="Learn more about Music for Events">
+                <div className="group rounded-2xl bg-white/80 backdrop-blur-sm hover:bg-white hover:shadow-2xl transition-all duration-300 h-full flex flex-col overflow-hidden">
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg"
-                      srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg 800w,
-                              https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg 1200w"
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       alt="Professional event production with music curation"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
 
-                    <div className="absolute inset-0" aria-hidden="true" />
-                    
+                    <div className="absolute inset-0" />
                     <div className="absolute top-4 left-4">
-                      <div className="bg-red-50 text-black opacity-75 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
-                        <Sparkles className="w-8 h-8" />
+                      <div className="bg-red-50 text-black opacity-80 rounded-full w-12 h-12 flex items-center justify-center">
+                        <Sparkles className="w-6 h-6" />
                       </div>
                     </div>
                   </div>
-
-                  <div className="p-6">
-                    <h3 className="text-2xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      Event Soundtracks
-                    </h3>
-                    <p className="text-black/70 mb-4">
-                      Artfully selected, custom-curated soundtracks and seamless AV production that elevate events into immersive, unforgettable moments.
-                    </p>
-                    <div className="flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
-                      <span>Design Your Event Atmosphere</span>
-                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                  <div className="p-6 flex-grow flex flex-col">
+                    <h3 className="text-xl font-bold text-black mb-3">Music for Events</h3>
+                    <p className="text-black/70 mb-4 flex-grow text-sm">Artfully selected and curated soundtracks & live DJ sets that elevate events into engaging, unforgettable moments.</p>
+                    <div className="flex items-center text-black font-semibold group-hover:translate-x-2 transition-transform">
+                      <span>Learn More</span>
+                      <ArrowRight className="ml-2 w-4 h-4" />
                     </div>
                   </div>
-                </Card>
+                </div>
               </Link>
             </article>
-          </div>
 
-          {/* Second Row: Smaller Cards (Sonic Strategy & Audio Upgrades) */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8" role="list">
             <article role="listitem">
               <Link to={createPageUrl("sonic-strategy")} aria-label="Learn more about Sonic Strategy">
                 <div className="group rounded-2xl bg-white/80 backdrop-blur-sm hover:bg-white hover:shadow-2xl transition-all duration-300 h-full flex flex-col overflow-hidden">
@@ -584,9 +564,9 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-16">
-            <Link to={createPageUrl("CaseStudies")}>
-              <Button size="lg" className="bg-black text-white px-8 py-6 text-lg font-medium hover:bg-black/80" aria-label="See how we helped others">
-                See How We Helped Others
+            <Link to={createPageUrl("ContactUs")}>
+              <Button size="lg" className="bg-black text-white px-8 py-6 text-lg font-medium hover:bg-black/80" aria-label="Schedule your free consultation">
+                Schedule Your Free Consultation
               </Button>
             </Link>
           </div>
