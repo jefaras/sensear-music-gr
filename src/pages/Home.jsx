@@ -77,12 +77,12 @@ export default function Home() {
     }
 
     const ogTags = [
-      { property: 'og:title', content: 'SensEar - Bespoke Music Curation & Sonic Branding' },
-      { property: 'og:description', content: description },
-      { property: 'og:image', content: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg' },
-      { property: 'og:url', content: 'https://sensear.music/' },
-      { property: 'og:type', content: 'website' }
-    ];
+    { property: 'og:title', content: 'SensEar - Bespoke Music Curation & Sonic Branding' },
+    { property: 'og:description', content: description },
+    { property: 'og:image', content: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg' },
+    { property: 'og:url', content: 'https://sensear.music/' },
+    { property: 'og:type', content: 'website' }];
+
 
     ogTags.forEach((tag) => {
       let metaTag = document.querySelector(`meta[property="${tag.property}"]`);
@@ -97,11 +97,11 @@ export default function Home() {
     });
 
     const twitterTags = [
-      { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'SensEar - Bespoke Music Curation & Sonic Branding' },
-      { name: 'twitter:description', content: description },
-      { name: 'twitter:image', content: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg' }
-    ];
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'SensEar - Bespoke Music Curation & Sonic Branding' },
+    { name: 'twitter:description', content: description },
+    { name: 'twitter:image', content: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg' }];
+
 
     twitterTags.forEach((tag) => {
       let metaTag = document.querySelector(`meta[name="${tag.name}"]`);
@@ -116,44 +116,44 @@ export default function Home() {
     });
 
     const structuredData = [
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "SensEar",
-        "alternateName": "SensEar Music Curation",
-        "url": "https://sensear.music",
-        "logo": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg",
-        "description": "Bespoke music curation and sonic branding for hotels, restaurants, and events.",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Athens",
-          "addressCountry": "GR"
-        },
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+30-6976994212",
-          "email": "hello@sensear.music",
-          "contactType": "Customer Service"
-        },
-        "sameAs": [
-          "https://www.facebook.com/61575909304249/",
-          "https://www.instagram.com/sensear.music",
-          "https://www.linkedin.com/company/sensear"
-        ]
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "SensEar",
+      "alternateName": "SensEar Music Curation",
+      "url": "https://sensear.music",
+      "logo": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg",
+      "description": "Bespoke music curation and sonic branding for hotels, restaurants, and events.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Athens",
+        "addressCountry": "GR"
       },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+30-6976994212",
+        "email": "hello@sensear.music",
+        "contactType": "Customer Service"
+      },
+      "sameAs": [
+      "https://www.facebook.com/61575909304249/",
+      "https://www.instagram.com/sensear.music",
+      "https://www.linkedin.com/company/sensear"]
+
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
       {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://sensear.music/"
-          }
-        ]
-      }
-    ];
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://sensear.music/"
+      }]
+
+    }];
+
 
     let structuredDataScript = document.querySelector('script[type="application/ld+json"]');
     if (structuredDataScript) {
@@ -203,8 +203,8 @@ export default function Home() {
             
             <div className="mb-8 max-w-5xl">
               <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
-                Every venue has a story. Let music tell yours. <br/>
-                We craft bespoke Playlists for Hotels, Restaurants, Bars & Events that create atmosphere, emotional connections & loyal guests.<br/> 
+                Every venue has a story. Let music tell yours. <br />
+                We craft bespoke Playlists for Hotels, Restaurants, Bars & Events that create atmosphere, emotional connections & loyal guests.<br /> 
                 Not just background music.
               </p>
             </div>
@@ -231,6 +231,7 @@ export default function Home() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/2be61da07_upscalemedia-transformed_ADOBE.png"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/2be61da07_upscalemedia-transformed_ADOBE.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/2be61da07_upscalemedia-transformed_ADOBE.png 2400w"
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Luxury rooftop bar with stunning sunset views and ambient music atmosphere"
                 className="absolute w-full h-full object-cover"
@@ -239,8 +240,8 @@ export default function Home() {
                   height: '130%',
                   transform: `translateY(${scrollY * 0.15}px)`,
                   transformOrigin: 'center top'
-                }}
-              />
+                }} />
+
             </div>
           </div>
         </div>
@@ -371,8 +372,8 @@ export default function Home() {
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg"
                       alt="Bespoke music curation and playlist creation"
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    />
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+
                     <div className="absolute inset-0" />
                     <div className="absolute top-4 left-4">
                       <div className="bg-red-50 text-black opacity-80 rounded-full w-12 h-12 flex items-center justify-center">
@@ -399,8 +400,8 @@ export default function Home() {
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg"
                       alt="Professional event production with music curation"
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    />
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+
                     <div className="absolute inset-0" />
                     <div className="absolute top-4 left-4">
                       <div className="bg-red-50 text-black opacity-80 rounded-full w-12 h-12 flex items-center justify-center">
@@ -427,8 +428,8 @@ export default function Home() {
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg"
                       alt="Strategic sonic branding consultation"
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    />
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+
                     <div className="absolute inset-0" />
                     <div className="absolute top-4 left-4">
                       <div className="bg-red-50 text-black opacity-80 rounded-full w-12 h-12 flex items-center justify-center">
@@ -455,8 +456,8 @@ export default function Home() {
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg"
                       alt="Professional audio equipment optimization"
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    />
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+
                     <div className="absolute inset-0" />
                     <div className="absolute top-4 left-4">
                       <div className="bg-red-50 text-black opacity-80 rounded-full w-12 h-12 flex items-center justify-center">
@@ -494,7 +495,7 @@ export default function Home() {
                   <CheckCircle className="w-5 h-5 text-black" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2 text-black">Enhanced Guest Experience & Loyalty</h3>
+                  <h3 className="text-xl font-bold mb-2 text-black">Delight Your Guests</h3>
                   <p className="text-black/70 leading-relaxed">
                     <span>Curated music is a practical way to shape how guests feel, what they remember, and how they spend. Learn </span><Link to={createPageUrl("three-reasons-make-music-hospitality")} className="underline hover:text-black font-semibold">how hotels and resorts benefit</Link><span> from strategic music curation.</span>
                   </p>
@@ -555,8 +556,8 @@ export default function Home() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/03aebeb4e_car-1.png"
                 alt="SensEar branded car with logo stickers"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+                className="w-full h-auto rounded-2xl shadow-lg" />
+
             </div>
           </div>
 
@@ -588,8 +589,8 @@ export default function Home() {
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9619c7d50_e56c8a322bf8043723ba7e215cf5e636.jpg"
                       alt="Luxury hotel interior"
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    />
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+
                   </div>
                   <div className="p-6">
                     <Badge className="mb-3 bg-black/5 text-black border-black/10">Insights</Badge>
@@ -615,8 +616,8 @@ export default function Home() {
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ef99620ec_3dcbb42176ccd5762fc415dc0d74dd2d.jpg"
                       alt="Restaurant ambiance"
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    />
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+
                   </div>
                   <div className="p-6">
                     <Badge className="mb-3 bg-black/5 text-black border-black/10">Research</Badge>
@@ -642,8 +643,8 @@ export default function Home() {
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/254c849b4_Screenshot2025-05-06at52431PM.png"
                       alt="Professional music curator"
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    />
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+
                   </div>
                   <div className="p-6">
                     <Badge className="mb-3 bg-black/5 text-black border-black/10">Education</Badge>
@@ -673,6 +674,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 }
