@@ -364,7 +364,7 @@ export default function BeachHouseAntiparos() {
             Ready to Elevate Your Guest Experience?
           </h2>
           <p className="text-xl text-black/70 mb-8">
-            Let us create a tailored sonic experience for your property. Explore our <Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black font-semibold">hotel & resort solutions</Link> or view more <Link to={createPageUrl("CaseStudies")} className="underline hover:text-black font-semibold">success stories</Link>.
+            <span>Let us create a tailored sonic experience for your property. Explore our </span><Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black font-semibold">hotel & resort solutions</Link><span> or view more </span><Link to={createPageUrl("CaseStudies")} className="underline hover:text-black font-semibold">success stories</Link><span>.</span>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to={createPageUrl("ContactUs")}>

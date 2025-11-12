@@ -286,7 +286,7 @@ From custom playlists, live DJ sets to sound audits and setup, we ensure your ev
             </article>
           </div>
           <p className="text-center text-black/70 mt-12 max-w-3xl mx-auto">
-            Our event music services build on our <Link to={createPageUrl("sonic-strategy")} className="underline hover:text-black font-semibold">strategic sonic approach</Link>. Learn about <Link to={createPageUrl("service-environment-shapes-wait-time")} className="underline hover:text-black font-semibold">how environment affects guest perception</Link>.
+            <span>Our event music services build on our </span><Link to={createPageUrl("sonic-strategy")} className="underline hover:text-black font-semibold">strategic sonic approach</Link><span>. Learn about </span><Link to={createPageUrl("service-environment-shapes-wait-time")} className="underline hover:text-black font-semibold">how environment affects guest perception</Link><span>.</span>
           </p>
         </div>
       </section>
@@ -405,7 +405,7 @@ From custom playlists, live DJ sets to sound audits and setup, we ensure your ev
           </div>
           <div className="text-center mt-12">
             <p className="text-black/70">
-              Understand <Link to={createPageUrl("what-exactly-does-music-curator-do")} className="underline hover:text-black font-semibold">what a professional music curator brings</Link> to your event. Discover solutions for all <Link to={createPageUrl("Industries")} className="underline hover:text-black font-semibold">industries we serve</Link>. Read <Link to={createPageUrl("three-reasons-make-music-hospitality")} className="underline hover:text-black font-semibold">why music matters in hospitality</Link> and learn <Link to={createPageUrl("service-environment-shapes-wait-time")} className="underline hover:text-black font-semibold">how environment affects guest perception</Link>.
+              <span>Understand </span><Link to={createPageUrl("what-exactly-does-music-curator-do")} className="underline hover:text-black font-semibold">what a professional music curator brings</Link><span> to your event. Discover solutions for all </span><Link to={createPageUrl("Industries")} className="underline hover:text-black font-semibold">industries we serve</Link><span>. Read </span><Link to={createPageUrl("three-reasons-make-music-hospitality")} className="underline hover:text-black font-semibold">why music matters in hospitality</Link><span> and learn </span><Link to={createPageUrl("service-environment-shapes-wait-time")} className="underline hover:text-black font-semibold">how environment affects guest perception</Link><span>.</span>
             </p>
           </div>
         </div>

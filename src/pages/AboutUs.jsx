@@ -409,7 +409,7 @@ export default function AboutUs() {
         <div className="max-w-6xl mx-auto px-6">
           <h2 id="vision-heading" className="text-4xl font-bold text-center mb-4 animate-fade-in-up text-peach">Our Vision</h2>
           <p className="text-2xl text-center max-w-4xl mx-auto text-white/90 animate-fade-in-up leading-relaxed" style={{ animationDelay: '0.2s' }}>
-            To become the leading music partner for sophisticated hospitality brands and events seeking to express identity, elevate atmosphere, and create lasting guest connections through curated sound. Learn more about our approach through our <Link to={createPageUrl("sonic-strategy")} className="underline hover:text-peach font-semibold">sonic strategy service</Link>.
+            <span>To become the leading music partner for sophisticated hospitality brands and events seeking to express identity, elevate atmosphere, and create lasting guest connections through curated sound. Learn more about our approach through our </span><Link to={createPageUrl("sonic-strategy")} className="underline hover:text-peach font-semibold">sonic strategy service</Link><span>.</span>
           </p>
         </div>
       </section>
@@ -471,7 +471,7 @@ Known for her instinctive selections and taste for rare grooves, she brings dept
             </article>
           </div>
           <p className="text-center mt-12 text-lg max-w-3xl mx-auto text-black/80 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
-            Together, John, George, and Katerina form SensEar's creative core, a team committed to elevating spaces through music that is always intentional, immersive, and unforgettable. See how we work with clients in our <Link to={createPageUrl("CaseStudies")} className="underline hover:text-black font-semibold">case studies</Link> or <Link to={createPageUrl("ContactUs")} className="underline hover:text-black font-semibold">get in touch</Link> to discuss your project.
+            <span>Together, John, George, and Katerina form SensEar's creative core, a team committed to elevating spaces through music that is always intentional, immersive, and unforgettable. See how we work with clients in our </span><Link to={createPageUrl("CaseStudies")} className="underline hover:text-black font-semibold">case studies</Link><span> or </span><Link to={createPageUrl("ContactUs")} className="underline hover:text-black font-semibold">get in touch</Link><span> to discuss your project.</span>
           </p>
         </div>
       </section>
@@ -533,7 +533,10 @@ Known for her instinctive selections and taste for rare grooves, she brings dept
             </article>
           </div>
           <p className="text-center mt-12 text-lg text-black/80 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
-            Experience our unique approach through our <Link to={createPageUrl("signature-soundscapes")} className="underline hover:text-black">signature soundscapes</Link> or explore solutions for your <Link to={createPageUrl("Industries")} className="underline hover:text-black">specific industry</Link>.
+            <span>Experience our unique approach through our </span><Link to={createPageUrl("signature-soundscapes")} className="underline hover:text-black">signature soundscapes</Link><span> or explore solutions for your </span><Link to={createPageUrl("Industries")} className="underline hover:text-black">specific industry</Link><span>.</span>
+          </p>
+          <p className="text-center mt-6 text-lg text-black/80 animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
+            <span>Experience our unique approach through our </span><Link to={createPageUrl("signature-soundscapes")} className="underline hover:text-black">signature soundscapes</Link><span> or explore solutions for your </span><Link to={createPageUrl("Industries")} className="underline hover:text-black">specific industry</Link><span>.</span>
           </p>
         </div>
       </section>

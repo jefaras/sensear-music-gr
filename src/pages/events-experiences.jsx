@@ -355,7 +355,7 @@ export default function EventsExperiences() {
           </div>
           <div className="text-center mt-16">
             <p className="text-black/70 mb-6">
-              Explore other <Link to={createPageUrl("Industries")} className="underline hover:text-black font-semibold">industries we serve</Link>, discover all our <Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">services</Link>, or learn about <Link to={createPageUrl("what-exactly-does-music-curator-do")} className="underline hover:text-black font-semibold">what music curators do</Link>.
+              <span>Explore other </span><Link to={createPageUrl("Industries")} className="underline hover:text-black font-semibold">industries we serve</Link><span>, discover all our </span><Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">services</Link><span>, or learn about </span><Link to={createPageUrl("what-exactly-does-music-curator-do")} className="underline hover:text-black font-semibold">what music curators do</Link><span>.</span>
             </p>
             <Link to={createPageUrl("ContactUs")}>
               <Button size="lg" className="bg-black text-white hover:bg-black/80" aria-label="Plan Your Perfect Soundtrack">Plan Your Perfect Soundtrack</Button>

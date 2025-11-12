@@ -362,7 +362,7 @@ export default function ArtMuseumsFashion() {
 
           <div className="text-center mt-16">
             <p className="text-black/70 mb-6">
-              Explore other <Link to={createPageUrl("Industries")} className="underline hover:text-black font-semibold">industries we serve</Link>, discover our <Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">full services</Link>, or <Link to={createPageUrl("ContactUs")} className="underline hover:text-black font-semibold">get in touch</Link> to discuss your next exhibition or show.
+              <span>Explore other </span><Link to={createPageUrl("Industries")} className="underline hover:text-black font-semibold">industries we serve</Link><span>, discover our </span><Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">full services</Link><span>, or </span><Link to={createPageUrl("ContactUs")} className="underline hover:text-black font-semibold">get in touch</Link><span> to discuss your next exhibition or show.</span>
             </p>
             <Link to={createPageUrl("ContactUs")}>
               <Button size="lg" className="bg-black text-white hover:bg-black/80" aria-label="Curate Your Gallery Sound">Curate Your Gallery Sound</Button>
