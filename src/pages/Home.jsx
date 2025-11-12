@@ -584,9 +584,9 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-16">
-            <Link to={createPageUrl("ContactUs")}>
-              <Button size="lg" className="bg-black text-white px-8 py-6 text-lg font-medium hover:bg-black/80" aria-label="Schedule your free consultation">
-                Schedule Your Free Consultation
+            <Link to={createPageUrl("CaseStudies")}>
+              <Button size="lg" className="bg-black text-white px-8 py-6 text-lg font-medium hover:bg-black/80" aria-label="See how we helped others">
+                See How We Helped Others
               </Button>
             </Link>
           </div>
