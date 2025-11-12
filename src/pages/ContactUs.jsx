@@ -567,7 +567,7 @@ This inquiry has been saved to the database and can be viewed in the admin panel
             Frequently Asked Questions
           </h2>
           <p className="text-center text-black/70 mb-12">
-            Find answers to common questions about our <Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">music curation services</Link>. For more detailed information, visit our <Link to={createPageUrl("FAQ")} className="underline hover:text-black font-semibold">complete FAQ page</Link>.
+            <span>Find answers to common questions about our </span><Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">music curation services</Link><span>. For more detailed information, visit our </span><Link to={createPageUrl("FAQ")} className="underline hover:text-black font-semibold">complete FAQ page</Link><span>.</span>
           </p>
           <Accordion type="single" collapsible className="w-full space-y-4">
             <AccordionItem value="item-0" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">

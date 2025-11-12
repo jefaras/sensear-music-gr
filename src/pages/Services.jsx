@@ -308,7 +308,7 @@ export default function Services() {
         <div className="max-w-7xl mx-auto px-6">
             <h2 id="services-list-heading" className="text-4xl font-bold text-black mb-6 text-center">Our Music Curation Services</h2>
             <p className="text-center text-black/70 mb-12 max-w-3xl mx-auto text-lg">
-              From strategic <Link to={createPageUrl("sonic-strategy")} className="underline hover:text-black font-semibold">sonic branding consultancy</Link> to <Link to={createPageUrl("event-soundtracks")} className="underline hover:text-black font-semibold">immersive music event experiences</Link>, we offer comprehensive solutions. Read our <Link to={createPageUrl("CaseStudies")} className="underline hover:text-black font-semibold">case studies</Link> to see how we've transformed venues across Greece.
+              <span>From strategic </span><Link to={createPageUrl("sonic-strategy")} className="underline hover:text-black font-semibold">sonic branding consultancy</Link><span> to </span><Link to={createPageUrl("event-soundtracks")} className="underline hover:text-black font-semibold">immersive music event experiences</Link><span>, we offer comprehensive solutions. Read our </span><Link to={createPageUrl("CaseStudies")} className="underline hover:text-black font-semibold">case studies</Link><span> to see how we've transformed venues across Greece.</span>
             </p>
           <div className="grid md:grid-cols-2 gap-8 items-stretch" role="list">
             {/* Service 1: Signature Playlists */}
@@ -481,7 +481,7 @@ export default function Services() {
           </div>
           <div className="text-center mt-12">
             <p className="text-black/70 mb-4 max-w-3xl mx-auto">
-              Whether you're a <Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black font-semibold">hotel</Link>, <Link to={createPageUrl("restaurants-bars")} className="underline hover:text-black font-semibold">restaurant</Link>, or <Link to={createPageUrl("retail-stores")} className="underline hover:text-black font-semibold">retail space</Link>, we have the expertise to elevate your atmosphere.
+              <span>Whether you're a </span><Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black font-semibold">hotel</Link><span>, </span><Link to={createPageUrl("restaurants-bars")} className="underline hover:text-black font-semibold">restaurant</Link><span>, or </span><Link to={createPageUrl("retail-stores")} className="underline hover:text-black font-semibold">retail space</Link><span>, we have the expertise to elevate your atmosphere.</span>
             </p>
             <Link to={createPageUrl("Industries")}>
               <Button size="lg" variant="outline" className="bg-transparent border-2 border-black text-black hover:bg-black hover:text-white group">
