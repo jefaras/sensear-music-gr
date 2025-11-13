@@ -305,6 +305,7 @@ Curated to shape your venue's mood & energy
 
 
 
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Bespoke music curation and playlist creation for unique venue atmosphere"
                 className="absolute w-full h-full object-cover md:hidden" />
@@ -314,6 +315,7 @@ Curated to shape your venue's mood & energy
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg 2400w"
+
 
 
 
@@ -338,11 +340,11 @@ Curated to shape your venue's mood & energy
 
       {/* Breadcrumbs - COMMENTED OUT */}
       {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
-               <Breadcrumbs items={[
-               { label: "Services", path: createPageUrl("Services") },
-               { label: "Signature Playlists", path: createPageUrl("signature-playlists") }]
-               } />
-              </div> */}
+                <Breadcrumbs items={[
+                { label: "Services", path: createPageUrl("Services") },
+                { label: "Signature Playlists", path: createPageUrl("signature-playlists") }]
+                } />
+               </div> */}
 
       <section className="py-24" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="what-we-do-heading">
         <div className="max-w-5xl mx-auto px-6">
@@ -440,7 +442,7 @@ Curated to shape your venue's mood & energy
                 <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
                 <div>
                   <h3 className="text-xl font-bold mb-2">Generic playlists that miss the mark</h3>
-                  <p className="text-black/70">Streaming services and in-store providers often rely on templates. The result feels flat or unrelated to your space. We tailor music to your brand identity and venue rhythm—no filler, no guesswork.</p>
+                  <p className="text-black/70">Template playlists of streaming services are flat or unrelated to your space. We tailor music to your brand, venue & goals.</p>
                 </div>
               </div>
             </article>
