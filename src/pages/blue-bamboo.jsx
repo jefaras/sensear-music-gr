@@ -238,9 +238,9 @@ export default function BlueBamboo() {
         {/* Text content */}
         <div className="max-w-7xl mx-auto px-6">
           <div className="w-full">
-            <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">Building a timeless Thai fusion atmosphere
-
-
+            <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
+              Building Blue Bamboo's<br />
+              timeless Thai fusion atmosphere
             </h1>
             
             <div className="mb-8 max-w-4xl slide-up-2">
@@ -260,27 +260,25 @@ export default function BlueBamboo() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/bdff56d5e_blue_bamboo_collage.png"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/bdff56d5e_blue_bamboo_collage.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/bdff56d5e_blue_bamboo_collage.png 2400w"
-
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Blue Bamboo Thai restaurant with curated music atmosphere"
-                className="absolute w-full h-full object-cover md:hidden" />
-
+                className="absolute w-full h-full object-cover md:hidden"
+              />
               {/* Desktop version - WITH parallax */}
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/bdff56d5e_blue_bamboo_collage.png"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/bdff56d5e_blue_bamboo_collage.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/bdff56d5e_blue_bamboo_collage.png 2400w"
-
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Blue Bamboo Thai restaurant with curated music atmosphere"
                 className="absolute w-full h-full object-cover hidden md:block"
-                style={{
+                style={{ 
                   top: '-15%',
                   height: '130%',
                   transform: `translateY(${scrollY * 0.15}px)`,
                   transformOrigin: 'center top'
-                }} />
-
+                }}
+              />
             </div>
           </div>
         </div>
@@ -288,11 +286,11 @@ export default function BlueBamboo() {
 
       {/* Breadcrumbs - COMMENTED OUT */}
       {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
-         <Breadcrumbs items={[
-         { label: "Case Studies", path: createPageUrl("CaseStudies") },
-         { label: "Blue Bamboo", path: createPageUrl("blue-bamboo") }]
-         } />
-        </div> */}
+        <Breadcrumbs items={[
+        { label: "Case Studies", path: createPageUrl("CaseStudies") },
+        { label: "Blue Bamboo", path: createPageUrl("blue-bamboo") }]
+        } />
+      </div> */}
 
       {/* Main Content Section */}
       <section className="py-24" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
