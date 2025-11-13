@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { createPageUrl } from "@/utils";
@@ -309,14 +310,14 @@ export default function Layout({ children }) {
               </div>
             )}
             
-            {/* Contact Button - Outline style with underline on hover */}
+            {/* Contact Button - Outline style with underline on hover, color inverts when scrolled */}
             <Link to={createPageUrl("ContactUs")}>
               <Button 
                 variant="outline" 
-                className={`font-bold transition-colors hover:underline decoration-1 underline-offset-4 ${
+                className={`font-bold bg-transparent hover:bg-transparent transition-colors hover:underline decoration-1 underline-offset-4 ${
                   isScrolled 
-                    ? 'border-white text-white hover:text-white' 
-                    : 'border-black text-black hover:text-black'
+                    ? 'border-white text-white hover:border-white hover:text-white' 
+                    : 'border-black text-black hover:border-black hover:text-black'
                 }`}>
                 Contact
               </Button>
