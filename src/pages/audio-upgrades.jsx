@@ -264,17 +264,17 @@ export default function AudioUpgrades() {
           <h2 id="what-we-do-heading" className="text-4xl font-bold text-center mb-6 animate-fade-in-up leading-[1.25]">What We Do</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8" role="list">
 
-            <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
+            <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
               <Card className="bg-white p-8 shadow-lg h-full">
                 <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
                   <Package className="w-8 h-8" />
                 </div>
-                <h3 className="text-lg text-black/70">Procurement and installation with trusted AV partners</h3>
+                <h3 className="text-2xl font-bold mb-4">Procurement and installation with trusted AV partners</h3>
                 <p className="text-lg text-black/70">We source premium equipment and coordinate professional installation via our certified partners network.</p>
               </Card>
             </article>
             
-            <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
+            <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
               <Card className="bg-white p-8 shadow-lg h-full">
                 <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
                   <Lightbulb className="w-8 h-8" />
