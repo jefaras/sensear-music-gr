@@ -293,13 +293,13 @@ Sound matching perfectly with your space
                 <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
                   <CheckSquare className="w-8 h-8" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4">We calibrate your systems, ensuring optimal performance in live environment conditions.</h3>
+                <h3 className="text-2xl font-bold mb-4">Tuning and walkthrough under real conditions</h3>
                 <p className="text-lg text-black/70">We calibrate your system during actual operations, ensuring optimal performance in live environment conditions.</p>
               </Card>
             </article>
           </div>
           <p className="text-center text-black/70 mt-12 max-w-3xl mx-auto">
-            <span>Sound in perfect alignment with your space. Essential for </span><Link to={createPageUrl("restaurants-bars")} className="underline hover:text-black font-semibold">restaurants & bars</Link><span>, </span><Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black font-semibold">hotels</Link><span>, and </span><Link to={createPageUrl("retail-stores")} className="underline hover:text-black font-semibold">retail spaces</Link><span>. Complements our </span><Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">signature playlists</Link><span> perfectly.</span>
+            <span>Essential for </span><Link to={createPageUrl("restaurants-bars")} className="underline hover:text-black font-semibold">restaurants & bars</Link><span>, </span><Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black font-semibold">hotels</Link><span>, and </span><Link to={createPageUrl("retail-stores")} className="underline hover:text-black font-semibold">retail spaces</Link><span>. Complements our </span><Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">signature playlists</Link><span> perfectly.</span>
           </p>
         </div>
       </section>
