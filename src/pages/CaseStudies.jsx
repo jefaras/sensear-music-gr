@@ -469,11 +469,11 @@ export default function CaseStudies() {
               <div className="text-center">
                 <h2 id="cta-heading" className="text-3xl sm:text-4xl font-bold mb-6">Interested in similar results?</h2>
                 <p className="text-lg sm:text-xl text-white/80 mb-8 px-4">
-                  Explore our <Link to={createPageUrl("Industries")} className="underline hover:text-white font-semibold">industry-specific solutions</Link> or <Link to={createPageUrl("ContactUs")} className="underline hover:text-white font-semibold">schedule a consultation</Link> to discuss your project.
+                  Explore our <Link to={createPageUrl("Industries")} className="underline hover:text-white font-semibold">industry-specific solutions</Link> or <Link to={createPageUrl("ContactUs")} className="underline hover:text-white font-semibold">get in touch</Link> to discuss your project.
                 </p>
                 <Link to={createPageUrl("ContactUs")}>
-                  <Button size="lg" className="bg-zinc-50 text-black px-6 py-6 text-sm font-medium leading-tight rounded-md inline-flex items-center justify-center gap-2 ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 hover:bg-[#f0dfd5] w-full sm:w-auto sm:px-8 sm:text-base md:text-lg whitespace-normal" aria-label="Schedule a consultation">
-                    Schedule a Consultation
+                  <Button size="lg" className="bg-zinc-50 text-black px-6 py-6 text-sm font-medium leading-tight rounded-md inline-flex items-center justify-center gap-2 ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 hover:bg-[#f0dfd5] w-full sm:w-auto sm:px-8 sm:text-base md:text-lg whitespace-normal" aria-label="Contact Us">
+                    Contact Us
                   </Button>
                 </Link>
               </div>
