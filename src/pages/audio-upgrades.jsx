@@ -260,35 +260,6 @@ export default function AudioUpgrades() {
         <div className="max-w-5xl mx-auto px-6">
           <h2 id="what-we-do-heading" className="text-4xl font-bold text-center mb-6 animate-fade-in-up leading-[1.25]">What We Do</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8" role="list">
-            <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-              <Card className="bg-white p-8 shadow-lg h-full">
-                <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
-                  <Settings className="w-8 h-8" />
-                </div>
-                <h3 className="text-2xl font-bold mb-4">On-site acoustic audits and layout assessments</h3>
-                <p className="text-lg text-black/70">We analyze your space's acoustics and current setup to identify issues and opportunities for improvement.</p>
-              </Card>
-            </article>
-
-            <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
-              <Card className="bg-white p-8 shadow-lg h-full">
-                <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
-                  <Volume2 className="w-8 h-8" />
-                </div>
-                <h3 className="text-2xl font-bold mb-4">Hardware testing and zone performance</h3>
-                <p className="text-lg text-black/70">We test speakers, amplifiers, and coverage to ensure every zone delivers crystal-clear sound.</p>
-              </Card>
-            </article>
-
-            <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-              <Card className="bg-white p-8 shadow-lg h-full">
-                <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
-                  <Wrench className="w-8 h-8" />
-                </div>
-                <h3 className="text-2xl font-bold mb-4">Redesigns for clarity and immersive flow</h3>
-                <p className="text-lg text-black/70">We create tailored solutions that enhance clarity, coverage, and create an immersive audio experience.</p>
-              </Card>
-            </article>
 
             <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
               <Card className="bg-white p-8 shadow-lg h-full">
