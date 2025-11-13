@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { createPageUrl } from "@/utils";
@@ -429,7 +430,7 @@ export default function Services() {
           </div>
 
           {/* Second row: Sonic Strategy and Audio Upgrades - SMALLER & CENTERED */}
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8 items-stretch" role="list">
               {/* Service 3: Sonic Strategy */}
               <article role="listitem">
