@@ -292,7 +292,7 @@ export default function AudioUpgrades() {
                 <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
                   <CheckSquare className="w-8 h-8" />
                 </div>
-                <h3 className="text-lg text-black/70">We calibrate your systems, ensuring optimal performance in live environment conditions.</h3>
+                <h3 className="text-2xl font-bold mb-4">We calibrate your systems, ensuring optimal performance in live environment conditions.</h3>
                 <p className="text-lg text-black/70">We calibrate your system during actual operations, ensuring optimal performance in live environment conditions.</p>
               </Card>
             </article>
