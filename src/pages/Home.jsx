@@ -244,10 +244,10 @@ We craft custom Playlists for Hotels, Restaurants, Bars & Events that create atm
             <div className="flex flex-col sm:flex-row gap-4 mb-12 slide-up-3">
               {/* Discover Your Sound button - COMMENTED OUT */}
               {/* <Link to={createPageUrl("ContactUs")}>
-                    <Button className="bg-black hover:bg-black/80 text-white px-8 py-6 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto h-14" aria-label="Discover Your Sound">
-                      Discover Your Sound
-                    </Button>
-                   </Link> */}
+                     <Button className="bg-black hover:bg-black/80 text-white px-8 py-6 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto h-14" aria-label="Discover Your Sound">
+                       Discover Your Sound
+                     </Button>
+                    </Link> */}
               <Link to={createPageUrl("Services")}>
                 <Button variant="outline" className="bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 w-full sm:w-auto h-14" aria-label="Explore our services">
                   Explore our services
@@ -264,6 +264,7 @@ We craft custom Playlists for Hotels, Restaurants, Bars & Events that create atm
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png 2400w"
+
 
 
 
@@ -414,6 +415,7 @@ We craft custom Playlists for Hotels, Restaurants, Bars & Events that create atm
 
 
 
+
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       alt="Bespoke music curation and playlist creation"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
@@ -455,6 +457,7 @@ We craft custom Playlists for Hotels, Restaurants, Bars & Events that create atm
 
 
 
+
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       alt="Professional event production with music curation"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
@@ -472,8 +475,8 @@ We craft custom Playlists for Hotels, Restaurants, Bars & Events that create atm
                     <h3 className="text-2xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
                       Music for Events
                     </h3>
-                    <p className="text-black/70 mb-4">
-                      Artfully selected and curated soundtracks & live DJ sets that elevate events into engaging, unforgettable moments.
+                    <p className="text-black/70 mb-4">Live DJ sets and artfully  curated soundtracks that elevate events into engaging, unforgettable moments.
+
                     </p>
                     <div className="flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
                       <span>Design Your Event Atmosphere</span>
@@ -498,6 +501,7 @@ We craft custom Playlists for Hotels, Restaurants, Bars & Events that create atm
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg"
                       srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg 800w,
                                 https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg 1200w"
+
 
 
 
@@ -539,6 +543,7 @@ We craft custom Playlists for Hotels, Restaurants, Bars & Events that create atm
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg"
                       srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg 800w,
                                 https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg 1200w"
+
 
 
 
