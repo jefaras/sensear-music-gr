@@ -216,7 +216,7 @@ export default function AudioUpgrades() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="w-full">
             <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">Audio Upgrades:
-              <br />Sound in perfect match with your space
+<br/>Sound in perfect match with your space
 
             </h1>
             
@@ -241,7 +241,6 @@ export default function AudioUpgrades() {
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg 2400w"
 
-
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Professional audio equipment optimization and acoustic calibration for venues"
                 className="absolute w-full h-full object-cover"
@@ -261,38 +260,35 @@ export default function AudioUpgrades() {
         <div className="max-w-5xl mx-auto px-6">
           <h2 id="what-we-do-heading" className="text-4xl font-bold text-center mb-6 animate-fade-in-up leading-[1.25]">What We Do</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8" role="list">
-            
-         {/* Things we don't do yet --->    
-                <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-                  <Card className="bg-white p-8 shadow-lg h-full">
-                    <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
-                      <Settings className="w-8 h-8" />
-                    </div>
-                    <h3 className="text-2xl font-bold mb-4">On-site acoustic audits and layout assessments</h3>
-                    <p className="text-lg text-black/70">We analyze your space's acoustics and current setup to identify issues and opportunities for improvement.</p>
-                  </Card>
-                </article>
-                  <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
-                  <Card className="bg-white p-8 shadow-lg h-full">
-                    <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
-                      <Volume2 className="w-8 h-8" />
-                    </div>
-                    <h3 className="text-2xl font-bold mb-4">Hardware testing and zone performance</h3>
-                    <p className="text-lg text-black/70">We test speakers, amplifiers, and coverage to ensure every zone delivers crystal-clear sound.</p>
-                  </Card>
-                </article>
-                  <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-                  <Card className="bg-white p-8 shadow-lg h-full">
-                    <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
-                      <Wrench className="w-8 h-8" />
-                    </div>
-                    <h3 className="text-2xl font-bold mb-4">Redesigns for clarity and immersive flow</h3>
-                    <p className="text-lg text-black/70">We create tailored solutions that enhance clarity, coverage, and create an immersive audio experience.</p>
-                  </Card>
-                </article>
-              End of things we don't do yet --->  */
+            <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+              <Card className="bg-white p-8 shadow-lg h-full">
+                <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                  <Settings className="w-8 h-8" />
+                </div>
+                <h3 className="text-2xl font-bold mb-4">On-site acoustic audits and layout assessments</h3>
+                <p className="text-lg text-black/70">We analyze your space's acoustics and current setup to identify issues and opportunities for improvement.</p>
+              </Card>
+            </article>
 
-            }
+            <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
+              <Card className="bg-white p-8 shadow-lg h-full">
+                <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                  <Volume2 className="w-8 h-8" />
+                </div>
+                <h3 className="text-2xl font-bold mb-4">Hardware testing and zone performance</h3>
+                <p className="text-lg text-black/70">We test speakers, amplifiers, and coverage to ensure every zone delivers crystal-clear sound.</p>
+              </Card>
+            </article>
+
+            <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
+              <Card className="bg-white p-8 shadow-lg h-full">
+                <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                  <Wrench className="w-8 h-8" />
+                </div>
+                <h3 className="text-2xl font-bold mb-4">Redesigns for clarity and immersive flow</h3>
+                <p className="text-lg text-black/70">We create tailored solutions that enhance clarity, coverage, and create an immersive audio experience.</p>
+              </Card>
+            </article>
 
             <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
               <Card className="bg-white p-8 shadow-lg h-full">
@@ -316,8 +312,8 @@ export default function AudioUpgrades() {
 
             <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.9s' }}>
               <Card className="bg-white p-8 shadow-lg h-full">
-                <div className="text-2xl font-bold mb-4" aria-hidden="true">Tuning & training under real conditions
-
+                <div className="bg-black/5 text-black mb-6 rounded-full w-16 h-16 flex items-center justify-center" aria-hidden="true">
+                  <CheckSquare className="w-8 h-8" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4">Final tuning and walkthrough under real conditions</h3>
                 <p className="text-lg text-black/70">We calibrate your system during actual operations, ensuring optimal performance in live environment conditions.</p>
