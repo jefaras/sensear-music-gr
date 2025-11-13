@@ -215,9 +215,9 @@ export default function AudioUpgrades() {
         {/* Text content */}
         <div className="max-w-7xl mx-auto px-6">
           <div className="w-full">
-            <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-              Audio Upgrades:<br />
-              Sound in perfect alignment with your space
+            <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">Audio Upgrades:
+Sound in perfect match with your space
+
             </h1>
             
             <div className="mb-8 max-w-4xl slide-up-2">
@@ -240,16 +240,17 @@ export default function AudioUpgrades() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b6e0a3f63_tech_hifi_1979_07.jpg 2400w"
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Professional audio equipment optimization and acoustic calibration for venues"
                 className="absolute w-full h-full object-cover"
-                style={{ 
+                style={{
                   top: '-15%',
                   height: '130%',
                   transform: `translateY(${scrollY * 0.15}px)`,
                   transformOrigin: 'center top'
-                }}
-              />
+                }} />
+
             </div>
           </div>
         </div>
@@ -402,6 +403,6 @@ export default function AudioUpgrades() {
           </Link>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 }
