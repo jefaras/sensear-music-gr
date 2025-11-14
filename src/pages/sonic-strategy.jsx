@@ -11,7 +11,7 @@ export default function SonicStrategy() {
 
   useEffect(() => {
     document.title = "Sonic Strategy & Audio Branding | SensEar";
-    
+
     const metaDescription = document.querySelector('meta[name="description"]');
     const description = "Ultra-specialized music consultancy and audio branding guidelines. Create an ownable sound identity for your brand. Book your sonic strategy session.";
     if (metaDescription) {
@@ -76,14 +76,14 @@ export default function SonicStrategy() {
     }
 
     const ogTags = [
-      { property: 'og:title', content: 'Sonic Strategy & Audio Branding | SensEar' },
-      { property: 'og:description', content: description },
-      { property: 'og:image', content: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1600&q=80' },
-      { property: 'og:url', content: 'https://sensear.music/sonic-strategy' },
-      { property: 'og:type', content: 'website' }
-    ];
+    { property: 'og:title', content: 'Sonic Strategy & Audio Branding | SensEar' },
+    { property: 'og:description', content: description },
+    { property: 'og:image', content: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1600&q=80' },
+    { property: 'og:url', content: 'https://sensear.music/sonic-strategy' },
+    { property: 'og:type', content: 'website' }];
 
-    ogTags.forEach(tag => {
+
+    ogTags.forEach((tag) => {
       let metaTag = document.querySelector(`meta[property="${tag.property}"]`);
       if (metaTag) {
         metaTag.setAttribute('content', tag.content);
@@ -96,13 +96,13 @@ export default function SonicStrategy() {
     });
 
     const twitterTags = [
-      { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'Sonic Strategy & Audio Branding | SensEar' },
-      { name: 'twitter:description', content: description },
-      { name: 'twitter:image', content: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1600&q=80' }
-    ];
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Sonic Strategy & Audio Branding | SensEar' },
+    { name: 'twitter:description', content: description },
+    { name: 'twitter:image', content: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1600&q=80' }];
 
-    twitterTags.forEach(tag => {
+
+    twitterTags.forEach((tag) => {
       let metaTag = document.querySelector(`meta[name="${tag.name}"]`);
       if (metaTag) {
         metaTag.setAttribute('content', tag.content);
@@ -115,55 +115,55 @@ export default function SonicStrategy() {
     });
 
     const structuredData = [
-      {
-        "@context": "https://schema.org",
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "SensEar",
+      "url": "https://sensear.music",
+      "logo": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg",
+      "sameAs": [
+      "https://www.facebook.com/61575909304249/",
+      "https://www.instagram.com/sensear.music"]
+
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Sonic Strategy",
+      "description": "Ultra-specialized music consultancy and audio branding guidelines that translate brand vision into an ownable sound.",
+      "provider": {
         "@type": "Organization",
         "name": "SensEar",
-        "url": "https://sensear.music",
-        "logo": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg",
-        "sameAs": [
-          "https://www.facebook.com/61575909304249/",
-          "https://www.instagram.com/sensear.music"
-        ]
+        "url": "https://sensear.music"
+      },
+      "areaServed": "GR",
+      "serviceType": "Music Consultancy and Audio Branding"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://sensear.music/"
       },
       {
-        "@context": "https://schema.org",
-        "@type": "Service",
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://sensear.music/services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
         "name": "Sonic Strategy",
-        "description": "Ultra-specialized music consultancy and audio branding guidelines that translate brand vision into an ownable sound.",
-        "provider": {
-          "@type": "Organization",
-          "name": "SensEar",
-          "url": "https://sensear.music"
-        },
-        "areaServed": "GR",
-        "serviceType": "Music Consultancy and Audio Branding"
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://sensear.music/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Services",
-            "item": "https://sensear.music/services"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Sonic Strategy",
-            "item": "https://sensear.music/sonic-strategy"
-          }
-        ]
-      }
-    ];
+        "item": "https://sensear.music/sonic-strategy"
+      }]
+
+    }];
+
 
     let structuredDataScript = document.querySelector('script[type="application/ld+json"]');
     if (structuredDataScript) {
@@ -280,16 +280,17 @@ export default function SonicStrategy() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg 2400w"
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Strategic sonic branding consultation and music curation planning session"
                 className="absolute w-full h-full object-cover"
-                style={{ 
+                style={{
                   top: '-15%',
                   height: '130%',
                   transform: `translateY(${scrollY * 0.15}px)`,
                   transformOrigin: 'center top'
-                }}
-              />
+                }} />
+
             </div>
           </div>
         </div>
@@ -297,11 +298,11 @@ export default function SonicStrategy() {
 
       {/* Breadcrumbs - COMMENTED OUT */}
       {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
-        <Breadcrumbs items={[
-          { label: "Services", path: createPageUrl("Services") },
-          { label: "Sonic Strategy", path: createPageUrl("sonic-strategy") }
-        ]} />
-      </div> */}
+         <Breadcrumbs items={[
+           { label: "Services", path: createPageUrl("Services") },
+           { label: "Sonic Strategy", path: createPageUrl("sonic-strategy") }
+         ]} />
+        </div> */}
 
       <section className="py-24" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="what-we-do-heading">
         <div className="max-w-5xl mx-auto px-6">
@@ -411,8 +412,8 @@ export default function SonicStrategy() {
       {/* CTA Section */}
       <section className="py-20 bg-[#faebe3]" aria-labelledby="cta-heading">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 id="cta-heading" className="text-4xl font-bold text-black mb-6 leading-[1.25]">
-            Ready to Define Your Sonic Identity?
+          <h2 id="cta-heading" className="text-4xl font-bold text-black mb-6 leading-[1.25]">Define Your Sonic Identity
+
           </h2>
           <p className="text-xl text-black/70 mb-8">
             Let's create an ownable sound that sets your brand apart.
@@ -424,6 +425,6 @@ export default function SonicStrategy() {
           </Link>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 }
