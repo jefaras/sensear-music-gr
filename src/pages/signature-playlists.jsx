@@ -424,7 +424,7 @@ export default function SignaturePlaylists() {
             </li>
           </ul>
           <p className="text-center text-black/70 mt-12 max-w-3xl mx-auto">
-            <span>Learn how our continuous </span><Link to={createPageUrl("music-curation-cycle-venues")} className="underline hover:text-black font-semibold">analyze and optimize approach</Link><span> ensures your soundscapes evolve with your venue. Complement with our </span><Link to={createPageUrl("music-for-events")} className="underline hover:text-black font-semibold">music for events</Link><span>. Perfect for all </span><Link to={createPageUrl("Industries")} className="underline hover:text-black font-semibold">industries we serve</Link><span>.</span>
+            <span>Learn how our continuous </span><Link to={createPageUrl("music-curation-cycle-venues")} className="underline hover:text-black font-semibold">analyze and optimize approach</Link><span> ensures your soundscapes evolve with your venue.</span>
           </p>
         </div>
       </section>
