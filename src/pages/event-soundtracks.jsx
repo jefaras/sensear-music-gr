@@ -323,28 +323,6 @@ From custom playlists, live DJ sets to sound audits and setup, we ensure your ev
         </div>
       </section>
 
-      {/* The Process Section */}
-      <section className="py-24 bg-white" aria-labelledby="process-heading">
-        <div className="max-w-5xl mx-auto px-6">
-          <h2 id="process-heading" className="text-4xl font-bold text-center mb-12 leading-[1.25]">The Process</h2>
-          <div className="max-w-3xl mx-auto">
-            <ul className="space-y-6" role="list">
-              <li className="flex items-start gap-4">
-                <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
-                <p className="text-lg text-black/70">Workshop with event manager and creative team.</p>
-              </li>
-              <li className="flex items-start gap-4">
-                <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
-                <p className="text-lg text-black/70">Delivery of music mood board, playlist or DJ set options, and AV plan.</p>
-              </li>
-              <li className="flex items-start gap-4">
-                <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
-                <p className="text-lg text-black/70">Playlist/DJ set rollout, scheduling, and live tuning.</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
       
       <section className="py-24 bg-white" aria-labelledby="problems-heading">
         <div className="max-w-5xl mx-auto px-6">
