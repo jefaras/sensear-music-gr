@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
@@ -79,8 +80,7 @@ export default function SonicStrategy() {
     { property: 'og:title', content: 'Sonic Strategy & Audio Branding | SensEar' },
     { property: 'og:description', content: description },
     { property: 'og:image', content: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1600&q=80' },
-    { property: 'og:url', content: 'https://sensear.music/sonic-strategy' },
-    { property: 'og:type', content: 'website' }];
+    { property: 'og:url', content: 'https://sensear.music/sonic-strategy' }];
 
 
     ogTags.forEach((tag) => {
@@ -277,16 +277,16 @@ export default function SonicStrategy() {
           <div className="mx-auto" style={{ maxWidth: '1800px' }}>
             <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg 2400w"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/0fa4a7b5d_f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/0fa4a7b5d_f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/0fa4a7b5d_f0c12332d_b2e33cdc-8475-49fe-9456-918e11a1de34.jpg 2400w"
 
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Strategic sonic branding consultation and music curation planning session"
                 className="absolute w-full h-full object-cover"
                 style={{
-                  top: '-15%',
-                  height: '130%',
+                  top: '0%',
+                  height: '100%',
                   transform: `translateY(${scrollY * 0.15}px)`,
                   transformOrigin: 'center top'
                 }} />
