@@ -437,8 +437,8 @@ export default function SignaturePlaylists() {
               <div className="flex items-start gap-4">
                 <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Generic playlists that miss the mark</h3>
-                  <p className="text-black/70">Streaming services and in-store providers often rely on templates. The result feels flat or unrelated to your space. We tailor music to your brand identity and venue rhythm—no filler, no guesswork.</p>
+                  <h3 className="text-xl font-bold mb-2">Inconsistent, generic playlists</h3>
+                  <p className="text-black/70">Template playlists from streaming services sound flat and unrelated to your space. We tailor music to your brand identity and venue rhythm.</p>
                 </div>
               </div>
             </article>
@@ -447,8 +447,8 @@ export default function SignaturePlaylists() {
               <div className="flex items-start gap-4">
                 <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Music that fails to evolve with the guest flow</h3>
-                  <p className="text-black/70">What works at 10 AM may not work at 10 PM. We sequence playlists to shift naturally with your customer traffic, energy levels, and time of day.</p>
+                  <h3 className="text-xl font-bold mb-2">Music that don't follow the guest flow</h3>
+                  <p className="text-black/70">What works at 10am, doesn't work at 10 PM. We sequence playlists to shift naturally with your customer traffic, energy & time of day.</p>
                 </div>
               </div>
             </article>
@@ -457,8 +457,8 @@ export default function SignaturePlaylists() {
               <div className="flex items-start gap-4">
                 <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Repetitive tracks that tire both guests and staff</h3>
-                  <p className="text-black/70">Our selections refresh monthly, pulling from private archives, white-label promos, and feedback from your team.</p>
+                  <h3 className="text-xl font-bold mb-2">Repetitive songs that tire guests & staff</h3>
+                  <p className="text-black/70">We refresh playlists monthly, pulling from our private archives and feedback from your team.</p>
                 </div>
               </div>
             </article>
@@ -468,7 +468,7 @@ export default function SignaturePlaylists() {
                 <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
                 <div>
                   <h3 className="text-xl font-bold mb-2">No central control over what is playing</h3>
-                  <p className="text-black/70">We offer a centralized platform and curator hotline to keep your brand voice consistent—without micromanaging.</p>
+                  <p className="text-black/70">We offer a centralized platform and curator hotline to keep your brand voice consistent.</p>
                 </div>
               </div>
             </article>
@@ -477,8 +477,8 @@ export default function SignaturePlaylists() {
               <div className="flex items-start gap-4">
                 <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Audio rights and compliance concerns</h3>
-                  <p className="text-black/70">Many venues play unlicensed music unknowingly. We provide globally cleared tracks, keeping you compliant and future-proof.</p>
+                  <h3 className="text-xl font-bold mb-2">Music rights and compliance concerns</h3>
+                  <p className="text-black/70">Playing music from YouTube, Spotify etc publicly, is illegal! We provide music cleared for businesses &  law-compliant playlists.</p>
                 </div>
               </div>
             </article>
