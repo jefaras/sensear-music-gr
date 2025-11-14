@@ -80,12 +80,12 @@ export default function EventSoundtracks() {
 
     // Open Graph tags
     const ogTags = [
-      { property: 'og:title', content: 'Event Music & AV Production | SensEar' },
-      { property: 'og:description', content: description },
-      { property: 'og:image', content: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1600&q=80' },
-      { property: 'og:url', content: 'https://sensear.music/event-soundtracks' },
-      { property: 'og:type', content: 'website' }
-    ];
+    { property: 'og:title', content: 'Event Music & AV Production | SensEar' },
+    { property: 'og:description', content: description },
+    { property: 'og:image', content: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1600&q=80' },
+    { property: 'og:url', content: 'https://sensear.music/event-soundtracks' },
+    { property: 'og:type', content: 'website' }];
+
 
     ogTags.forEach((tag) => {
       let metaTag = document.querySelector(`meta[property="${tag.property}"]`);
@@ -101,11 +101,11 @@ export default function EventSoundtracks() {
 
     // Twitter Card tags
     const twitterTags = [
-      { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'Event Music & AV Production | SensEar' },
-      { name: 'twitter:description', content: description },
-      { name: 'twitter:image', content: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1600&q=80' }
-    ];
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Event Music & AV Production | SensEar' },
+    { name: 'twitter:description', content: description },
+    { name: 'twitter:image', content: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1600&q=80' }];
+
 
     twitterTags.forEach((tag) => {
       let metaTag = document.querySelector(`meta[name="${tag.name}"]`);
@@ -121,55 +121,55 @@ export default function EventSoundtracks() {
 
     // Add structured data
     const structuredData = [
-      {
-        "@context": "https://schema.org",
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "SensEar",
+      "url": "https://sensear.music",
+      "logo": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg",
+      "sameAs": [
+      "https://www.facebook.com/61575909304249/",
+      "https://www.instagram.com/sensear.music"]
+
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Event Soundtracks",
+      "description": "Artfully selected, custom-curated soundtracks and seamless AV production that elevate events into immersive, unforgettable moments.",
+      "provider": {
         "@type": "Organization",
         "name": "SensEar",
-        "url": "https://sensear.music",
-        "logo": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg",
-        "sameAs": [
-          "https://www.facebook.com/61575909304249/",
-          "https://www.instagram.com/sensear.music"
-        ]
+        "url": "https://sensear.music"
+      },
+      "areaServed": "GR",
+      "serviceType": "Event Music and AV Production"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://sensear.music/"
       },
       {
-        "@context": "https://schema.org",
-        "@type": "Service",
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://sensear.music/services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
         "name": "Event Soundtracks",
-        "description": "Artfully selected, custom-curated soundtracks and seamless AV production that elevate events into immersive, unforgettable moments.",
-        "provider": {
-          "@type": "Organization",
-          "name": "SensEar",
-          "url": "https://sensear.music"
-        },
-        "areaServed": "GR",
-        "serviceType": "Event Music and AV Production"
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://sensear.music/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Services",
-            "item": "https://sensear.music/services"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Event Soundtracks",
-            "item": "https://sensear.music/event-soundtracks"
-          }
-        ]
-      }
-    ];
+        "item": "https://sensear.music/event-soundtracks"
+      }]
+
+    }];
+
 
     let structuredDataScript = document.querySelector('script[type="application/ld+json"]');
     if (structuredDataScript) {
@@ -247,16 +247,17 @@ export default function EventSoundtracks() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/da88aa63f_a2d13703910b4b40ce6d714893df9b18ccbb75b2-962x647.jpg 2400w"
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Professional event production with immersive music curation and AV setup"
                 className="absolute w-full h-full object-cover"
-                style={{ 
+                style={{
                   top: '-15%',
                   height: '130%',
                   transform: `translateY(${scrollY * 0.15}px)`,
                   transformOrigin: 'center top'
-                }}
-              />
+                }} />
+              
             </div>
           </div>
         </div>
@@ -264,11 +265,11 @@ export default function EventSoundtracks() {
 
       {/* Breadcrumbs - COMMENTED OUT */}
       {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
-        <Breadcrumbs items={[
-          { label: "Services", path: createPageUrl("Services") },
-          { label: "Event Soundtracks", path: createPageUrl("event-soundtracks") }
-        ]} />
-      </div> */}
+         <Breadcrumbs items={[
+           { label: "Services", path: createPageUrl("Services") },
+           { label: "Event Soundtracks", path: createPageUrl("event-soundtracks") }
+         ]} />
+        </div> */}
       
       <section className="py-24" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="what-we-do-heading">
         <div className="max-w-5xl mx-auto px-6">
@@ -389,8 +390,8 @@ From custom playlists, live DJ sets to sound audits and setup, we ensure your ev
       {/* CTA Section */}
       <section className="py-20 bg-[#faebe3]" aria-labelledby="cta-heading">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 id="cta-heading" className="text-4xl font-bold text-black mb-6 leading-[1.25]">
-            Ready to Create an Unforgettable Event Experience?
+          <h2 id="cta-heading" className="text-4xl font-bold text-black mb-6 leading-[1.25]">Create an Unforgettable Event Experience
+
           </h2>
           <p className="text-xl text-black/70 mb-8">
             Let our experienced team handle everything sound-related for your next event.
@@ -402,6 +403,6 @@ From custom playlists, live DJ sets to sound audits and setup, we ensure your ev
           </Link>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 }
