@@ -233,6 +233,7 @@ export default function HotelsResorts() {
 
 
 
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Luxury hotel resort lobby with curated music ambiance and elegant hospitality design"
                 className="absolute w-full h-full object-cover md:hidden" />
@@ -242,6 +243,7 @@ export default function HotelsResorts() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png 2400w"
+
 
 
 
@@ -316,11 +318,11 @@ export default function HotelsResorts() {
 
       {/* Breadcrumbs - COMMENTED OUT */}
       {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
-           <Breadcrumbs items={[
-           { label: "Industries", path: createPageUrl("Industries") },
-           { label: "Hotels & Resorts", path: createPageUrl("hotels-resorts") }]
-           } />
-          </div> */}
+            <Breadcrumbs items={[
+            { label: "Industries", path: createPageUrl("Industries") },
+            { label: "Hotels & Resorts", path: createPageUrl("hotels-resorts") }]
+            } />
+           </div> */}
 
       {/* Industry Specific Challenges */}
       <section className="py-20 bg-white">
@@ -437,7 +439,7 @@ export default function HotelsResorts() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-white mb-3">Legal peace of mind and less operational stress</h3>
+                <h3 className="text-2xl font-bold text-white mb-3">Legal & operational peace of mind</h3>
                 <p className="text-lg text-white/80">Staff no longer juggle playlists or volume, & you rely on properly licensed music instead of consumer apps.</p>
               </div>
             </div>
