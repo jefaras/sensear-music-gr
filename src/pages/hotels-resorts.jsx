@@ -231,6 +231,7 @@ export default function HotelsResorts() {
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png 2400w"
 
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Luxury hotel resort lobby with curated music ambiance and elegant hospitality design"
                 className="absolute w-full h-full object-cover md:hidden" />
@@ -240,6 +241,7 @@ export default function HotelsResorts() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png 2400w"
+
 
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Luxury hotel resort lobby with curated music ambiance and elegant hospitality design"
@@ -312,11 +314,11 @@ export default function HotelsResorts() {
 
       {/* Breadcrumbs - COMMENTED OUT */}
       {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
-         <Breadcrumbs items={[
-         { label: "Industries", path: createPageUrl("Industries") },
-         { label: "Hotels & Resorts", path: createPageUrl("hotels-resorts") }]
-         } />
-        </div> */}
+          <Breadcrumbs items={[
+          { label: "Industries", path: createPageUrl("Industries") },
+          { label: "Hotels & Resorts", path: createPageUrl("hotels-resorts") }]
+          } />
+         </div> */}
 
       {/* Industry Specific Challenges */}
       <section className="py-20 bg-white">
@@ -424,7 +426,7 @@ export default function HotelsResorts() {
 
               <div>
                 <h3 className="text-2xl font-bold text-white mb-3">More time spent in your spaces</h3>
-                <p className="text-lg text-white/80">Guests settle into the lobby, bar & restaurant because the atmosphere feels right at every moment, which supports F&B revenue & secondary spend.</p>
+                <p className="text-lg text-white/80">Guests settle into the lobby, bar & restaurant because the atmosphere feels right at every moment, which omcreases F&B revenue.</p>
               </div>
 
               <div>
