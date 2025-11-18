@@ -219,15 +219,8 @@ export default function RetailStores() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="w-full">
             <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-              Music that drives discovery,<br />
-              conversion & loyalty
+              Music for retail stores that drives discovery & conversion
             </h1>
-            
-            <div className="mb-8 max-w-4xl slide-up-2">
-              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
-                Transform shopping experiences with the right sound atmospherics that influences shopping decision-making.
-              </p>
-            </div>
           </div>
         </div>
 
@@ -236,20 +229,20 @@ export default function RetailStores() {
             <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
               {/* Mobile/Tablet version - NO parallax */}
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg 2400w"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/659f190b3_6fd38d8f206dc0b7749c169007cee524.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/659f190b3_6fd38d8f206dc0b7749c169007cee524.jpg 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/659f190b3_6fd38d8f206dc0b7749c169007cee524.jpg 2400w"
                 sizes="(max-width: 1800px) 100vw, 1800px"
-                alt="Modern retail store with strategic music curation influencing shopping behavior"
+                alt="Stylish retail store interior with curated music atmosphere"
                 className="absolute w-full h-full object-cover md:hidden"
               />
               {/* Desktop version - WITH parallax */}
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg 2400w"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/659f190b3_6fd38d8f206dc0b7749c169007cee524.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/659f190b3_6fd38d8f206dc0b7749c169007cee524.jpg 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/659f190b3_6fd38d8f206dc0b7749c169007cee524.jpg 2400w"
                 sizes="(max-width: 1800px) 100vw, 1800px"
-                alt="Modern retail store with strategic music curation influencing shopping behavior"
+                alt="Stylish retail store interior with curated music atmosphere"
                 className="absolute w-full h-full object-cover hidden md:block"
                 style={{ 
                   top: '-15%',
@@ -257,6 +250,60 @@ export default function RetailStores() {
                   transform: `translateY(${scrollY * 0.15}px)`,
                   transformOrigin: 'center top'
                 }}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Intro Section - Black Background */}
+      <section className="bg-black py-16">
+        <div className="max-w-5xl mx-auto px-6">
+          <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
+            Every track in your store shapes how long people browse, what they notice & whether they buy. <strong>SensEar</strong> designs store music that supports your retail atmosphere & turns it into part of the shopping experience, not background noise.
+          </p>
+        </div>
+      </section>
+
+      {/* Who this is for */}
+      <section className="py-20" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="max-w-7xl mx-auto px-6">
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black">Who this is for</h2>
+          
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left: Content */}
+            <div>
+              <p className="text-xl text-black/80 mb-6">Retail brands that want music to work like a silent salesperson:</p>
+              <ul className="space-y-6 text-lg text-black/70">
+                <li className="flex items-start gap-3">
+                  <span className="text-black font-bold">•</span>
+                  <span><strong>Fashion & lifestyle boutiques</strong> that live on discovery & curation</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-black font-bold">•</span>
+                  <span><strong>Flagship stores</strong> that need a signature retail atmosphere across floors</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-black font-bold">•</span>
+                  <span><strong>Multi store brands</strong> that want consistent sound with local flavor</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-black font-bold">•</span>
+                  <span><strong>Concept & editorial spaces</strong> that change themes, art & installations</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-black font-bold">•</span>
+                  <span><strong>Pop ups</strong> that must make an impression from day one</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Right: Image */}
+            <div className="hidden lg:block">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1eae8a545_9ce5db84dcf12ffe5ccf1513e7eabca6.jpg"
+                alt="Fashion model in stylish retail setting"
+                className="w-full h-auto rounded-2xl shadow-lg"
               />
             </div>
           </div>
@@ -271,51 +318,171 @@ export default function RetailStores() {
         } />
       </div> */}
 
-      <section className="py-20 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="problems-heading">
-        <div className="max-w-4xl mx-auto px-6">
-          <h2 id="problems-heading" className="text-2xl sm:text-3xl font-bold text-black text-center mb-6">Problems We Solve</h2>
-          <p className="text-center text-black/70 mb-10 max-w-3xl mx-auto px-4">
-            Studies show that the right background music increases customer dwell time and boosts sales. SensEar designs music solutions that enhance the shopping experience and create emotional connections between customers and brands.
-          </p>
-          <div className="grid md:grid-cols-2 gap-8" role="list">
-            <article role="listitem" className="p-6 bg-white rounded-lg shadow-md">
-              <div className="flex items-start gap-4">
-                <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
-                <div>
-                  <h3 className="text-lg sm:text-xl font-bold mb-2">Low Customer Engagement</h3>
-                  <p className="text-sm sm:text-base text-black/70">We create welcoming auditory experiences that draw people in.</p>
-                </div>
-              </div>
-            </article>
+      {/* Industry Specific Challenges */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-right">Industry specific challenges</h2>
+          
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left: Image */}
+            <div className="hidden lg:block">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fea79f153_e416ab4395ea12d490e85d406ce8fcc3.jpg"
+                alt="Stylish man in retail fashion setting"
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
+            </div>
 
-            <article role="listitem" className="p-6 bg-white rounded-lg shadow-md">
-              <div className="flex items-start gap-4">
-                <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
-                <div>
-                  <h3 className="text-lg sm:text-xl font-bold mb-2">Lack of Purchase Motivation</h3>
-                  <p className="text-sm sm:text-base text-black/70">Our curated tracks inspire the right mood to drive buying decisions.</p>
-                </div>
+            {/* Right: Content */}
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">The quick exit syndrome</h3>
+                <p className="text-lg text-black/70">People walk in, glance around & leave within minutes. The wrong store music makes the space feel like a task, not a place to explore.</p>
               </div>
-            </article>
 
-            <article role="listitem" className="p-6 bg-white rounded-lg shadow-md">
-              <div className="flex items-start gap-4">
-                <CheckCircle className="w-6 h-6 text-black mt-1 flex-shrink-0" aria-hidden="true" />
-                <div>
-                  <h3 className="text-lg sm:text-xl font-bold mb-2">Weak Brand Recall</h3>
-                  <p className="text-sm sm:text-base text-black/70">We craft signature sounds that make your brand memorable.</p>
-                </div>
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">The brand mismatch</h3>
+                <p className="text-lg text-black/70">Visual merchandising is perfect, but the soundtrack says "generic radio". Your audio identity does not match your displays, price point or service.</p>
               </div>
-            </article>
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">The seasonal stagnation</h3>
+                <p className="text-lg text-black/70">New collections arrive, but the music stays the same. Regulars feel repetition instead of a fresh shopping experience.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">The conversion challenge</h3>
+                <p className="text-lg text-black/70">Browsers linger without trying or buying. The atmosphere is not creating the calm, confident state where "yes" feels natural.</p>
+              </div>
+            </div>
           </div>
-          <div className="text-center mt-16">
-            <p className="text-black/70 mb-6">
-              Discover <Link to={createPageUrl("brand-music-converts-browsers-buyers")} className="underline hover:text-black font-semibold">how brand-fit music converts browsers into buyers</Link> and learn about <Link to={createPageUrl("background-music-shapes-customer-behavior")} className="underline hover:text-black font-semibold">music's influence on customer behavior</Link>. Explore our <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">signature playlists service</Link>.
-            </p>
-            <Link to={createPageUrl("ContactUs")}>
-              <Button size="lg" className="bg-black text-white hover:bg-black/80 w-full sm:w-auto px-6 sm:px-8 py-6 text-base sm:text-lg whitespace-normal" aria-label="Enhance Your Shopping Experience">Enhance Your Shopping Experience</Button>
+        </div>
+      </section>
+
+      {/* How SensEar Solves This */}
+      <section className="py-20 bg-[#faebe3]">
+        <div className="max-w-7xl mx-auto px-6">
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black">How SensEar solves this</h2>
+          
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left: Content */}
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Store journeys scored from entrance to checkout</h3>
+                <p className="text-lg text-black/70">We design playlists that guide shoppers from doorway to fitting room to checkout, supporting natural browsing, trying & deciding.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Soundscapes tuned for dwell time & flow</h3>
+                <p className="text-lg text-black/70">Tempo, genre & volume are calibrated so people feel relaxed enough to explore, yet energized enough to keep moving through your space.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Brand exact audio identity</h3>
+                <p className="text-lg text-black/70">We align your store music with your visual story, price point & customer profile, so the soundtrack feels like part of your brand, not an add on.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Seasonal & campaign ready rotations</h3>
+                <p className="text-lg text-black/70">Playlists evolve with collections, sales & campaigns, keeping the experience fresh while still recognisably "you".</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Consistency for multi location brands</h3>
+                <p className="text-lg text-black/70">For retail groups, we create a sonic strategy that defines your core sound across locations, with room for local tweaks where it matters.</p>
+              </div>
+            </div>
+
+            {/* Right: Image */}
+            <div className="hidden lg:block">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/bacc2ba6c_photo-1529480993802-d8e747bb1ecb.jpg"
+                alt="Modern retail interior with neon lighting"
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Key Benefits */}
+      <section className="py-20 bg-black">
+        <div className="max-w-7xl mx-auto px-6">
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-white text-right">Key benefits</h2>
+          
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left: Image */}
+            <div className="hidden lg:block">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/3d0ff6756_tumblr_odj9e5JRuo1uotgxio3_1280.jpg"
+                alt="Colorful retail architecture interior"
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
+            </div>
+
+            {/* Right: Content */}
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-3">Longer, deeper browsing</h3>
+                <p className="text-lg text-white/80">A comfortable, well paced atmosphere makes people stay a little longer, pick up more items & explore zones they might otherwise skip.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-3">Stronger brand perception & recall</h3>
+                <p className="text-lg text-white/80">Sound, visuals & service finally tell the same story, helping customers remember your store & recognise it across locations.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-3">Smoother in store flow</h3>
+                <p className="text-lg text-white/80">The right energy supports natural movement through sections, changing rooms & checkout, reducing bottlenecks & stress.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-3">Simple control & licensing peace of mind</h3>
+                <p className="text-lg text-white/80">You get curated, centrally managed playlists that are properly licensed for commercial use, not consumer apps.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Social Proof with Image */}
+      <section className="py-16 bg-[#faebe3]">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed mb-16">
+            Fashion & lifestyle retailers work with <strong>SensEar</strong> to make music part of the shopping ritual. Their stores now feel more intentional, guests stay to explore collections & the brand story is heard as clearly as it is seen.
+          </p>
+
+          {/* Hear this industry in action - Centered */}
+          <div className="max-w-2xl mx-auto">
+            <h3 className="text-2xl md:text-3xl font-bold text-black mb-4">Hear this industry in action</h3>
+            <p className="text-lg md:text-xl text-black/70 mb-6">Listen to a curated demo playlist for retail stores</p>
+            <Link to={createPageUrl("PlaylistsDemos")}>
+              <Button size="lg" variant="outline" className="bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-8">
+                Explore Demo Playlists
+              </Button>
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="py-20" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">Ready to turn your store music into a real retail experience?</h2>
+          <p className="text-xl text-black/80 mb-8">
+            We review your current sound, map your shopper journey & propose a tailored music approach for your store or brand.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Link to={createPageUrl("ContactUs")}>
+              <Button size="lg" className="bg-black text-white hover:bg-black/80 px-8 py-6 text-lg">
+                Book a music consultation
+              </Button>
+            </Link>
+          </div>
+          <p className="text-black/70 mt-8">
+            Explore how our <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">Signature Playlists</Link> and <Link to={createPageUrl("sonic-strategy")} className="underline hover:text-black font-semibold">Sonic Strategy</Link> work for retail stores.
+          </p>
         </div>
       </section>
     </div>
