@@ -289,7 +289,7 @@ export default function WellnessGyms() {
       <section className="bg-black py-16">
         <div className="max-w-5xl mx-auto px-6">
           <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-            In wellness spaces & gyms, music isn't just ambiance; it's part of the session. <strong>SensEar</strong> designs spa music & wellness center playlists that support relaxation, focus & effort, so every visit feels naturally restorative or energizing.
+            In wellness spaces & gyms, music isn't just ambiance but part of the session. <strong>SensEar</strong> designs spa music & wellness center playlists that support relaxation, focus & effort, so every visit feels naturally restorative or energizing.
           </p>
         </div>
       </section>
@@ -357,23 +357,23 @@ export default function WellnessGyms() {
             {/* Right: Content */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">The anxiety amplifier (wellness)</h3>
+                <h3 className="text-2xl font-bold text-black mb-3">The anxiety amplifier</h3>
                 <p className="text-lg text-black/70">Generic spa playlists loop endlessly or feel synthetic. Instead of calming the nervous system, they distract clients right when they should relax.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">The treatment disruption (wellness)</h3>
+                <h3 className="text-2xl font-bold text-black mb-3">The treatment disruption</h3>
                 <p className="text-lg text-black/70">Sudden transitions or off mood tracks break the flow of a massage, facial or ritual. Moments that should feel deep & immersive become shallow or forgettable.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">The flat energy class (gyms)</h3>
-                <p className="text-lg text-black/70">Classes run on autopilot with the same workout playlist all day. Energy doesn't rise when it should, cool downs feel rushed & members don't feel a clear journey.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">The flat energy class</h3>
+                <p className="text-lg text-black/70">Gym classes run on autopilot with the same workout playlist all day. Energy doesn't rise when it should, cool downs feel rushed & members don't feel a clear journey.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">The noise fatigue (gyms)</h3>
-                <p className="text-lg text-black/70">Harsh highs, clashing speakers & crowd noise create constant pressure on the ears. Members cut sessions short or avoid peak times because the room feels tiring.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">The noise fatigue</h3>
+                <p className="text-lg text-black/70">Harsh highs, clashing speakers & crowd noise create constant pressure on the ears. Gym members cut sessions short or avoid peak times because the room feels tiring.</p>
               </div>
 
               <div>
@@ -395,32 +395,32 @@ export default function WellnessGyms() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Therapeutic soundscapes for treatments</h3>
-                <p className="text-lg text-black/70">We blend field recordings, slow wave downtempo & neo classical pieces for treatment rooms, creating sound layers that support relaxation, presence & mindfulness.</p>
+                <p className="text-lg text-black/70">We blend field recordings, ambient & new-age for treatment rooms, creating relaxing and healing sound layers.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Motivating flows for training & classes</h3>
-                <p className="text-lg text-black/70">For cardio, strength & studio work, playlists shift to clean, lyric light electronic, modern funk & uplifting indie that match warm up, peak effort & cool down.</p>
+                <p className="text-lg text-black/70">For cardio & strength work, playlists shift to clean, lyric-light electronic, modern funk & uplifting indie that match warm-up, peak & cool-down.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Time of day & schedule curation</h3>
-                <p className="text-lg text-black/70">Music follows treatment schedules, class blocks & client flow, so mornings, evenings & weekends each get the right energy instead of one size fits all sets.</p>
+                <p className="text-lg text-black/70">Music follows treatment schedules, classes & client flow, so all times and days get the right energy, not one-size-fits-all sets.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Acoustic comfort & level smoothing</h3>
-                <p className="text-lg text-black/70">We tune genre, tempo & EQ choices to reduce harsh highs & listener fatigue. In gyms this means smoothing levels so members stay longer without feeling drained.</p>
+                <p className="text-lg text-black/70">We adjust genres & tempo to reduce listener fatigue. Smoothing music levels helps gym members stay longer without feeling drained.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Zoned experiences with brand consistency</h3>
-                <p className="text-lg text-black/70">Reception, treatment rooms, cardio, strength & studios each get their own sound, all aligned with one brand identity. Central curation keeps everything on brand across spaces & locations.</p>
+                <p className="text-lg text-black/70">Reception, treatment rooms, cardio, strength & studios can get their own sound that fits your brand ID, in all locations & spaces.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Simple rollout & licensing peace of mind</h3>
-                <p className="text-lg text-black/70">You get plug & play options, remote updates & properly sourced music, so your team isn't juggling devices & you stay covered for commercial use.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Scheduling & licensing peace of mind</h3>
+                <p className="text-lg text-black/70">You get easy setup, scheduling & legal music licensed for business. Your team isn't juggling devices and you are covered for commercial use.</p>
               </div>
             </div>
 
@@ -481,20 +481,20 @@ export default function WellnessGyms() {
       <section className="py-16 bg-[#faebe3]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left: Image */}
+            {/* Left: Text */}
+            <div>
+              <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed">
+                Wellness centers, studios & gyms work with <strong>SensEar</strong> to turn music into part of the healing & training ritual. Their spaces now feel more intentional, clients relax faster, members stay engaged & the overall experience feels designed, not improvised.
+              </p>
+            </div>
+
+            {/* Right: Image */}
             <div className="hidden lg:block">
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b8677ee00_7a44bbf63d1976a0dc90393822b39a06cropped.jpg"
                 alt="Luxury wellness pool interior"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
-            </div>
-
-            {/* Right: Text */}
-            <div>
-              <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed">
-                Wellness centers, studios & gyms work with <strong>SensEar</strong> to turn music into part of the healing & training ritual. Their spaces now feel more intentional, clients relax faster, members stay engaged & the overall experience feels designed, not improvised.
-              </p>
             </div>
           </div>
 
