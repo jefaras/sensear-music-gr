@@ -232,6 +232,7 @@ export default function RestaurantsBars() {
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg 2400w"
 
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Stylish restaurant and bar interior with curated music atmosphere for dining experiences"
                 className="absolute w-full h-full object-cover md:hidden" />
@@ -240,6 +241,7 @@ export default function RestaurantsBars() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg 2400w"
+
 
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Stylish restaurant and bar interior with curated music atmosphere for dining experiences"
@@ -299,8 +301,8 @@ export default function RestaurantsBars() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/faa6772fc_c6c8247c6975e5b8b28964566c4e798d.jpg"
                 alt="Vibrant restaurant bar interior with atmospheric lighting"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+                className="w-full h-auto rounded-2xl shadow-lg" />
+
             </div>
           </div>
         </div>
@@ -308,11 +310,11 @@ export default function RestaurantsBars() {
 
       {/* Breadcrumbs - COMMENTED OUT */}
       {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
-         <Breadcrumbs items={[
-         { label: "Industries", path: createPageUrl("Industries") },
-         { label: "Restaurants & Bars", path: createPageUrl("restaurants-bars") }]
-         } />
-        </div> */}
+          <Breadcrumbs items={[
+          { label: "Industries", path: createPageUrl("Industries") },
+          { label: "Restaurants & Bars", path: createPageUrl("restaurants-bars") }]
+          } />
+         </div> */}
 
       {/* Industry Specific Challenges */}
       <section className="py-20 bg-white">
@@ -325,8 +327,8 @@ export default function RestaurantsBars() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/dbf1c8542_c383f86fd572aa6ee623a8fd6ab443df.jpg"
                 alt="Elegant dining scene with guests enjoying atmosphere"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+                className="w-full h-auto rounded-2xl shadow-lg" />
+
             </div>
 
             {/* Right: Content */}
@@ -394,8 +396,8 @@ export default function RestaurantsBars() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/bf81c0608_f73e72546f5644a803c4dd204f0d7de1.jpg"
                 alt="Vibrant bar scene with guests dancing and enjoying music"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+                className="w-full h-auto rounded-2xl shadow-lg" />
+
             </div>
           </div>
         </div>
@@ -412,8 +414,8 @@ export default function RestaurantsBars() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/45c5bf8ee_0518d03f51766be5a36a8fa5df900697.jpg"
                 alt="Cocktail glass with ice representing bar atmosphere"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+                className="w-full h-auto rounded-2xl shadow-lg" />
+
             </div>
 
             {/* Right: Content */}
@@ -425,7 +427,7 @@ export default function RestaurantsBars() {
 
               <div>
                 <h3 className="text-2xl font-bold text-white mb-3">More time, more spend per table</h3>
-                <p className="text-lg text-white/80">Guests feel comfortable staying for one more glass or dessert, which supports average check size & bar revenue. Researches on brand fit music shows sales uplifts in hospitality venues.</p>
+                <p className="text-lg text-white/80">Guests stay for another drink or dessert, increasing check size and bar revenue. Research shows brand-fit music boosts hospitality sales.</p>
               </div>
 
               <div>
@@ -458,8 +460,8 @@ export default function RestaurantsBars() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/61ccf4422_8bedfebb1d2032b34b8d32d3b59c21ad.jpg"
                 alt="Elegant dinner party with atmospheric lighting and decor"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+                className="w-full h-auto rounded-2xl shadow-lg" />
+
             </div>
           </div>
 
