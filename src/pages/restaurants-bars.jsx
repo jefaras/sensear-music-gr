@@ -446,20 +446,20 @@ export default function RestaurantsBars() {
       <section className="py-16 bg-[#faebe3]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left: Image */}
+            {/* Left: Text */}
+            <div>
+              <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed">
+                Venues like <strong>Blue Bamboo</strong> & <strong>Klouvi Bar</strong> use <strong>SensEar</strong> to turn their music into part of the dining ritual. Playlists now follow service flow & guest mood, helping them turn first time visitors into regulars.
+              </p>
+            </div>
+
+            {/* Right: Image */}
             <div className="hidden lg:block">
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/61ccf4422_8bedfebb1d2032b34b8d32d3b59c21ad.jpg"
                 alt="Elegant dinner party with atmospheric lighting and decor"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
-            </div>
-
-            {/* Right: Text */}
-            <div>
-              <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed">
-                Venues like <strong>Blue Bamboo</strong> & <strong>Klouvi Bar</strong> use <strong>SensEar</strong> to turn their music into part of the dining ritual. Playlists now follow service flow & guest mood, helping them turn first time visitors into regulars.
-              </p>
             </div>
           </div>
 

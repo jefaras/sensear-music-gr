@@ -450,20 +450,20 @@ export default function RetailStores() {
       <section className="py-16 bg-[#faebe3]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left: Image */}
+            {/* Left: Text */}
+            <div>
+              <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed">
+                Fashion & lifestyle retailers work with <strong>SensEar</strong> to make music part of the shopping ritual. Their stores now feel more intentional, guests stay to explore collections & the brand story is heard as clearly as it is seen.
+              </p>
+            </div>
+
+            {/* Right: Image */}
             <div className="hidden lg:block">
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/4ee147bf6_6fd38d8f206dc0b7749c169007cee524.jpg"
                 alt="Stylish retail fashion display"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
-            </div>
-
-            {/* Right: Text */}
-            <div>
-              <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed">
-                Fashion & lifestyle retailers work with <strong>SensEar</strong> to make music part of the shopping ritual. Their stores now feel more intentional, guests stay to explore collections & the brand story is heard as clearly as it is seen.
-              </p>
             </div>
           </div>
 
