@@ -297,8 +297,8 @@ export default function EventsExperiences() {
             {/* Right: Image */}
             <div className="hidden lg:block">
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/72affbd7e_a4f32fd29f6b2f75dae0c99d5942d2c8.jpg"
-                alt="Event atmosphere with guests"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/604e3a452_2eb02f6aa00cbdc92f835b115166f9fb.jpg"
+                alt="Event sound technical challenge"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
             </div>
@@ -323,8 +323,8 @@ export default function EventsExperiences() {
             {/* Left: Image */}
             <div className="hidden lg:block">
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/604e3a452_2eb02f6aa00cbdc92f835b115166f9fb.jpg"
-                alt="Event sound technical challenge"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/72affbd7e_a4f32fd29f6b2f75dae0c99d5942d2c8.jpg"
+                alt="Event atmosphere with guests"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
             </div>
@@ -332,28 +332,23 @@ export default function EventsExperiences() {
             {/* Right: Content */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">The copy-paste playlist problem</h3>
-                <p className="text-lg text-black/70">Generic playlists make your event feel like any other night. The soundtrack never quite fits the concept, the crowd or the moment you're trying to create.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">The one-size-fits-all soundtrack</h3>
+                <p className="text-lg text-black/70">Pre-made playlists don't respect planning, timing or key moments. The same mood runs throughout the event, so nothing really lands.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">The soundcheck anxiety</h3>
-                <p className="text-lg text-black/70">You worry about volume jumps, feedback, dead zones or tracks cutting out right when things get emotional. Instead of being present, you're listening for problems.</p>
+                <p className="text-lg text-black/70">Instead of being present, you worry about volume jumps, dead zones or tracks cutting out right when things get emotional.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">The vendor tangle</h3>
-                <p className="text-lg text-black/70">DJ, AV, venue & live acts all manage a piece of the puzzle. You spend time chasing updates & solving clashes instead of shaping the experience.</p>
+                <p className="text-lg text-black/70">DJ, playlists, AV, venue, all are pieces of the puzzle. You spend time chasing updates & solving conflicts instead of shaping the experience.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">The flat in-between moments</h3>
                 <p className="text-lg text-black/70">Energy dips between talks, courses or segments. Guests scroll their phones instead of feeling carried through the story you planned.</p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">The one-size-fits-all soundtrack</h3>
-                <p className="text-lg text-black/70">Pre-made playlists don't respect pacing, timing or key moments. The same mood runs through welcome drinks, main stage & closing, so nothing really lands.</p>
               </div>
             </div>
           </div>
@@ -370,27 +365,22 @@ export default function EventsExperiences() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Run-of-show sound design</h3>
-                <p className="text-lg text-black/70">We design custom, multi-chapter soundtracks mapped to your run-of-show, from arrival & welcome to peak moments & final track. Each segment gets its own arc, whether it's conference music, a launch, or a wedding dinner.</p>
+                <p className="text-lg text-black/70">We design custom, multi-chapter soundtracks that go along with your conference, launch, or wedding dinner, from arrival to the final track.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Story-driven event soundtracks</h3>
-                <p className="text-lg text-black/70">Our curators craft dynamic, story-driven musical journeys that fit your theme, brand & guests. Music evolves as the night progresses so people feel guided, not just entertained.</p>
+                <p className="text-lg text-black/70">Our curators craft dynamic, story-driven musical journeys that fit your theme, brand & guests. Music evolves as the night goes so people feel guided, not just entertained.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Technical reliability & AV supervision</h3>
-                <p className="text-lg text-black/70">Our engineers hand-pick equipment, tune levels & manage playback with optimised arrays & time alignment, so there are no dead zones, sudden jumps or surprises. What guests hear stays clear, even & present.</p>
+                <p className="text-lg text-black/70">Our partners hand-pick equipment, tune levels & manage playback, so there are no bad surprises. What guests hear stays clear, even & present.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">One point of contact for sound & AV</h3>
-                <p className="text-lg text-black/70">We coordinate music curation & AV production, working directly with your venue, DJ, bands & producers. You talk to one team that understands both creative vision & technical detail.</p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Pre, during & post-event support</h3>
-                <p className="text-lg text-black/70">From advance planning & soundchecks to live supervision & final fade-out, we stay with you. We prepare backups & contingency plans so last-minute changes or extra speeches stay smooth.</p>
+                <p className="text-lg text-black/70">We manage music curation & AV production, working directly with your venue. You talk to one team that understands both creative & technical details.</p>
               </div>
             </div>
 
