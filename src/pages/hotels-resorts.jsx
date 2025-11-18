@@ -350,12 +350,7 @@ export default function HotelsResorts() {
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">The manual playlist headache</h3>
-                <p className="text-lg text-black/70">Teams keep changing tracks from streaming apps that are not licensed for public spaces. Songs repeat, volume jumps & no one is really accountable.</p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Acoustically dead or noisy areas</h3>
-                <p className="text-lg text-black/70">Some corners feel flat, others harsh. Layout, materials & crowd noise create pockets where music either disappears or gets tiring.</p>
+                <p className="text-lg text-black/70">Staff playing songs from streaming apps that are not licensed for public spaces. Songs repeat, volume jumps & no one is really accountable.</p>
               </div>
             </div>
           </div>
@@ -372,17 +367,17 @@ export default function HotelsResorts() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">24 hour journey mapping</h3>
-                <p className="text-lg text-black/70">We design music journeys that follow the rhythm of your hotel. Morning sets welcome gently, daytime supports flow & evening playlists add warmth without feeling repetitive.</p>
+                <p className="text-lg text-black/70">We design music journeys that follow your rhythm. Morning sets welcome gently, daytime supports flow & evening playlists add warmth without repetitions.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Zone specific curation with one identity</h3>
-                <p className="text-lg text-black/70">Our curators build distinct soundscapes for lobby, bar, restaurant, spa & pool, all tied by a shared sonic identity. Guests feel smooth vibe changes as they move in your spaces.</p>
+                <p className="text-lg text-black/70">We build distinct soundscapes for lobby, bar, restaurant & pool, all tied by a shared sonic identity. Guests feel smooth vibe changes as they move in your spaces.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Signature playlists that fit your brand</h3>
-                <p className="text-lg text-black/70">We translate your brand into music & build private hotel-only playlists, not generic mixes. Your lobby & lounge music sounds as custom as your interiors.</p>
+                <p className="text-lg text-black/70">We translate your brand into music & build private hotel-only playlists, not generic mixes. Your music sounds as custom as your interiors.</p>
               </div>
 
               <div>
@@ -392,7 +387,7 @@ export default function HotelsResorts() {
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Strategy for groups and new openings</h3>
-                <p className="text-lg text-black/70">For hotel brands & resort groups, we design a clear sonic strategy that defines your sound, enriched with local elements, then roll it out across locations.</p>
+                <p className="text-lg text-black/70">We design a clear sonic strategy that defines your sound, enriched with local elements, then roll it out across locations.</p>
               </div>
             </div>
 
@@ -427,7 +422,7 @@ export default function HotelsResorts() {
             <div className="space-y-6">
               <div>
                 <h3 className="text-2xl font-bold text-white mb-3">Higher guest satisfaction</h3>
-                <p className="text-lg text-white/80">Music becomes one of the reasons guests describe your hotel as relaxing, lively or atmospheric, supporting higher ambience & overall satisfaction scores.</p>
+                <p className="text-lg text-white/80">Music becomes one of the reasons guests describe your hotel as relaxing, lively or atmospheric, improving ambience & positive reviews.</p>
               </div>
 
               <div>
@@ -436,12 +431,12 @@ export default function HotelsResorts() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-white mb-3">Consistent brand experience across zones & locations</h3>
+                <h3 className="text-2xl font-bold text-white mb-3">Consistent brand experience</h3>
                 <p className="text-lg text-white/80">Lobby, spa, pool & bar all tell the same story as your interiors & service standards, from one property to the next.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-white mb-3">Less operational friction & legal peace of mind</h3>
+                <h3 className="text-2xl font-bold text-white mb-3">Legal peace of mind and less operational stress</h3>
                 <p className="text-lg text-white/80">Staff no longer juggle playlists or volume, & you rely on properly licensed music instead of consumer apps.</p>
               </div>
             </div>
