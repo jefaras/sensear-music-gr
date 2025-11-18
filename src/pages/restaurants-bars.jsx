@@ -234,6 +234,7 @@ export default function RestaurantsBars() {
 
 
 
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Stylish restaurant and bar interior with curated music atmosphere for dining experiences"
                 className="absolute w-full h-full object-cover md:hidden" />
@@ -242,6 +243,7 @@ export default function RestaurantsBars() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5eefecd97_Rebis-Restaurant-Desenzano-del-Garda-Italia-3-1--.jpg 2400w"
+
 
 
 
@@ -312,11 +314,11 @@ export default function RestaurantsBars() {
 
       {/* Breadcrumbs - COMMENTED OUT */}
       {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
-           <Breadcrumbs items={[
-           { label: "Industries", path: createPageUrl("Industries") },
-           { label: "Restaurants & Bars", path: createPageUrl("restaurants-bars") }]
-           } />
-          </div> */}
+            <Breadcrumbs items={[
+            { label: "Industries", path: createPageUrl("Industries") },
+            { label: "Restaurants & Bars", path: createPageUrl("restaurants-bars") }]
+            } />
+           </div> */}
 
       {/* Industry Specific Challenges */}
       <section className="py-20 bg-white">
@@ -429,7 +431,7 @@ export default function RestaurantsBars() {
 
               <div>
                 <h3 className="text-2xl font-bold text-white mb-3">More time, more spend per table</h3>
-                <p className="text-lg text-white/80">Guests stay for another drink or dessert, increasing check size and bar revenue. Research shows brand-fit music boosts hospitality sales.</p>
+                <p className="text-lg text-white/80">Guests stay for another drink or dessert, increasing bar revenue. Research shows brand-fit music boosts hospitality sales.</p>
               </div>
 
               <div>
