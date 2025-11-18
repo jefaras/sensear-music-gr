@@ -374,22 +374,17 @@ export default function RetailStores() {
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Soundscapes tuned for dwell time & flow</h3>
-                <p className="text-lg text-black/70">Tempo, genre & volume are calibrated so people feel relaxed enough to explore, yet energized enough to keep moving through your space.</p>
+                <p className="text-lg text-black/70">Tempo, genre & volume are calibrated so people feel relaxed enough to explore, yet energized enough to keep moving, reducing quick exits.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Brand exact audio identity</h3>
-                <p className="text-lg text-black/70">We align your store music with your visual story, price point & customer profile, so the soundtrack feels like part of your brand, not an add on.</p>
+                <p className="text-lg text-black/70">We pair store music with your visuals, pricing & shoppers. For multi store brands, we keep locations consistent while adding local touches.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Seasonal & campaign ready rotations</h3>
-                <p className="text-lg text-black/70">Playlists evolve with collections, sales & campaigns, keeping the experience fresh while still recognisably "you".</p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Consistency for multi location brands</h3>
-                <p className="text-lg text-black/70">For retail groups, we create a sonic strategy that defines your core sound across locations, with room for local tweaks where it matters.</p>
+                <p className="text-lg text-black/70">Playlists evolve with new collections, sales & campaigns, keeping the experience fresh while still recognisably "you".</p>
               </div>
             </div>
 
@@ -438,7 +433,7 @@ export default function RetailStores() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-white mb-3">Simple control & licensing peace of mind</h3>
+                <h3 className="text-2xl font-bold text-white mb-3">Licensing & control & peace of mind</h3>
                 <p className="text-lg text-white/80">You get curated, centrally managed playlists that are properly licensed for commercial use, not consumer apps.</p>
               </div>
             </div>
