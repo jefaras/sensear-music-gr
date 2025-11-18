@@ -384,11 +384,6 @@ export default function HotelsResorts() {
                 <h3 className="text-2xl font-bold text-black mb-3">Central control instead of staff DJing</h3>
                 <p className="text-lg text-black/70">Staff are freed from playlist duty & your music is compliant with commercial licensing.</p>
               </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Strategy for groups and new openings</h3>
-                <p className="text-lg text-black/70">We design a clear sonic strategy that defines your sound, enriched with local elements, then roll it out across locations.</p>
-              </div>
             </div>
 
             {/* Right: Image */}
