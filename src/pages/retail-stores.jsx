@@ -229,20 +229,20 @@ export default function RetailStores() {
             <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
               {/* Mobile/Tablet version - NO parallax */}
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/659f190b3_6fd38d8f206dc0b7749c169007cee524.jpg"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/659f190b3_6fd38d8f206dc0b7749c169007cee524.jpg 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/659f190b3_6fd38d8f206dc0b7749c169007cee524.jpg 2400w"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg 2400w"
                 sizes="(max-width: 1800px) 100vw, 1800px"
-                alt="Stylish retail store interior with curated music atmosphere"
+                alt="Modern retail store with strategic music curation influencing shopping behavior"
                 className="absolute w-full h-full object-cover md:hidden"
               />
               {/* Desktop version - WITH parallax */}
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/659f190b3_6fd38d8f206dc0b7749c169007cee524.jpg"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/659f190b3_6fd38d8f206dc0b7749c169007cee524.jpg 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/659f190b3_6fd38d8f206dc0b7749c169007cee524.jpg 2400w"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg 2400w"
                 sizes="(max-width: 1800px) 100vw, 1800px"
-                alt="Stylish retail store interior with curated music atmosphere"
+                alt="Modern retail store with strategic music curation influencing shopping behavior"
                 className="absolute w-full h-full object-cover hidden md:block"
                 style={{ 
                   top: '-15%',
@@ -414,7 +414,7 @@ export default function RetailStores() {
             {/* Left: Image */}
             <div className="hidden lg:block">
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/3d0ff6756_tumblr_odj9e5JRuo1uotgxio3_1280.jpg"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9d34ffa69_tumblr_odj9e5JRuo1uotgxio3_1280.jpg"
                 alt="Colorful retail architecture interior"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
@@ -448,13 +448,27 @@ export default function RetailStores() {
 
       {/* Social Proof with Image */}
       <section className="py-16 bg-[#faebe3]">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed mb-16">
-            Fashion & lifestyle retailers work with <strong>SensEar</strong> to make music part of the shopping ritual. Their stores now feel more intentional, guests stay to explore collections & the brand story is heard as clearly as it is seen.
-          </p>
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left: Image */}
+            <div className="hidden lg:block">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/4ee147bf6_6fd38d8f206dc0b7749c169007cee524.jpg"
+                alt="Stylish retail fashion display"
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
+            </div>
 
-          {/* Hear this industry in action - Centered */}
-          <div className="max-w-2xl mx-auto">
+            {/* Right: Text */}
+            <div>
+              <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed">
+                Fashion & lifestyle retailers work with <strong>SensEar</strong> to make music part of the shopping ritual. Their stores now feel more intentional, guests stay to explore collections & the brand story is heard as clearly as it is seen.
+              </p>
+            </div>
+          </div>
+
+          {/* Hear this industry in action - Centered below */}
+          <div className="max-w-2xl mx-auto mt-16 text-center">
             <h3 className="text-2xl md:text-3xl font-bold text-black mb-4">Hear this industry in action</h3>
             <p className="text-lg md:text-xl text-black/70 mb-6">Listen to a curated demo playlist for retail stores</p>
             <Link to={createPageUrl("PlaylistsDemos")}>
