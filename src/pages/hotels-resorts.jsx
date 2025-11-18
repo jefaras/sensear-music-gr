@@ -230,25 +230,27 @@ export default function HotelsResorts() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png 2400w"
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Luxury hotel resort lobby with curated music ambiance and elegant hospitality design"
-                className="absolute w-full h-full object-cover md:hidden"
-              />
+                className="absolute w-full h-full object-cover md:hidden" />
+
               {/* Desktop version - WITH parallax */}
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7f101b74a_46aadcb58bc4729ca5f1d47abf84a70a-_X-Design1.png 2400w"
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Luxury hotel resort lobby with curated music ambiance and elegant hospitality design"
                 className="absolute w-full h-full object-cover hidden md:block"
-                style={{ 
+                style={{
                   top: '-15%',
                   height: '130%',
                   transform: `translateY(${scrollY * 0.15}px)`,
                   transformOrigin: 'center top'
-                }}
-              />
+                }} />
+
             </div>
           </div>
         </div>
@@ -301,8 +303,8 @@ export default function HotelsResorts() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/38fbe55aa_3ee69fa2c5ac47509c6d1d927c51b21c.jpg"
                 alt="Luxury hotel terrace with elegant atmosphere"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+                className="w-full h-auto rounded-2xl shadow-lg" />
+
             </div>
           </div>
         </div>
@@ -310,11 +312,11 @@ export default function HotelsResorts() {
 
       {/* Breadcrumbs - COMMENTED OUT */}
       {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
-        <Breadcrumbs items={[
-        { label: "Industries", path: createPageUrl("Industries") },
-        { label: "Hotels & Resorts", path: createPageUrl("hotels-resorts") }]
-        } />
-      </div> */}
+         <Breadcrumbs items={[
+         { label: "Industries", path: createPageUrl("Industries") },
+         { label: "Hotels & Resorts", path: createPageUrl("hotels-resorts") }]
+         } />
+        </div> */}
 
       {/* Industry Specific Challenges */}
       <section className="py-20 bg-white">
@@ -327,8 +329,8 @@ export default function HotelsResorts() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d8d6391d9_3830d5bbb709e891ec72b2509c0455db.jpg"
                 alt="Modern hotel bar interior with ambient lighting"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+                className="w-full h-auto rounded-2xl shadow-lg" />
+
             </div>
 
             {/* Right: Content */}
@@ -367,7 +369,7 @@ export default function HotelsResorts() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">24 hour journey mapping</h3>
-                <p className="text-lg text-black/70">We design music journeys that follow your rhythm. Morning sets welcome gently, daytime supports flow & evening playlists add warmth without repetitions.</p>
+                <p className="text-lg text-black/70">Our music journeys follow your rhythm, so morning sets welcome gently, daytime supports flow & evening playlists add warmth, without repetitions.</p>
               </div>
 
               <div>
@@ -391,8 +393,8 @@ export default function HotelsResorts() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e0dd5f695_13e97d3def8d47a1efe25c37e0f29eb2.jpg"
                 alt="Luxury hotel pool terrace overlooking the ocean"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+                className="w-full h-auto rounded-2xl shadow-lg" />
+
             </div>
           </div>
         </div>
@@ -409,8 +411,8 @@ export default function HotelsResorts() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/95c488ed9_silver-ear-ear-ring.jpg"
                 alt="Silver ear sculpture representing listening and sonic branding"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+                className="w-full h-auto rounded-2xl shadow-lg" />
+
             </div>
 
             {/* Right: Content */}
@@ -455,8 +457,8 @@ export default function HotelsResorts() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/4bc198c23_BHA1.png"
                 alt="Beach House Antiparos resort terrace"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+                className="w-full h-auto rounded-2xl shadow-lg" />
+
             </div>
           </div>
 
@@ -492,6 +494,6 @@ export default function HotelsResorts() {
           </p>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 }
