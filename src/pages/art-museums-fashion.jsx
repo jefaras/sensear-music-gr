@@ -301,6 +301,7 @@ export default function ArtMuseumsFashion() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Content */}
             <div>
+              <p className="text-xl text-black/80 mb-6">Galleries, museums & fashion spaces where sound should frame the work, not compete with it:</p>
               <ul className="space-y-6 text-lg text-black/70">
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">•</span>
