@@ -239,42 +239,6 @@ export default function HotelsResorts() {
           animation: slideUp 0.8s ease-out 0.6s forwards;
           opacity: 0;
         }
-        
-        @keyframes grain {
-          0%, 100% { transform: translate(0, 0); }
-          10% { transform: translate(-5%, -5%); }
-          20% { transform: translate(-10%, 5%); }
-          30% { transform: translate(5%, -10%); }
-          40% { transform: translate(-5%, 15%); }
-          50% { transform: translate(-10%, 5%); }
-          60% { transform: translate(15%, 0); }
-          70% { transform: translate(0, 10%); }
-          80% { transform: translate(-15%, 0); }
-          90% { transform: translate(10%, 5%); }
-        }
-        
-        .grain-texture {
-          position: relative;
-          background: #faebe3;
-        }
-        
-        .grain-texture::before {
-          content: '';
-          position: absolute;
-          top: -50%;
-          left: -50%;
-          right: -50%;
-          bottom: -50%;
-          width: 200%;
-          height: 200%;
-          background-image: 
-            repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(128, 128, 128, 0.03) 2px, rgba(128, 128, 128, 0.03) 4px),
-            repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(96, 96, 96, 0.03) 2px, rgba(96, 96, 96, 0.03) 4px),
-            repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(112, 112, 112, 0.02) 3px, rgba(112, 112, 112, 0.02) 6px);
-          opacity: 0.8;
-          animation: grain 8s steps(10) infinite;
-          pointer-events: none;
-        }
       `}</style>
 
       <section className="relative pt-32 pb-20 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Hotels & Resorts section">
@@ -515,7 +479,7 @@ export default function HotelsResorts() {
       </section>
 
       {/* Social Proof with Image */}
-      <section className="py-16 grain-texture">
+      <section className="py-16 bg-[#faebe3]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Text */}
