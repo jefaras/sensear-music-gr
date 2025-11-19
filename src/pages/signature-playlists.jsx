@@ -374,13 +374,58 @@ export default function SignaturePlaylists() {
         </div>
       </section>
 
-      {/* Problems we solve */}
+      {/* How it works */}
       <section className="py-20 bg-[#faebe3]">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black">Problems we solve</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black">How it works</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Content */}
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Discovery & venue mapping</h3>
+                <p className="text-lg text-black/70">We learn your brand, spaces, guest journeys & service flow.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Playlist suite & setup</h3>
+                <p className="text-lg text-black/70">We deliver your first set of signature playlists and help you implement them across zones and times of day.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Ongoing refinement</h3>
+                <p className="text-lg text-black/70">We monitor feedback, rotate tracks & fine tune so the sound grows with your venue and seasons.</p>
+              </div>
+            </div>
+
+            {/* Right: Image */}
+            <div className="hidden lg:block">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/df3b41498_Experimental-Cocktail-Club-Negroni-1024x1024.jpg"
+                alt="Cocktail representing curated hospitality experience"
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Problems we solve */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-right">Problems we solve</h2>
+          
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left: Image */}
+            <div className="hidden lg:block">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fc49da4e8_ed448e1a555b86a5905eaa678fccc8d8.jpg"
+                alt="Music mixing equipment and sound control"
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
+            </div>
+
+            {/* Right: Content */}
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Inconsistent, generic playlists</h3>
@@ -400,51 +445,6 @@ export default function SignaturePlaylists() {
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">No control or licensing peace of mind</h3>
                 <p className="text-lg text-black/70">Ad hoc choices from YouTube or consumer apps risk both your brand and compliance. We provide properly cleared music for business use and a clear structure for who controls it.</p>
-              </div>
-            </div>
-
-            {/* Right: Image */}
-            <div className="hidden lg:block">
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fc49da4e8_ed448e1a555b86a5905eaa678fccc8d8.jpg"
-                alt="Music mixing equipment and sound control"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* How it works */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-right">How it works</h2>
-          
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left: Image */}
-            <div className="hidden lg:block">
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/df3b41498_Experimental-Cocktail-Club-Negroni-1024x1024.jpg"
-                alt="Cocktail representing curated hospitality experience"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
-            </div>
-
-            {/* Right: Content */}
-            <div className="space-y-8">
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Discovery & venue mapping</h3>
-                <p className="text-lg text-black/70">We learn your brand, spaces, guest journeys & service flow.</p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Playlist suite & setup</h3>
-                <p className="text-lg text-black/70">We deliver your first set of signature playlists and help you implement them across zones and times of day.</p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Ongoing refinement</h3>
-                <p className="text-lg text-black/70">We monitor feedback, rotate tracks & fine tune so the sound grows with your venue and seasons.</p>
               </div>
             </div>
           </div>
