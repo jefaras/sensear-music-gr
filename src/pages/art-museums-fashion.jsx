@@ -323,11 +323,13 @@ export default function ArtMuseumsFashion() {
 
             {/* Right: Image */}
             <div className="hidden lg:block">
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ec55631fd_204f0aeb3f27e1d66d7e764876f0fa4a.jpg"
-                alt="Art exhibition space"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+              <div className="w-[85%] mx-auto">
+                <img
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ec55631fd_204f0aeb3f27e1d66d7e764876f0fa4a.jpg"
+                  alt="Art exhibition space"
+                  className="w-full h-auto rounded-2xl shadow-lg"
+                />
+              </div>
             </div>
           </div>
         </div>
