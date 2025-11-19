@@ -321,13 +321,11 @@ export default function SignaturePlaylists() {
 
             {/* Right: Image */}
             <div className="hidden lg:block">
-              <div className="w-[76.5%] mx-auto">
-                <img
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9b1baab05_00-Vondom-Milos-Lovia-Mykonos-1cropped.jpg"
-                  alt="Luxury hotel room with curated music atmosphere"
-                  className="w-full h-auto rounded-2xl shadow-lg"
-                />
-              </div>
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9b1baab05_00-Vondom-Milos-Lovia-Mykonos-1cropped.jpg"
+                alt="Luxury hotel room with curated music atmosphere"
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
             </div>
           </div>
         </div>
@@ -469,13 +467,11 @@ export default function SignaturePlaylists() {
 
             {/* Right: Image */}
             <div className="hidden lg:block">
-              <div className="w-[76.5%] mx-auto">
-                <img
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fc49da4e8_ed448e1a555b86a5905eaa678fccc8d8.jpg"
-                  alt="Music mixing equipment and sound control"
-                  className="w-full h-auto rounded-2xl shadow-lg"
-                />
-              </div>
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fc49da4e8_ed448e1a555b86a5905eaa678fccc8d8.jpg"
+                alt="Music mixing equipment and sound control"
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
             </div>
           </div>
         </div>
