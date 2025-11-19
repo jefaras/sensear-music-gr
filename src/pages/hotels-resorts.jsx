@@ -339,7 +339,8 @@ export default function HotelsResorts() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/38fbe55aa_3ee69fa2c5ac47509c6d1d927c51b21c.jpg"
                 alt="Luxury hotel terrace with elegant atmosphere"
-                className="w-full h-auto rounded-2xl shadow-lg" />
+                className="w-full h-auto rounded-2xl shadow-lg"
+                style={{ transform: 'scaleY(0.8)' }} />
 
             </div>
           </div>

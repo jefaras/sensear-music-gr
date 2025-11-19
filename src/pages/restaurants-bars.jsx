@@ -333,7 +333,8 @@ export default function RestaurantsBars() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/faa6772fc_c6c8247c6975e5b8b28964566c4e798d.jpg"
                 alt="Vibrant restaurant bar interior with atmospheric lighting"
-                className="w-full h-auto rounded-2xl shadow-lg" />
+                className="w-full h-auto rounded-2xl shadow-lg"
+                style={{ transform: 'scaleY(0.8)' }} />
 
             </div>
           </div>

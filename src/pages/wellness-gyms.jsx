@@ -333,6 +333,7 @@ export default function WellnessGyms() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1918a9569_73e713e59820cc7915a71ef35c9d5835.jpg"
                 alt="Luxury wellness spa interior"
                 className="w-full h-auto rounded-2xl shadow-lg"
+                style={{ transform: 'scaleY(0.8)' }}
               />
             </div>
           </div>
