@@ -463,7 +463,7 @@ export default function SignaturePlaylists() {
                 Venues like <Link to={createPageUrl("blue-bamboo")} className="underline hover:text-black font-semibold">Blue Bamboo</Link>, <Link to={createPageUrl("beach-house-antiparos")} className="underline hover:text-black font-semibold">Beach House Antiparos</Link> & <Link to={createPageUrl("klouvi-bar")} className="underline hover:text-black font-semibold">Klouvi Bar</Link> use our signature playlists to keep atmosphere aligned with every moment.
               </p>
               <p className="text-xl text-black/80 leading-relaxed">
-                Our playlists help guests stay longer, spend more comfortably and remember the experience for its vibe as much as its food or design.
+                Our playlists help guests <Link to={createPageUrl("background-music-shapes-customer-behavior")} className="underline hover:text-black font-semibold">stay longer</Link>, spend more comfortably and remember the experience for its vibe as much as its food or design.
               </p>
             </div>
 
