@@ -298,23 +298,23 @@ export default function SignaturePlaylists() {
               <ul className="space-y-6 text-lg text-black/70">
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">•</span>
-                  <span><strong>Hotels & resorts</strong> that need a smooth journey from morning to late night</span>
+                  <span><Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black font-semibold">Hotels & resorts</Link> that need a smooth journey from morning to late night</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">•</span>
-                  <span><strong>Restaurants & bars</strong> that live on repeat guests & bar spend</span>
+                  <span><Link to={createPageUrl("restaurants-bars")} className="underline hover:text-black font-semibold">Restaurants & bars</Link> that live on repeat guests & bar spend</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">•</span>
-                  <span><strong>Retail stores</strong> that want a soundtrack that fits their visual story</span>
+                  <span><Link to={createPageUrl("retail-stores")} className="underline hover:text-black font-semibold">Retail stores</Link> that want a soundtrack that fits their visual story</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">•</span>
-                  <span><strong>Wellness spaces & gyms</strong> where sound supports treatment or training</span>
+                  <span><Link to={createPageUrl("wellness-gyms")} className="underline hover:text-black font-semibold">Wellness spaces & gyms</Link> where sound supports treatment or training</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">•</span>
-                  <span><strong>Galleries, museums & fashion spaces</strong> that need intentional, curated sound</span>
+                  <span><Link to={createPageUrl("art-museums-fashion")} className="underline hover:text-black font-semibold">Galleries, museums & fashion spaces</Link> that need intentional, curated sound</span>
                 </li>
               </ul>
             </div>
