@@ -277,7 +277,7 @@ export default function SignaturePlaylists() {
             </div>
             
             {/* Left: Content - appears second on mobile, first on desktop */}
-            <div className="lg:order-1 lg:mt-[116px]">
+            <div className="lg:order-1 lg:mt-30">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
                 We design fresh, engaging <strong>Music Playlists</strong> that reflect your brand, guide the energy in your spaces & keep guests and teams tuned in.
               </p>
