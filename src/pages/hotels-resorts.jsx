@@ -498,6 +498,8 @@ that lifts guest satisfaction and repeat visits
       {/* Social Proof with Image */}
       <section className="py-16 bg-[#faebe3]">
         <div className="max-w-7xl mx-auto px-6">
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black">Social proof</h2>
+          
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Text */}
             <div>
