@@ -327,7 +327,6 @@ export default function ArtMuseumsFashion() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ec55631fd_204f0aeb3f27e1d66d7e764876f0fa4a.jpg"
                 alt="Art exhibition space"
                 className="w-full h-auto rounded-2xl shadow-lg"
-                style={{ transform: 'scaleY(0.8)' }}
               />
             </div>
           </div>
