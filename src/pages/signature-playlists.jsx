@@ -270,7 +270,7 @@ export default function SignaturePlaylists() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-[1fr_auto] gap-8 items-start">
             {/* Left: Content */}
-            <div className="mt-[100px]">
+            <div className="mt-[160px]">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
                 We design fresh, engaging playlists that reflect your brand, guide the energy in your spaces & keep guests and teams tuned in. Music stops being background and becomes part of the experience.
               </p>
