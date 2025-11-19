@@ -384,17 +384,17 @@ export default function SignaturePlaylists() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Discovery & venue mapping</h3>
-                <p className="text-lg text-black/70">We learn your brand, spaces, guest journeys & service flow.</p>
+                <p className="text-lg text-black/70">We learn your brand, spaces, guest journeys and service flow so we can map where music should welcome, support or lift the room.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Playlist suite & setup</h3>
-                <p className="text-lg text-black/70">We deliver your first set of signature playlists and help you implement them across zones and times of day.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Playlist suite and setup</h3>
+                <p className="text-lg text-black/70">We build your first family of playlists and help you implement them across zones and times of day.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Ongoing refinement</h3>
-                <p className="text-lg text-black/70">We monitor feedback, rotate tracks & fine tune so the sound grows with your venue and seasons.</p>
+                <p className="text-lg text-black/70">We review feedback, rotate tracks and fine tune, so the sound grows with your venue and seasons.</p>
               </div>
             </div>
 
