@@ -454,7 +454,7 @@ export default function SignaturePlaylists() {
       {/* Proof in practice */}
       <section className="py-20 bg-[#faebe3]">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black">Proof in practice</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black">How others use it</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Content */}
