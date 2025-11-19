@@ -487,8 +487,11 @@ export default function WellnessGyms() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Text */}
             <div>
+              <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed mb-6">
+                Wellness centers, studios & gyms work with <strong>SensEar</strong> to turn music into part of the healing & training ritual.
+              </p>
               <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed">
-                Wellness centers, studios & gyms work with <strong>SensEar</strong> to turn music into part of the healing & training ritual. Their spaces now feel more intentional, clients relax faster, members stay engaged & the overall experience feels designed, not improvised.
+                Their spaces now feel more intentional, clients relax faster, members stay engaged & the overall experience feels designed, not improvised.
               </p>
             </div>
 
