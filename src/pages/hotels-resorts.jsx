@@ -504,7 +504,7 @@ that lifts guest satisfaction and repeat visits
             {/* Left: Text */}
             <div>
               <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed mb-6">
-                <strong>Beach House Antiparos</strong> used <strong>SensEar</strong> to give its beach, dining and retail areas their own sound while keeping one coherent story.
+                <strong>Beach House Antiparos</strong> used <strong>SensEar</strong> to give its beach, dining and retail areas their own sound while keeping <Link to={createPageUrl("how-top-hospitality-brands-design-sound")} className="underline hover:text-black font-semibold">one coherent story</Link>.
               </p>
               <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed">
                 Multi zone music now adapts to each moment, creating stays guests keep talking about.
