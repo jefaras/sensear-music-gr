@@ -459,8 +459,11 @@ export default function SignaturePlaylists() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Content */}
             <div>
+              <p className="text-xl text-black/80 leading-relaxed mb-4">
+                Venues like <Link to={createPageUrl("blue-bamboo")} className="underline hover:text-black font-semibold">Blue Bamboo</Link>, <Link to={createPageUrl("beach-house-antiparos")} className="underline hover:text-black font-semibold">Beach House Antiparos</Link> & <Link to={createPageUrl("klouvi-bar")} className="underline hover:text-black font-semibold">Klouvi Bar</Link> use our signature playlists to keep atmosphere aligned with every moment.
+              </p>
               <p className="text-xl text-black/80 leading-relaxed">
-                Venues like <Link to={createPageUrl("blue-bamboo")} className="underline hover:text-black font-semibold">Blue Bamboo</Link>, <Link to={createPageUrl("beach-house-antiparos")} className="underline hover:text-black font-semibold">Beach House Antiparos</Link> & <Link to={createPageUrl("klouvi-bar")} className="underline hover:text-black font-semibold">Klouvi Bar</Link> use our signature playlists to keep atmosphere aligned with every moment, helping guests stay longer, spend more comfortably and remember the experience for its vibe as much as its food or design.
+                Our playlists help guests stay longer, spend more comfortably and remember the experience for its vibe as much as its food or design.
               </p>
             </div>
 
