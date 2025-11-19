@@ -268,22 +268,22 @@ export default function SignaturePlaylists() {
       {/* Intro Section - Black Background */}
       <section className="bg-black py-16">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-[auto_1fr] gap-8 items-start">
-            {/* Left: Titles */}
+          <div className="grid lg:grid-cols-[1fr_auto] gap-8 items-start">
+            {/* Left: Content */}
+            <div>
+              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
+                We design fresh, engaging playlists that reflect your brand, guide the energy in your spaces & keep guests and teams tuned in. Music stops being background and becomes part of the experience.
+              </p>
+            </div>
+            
+            {/* Right: Titles */}
             <div className="lg:min-w-[280px]">
-              <h2 className="text-[0.75rem] tracking-widest text-white/60 mb-4 uppercase">
+              <h2 className="text-[0.75rem] tracking-widest text-white/60 mb-2 uppercase">
                 Signature playlists / Background music
               </h2>
               <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight">
                 What is it
               </h2>
-            </div>
-            
-            {/* Right: Content */}
-            <div>
-              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                We design fresh, engaging playlists that reflect your brand, guide the energy in your spaces & keep guests and teams tuned in. Music stops being background and becomes part of the experience.
-              </p>
             </div>
           </div>
         </div>
