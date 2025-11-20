@@ -215,6 +215,12 @@ export default function AboutUs() {
             <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
               About SensEar
             </h1>
+            
+            <div className="mb-8 max-w-4xl slide-up-2">
+              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
+                At the core of SensEar is a shared belief: that music is not background—it is atmosphere, memory, and emotion.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -242,31 +248,17 @@ export default function AboutUs() {
         </div>
       </section>
 
-      {/* Intro Section - Black Background */}
-      <section className="bg-black py-20">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-[1fr_auto] gap-8 items-start">
-            {/* Right: Titles - appears first on mobile, second on desktop */}
-            <div className="lg:order-2 lg:min-w-[280px]">
-              <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-8 lg:mb-0">
-                Who we are
-              </h2>
-            </div>
-            
-            {/* Left: Content - appears second on mobile, first on desktop */}
-            <div className="lg:order-1 lg:mt-[116px]">
-              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                At the core of SensEar is a shared belief: that music is not background, but atmosphere, memory, and emotion.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      {/* Breadcrumbs - COMMENTED OUT */}
+      {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
+         <Breadcrumbs items={[
+         { label: "About", path: createPageUrl("AboutUs") }]
+         } />
+        </div> */}
+      
       {/* Timeline */}
       <section className="py-20 bg-white" aria-labelledby="timeline-heading">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 id="timeline-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-right text-black mb-16">Our Journey</h2>
+          <h2 id="timeline-heading" className="text-4xl font-bold text-center text-black mb-16">Our Journey</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             {/* Left: Timeline content */}
@@ -293,7 +285,7 @@ export default function AboutUs() {
                   </div>
 
                   {/* Desktop layout - left aligned badge with content */}
-                  <div className="hidden md:flex md:gap-8">
+                  <div className="hidden md:flex md:gap-8 md:items-start">
                     {/* Left side - Year badge */}
                     <div className="flex-shrink-0">
                       <div className="w-24 h-24 bg-black text-white font-bold rounded-full flex items-center justify-center text-xl shadow-lg relative z-10">
@@ -325,7 +317,7 @@ export default function AboutUs() {
                   </div>
 
                   {/* Desktop layout - left aligned badge with content */}
-                  <div className="hidden md:flex md:gap-8">
+                  <div className="hidden md:flex md:gap-8 md:items-start">
                     {/* Left side - Year badge */}
                     <div className="flex-shrink-0">
                       <div className="w-24 h-24 bg-black text-white font-bold rounded-full flex items-center justify-center text-xl shadow-lg relative z-10">
@@ -357,7 +349,7 @@ export default function AboutUs() {
                   </div>
 
                   {/* Desktop layout - left aligned badge with content */}
-                  <div className="hidden md:flex md:gap-8">
+                  <div className="hidden md:flex md:gap-8 md:items-start">
                     {/* Left side - Year badge */}
                     <div className="flex-shrink-0">
                       <div className="w-24 h-24 bg-black text-white font-bold rounded-full flex items-center justify-center text-xl shadow-lg relative z-10">
@@ -389,7 +381,7 @@ export default function AboutUs() {
                   </div>
 
                   {/* Desktop layout - left aligned badge with content */}
-                  <div className="hidden md:flex md:gap-8">
+                  <div className="hidden md:flex md:gap-8 md:items-start">
                     {/* Left side - Year badge */}
                     <div className="flex-shrink-0">
                       <div className="w-24 h-24 bg-black text-white font-bold rounded-full flex items-center justify-center text-xl shadow-lg relative z-10">
@@ -421,7 +413,7 @@ export default function AboutUs() {
                   </div>
 
                   {/* Desktop layout - left aligned badge with content */}
-                  <div className="hidden md:flex md:gap-8">
+                  <div className="hidden md:flex md:gap-8 md:items-start">
                     {/* Left side - Year badge */}
                     <div className="flex-shrink-0">
                       <div className="w-24 h-24 bg-black text-white font-bold rounded-full flex items-center justify-center text-xl shadow-lg relative z-10">
@@ -461,7 +453,7 @@ export default function AboutUs() {
       {/* Vision Section */}
       <section className="py-24 bg-black text-white" aria-labelledby="vision-heading">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 id="vision-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-left mb-4 animate-fade-in-up text-peach">Our Vision</h2>
+          <h2 id="vision-heading" className="text-4xl font-bold text-center mb-4 animate-fade-in-up text-peach">Our Vision</h2>
           <p className="text-2xl text-center max-w-4xl mx-auto text-white/90 animate-fade-in-up leading-relaxed" style={{ animationDelay: '0.2s' }}>
             <span className="">To become the leading music partner for eclectic hospitality brands & events seeking to express identity, elevate atmosphere & create lasting guest connections. Learn more about our </span><Link to={createPageUrl("sonic-strategy")} className="underline hover:text-peach font-semibold">sonic strategy service</Link><span>.</span>
           </p>
@@ -484,9 +476,9 @@ export default function AboutUs() {
                 </div>
                 <h3 className="text-2xl font-bold mb-1">John E. Farazoumis</h3>
                 <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Co-Founder, Brand Strategy, Client Service</p>
-                <p className="text-black/70 text-left mb-4">From his early DJ sets in Larissa to his studies in sound engineering in Athens, J.E.F. has always been guided by music's magnetic pull.</p>
-                <p className="text-black/70 text-left mb-4">He is a co-founder of a successful digital agency, gaining 25 years of experience in web services & understanding client needs.</p>
-                <p className="text-black/70 text-left">At SensEar, he shapes the brand's strategic direction and bridges the gap between creative vision and client experience across the hospitality sector.</p>
+                <p className="text-black/70 text-left whitespace-pre-line">From his early DJ sets in Larissa to his studies in sound engineering in Athens, J.E.F. has always been guided by music's magnetic pull. 
+
+He is a co-founder of a successful digital agency, gaining 25 years of experience in web services & understanding client needs. At SensEar, he shapes the brand's strategic direction and bridges the gap between creative vision and client experience across the hospitality sector.</p>
               </Card>
             </article>
 
@@ -501,9 +493,9 @@ export default function AboutUs() {
                 </div>
                 <h3 className="text-2xl font-bold mb-1">George Fameliaris</h3>
                 <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Co-Founder,  Chief Music Curator</p>
-                <p className="text-black/70 text-left mb-4">G's lifelong passion for music deepened through a popular music in films Master at Media & communications of Goldsmiths University of London.</p>
-                <p className="text-black/70 text-left mb-4">Back in Athens, he made his mark as a curator and DJ on radio, parties & venues, including as co-founder of the acclaimed M.C.</p>
-                <p className="text-black/70 text-left">At SensEar, he crafts each venue's musical identity with precision, rhythm, and a sense of atmosphere that defines the brand's signature sound.</p>
+                <p className="text-black/70 text-left whitespace-pre-line">G's lifelong passion for music deepened through a popular music in films Master at Media & communications of Goldsmiths University of London. Back in Athens, he made his mark as a curator and DJ on radio, parties & venues, including as co-founder of the acclaimed M.C. 
+
+At SensEar, he crafts each venue's musical identity with precision, rhythm, and a sense of atmosphere that defines the brand's signature sound.</p>
               </Card>
             </article>
 
@@ -518,9 +510,9 @@ export default function AboutUs() {
                 </div>
                 <h3 className="text-2xl font-bold mb-1">Katerina Karali</h3>
                 <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Contributing Associate, DJ , Music Curator</p>
-                <p className="text-black/70 text-left mb-4">Katerina combines visual design & sound narrative with a refined artistic sensibility.</p>
-                <p className="text-black/70 text-left mb-4">A veteran multimedia art director, she helps curate soundscapes for films, exhibitions & private events.</p>
-                <p className="text-black/70 text-left">Known for her instinctive selections and taste for rare grooves, she brings depth, texture, and a touch of the unexpected to SensEar's playlists.</p>
+                <p className="text-black/70 text-left whitespace-pre-line">Katerina combines visual design & sound narrative with a refined artistic sensibility. A veteran multimedia art director, she helps curate soundscapes for films, exhibitions & private events. 
+
+Known for her instinctive selections and taste for rare grooves, she brings depth, texture, and a touch of the unexpected to SensEar's playlists.</p>
               </Card>
             </article>
           </div>
@@ -535,7 +527,7 @@ export default function AboutUs() {
 
       <section className="bg-[#faebe3] text-black py-24" aria-labelledby="differentiators-heading">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 id="differentiators-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-right mb-12 animate-fade-in-up">What Sets Us Apart</h2>
+          <h2 id="differentiators-heading" className="text-4xl font-bold text-center mb-12 animate-fade-in-up">What Sets Us Apart</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image */}
