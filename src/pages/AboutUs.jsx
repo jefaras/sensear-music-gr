@@ -481,7 +481,7 @@ export default function AboutUs() {
               <Card className="bg-white text-center p-8 shadow-lg overflow-hidden hover:shadow-2xl transition-shadow">
                 <div className="mb-6 overflow-hidden rounded-lg">
                   <img
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/49c5d6b20_JEF-cropped.png"
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/2deec3139_JEF-cropped.png"
                     alt="John E. Farazoumis - SensEar Co-Founder and Brand Strategy Director"
                     className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
