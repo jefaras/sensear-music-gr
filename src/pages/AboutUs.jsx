@@ -223,9 +223,9 @@ export default function AboutUs() {
           <div className="mx-auto" style={{ maxWidth: '1800px' }}>
             <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/361e48e4b_85051705_172264584193922_2910039908695408640_n.jpg"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/361e48e4b_85051705_172264584193922_2910039908695408640_n.jpg 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/361e48e4b_85051705_172264584193922_2910039908695408640_n.jpg 2400w"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/a88ae266a_361e48e4b_85051705_172264584193922_2910039908695408640_n.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/a88ae266a_361e48e4b_85051705_172264584193922_2910039908695408640_n.jpg 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/a88ae266a_361e48e4b_85051705_172264584193922_2910039908695408640_n.jpg 2400w"
 
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="SensEar music curation team collaborating on sonic branding project"
