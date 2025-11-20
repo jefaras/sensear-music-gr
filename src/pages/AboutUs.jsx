@@ -476,11 +476,9 @@ export default function AboutUs() {
                 </div>
                 <h3 className="text-2xl font-bold mb-1">John E. Farazoumis</h3>
                 <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Co-Founder, Brand Strategy, Client Service</p>
-                <p className="text-black/70 text-left whitespace-pre-line">From his early DJ sets in Larissa to his studies in sound engineering in Athens, J.E.F. has always been guided by music's magnetic pull. 
-
-He is a co-founder of a successful digital agency, gaining 25 years of experience in web services & understanding client needs. 
-
-At SensEar, he shapes the brand's strategic direction and bridges the gap between creative vision and client experience across the hospitality sector.</p>
+                <p className="text-black/70 text-left mb-4">From his early DJ sets in Larissa to his studies in sound engineering in Athens, J.E.F. has always been guided by music's magnetic pull.</p>
+                <p className="text-black/70 text-left mb-4">He is a co-founder of a successful digital agency, gaining 25 years of experience in web services & understanding client needs.</p>
+                <p className="text-black/70 text-left">At SensEar, he shapes the brand's strategic direction and bridges the gap between creative vision and client experience across the hospitality sector.</p>
               </Card>
             </article>
 
@@ -495,11 +493,9 @@ At SensEar, he shapes the brand's strategic direction and bridges the gap betwee
                 </div>
                 <h3 className="text-2xl font-bold mb-1">George Fameliaris</h3>
                 <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Co-Founder,  Chief Music Curator</p>
-                <p className="text-black/70 text-left whitespace-pre-line">G's lifelong passion for music deepened through a popular music in films Master at Media & communications of Goldsmiths University of London. 
-
-Back in Athens, he made his mark as a curator and DJ on radio, parties & venues, including as co-founder of the acclaimed M.C. 
-
-At SensEar, he crafts each venue's musical identity with precision, rhythm, and a sense of atmosphere that defines the brand's signature sound.</p>
+                <p className="text-black/70 text-left mb-4">G's lifelong passion for music deepened through a popular music in films Master at Media & communications of Goldsmiths University of London.</p>
+                <p className="text-black/70 text-left mb-4">Back in Athens, he made his mark as a curator and DJ on radio, parties & venues, including as co-founder of the acclaimed M.C.</p>
+                <p className="text-black/70 text-left">At SensEar, he crafts each venue's musical identity with precision, rhythm, and a sense of atmosphere that defines the brand's signature sound.</p>
               </Card>
             </article>
 
@@ -514,11 +510,9 @@ At SensEar, he crafts each venue's musical identity with precision, rhythm, and 
                 </div>
                 <h3 className="text-2xl font-bold mb-1">Katerina Karali</h3>
                 <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Contributing Associate, DJ , Music Curator</p>
-                <p className="text-black/70 text-left whitespace-pre-line">Katerina combines visual design & sound narrative with a refined artistic sensibility. 
-
-A veteran multimedia art director, she helps curate soundscapes for films, exhibitions & private events. 
-
-Known for her instinctive selections and taste for rare grooves, she brings depth, texture, and a touch of the unexpected to SensEar's playlists.</p>
+                <p className="text-black/70 text-left mb-4">Katerina combines visual design & sound narrative with a refined artistic sensibility.</p>
+                <p className="text-black/70 text-left mb-4">A veteran multimedia art director, she helps curate soundscapes for films, exhibitions & private events.</p>
+                <p className="text-black/70 text-left">Known for her instinctive selections and taste for rare grooves, she brings depth, texture, and a touch of the unexpected to SensEar's playlists.</p>
               </Card>
             </article>
           </div>
