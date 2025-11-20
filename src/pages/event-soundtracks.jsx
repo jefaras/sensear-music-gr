@@ -306,7 +306,7 @@ export default function EventSoundtracks() {
             <div className="hidden lg:block">
               <div className="w-[85%] mx-auto">
                 <img
-                  src="PLACEHOLDER_IMAGE_1"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9f56a9904_2f602f264fc83649ea78ee45caeec916upscaled.jpg"
                   alt="Event venue with curated soundscape"
                   className="w-full h-auto rounded-2xl shadow-lg"
                 />
@@ -324,7 +324,7 @@ export default function EventSoundtracks() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="hidden lg:block">
               <img
-                src="PLACEHOLDER_IMAGE_2"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e56a199c4_ac423ae7b75beed60a76ecc7a719d544croppedUPSCALED.jpg"
                 alt="Event soundtrack planning and execution"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
@@ -380,7 +380,7 @@ export default function EventSoundtracks() {
 
             <div className="hidden lg:block">
               <img
-                src="PLACEHOLDER_IMAGE_3"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/33cedde2f_46b116cdd43bbf9f9088407090957439cropped.jpg"
                 alt="Event music planning process"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
@@ -397,7 +397,7 @@ export default function EventSoundtracks() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="hidden lg:block">
               <img
-                src="PLACEHOLDER_IMAGE_4"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/8fc129495_pxbee_2025-11-20_15-14-00.jpg"
                 alt="Professional event audio setup"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
@@ -446,7 +446,7 @@ export default function EventSoundtracks() {
             <div className="hidden lg:block">
               <div className="w-[85%] mx-auto">
                 <img
-                  src="PLACEHOLDER_IMAGE_5"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/33cedde2f_46b116cdd43bbf9f9088407090957439cropped.jpg"
                   alt="Successful event with curated music"
                   className="w-full h-auto rounded-2xl shadow-lg"
                 />
