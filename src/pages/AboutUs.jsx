@@ -475,10 +475,10 @@ export default function AboutUs() {
                     className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
                 <h3 className="text-2xl font-bold mb-1">John E. Farazoumis</h3>
-                <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Co-Founder, Brand Strategy , Client Service</p>
-                <p className="text-black/70 text-left whitespace-pre-line">From his early DJ sets in Larissa to his studies in sound engineering in Athens, J.E.F. has always been guided by music's magnetic pull. He later co-founded a successful digital agency, gaining two decades of experience in web services and understanding client needs.
+                <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Co-Founder, Brand Strategy, Client Service</p>
+                <p className="text-black/70 text-left whitespace-pre-line">From his early DJ sets in Larissa to his studies in sound engineering in Athens, J.E.F. has always been guided by music's magnetic pull. 
 
-At SensEar, he shapes the brand's strategic direction and bridges the gap between creative vision and client experience across the hospitality sector.</p>
+He is a co-founder of a successful digital agency, gaining 25 years of experience in web services & understanding client needs. At SensEar, he shapes the brand's strategic direction and bridges the gap between creative vision and client experience across the hospitality sector.</p>
               </Card>
             </article>
 
@@ -492,8 +492,8 @@ At SensEar, he shapes the brand's strategic direction and bridges the gap betwee
                     className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
                 <h3 className="text-2xl font-bold mb-1">George Fameliaris</h3>
-                <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Co-Founder, Music Curator , DJ , Sonic Identity Expert</p>
-                <p className="text-black/70 text-left whitespace-pre-line">George's lifelong passion for music deepened through a Master's degree at Goldsmiths, University of London, where he explored music in media. Back in Athens, he made his mark as a curator and DJ on radio and at venues, including as co-founder of the acclaimed Midnight City.
+                <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Co-Founder,  Chief Music Curator</p>
+                <p className="text-black/70 text-left whitespace-pre-line">G's lifelong passion for music deepened through a popular music in films Master at Media & communications of Goldsmiths University of London. Back in Athens, he made his mark as a curator and DJ on radio, parties & venues, including as co-founder of the acclaimed M.C. 
 
 At SensEar, he crafts each venue's musical identity with precision, rhythm, and a sense of atmosphere that defines the brand's signature sound.</p>
               </Card>
@@ -509,15 +509,18 @@ At SensEar, he crafts each venue's musical identity with precision, rhythm, and 
                     className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
                 <h3 className="text-2xl font-bold mb-1">Katerina Karali</h3>
-                <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Contributing Associate, Art Director , DJ , Music Curator</p>
-                <p className="text-black/70 text-left whitespace-pre-line">Katerina combines visual design and sound storytelling with a refined artistic sensibility. A veteran multimedia art director, she curates soundscapes for films, exhibitions, and private events.
+                <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Contributing Associate, DJ , Music Curator</p>
+                <p className="text-black/70 text-left whitespace-pre-line">Katerina combines visual design & sound narrative with a refined artistic sensibility. A veteran multimedia art director, she helps curate soundscapes for films, exhibitions & private events. 
 
 Known for her instinctive selections and taste for rare grooves, she brings depth, texture, and a touch of the unexpected to SensEar's playlists.</p>
               </Card>
             </article>
           </div>
           <p className="text-center mt-12 text-lg max-w-3xl mx-auto text-black/80 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
-            <span>Together, John, George, and Katerina form SensEar's creative core, a team committed to elevating spaces through music that is always intentional, immersive, and unforgettable. See how we work with clients in our </span><Link to={createPageUrl("CaseStudies")} className="underline hover:text-black font-semibold">case studies</Link><span> or </span><Link to={createPageUrl("ContactUs")} className="underline hover:text-black font-semibold">get in touch</Link><span> to discuss your project.</span>
+            Together, John, George, and Katerina form SensEar's creative core, a team committed to elevating spaces through music that is always intentional, immersive, and unforgettable.
+          </p>
+          <p className="text-center mt-4 text-lg max-w-3xl mx-auto text-black/80 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
+            <span>See how we work with clients in our </span><Link to={createPageUrl("CaseStudies")} className="underline hover:text-black font-semibold">case studies</Link><span>, or </span><Link to={createPageUrl("ContactUs")} className="underline hover:text-black font-semibold">get in touch</Link><span> to discuss your project.</span>
           </p>
         </div>
       </section>
