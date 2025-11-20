@@ -301,7 +301,7 @@ export default function SignaturePlaylists() {
               <ul className="space-y-6 text-lg text-black/70">
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">•</span>
-                  <span><Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black font-semibold">Hotels & resorts</Link> that need a smooth journey from morning to late night</span>
+                  <span><Link to={createPageUrl("hotels-resorts")} className="underline hover:text-black font-semibold">Hotels & resorts</Link> that need smooth shifts from morning to late night</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">•</span>
@@ -317,7 +317,7 @@ export default function SignaturePlaylists() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">•</span>
-                  <span><Link to={createPageUrl("art-museums-fashion")} className="underline hover:text-black font-semibold">Galleries, museums & fashion spaces</Link> that need intentional, curated sound</span>
+                  <span><Link to={createPageUrl("art-museums-fashion")} className="underline hover:text-black font-semibold">Galleries, museums & fashion spaces</Link> that need curated, unobtrusive sound</span>
                 </li>
               </ul>
             </div>
