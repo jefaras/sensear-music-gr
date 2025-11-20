@@ -260,6 +260,9 @@ export default function AboutUs() {
         <div className="max-w-7xl mx-auto px-6">
           <h2 id="timeline-heading" className="text-4xl font-bold text-center text-black mb-16">Our Journey</h2>
           
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+            {/* Left: Timeline content */}
+            <div>
           {/* Timeline container with flex centering - using inline style to ensure it applies */}
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <div className="w-full max-w-4xl relative" role="list">
@@ -431,6 +434,18 @@ export default function AboutUs() {
               </div>
             </div>
           </div>
+          </div>
+
+            {/* Right: Image */}
+            <div className="hidden lg:block">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16685b806_pexels-monstera-1408089.jpg"
+                alt="SensEar music curation journey"
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
+            </div>
+          </div>
+          
           <p className="text-center mt-12 text-lg text-black/80 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
             Want to hear our vision? Explore our <Link to={createPageUrl("signature-soundscapes")} className="underline hover:text-black font-semibold">signature soundscapes demos</Link>.
           </p>
@@ -462,7 +477,7 @@ export default function AboutUs() {
                     className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
                 <h3 className="text-2xl font-bold mb-1">John E. Farazoumis</h3>
-                <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Co-Founder, Brand Strategy – Client Service</p>
+                <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Co-Founder, Brand Strategy , Client Service</p>
                 <p className="text-black/70 text-left whitespace-pre-line">From his early DJ sets in Larissa to his studies in sound engineering in Athens, J.E.F. has always been guided by music's magnetic pull. He later co-founded a successful digital agency, gaining two decades of experience in web services and understanding client needs.
 
 At SensEar, he shapes the brand's strategic direction and bridges the gap between creative vision and client experience across the hospitality sector.</p>
@@ -479,7 +494,7 @@ At SensEar, he shapes the brand's strategic direction and bridges the gap betwee
                     className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
                 <h3 className="text-2xl font-bold mb-1">George Fameliaris</h3>
-                <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Co-Founder, Music Curator – DJ – Sonic Identity Expert</p>
+                <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Co-Founder, Music Curator , DJ , Sonic Identity Expert</p>
                 <p className="text-black/70 text-left whitespace-pre-line">George's lifelong passion for music deepened through a Master's degree at Goldsmiths, University of London, where he explored music in media. Back in Athens, he made his mark as a curator and DJ on radio and at venues, including as co-founder of the acclaimed Midnight City.
 
 At SensEar, he crafts each venue's musical identity with precision, rhythm, and a sense of atmosphere that defines the brand's signature sound.</p>
@@ -496,7 +511,7 @@ At SensEar, he crafts each venue's musical identity with precision, rhythm, and 
                     className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
                 <h3 className="text-2xl font-bold mb-1">Katerina Karali</h3>
-                <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Contributing Associate, Art Director – DJ – Music Curator</p>
+                <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Contributing Associate, Art Director , DJ , Music Curator</p>
                 <p className="text-black/70 text-left whitespace-pre-line">Katerina combines visual design and sound storytelling with a refined artistic sensibility. A veteran multimedia art director, she curates soundscapes for films, exhibitions, and private events.
 
 Known for her instinctive selections and taste for rare grooves, she brings depth, texture, and a touch of the unexpected to SensEar's playlists.</p>
@@ -510,9 +525,22 @@ Known for her instinctive selections and taste for rare grooves, she brings dept
       </section>
 
       <section className="bg-[#faebe3] text-black py-24" aria-labelledby="differentiators-heading">
-        <div className="max-w-5xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <h2 id="differentiators-heading" className="text-4xl font-bold text-center mb-12 animate-fade-in-up">What Sets Us Apart</h2>
-          <div className="grid md:grid-cols-2 gap-10" role="list">
+          
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left: Image */}
+            <div className="hidden lg:block">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f12d13b47_IMG_20250722_165530.jpg"
+                alt="SensEar unique approach"
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
+            </div>
+
+            {/* Right: Content */}
+            <div>
+          <div className="grid md:grid-cols-1 gap-10" role="list">
             {/* From Brand Vision to Sonic Expression */}
             <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
               <div className="flex items-start gap-4">
@@ -565,6 +593,9 @@ Known for her instinctive selections and taste for rare grooves, she brings dept
               </div>
             </article>
           </div>
+            </div>
+          </div>
+          
           <p className="text-center mt-12 text-lg text-black/80 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
             <span>Experience our unique approach through our </span><Link to={createPageUrl("signature-soundscapes")} className="underline hover:text-black">signature soundscapes</Link><span> or explore solutions for your </span><Link to={createPageUrl("Industries")} className="underline hover:text-black">specific industry</Link><span>.</span>
           </p>
