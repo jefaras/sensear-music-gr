@@ -328,7 +328,7 @@ export default function Home() {
                 {/* Right: Image */}
                 <div className="lg:order-2 hidden lg:block lg:mt-[140px]">
                   <img
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg"
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ee4f6e2db_SIGNATUREcropped.jpg"
                     alt="Bespoke music curation and playlist creation"
                     className="w-full h-auto rounded-2xl shadow-lg"
                   />
