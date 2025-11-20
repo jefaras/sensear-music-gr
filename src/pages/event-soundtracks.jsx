@@ -380,7 +380,7 @@ export default function EventSoundtracks() {
 
             <div className="hidden lg:block">
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/33cedde2f_46b116cdd43bbf9f9088407090957439cropped.jpg"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/902748dad_de7e827740893de40099eda86bdff275.jpg"
                 alt="Event music planning process"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
