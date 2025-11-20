@@ -307,20 +307,20 @@ export default function Home() {
           {/* First Row: Signature Playlists - FULL WIDTH */}
           <div className="mb-8" role="list">
             <article role="listitem" className="bg-[#faebe3] p-8 rounded-lg">
-              <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-start">
+              <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-center">
                 {/* Left: Text Content */}
                 <div className="lg:order-1">
                   <h3 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black leading-tight mb-8">
                     Signature Playlists
                   </h3>
                   
-                  <div className="lg:mt-[80px]">
+                  <div>
                     <p className="text-2xl md:text-3xl lg:text-4xl text-black leading-relaxed mb-6">
                       Bespoke, brand-exclusive playlists sourced from rare archives for venues that refuse to sound generic.
                     </p>
-                    <Link to={createPageUrl("signature-playlists")} className="inline-flex items-center text-black font-medium hover:underline text-xl">
+                    <Link to={createPageUrl("signature-playlists")} className="inline-flex items-center text-black font-medium hover:underline text-xl group">
                       <span>Create Your Sound Identity</span>
-                      <ArrowRight className="ml-2 w-4 h-4" aria-hidden="true" />
+                      <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-2 transition-transform" aria-hidden="true" />
                     </Link>
                   </div>
                 </div>
