@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { createPageUrl } from "@/utils";
@@ -614,7 +613,6 @@ export default function Home() {
                   <p className="text-black/70 leading-relaxed">
                     Boost staff morale & productivity with energizing music.
                   </p>
-                </p>
                 </div>
               </article>
 
