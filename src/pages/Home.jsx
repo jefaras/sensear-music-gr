@@ -314,12 +314,12 @@ export default function Home() {
                     Signature Playlists
                   </h3>
                   
-                  <div className="lg:mt-[200px]">
+                  <div className="lg:mt-[280px]">
                     <p className="text-2xl md:text-3xl lg:text-4xl text-black leading-relaxed mb-6">
                       Bespoke, brand-exclusive playlists sourced from rare archives for venues that refuse to sound generic.
                     </p>
                     <Link to={createPageUrl("signature-playlists")} className="inline-flex items-center text-black font-medium text-xl group">
-                      <span className="group-hover:translate-x-1 transition-transform inline-block">Create Your Sound Identity</span>
+                      <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Create Your Sound Identity</span>
                       <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
                     </Link>
                   </div>
