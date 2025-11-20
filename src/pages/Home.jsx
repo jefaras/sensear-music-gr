@@ -370,34 +370,36 @@ export default function Home() {
             </article>
           </div>
 
-          {/* Third Row: Sonic Strategy - 40% SMALLER than previous sections */}
-          <div className="mb-8 max-w-5xl mx-auto" role="list">
-            <article role="listitem" className="p-5 rounded-lg" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-              <div className="grid lg:grid-cols-[1fr_1.2fr] gap-8 items-start">
+          {/* Third Row: Sonic Strategy - FULL WIDTH */}
+          <div className="mb-8" role="list">
+            <article role="listitem" className="p-8 rounded-lg" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+              <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-start">
                 {/* Left: Text Content */}
                 <div className="lg:order-1">
-                  <h3 className="text-[1.62rem] md:text-[2.07rem] font-bold text-black leading-tight mb-5">
+                  <h3 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black leading-tight mb-8">
                     Sonic Strategy
                   </h3>
 
-                  <div className="lg:mt-[168px]">
-                    <p className="text-lg md:text-xl lg:text-2xl text-black leading-relaxed mb-4">
+                  <div className="lg:mt-[280px]">
+                    <p className="text-2xl md:text-3xl lg:text-4xl text-black leading-relaxed mb-6">
                       Ultra-specialized music consultancy & sound branding guidelines that forge an inimitable sonic identity.
                     </p>
-                    <Link to={createPageUrl("sonic-strategy")} className="inline-flex items-center text-black font-medium text-lg group">
+                    <Link to={createPageUrl("sonic-strategy")} className="inline-flex items-center text-black font-medium text-xl group">
                       <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Build Your Sound Strategy</span>
                       <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
                     </Link>
                   </div>
                 </div>
 
-                {/* Right: Image */}
-                <div className="lg:order-2 hidden lg:block lg:mt-[84px]">
-                  <img
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d2c616905_fd3f4ff86f1dfed345baa64ee2908eda.jpg"
-                    alt="Strategic sonic branding consultation"
-                    className="w-full h-auto rounded-2xl shadow-lg"
-                  />
+                {/* Right: Image - 30% smaller */}
+                <div className="lg:order-2 hidden lg:block lg:mt-[140px]">
+                  <div className="w-[70%] mx-auto">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d2c616905_fd3f4ff86f1dfed345baa64ee2908eda.jpg"
+                      alt="Strategic sonic branding consultation"
+                      className="w-full h-auto rounded-2xl shadow-lg"
+                    />
+                  </div>
                 </div>
               </div>
             </article>
