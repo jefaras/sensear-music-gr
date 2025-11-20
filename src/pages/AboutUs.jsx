@@ -255,8 +255,11 @@ export default function AboutUs() {
             
             {/* Left: Content - appears second on mobile, first on desktop */}
             <div className="lg:order-1 lg:mt-[116px]">
+              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
+                <strong>SensEar</strong> treats music as a core part of the experience:
+              </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                At the core of SensEar is a shared belief: that music is not background, but atmosphere, memory, and emotion.
+                <em>Music is not background</em>, but <strong>atmosphere</strong>, <strong>memory</strong> and <strong>emotion</strong> that can influence how guests feel, stay and spend.
               </p>
             </div>
           </div>
