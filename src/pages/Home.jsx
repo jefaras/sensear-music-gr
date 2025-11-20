@@ -307,14 +307,14 @@ export default function Home() {
           {/* First Row: Signature Playlists - FULL WIDTH */}
           <div className="mb-8" role="list">
             <article role="listitem" className="bg-[#faebe3] p-8 rounded-lg">
-              <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-start">
                 {/* Left: Text Content */}
                 <div className="lg:order-1">
                   <h3 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black leading-tight mb-8">
                     Signature Playlists
                   </h3>
                   
-                  <div>
+                  <div className="lg:mt-[80px]">
                     <p className="text-2xl md:text-3xl lg:text-4xl text-black leading-relaxed mb-6">
                       Bespoke, brand-exclusive playlists sourced from rare archives for venues that refuse to sound generic.
                     </p>
@@ -326,7 +326,7 @@ export default function Home() {
                 </div>
 
                 {/* Right: Image */}
-                <div className="lg:order-2 hidden lg:block">
+                <div className="lg:order-2 hidden lg:block lg:mt-[140px]">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg"
                     alt="Bespoke music curation and playlist creation"
