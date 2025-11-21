@@ -489,7 +489,7 @@ export default function AboutUs() {
                   
                   <div className="lg:mt-[140px]">
                     <p className="text-2xl md:text-3xl lg:text-4xl text-black leading-relaxed mb-6">
-                      From his early DJ sets in Larissa to his studies in sound engineering in Athens, J.E.F. has always been guided by music's magnetic pull.
+                      From his early DJ sets to his studies in Hospitality Management, JEF has always been guided by music's magnetic pull.
                     </p>
                     <p className="text-xl md:text-2xl text-black/70 leading-relaxed mb-4">
                       He is a co-founder of a successful digital agency, gaining 25 years of experience in web services & understanding client needs.
@@ -503,7 +503,7 @@ export default function AboutUs() {
                 {/* Right: Image */}
                 <div className="lg:order-2 hidden lg:block lg:mt-[140px]">
                   <img
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/2deec3139_JEF-cropped.png"
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b24ebd26f_JEF_square_bw.png"
                     alt="John E. Farazoumis - SensEar Co-Founder and Brand Strategy Director"
                     className="w-full h-auto rounded-2xl shadow-lg"
                   />
