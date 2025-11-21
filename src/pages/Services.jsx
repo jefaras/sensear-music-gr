@@ -375,7 +375,7 @@ export default function Services() {
                     </div>
                     <div className="mb-8">
                       <span className="font-bold text-black text-xl block mb-2">You get:</span>
-                      <p className="text-xl md:text-2xl text-black/80 leading-relaxed">Complete soundtrack/live DJ set synced to all key moments (optional AV support).</p>
+                      <p className="text-xl md:text-2xl text-black/80 leading-relaxed">Complete soundtrack or live DJ set synced to all key moments (optional AV support).</p>
                     </div>
                     <Link to={createPageUrl("event-soundtracks")} className="inline-flex items-center text-black font-medium text-xl group">
                       <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Explore Event Soundtracks</span>
