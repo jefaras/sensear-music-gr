@@ -439,7 +439,7 @@ export default function Services() {
                     </div>
                     <div>
                       <span className="font-bold text-black text-lg block mb-1">You get:</span>
-                      <p className="text-black/80 leading-relaxed">On-site sound audit and an upgrade plan with trusted partners, for a balanced mix.</p>
+                      <p className="text-black/80 leading-relaxed">On-site sound audit and an upgrade plan with trusted partners for a balanced mix.</p>
                     </div>
                   </div>
 
