@@ -323,7 +323,7 @@ export default function AboutUs() {
                       </div>
                     </div>
                     <div className="flex-grow min-w-0 bg-peach/30 rounded-xl p-6 backdrop-blur-sm">
-                      <p className="text-base text-black/80 leading-relaxed">Under the title Midnight City, they begin hosting and DJing exclusive parties. Specializing in cross-gebre dance-floor discoveries from the '70s, '80s to present day, they cultivate a loyal crowd of groove lovers.</p>
+                      <p className="text-base text-black/80 leading-relaxed">Under the title Midnight City, they begin hosting and DJing exclusive parties. Specializing in cross-genre dancefloor discoveries from the '70s, '80s to present day, they cultivate a loyal crowd of groove lovers.</p>
                     </div>
                   </div>
 
@@ -339,7 +339,7 @@ export default function AboutUs() {
                     {/* Right side - Content */}
                     <div className="flex-grow">
                       <div className="bg-peach/30 rounded-xl p-8 backdrop-blur-sm hover:bg-peach/50 transition-colors">
-                        <p className="text-lg text-black/80 leading-relaxed">Under the title Midnight City, they begin hosting and DJing exclusive parties. Specializing in cross-gebre dance-floor discoveries from the '70s, '80s to present day, they cultivate a loyal crowd of groove lovers.</p>
+                        <p className="text-lg text-black/80 leading-relaxed">Under the title Midnight City, they begin hosting and DJing exclusive parties. Specializing in cross-genre dancefloor discoveries from the '70s, '80s to present day, they cultivate a loyal crowd of groove lovers.</p>
                       </div>
                     </div>
                   </div>
