@@ -373,23 +373,23 @@ export default function Home() {
           {/* Third Row: Sonic Strategy & Audio Upgrades - Split Row */}
           <div className="grid lg:grid-cols-2 gap-8 mb-8" role="list">
             {/* Sonic Strategy */}
-            <article role="listitem" className="bg-[#faebe3] p-8 rounded-lg flex flex-col h-full">
+            <article role="listitem" className="bg-[#faebe3] p-8 rounded-lg h-full">
               <h3 className="text-3xl md:text-4xl font-bold text-black leading-tight mb-6">
                 Sonic Strategy
               </h3>
+              
+              <div className="grid md:grid-cols-2 gap-6 items-center">
+                <div className="flex flex-col justify-between">
+                  <p className="text-lg md:text-xl text-black leading-relaxed mb-6">
+                    Ultra-specialized music consultancy & sound branding guidelines that forge an inimitable sonic identity.
+                  </p>
+                  <Link to={createPageUrl("sonic-strategy")} className="inline-flex items-center text-black font-medium text-lg group">
+                    <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Build Your Sound Strategy</span>
+                    <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
+                  </Link>
+                </div>
 
-              <div className="flex-grow">
-                <p className="text-lg md:text-xl text-black leading-relaxed mb-6">
-                  Ultra-specialized music consultancy & sound branding guidelines that forge an inimitable sonic identity.
-                </p>
-                <Link to={createPageUrl("sonic-strategy")} className="inline-flex items-center text-black font-medium text-lg group mb-8">
-                  <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Build Your Sound Strategy</span>
-                  <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
-                </Link>
-              </div>
-
-              <div className="mt-auto">
-                <div className="w-full mx-auto">
+                <div className="w-full">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d2c616905_fd3f4ff86f1dfed345baa64ee2908eda.jpg"
                     alt="Strategic sonic branding consultation"
@@ -400,23 +400,23 @@ export default function Home() {
             </article>
 
             {/* Audio Upgrades */}
-            <article role="listitem" className="bg-[#faebe3] p-8 rounded-lg flex flex-col h-full">
+            <article role="listitem" className="bg-[#faebe3] p-8 rounded-lg h-full">
               <h3 className="text-3xl md:text-4xl font-bold text-black leading-tight mb-6">
                 Audio Upgrades
               </h3>
 
-              <div className="flex-grow">
-                <p className="text-lg md:text-xl text-black leading-relaxed mb-6">
-                  Professional on-site sound checks, optimization and audio calibration, that fix any sound related issue.
-                </p>
-                <Link to={createPageUrl("audio-upgrades")} className="inline-flex items-center text-black font-medium text-lg group mb-8">
-                  <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Optimize Your Sound System</span>
-                  <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
-                </Link>
-              </div>
+              <div className="grid md:grid-cols-2 gap-6 items-center">
+                <div className="flex flex-col justify-between">
+                  <p className="text-lg md:text-xl text-black leading-relaxed mb-6">
+                    Professional on-site sound checks, optimization and audio calibration, that fix any sound related issue.
+                  </p>
+                  <Link to={createPageUrl("audio-upgrades")} className="inline-flex items-center text-black font-medium text-lg group">
+                    <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Optimize Your Sound System</span>
+                    <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
+                  </Link>
+                </div>
 
-              <div className="mt-auto">
-                <div className="w-full mx-auto">
+                <div className="w-full">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/57b86e08a_b6e0a3f63_tech_hifi_1979_07-pxbee-cropped.jpg"
                     alt="Professional audio equipment optimization"
