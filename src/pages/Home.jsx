@@ -445,7 +445,7 @@ export default function Home() {
       {/* How We Help You Succeed Section - WITH IMAGE ON RIGHT */}
       <section className="py-24" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="benefits-heading">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 id="benefits-heading" className="text-4xl font-bold text-center mb-12 leading-[1.25] text-black">
+          <h2 id="benefits-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-left mb-12 leading-tight text-black">
             How We Help You Succeed
           </h2>
           
@@ -536,7 +536,10 @@ export default function Home() {
       {/* Trusted By Section */}
       <section className="py-20 bg-black overflow-hidden" aria-labelledby="clients-heading">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 id="clients-heading" className="text-2xl md:text-3xl font-bold text-center mb-12 text-white">Now playing in venues across Greece</h2>
+          <h2 id="clients-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center mb-6 text-white leading-tight">Now playing in venues across Greece</h2>
+          <p className="text-xl text-white/70 text-center max-w-4xl mx-auto mb-12">
+            Trusted by venues like Pelicanos, Yam, Klouvi Bar and Blue Bamboo in Athens and the Aegean Sea.
+          </p>
           
           <div className="relative">
             <div className="flex gap-12 animate-scroll">
@@ -644,7 +647,7 @@ export default function Home() {
       <section className="py-24 bg-white" aria-labelledby="blog-heading">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 id="blog-heading" className="text-4xl font-bold text-black mb-4 leading-[1.25]">The Curation Journal</h2>
+            <h2 id="blog-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4 leading-tight">The Curation Journal</h2>
             <p className="text-xl text-black/70 max-w-3xl mx-auto">
               <span>Read how music shapes perception, emotion, and brand identity through sound. Discover more insights on our </span><Link to={createPageUrl("Blog")} className="underline hover:text-black font-semibold">blog</Link><span>.</span>
             </p>
