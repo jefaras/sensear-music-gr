@@ -393,7 +393,7 @@ export default function Home() {
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d2c616905_fd3f4ff86f1dfed345baa64ee2908eda.jpg"
                     alt="Strategic sonic branding consultation"
-                    className="w-full aspect-[4/3] object-cover rounded-xl shadow-md"
+                    className="w-full h-auto rounded-xl shadow-md"
                   />
                 </div>
               </div>
@@ -420,7 +420,7 @@ export default function Home() {
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/57b86e08a_b6e0a3f63_tech_hifi_1979_07-pxbee-cropped.jpg"
                     alt="Professional audio equipment optimization"
-                    className="w-full aspect-[4/3] object-cover rounded-xl shadow-md"
+                    className="w-full h-auto rounded-xl shadow-md"
                   />
                 </div>
               </div>
