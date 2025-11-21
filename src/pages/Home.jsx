@@ -438,65 +438,40 @@ export default function Home() {
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Benefits List */}
-            <div className="grid md:grid-cols-1 gap-8" role="list">
-              <article role="listitem" className="flex items-start gap-4">
-                <div className="w-8 h-8 rounded-full bg-black/10 flex items-center justify-center flex-shrink-0 mt-1">
-                  <CheckCircle className="w-5 h-5 text-black" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2 text-black">Delight Your Guests</h3>
-                  <p className="text-black/70 leading-relaxed">
-                    Increase satisfaction and encourage longer & repeat visits.
-                  </p>
-                </div>
+            <div className="space-y-8" role="list">
+              <article role="listitem">
+                <h3 className="text-2xl font-bold text-black mb-3">Delight Your Guests</h3>
+                <p className="text-lg text-black/70">
+                  Increase satisfaction and encourage longer & repeat visits.
+                </p>
               </article>
 
-              <article role="listitem" className="flex items-start gap-4">
-                <div className="w-8 h-8 rounded-full bg-black/10 flex items-center justify-center flex-shrink-0 mt-1">
-                  <CheckCircle className="w-5 h-5 text-black" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2 text-black">Elevate Your Brand</h3>
-                  <p className="text-black/70 leading-relaxed">
-                    Strengthen perception and loyalty with a memorable atmosphere.
-                  </p>
-                </div>
+              <article role="listitem">
+                <h3 className="text-2xl font-bold text-black mb-3">Elevate Your Brand</h3>
+                <p className="text-lg text-black/70">
+                  Strengthen perception and loyalty with a memorable atmosphere.
+                </p>
               </article>
 
-              <article role="listitem" className="flex items-start gap-4">
-                <div className="w-8 h-8 rounded-full bg-black/10 flex items-center justify-center flex-shrink-0 mt-1">
-                  <CheckCircle className="w-5 h-5 text-black" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2 text-black">Empower Your Team</h3>
-                  <p className="text-black/70 leading-relaxed">
-                    Boost staff morale & productivity with energizing music.
-                  </p>
-                </div>
+              <article role="listitem">
+                <h3 className="text-2xl font-bold text-black mb-3">Empower Your Team</h3>
+                <p className="text-lg text-black/70">
+                  Boost staff morale & productivity with energizing music.
+                </p>
               </article>
 
-              <article role="listitem" className="flex items-start gap-4">
-                <div className="w-8 h-8 rounded-full bg-black/10 flex items-center justify-center flex-shrink-0 mt-1">
-                  <CheckCircle className="w-5 h-5 text-black" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2 text-black">Total Control</h3>
-                  <p className="text-black/70 leading-relaxed">
-                    Take full control over your venue's music style & flow.
-                  </p>
-                </div>
+              <article role="listitem">
+                <h3 className="text-2xl font-bold text-black mb-3">Total Control</h3>
+                <p className="text-lg text-black/70">
+                  Take full control over your venue's music style & flow.
+                </p>
               </article>
 
-              <article role="listitem" className="flex items-start gap-4">
-                <div className="w-8 h-8 rounded-full bg-black/10 flex items-center justify-center flex-shrink-0 mt-1">
-                  <CheckCircle className="w-5 h-5 text-black" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2 text-black">Seamless Experience</h3>
-                  <p className="text-black/70 leading-relaxed">
-                    Ensure a smooth music experience across every area of your venue.
-                  </p>
-                </div>
+              <article role="listitem">
+                <h3 className="text-2xl font-bold text-black mb-3">Seamless Experience</h3>
+                <p className="text-lg text-black/70">
+                  Ensure a smooth music experience across every area of your venue.
+                </p>
               </article>
             </div>
 
