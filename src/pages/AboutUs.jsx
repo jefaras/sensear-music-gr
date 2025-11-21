@@ -272,16 +272,7 @@ export default function AboutUs() {
           <h2 id="timeline-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-right text-black mb-16">Our Journey</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-            {/* Left: Image */}
-            <div className="hidden lg:block">
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16685b806_pexels-monstera-1408089.jpg"
-                alt="SensEar music curation journey"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
-            </div>
-
-            {/* Right: Timeline content */}
+            {/* Left: Timeline content */}
             <div>
           {/* Timeline container with flex centering - using inline style to ensure it applies */}
           <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -364,7 +355,7 @@ export default function AboutUs() {
                       </div>
                     </div>
                     <div className="flex-grow min-w-0 bg-peach/30 rounded-xl p-6 backdrop-blur-sm">
-                      <p className="text-base text-black/80 leading-relaxed">Yannis attends one of M.C.'s signature events. Captivated by the vibe and deep-track selections, he becomes an instant and devoted fan.</p>
+                      <p className="text-base text-black/80 leading-relaxed">JEF attends one of M.C.'s signature events. Captivated by the vibe and deep-track selections, he becomes an instant and devoted fan.</p>
                     </div>
                   </div>
 
@@ -380,7 +371,7 @@ export default function AboutUs() {
                     {/* Right side - Content */}
                     <div className="flex-grow">
                       <div className="bg-peach/30 rounded-xl p-8 backdrop-blur-sm hover:bg-peach/50 transition-colors">
-                        <p className="text-lg text-black/80 leading-relaxed">Yannis attends one of M.C.'s signature events. Captivated by the vibe and deep-track selections, he becomes an instant and devoted fan.</p>
+                        <p className="text-lg text-black/80 leading-relaxed">JEF attends one of M.C.'s signature events. Captivated by the vibe and deep-track selections, he becomes an instant and devoted fan.</p>
                       </div>
                     </div>
                   </div>
@@ -396,7 +387,7 @@ export default function AboutUs() {
                       </div>
                     </div>
                     <div className="flex-grow min-w-0 bg-peach/30 rounded-xl p-6 backdrop-blur-sm">
-                      <p className="text-base text-black/80 leading-relaxed">As Yannis begins a MA in Hospitality Management, he and George discuss their shared vision of providing transformative music curation + DJ sets for upscale venues & events.</p>
+                      <p className="text-base text-black/80 leading-relaxed">As JEF begins a MA in Hospitality Management, he and George discuss their shared vision of providing transformative music curation + DJ sets for upscale venues & events.</p>
                     </div>
                   </div>
 
@@ -412,7 +403,7 @@ export default function AboutUs() {
                     {/* Right side - Content */}
                     <div className="flex-grow">
                       <div className="bg-peach/30 rounded-xl p-8 backdrop-blur-sm hover:bg-peach/50 transition-colors">
-                        <p className="text-lg text-black/80 leading-relaxed">As Yannis begins a MA in Hospitality Management, he and George discuss their shared vision of providing transformative music curation + DJ sets for upscale venues & events.</p>
+                        <p className="text-lg text-black/80 leading-relaxed">As JEF begins a MA in Hospitality Management, he and George discuss their shared vision of providing transformative music curation + DJ sets for upscale venues & events.</p>
                       </div>
                     </div>
                   </div>
@@ -428,7 +419,7 @@ export default function AboutUs() {
                       </div>
                     </div>
                     <div className="flex-grow min-w-0 bg-peach/30 rounded-xl p-6 backdrop-blur-sm">
-                      <p className="text-base text-black/80 leading-relaxed">After nearly 2 years of planning & brand development, Sensear launches. SenEar's first clients rave about their smooth, elevated approach to soundtrack design, establishing their reputation from day 1.</p>
+                      <p className="text-base text-black/80 leading-relaxed">After careful planning & brand development, Sensear launches. SenEar's first clients rave about their smooth, elevated approach to soundtrack design, establishing their reputation from day 1.</p>
                     </div>
                   </div>
 
@@ -444,7 +435,7 @@ export default function AboutUs() {
                     {/* Right side - Content */}
                     <div className="flex-grow">
                       <div className="bg-peach/30 rounded-xl p-8 backdrop-blur-sm hover:bg-peach/50 transition-colors">
-                        <p className="text-lg text-black/80 leading-relaxed">After nearly 2 years of planning & brand development, Sensear launches. SenEar's first clients rave about their smooth, elevated approach to soundtrack design, establishing their reputation from day 1.</p>
+                        <p className="text-lg text-black/80 leading-relaxed">After careful planning & brand development, Sensear launches. SenEar's first clients rave about their smooth, elevated approach to soundtrack design, establishing their reputation from day 1.</p>
                       </div>
                     </div>
                   </div>
@@ -453,6 +444,15 @@ export default function AboutUs() {
             </div>
           </div>
           </div>
+
+            {/* Right: Image */}
+            <div className="hidden lg:block">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16685b806_pexels-monstera-1408089.jpg"
+                alt="SensEar music curation journey"
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
+            </div>
           </div>
           
           <p className="text-center mt-12 text-lg text-black/80 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
