@@ -380,7 +380,7 @@ export default function Home() {
               
               <div className="grid md:grid-cols-2 gap-6 items-center">
                 <div className="flex flex-col justify-between">
-                  <p className="text-lg md:text-xl text-black leading-relaxed mb-6">
+                  <p className="text-xl md:text-2xl text-black leading-relaxed mb-6">
                     Ultra-specialized music consultancy & sound branding guidelines that forge an inimitable sonic identity.
                   </p>
                   <Link to={createPageUrl("sonic-strategy")} className="inline-flex items-center text-black font-medium text-lg group">
@@ -407,7 +407,7 @@ export default function Home() {
 
               <div className="grid md:grid-cols-2 gap-6 items-center">
                 <div className="flex flex-col justify-between">
-                  <p className="text-lg md:text-xl text-black leading-relaxed mb-6">
+                  <p className="text-xl md:text-2xl text-black leading-relaxed mb-6">
                     Professional on-site sound checks, optimization and audio calibration, that fix any sound related issue.
                   </p>
                   <Link to={createPageUrl("audio-upgrades")} className="inline-flex items-center text-black font-medium text-lg group">
