@@ -395,9 +395,9 @@ export default function Layout({ children }) {
       {/* Footer */}
       <footer className="bg-black text-white">
         <div className="max-w-7xl mx-auto px-6 py-16">
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
+          <div className="flex flex-wrap gap-8">
             {/* Logo, Socials & Contact */}
-            <div className="col-span-2">
+            <div className="min-w-[300px] lg:w-1/3">
               <Link to={createPageUrl("Home")} className="flex items-center gap-3 group mb-6 w-fit">
                 <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg" alt="SensEar Logo" className="w-12 h-12 rounded-full group-hover:scale-110 transition-transform" />
                 <div>
