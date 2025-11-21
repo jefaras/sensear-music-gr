@@ -301,7 +301,7 @@ export default function Home() {
 
       {/* Services Section */}
       <section className="py-24 bg-white" aria-labelledby="services-heading">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="mx-auto px-6" style={{ maxWidth: '1800px' }}>
           <h2 id="services-heading" className="sr-only">Our Services</h2>
 
           {/* First Row: Signature Playlists - FULL WIDTH */}
