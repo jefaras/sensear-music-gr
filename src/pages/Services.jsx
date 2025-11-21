@@ -400,7 +400,7 @@ export default function Services() {
                   <div className="space-y-4">
                     <div>
                       <span className="font-bold text-black text-lg block mb-1">Best for:</span>
-                      <p className="text-black leading-relaxed">Multi-location or channel brands that want a clear sonic identity.</p>
+                      <p className="text-black leading-relaxed">Brands that want a clear sonic identity across their locations & channels.</p>
                     </div>
                     <div>
                       <span className="font-bold text-black text-lg block mb-1">You get:</span>
