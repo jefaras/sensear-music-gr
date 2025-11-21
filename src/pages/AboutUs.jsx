@@ -458,8 +458,8 @@ export default function AboutUs() {
           
           <div className="max-w-2xl mx-auto mt-16 text-center animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
             <h3 className="text-2xl md:text-3xl font-bold text-black mb-4">Want to hear our vision?</h3>
-            <p className="text-lg md:text-xl text-black/70 mb-6">Listen to our signature soundscapes demos.</p>
-            <Link to={createPageUrl("signature-soundscapes")}>
+            <p className="text-lg md:text-xl text-black/70 mb-6">Listen to our Signature Playlists demos.</p>
+            <Link to={createPageUrl("PlaylistsDemos")}>
               <Button size="lg" variant="outline" className="bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-8">
                 Explore Sample Playlists
               </Button>
@@ -687,7 +687,7 @@ export default function AboutUs() {
           </div>
           
           <p className="text-center mt-12 text-lg text-black/80 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
-            <span>Experience our unique approach through our </span><Link to={createPageUrl("signature-soundscapes")} className="underline hover:text-black">signature soundscapes</Link><span> or explore solutions for your </span><Link to={createPageUrl("Industries")} className="underline hover:text-black">specific industry</Link><span>.</span>
+            <span>Experience our unique approach through our </span><Link to={createPageUrl("signature-playlists")} className="underline hover:text-black">Signature Playlists</Link><span> or explore solutions for your </span><Link to={createPageUrl("Industries")} className="underline hover:text-black">specific industry</Link><span>.</span>
           </p>
         </div>
       </section>
