@@ -474,59 +474,116 @@ export default function AboutUs() {
       {/* Team Section */}
       <section className="py-24" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="team-heading">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 id="team-heading" className="text-4xl font-bold text-center mb-16 animate-fade-in-up">Meet the Team</h2>
-          <div className="grid md:grid-cols-3 gap-8" role="list">
-            {/* John E. Farazoumis */}
-            <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-              <Card className="bg-white text-center p-8 shadow-lg overflow-hidden hover:shadow-2xl transition-shadow">
-                <div className="mb-6 overflow-hidden rounded-lg">
+          <h2 id="team-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center mb-16 animate-fade-in-up">Meet the Team</h2>
+
+          {/* John E. Farazoumis */}
+          <div className="mb-8" role="list">
+            <article role="listitem" className="p-8 rounded-lg" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+              <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-start">
+                {/* Left: Text Content */}
+                <div className="lg:order-1">
+                  <h3 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black leading-tight mb-8">
+                    John E. Farazoumis
+                  </h3>
+                  <p className="text-xl font-semibold text-black/70 mb-8">Co-Founder, Brand Strategy, Client Service</p>
+                  
+                  <div className="lg:mt-[140px]">
+                    <p className="text-2xl md:text-3xl lg:text-4xl text-black leading-relaxed mb-6">
+                      From his early DJ sets in Larissa to his studies in sound engineering in Athens, J.E.F. has always been guided by music's magnetic pull.
+                    </p>
+                    <p className="text-xl md:text-2xl text-black/70 leading-relaxed mb-4">
+                      He is a co-founder of a successful digital agency, gaining 25 years of experience in web services & understanding client needs.
+                    </p>
+                    <p className="text-xl md:text-2xl text-black/70 leading-relaxed">
+                      At SensEar, he shapes the brand's strategic direction and bridges the gap between creative vision and client experience across the hospitality sector.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Right: Image */}
+                <div className="lg:order-2 hidden lg:block lg:mt-[140px]">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/2deec3139_JEF-cropped.png"
                     alt="John E. Farazoumis - SensEar Co-Founder and Brand Strategy Director"
-                    className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
+                    className="w-full h-auto rounded-2xl shadow-lg"
+                  />
                 </div>
-                <h3 className="text-2xl font-bold mb-1">John E. Farazoumis</h3>
-                <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Co-Founder, Brand Strategy, Client Service</p>
-                <p className="text-black/70 text-left mb-4">From his early DJ sets in Larissa to his studies in sound engineering in Athens, J.E.F. has always been guided by music's magnetic pull.</p>
-                <p className="text-black/70 text-left mb-4">He is a co-founder of a successful digital agency, gaining 25 years of experience in web services & understanding client needs.</p>
-                <p className="text-black/70 text-left">At SensEar, he shapes the brand's strategic direction and bridges the gap between creative vision and client experience across the hospitality sector.</p>
-              </Card>
+              </div>
             </article>
+          </div>
 
-            {/* George Fameliaris */}
-            <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.45s' }}>
-              <Card className="bg-white text-center p-8 shadow-lg overflow-hidden hover:shadow-2xl transition-shadow">
-                <div className="mb-6 overflow-hidden rounded-lg">
+          {/* George Fameliaris */}
+          <div className="mb-8" role="list">
+            <article role="listitem" className="p-8 rounded-lg" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+              <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
+                {/* Left: Image */}
+                <div className="lg:order-1 hidden lg:block lg:mt-[140px]">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/398e0cca3_84887785_172252324195148_2160204890159185920_n.jpg"
                     alt="George Fameliaris - SensEar Co-Founder and Chief Music Curator"
-                    className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
+                    className="w-full h-auto rounded-2xl shadow-lg"
+                  />
                 </div>
-                <h3 className="text-2xl font-bold mb-1">George Fameliaris</h3>
-                <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Co-Founder,  Chief Music Curator</p>
-                <p className="text-black/70 text-left mb-4">G's lifelong passion for music deepened through a popular music in films Master at Media & communications of Goldsmiths University of London.</p>
-                <p className="text-black/70 text-left mb-4">Back in Athens, he made his mark as a curator and DJ on radio, parties & venues, including as co-founder of the acclaimed M.C.</p>
-                <p className="text-black/70 text-left">At SensEar, he crafts each venue's musical identity with precision, rhythm, and a sense of atmosphere that defines the brand's signature sound.</p>
-              </Card>
-            </article>
 
-            {/* Katerina Karali */}
-            <article role="listitem" className="animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-              <Card className="bg-white text-center p-8 shadow-lg overflow-hidden hover:shadow-2xl transition-shadow">
-                <div className="mb-6 overflow-hidden rounded-lg">
+                {/* Right: Text Content */}
+                <div className="lg:order-2">
+                  <h3 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black leading-tight mb-8">
+                    George Fameliaris
+                  </h3>
+                  <p className="text-xl font-semibold text-black/70 mb-8">Co-Founder, Chief Music Curator</p>
+                  
+                  <div className="lg:mt-[140px]">
+                    <p className="text-2xl md:text-3xl lg:text-4xl text-black leading-relaxed mb-6">
+                      G's lifelong passion for music deepened through a popular music in films Master at Media & communications of Goldsmiths University of London.
+                    </p>
+                    <p className="text-xl md:text-2xl text-black/70 leading-relaxed mb-4">
+                      Back in Athens, he made his mark as a curator and DJ on radio, parties & venues, including as co-founder of the acclaimed M.C.
+                    </p>
+                    <p className="text-xl md:text-2xl text-black/70 leading-relaxed">
+                      At SensEar, he crafts each venue's musical identity with precision, rhythm, and a sense of atmosphere that defines the brand's signature sound.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          {/* Katerina Karali */}
+          <div className="mb-8" role="list">
+            <article role="listitem" className="p-8 rounded-lg" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+              <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-start">
+                {/* Left: Text Content */}
+                <div className="lg:order-1">
+                  <h3 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black leading-tight mb-8">
+                    Katerina Karali
+                  </h3>
+                  <p className="text-xl font-semibold text-black/70 mb-8">Contributing Associate, DJ, Music Curator</p>
+                  
+                  <div className="lg:mt-[140px]">
+                    <p className="text-2xl md:text-3xl lg:text-4xl text-black leading-relaxed mb-6">
+                      Katerina combines visual design & sound narrative with a refined artistic sensibility.
+                    </p>
+                    <p className="text-xl md:text-2xl text-black/70 leading-relaxed mb-4">
+                      A veteran multimedia art director, she helps curate soundscapes for films, exhibitions & private events.
+                    </p>
+                    <p className="text-xl md:text-2xl text-black/70 leading-relaxed">
+                      Known for her instinctive selections and taste for rare grooves, she brings depth, texture, and a touch of the unexpected to SensEar's playlists.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Right: Image */}
+                <div className="lg:order-2 hidden lg:block lg:mt-[140px]">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/73ba1e2e2_86455570_172252364195144_3083930653335486464_n.jpg"
                     alt="Katerina Karali - SensEar Art Director and Music Curator"
-                    className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
+                    className="w-full h-auto rounded-2xl shadow-lg"
+                  />
                 </div>
-                <h3 className="text-2xl font-bold mb-1">Katerina Karali</h3>
-                <p className="text-peach-layer font-semibold mb-4 text-sm uppercase tracking-wider">Contributing Associate, DJ , Music Curator</p>
-                <p className="text-black/70 text-left mb-4">Katerina combines visual design & sound narrative with a refined artistic sensibility.</p>
-                <p className="text-black/70 text-left mb-4">A veteran multimedia art director, she helps curate soundscapes for films, exhibitions & private events.</p>
-                <p className="text-black/70 text-left">Known for her instinctive selections and taste for rare grooves, she brings depth, texture, and a touch of the unexpected to SensEar's playlists.</p>
-              </Card>
+              </div>
             </article>
           </div>
+
           <p className="text-center mt-12 text-lg max-w-3xl mx-auto text-black/80 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
             Together, John, George, and Katerina form SensEar's creative core, a team committed to elevating spaces through music that is always intentional, immersive, and unforgettable.
           </p>
