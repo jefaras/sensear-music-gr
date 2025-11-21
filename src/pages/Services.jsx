@@ -292,7 +292,7 @@ export default function Services() {
               </h2>
             </div>
             
-            <div className="lg:order-1 lg:mt-[100px]">
+            <div className="lg:order-1 lg:mt-[200px]">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
                 SensEar offers four connected, customised music services for venues and brands that rely on atmosphere.
               </p>
