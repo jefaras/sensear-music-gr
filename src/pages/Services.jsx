@@ -297,7 +297,7 @@ export default function Services() {
                 SensEar offers four connected, customised music services for venues and brands that rely on atmosphere.
               </p>
               <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed mb-6">
-                We do so much more than fill silence with music. We transform your atmosphere & support your goals.
+                We do more than fill silence with music. We use sound to transform your atmosphere and support your goals.
               </p>
               <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
                 Start with the one that matches where you are today, then add the others as your spaces & needs evolve.
