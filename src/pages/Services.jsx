@@ -294,7 +294,7 @@ export default function Services() {
             
             <div className="lg:order-1 lg:mt-[100px]">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                SensEar offers 4 connected & customised music services for hospitality business.
+                SensEar offers four connected, customised music services for venues and brands that rely on atmosphere.
               </p>
               <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed mb-6">
                 We do so much more than fill silence with music. We transform your atmosphere & support your goals.
