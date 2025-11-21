@@ -388,14 +388,14 @@ export default function Services() {
           </div>
 
           {/* Sonic Strategy & Audio Upgrades - Split Row (Matches Home Page) */}
-          <div className="grid lg:grid-cols-2 gap-8 mb-8" role="list">
+          <div className="grid md:grid-cols-2 gap-8 mb-8" role="list">
             {/* Sonic Strategy */}
             <article role="listitem" className="bg-[#faebe3] p-8 rounded-lg h-full">
               <h3 className="text-3xl md:text-4xl font-bold text-black leading-tight mb-6">
                 Sonic Strategy
               </h3>
               
-              <div className="grid md:grid-cols-2 gap-6 items-center">
+              <div className="grid lg:grid-cols-2 gap-6 items-center">
                 <div className="flex flex-col justify-between h-full">
                   <div className="space-y-4">
                     <div>
@@ -414,7 +414,7 @@ export default function Services() {
                   </Link>
                 </div>
 
-                <div className="hidden md:block w-full">
+                <div className="hidden lg:block w-full">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d2c616905_fd3f4ff86f1dfed345baa64ee2908eda.jpg"
                     alt="Strategic sonic branding consultation"
@@ -430,7 +430,7 @@ export default function Services() {
                 Audio Upgrades
               </h3>
 
-              <div className="grid md:grid-cols-2 gap-6 items-center">
+              <div className="grid lg:grid-cols-2 gap-6 items-center">
                 <div className="flex flex-col justify-between h-full">
                   <div className="space-y-4">
                     <div>
@@ -449,7 +449,7 @@ export default function Services() {
                   </Link>
                 </div>
 
-                <div className="hidden md:block w-full">
+                <div className="hidden lg:block w-full">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/bbe747c8e_57b86e08a_b6e0a3f63_tech_hifi_1979_07-pxbee-cropped2.jpg"
                     alt="Professional audio equipment optimization"
