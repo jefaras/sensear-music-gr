@@ -272,7 +272,16 @@ export default function AboutUs() {
           <h2 id="timeline-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-right text-black mb-16">Our Journey</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-            {/* Left: Timeline content */}
+            {/* Left: Image */}
+            <div className="hidden lg:block">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16685b806_pexels-monstera-1408089.jpg"
+                alt="SensEar music curation journey"
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
+            </div>
+
+            {/* Right: Timeline content */}
             <div>
           {/* Timeline container with flex centering - using inline style to ensure it applies */}
           <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -444,15 +453,6 @@ export default function AboutUs() {
             </div>
           </div>
           </div>
-
-            {/* Right: Image */}
-            <div className="hidden lg:block">
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16685b806_pexels-monstera-1408089.jpg"
-                alt="SensEar music curation journey"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
-            </div>
           </div>
           
           <p className="text-center mt-12 text-lg text-black/80 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
@@ -598,7 +598,7 @@ export default function AboutUs() {
             </article>
           </div>
 
-          <p className="text-center mt-12 text-lg max-w-3xl mx-auto text-black/80 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
+          <p className="text-center mt-12 text-2xl md:text-3xl lg:text-4xl max-w-5xl mx-auto text-black leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
             Together, John, George, and Katerina form SensEar's creative core, a team committed to elevating spaces through music that is always intentional, immersive, and unforgettable.
           </p>
           <p className="text-center mt-4 text-lg max-w-3xl mx-auto text-black/80 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
