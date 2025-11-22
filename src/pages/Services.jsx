@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, ArrowDown, Music, Sparkles, BarChart, SlidersHorizontal } from "lucide-react";
+import { ArrowRight, Music, Sparkles, BarChart, SlidersHorizontal } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 export default function Services() {
@@ -512,25 +512,24 @@ export default function Services() {
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-16 text-center">How services work together</h2>
           
-          <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 mb-12 relative">
-            <div className="w-full max-w-[400px] aspect-square rounded-full bg-white shadow-lg hover:shadow-xl transition-shadow flex flex-col items-center justify-center p-12 text-center">
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <Card className="p-8 bg-white border-none shadow-lg hover:shadow-xl transition-shadow h-full flex flex-col justify-center">
+              <div className="h-12 w-12 bg-black/5 rounded-full flex items-center justify-center mb-6">
+                <span className="text-2xl font-bold text-black">1</span>
+              </div>
               <p className="text-xl text-black/80 leading-relaxed">
-                Many clients define their everyday sound first with <Link to={createPageUrl("signature-playlists")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Signature Playlists</Link>, then add <Link to={createPageUrl("sonic-strategy")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Sonic Strategy</Link> to establish their brand sound.
+                Many clients define their everyday sound first with <Link to={createPageUrl("signature-playlists")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Signature Playlists</Link>, then add <Link to={createPageUrl("sonic-strategy")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Sonic Strategy</Link> as they grow.
               </p>
-            </div>
+            </Card>
 
-            <div className="text-black/20 hidden md:block">
-              <ArrowRight className="w-12 h-12" />
-            </div>
-            <div className="text-black/20 md:hidden">
-              <ArrowDown className="w-12 h-12" />
-            </div>
-
-            <div className="w-full max-w-[400px] aspect-square rounded-full bg-white shadow-lg hover:shadow-xl transition-shadow flex flex-col items-center justify-center p-12 text-center">
+            <Card className="p-8 bg-white border-none shadow-lg hover:shadow-xl transition-shadow h-full flex flex-col justify-center">
+              <div className="h-12 w-12 bg-black/5 rounded-full flex items-center justify-center mb-6">
+                <span className="text-2xl font-bold text-black">2</span>
+              </div>
               <p className="text-xl text-black/80 leading-relaxed">
-                <Link to={createPageUrl("event-soundtracks")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Event Soundtracks</Link> covers their key moments, while <Link to={createPageUrl("audio-upgrades")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Audio Upgrades</Link> ensures that music is delivered with clarity & comfort.
+                <Link to={createPageUrl("event-soundtracks")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Event Soundtracks</Link> covers their key moments, while <Link to={createPageUrl("audio-upgrades")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Audio Upgrades</Link> ensures that systems in each venue can deliver the music with clarity and comfort.
               </p>
-            </div>
+            </Card>
           </div>
 
           <div className="max-w-3xl mx-auto text-center">
