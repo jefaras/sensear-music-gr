@@ -514,20 +514,20 @@ export default function Services() {
           
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <Card className="p-8 bg-white border-none shadow-lg hover:shadow-xl transition-shadow h-full flex flex-col justify-center">
-              <div className="h-12 w-12 bg-black/5 rounded-full flex items-center justify-center mb-6">
-                <span className="text-2xl font-bold text-black">1</span>
-              </div>
+              <p className="text-xl text-black/80 leading-relaxed mb-4">
+                Many clients define their everyday sound first with <Link to={createPageUrl("signature-playlists")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Signature Playlists</Link>.
+              </p>
               <p className="text-xl text-black/80 leading-relaxed">
-                Many clients define their everyday sound first with <Link to={createPageUrl("signature-playlists")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Signature Playlists</Link>, then add <Link to={createPageUrl("sonic-strategy")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Sonic Strategy</Link> as they grow.
+                Then they add <Link to={createPageUrl("sonic-strategy")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Sonic Strategy</Link> as they grow to establish their brand's sound.
               </p>
             </Card>
 
             <Card className="p-8 bg-white border-none shadow-lg hover:shadow-xl transition-shadow h-full flex flex-col justify-center">
-              <div className="h-12 w-12 bg-black/5 rounded-full flex items-center justify-center mb-6">
-                <span className="text-2xl font-bold text-black">2</span>
-              </div>
+              <p className="text-xl text-black/80 leading-relaxed mb-4">
+                <Link to={createPageUrl("event-soundtracks")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Event Soundtracks</Link> covers their key moments.
+              </p>
               <p className="text-xl text-black/80 leading-relaxed">
-                <Link to={createPageUrl("event-soundtracks")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Event Soundtracks</Link> covers their key moments, while <Link to={createPageUrl("audio-upgrades")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Audio Upgrades</Link> ensures that systems in each venue can deliver the music with clarity and comfort.
+                <Link to={createPageUrl("audio-upgrades")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Audio Upgrades</Link> ensures that music is delivered with clarity & comfort.
               </p>
             </Card>
           </div>
