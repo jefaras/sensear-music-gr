@@ -31,6 +31,7 @@ import eventSoundtracks from './pages/event-soundtracks';
 import artMuseumsFashion from './pages/art-museums-fashion';
 import wellnessGyms from './pages/wellness-gyms';
 import servicesV2 from './pages/Services-v2';
+import industriesV2 from './pages/Industries-v2';
 import __Layout from './Layout.jsx';
 
 
@@ -68,6 +69,7 @@ export const PAGES = {
     "art-museums-fashion": artMuseumsFashion,
     "wellness-gyms": wellnessGyms,
     "Services-v2": servicesV2,
+    "Industries-v2": industriesV2,
 }
 
 export const pagesConfig = {
