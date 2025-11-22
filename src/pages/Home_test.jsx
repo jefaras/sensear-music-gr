@@ -224,25 +224,24 @@ export default function HomeTest() {
       `}</style>
 
       {/* Hero Section */}
-      <section className="relative h-[85vh] min-h-[600px] overflow-hidden flex items-center justify-center" aria-label="Hero section">
-        {/* Background Image */}
-        <div className="absolute inset-0 w-full h-full">
-           <img
-            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png"
-            srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png 1800w,
-                    https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png 2400w"
-            sizes="100vw"
-            alt="Luxury rooftop bar with stunning sunset views and ambient music atmosphere"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-black/20"></div>
-        </div>
-
-        <div className="relative z-10 max-w-7xl mx-auto px-6 text-center slide-up-1">
-          <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-white mb-0 leading-[1.1] drop-shadow-lg">
-            Soundtracking<br />
-            Unique Experiences
-          </h1>
+      <section className="relative pt-28 pb-12" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Hero section">
+        <div className="max-w-[1800px] mx-auto px-6">
+          <div className="relative h-[75vh] min-h-[600px] w-full">
+             <img
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png"
+              srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png 1800w,
+                      https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png 2400w"
+              sizes="(max-width: 1800px) 100vw, 1800px"
+              alt="Luxury rooftop bar with stunning sunset views and ambient music atmosphere"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-black/20 flex items-center justify-center text-center">
+              <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-white mb-0 leading-[1.1] drop-shadow-lg px-4 slide-up-1">
+                Soundtracking<br />
+                Unique Experiences
+              </h1>
+            </div>
+          </div>
         </div>
       </section>
 
