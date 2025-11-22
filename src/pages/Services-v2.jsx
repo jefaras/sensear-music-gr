@@ -154,7 +154,7 @@ export default function ServicesV2() {
                 </div>
                 <div className="mt-8">
                   <Link to={createPageUrl("signature-playlists")} className="inline-flex items-center text-black font-bold group">
-                    <span className="hover:underline decoration-2 underline-offset-4">Learn more</span>
+                    <span className="transition-transform group-hover:translate-x-1 inline-block hover:underline decoration-2 underline-offset-4">Learn more</span>
                     <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </div>
@@ -175,7 +175,7 @@ export default function ServicesV2() {
                 </div>
                 <div className="mt-8">
                   <Link to={createPageUrl("sonic-strategy")} className="inline-flex items-center text-black font-bold group">
-                    <span className="hover:underline decoration-2 underline-offset-4">Learn more</span>
+                    <span className="transition-transform group-hover:translate-x-1 inline-block hover:underline decoration-2 underline-offset-4">Learn more</span>
                     <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </div>
@@ -214,7 +214,7 @@ export default function ServicesV2() {
                 </div>
                 <div className="mt-8">
                   <Link to={createPageUrl("event-soundtracks")} className="inline-flex items-center text-black font-bold group">
-                    <span className="hover:underline decoration-2 underline-offset-4">Learn more</span>
+                    <span className="transition-transform group-hover:translate-x-1 inline-block hover:underline decoration-2 underline-offset-4">Learn more</span>
                     <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </div>
@@ -235,7 +235,7 @@ export default function ServicesV2() {
                 </div>
                 <div className="mt-8">
                   <Link to={createPageUrl("audio-upgrades")} className="inline-flex items-center text-black font-bold group">
-                    <span className="hover:underline decoration-2 underline-offset-4">Learn more</span>
+                    <span className="transition-transform group-hover:translate-x-1 inline-block hover:underline decoration-2 underline-offset-4">Learn more</span>
                     <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </div>
@@ -359,7 +359,7 @@ export default function ServicesV2() {
             <div className="space-y-2">
               <p className="text-black/60 text-sm font-medium uppercase tracking-wide">We will analyze your current sound and show you what's possible.</p>
               <Link to={createPageUrl("Services")} className="inline-flex items-center text-black font-bold text-lg group">
-                <span className="hover:underline decoration-2 underline-offset-4">Compare services in detail</span>
+                <span className="transition-transform group-hover:translate-x-1 inline-block hover:underline decoration-2 underline-offset-4">Compare services in detail</span>
                 <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
               </Link>
             </div>
