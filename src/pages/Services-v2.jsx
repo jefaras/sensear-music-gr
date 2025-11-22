@@ -143,7 +143,7 @@ export default function ServicesV2() {
                 </div>
               </div>
               <div className="order-1 lg:order-2">
-                <h3 className="text-3xl md:text-4xl font-bold text-black mb-4">Signature playlists</h3>
+                <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Signature playlists</h3>
                 <h4 className="text-xl font-semibold text-black/60 mb-6 uppercase tracking-wide">The foundation of your sound</h4>
                 <p className="text-lg text-black/80 leading-relaxed mb-8">
                   Forget the shuffle button. These are architected musical journeys that evolve with your day; energizing mornings, productive afternoons, intimate evenings. Fresh monthly updates keep your team happy and your guests intrigued.
@@ -164,7 +164,7 @@ export default function ServicesV2() {
             {/* Sonic Strategy */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-1">
-                <h3 className="text-3xl md:text-4xl font-bold text-black mb-4">Sonic strategy</h3>
+                <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Sonic strategy</h3>
                 <h4 className="text-xl font-semibold text-black/60 mb-6 uppercase tracking-wide">Your brand's audio DNA</h4>
                 <p className="text-lg text-black/80 leading-relaxed mb-8">
                   What does luxury sound like? What about innovation? Or warmth? We decode your brand values into musical principles, creating a playbook that works across every touchpoint; from your lobby to your Instagram stories.
@@ -203,7 +203,7 @@ export default function ServicesV2() {
                 </div>
               </div>
               <div className="order-1 lg:order-2">
-                <h3 className="text-3xl md:text-4xl font-bold text-black mb-4">Event soundtracks</h3>
+                <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Event soundtracks</h3>
                 <h4 className="text-xl font-semibold text-black/60 mb-6 uppercase tracking-wide">Moments that demand more</h4>
                 <p className="text-lg text-black/80 leading-relaxed mb-8">
                   Some occasions can't afford a musical misstep. Product launches, weddings, conferences; we choreograph sound that amplifies key moments and smooths transitions. No dead air. No jarring surprises. Just flow.
@@ -224,7 +224,7 @@ export default function ServicesV2() {
             {/* Audio Upgrades */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-1">
-                <h3 className="text-3xl md:text-4xl font-bold text-black mb-4">Audio upgrades</h3>
+                <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Audio upgrades</h3>
                 <h4 className="text-xl font-semibold text-black/60 mb-6 uppercase tracking-wide">When good music hits bad speakers</h4>
                 <p className="text-lg text-black/80 leading-relaxed mb-8">
                   The best playlist can't save terrible acoustics. We diagnose and fix the technical barriers (dead zones, harsh frequencies, volume wars) that prevent your music from doing its job.
