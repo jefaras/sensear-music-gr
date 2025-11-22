@@ -510,10 +510,10 @@ export default function Services() {
       {/* How services work together - Peach Background */}
       <section className="py-24 bg-[#faebe3]">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-16 text-center">How services work together</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-10 text-center">How services work together</h2>
           
-          <div className="relative max-w-2xl mx-auto py-12">
-            <div className="flex flex-col gap-10 items-center">
+          <div className="relative max-w-2xl mx-auto py-0">
+            <div className="flex flex-col gap-5 items-center">
                 
                 {/* 1. Signature Playlists */}
                 <div className="flex flex-col items-center w-full">
@@ -522,7 +522,7 @@ export default function Services() {
                             Many clients define their everyday sound first with <Link to={createPageUrl("signature-playlists")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Signature Playlists</Link>.
                         </p>
                     </div>
-                    <div className="text-black mt-10">
+                    <div className="text-black mt-5">
                         <ArrowDown className="w-6 h-6" />
                     </div>
                 </div>
@@ -534,7 +534,7 @@ export default function Services() {
                             Then add <Link to={createPageUrl("sonic-strategy")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Sonic Strategy</Link> to establish their brand sound.
                         </p>
                     </div>
-                    <div className="text-black mt-10">
+                    <div className="text-black mt-5">
                         <ArrowDown className="w-6 h-6" />
                     </div>
                 </div>
@@ -546,7 +546,7 @@ export default function Services() {
                             <Link to={createPageUrl("event-soundtracks")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Event Soundtracks</Link> covers their key moments.
                         </p>
                     </div>
-                    <div className="text-black mt-10">
+                    <div className="text-black mt-5">
                         <ArrowDown className="w-6 h-6" />
                     </div>
                 </div>
