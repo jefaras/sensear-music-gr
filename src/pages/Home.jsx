@@ -296,7 +296,7 @@ export default function Home() {
 
               </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                <span>Explore our </span><Link to={createPageUrl("Services")} className="underline hover:text-white font-semibold">full range of music curation services</Link><span>.</span>
+                <span>Explore our </span><Link to={createPageUrl("Services")} className="underline hover:text-white font-semibold">music curation services</Link><span>.</span>
               </p>
             </div>
           </div>
