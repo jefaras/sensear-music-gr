@@ -393,8 +393,17 @@ export default function Layout({ children }) {
       <main>{children}</main>
 
       {/* Footer */}
-      <footer className="bg-black text-white">
-        <div className="max-w-7xl mx-auto px-6 py-16">
+      <footer className="bg-black text-white relative overflow-hidden">
+        <div 
+          className="absolute inset-0 z-0 opacity-[0.15] pointer-events-none"
+          style={{
+            backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e48174b4e_SensEarLogoONLYTranspWhite.png')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
+        />
+        <div className="max-w-7xl mx-auto px-6 py-16 relative z-10">
           <div className="flex flex-wrap gap-8">
             {/* Logo, Socials & Contact */}
             <div className="min-w-[300px] lg:w-1/3">
