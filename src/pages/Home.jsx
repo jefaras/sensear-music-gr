@@ -286,17 +286,17 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-[1fr_auto] gap-8 items-start">
             <div className="lg:order-2 lg:min-w-[280px]">
-              <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-8 lg:mb-0">Who we are
-
+              <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-8 lg:mb-0">
+                Who we are
               </h2>
             </div>
             
             <div className="lg:order-1 lg:mt-[200px]">
-              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">At the core of SensEar is a shared belief: that music is not background; it is atmosphere, memory and emotion.
-
+              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
+                We are a creative team of music lovers who elevate spaces through music that is intentional, immersive and unforgettable.
               </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                <span>Explore our </span><Link to={createPageUrl("Services")} className="underline hover:text-white font-semibold">music curation services</Link><span>.</span>
+                At the core of SensEar is a shared belief: music is not background; it is atmosphere, memory and emotion.
               </p>
             </div>
           </div>
@@ -712,6 +712,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </div>);
-
+    </div>
+  );
 }
