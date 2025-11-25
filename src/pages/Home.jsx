@@ -227,9 +227,9 @@ export default function Home() {
       <section className="relative pt-32 pb-20 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Hero section">
         <div className="max-w-7xl mx-auto px-6">
           <div className="w-full">
-            <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-              Music Curation<br />
-              for Unique Experiences
+            <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">Soundtracking Unique Experiences
+
+
             </h1>
             
             <div className="mb-8 max-w-5xl slide-up-2">
@@ -242,10 +242,10 @@ We craft sophisticated music curation for places and events that refuse to sound
             <div className="flex flex-col sm:flex-row gap-4 mb-12 slide-up-3">
               {/* Discover Your Sound button - COMMENTED OUT */}
               {/* <Link to={createPageUrl("ContactUs")}>
-                 <Button className="bg-black hover:bg-black/80 text-white px-8 py-6 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto h-14" aria-label="Discover Your Sound">
-                   Discover Your Sound
-                 </Button>
-                </Link> */}
+                  <Button className="bg-black hover:bg-black/80 text-white px-8 py-6 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto h-14" aria-label="Discover Your Sound">
+                    Discover Your Sound
+                  </Button>
+                 </Link> */}
               <Link to={createPageUrl("Services")}>
                 <Button variant="outline" className="bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 w-full sm:w-auto h-14" aria-label="Explore our services">
                   Explore our services
@@ -262,6 +262,7 @@ We craft sophisticated music curation for places and events that refuse to sound
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png 2400w"
+
 
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Luxury rooftop bar with stunning sunset views and ambient music atmosphere"
