@@ -251,16 +251,16 @@ export default function HomeTest() {
           <div className="grid lg:grid-cols-[1fr_auto] gap-8 items-start">
             <div className="lg:order-2 lg:min-w-[280px]">
               <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-8 lg:mb-0">
-                How we create<br />your sonic ID
+                Who we are
               </h2>
             </div>
             
             <div className="lg:order-1 lg:mt-[200px]">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                We provide all the music solutions that will elevate your space or event & leave a lasting impression.
+                We are a creative team of music lovers who elevate spaces through music that is intentional, immersive and unforgettable.
               </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                <span>Explore our </span><Link to={createPageUrl("Services")} className="underline hover:text-white font-semibold">full range of music curation services</Link><span>.</span>
+                At the core of SensEar is a shared belief: music is not background; it is atmosphere, memory and emotion.
               </p>
             </div>
           </div>
