@@ -233,19 +233,19 @@ export default function Home() {
             </h1>
             
             <div className="mb-8 max-w-5xl slide-up-2">
-              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
-                Every venue has a story. Let music tell yours. <br />
-                We craft bespoke Playlists for Hotels, Restaurants, Bars & Events that create atmosphere, emotional connections & loyal guests.
+              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">Every venue has a story. Let music tell yours.
+We craft sophisticated music curation for places and events that refuse to sound generic.
+
               </p>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-12 slide-up-3">
               {/* Discover Your Sound button - COMMENTED OUT */}
               {/* <Link to={createPageUrl("ContactUs")}>
-                <Button className="bg-black hover:bg-black/80 text-white px-8 py-6 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto h-14" aria-label="Discover Your Sound">
-                  Discover Your Sound
-                </Button>
-              </Link> */}
+                 <Button className="bg-black hover:bg-black/80 text-white px-8 py-6 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto h-14" aria-label="Discover Your Sound">
+                   Discover Your Sound
+                 </Button>
+                </Link> */}
               <Link to={createPageUrl("Services")}>
                 <Button variant="outline" className="bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 w-full sm:w-auto h-14" aria-label="Explore our services">
                   Explore our services
@@ -262,6 +262,7 @@ export default function Home() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png 2400w"
+
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Luxury rooftop bar with stunning sunset views and ambient music atmosphere"
                 className="absolute w-full h-full object-cover"
@@ -330,8 +331,8 @@ export default function Home() {
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ee4f6e2db_SIGNATUREcropped.jpg"
                     alt="Bespoke music curation and playlist creation"
-                    className="w-full h-auto rounded-2xl shadow-lg"
-                  />
+                    className="w-full h-auto rounded-2xl shadow-lg" />
+
                 </div>
               </div>
             </article>
@@ -346,8 +347,8 @@ export default function Home() {
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d4a085ed9_EventSoundtracks-upsc2-cropped.jpg"
                     alt="Professional event production with music curation"
-                    className="w-full h-auto rounded-2xl shadow-lg"
-                  />
+                    className="w-full h-auto rounded-2xl shadow-lg" />
+
                 </div>
 
                 {/* Right: Text Content */}
@@ -393,8 +394,8 @@ export default function Home() {
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d2c616905_fd3f4ff86f1dfed345baa64ee2908eda.jpg"
                     alt="Strategic sonic branding consultation"
-                    className="w-full h-auto rounded-xl shadow-md"
-                  />
+                    className="w-full h-auto rounded-xl shadow-md" />
+
                 </div>
               </div>
             </article>
@@ -420,8 +421,8 @@ export default function Home() {
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/bbe747c8e_57b86e08a_b6e0a3f63_tech_hifi_1979_07-pxbee-cropped2.jpg"
                     alt="Professional audio equipment optimization"
-                    className="w-full h-auto rounded-xl shadow-md"
-                  />
+                    className="w-full h-auto rounded-xl shadow-md" />
+
                 </div>
               </div>
             </article>
@@ -708,6 +709,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 }
