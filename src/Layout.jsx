@@ -488,10 +488,10 @@ export default function Layout({ children }) {
         
         {/* Large Brand Name at the bottom - Only on Home Page */}
         {(location.pathname === createPageUrl("Home") || location.pathname.includes("Home_test") || location.pathname === "/") && (
-          <div className="w-full overflow-hidden leading-none pb-0 select-none">
-             <div className="text-[22.5vw] font-bold text-white text-center font-syne tracking-tighter leading-[0.75]">
+          <div className="w-full overflow-hidden leading-none pb-2 select-none">
+             <h1 className="text-[13.5vw] font-bold text-white text-center font-syne tracking-tight leading-[0.85]">
               SENSEAR
-            </div>
+            </h1>
           </div>
         )}
       </footer>
