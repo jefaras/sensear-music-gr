@@ -633,7 +633,7 @@ export default function Home() {
                   <div className="p-6">
                     <Badge className="mb-3 bg-black/5 text-black border-black/10">Insights</Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      Three Reasons to Make Music Part of Your Luxury Hospitality Marketing Strategy
+                      Three Reasons Music Matters in Hospitality
                     </h3>
                     <p className="text-black/70 mb-4 leading-relaxed">
                       Curated music is a practical way to shape how guests feel, what they remember, and how they spend.
