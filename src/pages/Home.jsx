@@ -291,7 +291,7 @@ export default function Home() {
               </h2>
             </div>
             
-            <div className="lg:order-1 lg:mt-[200px]">
+            <div className="lg:order-1 lg:mt-[150px]">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
                 We are a creative team of music lovers who elevate spaces through music that is intentional, immersive and unforgettable.
               </p>
