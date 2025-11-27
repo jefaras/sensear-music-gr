@@ -311,7 +311,7 @@ export default function Home() {
                     {/* Left: Text Content */}
                     <div className="lg:order-1">
                         <h2 id="services-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-black leading-tight mb-12">
-                            Four Ways We Transform Venues
+                            Four ways we transform venues
                         </h2>
                         
                         <div className="space-y-8 mb-12">
@@ -376,7 +376,7 @@ export default function Home() {
       <section className="py-24 bg-[#faebe3]">
         <div className="max-w-7xl mx-auto px-6 text-center">
             <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12 leading-tight">
-                Your World, Our Expertise
+                Your world, our expertise
             </h2>
             
             <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -404,7 +404,7 @@ export default function Home() {
       <section className="py-24" style={{ backgroundImage: "linear-gradient(to bottom, #ffffff 0%, rgba(255,255,255,0) 15%), url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="enhance-heading">
         <div className="max-w-7xl mx-auto px-6">
           <h2 id="enhance-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-left mb-12 leading-tight text-black">
-            How We Enhance Your Venue
+            How we transform your venue
           </h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -576,7 +576,7 @@ export default function Home() {
       <section className="py-24 bg-white" aria-labelledby="blog-heading">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 id="blog-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4 leading-tight">The Curation Journal</h2>
+            <h2 id="blog-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4 leading-tight">The curation journal</h2>
             <p className="text-xl text-black/70 max-w-3xl mx-auto">
               <span>Read how music shapes perception, emotion, and brand identity through sound. Discover more insights on our </span><Link to={createPageUrl("Blog")} className="underline hover:text-black font-semibold">blog</Link><span>.</span>
             </p>
@@ -596,7 +596,7 @@ export default function Home() {
                   <div className="p-6">
                     <Badge className="mb-3 bg-black/5 text-black border-black/10">Insights</Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      Three Reasons Music Matters in Hospitality
+                      Three reasons music matters in hospitality
                     </h3>
                     <p className="text-black/70 mb-4 leading-relaxed">
                       Curated music is a practical way to shape how guests feel, what they remember, and how they spend.
@@ -623,7 +623,7 @@ export default function Home() {
                   <div className="p-6">
                     <Badge className="mb-3 bg-black/5 text-black border-black/10">Research</Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      How Brand-Fit Music Converts Browsers into Buyers
+                      How brand-fit music converts browsers into buyers
                     </h3>
                     <p className="text-black/70 mb-4 leading-relaxed">
                       Evidence-based research shows how brand-aligned music boosts revenues in hospitality venues.
@@ -650,7 +650,7 @@ export default function Home() {
                   <div className="p-6">
                     <Badge className="mb-3 bg-black/5 text-black border-black/10">Education</Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      What Exactly Does a Music Curator Do?
+                      What exactly does a music curator do?
                     </h3>
                     <p className="text-black/70 mb-4 leading-relaxed">
                       Learn how professional music curators architect brand soundtracks through strategic curation and data-driven sonic branding.
