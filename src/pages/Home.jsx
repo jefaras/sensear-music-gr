@@ -398,7 +398,7 @@ export default function Home() {
             </p>
             <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
                 {/* Left: Image */}
-                <div className="hidden lg:block">
+                <div className="lg:order-1 hidden lg:block">
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/deb3db30e_image00006b-CROPPED1.jpg"
                       alt="Sonic expertise in hospitality and retail"
@@ -407,7 +407,7 @@ export default function Home() {
                 </div>
 
                 {/* Right: Content */}
-                <div>
+                <div className="lg:order-2">
                     <div className="space-y-8 mb-12">
                         <div>
                             <Link to={createPageUrl("hotels-resorts")} className="text-2xl font-bold text-black hover:text-black/70 transition-colors block mb-2 group">
@@ -481,7 +481,7 @@ export default function Home() {
           
           <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-start">
             {/* Left: Benefits List */}
-            <div>
+            <div className="lg:order-1">
                 <div className="space-y-10 mb-12" role="list">
                   <article role="listitem" className="flex gap-4">
     
@@ -532,7 +532,7 @@ export default function Home() {
             </div>
 
             {/* Right: Car Image */}
-            <div className="hidden lg:block">
+            <div className="lg:order-2 hidden lg:block">
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/03aebeb4e_car-1.png"
                 alt="SensEar branded car"
