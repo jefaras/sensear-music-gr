@@ -23,39 +23,9 @@ export default function Layout({ children }) {
 
   const navItems = [
     { name: "Home", path: createPageUrl("Home") },
-    {
-      name: "Services",
-      path: createPageUrl("Services"),
-      subItems: [
-        { name: "Signature Playlists", path: createPageUrl("signature-playlists") },
-        { name: "Event Soundtracks", path: createPageUrl("event-soundtracks") },
-        { name: "Sonic Strategy", path: createPageUrl("sonic-strategy") },
-        { name: "Audio Upgrades", path: createPageUrl("audio-upgrades") }
-      ]
-    },
-    {
-      name: "Industries",
-      path: createPageUrl("Industries"),
-      subItems: [
-        { name: "Hotels & Resorts", path: createPageUrl("hotels-resorts") },
-        { name: "Restaurants & Bars", path: createPageUrl("restaurants-bars") },
-        { name: "Retail Stores", path: createPageUrl("retail-stores") },
-        { name: "Wellness & Gyms", path: createPageUrl("wellness-gyms") },
-        { name: "Events & Experiences", path: createPageUrl("events-experiences") },
-        { name: "Art, Museums & Fashion", path: createPageUrl("art-museums-fashion") }
-      ]
-    },
-    {
-      name: "Case Studies",
-      path: createPageUrl("CaseStudies"),
-      subItems: [
-        { name: "Blue Bamboo", path: createPageUrl("blue-bamboo") },
-        { name: "Klouvi", path: createPageUrl("klouvi-bar") },
-        { name: "Beach House", path: createPageUrl("beach-house-antiparos") },
-        { name: "Pelicanos", path: createPageUrl("pelicanos-sifnos-restaurant") },
-        { name: "Playlists Demos", path: createPageUrl("PlaylistsDemos") }
-      ]
-    },
+    { name: "Services", path: createPageUrl("Services") },
+    { name: "Industries", path: createPageUrl("Industries") },
+    { name: "Case Studies", path: createPageUrl("CaseStudies") },
     { name: "About", path: createPageUrl("AboutUs") }
   ];
 
