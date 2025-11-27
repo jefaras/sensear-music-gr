@@ -293,10 +293,10 @@ export default function Home() {
             
             <div className="lg:order-1 lg:mt-[150px]">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                We are <strong>music strategists</strong> who transform venues through sound that is <strong>intentional</strong>, <strong>immersive</strong> and <strong>memorable</strong>.
+                We are a team of Athens-based music strategists who transform venues through sound that is intentional, immersive and memorable.
               </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                Based in Athens, our <u>core belief</u> is that <em>music does more than fill silence</em>; it shapes atmosphere, influences <strong>behavior</strong> and builds lasting <strong>connections</strong> with guests.
+                Our core belief is that music does more than fill silence; it shapes <strong>atmosphere</strong>, influences behaviour and builds lasting connections with guests.
               </p>
             </div>
           </div>
