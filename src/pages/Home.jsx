@@ -484,7 +484,7 @@ export default function Home() {
             <div>
                 <div className="space-y-10 mb-12" role="list">
                   <article role="listitem" className="flex gap-4">
-                    <div className="mt-1 text-2xl">🎵</div>
+    
                     <div>
                         <h3 className="text-2xl font-bold text-black mb-2">Create destinations worth discovering</h3>
                         <p className="text-lg text-black/70 leading-relaxed">
@@ -494,7 +494,7 @@ export default function Home() {
                   </article>
 
                   <article role="listitem" className="flex gap-4">
-                    <div className="mt-1 text-2xl">🎵</div>
+    
                     <div>
                         <h3 className="text-2xl font-bold text-black mb-2">Encourage meaningful connections</h3>
                         <p className="text-lg text-black/70 leading-relaxed">
@@ -504,7 +504,7 @@ export default function Home() {
                   </article>
 
                   <article role="listitem" className="flex gap-4">
-                    <div className="mt-1 text-2xl">🎵</div>
+    
                     <div>
                         <h3 className="text-2xl font-bold text-black mb-2">Unite and energize your team</h3>
                         <p className="text-lg text-black/70 leading-relaxed">
@@ -514,7 +514,7 @@ export default function Home() {
                   </article>
 
                   <article role="listitem" className="flex gap-4">
-                    <div className="mt-1 text-2xl">🎵</div>
+    
                     <div>
                         <h3 className="text-2xl font-bold text-black mb-2">Strengthen your brand</h3>
                         <p className="text-lg text-black/70 leading-relaxed">
