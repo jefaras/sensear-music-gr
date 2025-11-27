@@ -582,7 +582,7 @@ export default function Home27_11() {
       </section>
 
       {/* Trusted By Section */}
-      <section className="py-24 bg-black overflow-hidden" aria-labelledby="clients-heading">
+      <section className="py-24 overflow-hidden" style={{ background: 'linear-gradient(to bottom, #ffffff 0%, #000000 6rem, #000000 calc(100% - 6rem), #ffffff 100%)' }} aria-labelledby="clients-heading">
         <div className="max-w-7xl mx-auto px-6">
           <h2 id="clients-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center mb-12 text-white leading-tight">Now playing in venues across Greece</h2>
           <p className="text-xl text-white/70 text-center max-w-4xl mx-auto mb-12">
