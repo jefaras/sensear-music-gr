@@ -320,7 +320,7 @@ export default function Home() {
             <h2 id="services-heading" className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-black leading-tight mb-12 text-center">
                 Four ways we transform venues
             </h2>
-            <p className="text-xl text-black/70 mb-12 leading-relaxed text-left max-w-3xl mx-auto">
+            <p className="text-xl text-black/70 mb-12 leading-relaxed text-left max-w-5xl mx-auto">
                 Our strategic services shape behaviour, create atmosphere and build loyalty through sound.
             </p>
             <article role="listitem">
@@ -391,7 +391,7 @@ export default function Home() {
             <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-black mb-12 leading-tight text-center">
                 Your world, our expertise
             </h2>
-            <p className="text-xl text-black/70 mb-12 leading-relaxed text-left mx-auto max-w-3xl">
+            <p className="text-xl text-black/70 mb-12 leading-relaxed text-left mx-auto max-w-5xl">
                 We understand how rhythm, energy, and atmosphere shape the Greek hospitality experience.
             </p>
             <div className="grid md:grid-cols-[1.2fr_1fr] gap-12 items-center">
@@ -473,7 +473,7 @@ export default function Home() {
           <h2 id="enhance-heading" className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-center mb-12 leading-tight text-black">
             How we redefine your venue
           </h2>
-          <p className="text-xl text-black/70 mb-12 leading-relaxed text-left max-w-3xl mx-auto">
+          <p className="text-xl text-black/70 mb-12 leading-relaxed text-left max-w-5xl mx-auto">
             Strategic sound design that works as intentionally as every other aspect of your business.
           </p>
           
@@ -655,7 +655,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 id="blog-heading" className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-black mb-12 leading-tight">The curation journal</h2>
-            <p className="text-xl text-black/70 max-w-3xl mx-auto">
+            <p className="text-xl text-black/70 max-w-5xl mx-auto">
               Read how music shapes perception, emotion, and brand identity through sound.
             </p>
           </div>
