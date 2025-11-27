@@ -402,18 +402,56 @@ export default function Home() {
 
                 {/* Right: Content */}
                 <div>
-                    <div className="flex flex-wrap gap-4 mb-12">
-                        <Link to={createPageUrl("hotels-resorts")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Hotels & Resorts</Link>
-                        <Link to={createPageUrl("restaurants-bars")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Restaurants & Bars</Link>
-                        <Link to={createPageUrl("retail-stores")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Retail</Link>
-                        <Link to={createPageUrl("wellness-gyms")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Wellness</Link>
-                        <Link to={createPageUrl("events-experiences")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Events</Link>
-                        <Link to={createPageUrl("art-museums-fashion")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Culture</Link>
+                    <div className="space-y-8 mb-12">
+                        <div>
+                            <Link to={createPageUrl("hotels-resorts")} className="text-2xl font-bold text-black hover:text-black/70 transition-colors block mb-2 group">
+                                Hotels & Resorts <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                            </Link>
+                            <p className="text-xl text-black/70 leading-relaxed">
+                                Music for every time of day and area of your hotel.
+                            </p>
+                        </div>
+                        <div>
+                            <Link to={createPageUrl("restaurants-bars")} className="text-2xl font-bold text-black hover:text-black/70 transition-colors block mb-2 group">
+                                Restaurants & Bars <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                            </Link>
+                            <p className="text-xl text-black/70 leading-relaxed">
+                                Sound that matches your service flow and keeps guests longer.
+                            </p>
+                        </div>
+                        <div>
+                            <Link to={createPageUrl("retail-stores")} className="text-2xl font-bold text-black hover:text-black/70 transition-colors block mb-2 group">
+                                Retail Stores <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                            </Link>
+                            <p className="text-xl text-black/70 leading-relaxed">
+                                Playlists that inspire browsing and strengthen brand identity.
+                            </p>
+                        </div>
+                        <div>
+                            <Link to={createPageUrl("wellness-gyms")} className="text-2xl font-bold text-black hover:text-black/70 transition-colors block mb-2 group">
+                                Wellness & Gyms <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                            </Link>
+                            <p className="text-xl text-black/70 leading-relaxed">
+                                Soundscapes calibrated for relaxation, focus, or motivation.
+                            </p>
+                        </div>
+                        <div>
+                            <Link to={createPageUrl("events-experiences")} className="text-2xl font-bold text-black hover:text-black/70 transition-colors block mb-2 group">
+                                Events & Experiences <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                            </Link>
+                            <p className="text-xl text-black/70 leading-relaxed">
+                                Impactful, time-based music with natural transition flows.
+                            </p>
+                        </div>
+                        <div>
+                            <Link to={createPageUrl("art-museums-fashion")} className="text-2xl font-bold text-black hover:text-black/70 transition-colors block mb-2 group">
+                                Art, Museums & Fashion <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                            </Link>
+                            <p className="text-xl text-black/70 leading-relaxed">
+                                Smooth, precise sound for galleries, runways, and exhibitions.
+                            </p>
+                        </div>
                     </div>
-                    
-                    <p className="text-2xl text-black/80 leading-relaxed mb-12">
-                        Each space has its unique rhythm and opportunities. Based in Athens, we understand Mediterranean hospitality and the complex art of atmosphere.
-                    </p>
                     
                     <Link to={createPageUrl("Industries")}>
                         <AnimatedButton>
@@ -603,7 +641,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 id="blog-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12 leading-tight">The curation journal</h2>
             <p className="text-xl text-black/70 max-w-3xl mx-auto">
-              <span>Read how music shapes perception, emotion, and brand identity through sound. Discover more insights on our </span><Link to={createPageUrl("Blog")} className="underline hover:text-black font-semibold">blog</Link><span>.</span>
+              Read how music shapes perception, emotion, and brand identity through sound.
             </p>
           </div>
 
@@ -693,7 +731,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link to={createPageUrl("Blog")}>
               <AnimatedButton>
-                Read All Articles
+                Discover more insights
               </AnimatedButton>
             </Link>
           </div>
