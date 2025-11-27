@@ -302,12 +302,14 @@ export default function Home() {
                 Who we are
               </h2>
             
-              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                We are a team of Athens-based <strong>music strategists</strong> who transform venues through sound that is <strong>intentional</strong>, <strong>immersive</strong> and <strong>memorable</strong>.
-              </p>
-              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                Our <u>core belief</u> is that <em>music does more than fill silence</em>; it shapes <strong>atmosphere</strong>, influences <strong>behaviour</strong> and builds lasting <strong>connections</strong> with guests.
-              </p>
+              <div className="w-full text-left">
+                <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
+                  We are a team of Athens-based <strong>music strategists</strong> who transform venues through sound that is <strong>intentional</strong>, <strong>immersive</strong> and <strong>memorable</strong>.
+                </p>
+                <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
+                  Our <u>core belief</u> is that <em>music does more than fill silence</em>; it shapes <strong>atmosphere</strong>, influences <strong>behaviour</strong> and builds lasting <strong>connections</strong> with guests.
+                </p>
+              </div>
           </div>
         </div>
       </section>
@@ -318,7 +320,7 @@ export default function Home() {
             <h2 id="services-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-black leading-tight mb-6 text-center">
                 Four ways we transform venues
             </h2>
-            <p className="text-xl text-black/70 mb-12 leading-relaxed italic text-center max-w-3xl mx-auto">
+            <p className="text-xl text-black/70 mb-12 leading-relaxed italic text-left max-w-3xl mx-auto">
                 Our strategic services shape behaviour, create atmosphere and build loyalty through sound.
             </p>
             <article role="listitem">
@@ -389,7 +391,7 @@ export default function Home() {
             <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-6 leading-tight text-center">
                 Your world, our expertise
             </h2>
-            <p className="text-xl text-black/70 mb-12 leading-relaxed text-center mx-auto italic max-w-3xl">
+            <p className="text-xl text-black/70 mb-12 leading-relaxed text-left mx-auto italic max-w-3xl">
                 We understand how rhythm, energy, and atmosphere shape the Greek hospitality experience.
             </p>
             <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-center">
@@ -471,7 +473,7 @@ export default function Home() {
           <h2 id="enhance-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center mb-6 leading-tight text-black">
             How we redefine your venue
           </h2>
-          <p className="text-xl text-black/70 mb-12 leading-relaxed italic text-center max-w-3xl mx-auto">
+          <p className="text-xl text-black/70 mb-12 leading-relaxed italic text-left max-w-3xl mx-auto">
             Strategic sound design that works as intentionally as every other aspect of your business.
           </p>
           
