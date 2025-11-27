@@ -396,7 +396,7 @@ export default function Home() {
             <p className="text-xl text-black/70 mb-12 leading-relaxed text-right ml-auto italic">
                 We understand how rhythm, energy, and atmosphere shape the Greek hospitality experience.
             </p>
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
                 {/* Left: Image */}
                 <div className="hidden lg:block">
                     <img
@@ -479,7 +479,7 @@ export default function Home() {
             Strategic sound design that works as intentionally as every other aspect of your business.
           </p>
           
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-start">
             {/* Left: Benefits List */}
             <div>
                 <div className="space-y-10 mb-12" role="list">
