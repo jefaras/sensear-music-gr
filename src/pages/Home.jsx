@@ -374,29 +374,43 @@ export default function Home() {
 
       {/* Your World, Our Expertise */}
       <section className="py-24 bg-[#faebe3]">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12 leading-tight">
-                Your world, our expertise
-            </h2>
-            
-            <div className="flex flex-wrap justify-center gap-4 mb-12">
-                <Link to={createPageUrl("hotels-resorts")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Hotels & Resorts</Link>
-                <Link to={createPageUrl("restaurants-bars")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Restaurants & Bars</Link>
-                <Link to={createPageUrl("retail-stores")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Retail</Link>
-                <Link to={createPageUrl("wellness-gyms")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Wellness</Link>
-                <Link to={createPageUrl("events-experiences")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Events</Link>
-                <Link to={createPageUrl("art-museums-fashion")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Culture</Link>
+        <div className="max-w-7xl mx-auto px-6">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+                {/* Left: Image */}
+                <div className="hidden lg:block">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/deb3db30e_image00006b-CROPPED1.jpg"
+                      alt="Sonic expertise in hospitality and retail"
+                      className="w-full h-auto rounded-2xl shadow-lg"
+                    />
+                </div>
+
+                {/* Right: Content */}
+                <div>
+                    <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12 leading-tight">
+                        Your world, our expertise
+                    </h2>
+                    
+                    <div className="flex flex-wrap gap-4 mb-12">
+                        <Link to={createPageUrl("hotels-resorts")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Hotels & Resorts</Link>
+                        <Link to={createPageUrl("restaurants-bars")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Restaurants & Bars</Link>
+                        <Link to={createPageUrl("retail-stores")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Retail</Link>
+                        <Link to={createPageUrl("wellness-gyms")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Wellness</Link>
+                        <Link to={createPageUrl("events-experiences")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Events</Link>
+                        <Link to={createPageUrl("art-museums-fashion")} className="px-6 py-3 bg-white rounded-full text-black font-semibold hover:bg-black hover:text-white transition-all shadow-sm">Culture</Link>
+                    </div>
+                    
+                    <p className="text-2xl text-black/80 leading-relaxed mb-12">
+                        Each space has its unique rhythm and opportunities. Based in Athens, we understand Mediterranean hospitality and the complex art of atmosphere.
+                    </p>
+                    
+                    <Link to={createPageUrl("Industries")}>
+                        <Button className="bg-black text-white px-8 py-6 text-lg font-semibold rounded-full hover:bg-black/80">
+                            Find your industry <ArrowRight className="ml-2 w-5 h-5" />
+                        </Button>
+                    </Link>
+                </div>
             </div>
-            
-            <p className="text-2xl text-black/80 leading-relaxed max-w-4xl mx-auto mb-12">
-                Each space has its unique rhythm and opportunities. Based in Athens, we understand Mediterranean hospitality and the complex art of atmosphere.
-            </p>
-            
-            <Link to={createPageUrl("Industries")}>
-                <Button className="bg-black text-white px-8 py-6 text-lg font-semibold rounded-full hover:bg-black/80">
-                    Find your industry <ArrowRight className="ml-2 w-5 h-5" />
-                </Button>
-            </Link>
         </div>
       </section>
 
