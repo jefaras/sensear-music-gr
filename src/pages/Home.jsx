@@ -378,7 +378,7 @@ export default function Home() {
                       <img
                         src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ee4f6e2db_SIGNATUREcropped.jpg"
                         alt="SensEar Services"
-                        className="w-full h-auto rounded-2xl shadow-lg" />
+                        className="w-full h-[300px] md:h-auto object-cover rounded-2xl shadow-lg" />
                     </div>
                 </div>
             </article>
@@ -400,7 +400,7 @@ export default function Home() {
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5a170449c_lwnxeqhxcfez5hw0yraf-OK.jpg"
                       alt="Sonic expertise in hospitality and retail"
-                      className="w-full h-auto rounded-2xl shadow-lg"
+                      className="w-full h-[300px] md:h-auto object-cover rounded-2xl shadow-lg"
                     />
                 </div>
 
@@ -534,7 +534,7 @@ export default function Home() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/6e62c430c_03aebeb4e_car-1OK.png"
                 alt="SensEar branded car"
-                className="w-full h-auto rounded-2xl shadow-lg" />
+                className="w-full h-[300px] md:h-auto object-cover rounded-2xl shadow-lg" />
             </div>
           </div>
         </div>
