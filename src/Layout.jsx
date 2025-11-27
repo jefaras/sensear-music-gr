@@ -365,10 +365,10 @@ export default function Layout({ children }) {
       {/* Footer */}
       <footer className="bg-black text-white relative overflow-hidden">
         <div 
-          className={`absolute top-20 left-0 right-0 z-0 opacity-[0.1] pointer-events-none ${
+          className={`absolute top-4 left-0 right-0 z-0 opacity-[0.1] pointer-events-none ${
             (location.pathname === createPageUrl("Home") || location.pathname.includes("Home_test") || location.pathname === "/") 
-              ? 'bottom-[16vw]' 
-              : 'bottom-10'
+              ? 'bottom-[13vw]' 
+              : 'bottom-4'
           }`}
           style={{
             backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ae546991c_Untitleddesign.png')",
