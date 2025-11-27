@@ -33,6 +33,7 @@ import wellnessGyms from './pages/wellness-gyms';
 import servicesV2 from './pages/Services-v2';
 import industriesV2 from './pages/Industries-v2';
 import homeTest from './pages/Home_test';
+import home2711 from './pages/Home27_11';
 import __Layout from './Layout.jsx';
 
 
@@ -72,6 +73,7 @@ export const PAGES = {
     "Services-v2": servicesV2,
     "Industries-v2": industriesV2,
     "Home_test": homeTest,
+    "Home27_11": home2711,
 }
 
 export const pagesConfig = {
