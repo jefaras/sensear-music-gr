@@ -480,17 +480,17 @@ export default function Services() {
                       <span className="font-bold text-black text-sm block mb-1">Perfect when:</span>
                       <p className="text-sm text-black/60 leading-relaxed">Every location & channel should feel part of the same story.</p>
                     </div>
+                    
+                    <div className="mt-6">
+                        <Link to={createPageUrl("sonic-strategy")}>
+                            <AnimatedButtonSmall className="w-full sm:w-auto">
+                            Explore Sonic Strategy
+                            </AnimatedButtonSmall>
+                        </Link>
+                    </div>
                   </div>
                 </div>
               </div>
-
-
-
-              <Link to={createPageUrl("sonic-strategy")}>
-                <AnimatedButtonSmall className="w-full sm:w-auto">
-                  Explore Sonic Strategy
-                </AnimatedButtonSmall>
-              </Link>
             </div>
 
             {/* Audio Upgrades */}
@@ -520,17 +520,17 @@ export default function Services() {
                       <span className="font-bold text-black text-sm block mb-1">Perfect when:</span>
                       <p className="text-sm text-black/60 leading-relaxed">Great music deserves great presentation.</p>
                     </div>
+
+                    <div className="mt-6">
+                        <Link to={createPageUrl("audio-upgrades")}>
+                            <AnimatedButtonSmall className="w-full sm:w-auto">
+                            Explore audio upgrades
+                            </AnimatedButtonSmall>
+                        </Link>
+                    </div>
                   </div>
                 </div>
               </div>
-
-
-
-              <Link to={createPageUrl("audio-upgrades")}>
-                <AnimatedButtonSmall className="w-full sm:w-auto">
-                  Explore audio upgrades
-                </AnimatedButtonSmall>
-              </Link>
             </div>
           </div>
         </div>
@@ -539,7 +539,7 @@ export default function Services() {
 
 
       {/* Final CTA - Let's explore your possibilities */}
-      <section className="py-20 bg-white">
+      <section className="py-20 animated-gradient">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">Let's explore your possibilities</h2>
           <p className="text-xl text-black/70 mb-12">
