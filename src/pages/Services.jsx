@@ -395,11 +395,11 @@ export default function Services() {
                   </div>
                 </div>
 
-                <div className="lg:order-2 block mt-8">
+                <div className="lg:order-2 block mt-8 flex justify-center">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/013a4722f_cyprpn9zest1wg173m2j.jpg"
                     alt="Bespoke music curation"
-                    className="w-full aspect-[4/3] lg:aspect-auto lg:h-auto object-cover rounded-2xl shadow-lg"
+                    className="w-[80%] aspect-[4/3] lg:aspect-auto lg:h-auto object-cover rounded-2xl shadow-lg"
                   />
                 </div>
               </div>
@@ -410,11 +410,11 @@ export default function Services() {
           <div className="mb-24" role="list">
             <article role="listitem">
               <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-center">
-                <div className="lg:order-1 block mt-8 order-last lg:order-none">
+                <div className="lg:order-1 block mt-8 order-last lg:order-none flex justify-center">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d4a085ed9_EventSoundtracks-upsc2-cropped.jpg"
                     alt="Event soundtracks and production"
-                    className="w-full aspect-[4/3] lg:aspect-auto lg:h-auto object-cover rounded-2xl shadow-lg"
+                    className="w-[80%] aspect-[4/3] lg:aspect-auto lg:h-auto object-cover rounded-2xl shadow-lg"
                   />
                 </div>
 
@@ -470,11 +470,11 @@ export default function Services() {
                   <div className="flex-1 flex flex-col">
                     <div className="mb-4">
                       <span className="font-bold text-black text-lg block mb-1">Ideal for:</span>
-                      <p className="text-lg text-black/60 leading-relaxed">Brands expanding across multiple locations or channels.</p>
+                      <p className="text-lg text-black/60 leading-relaxed">Brands with multiple locations or marketing channels.</p>
                     </div>
                     <div className="mb-4">
                       <span className="font-bold text-black text-base block mb-1">You receive:</span>
-                      <p className="text-base text-black/60 leading-relaxed">Guidelines for consistent sound, roadmap, brand audio toolkit.</p>
+                      <p className="text-base text-black/60 leading-relaxed">Guidelines & roadmap for consistent sound.</p>
                     </div>
                     <div className="mb-4">
                       <span className="font-bold text-black text-sm block mb-1">Perfect when:</span>
@@ -514,7 +514,7 @@ export default function Services() {
                     </div>
                     <div className="mb-4">
                       <span className="font-bold text-black text-base block mb-1">You receive:</span>
-                      <p className="text-base text-black/60 leading-relaxed">Acoustic & equipment recommendations, installation partnerships.</p>
+                      <p className="text-base text-black/60 leading-relaxed">Acoustic and equipment recommendations & installation.</p>
                     </div>
                     <div className="mb-4">
                       <span className="font-bold text-black text-sm block mb-1">Perfect when:</span>
