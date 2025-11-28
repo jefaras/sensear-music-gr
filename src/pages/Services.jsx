@@ -289,23 +289,19 @@ export default function Services() {
       {/* Intro Section - Black Background like Home */}
       <section className="bg-black py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-[1fr_auto] gap-8 items-start">
-            <div className="lg:order-2 lg:min-w-[280px]">
-              <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-8 lg:mb-0">
-                Music is already<br />
-                shaping<br />
-                your business
+          <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
+              <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-white leading-tight mb-12">
+                Music is already shaping your business
               </h2>
-            </div>
             
-            <div className="lg:order-1 lg:mt-[200px]">
-              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                Every venue has a soundtrack, whether you designed it or not. SensEar ensures it tells the right story.
-              </p>
-              <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                We shape sound for venues & events that rely on atmosphere. Our four connected, customised music services create strategic experiences that influence how your staff & guests feel and act, and strengthen your brand.
-              </p>
-            </div>
+              <div className="w-full text-left">
+                <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
+                  Every venue has a soundtrack, whether you designed it or not. SensEar ensures it tells the right story.
+                </p>
+                <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
+                  We shape sound for venues & events that rely on atmosphere. Our four connected, customised music services create strategic experiences that influence how your staff & guests feel and act, and strengthen your brand.
+                </p>
+              </div>
           </div>
         </div>
       </section>
