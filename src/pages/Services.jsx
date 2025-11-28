@@ -250,7 +250,29 @@ export default function Services() {
           animation: slideUp 0.8s ease-out 0.6s forwards;
           opacity: 0;
         }
-      `}</style>
+
+        @keyframes gradient-shift {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+
+        .animated-gradient {
+          background: linear-gradient(
+            135deg,
+            #f5d4c1 0%,
+            #e8c3b0 15%,
+            #d4c4b0 30%,
+            #c0c0c0 45%,
+            #d3d3d3 60%,
+            #f0d5d0 75%,
+            #e8c3b0 90%,
+            #f5d4c1 100%
+          );
+          background-size: 400% 400%;
+          animation: gradient-shift 10s ease infinite;
+        }
+        `}</style>
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Services section">
@@ -504,20 +526,20 @@ export default function Services() {
       </section>
 
       {/* Creating your sound strategy */}
-      <section className="py-24 bg-[#faebe3]">
+      <section className="py-24 animated-gradient">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-16 text-center">Creating your sound strategy</h2>
-          
+
           <div className="max-w-4xl mx-auto text-left">
-            <p className="text-xl md:text-2xl text-black/80 leading-relaxed mb-6">
+            <p className="text-xl text-black/80 leading-relaxed mb-6">
               Most venues begin their journey with <Link to={createPageUrl("signature-playlists")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Signature Playlists</Link>, establishing a foundation of intentional daily music. As businesses grow, <Link to={createPageUrl("sonic-strategy")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Sonic Strategy</Link> ensures consistency across new locations.
             </p>
-            <p className="text-xl md:text-2xl text-black/80 leading-relaxed mb-12">
+            <p className="text-xl text-black/80 leading-relaxed mb-12">
               <Link to={createPageUrl("event-soundtracks")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Event Soundtracks</Link> transform special occasions, while <Link to={createPageUrl("audio-upgrades")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Audio Upgrades</Link> optimize the listening experience.
             </p>
-            
+
             <div>
-              <p className="text-xl md:text-2xl leading-relaxed font-bold text-black">
+              <p className="text-xl leading-relaxed font-bold text-black">
                 The result: A comprehensive approach to venue atmosphere that evolves with your business.
               </p>
             </div>
