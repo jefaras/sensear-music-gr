@@ -453,7 +453,7 @@ export default function Services() {
                     </div>
 
                     <Link to={createPageUrl("sonic-strategy")} className="mt-auto">
-                      <AnimatedButton className="w-full">
+                      <AnimatedButton className="w-full sm:w-auto">
                         Explore Sonic Strategy
                       </AnimatedButton>
                     </Link>
@@ -492,7 +492,7 @@ export default function Services() {
                     </div>
 
                     <Link to={createPageUrl("audio-upgrades")} className="mt-auto">
-                      <AnimatedButton className="w-full">
+                      <AnimatedButton className="w-full sm:w-auto">
                         Explore audio upgrades
                       </AnimatedButton>
                     </Link>
