@@ -19,6 +19,19 @@ const AnimatedButton = ({ children, className = "", ...props }) => (
   </Button>
 );
 
+const AnimatedButtonSmall = ({ children, className = "", ...props }) => (
+  <Button
+    variant="outline"
+    className={`group relative bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-7 py-3.5 text-sm font-semibold rounded-full transition-all duration-300 overflow-hidden ${className}`}
+    {...props}
+  >
+    <span className="transition-transform duration-300 group-hover:-translate-x-2 inline-block">
+      {children}
+    </span>
+    <ArrowRight className="absolute right-4 w-4 h-4 opacity-0 translate-x-3 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0" />
+  </Button>
+);
+
 export default function Services() {
   const [scrollY, setScrollY] = useState(0);
 
@@ -480,9 +493,9 @@ export default function Services() {
               </div>
 
               <Link to={createPageUrl("sonic-strategy")}>
-                <AnimatedButton className="w-full sm:w-auto px-6 py-3.5 text-sm">
+                <AnimatedButtonSmall className="w-full sm:w-auto">
                   Explore Sonic Strategy
-                </AnimatedButton>
+                </AnimatedButtonSmall>
               </Link>
             </div>
 
@@ -522,9 +535,9 @@ export default function Services() {
               </div>
 
               <Link to={createPageUrl("audio-upgrades")}>
-                <AnimatedButton className="w-full sm:w-auto px-6 py-3.5 text-sm">
+                <AnimatedButtonSmall className="w-full sm:w-auto">
                   Explore audio upgrades
-                </AnimatedButton>
+                </AnimatedButtonSmall>
               </Link>
             </div>
           </div>
