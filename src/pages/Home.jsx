@@ -306,7 +306,7 @@ export default function Home() {
                 <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
                   We are a team of Athens-based <strong>music strategists</strong> who design soundscapes for venues through sound that is <strong>intentional</strong>, <strong>immersive</strong> and <strong>memorable</strong>.
                 </p>
-                <p className="text-[31.875px] text-white/80 leading-[1.4]">
+                <p className="text-[31.875px] text-white/80 leading-relaxed">
                   Our core belief is that music shapes <strong>atmosphere</strong>, influences <strong>behaviour</strong> and builds lasting <strong>connections</strong> with guests.
                 </p>
               </div>
@@ -378,7 +378,7 @@ export default function Home() {
                       <img
                         src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ee4f6e2db_SIGNATUREcropped.jpg"
                         alt="SensEar Services"
-                        className="w-[60%] aspect-[4/3] md:aspect-auto md:h-auto object-cover rounded-2xl shadow-lg" />
+                        className="w-[80%] aspect-[4/3] md:aspect-auto md:h-auto object-cover rounded-2xl shadow-lg" />
                     </div>
                 </div>
             </article>
@@ -400,7 +400,7 @@ export default function Home() {
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5a170449c_lwnxeqhxcfez5hw0yraf-OK.jpg"
                       alt="Sonic expertise in hospitality and retail"
-                      className="w-[80%] aspect-[4/3] md:aspect-auto md:h-auto object-cover rounded-2xl shadow-lg"
+                      className="w-[90%] aspect-[4/3] md:aspect-auto md:h-auto object-cover rounded-2xl shadow-lg"
                     />
                 </div>
 
@@ -521,7 +521,7 @@ export default function Home() {
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/6e62c430c_03aebeb4e_car-1OK.png"
                 alt="SensEar branded car"
-                className="w-[60%] aspect-[4/3] md:aspect-auto md:h-auto object-cover rounded-2xl shadow-lg" />
+                className="w-[80%] aspect-[4/3] md:aspect-auto md:h-auto object-cover rounded-2xl shadow-lg" />
             </div>
           </div>
         </div>
