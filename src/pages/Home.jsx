@@ -392,7 +392,7 @@ export default function Home() {
                 Your world, our expertise
             </h2>
             <p className="text-xl text-black/70 mb-12 leading-relaxed text-center mx-auto max-w-5xl">
-                We understand how rhythm, energy, and atmosphere shape the Greek hospitality experience.
+                We understand how rhythm, energy & atmosphere shape the Greek hospitality experience.
             </p>
             <div className="grid md:grid-cols-[1.2fr_1fr] gap-12 items-center">
                 {/* Left: Image */}
@@ -412,7 +412,7 @@ export default function Home() {
                                                                 <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Hotels & Resorts</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                                             </Link>
                             <p className="text-[19.125px] text-black/70 leading-relaxed">
-                                Music for every time of day and area of your hotel.
+                                Music for every time of day and area.
                             </p>
                         </div>
                         <div>
@@ -420,7 +420,7 @@ export default function Home() {
                                                                 <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Restaurants & Bars</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                                             </Link>
                             <p className="text-[19.125px] text-black/70 leading-relaxed">
-                                Sound that matches your service flow and keeps guests longer.
+                                Match your service flow, keep guests longer.
                             </p>
                         </div>
                         <div>
@@ -428,7 +428,7 @@ export default function Home() {
                                                                 <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Retail Stores</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                                             </Link>
                             <p className="text-[19.125px] text-black/70 leading-relaxed">
-                                Playlists that inspire browsing and strengthen brand identity.
+                                Promote browsing and brand identity.
                             </p>
                         </div>
                         <div>
@@ -436,7 +436,7 @@ export default function Home() {
                                                                 <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Wellness & Gyms</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                                             </Link>
                             <p className="text-[19.125px] text-black/70 leading-relaxed">
-                                Soundscapes calibrated for relaxation, focus or motivation.
+                                Calibrated for relaxation, focus, or motivation.
                             </p>
                         </div>
                         <div>
@@ -444,7 +444,7 @@ export default function Home() {
                                                                 <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Events & Experiences</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                                             </Link>
                             <p className="text-[19.125px] text-black/70 leading-relaxed">
-                                Impactful, time-based music with natural transition flows.
+                                Impactful, time-based, natural transitions.
                             </p>
                         </div>
                         <div>
@@ -452,7 +452,7 @@ export default function Home() {
                                                                 <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Art, Museums & Fashion</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                                             </Link>
                             <p className="text-[19.125px] text-black/70 leading-relaxed">
-                                Smooth, precise sound for galleries, runways and exhibitions.
+                                Smooth, precise, unobtrusive melodies.
                             </p>
                         </div>
                     </div>
