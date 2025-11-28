@@ -514,7 +514,7 @@ export default function Services() {
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-16 text-center">Creating your sound strategy</h2>
           
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-4xl mx-auto text-left">
             <p className="text-xl md:text-2xl text-black/80 leading-relaxed mb-6">
               Most venues begin their journey with <Link to={createPageUrl("signature-playlists")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Signature Playlists</Link>, establishing a foundation of intentional daily music. As businesses grow, <Link to={createPageUrl("sonic-strategy")} className="underline font-bold hover:text-black decoration-2 underline-offset-4">Sonic Strategy</Link> ensures consistency across new locations.
             </p>
