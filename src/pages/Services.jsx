@@ -354,9 +354,10 @@ export default function Services() {
                         <p className="text-lg text-black/80 italic">"Beach House Antiparos uses this to seamlessly transition from energetic poolside mornings to relaxed lobby evenings: guests now ask for our playlists daily."</p>
                     </div>
 
-                    <Link to={createPageUrl("signature-playlists")} className="inline-flex items-center text-black font-medium text-xl group">
-                      <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Explore Signature Playlists</span>
-                      <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
+                    <Link to={createPageUrl("signature-playlists")}>
+                      <AnimatedButton className="w-full sm:w-auto">
+                        Explore Signature Playlists
+                      </AnimatedButton>
                     </Link>
                   </div>
                 </div>
@@ -407,9 +408,10 @@ export default function Services() {
                         <p className="text-lg text-black/80 italic">"Neva Bergman commissioned us for her exhibition opening at Levantis restaurant's gallery: she praised how the soundscape matched her work's emotions and kept visitors engaged longer."</p>
                     </div>
 
-                    <Link to={createPageUrl("event-soundtracks")} className="inline-flex items-center text-black font-medium text-xl group">
-                      <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Explore Event Soundtracks</span>
-                      <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
+                    <Link to={createPageUrl("event-soundtracks")}>
+                      <AnimatedButton className="w-full sm:w-auto">
+                        Explore Event Soundtracks
+                      </AnimatedButton>
                     </Link>
                   </div>
                 </div>
@@ -444,9 +446,10 @@ export default function Services() {
                         <p className="text-lg text-black/80 italic">"Pelicanos developed its own sonic identity to stand out from its sister restaurant "Cantina". Now it serves its unique mix of fresh discoveries, hidden gems & elegant all-time classics."</p>
                     </div>
 
-                    <Link to={createPageUrl("sonic-strategy")} className="inline-flex items-center text-black font-medium text-xl group">
-                      <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Explore Sonic Strategy</span>
-                      <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
+                    <Link to={createPageUrl("sonic-strategy")}>
+                      <AnimatedButton className="w-full sm:w-auto">
+                        Explore Sonic Strategy
+                      </AnimatedButton>
                     </Link>
                   </div>
                 </div>
@@ -497,9 +500,10 @@ export default function Services() {
                         <p className="text-lg text-black/80 italic">"Klouvi bar in Athens asked us to improve their acoustic clarity: strategic soundproofing and speaker optimization created the warm, intimate atmosphere they wanted."</p>
                     </div>
 
-                    <Link to={createPageUrl("audio-upgrades")} className="inline-flex items-center text-black font-medium text-xl group">
-                      <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Explore audio upgrades</span>
-                      <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
+                    <Link to={createPageUrl("audio-upgrades")}>
+                      <AnimatedButton className="w-full sm:w-auto">
+                        Explore audio upgrades
+                      </AnimatedButton>
                     </Link>
                   </div>
                 </div>
@@ -545,9 +549,9 @@ export default function Services() {
               </AnimatedButton>
             </Link>
             <Link to={createPageUrl("Industries")}>
-              <Button variant="outline" size="lg" className="border-black text-black hover:bg-black/5 px-8 py-6 text-lg bg-transparent h-14 rounded-full">
-                See Industries we serve <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
+              <AnimatedButton className="w-full sm:w-auto h-14">
+                See Industries we serve
+              </AnimatedButton>
             </Link>
           </div>
         </div>
