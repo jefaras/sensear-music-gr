@@ -409,49 +409,50 @@ export default function Home() {
                     <div className="space-y-8 mb-12">
                         <div>
                             <Link to={createPageUrl("hotels-resorts")} className="text-2xl font-bold text-black block mb-2 group w-fit">
-                                                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Hotels & Resorts</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                                                            </Link>
+                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Hotels & Resorts</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                            </Link>
                             <p className="text-[19.125px] text-black/70 leading-relaxed">
                                 Music for every time of day and area.
                             </p>
                         </div>
                         <div>
                             <Link to={createPageUrl("restaurants-bars")} className="text-2xl font-bold text-black block mb-2 group w-fit">
-                                                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Restaurants & Bars</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                                                            </Link>
+                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Restaurants & Bars</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                            </Link>
                             <p className="text-[19.125px] text-black/70 leading-relaxed">
                                 Match your service flow, keep guests longer.
                             </p>
                         </div>
                         <div>
-                            <Link to={createPageUrl("retail-stores")} className="text-2xl font-bold text-black block mb-2 group w-fit">
-                                                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Retail Stores</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                                                            </Link>
-                            <p className="text-[19.125px] text-black/70 leading-relaxed">
-                                Promote browsing and brand identity.
-                            </p>
-                        </div>
-                        <div>
-                            <Link to={createPageUrl("wellness-gyms")} className="text-2xl font-bold text-black block mb-2 group w-fit">
-                                                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Wellness & Gyms</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                                                            </Link>
-                            <p className="text-[19.125px] text-black/70 leading-relaxed">
-                                Calibrated for relaxation, focus, or motivation.
-                            </p>
-                        </div>
-                        <div>
                             <Link to={createPageUrl("events-experiences")} className="text-2xl font-bold text-black block mb-2 group w-fit">
-                                                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Events & Experiences</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                                                            </Link>
+                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Events & Experiences</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                            </Link>
                             <p className="text-[19.125px] text-black/70 leading-relaxed">
                                 Impactful, time-based, natural transitions.
                             </p>
                         </div>
+
                         <div>
-                            <Link to={createPageUrl("art-museums-fashion")} className="text-2xl font-bold text-black block mb-2 group w-fit">
-                                                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Art, Museums & Fashion</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                                                            </Link>
-                            <p className="text-[19.125px] text-black/70 leading-relaxed">
+                            <Link to={createPageUrl("retail-stores")} className="text-xl font-bold text-black block mb-2 group w-fit">
+                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Retail Stores</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                            </Link>
+                            <p className="text-lg text-black/70 leading-relaxed">
+                                Promote browsing and brand identity.
+                            </p>
+                        </div>
+                        <div>
+                            <Link to={createPageUrl("wellness-gyms")} className="text-xl font-bold text-black block mb-2 group w-fit">
+                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Wellness & Gyms</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                            </Link>
+                            <p className="text-lg text-black/70 leading-relaxed">
+                                Calibrated for relaxation, focus, or motivation.
+                            </p>
+                        </div>
+                        <div>
+                            <Link to={createPageUrl("art-museums-fashion")} className="text-xl font-bold text-black block mb-2 group w-fit">
+                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Art, Museums & Fashion</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                            </Link>
+                            <p className="text-lg text-black/70 leading-relaxed">
                                 Smooth, precise, unobtrusive melodies.
                             </p>
                         </div>
