@@ -400,7 +400,7 @@ export default function Home() {
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5a170449c_lwnxeqhxcfez5hw0yraf-OK.jpg"
                       alt="Sonic expertise in hospitality and retail"
-                      className="w-[90%] aspect-[4/3] md:aspect-auto md:h-auto object-cover rounded-2xl shadow-lg"
+                      className="w-[80%] aspect-[4/3] md:aspect-auto md:h-auto object-cover rounded-2xl shadow-lg"
                     />
                 </div>
 
