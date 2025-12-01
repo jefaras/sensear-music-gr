@@ -396,7 +396,7 @@ export default function Services() {
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/013a4722f_cyprpn9zest1wg173m2j.jpg"
                     alt="Bespoke music curation"
-                    className="w-[80%] aspect-[4/3] lg:aspect-auto lg:h-auto object-cover rounded-2xl shadow-lg"
+                    className="w-[80%] aspect-[4/3] lg:aspect-[3/4] object-cover rounded-2xl shadow-lg"
                   />
                 </div>
               </div>
@@ -411,7 +411,7 @@ export default function Services() {
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d4a085ed9_EventSoundtracks-upsc2-cropped.jpg"
                     alt="Event soundtracks and production"
-                    className="w-[80%] aspect-[4/3] lg:aspect-auto lg:h-auto object-cover rounded-2xl shadow-lg"
+                    className="w-[80%] aspect-[4/3] lg:aspect-[3/4] object-cover rounded-2xl shadow-lg"
                   />
                 </div>
 
