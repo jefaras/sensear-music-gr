@@ -374,11 +374,13 @@ export default function Home() {
                     </div>
                     
                     {/* Right: Image */}
-                    <div className="md:order-2 block mt-8 md:mt-0 flex justify-center">
-                      <img
-                        src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ee4f6e2db_SIGNATUREcropped.jpg"
-                        alt="SensEar Services"
-                        className="w-[80%] aspect-[4/3] md:aspect-auto md:h-auto object-cover rounded-2xl shadow-lg" />
+                    <div className="md:order-2 block">
+                      <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
+                        <img
+                          src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ee4f6e2db_SIGNATUREcropped.jpg"
+                          alt="SensEar Services"
+                          className="w-full h-auto object-cover rounded-xl shadow-lg" />
+                      </div>
                     </div>
                 </div>
             </article>
@@ -396,12 +398,14 @@ export default function Home() {
             </p>
             <div className="grid md:grid-cols-[1.2fr_1fr] gap-12 items-center">
                 {/* Left: Image */}
-                <div className="order-last md:order-1 block mt-8 md:mt-0 flex justify-center">
-                    <img
-                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5a170449c_lwnxeqhxcfez5hw0yraf-OK.jpg"
-                      alt="Sonic expertise in hospitality and retail"
-                      className="w-[80%] aspect-[4/3] md:aspect-auto md:h-auto object-cover rounded-2xl shadow-lg"
-                    />
+                <div className="order-last md:order-1 block">
+                    <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
+                        <img
+                          src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5a170449c_lwnxeqhxcfez5hw0yraf-OK.jpg"
+                          alt="Sonic expertise in hospitality and retail"
+                          className="w-full h-auto object-cover rounded-xl shadow-lg"
+                        />
+                    </div>
                 </div>
 
                 {/* Right: Content */}
@@ -518,11 +522,13 @@ export default function Home() {
             </div>
 
             {/* Right: Car Image */}
-            <div className="md:order-2 block mt-8 md:mt-0 flex justify-center">
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/6e62c430c_03aebeb4e_car-1OK.png"
-                alt="SensEar branded car"
-                className="w-[80%] aspect-[4/3] md:aspect-auto md:h-auto object-cover rounded-2xl shadow-lg" />
+            <div className="md:order-2 block">
+              <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
+                <img
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/6e62c430c_03aebeb4e_car-1OK.png"
+                  alt="SensEar branded car"
+                  className="w-full h-auto object-cover rounded-xl shadow-lg" />
+              </div>
             </div>
           </div>
         </div>
