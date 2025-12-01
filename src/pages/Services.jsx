@@ -39,7 +39,7 @@ export default function Services() {
     document.title = "Music Curation Services | SensEar";
 
     const metaDescription = document.querySelector('meta[name="description"]');
-    const description = "Discover SensEar's music curation services: Sonic Strategy, Signature Playlists, Event Soundtracks, and Audio Upgrades. Transform your venue's atmosphere.";
+    const description = "Discover SensEar's music curation services: Sonic Strategy, Signature Playlists, Event Soundtracks and Audio Upgrades. Transform your venue's atmosphere.";
     if (metaDescription) {
       metaDescription.setAttribute('content', description);
     } else {
@@ -380,7 +380,7 @@ export default function Services() {
                     </div>
                     <div className="mb-6">
                       <span className="font-bold text-black text-lg block mb-1">You receive:</span>
-                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Curated playlists that evolve throughout the day, monthly updates, and remote management.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Curated playlists that evolve throughout the day, monthly updates and remote management.</p>
                     </div>
 
 
@@ -425,7 +425,7 @@ export default function Services() {
                   <div>
                     <div className="mb-6">
                       <span className="font-bold text-black text-xl block mb-1">Ideal for:</span>
-                      <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Conferences, launches, weddings, and special occasions.</p>
+                      <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Conferences, launches, weddings and special occasions.</p>
                     </div>
                     <div className="mb-6">
                       <span className="font-bold text-black text-lg block mb-1">You receive:</span>
