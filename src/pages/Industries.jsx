@@ -180,6 +180,10 @@ export default function Industries() {
                 <div className="mb-6">
                   <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Sound that flows with your rhythms, encouraging conversation and longer visits.</p>
                 </div>
+                <div className="mb-6">
+                  <span className="font-bold text-black text-lg block mb-1">The result:</span>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Service flows more smoothly and guests settle in for the complete experience</p>
+                </div>
 
                 <div className="mt-8">
                   <Link to={createPageUrl("restaurants-bars")}>
@@ -335,40 +339,7 @@ export default function Industries() {
         </div>
       </section>
 
-      {/* What connects these worlds */}
-      <section className="py-20 bg-black text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-16 text-center">What connects these worlds</h2>
-          
-          <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl md:text-3xl font-bold mb-8 text-center text-white/90">
-              Universal truths about sound, adapted for your specific industry.
-            </h3>
-            <p className="text-xl text-white/80 text-center mb-12">
-              What every venue needs:
-            </p>
-            
-            <div className="grid md:grid-cols-1 gap-6 bg-white/5 p-8 rounded-2xl border border-white/10">
-              {[
-                "Atmosphere that evolves naturally throughout the day",
-                "Consistency that reinforces brand identity across all touchpoints",
-                "Professional management that frees staff to focus on service",
-                "Intentional design rather than accidental playlists",
-                "Measurable impact on guest experience and business metrics"
-              ].map((item, i) => (
-                <div key={i} className="flex items-start gap-4">
-                  <div className="mt-1 w-6 h-6 rounded-full bg-peach/20 flex items-center justify-center flex-shrink-0">
-                    <Check className="w-3.5 h-3.5 text-peach" />
-                  </div>
-                  <p className="text-lg md:text-xl text-white/90">
-                    {item}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* How our services deliver */}
       <section className="py-24 bg-[#faebe3]">
@@ -410,9 +381,9 @@ export default function Industries() {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <Link to={createPageUrl("ContactUs")}>
-              <Button size="lg" className="bg-black text-white hover:bg-black/80 px-10 py-7 text-xl rounded-full transition-transform hover:scale-105">
+              <AnimatedButton className="w-full sm:w-auto h-14">
                 Discover Your Sound Strategy
-              </Button>
+              </AnimatedButton>
             </Link>
             
             <div className="flex items-center">
