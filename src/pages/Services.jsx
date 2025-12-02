@@ -527,6 +527,46 @@ export default function Services() {
 
 
 
+      {/* How our services deliver */}
+      <section className="py-24 bg-[#faebe3]">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+             <div className="order-2 lg:order-1">
+                <img 
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/706733b3c_f9c386a1d5dba0530f1176b031bff1a4-UPSC.jpg" 
+                  alt="Services delivery" 
+                  className="w-full h-auto rounded-2xl shadow-lg" 
+                />
+             </div>
+             <div className="order-1 lg:order-2">
+                <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">How our services deliver:</h2>
+                <div className="space-y-8">
+                    <div className="mb-6">
+                        <p className="text-xl md:text-2xl text-black/60 leading-relaxed">
+                             <Link to={createPageUrl("signature-playlists")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Signature Playlists</Link> establish your daily atmosphere
+                        </p>
+                    </div>
+                    <div className="mb-6">
+                        <p className="text-xl md:text-2xl text-black/60 leading-relaxed">
+                             <Link to={createPageUrl("sonic-strategy")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Sonic Strategy</Link> unifies your brand's sound
+                        </p>
+                    </div>
+                    <div className="mb-6">
+                        <p className="text-xl md:text-2xl text-black/60 leading-relaxed">
+                             <Link to={createPageUrl("event-soundtracks")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Event Soundtracks</Link> choreograph special moments
+                        </p>
+                    </div>
+                    <div className="mb-6">
+                        <p className="text-xl md:text-2xl text-black/60 leading-relaxed">
+                             <Link to={createPageUrl("audio-upgrades")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Audio Upgrades</Link> optimize acoustic quality
+                        </p>
+                    </div>
+                </div>
+             </div>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA - Let's explore your possibilities */}
       <section className="py-20 animated-gradient">
         <div className="max-w-4xl mx-auto px-6 text-center">

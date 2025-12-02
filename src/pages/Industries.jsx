@@ -341,35 +341,7 @@ export default function Industries() {
 
 
 
-      {/* How our services deliver */}
-      <section className="py-24 bg-[#faebe3]">
-        <div className="max-w-5xl mx-auto px-6 text-center">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">How our services deliver:</h2>
-          
-          <div className="grid md:grid-cols-2 gap-8 mb-12 text-left">
-            <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <p className="text-xl leading-relaxed">
-                <Link to={createPageUrl("signature-playlists")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70">Signature Playlists</Link> establish your daily atmosphere
-              </p>
-            </div>
-            <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <p className="text-xl leading-relaxed">
-                <Link to={createPageUrl("sonic-strategy")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70">Sonic Strategy</Link> unifies your brand's sound
-              </p>
-            </div>
-            <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <p className="text-xl leading-relaxed">
-                <Link to={createPageUrl("event-soundtracks")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70">Event Soundtracks</Link> choreograph special moments
-              </p>
-            </div>
-            <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <p className="text-xl leading-relaxed">
-                <Link to={createPageUrl("audio-upgrades")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70">Audio Upgrades</Link> optimize acoustic quality
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Discover Your Sound Potential */}
       <section className="py-20 bg-white">
