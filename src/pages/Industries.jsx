@@ -339,9 +339,46 @@ export default function Industries() {
         </div>
       </section>
 
+      {/* What connects these worlds */}
+      <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1">
+              <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
+                <img
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/a6bc0a060_car-2.png"
+                  alt="Connected worlds"
+                  className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
+              </div>
+            </div>
+            <div className="order-1 lg:order-2">
+              <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">What connects these worlds</h2>
+              <p className="text-xl font-medium text-black/60 mb-8">Six industries, shared opportunities to transform through music.</p>
+              
+              <div className="space-y-4 mb-8">
+                {[
+                  "Every venue's energy needs change throughout the day",
+                  "Multiple spaces or locations that should feel connected",
+                  "Teams need to focus on service, not soundtrack debates",
+                  "Creating memorable experiences that bring people back",
+                  "Knowing if your music actually works for your business"
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start gap-3">
+                    <div className="mt-1 w-5 h-5 rounded-full bg-black/5 flex items-center justify-center flex-shrink-0">
+                      <Check className="w-3 h-3 text-black" />
+                    </div>
+                    <p className="text-lg text-black/70">{item}</p>
+                  </div>
+                ))}
+              </div>
 
-
-
+              <p className="text-xl font-medium text-black/80 italic">
+                Different industries express these differently, but strategic sound solves them all.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Discover Your Sound Potential */}
       <section className="py-20 bg-white">
