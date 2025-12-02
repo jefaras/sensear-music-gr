@@ -138,7 +138,7 @@ export default function Industries() {
               </div>
               <div className="order-1 lg:order-2">
                 <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Hotels & Resorts</h3>
-                <h4 className="text-xl font-semibold text-black/60 mb-6 uppercase tracking-wide">Soundtracks for every hour & space</h4>
+                <h4 className="text-xl font-semibold text-black/60 mb-6">Soundtracks for every hour & space</h4>
                 <p className="text-lg text-black/80 leading-relaxed mb-8">
                   Music that shapes the complete guest journey: from morning coffee to midnight cocktails, across lobby, pool, spa and rooms.
                   <br/><br/>
@@ -157,7 +157,7 @@ export default function Industries() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-1">
                 <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Restaurants & Bars</h3>
-                <h4 className="text-xl font-semibold text-black/60 mb-6 uppercase tracking-wide">The invisible maître d'</h4>
+                <h4 className="text-xl font-semibold text-black/60 mb-6">The invisible maître d'</h4>
                 <p className="text-lg text-black/80 leading-relaxed mb-8">
                   Sound that flows with your rhythms, encouraging conversation and longer visits.
                 </p>
@@ -192,7 +192,7 @@ export default function Industries() {
               </div>
               <div className="order-1 lg:order-2">
                 <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Events & Experiences</h3>
-                <h4 className="text-xl font-semibold text-black/60 mb-6 uppercase tracking-wide">Choreographed precision for unforgettable moments</h4>
+                <h4 className="text-xl font-semibold text-black/60 mb-6">Choreographed precision for unforgettable moments</h4>
                 <p className="text-lg text-black/80 leading-relaxed mb-8">
                   Precisely timed music that frames every phase, so your event sounds as good as it looks.
                   <br/><br/>
@@ -211,7 +211,7 @@ export default function Industries() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-1">
                 <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Retail Stores</h3>
-                <h4 className="text-xl font-semibold text-black/60 mb-6 uppercase tracking-wide">Soundscapes that inspire discovery</h4>
+                <h4 className="text-xl font-semibold text-black/60 mb-6">Soundscapes that inspire discovery</h4>
                 <p className="text-lg text-black/80 leading-relaxed mb-8">
                   Music that guides customer journeys and helps your space tell its story through sound.
                   <br/><br/>
@@ -248,7 +248,7 @@ export default function Industries() {
               </div>
               <div className="order-1 lg:order-2">
                 <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Wellness Centers</h3>
-                <h4 className="text-xl font-semibold text-black/60 mb-6 uppercase tracking-wide">Every practice deserves its perfect soundtrack</h4>
+                <h4 className="text-xl font-semibold text-black/60 mb-6">Every practice deserves its perfect soundtrack</h4>
                 <p className="text-lg text-black/80 leading-relaxed mb-8">
                   We calibrate music to support each activity, so each space has its optimal atmosphere.
                   <br/><br/>
@@ -267,7 +267,7 @@ export default function Industries() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-1">
                 <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Art, Museums & Fashion</h3>
-                <h4 className="text-xl font-semibold text-black/60 mb-6 uppercase tracking-wide">Subtle atmospheres that deepen appreciation</h4>
+                <h4 className="text-xl font-semibold text-black/60 mb-6">Subtle atmospheres that deepen appreciation</h4>
                 <p className="text-lg text-black/80 leading-relaxed mb-8">
                   We create soundscapes that support without overwhelming and enrich the cultural experience.
                   <br/><br/>
