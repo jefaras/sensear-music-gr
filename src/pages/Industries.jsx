@@ -61,6 +61,28 @@ export default function Industries() {
           animation: slideUp 0.8s ease-out 0.6s forwards;
           opacity: 0;
         }
+
+        @keyframes gradient-shift {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+
+        .animated-gradient {
+          background: linear-gradient(
+            135deg,
+            #f5d4c1 0%,
+            #e8c3b0 15%,
+            #d4c4b0 30%,
+            #c0c0c0 45%,
+            #d3d3d3 60%,
+            #f0d5d0 75%,
+            #e8c3b0 90%,
+            #f5d4c1 100%
+          );
+          background-size: 400% 400%;
+          animation: gradient-shift 10s ease infinite;
+        }
       `}</style>
 
       {/* Hero Section */}
@@ -396,20 +418,7 @@ export default function Industries() {
       </section>
 
       {/* Discover Your Sound Potential */}
-      <section className="py-20" style={{
-        backgroundImage: `linear-gradient(to bottom, 
-          #ffffff 0%, 
-          #ffffff 25%, 
-          rgba(255,255,255,0) 45%, 
-          rgba(255,255,255,0) 55%,
-          #FFF7F2 75%, 
-          #ffffff 100%
-        ), url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        backgroundAttachment: 'fixed'
-      }}>
+      <section className="py-20 animated-gradient">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-6">Discover Your Sound Potential</h2>
           <p className="text-xl text-black/70 mb-8 max-w-3xl mx-auto">
