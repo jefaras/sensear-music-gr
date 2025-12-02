@@ -84,6 +84,28 @@ export default function CaseStudies() {
             </h1>
           </div>
         </div>
+
+        {/* Hero Image with parallax */}
+        <div className="w-full px-6 slide-up-4">
+          <div className="mx-auto" style={{ maxWidth: '1800px' }}>
+            <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/277d6724a_Beach_House_Antiparos-EAT-8.png"
+                alt="SensEar Case Studies"
+                className="absolute w-full h-full object-cover md:hidden" />
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/277d6724a_Beach_House_Antiparos-EAT-8.png"
+                alt="SensEar Case Studies"
+                className="absolute w-full h-full object-cover hidden md:block"
+                style={{
+                  top: '-15%',
+                  height: '130%',
+                  transform: `translateY(${scrollY * 0.15}px)`,
+                  transformOrigin: 'center top'
+                }} />
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Intro Section - Black Background */}
