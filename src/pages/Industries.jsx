@@ -139,7 +139,7 @@ export default function Industries() {
               <div className="order-1 lg:order-2">
                 <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Hotels & Resorts</h3>
                 <p className="text-xl font-medium text-black/60 mb-8">Soundtracks for every hour & space</p>
-                <p className="text-lg text-black/80 leading-relaxed mb-8">
+                <p className="text-xl md:text-2xl text-black/60 leading-relaxed mb-8">
                   Music that shapes the complete guest journey: from morning coffee to midnight cocktails, across lobby, pool, spa and rooms.
                   <br/><br/>
                   <strong>The result:</strong> Guests mention your atmosphere in reviews and ask about your playlists at reception.
@@ -158,7 +158,7 @@ export default function Industries() {
               <div className="order-1">
                 <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Restaurants & Bars</h3>
                 <p className="text-xl font-medium text-black/60 mb-8">The invisible maître d'</p>
-                <p className="text-lg text-black/80 leading-relaxed mb-8">
+                <p className="text-xl md:text-2xl text-black/60 leading-relaxed mb-8">
                   Sound that flows with your rhythms, encouraging conversation and longer visits.
                 </p>
                 <div className="mt-8">
@@ -193,7 +193,7 @@ export default function Industries() {
               <div className="order-1 lg:order-2">
                 <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Events & Experiences</h3>
                 <p className="text-xl font-medium text-black/60 mb-8">Choreographed precision for unforgettable moments</p>
-                <p className="text-lg text-black/80 leading-relaxed mb-8">
+                <p className="text-xl md:text-2xl text-black/60 leading-relaxed mb-8">
                   Precisely timed music that frames every phase, so your event sounds as good as it looks.
                   <br/><br/>
                   <strong>The result:</strong> Smooth transitions that guests don't notice but organizers appreciate
@@ -212,7 +212,7 @@ export default function Industries() {
               <div className="order-1">
                 <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Retail Stores</h3>
                 <p className="text-xl font-medium text-black/60 mb-8">Soundscapes that inspire discovery</p>
-                <p className="text-lg text-black/80 leading-relaxed mb-8">
+                <p className="text-xl md:text-2xl text-black/60 leading-relaxed mb-8">
                   Music that guides customer journeys and helps your space tell its story through sound.
                   <br/><br/>
                   <strong>The result:</strong> Customers explore the entire store instead of just what they came for.
@@ -249,7 +249,7 @@ export default function Industries() {
               <div className="order-1 lg:order-2">
                 <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Wellness Centers</h3>
                 <p className="text-xl font-medium text-black/60 mb-8">Every practice deserves its perfect soundtrack</p>
-                <p className="text-lg text-black/80 leading-relaxed mb-8">
+                <p className="text-xl md:text-2xl text-black/60 leading-relaxed mb-8">
                   We calibrate music to support each activity, so each space has its optimal atmosphere.
                   <br/><br/>
                   <strong>The result:</strong> Members choose your studio specifically for the atmosphere you create.
@@ -268,7 +268,7 @@ export default function Industries() {
               <div className="order-1">
                 <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Art, Museums & Fashion</h3>
                 <p className="text-xl font-medium text-black/60 mb-8">Subtle atmospheres that deepen appreciation</p>
-                <p className="text-lg text-black/80 leading-relaxed mb-8">
+                <p className="text-xl md:text-2xl text-black/60 leading-relaxed mb-8">
                   We create soundscapes that support without overwhelming and enrich the cultural experience.
                   <br/><br/>
                   <strong>The result:</strong> Visitors slow down, absorb more and share their experience afterwards
