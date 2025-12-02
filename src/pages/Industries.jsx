@@ -342,6 +342,11 @@ export default function Industries() {
       {/* What connects these worlds */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16 max-w-4xl mx-auto">
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">What connects these worlds</h2>
+            <p className="text-xl text-black/80 font-medium">Six industries, shared opportunities to transform through music.</p>
+          </div>
+
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
               <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
@@ -352,9 +357,6 @@ export default function Industries() {
               </div>
             </div>
             <div className="order-1 lg:order-2">
-              <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">What connects these worlds</h2>
-              <p className="text-xl font-medium text-black/60 mb-8">Six industries, shared opportunities to transform through music.</p>
-              
               <div className="space-y-4 mb-8">
                 {[
                   "Every venue's energy needs change throughout the day",
