@@ -279,7 +279,7 @@ export default function AboutUs() {
       {/* Timeline */}
       <section className="py-20 bg-white" aria-labelledby="timeline-heading">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 id="timeline-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center text-black mb-16">Our Journey</h2>
+          <h2 id="timeline-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center text-black mb-16">Our journey</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             {/* Left: Timeline content */}
@@ -306,7 +306,7 @@ export default function AboutUs() {
                   </div>
 
                   {/* Desktop layout - left aligned badge with content */}
-                  <div className="hidden md:flex md:gap-8">
+                  <div className="hidden md:flex md:gap-8 items-start">
                     {/* Left side - Year badge */}
                     <div className="flex-shrink-0">
                       <div className="w-24 h-24 bg-black text-white font-bold rounded-full flex items-center justify-center text-xl shadow-lg relative z-10">
@@ -315,10 +315,8 @@ export default function AboutUs() {
                     </div>
                     
                     {/* Right side - Content */}
-                    <div className="flex-grow">
-                      <div className="bg-peach/30 rounded-xl p-8 backdrop-blur-sm hover:bg-peach/50 transition-colors">
-                        <p className="text-lg text-black/80 leading-relaxed"><strong>George and Katerina</strong> meet while curating music for an upscale wedding. Their shared passion for <strong>discovering hidden grooves</strong> sparks a creative partnership.</p>
-                      </div>
+                    <div className="flex-grow pt-2">
+                      <p className="text-lg text-black/80 leading-relaxed"><strong>George and Katerina</strong> meet while curating music for an upscale wedding. Their shared passion for <strong>discovering hidden grooves</strong> sparks a creative partnership.</p>
                     </div>
                   </div>
                 </article>
@@ -338,7 +336,7 @@ export default function AboutUs() {
                   </div>
 
                   {/* Desktop layout - left aligned badge with content */}
-                  <div className="hidden md:flex md:gap-8">
+                  <div className="hidden md:flex md:gap-8 items-start">
                     {/* Left side - Year badge */}
                     <div className="flex-shrink-0">
                       <div className="w-24 h-24 bg-black text-white font-bold rounded-full flex items-center justify-center text-xl shadow-lg relative z-10">
@@ -347,10 +345,8 @@ export default function AboutUs() {
                     </div>
                     
                     {/* Right side - Content */}
-                    <div className="flex-grow">
-                      <div className="bg-peach/30 rounded-xl p-8 backdrop-blur-sm hover:bg-peach/50 transition-colors">
-                        <p className="text-lg text-black/80 leading-relaxed">As <strong>Midnight City</strong>, they host and DJ <strong>exclusive parties</strong> focusing in cross-genre discoveries from the '70s to today, building a devoted following.</p>
-                      </div>
+                    <div className="flex-grow pt-2">
+                      <p className="text-lg text-black/80 leading-relaxed">As <strong>Midnight City</strong>, they host and DJ <strong>exclusive parties</strong> focusing in cross-genre discoveries from the '70s to today, building a devoted following.</p>
                     </div>
                   </div>
                 </article>
@@ -370,7 +366,7 @@ export default function AboutUs() {
                   </div>
 
                   {/* Desktop layout - left aligned badge with content */}
-                  <div className="hidden md:flex md:gap-8">
+                  <div className="hidden md:flex md:gap-8 items-start">
                     {/* Left side - Year badge */}
                     <div className="flex-shrink-0">
                       <div className="w-24 h-24 bg-black text-white font-bold rounded-full flex items-center justify-center text-xl shadow-lg relative z-10">
@@ -379,10 +375,8 @@ export default function AboutUs() {
                     </div>
                     
                     {/* Right side - Content */}
-                    <div className="flex-grow">
-                      <div className="bg-peach/30 rounded-xl p-8 backdrop-blur-sm hover:bg-peach/50 transition-colors">
-                        <p className="text-lg text-black/80 leading-relaxed">JEF discovers M.C. at one of their signature events. The vibe and deep-track selections make him an instant <strong>devotee</strong>.</p>
-                      </div>
+                    <div className="flex-grow pt-2">
+                      <p className="text-lg text-black/80 leading-relaxed">JEF discovers M.C. at one of their signature events. The vibe and deep-track selections make him an instant <strong>devotee</strong>.</p>
                     </div>
                   </div>
                 </article>
@@ -402,7 +396,7 @@ export default function AboutUs() {
                   </div>
 
                   {/* Desktop layout - left aligned badge with content */}
-                  <div className="hidden md:flex md:gap-8">
+                  <div className="hidden md:flex md:gap-8 items-start">
                     {/* Left side - Year badge */}
                     <div className="flex-shrink-0">
                       <div className="w-24 h-24 bg-black text-white font-bold rounded-full flex items-center justify-center text-xl shadow-lg relative z-10">
@@ -411,10 +405,8 @@ export default function AboutUs() {
                     </div>
                     
                     {/* Right side - Content */}
-                    <div className="flex-grow">
-                      <div className="bg-peach/30 rounded-xl p-8 backdrop-blur-sm hover:bg-peach/50 transition-colors">
-                        <p className="text-lg text-black/80 leading-relaxed">JEF and George align on a vision: <strong>transformative music curation</strong> and DJ sets for venues that are mindful about their atmosphere.</p>
-                      </div>
+                    <div className="flex-grow pt-2">
+                      <p className="text-lg text-black/80 leading-relaxed">JEF and George align on a vision: <strong>transformative music curation</strong> and DJ sets for venues that are mindful about their atmosphere.</p>
                     </div>
                   </div>
                 </article>
@@ -434,7 +426,7 @@ export default function AboutUs() {
                   </div>
 
                   {/* Desktop layout - left aligned badge with content */}
-                  <div className="hidden md:flex md:gap-8">
+                  <div className="hidden md:flex md:gap-8 items-start">
                     {/* Left side - Year badge */}
                     <div className="flex-shrink-0">
                       <div className="w-24 h-24 bg-black text-white font-bold rounded-full flex items-center justify-center text-xl shadow-lg relative z-10">
@@ -443,10 +435,8 @@ export default function AboutUs() {
                     </div>
                     
                     {/* Right side - Content */}
-                    <div className="flex-grow">
-                      <div className="bg-peach/30 rounded-xl p-8 backdrop-blur-sm hover:bg-peach/50 transition-colors">
-                        <p className="text-lg text-black/80 leading-relaxed"><strong>SensEar launches</strong>. First clients confirm what we believed: venues deserve soundtracks designed with intention and expertise.</p>
-                      </div>
+                    <div className="flex-grow pt-2">
+                      <p className="text-lg text-black/80 leading-relaxed"><strong>SensEar launches</strong>. First clients confirm what we believed: venues deserve soundtracks designed with intention and expertise.</p>
                     </div>
                   </div>
                 </article>
