@@ -44,8 +44,8 @@ export default function Layout({ children }) {
       { name: "Events & Experiences", path: createPageUrl("events-experiences") },
       { name: "Art, Museums & Fashion", path: createPageUrl("art-museums-fashion") }
     ],
-    caseStudies: [],
     company: [
+      { name: "Case Studies", path: createPageUrl("CaseStudies") },
       { name: "About", path: createPageUrl("AboutUs") },
       { name: "Contact", path: createPageUrl("ContactUs") },
       { name: "Blog", path: createPageUrl("Blog") },
@@ -373,7 +373,7 @@ export default function Layout({ children }) {
           }}
         />
         <div className="max-w-7xl mx-auto px-6 py-16 relative z-10">
-          <div className="flex flex-wrap gap-8">
+          <div className="flex flex-wrap gap-12 lg:gap-24">
             {/* Logo, Socials & Contact */}
             <div className="min-w-[300px] lg:w-1/3">
               <Link to={createPageUrl("Home")} className="flex items-center gap-3 group mb-6 w-fit">
@@ -434,17 +434,7 @@ export default function Layout({ children }) {
               </div>
             </div>
 
-            {/* Case Studies */}
-            <div>
-              <Link to={createPageUrl("CaseStudies")} className="text-sm font-semibold text-peach mb-4 uppercase tracking-wider hover:underline decoration-1 underline-offset-4 inline-block font-jakarta">
-                Case Studies
-              </Link>
-              <div className="space-y-2">
-                {footerNavItems.caseStudies.map((item) => (
-                  <Link key={item.name} to={item.path} className="block text-white/70 hover:text-peach transition-colors text-base hover:underline decoration-1 underline-offset-4 font-jakarta">{item.name}</Link>
-                ))}
-              </div>
-            </div>
+
 
             {/* Company */}
             <div>
