@@ -330,7 +330,7 @@ export default function Home() {
                         <div className="flex flex-col mb-12">
                             {/* Service 1 */}
                             <div className="mb-8">
-                                <Link to={createPageUrl("signature-playlists")} className="text-2xl font-bold text-black block mb-2 group w-fit">
+                                <Link to={createPageUrl("signature-playlists")} className="text-[31.5px] font-bold text-black block mb-2 group w-fit">
                                     <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Signature Playlists</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                 </Link>
                                 <p className="text-[19.125px] text-black/70 leading-relaxed">
@@ -339,7 +339,7 @@ export default function Home() {
                             </div>
                             {/* Service 2 */}
                             <div className="mb-8">
-                                <Link to={createPageUrl("event-soundtracks")} className="text-2xl font-bold text-black block mb-2 group w-fit">
+                                <Link to={createPageUrl("event-soundtracks")} className="text-[31.5px] font-bold text-black block mb-2 group w-fit">
                                     <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Event Soundtracks</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                 </Link>
                                 <p className="text-[19.125px] text-black/70 leading-relaxed">
@@ -412,7 +412,7 @@ export default function Home() {
                 <div className="md:order-2 md:pl-12">
                     <div className="flex flex-col mb-12">
                         <div className="mb-8">
-                            <Link to={createPageUrl("hotels-resorts")} className="text-2xl font-bold text-black block mb-2 group w-fit">
+                            <Link to={createPageUrl("hotels-resorts")} className="text-[31.5px] font-bold text-black block mb-2 group w-fit">
                                 <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Hotels & Resorts</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </Link>
                             <p className="text-[19.125px] text-black/70 leading-relaxed">
@@ -420,7 +420,7 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="mb-8">
-                            <Link to={createPageUrl("restaurants-bars")} className="text-2xl font-bold text-black block mb-2 group w-fit">
+                            <Link to={createPageUrl("restaurants-bars")} className="text-[31.5px] font-bold text-black block mb-2 group w-fit">
                                 <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Restaurants & Bars</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </Link>
                             <p className="text-[19.125px] text-black/70 leading-relaxed">
@@ -428,7 +428,7 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="mb-8">
-                            <Link to={createPageUrl("events-experiences")} className="text-2xl font-bold text-black block mb-2 group w-fit">
+                            <Link to={createPageUrl("events-experiences")} className="text-[31.5px] font-bold text-black block mb-2 group w-fit">
                                 <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Events & Experiences</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </Link>
                             <p className="text-[19.125px] text-black/70 leading-relaxed">
@@ -488,7 +488,7 @@ export default function Home() {
                 <div className="space-y-10 mb-12" role="list">
                   <article role="listitem" className="flex gap-4">
                     <div>
-                        <h3 className="text-2xl font-bold text-black mb-2">Strengthen Your Brand</h3>
+                        <h3 className="text-[31.5px] font-bold text-black mb-2">Strengthen Your Brand</h3>
                         <p className="text-lg text-black/70 leading-relaxed">
                         Improve perception and loyalty with a memorable atmosphere.
                         </p>
@@ -497,7 +497,7 @@ export default function Home() {
 
                   <article role="listitem" className="flex gap-4">
                     <div>
-                        <h3 className="text-2xl font-bold text-black mb-2">Total Control</h3>
+                        <h3 className="text-[31.5px] font-bold text-black mb-2">Total Control</h3>
                         <p className="text-lg text-black/70 leading-relaxed">
                         Take full control over your venue's music style & flow.
                         </p>
@@ -506,7 +506,7 @@ export default function Home() {
 
                   <article role="listitem" className="flex gap-4">
                     <div>
-                        <h3 className="text-2xl font-bold text-black mb-2">Consistent Experience</h3>
+                        <h3 className="text-[31.5px] font-bold text-black mb-2">Consistent Experience</h3>
                         <p className="text-lg text-black/70 leading-relaxed">
                         Ensure a smooth music experience across locations & marketing channels.
                         </p>
