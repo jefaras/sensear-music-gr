@@ -145,8 +145,8 @@ export default function CaseStudies() {
       }}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-20 max-w-4xl mx-auto">
-            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">Four venues, four journeys</h2>
-            <p className="text-xl text-black/80 font-medium">Each with its own character, needs and musical solution.</p>
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Four venues, four journeys</h2>
+            <p className="text-xl text-black/70 font-medium">Each with its own character, needs and musical solution.</p>
           </div>
 
           <div className="space-y-24">
