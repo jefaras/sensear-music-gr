@@ -4,7 +4,20 @@ import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import Breadcrumbs from "../components/Breadcrumbs";
 import { createPageUrl } from "@/utils";
-import { Lightbulb, Building2, SlidersHorizontal, Heart } from 'lucide-react';
+import { Lightbulb, Building2, SlidersHorizontal, Heart, ArrowRight } from 'lucide-react';
+
+const AnimatedButton = ({ children, className = "", ...props }) => (
+  <Button
+    variant="outline"
+    className={`group relative bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-10 py-6 text-lg font-semibold rounded-full transition-all duration-300 overflow-hidden ${className}`}
+    {...props}
+  >
+    <span className="transition-transform duration-300 group-hover:-translate-x-3 flex items-center">
+      {children}
+    </span>
+    <ArrowRight className="absolute right-6 w-5 h-5 opacity-0 translate-x-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0" />
+  </Button>
+);
 
 export default function AboutUs() {
   const [scrollY, setScrollY] = useState(0);
@@ -214,7 +227,7 @@ export default function AboutUs() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="w-full">
             <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-              About SensEar
+              The people behind your soundtrack
             </h1>
           </div>
         </div>
@@ -246,16 +259,12 @@ export default function AboutUs() {
       {/* Intro Section - Black Background */}
       <section className="bg-black py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-[1fr_auto] gap-8 items-start">
-            {/* Right: Titles - appears first on mobile, second on desktop */}
-            <div className="lg:order-2 lg:min-w-[280px]">
-              <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-8 lg:mb-0">
-                Who we are
-              </h2>
-            </div>
-            
-            {/* Left: Content - appears second on mobile, first on desktop */}
-            <div className="lg:order-1 lg:mt-[116px]">
+          <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
+            <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-white leading-tight mb-12">
+              Who we are
+            </h2>
+          
+            <div className="w-full text-left">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
                 <strong>SensEar</strong> treats music as a core part of the experience:
               </p>
@@ -270,7 +279,7 @@ export default function AboutUs() {
       {/* Timeline */}
       <section className="py-20 bg-white" aria-labelledby="timeline-heading">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 id="timeline-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-right text-black mb-16">Our Journey</h2>
+          <h2 id="timeline-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center text-black mb-16">Our Journey</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             {/* Left: Timeline content */}
@@ -456,13 +465,13 @@ export default function AboutUs() {
             </div>
           </div>
           
-          <div className="max-w-2xl mx-auto mt-16 text-center animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
-            <h3 className="text-2xl md:text-3xl font-bold text-black mb-4">Want to hear our vision?</h3>
-            <p className="text-lg md:text-xl text-black/70 mb-6">Listen to our Signature Playlists demos.</p>
-            <Link to={createPageUrl("PlaylistsDemos")}>
-              <Button size="lg" variant="outline" className="bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-8">
+          <div className="max-w-4xl mx-auto mt-16 text-center animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
+            <h3 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-6">Want to hear our vision?</h3>
+            <p className="text-lg md:text-xl text-black/70 mb-8">Listen to our Signature Playlists demos.</p>
+            <Link to={createPageUrl("CaseStudies")}>
+              <AnimatedButton>
                 Explore Sample Playlists
-              </Button>
+              </AnimatedButton>
             </Link>
           </div>
         </div>
@@ -471,20 +480,16 @@ export default function AboutUs() {
       {/* Vision Section */}
       <section className="bg-black py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-[1fr_auto] gap-8 items-start">
-            {/* Right: Titles - appears first on mobile, second on desktop */}
-            <div className="lg:order-2 lg:min-w-[280px]">
-              <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-8 lg:mb-0">
-                Our vision
-              </h2>
-            </div>
+          <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
+            <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-white leading-tight mb-12">
+              Our vision
+            </h2>
             
-            {/* Left: Content - appears second on mobile, first on desktop */}
-            <div className="lg:order-1 lg:mt-[116px]">
+            <div className="w-full text-left">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
                 To become the leading music partner for eclectic hospitality brands & events seeking to express identity, elevate atmosphere & create lasting guest connections.
               </p>
-              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
+              <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
                 <span>Learn more about our </span><Link to={createPageUrl("sonic-strategy")} className="underline hover:text-peach font-semibold">sonic strategy service</Link><span>.</span>
               </p>
             </div>
@@ -512,10 +517,10 @@ export default function AboutUs() {
                     <p className="text-xl md:text-2xl text-black leading-relaxed mb-6">
                       From his early DJ sets to his studies in Hospitality Management, JEF has always been guided by music's magnetic pull.
                     </p>
-                    <p className="text-xl md:text-2xl text-black/70 leading-relaxed mb-4">
+                    <p className="text-lg md:text-xl text-black/70 leading-relaxed mb-4">
                       He is a co-founder of a successful digital agency, with 25 years of experience in web services & understanding client needs.
                     </p>
-                    <p className="text-xl md:text-2xl text-black/70 leading-relaxed">
+                    <p className="text-lg md:text-xl text-black/70 leading-relaxed">
                       At SensEar, he shapes the brand's strategic direction & connects creative vision with client experience.
                     </p>
                   </div>
@@ -557,10 +562,10 @@ export default function AboutUs() {
                     <p className="text-xl md:text-2xl text-black leading-relaxed mb-6">
                       G’s lifelong passion for music deepened with a Media & Communications BA and an MA in Popular Music in Film.
                     </p>
-                    <p className="text-xl md:text-2xl text-black/70 leading-relaxed mb-4">
+                    <p className="text-lg md:text-xl text-black/70 leading-relaxed mb-4">
                       He established himself in Athens as a DJ & music curator on radio, parties & venues residencies.
                     </p>
-                    <p className="text-xl md:text-2xl text-black/70 leading-relaxed">
+                    <p className="text-lg md:text-xl text-black/70 leading-relaxed">
                       At SensEar, he crafts each venue's musical identity with precision, rhythm and atmospheres that defines the brand's signature sound.
                     </p>
                   </div>
@@ -584,10 +589,10 @@ export default function AboutUs() {
                     <p className="text-xl md:text-2xl text-black leading-relaxed mb-6">
                       Kat combines visual design & sound narrative with a refined artistic sensibility.
                     </p>
-                    <p className="text-xl md:text-2xl text-black/70 leading-relaxed mb-4">
+                    <p className="text-lg md:text-xl text-black/70 leading-relaxed mb-4">
                       A veteran multimedia art director, she helps curate soundscapes for films, exhibitions & private events.
                     </p>
-                    <p className="text-xl md:text-2xl text-black/70 leading-relaxed">
+                    <p className="text-lg md:text-xl text-black/70 leading-relaxed">
                       Known for her instinctive selections & taste for rare grooves, she brings depth, texture and a touch of the unexpected to SensEar.
                     </p>
                   </div>
@@ -616,7 +621,7 @@ export default function AboutUs() {
 
       <section className="bg-[#faebe3] text-black py-24" aria-labelledby="differentiators-heading">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 id="differentiators-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-right mb-12 animate-fade-in-up">What sets us apart</h2>
+          <h2 id="differentiators-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center mb-12 animate-fade-in-up">What sets us apart</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image */}
