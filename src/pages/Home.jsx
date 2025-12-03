@@ -306,7 +306,7 @@ export default function Home() {
                 <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
                   We are a team of Athens-based <strong>music strategists</strong> who design soundscapes for venues through sound that is <strong>intentional</strong>, <strong>immersive</strong> and <strong>memorable</strong>.
                 </p>
-                <p className="text-[31.875px] text-white/80 leading-relaxed">
+                <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
                   Our core belief is that music shapes <strong>atmosphere</strong>, influences <strong>behaviour</strong> and builds lasting <strong>connections</strong> with guests.
                 </p>
               </div>
