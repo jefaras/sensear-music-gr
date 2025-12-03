@@ -351,7 +351,7 @@ export default function Home() {
                                 <Link to={createPageUrl("sonic-strategy")} className="text-xl font-bold text-black block mb-1 group w-fit">
                                     <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Sonic Strategy</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                 </Link>
-                                <p className="text-lg text-black/70 leading-relaxed">
+                                <p className="text-[17px] text-black/70 leading-relaxed">
                                     Your audio DNA, unified across all locations and communication channels.
                                 </p>
                             </div>
@@ -360,7 +360,7 @@ export default function Home() {
                                 <Link to={createPageUrl("audio-upgrades")} className="text-xl font-bold text-black block mb-1 group w-fit">
                                     <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Audio Upgrades</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                 </Link>
-                                <p className="text-lg text-black/70 leading-relaxed">
+                                <p className="text-[17px] text-black/70 leading-relaxed">
                                     Acoustic refinement and support for crystal-clear, memorable sound.
                                 </p>
                             </div>
@@ -440,7 +440,7 @@ export default function Home() {
                             <Link to={createPageUrl("retail-stores")} className="text-xl font-bold text-black block mb-1 group w-fit">
                                 <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Retail Stores</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </Link>
-                            <p className="text-lg text-black/70 leading-relaxed">
+                            <p className="text-[17px] text-black/70 leading-relaxed">
                                 Promote browsing and brand identity.
                             </p>
                         </div>
@@ -448,15 +448,15 @@ export default function Home() {
                             <Link to={createPageUrl("wellness-gyms")} className="text-xl font-bold text-black block mb-1 group w-fit">
                                 <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Wellness & Gyms</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </Link>
-                            <p className="text-lg text-black/70 leading-relaxed">
-                                Calibrated for relaxation, focus, or motivation.
+                            <p className="text-[17px] text-black/70 leading-relaxed">
+                                Calibrated for relaxation, focus or motivation.
                             </p>
                         </div>
                         <div>
                             <Link to={createPageUrl("art-museums-fashion")} className="text-xl font-bold text-black block mb-1 group w-fit">
                                 <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Art, Museums & Fashion</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </Link>
-                            <p className="text-lg text-black/70 leading-relaxed">
+                            <p className="text-[17px] text-black/70 leading-relaxed">
                                 Smooth, precise, unobtrusive melodies.
                             </p>
                         </div>
