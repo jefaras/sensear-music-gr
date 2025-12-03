@@ -161,9 +161,7 @@ export default function CaseStudies() {
                 </div>
               </div>
               <div className="order-1 lg:order-2">
-                <Link to="/case-studies/yam" className="hover:opacity-70 transition-opacity">
-                  <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Yam Beach Club, Paros</h3>
-                </Link>
+                <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Yam, Antiparos</h3>
                 
                 <div className="mb-8">
                   <p className="text-xl md:text-2xl text-black/60 leading-relaxed mb-6">
@@ -175,18 +173,11 @@ export default function CaseStudies() {
                 </div>
 
                 <div className="space-y-6">
-                  <a href="#yam-sample" className="inline-flex items-center text-lg font-bold text-black hover:underline decoration-2 underline-offset-4">
-                    <Music className="w-5 h-5 mr-2" />
-                    Listen to Yam's sunset playlist
+                  <a href="#yam-sample">
+                    <AnimatedButton className="w-full sm:w-auto">
+                      Listen to Yam's playlist
+                    </AnimatedButton>
                   </a>
-                  
-                  <div>
-                    <Link to="/case-studies/yam">
-                      <AnimatedButton className="w-full sm:w-auto">
-                        Read full story
-                      </AnimatedButton>
-                    </Link>
-                  </div>
                 </div>
               </div>
             </div>
@@ -194,9 +185,7 @@ export default function CaseStudies() {
             {/* Pelicanos */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-1">
-                <Link to={createPageUrl("pelicanos-sifnos-restaurant")} className="hover:opacity-70 transition-opacity">
-                  <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Pelicanos, Sifnos</h3>
-                </Link>
+                <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Pelicanos, Sifnos</h3>
                 
                 <div className="mb-8">
                   <p className="text-xl md:text-2xl text-black/60 leading-relaxed mb-6">
@@ -208,18 +197,11 @@ export default function CaseStudies() {
                 </div>
 
                 <div className="space-y-6">
-                  <a href="#pelicanos-sample" className="inline-flex items-center text-lg font-bold text-black hover:underline decoration-2 underline-offset-4">
-                    <Music className="w-5 h-5 mr-2" />
-                    Listen to Pelicanos dinner playlist
+                  <a href="#pelicanos-sample">
+                    <AnimatedButton className="w-full sm:w-auto">
+                      Listen to Pelicanos atmosphere
+                    </AnimatedButton>
                   </a>
-                  
-                  <div>
-                    <Link to={createPageUrl("pelicanos-sifnos-restaurant")}>
-                      <AnimatedButton className="w-full sm:w-auto">
-                        Read full story
-                      </AnimatedButton>
-                    </Link>
-                  </div>
                 </div>
               </div>
               <div className="order-2">
@@ -243,9 +225,7 @@ export default function CaseStudies() {
                 </div>
               </div>
               <div className="order-1 lg:order-2">
-                <Link to={createPageUrl("beach-house-antiparos")} className="hover:opacity-70 transition-opacity">
-                  <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Beach House Antiparos</h3>
-                </Link>
+                <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Beach House, Antiparos</h3>
                 
                 <div className="mb-8">
                   <p className="text-xl md:text-2xl text-black/60 leading-relaxed mb-6">
@@ -257,18 +237,11 @@ export default function CaseStudies() {
                 </div>
 
                 <div className="space-y-6">
-                  <a href="#beach-house-sample" className="inline-flex items-center text-lg font-bold text-black hover:underline decoration-2 underline-offset-4">
-                    <Music className="w-5 h-5 mr-2" />
-                    Listen to Beach House morning playlist
+                  <a href="#beach-house-sample">
+                    <AnimatedButton className="w-full sm:w-auto">
+                      Listen to Beach House playlist
+                    </AnimatedButton>
                   </a>
-                  
-                  <div>
-                    <Link to={createPageUrl("beach-house-antiparos")}>
-                      <AnimatedButton className="w-full sm:w-auto">
-                        Read full story
-                      </AnimatedButton>
-                    </Link>
-                  </div>
                 </div>
               </div>
             </div>
@@ -276,9 +249,7 @@ export default function CaseStudies() {
             {/* Levantis Gallery */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-1">
-                <Link to="/case-studies/levantis" className="hover:opacity-70 transition-opacity">
-                  <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Levantis Gallery</h3>
-                </Link>
+                <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Levantis, Paros</h3>
                 
                 <div className="mb-8">
                   <p className="text-xl md:text-2xl text-black/60 leading-relaxed mb-6">
@@ -290,18 +261,11 @@ export default function CaseStudies() {
                 </div>
 
                 <div className="space-y-6">
-                  <a href="#levantis-sample" className="inline-flex items-center text-lg font-bold text-black hover:underline decoration-2 underline-offset-4">
-                    <Music className="w-5 h-5 mr-2" />
-                    Listen to gallery ambience
+                  <a href="#levantis-sample">
+                    <AnimatedButton className="w-full sm:w-auto">
+                      Listen to Levantis ambience
+                    </AnimatedButton>
                   </a>
-                  
-                  <div>
-                    <Link to="/case-studies/levantis">
-                      <AnimatedButton className="w-full sm:w-auto">
-                        Read full story
-                      </AnimatedButton>
-                    </Link>
-                  </div>
                 </div>
               </div>
               <div className="order-2">
@@ -334,9 +298,9 @@ export default function CaseStudies() {
             </Link>
             
             <div className="flex items-center">
-              <span className="text-black/60 mr-2">Or</span>
+              <span className="text-black/60 mr-2">or</span>
               <Link to={createPageUrl("Services")} className="inline-flex items-center text-black font-bold text-lg group">
-                <span className="transition-transform group-hover:translate-x-1 inline-block hover:underline decoration-2 underline-offset-4">explore our services</span>
+                <span className="transition-transform group-hover:translate-x-1 inline-block hover:underline decoration-2 underline-offset-4">Explore our services</span>
                 <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
               </Link>
             </div>
