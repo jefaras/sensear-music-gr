@@ -175,7 +175,9 @@ export default function CaseStudies() {
                 <div className="space-y-6">
                   <a href="#yam-sample">
                     <AnimatedButton className="w-full sm:w-auto">
-                      <Music className="w-5 h-5 mr-2 inline-block" /> Listen to Yam's playlist
+                      <span className="inline-flex items-center gap-2 font-bold">
+                        <Music className="w-5 h-5" /> Listen to Yam's playlist
+                      </span>
                     </AnimatedButton>
                   </a>
                 </div>
@@ -199,7 +201,9 @@ export default function CaseStudies() {
                 <div className="space-y-6">
                   <a href="#pelicanos-sample">
                     <AnimatedButton className="w-full sm:w-auto">
-                      <Music className="w-5 h-5 mr-2 inline-block" /> Listen to Pelicanos atmosphere
+                      <span className="inline-flex items-center gap-2 font-bold">
+                        <Music className="w-5 h-5" /> Listen to Pelicanos atmosphere
+                      </span>
                     </AnimatedButton>
                   </a>
                 </div>
@@ -239,7 +243,9 @@ export default function CaseStudies() {
                 <div className="space-y-6">
                   <a href="#beach-house-sample">
                     <AnimatedButton className="w-full sm:w-auto">
-                      <Music className="w-5 h-5 mr-2 inline-block" /> Listen to Beach House playlist
+                      <span className="inline-flex items-center gap-2 font-bold">
+                        <Music className="w-5 h-5" /> Listen to Beach House playlist
+                      </span>
                     </AnimatedButton>
                   </a>
                 </div>
@@ -263,7 +269,9 @@ export default function CaseStudies() {
                 <div className="space-y-6">
                   <a href="#levantis-sample">
                     <AnimatedButton className="w-full sm:w-auto">
-                      <Music className="w-5 h-5 mr-2 inline-block" /> Listen to Levantis ambience
+                      <span className="inline-flex items-center gap-2 font-bold">
+                        <Music className="w-5 h-5" /> Listen to Levantis ambience
+                      </span>
                     </AnimatedButton>
                   </a>
                 </div>
