@@ -44,12 +44,7 @@ export default function Layout({ children }) {
       { name: "Events & Experiences", path: createPageUrl("events-experiences") },
       { name: "Art, Museums & Fashion", path: createPageUrl("art-museums-fashion") }
     ],
-    caseStudies: [
-      { name: "Blue Bamboo", path: createPageUrl("blue-bamboo") },
-      { name: "Klouvi", path: createPageUrl("klouvi-bar") },
-      { name: "Beach House", path: createPageUrl("beach-house-antiparos") },
-      { name: "Pelicanos", path: createPageUrl("pelicanos-sifnos-restaurant") }
-    ],
+    caseStudies: [],
     company: [
       { name: "About", path: createPageUrl("AboutUs") },
       { name: "Contact", path: createPageUrl("ContactUs") },
@@ -448,7 +443,6 @@ export default function Layout({ children }) {
                 {footerNavItems.caseStudies.map((item) => (
                   <Link key={item.name} to={item.path} className="block text-white/70 hover:text-peach transition-colors text-base hover:underline decoration-1 underline-offset-4 font-jakarta">{item.name}</Link>
                 ))}
-                <Link to={createPageUrl("PlaylistsDemos")} className="block text-white/70 hover:text-peach transition-colors text-base hover:underline decoration-1 underline-offset-4 font-jakarta">Playlists Demos</Link>
               </div>
             </div>
 
