@@ -118,7 +118,7 @@ export default function CaseStudies() {
             
               <div className="w-full text-left">
                 <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                  All venues start with a vision; an <strong>atmosphere</strong> they imagined, a <strong>feeling</strong> they wanted guests to have.
+                  All venues start with a <span className="text-black bg-white px-1">vision</span>; an <span className="text-black bg-white px-1">atmosphere</span> they imagined, a <span className="text-black bg-white px-1">feeling</span> they wanted guests to have.
                 </p>
                 <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
                   We turn those visions into <strong>carefully crafted soundscapes</strong> that support your business while <strong>respecting the space</strong>.
