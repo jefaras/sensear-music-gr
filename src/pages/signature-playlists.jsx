@@ -315,23 +315,28 @@ export default function SignaturePlaylists() {
             {/* Right: Content */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Curated playlists that amplify your brand</h3>
-                <p className="text-lg text-black/70">We design venue specific playlists that encourage longer & repeat stays, higher spend and more memorable visits.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Amplify your brand</h3>
+                <p className="text-lg text-black/70">Music designed to echo your aesthetics & tell your brand story</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Rare finds selected for your venue</h3>
-                <p className="text-lg text-black/70">Hand picked tracks from deeper catalogues, arranged to follow your venue's flow, concept & guest profile.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Match your space</h3>
+                <p className="text-lg text-black/70">Tracks arranged to follow your venue’s flow, concept & guest profiles.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Regular rotations that keep your vibe fresh</h3>
-                <p className="text-lg text-black/70">Ongoing updates so regulars & teams do not hear the same set on loop, while your core sound stays recognisable.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Keep your vibe fresh</h3>
+                <p className="text-lg text-black/70">Regular updates that keep your sound exciting & recognizable.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Simple control & curator support</h3>
-                <p className="text-lg text-black/70">Clear rules for what plays where, central management & email/phone access to your curator when you want changes.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Total control & support</h3>
+                <p className="text-lg text-black/70">Clear rules, central management & direct access to us when needed.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Your own, unique sound</h3>
+                <p className="text-lg text-black/70">Rare tracks you won't hear on generic playlists, chosen especially for you.</p>
               </div>
             </div>
           </div>
