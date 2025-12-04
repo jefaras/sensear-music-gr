@@ -34,6 +34,7 @@ import servicesV2 from './pages/Services-v2';
 import homeTest from './pages/Home_test';
 import home2711 from './pages/Home27_11';
 import industriesOld from './pages/Industries_old';
+import signaturePlaylistsTest from './pages/signature-playlists-test';
 import __Layout from './Layout.jsx';
 
 
@@ -74,6 +75,7 @@ export const PAGES = {
     "Home_test": homeTest,
     "Home27_11": home2711,
     "Industries_old": industriesOld,
+    "signature-playlists-test": signaturePlaylistsTest,
 }
 
 export const pagesConfig = {
