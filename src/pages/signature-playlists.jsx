@@ -228,7 +228,7 @@ export default function SignaturePlaylists() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="w-full">
             <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-              Signature playlists:<br />curated to add a unique character to your space
+              Signature playlists:<br />Add a unique character to your space
             </h1>
           </div>
         </div>
