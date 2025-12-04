@@ -227,8 +227,8 @@ export default function SignaturePlaylists() {
         {/* Text content */}
         <div className="max-w-7xl mx-auto px-6">
           <div className="w-full">
-            <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">Signature playlists:
-Add a unique character to your space
+            <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
+              Signature playlists:<br />curated to add a unique character to your space
             </h1>
           </div>
         </div>
@@ -242,7 +242,6 @@ Add a unique character to your space
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg 2400w"
-
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Bespoke music curation and playlist creation for unique venue atmosphere"
                 className="absolute w-full h-full object-cover md:hidden" />
@@ -252,7 +251,6 @@ Add a unique character to your space
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg"
                 srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg 1800w,
                         https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg 2400w"
-
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Bespoke music curation and playlist creation for unique venue atmosphere"
                 className="absolute w-full h-full object-cover hidden md:block"
@@ -303,8 +301,8 @@ Add a unique character to your space
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/afb08a148_fe959a9eda0e3059a0b19f803958ba85.jpg"
                 alt="Mindful music curation experience"
-                className="w-full h-auto rounded-2xl shadow-lg" />
-
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
             </div>
 
             {/* Right: Content */}
@@ -372,8 +370,8 @@ Add a unique character to your space
                 <img
                   src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9b1baab05_00-Vondom-Milos-Lovia-Mykonos-1cropped.jpg"
                   alt="Luxury hotel room with curated music atmosphere"
-                  className="w-full h-auto rounded-2xl shadow-lg" />
-
+                  className="w-full h-auto rounded-2xl shadow-lg"
+                />
               </div>
             </div>
           </div>
@@ -409,8 +407,8 @@ Add a unique character to your space
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/df3b41498_Experimental-Cocktail-Club-Negroni-1024x1024.jpg"
                 alt="Cocktail representing curated hospitality experience"
-                className="w-full h-auto rounded-2xl shadow-lg" />
-
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
             </div>
           </div>
         </div>
@@ -427,8 +425,8 @@ Add a unique character to your space
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16c07c365_cc313a1e26a1dd887202657b5dabf32c.jpg"
                 alt="Vinyl records collection for curated playlists"
-                className="w-full h-auto rounded-2xl shadow-lg" />
-
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
             </div>
 
             {/* Right: Content */}
@@ -479,8 +477,8 @@ Add a unique character to your space
                 <img
                   src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fc49da4e8_ed448e1a555b86a5905eaa678fccc8d8.jpg"
                   alt="Music mixing equipment and sound control"
-                  className="w-full h-auto rounded-2xl shadow-lg" />
-
+                  className="w-full h-auto rounded-2xl shadow-lg"
+                />
               </div>
             </div>
           </div>
