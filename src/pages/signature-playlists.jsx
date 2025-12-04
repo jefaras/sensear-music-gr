@@ -3,8 +3,21 @@ import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { Check, Target, Gem, RefreshCw, CheckCircle } from 'lucide-react';
+import { Check, Target, Gem, RefreshCw, CheckCircle, ArrowRight } from 'lucide-react';
 import Breadcrumbs from "../components/Breadcrumbs";
+
+const AnimatedButton = ({ children, className = "", ...props }) => (
+  <Button
+    variant="outline"
+    className={`group relative bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-10 py-6 text-lg font-semibold rounded-full transition-all duration-300 overflow-hidden ${className}`}
+    {...props}
+  >
+    <span className="transition-transform duration-300 group-hover:-translate-x-3 inline-block">
+      {children}
+    </span>
+    <ArrowRight className="absolute right-6 w-5 h-5 opacity-0 translate-x-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0" />
+  </Button>
+);
 
 export default function SignaturePlaylists() {
   const [scrollY, setScrollY] = useState(0);
@@ -269,6 +282,9 @@ export default function SignaturePlaylists() {
       <section className="bg-black py-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
+            <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-white leading-tight mb-12">
+              Playlist creation for<br />unique venue atmosphere
+            </h2>
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
                 We design fresh, engaging <strong>Music Playlists</strong> that reflect your brand, guide the energy in your spaces & keep guests and teams tuned in.
@@ -413,15 +429,15 @@ export default function SignaturePlaylists() {
       {/* Final CTA */}
       <section className="py-20" style={{ backgroundImage: "linear-gradient(to bottom, #faebe3 0%, rgba(250, 235, 227, 0) 15%), url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">Ready to transform your venue's atmosphere?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">Let us craft your signature sound</h2>
           <p className="text-xl text-black/70 mb-8">
-            Let us craft a signature sound that feels as considered as your interiors.
+            A perfect soundscape that reflects your brand and captivates your guests.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link to={createPageUrl("ContactUs")}>
-              <Button size="lg" className="bg-black text-white hover:bg-black/80 px-8 py-6 text-lg">
+              <AnimatedButton className="w-full sm:w-auto">
                 Create your signature sound
-              </Button>
+              </AnimatedButton>
             </Link>
           </div>
           <p className="text-black/70 mt-8">
