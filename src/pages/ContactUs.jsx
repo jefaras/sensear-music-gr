@@ -29,7 +29,7 @@ export default function ContactUs() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Contact SensEar | Music Curation Consultation";
+    document.title = "Contact SensEar | Music Consultation";
 
     const description = "Get in touch with SensEar for bespoke music curation services. Schedule your free consultation to transform your venue's atmosphere.";
     const pageUrl = 'https://sensear.music/contact';
@@ -103,7 +103,7 @@ export default function ContactUs() {
 
     // Open Graph tags
     const ogTags = [
-    { property: 'og:title', content: 'Contact SensEar | Music Curation Consultation' },
+    { property: 'og:title', content: 'Contact SensEar | Music Consultation' },
     { property: 'og:description', content: description },
     { property: 'og:image', content: imageUrl },
     { property: 'og:url', content: pageUrl },
@@ -125,7 +125,7 @@ export default function ContactUs() {
     // Twitter Card tags
     const twitterTags = [
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Contact SensEar | Music Curation Consultation' },
+    { name: 'twitter:title', content: 'Contact SensEar | Music Consultation' },
     { name: 'twitter:description', content: description },
     { name: 'twitter:image', content: imageUrl }];
 
@@ -396,10 +396,10 @@ This inquiry has been saved to the database and can be viewed in the admin panel
           {/* New heading and text above the contact form */}
           <div className="text-center mb-12 max-w-4xl mx-auto">
             <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-6">
-              Need help creating the perfect soundscape for your business or event?
+              Need help with music for your business or event?
             </h2>
             <p className="text-xl text-black/60 font-medium mb-12">
-              Contact SensEar for music curation consultation
+              Contact SensEar for music consultation. Together we will create the best soundtrack.
             </p>
           </div>
 
@@ -592,7 +592,7 @@ This inquiry has been saved to the database and can be viewed in the admin panel
               Frequently Asked Questions
             </h2>
             <p className="text-xl text-black/60 font-medium text-center mb-12">
-              <span>Find answers to common questions about our </span><Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">music curation services</Link><span>. For more detailed information, visit our </span><Link to={createPageUrl("FAQ")} className="underline hover:text-black font-semibold">complete FAQ page</Link><span>.</span>
+              <span>Find answers to common questions about our </span><Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">music curation services</Link><span>.</span>
             </p>
           </div>
           <Accordion type="single" collapsible className="w-full space-y-4">
@@ -635,7 +635,7 @@ This inquiry has been saved to the database and can be viewed in the admin panel
           <div className="text-center mt-12">
             <Link to={createPageUrl("FAQ")}>
               <AnimatedButton>
-                Browse FAQs First
+                Read all FAQs
               </AnimatedButton>
             </Link>
           </div>
