@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
@@ -269,16 +268,8 @@ export default function SignaturePlaylists() {
       {/* Intro Section - Black Background */}
       <section className="bg-black py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-[1fr_auto] gap-8 items-start">
-            {/* Right: Titles - appears first on mobile, second on desktop */}
-            <div className="lg:order-2 lg:min-w-[280px]">
-              <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-8 lg:mb-0">
-                What is it
-              </h2>
-            </div>
-            
-            {/* Left: Content - appears second on mobile, first on desktop */}
-            <div className="lg:order-1 lg:mt-[116px]">
+          <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
+            <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
                 We design fresh, engaging <strong>Music Playlists</strong> that reflect your brand, guide the energy in your spaces & keep guests and teams tuned in.
               </p>
@@ -378,42 +369,6 @@ export default function SignaturePlaylists() {
         </div>
       </section>
 
-      {/* How it works */}
-      <section className="py-20 bg-[#faebe3]">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black">How it works</h2>
-          
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left: Content */}
-            <div className="space-y-8">
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Discovery & venue mapping</h3>
-                <p className="text-lg text-black/70">We learn your brand, spaces, guest journeys and service flow so we can map where music should welcome, support or lift the room.</p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Playlist suite and setup</h3>
-                <p className="text-lg text-black/70">We build your first family of playlists and help you implement them across zones and times of day.</p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Ongoing refinement</h3>
-                <p className="text-lg text-black/70">We review feedback, rotate tracks and fine tune, so the sound grows with your venue and seasons.</p>
-              </div>
-            </div>
-
-            {/* Right: Image */}
-            <div className="hidden lg:block">
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/df3b41498_Experimental-Cocktail-Club-Negroni-1024x1024.jpg"
-                alt="Cocktail representing curated hospitality experience"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Why this helps */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
@@ -455,36 +410,6 @@ export default function SignaturePlaylists() {
         </div>
       </section>
 
-      {/* Proof in practice */}
-      <section className="py-20 bg-[#faebe3]">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black">How others use it</h2>
-          
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left: Content */}
-            <div>
-              <p className="text-xl text-black/80 leading-relaxed mb-4">
-                Venues like <Link to={createPageUrl("blue-bamboo")} className="underline hover:text-black font-semibold">Blue Bamboo</Link>, <Link to={createPageUrl("beach-house-antiparos")} className="underline hover:text-black font-semibold">Beach House Antiparos</Link> & <Link to={createPageUrl("klouvi-bar")} className="underline hover:text-black font-semibold">Klouvi Bar</Link> use our signature playlists to keep atmosphere aligned with every moment.
-              </p>
-              <p className="text-xl text-black/80 leading-relaxed">
-                Our playlists help guests <Link to={createPageUrl("background-music-shapes-customer-behavior")} className="underline hover:text-black font-semibold">stay longer</Link>, <Link to={createPageUrl("brand-music-converts-browsers-buyers")} className="underline hover:text-black font-semibold">spend more comfortably</Link> and remember the experience for its vibe as much as its food or design.
-              </p>
-            </div>
-
-            {/* Right: Image */}
-            <div className="hidden lg:block">
-              <div className="w-[85%] mx-auto">
-                <img
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fc49da4e8_ed448e1a555b86a5905eaa678fccc8d8.jpg"
-                  alt="Music mixing equipment and sound control"
-                  className="w-full h-auto rounded-2xl shadow-lg"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Final CTA */}
       <section className="py-20" style={{ backgroundImage: "linear-gradient(to bottom, #faebe3 0%, rgba(250, 235, 227, 0) 15%), url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-4xl mx-auto px-6 text-center">
@@ -505,5 +430,4 @@ export default function SignaturePlaylists() {
         </div>
       </section>
     </div>);
-
 }
