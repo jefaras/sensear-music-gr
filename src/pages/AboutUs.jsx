@@ -511,15 +511,15 @@ export default function AboutUs() {
           {/* John E. Farazoumis */}
           <div className="mb-8" role="list">
             <article role="listitem" className="p-8 rounded-lg" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-              <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-start">
+              <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-center">
                 {/* Left: Text Content */}
                 <div className="lg:order-1">
-                  <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-8">
+                  <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
                     John E. Farazoumis
                   </h3>
-                  <p className="text-xl font-semibold text-black/70 mb-8">Co-Founder, Brand Strategy, Client Service</p>
+                  <p className="text-xl font-semibold text-black/70 mb-6">Co-Founder, Brand Strategy, Client Service</p>
                   
-                  <div className="lg:mt-[140px]">
+                  <div>
                     <p className="text-xl md:text-2xl text-black leading-relaxed mb-6">
                       From his early DJ sets to his studies in Hospitality Management, JEF has always been guided by music's magnetic pull.
                     </p>
@@ -533,7 +533,7 @@ export default function AboutUs() {
                 </div>
 
                 {/* Right: Image */}
-                <div className="lg:order-2 hidden lg:block lg:mt-[140px]">
+                <div className="lg:order-2 hidden lg:block">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b24ebd26f_JEF_square_bw.png"
                     alt="John E. Farazoumis - SensEar Co-Founder and Brand Strategy Director"
@@ -547,9 +547,9 @@ export default function AboutUs() {
           {/* George Fameliaris */}
           <div className="mb-8" role="list">
             <article role="listitem" className="p-8 rounded-lg" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-              <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
+              <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-center">
                 {/* Left: Image */}
-                <div className="lg:order-1 hidden lg:block lg:mt-[140px]">
+                <div className="lg:order-1 hidden lg:block">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/398e0cca3_84887785_172252324195148_2160204890159185920_n.jpg"
                     alt="George Fameliaris - SensEar Co-Founder and Chief Music Curator"
@@ -559,12 +559,12 @@ export default function AboutUs() {
 
                 {/* Right: Text Content */}
                 <div className="lg:order-2">
-                  <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-8">
+                  <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
                     George Fameliaris
                   </h3>
-                  <p className="text-xl font-semibold text-black/70 mb-8">Co-Founder, Chief Music Curator</p>
+                  <p className="text-xl font-semibold text-black/70 mb-6">Co-Founder, Chief Music Curator</p>
                   
-                  <div className="lg:mt-[140px]">
+                  <div>
                     <p className="text-xl md:text-2xl text-black leading-relaxed mb-6">
                       G’s lifelong passion for music deepened with a Media & Communications BA and an MA in Popular Music in Film.
                     </p>
@@ -583,15 +583,15 @@ export default function AboutUs() {
           {/* Katerina Karali */}
           <div className="mb-8" role="list">
             <article role="listitem" className="p-8 rounded-lg" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-              <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-start">
+              <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-center">
                 {/* Left: Text Content */}
                 <div className="lg:order-1">
-                  <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-8">
+                  <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
                     Katerina Karali
                   </h3>
-                  <p className="text-xl font-semibold text-black/70 mb-8">Contributing Associate, DJ, Music Curator</p>
+                  <p className="text-xl font-semibold text-black/70 mb-6">Contributing Associate, DJ, Music Curator</p>
                   
-                  <div className="lg:mt-[140px]">
+                  <div>
                     <p className="text-xl md:text-2xl text-black leading-relaxed mb-6">
                       Kat combines visual design & sound narrative with a refined artistic sensibility.
                     </p>
@@ -605,7 +605,7 @@ export default function AboutUs() {
                 </div>
 
                 {/* Right: Image */}
-                <div className="lg:order-2 hidden lg:block lg:mt-[140px]">
+                <div className="lg:order-2 hidden lg:block">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/73ba1e2e2_86455570_172252364195144_3083930653335486464_n.jpg"
                     alt="Katerina Karali - SensEar Art Director and Music Curator"
