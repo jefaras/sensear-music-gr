@@ -167,7 +167,7 @@ export default function Industries() {
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e0dd5f695_13e97d3def8d47a1efe25c37e0f29eb2.jpg"
                     alt="Hotels & Resorts"
-                    className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
+                    className="w-full h-auto object-cover rounded-xl shadow-lg" />
 
                 </div>
               </div>
@@ -220,7 +220,7 @@ export default function Industries() {
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/faa6772fc_c6c8247c6975e5b8b28964566c4e798d.jpg"
                     alt="Restaurants & Bars"
-                    className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
+                    className="w-full h-auto object-cover rounded-xl shadow-lg" />
 
                 </div>
               </div>
@@ -233,7 +233,7 @@ export default function Industries() {
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/efeae9e53_56bb71da7fa44cbf6f001204format-webpwidth-1440_wWzsf3qJ3dJMkxWN-.jpg"
                     alt="Events & Experiences"
-                    className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
+                    className="w-full h-auto object-cover rounded-xl shadow-lg" />
 
                 </div>
               </div>
@@ -286,7 +286,7 @@ export default function Industries() {
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/4ee147bf6_6fd38d8f206dc0b7749c169007cee524.jpg"
                     alt="Retail Stores"
-                    className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
+                    className="w-full h-auto object-cover rounded-xl shadow-lg" />
 
                 </div>
               </div>
@@ -299,7 +299,7 @@ export default function Industries() {
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/3b2d2e497_Shade-by-Starpool-Design-Cristiano-Mino-.jpg"
                     alt="Wellness Centers"
-                    className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
+                    className="w-full h-auto object-cover rounded-xl shadow-lg" />
 
                 </div>
               </div>
@@ -352,7 +352,7 @@ export default function Industries() {
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ec55631fd_204f0aeb3f27e1d66d7e764876f0fa4a.jpg"
                     alt="Art, Museums & Fashion"
-                    className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
+                    className="w-full h-auto object-cover rounded-xl shadow-lg" />
 
                 </div>
               </div>
@@ -388,7 +388,7 @@ export default function Industries() {
                 <img
                   src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/a6bc0a060_car-2.png"
                   alt="Connected worlds"
-                  className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
+                  className="w-full h-auto object-cover rounded-xl shadow-lg" />
               </div>
             </div>
             <div className="order-1 lg:order-2">
