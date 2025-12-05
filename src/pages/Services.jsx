@@ -368,9 +368,9 @@ export default function Services() {
             <article role="listitem">
               <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-center">
                 <div className="lg:order-1">
-                  <h3 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black leading-tight mb-2">
-                    Signature Playlists
-                  </h3>
+                  <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
+                                            Signature Playlists
+                                          </h3>
                   <p className="text-xl font-medium text-black/60 mb-8">Your daily soundtrack</p>
 
                   <div>
@@ -420,9 +420,9 @@ export default function Services() {
                 </div>
 
                 <div className="lg:order-2">
-                  <h3 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black leading-tight mb-2">
-                    Event Soundtracks
-                  </h3>
+                  <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
+                                            Event Soundtracks
+                                          </h3>
                   <p className="text-xl font-medium text-black/60 mb-8">Music for moments that matter</p>
 
                   <div>
