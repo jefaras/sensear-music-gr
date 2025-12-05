@@ -488,27 +488,27 @@ export default function Home() {
                 <div className="space-y-10 mb-12" role="list">
                   <article role="listitem" className="flex gap-4">
                     <div>
-                        <h3 className="text-[31.5px] font-bold text-black mb-2">Strengthen Your Brand</h3>
+                        <h3 className="text-[31.5px] font-bold text-black mb-2">Brand elevation</h3>
                         <p className="text-lg text-black/70 leading-relaxed">
-                        Improve perception and loyalty with a memorable atmosphere.
+                        Improve brand perception & loyalty with a memorable ambiance.
                         </p>
                     </div>
                   </article>
 
                   <article role="listitem" className="flex gap-4">
                     <div>
-                        <h3 className="text-[31.5px] font-bold text-black mb-2">Total Control</h3>
+                        <h3 className="text-[31.5px] font-bold text-black mb-2">Maximum control</h3>
                         <p className="text-lg text-black/70 leading-relaxed">
-                        Take full control over your venue's music style & flow.
+                        Take full control of your venue's music style, flow & sound levels.
                         </p>
                     </div>
                   </article>
 
                   <article role="listitem" className="flex gap-4">
                     <div>
-                        <h3 className="text-[31.5px] font-bold text-black mb-2">Consistent Experience</h3>
+                        <h3 className="text-[31.5px] font-bold text-black mb-2">Consistent experience</h3>
                         <p className="text-lg text-black/70 leading-relaxed">
-                        Ensure a smooth music experience across locations & marketing channels.
+                        Ensure a smooth music journey across locations & marketing channels.
                         </p>
                     </div>
                   </article>
