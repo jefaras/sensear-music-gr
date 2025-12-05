@@ -366,7 +366,7 @@ export default function Services() {
           {/* Signature Playlists */}
           <div className="mb-24" role="list">
             <article role="listitem">
-              <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-center">
+              <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="lg:order-1">
                   <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
                                             Signature Playlists
@@ -392,7 +392,7 @@ export default function Services() {
                   </div>
                 </div>
 
-                <div className="lg:order-2 block">
+                <div className="lg:order-2">
                   <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/013a4722f_cyprpn9zest1wg173m2j.jpg"
@@ -408,8 +408,8 @@ export default function Services() {
           {/* Event Soundtracks */}
           <div className="mb-24" role="list">
             <article role="listitem">
-              <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-center">
-                <div className="lg:order-1 block order-last lg:order-none">
+              <div className="grid lg:grid-cols-2 gap-12 items-center">
+                <div className="lg:order-1">
                   <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d4a085ed9_EventSoundtracks-upsc2-cropped.jpg"
