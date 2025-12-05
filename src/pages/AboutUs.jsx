@@ -478,15 +478,7 @@ export default function AboutUs() {
             </div>
           </div>
           
-          <div className="max-w-4xl mx-auto mt-16 text-center animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
-            <h3 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-6">Want to hear our vision?</h3>
-            <p className="text-lg md:text-xl text-black/70 mb-8">Listen to our Signature Playlists demos.</p>
-            <Link to={createPageUrl("CaseStudies")}>
-              <AnimatedButton>
-                Explore Sample Playlists
-              </AnimatedButton>
-            </Link>
-          </div>
+
         </div>
       </section>
       
@@ -498,9 +490,9 @@ export default function AboutUs() {
               Our vision
             </h2>
             
-            <div className="w-full text-left">
+            <div className="w-full text-center">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                To become the leading music partner for eclectic hospitality brands & events seeking to express identity, elevate atmosphere & create lasting guest connections.
+                To become the <strong>leading music partner</strong> for eclectic hospitality brands & events seeking to express <strong>identity</strong>, elevate <strong>atmosphere</strong> & create lasting guest <strong>connections</strong>.
               </p>
               <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
                 <span>Learn more about our </span><Link to={createPageUrl("sonic-strategy")} className="underline hover:text-peach font-semibold">sonic strategy service</Link><span>.</span>
