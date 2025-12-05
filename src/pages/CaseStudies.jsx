@@ -161,7 +161,7 @@ export default function CaseStudies() {
                 </div>
               </div>
               <div className="order-1 lg:order-2">
-                <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Yam, Antiparos</h3>
+                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Yam, Antiparos</h3>
                 
                 <div className="mb-8">
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-6">
@@ -187,7 +187,7 @@ export default function CaseStudies() {
             {/* Pelicanos */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-1">
-                <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Pelicanos, Sifnos</h3>
+                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Pelicanos, Sifnos</h3>
                 
                 <div className="mb-8">
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-6">
@@ -229,7 +229,7 @@ export default function CaseStudies() {
                 </div>
               </div>
               <div className="order-1 lg:order-2">
-                <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Beach House, Antiparos</h3>
+                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Beach House, Antiparos</h3>
                 
                 <div className="mb-8">
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-6">
@@ -255,7 +255,7 @@ export default function CaseStudies() {
             {/* Levantis Gallery */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-1">
-                <h3 className="text-4xl md:text-5xl font-bold text-black mb-4">Levantis, Paros</h3>
+                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Levantis, Paros</h3>
                 
                 <div className="mb-8">
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-6">
