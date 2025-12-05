@@ -300,7 +300,7 @@ export default function SignaturePlaylists() {
       {/* What we do */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-right">What we do</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">What we do</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image */}
@@ -346,7 +346,7 @@ export default function SignaturePlaylists() {
       {/* Perfect for */}
       <section className="py-20" style={{ backgroundImage: "linear-gradient(to top, #ffffff 0%, rgba(255,255,255,0) 15%), url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black">Perfect for</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Perfect for</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Content */}
@@ -392,7 +392,7 @@ export default function SignaturePlaylists() {
       {/* Licensed for business use */}
       <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-right">Licensed for business use</h2>
+        <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Licensed for business use</h2>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left: Image */}
