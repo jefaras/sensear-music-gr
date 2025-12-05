@@ -514,7 +514,7 @@ export default function AboutUs() {
               <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-start">
                 {/* Left: Text Content */}
                 <div className="lg:order-1">
-                  <h3 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black leading-tight mb-8">
+                  <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-8">
                     John E. Farazoumis
                   </h3>
                   <p className="text-xl font-semibold text-black/70 mb-8">Co-Founder, Brand Strategy, Client Service</p>
@@ -559,7 +559,7 @@ export default function AboutUs() {
 
                 {/* Right: Text Content */}
                 <div className="lg:order-2">
-                  <h3 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black leading-tight mb-8">
+                  <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-8">
                     George Fameliaris
                   </h3>
                   <p className="text-xl font-semibold text-black/70 mb-8">Co-Founder, Chief Music Curator</p>
@@ -586,7 +586,7 @@ export default function AboutUs() {
               <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-start">
                 {/* Left: Text Content */}
                 <div className="lg:order-1">
-                  <h3 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black leading-tight mb-8">
+                  <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-8">
                     Katerina Karali
                   </h3>
                   <p className="text-xl font-semibold text-black/70 mb-8">Contributing Associate, DJ, Music Curator</p>
