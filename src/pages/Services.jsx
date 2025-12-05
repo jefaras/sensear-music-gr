@@ -393,11 +393,13 @@ export default function Services() {
                 </div>
 
                 <div className="lg:order-2 block">
-                  <img
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/013a4722f_cyprpn9zest1wg173m2j.jpg"
-                    alt="Bespoke music curation"
-                    className="w-full xl:w-[301px] xl:h-[401px] object-cover rounded-2xl shadow-lg"
-                  />
+                  <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/013a4722f_cyprpn9zest1wg173m2j.jpg"
+                      alt="Bespoke music curation"
+                      className="w-full h-auto object-cover rounded-xl shadow-lg"
+                    />
+                  </div>
                 </div>
               </div>
             </article>
@@ -408,11 +410,13 @@ export default function Services() {
             <article role="listitem">
               <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-center">
                 <div className="lg:order-1 block order-last lg:order-none">
-                  <img
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d4a085ed9_EventSoundtracks-upsc2-cropped.jpg"
-                    alt="Event soundtracks and production"
-                    className="w-full xl:w-[301px] xl:h-[401px] object-cover rounded-2xl shadow-lg"
-                  />
+                  <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
+                    <img
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d4a085ed9_EventSoundtracks-upsc2-cropped.jpg"
+                      alt="Event soundtracks and production"
+                      className="w-full h-auto object-cover rounded-xl shadow-lg"
+                    />
+                  </div>
                 </div>
 
                 <div className="lg:order-2">
