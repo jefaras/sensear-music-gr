@@ -520,7 +520,7 @@ export default function AboutUs() {
                   <p className="text-xl font-semibold text-black/70 mb-6">Co-Founder, Brand Strategy, Client Service</p>
                   
                   <div>
-                    <p className="text-xl md:text-2xl text-black leading-relaxed mb-6">
+                    <p className="text-lg md:text-xl text-black/70 leading-relaxed mb-4">
                       From his early DJ sets to his studies in Hospitality Management, JEF has always been guided by music's magnetic pull.
                     </p>
                     <p className="text-lg md:text-xl text-black/70 leading-relaxed mb-4">
@@ -565,7 +565,7 @@ export default function AboutUs() {
                   <p className="text-xl font-semibold text-black/70 mb-6">Co-Founder, Chief Music Curator</p>
                   
                   <div>
-                    <p className="text-xl md:text-2xl text-black leading-relaxed mb-6">
+                    <p className="text-lg md:text-xl text-black/70 leading-relaxed mb-4">
                       G’s lifelong passion for music deepened with a Media & Communications BA and an MA in Popular Music in Film.
                     </p>
                     <p className="text-lg md:text-xl text-black/70 leading-relaxed mb-4">
@@ -592,7 +592,7 @@ export default function AboutUs() {
                   <p className="text-xl font-semibold text-black/70 mb-6">Contributing Associate, DJ, Music Curator</p>
                   
                   <div>
-                    <p className="text-xl md:text-2xl text-black leading-relaxed mb-6">
+                    <p className="text-lg md:text-xl text-black/70 leading-relaxed mb-4">
                       Kat combines visual design & sound narrative with a refined artistic sensibility.
                     </p>
                     <p className="text-lg md:text-xl text-black/70 leading-relaxed mb-4">
