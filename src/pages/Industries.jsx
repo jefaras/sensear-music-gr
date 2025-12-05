@@ -123,8 +123,7 @@ export default function Industries() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
               <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-white leading-tight mb-12">
-                The right energy<br />for every moment
-              </h2>
+                The right energy<br />for each occasion</h2>
             
               <div className="w-full text-left">
                 <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
