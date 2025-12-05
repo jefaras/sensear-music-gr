@@ -335,7 +335,7 @@ export default function Services() {
                   Every venue <strong>has a soundtrack</strong>, whether you designed it or not. SensEar ensures it tells <span className="text-black bg-white px-1">the right story</span>.
                 </p>
                 <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                  We shape sound for venues & events that <strong>rely on atmosphere</strong>. Our customised music services create <strong>memorable experiences</strong> that <strong>reinforce</strong> your brand and <strong>influence</strong> how your staff and guests feel & act.
+                  We shape sound for venues and events where <strong>atmosphere</strong> matters: influencing how guests <strong>feel</strong>, how long they <strong>stay</strong> and how they <strong>remember</strong> you.
                 </p>
               </div>
           </div>
