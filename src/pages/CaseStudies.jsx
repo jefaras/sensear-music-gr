@@ -155,7 +155,7 @@ export default function CaseStudies() {
               <div className="order-2 lg:order-1">
                 <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                   <img
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/348e21092_yammm.jpg"
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b5b0e32cf_348e21092_yammm-pxbee-minitools-enhance-20251205182924.jpg"
                     alt="Yam Beach Club"
                     className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
                 </div>
@@ -223,7 +223,7 @@ export default function CaseStudies() {
               <div className="order-2 lg:order-1">
                 <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                   <img
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/277d6724a_Beach_House_Antiparos-EAT-8.png"
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/4246ff146_upscalemedia-transformed.png"
                     alt="Beach House Antiparos"
                     className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
                 </div>
@@ -279,7 +279,7 @@ export default function CaseStudies() {
               <div className="order-2">
                 <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                   <img
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/2e5887651_Levantis.png"
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d36a8c70d_2e5887651_Levantis1.png"
                     alt="Levantis Gallery"
                     className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
                 </div>
