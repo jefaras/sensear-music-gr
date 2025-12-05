@@ -302,7 +302,7 @@ export default function Home() {
                 Who we are
               </h2>
             
-              <div className="w-full text-left">
+              <div className="w-full text-center">
                 <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
                   We are a team of Athens-based <span className="text-black bg-white px-1 italic">music strategists</span> who create <span className="text-black bg-white px-1 italic">soundscapes for venues</span> through <span className="text-black bg-white px-1 italic">music</span> that is <strong>intentional</strong>, <strong>immersive</strong> and <strong>memorable</strong>.
                 </p>
