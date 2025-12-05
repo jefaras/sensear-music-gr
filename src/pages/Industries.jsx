@@ -131,7 +131,7 @@ export default function Industries() {
                   A <strong>hotel lobby</strong> needs <span className="text-black bg-white px-1 italic">different energy</span> than a <strong>cocktail bar</strong>. A <strong>restaurant</strong> demands rhythm that <span className="text-black bg-white px-1 italic">matches</span> service flow. A <strong>gallery</strong> requires <span className="text-black bg-white px-1 italic">respect</span> for the art.
                 </p>
                 <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                  We design musical environments across <strong>hospitality</strong>, <strong>retail</strong>, <strong>wellness</strong> & <strong>culture</strong>, that <strong>transforms</strong> spaces from functional to <strong>unforgettable</strong>.
+                  We design musical environments across <strong>hospitality</strong>, <strong>retail</strong>, <strong>wellness</strong> & <strong>culture</strong>, that <strong>transform</strong> spaces from functional to <strong>unforgettable</strong>.
                 </p>
               </div>
           </div>
