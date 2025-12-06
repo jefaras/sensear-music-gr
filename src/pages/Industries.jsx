@@ -305,7 +305,7 @@ export default function Industries() {
               </div>
               <div className="order-1 lg:order-2">
                 <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Wellness Centers</h3>
-                <p className="text-xl font-medium text-black/60 mb-8">Every practice deserves its perfect soundtrack</p>
+                <p className="text-xl font-medium text-black/60 mb-8">The perfect soundtrack for every practice</p>
                 
                 <div className="mb-6">
                   <p className="text-xl md:text-2xl text-black/60 leading-relaxed">We calibrate music to support each activity, so each space has its optimal atmosphere.</p>
