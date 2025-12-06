@@ -252,19 +252,17 @@ export default function EventSoundtracks() {
       {/* Intro Section - Black Background */}
       <section className="bg-black py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-[1fr_auto] gap-8 items-start">
-            <div className="lg:order-2 lg:min-w-[280px]">
-              <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-8 lg:mb-0">
-                What is it
-              </h2>
-            </div>
+          <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-12">
+              Event soundtrack design for memorable guest journeys
+            </h2>
             
-            <div className="lg:order-1 lg:mt-[116px]">
+            <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                At events, sound quietly shapes how guests arrive, connect and remember what happened.
+                We design immersive soundtracks & DJ sets that follow your show run, so music & energy matches each phase, from arrival to finale..
               </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                We design immersive curated soundtracks & DJ sets that follow your show run, so each phase feels deliberate and not improvised.
+                Sound quietly shapes how guests arrive, connect & remember what happened.
               </p>
             </div>
           </div>
