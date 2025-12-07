@@ -414,15 +414,7 @@ export default function RetailStores() {
             </div>
           </div>
 
-          <div className="max-w-2xl mx-auto mt-16 text-center">
-            <h3 className="text-2xl md:text-3xl font-bold text-black mb-4">Hear this industry in action</h3>
-            <p className="text-lg md:text-xl text-black/70 mb-6">Listen to a curated demo playlist for retail stores</p>
-            <Link to={createPageUrl("PlaylistsDemos")}>
-              <AnimatedButton className="px-8">
-                Explore Demo Playlists
-              </AnimatedButton>
-            </Link>
-          </div>
+
         </div>
       </section>
 
