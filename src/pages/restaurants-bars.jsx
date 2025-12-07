@@ -271,8 +271,11 @@ export default function RestaurantsBars() {
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
                 The right playlist could shape dining atmosphere more than decor or lighting.
               </p>
+              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
+                We design soundscapes that match your menu, service flow & bar energy from first drinks to last call.
+              </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                We design soundscapes that match your menu, service flow & bar energy from first drinks to last call. Music becomes part of the experience guests return for.
+                Music becomes part of the experience guests return for.
               </p>
             </div>
           </div>
