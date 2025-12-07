@@ -300,7 +300,7 @@ export default function RestaurantsBars() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Service-flow playlists</h3>
-                <p className="text-lg text-black/70">Music designed for prep, doors, peak service & close, with energy that follows your rhythm instead of fighting it.</p>
+                <p className="text-lg text-black/70">Music designed for opening till close, with energy that follows your service's rhythm.</p>
               </div>
 
               <div>
