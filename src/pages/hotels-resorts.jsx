@@ -118,7 +118,9 @@ export default function HotelsResorts() {
             
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                Your hotel's atmosphere often registers before guests notice the design. 
+                Your hotel's atmosphere often registers before guests notice the design.
+              </p>
+              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
                 We create soundscapes that flow from morning coffee to midnight cocktails, across all hotel areas.
               </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
