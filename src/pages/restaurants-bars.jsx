@@ -315,7 +315,7 @@ export default function RestaurantsBars() {
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Fresh rotations</h3>
-                <p className="text-lg text-black/70">Regular updates keep music engaging for regulars and staff while maintaining your signature sound.</p>
+                <p className="text-lg text-black/70">Regular updates keep music engaging for regulars & staff and maintain your signature sound.</p>
               </div>
             </div>
           </div>
