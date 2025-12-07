@@ -272,9 +272,9 @@ export default function Home() {
           <div className="mx-auto" style={{ maxWidth: '1800px' }}>
             <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3] pb-[75%] md:pb-[40%]">
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a8ab619d_home_page_header_img1.png 2400w"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/8691b0113_universal_upscale_0_81ae5e0e-e5a0-41e6-8638-8bf7a217ac9e_0.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/8691b0113_universal_upscale_0_81ae5e0e-e5a0-41e6-8638-8bf7a217ac9e_0.jpg 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/8691b0113_universal_upscale_0_81ae5e0e-e5a0-41e6-8638-8bf7a217ac9e_0.jpg 2400w"
 
 
 
