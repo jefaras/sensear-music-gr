@@ -142,7 +142,7 @@ export default function HomeTestNew() {
 
             {/* Right Column: Image Carousel */}
             <div className="w-full slide-up-4 flex justify-center lg:justify-end">
-               <div className="w-full lg:w-[90%] xl:w-[80%] max-w-[650px]">
+               <div className="w-full lg:w-[85%]">
                   <HeroCarousel />
                </div>
             </div>
