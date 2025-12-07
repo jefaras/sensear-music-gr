@@ -305,7 +305,7 @@ export default function RestaurantsBars() {
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Tempo & volume adjustment</h3>
-                <p className="text-lg text-black/70">Sound levels that let guests talk easily, staff move efficiently and maintain steady, inviting energy.</p>
+                <p className="text-lg text-black/70">Sound levels that let guests talk easily, staff move efficiently & keep a steady, inviting energy.</p>
               </div>
 
               <div>
