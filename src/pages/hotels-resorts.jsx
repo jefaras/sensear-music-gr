@@ -111,16 +111,12 @@ export default function HotelsResorts() {
       {/* Intro Section - Black Background */}
       <section className="bg-black py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-[1fr_auto] gap-8 items-start">
-            {/* Right: Titles - appears first on mobile, second on desktop */}
-            <div className="lg:order-2 lg:min-w-[280px]">
-              <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-8 lg:mb-0">
-                Methodical sound<br />for the complete guest experience
-              </h2>
-            </div>
+          <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-12">
+              Methodical sound<br />for the complete guest experience
+            </h2>
             
-            {/* Left: Content - appears second on mobile, first on desktop */}
-            <div className="lg:order-1 lg:mt-[116px]">
+            <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
                 Your hotel's atmosphere often registers before guests notice the design. 
                 We create soundscapes that flow from morning coffee to midnight cocktails, across lobby, pool, spa and rooms.
@@ -136,13 +132,16 @@ export default function HotelsResorts() {
       {/* What we do */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Hotel music strategy and implementation</h2>
+          <div className="text-center mb-12">
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">What we do</h2>
+            <p className="text-xl text-black/60 font-medium">Hotel music strategy and implementation</p>
+          </div>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left: Image (Using Bar image as visual representation) */}
+            {/* Left: Image */}
             <div className="hidden lg:block">
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d8d6391d9_3830d5bbb709e891ec72b2509c0455db.jpg"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/4bc198c23_BHA1.png"
                 alt="Hotel music implementation"
                 className="w-full h-auto rounded-2xl shadow-lg" />
             </div>
@@ -258,33 +257,10 @@ export default function HotelsResorts() {
         </div>
       </section>
 
-      {/* Social Proof (kept as is with new spacing) */}
+      {/* Hear this industry in action - Moved here from Social Proof */}
       <section className="py-16 bg-[#faebe3]">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black">Social proof</h2>
-          
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left: Text */}
-            <div>
-              <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed mb-6">
-                <strong>Beach House Antiparos</strong> used <strong>SensEar</strong> to give its beach, dining and retail areas their own sound while keeping <Link to={createPageUrl("how-top-hospitality-brands-design-sound")} className="underline hover:text-black font-semibold">one coherent story</Link>.
-              </p>
-              <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed">
-                Multi zone music now adapts to each moment, creating stays guests <Link to={createPageUrl("three-reasons-make-music-hospitality")} className="underline hover:text-black font-semibold">keep talking about</Link>.
-              </p>
-            </div>
-
-            {/* Right: Image */}
-            <div className="hidden lg:block">
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/4bc198c23_BHA1.png"
-                alt="Beach House Antiparos resort terrace"
-                className="w-full h-auto rounded-2xl shadow-lg" />
-            </div>
-          </div>
-
-          {/* Hear this industry in action - Centered below */}
-          <div className="max-w-2xl mx-auto mt-16 text-center">
+          <div className="max-w-2xl mx-auto text-center">
             <h3 className="text-2xl md:text-3xl font-bold text-black mb-4">Hear this industry in action</h3>
             <p className="text-lg md:text-xl text-black/70 mb-6">Listen to a curated demo playlist for hotels and resorts</p>
             <Link to={createPageUrl("PlaylistsDemos")}>
@@ -299,8 +275,7 @@ export default function HotelsResorts() {
       {/* Final CTA */}
       <section className="py-20" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <p className="text-xl font-bold text-black mb-4 uppercase tracking-wider">Upgrade your hotel's atmosphere</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">Ready to transform your sound?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">Upgrade your hotel's atmosphere</h2>
           <p className="text-xl text-black/80 mb-8">
             We review your current setup, understand your guest experience and propose a tailored approach.
           </p>
