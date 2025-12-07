@@ -399,7 +399,7 @@ export default function RestaurantsBars() {
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Remove playlist friction</h3>
-                <p className="text-lg text-black/70">Teams stop scrambling for tracks mid-service. We supply the sound, you set the rules, everyone focuses on guests.</p>
+                <p className="text-lg text-black/70">We supply the sound, you set the rules and staff focuses on guests, not scrambling for tracks mid-service.</p>
               </div>
             </div>
           </div>
