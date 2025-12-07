@@ -38,6 +38,7 @@ import signaturePlaylistsTest from './pages/signature-playlists-test';
 import homeTestNew from './pages/Home-test-new';
 import hotelsResortsPrev from './pages/hotels-resorts-prev';
 import restaurantsBarsPrev from './pages/restaurants-bars-prev';
+import retailStoresPrev from './pages/retail-stores-prev';
 import __Layout from './Layout.jsx';
 
 
@@ -82,6 +83,7 @@ export const PAGES = {
     "Home-test-new": homeTestNew,
     "hotels-resorts-prev": hotelsResortsPrev,
     "restaurants-bars-prev": restaurantsBarsPrev,
+    "retail-stores-prev": retailStoresPrev,
 }
 
 export const pagesConfig = {
