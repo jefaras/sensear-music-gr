@@ -2,8 +2,21 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { Button } from '@/components/ui/button';
-import { CheckCircle } from 'lucide-react';
+import { CheckCircle, ArrowRight } from 'lucide-react';
 import Breadcrumbs from "../components/Breadcrumbs";
+
+const AnimatedButton = ({ children, className = "", ...props }) => (
+  <Button
+    variant="outline"
+    className={`group relative bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-10 py-6 text-lg font-semibold rounded-full transition-all duration-300 overflow-hidden ${className}`}
+    {...props}
+  >
+    <span className="transition-transform duration-300 group-hover:-translate-x-3 inline-block">
+      {children}
+    </span>
+    <ArrowRight className="absolute right-6 w-5 h-5 opacity-0 translate-x-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0" />
+  </Button>
+);
 
 export default function RetailStores() {
   const [scrollY, setScrollY] = useState(0);
@@ -183,34 +196,6 @@ export default function RetailStores() {
   return (
     <div className="bg-[#faebe3]">
       <style>{`
-        @keyframes gradient-shift {
-          0% {
-            background-position: 0% 50%;
-          }
-          50% {
-            background-position: 100% 50%;
-          }
-          100% {
-            background-position: 0% 50%;
-          }
-        }
-        
-        .animated-gradient {
-          background: linear-gradient(
-            135deg,
-            #f5d4c1 0%,
-            #e8c3b0 15%,
-            #d4c4b0 30%,
-            #c0c0c0 45%,
-            #d3d3d3 60%,
-            #f0d5d0 75%,
-            #e8c3b0 90%,
-            #f5d4c1 100%
-          );
-          background-size: 400% 400%;
-          animation: gradient-shift 10s ease infinite;
-        }
-        
         @keyframes slideUp {
           from {
             opacity: 0;
@@ -227,27 +212,19 @@ export default function RetailStores() {
           opacity: 0;
         }
         
-        .slide-up-2 {
-          animation: slideUp 0.8s ease-out 0.2s forwards;
-          opacity: 0;
-        }
-        
-        .slide-up-3 {
-          animation: slideUp 0.8s ease-out 0.4s forwards;
-          opacity: 0;
-        }
-        
         .slide-up-4 {
           animation: slideUp 0.8s ease-out 0.6s forwards;
           opacity: 0;
         }
       `}</style>
 
+      {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Retail Stores section">
         <div className="max-w-7xl mx-auto px-6">
           <div className="w-full">
             <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-              Music for retail stores that drives discovery & conversion
+              Music for Retail Stores:<br />
+              Sound that welcomes & inspires discovery
             </h1>
           </div>
         </div>
@@ -287,56 +264,99 @@ export default function RetailStores() {
       {/* Intro Section - Black Background */}
       <section className="bg-black py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-[1fr_auto] gap-8 items-start">
-            {/* Right: Titles - appears first on mobile, second on desktop */}
-            <div className="lg:order-2 lg:min-w-[280px]">
-              <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-8 lg:mb-0">
-                What is it
-              </h2>
-            </div>
+          <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-12">
+              Music that guides<br />
+              the journey from browsing to buying
+            </h2>
             
-            {/* Left: Content - appears second on mobile, first on desktop */}
-            <div className="lg:order-1 lg:mt-[116px]">
+            <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                Every track in your store shapes how long people browse, what they notice & whether they buy.
+                Store music can shape how long people browse, what they notice and whether they buy.
+              </p>
+              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
+                We design store music that guides the shopping journey from entrance to checkout, across all floors and zones.
               </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                <strong>SensEar</strong> designs store music that supports your retail atmosphere & turns it into part of the shopping experience, not background noise.
+                Music starts playing an active role and becomes part of how customers perceive your brand.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Who this is for */}
+      {/* What we do */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">What we do</h2>
+            <p className="text-xl text-black/60 font-medium">Retail music strategy and implementation</p>
+          </div>
+          
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left: Image */}
+            <div className="hidden lg:block">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fea79f153_e416ab4395ea12d490e85d406ce8fcc3.jpg"
+                alt="Stylish man in retail fashion setting"
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
+            </div>
+
+            {/* Right: Content */}
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Journey-based playlists</h3>
+                <p className="text-lg text-black/70">Music designed to fit all your shop's areas, supporting natural discovery and decision-making.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Tempo & energy calibration</h3>
+                <p className="text-lg text-black/70">Shopping music that relaxes & energizes clients to browse sections without rushing.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Brand-aligned selections</h3>
+                <p className="text-lg text-black/70">Audio that complements your positioning, visuals, and customer profile.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Seasonal rotations</h3>
+                <p className="text-lg text-black/70">Playlists that evolve with seasons, collections & sales while keeping your signature sound.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Retail music is ideal for */}
       <section className="py-20" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black">Who this is for</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Retail music is ideal for</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Content */}
             <div>
-              <p className="text-xl text-black/80 mb-6">Retail brands that want music to work like a silent salesperson:</p>
-              <ul className="space-y-6 text-lg text-black/70">
-                <li className="flex items-start gap-3">
-                  <span className="text-black font-bold">•</span>
-                  <span><strong>Fashion & lifestyle boutiques</strong> that live on discovery & curation</span>
+              <ul className="space-y-8 text-lg text-black/70">
+                <li className="block">
+                  <span className="font-semibold text-2xl block mb-1 text-black">Fashion & Lifestyle Boutiques</span>
+                  <span>that live on discovery and curation.</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-black font-bold">•</span>
-                  <span><strong>Flagship stores</strong> that need a signature retail atmosphere across floors</span>
+                <li className="block">
+                  <span className="font-semibold text-2xl block mb-1 text-black">Flagship Stores</span>
+                  <span>needing signature atmosphere across multiple floors.</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-black font-bold">•</span>
-                  <span><strong>Multi store brands</strong> that want consistent sound with local flavor</span>
+                <li className="block">
+                  <span className="font-semibold text-2xl block mb-1 text-black">Multi-Store Brands</span>
+                  <span>wanting consistent sound with local character.</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-black font-bold">•</span>
-                  <span><strong>Concept & editorial spaces</strong> that change themes, art & installations</span>
+                <li className="block">
+                  <span className="font-semibold text-2xl block mb-1 text-black">Concept & Editorial Spaces</span>
+                  <span>that change themes, art and installations regularly.</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-black font-bold">•</span>
-                  <span><strong>Pop ups</strong> that must make an impression from day one</span>
+                <li className="block">
+                  <span className="font-semibold text-2xl block mb-1 text-black">Pop-Up stores</span>
+                  <span>that must make an impression from day one.</span>
                 </li>
               </ul>
             </div>
@@ -355,85 +375,13 @@ export default function RetailStores() {
         </div>
       </section>
 
-      {/* Breadcrumbs - COMMENTED OUT */}
-      {/* <div className="max-w-7xl mx-auto px-6 py-4 bg-[#faebe3]">
-        <Breadcrumbs items={[
-        { label: "Industries", path: createPageUrl("Industries") },
-        { label: "Retail Stores", path: createPageUrl("retail-stores") }]
-        } />
-      </div> */}
-
-      {/* Industry Specific Challenges */}
+      {/* How we help */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-right">Industry specific challenges</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">How we help</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image */}
-            <div className="hidden lg:block">
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fea79f153_e416ab4395ea12d490e85d406ce8fcc3.jpg"
-                alt="Stylish man in retail fashion setting"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
-            </div>
-
-            {/* Right: Content */}
-            <div className="space-y-8">
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">The quick exit syndrome</h3>
-                <p className="text-lg text-black/70">People walk in, glance around & leave within minutes. The wrong store music makes the space feel like a task, not a place to explore.</p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">The brand mismatch</h3>
-                <p className="text-lg text-black/70">Visual merchandising is perfect, but the soundtrack says "generic radio". Your audio identity does not match your displays, price point or service.</p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">The seasonal stagnation</h3>
-                <p className="text-lg text-black/70">New collections arrive, but the music stays the same. Regulars feel repetition instead of a fresh shopping experience.</p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">The conversion challenge</h3>
-                <p className="text-lg text-black/70">Browsers linger without trying or buying. The atmosphere is not creating the calm, confident state where "yes" feels natural.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* How SensEar Solves This */}
-      <section className="py-20 animated-gradient">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black">How SensEar solves this</h2>
-          
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left: Content */}
-            <div className="space-y-8">
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Store journeys scored from entrance to checkout</h3>
-                <p className="text-lg text-black/70">We design playlists that guide shoppers from doorway to fitting room to checkout, supporting natural browsing, trying & deciding.</p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Soundscapes tuned for dwell time & flow</h3>
-                <p className="text-lg text-black/70">Tempo, genre & volume are calibrated so people feel relaxed enough to explore, yet energized enough to keep moving, reducing quick exits.</p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Brand exact audio identity</h3>
-                <p className="text-lg text-black/70">We pair store music with your visuals, pricing & shoppers. For multi store brands, we keep locations consistent while adding local touches.</p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Seasonal & campaign ready rotations</h3>
-                <p className="text-lg text-black/70">Playlists evolve with new collections, sales & campaigns, keeping the experience fresh while still recognisably "you".</p>
-              </div>
-            </div>
-
-            {/* Right: Image */}
             <div className="hidden lg:block">
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/bacc2ba6c_photo-1529480993802-d8e747bb1ecb.jpg"
@@ -441,85 +389,38 @@ export default function RetailStores() {
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Key Benefits */}
-      <section className="py-20 bg-black">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-white text-right">Key benefits</h2>
-          
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left: Image */}
-            <div className="hidden lg:block">
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9d34ffa69_tumblr_odj9e5JRuo1uotgxio3_1280.jpg"
-                alt="Colorful retail architecture interior"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
-            </div>
 
             {/* Right: Content */}
-            <div className="space-y-6">
+            <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-white mb-3">Longer, deeper browsing</h3>
-                <p className="text-lg text-white/80">A comfortable, well paced atmosphere makes people stay a little longer, pick up more items & explore zones they might otherwise skip.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Encourage deeper browsing</h3>
+                <p className="text-lg text-black/70">Our relaxed, well-paced atmosphere inspires longer stays & more exploration.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-white mb-3">Stronger brand perception & recall</h3>
-                <p className="text-lg text-white/80">Sound, visuals & service finally tell the same story, helping customers remember your store & recognise it across locations.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Strengthen brand recognition</h3>
+                <p className="text-lg text-black/70">Sound, visuals and service tell the same, recognizable story across locations.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-white mb-3">Smoother in store flow</h3>
-                <p className="text-lg text-white/80">The right energy supports natural movement through sections, changing rooms & checkout, reducing bottlenecks & stress.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Guide natural flow</h3>
+                <p className="text-lg text-black/70">Music helps move through sections, fitting rooms, and checkout without rushing.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-white mb-3">Licensing & control & peace of mind</h3>
-                <p className="text-lg text-white/80">You get curated, centrally managed playlists that are properly licensed for commercial use, not consumer apps.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Remove playlist management</h3>
+                <p className="text-lg text-black/70">Commercially licensed, centrally managed playlists let your team focus on customers, not songs or volume.</p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      {/* Social Proof with Image */}
-      <section className="py-16 bg-[#faebe3]">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black">Social proof</h2>
-          
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left: Text */}
-            <div>
-              <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed mb-6">
-                Fashion & lifestyle retailers work with <strong>SensEar</strong> to make music part of the shopping ritual.
-              </p>
-              <p className="text-xl md:text-2xl text-black/70 italic leading-relaxed">
-                Their stores now feel more intentional, guests stay to explore collections & the brand story is heard as clearly as it is seen.
-              </p>
-            </div>
-
-            {/* Right: Image */}
-            <div className="hidden lg:block">
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/4ee147bf6_6fd38d8f206dc0b7749c169007cee524.jpg"
-                alt="Stylish retail fashion display"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
-            </div>
-          </div>
-
-          {/* Hear this industry in action - Centered below */}
           <div className="max-w-2xl mx-auto mt-16 text-center">
             <h3 className="text-2xl md:text-3xl font-bold text-black mb-4">Hear this industry in action</h3>
             <p className="text-lg md:text-xl text-black/70 mb-6">Listen to a curated demo playlist for retail stores</p>
             <Link to={createPageUrl("PlaylistsDemos")}>
-              <Button size="lg" variant="outline" className="bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-8">
+              <AnimatedButton className="px-8">
                 Explore Demo Playlists
-              </Button>
+              </AnimatedButton>
             </Link>
           </div>
         </div>
@@ -528,15 +429,15 @@ export default function RetailStores() {
       {/* Final CTA */}
       <section className="py-20" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">Ready to turn your store music into a real retail experience?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">Upgrade your retail atmosphere</h2>
           <p className="text-xl text-black/80 mb-8">
-            We review your current sound, map your shopper journey & propose a tailored music approach for your store or brand.
+            Ready to make music work for your store? We evaluate your sound, map your customer journey, and provide a brand-specific approach.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link to={createPageUrl("ContactUs")}>
-              <Button size="lg" className="bg-black text-white hover:bg-black/80 px-8 py-6 text-lg">
+              <AnimatedButton className="w-full sm:w-auto">
                 Book a music consultation
-              </Button>
+              </AnimatedButton>
             </Link>
           </div>
           <p className="text-black/70 mt-8">
