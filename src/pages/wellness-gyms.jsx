@@ -300,17 +300,13 @@ export default function WellnessGyms() {
       {/* Intro Section - Black Background */}
       <section className="bg-black py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-[1fr_auto] gap-8 items-start">
-            {/* Right: Titles */}
-            <div className="lg:order-2 lg:min-w-[280px]">
-              <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-8 lg:mb-0">
-                Fine-tuned soundscapes<br />
-                for mind & body practices
-              </h2>
-            </div>
+          <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-12">
+              Fine-tuned soundscapes<br />
+              for mind & body practices
+            </h2>
             
-            {/* Left: Content */}
-            <div className="lg:order-1 lg:mt-[116px]">
+            <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
                 In wellness spaces & gyms, music works with the body & mind throughout every session.
               </p>
@@ -325,7 +321,7 @@ export default function WellnessGyms() {
         </div>
       </section>
 
-      {/* What we do - White Background (Replaces Industry-specific challenges slot in layout) */}
+      {/* What we do - White Background */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
@@ -369,7 +365,7 @@ export default function WellnessGyms() {
         </div>
       </section>
 
-      {/* Ideal For - Bg Image (Replaces Who this is for) */}
+      {/* Ideal For - Bg Image (Who this is for) */}
       <section className="py-20" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Wellness & gym music is ideal for</h2>
@@ -415,7 +411,7 @@ export default function WellnessGyms() {
         </div>
       </section>
 
-      {/* How we help - Animated Gradient (Replaces How SensEar solves this) */}
+      {/* How we help - Animated Gradient */}
       <section className="py-20 animated-gradient">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black">How we help</h2>
