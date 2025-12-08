@@ -39,6 +39,7 @@ import homeTestNew from './pages/Home-test-new';
 import hotelsResortsPrev from './pages/hotels-resorts-prev';
 import restaurantsBarsPrev from './pages/restaurants-bars-prev';
 import retailStoresPrev from './pages/retail-stores-prev';
+import wellnessGymsPrev from './pages/wellness-gyms-prev';
 import __Layout from './Layout.jsx';
 
 
@@ -84,6 +85,7 @@ export const PAGES = {
     "hotels-resorts-prev": hotelsResortsPrev,
     "restaurants-bars-prev": restaurantsBarsPrev,
     "retail-stores-prev": retailStoresPrev,
+    "wellness-gyms-prev": wellnessGymsPrev,
 }
 
 export const pagesConfig = {
