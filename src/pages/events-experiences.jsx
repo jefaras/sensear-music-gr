@@ -373,27 +373,27 @@ export default function EventsExperiences() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Hotels, Resorts & Restaurants</h3>
-                <p className="text-lg text-black/70">Hosting launches, weddings or signature experiences.</p>
+                <p className="text-lg text-black/70">hosting launches, weddings or signature experiences.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Event Organizers & Agencies</h3>
-                <p className="text-lg text-black/70">Designing immersive branded activations.</p>
+                <p className="text-lg text-black/70">designing immersive branded activations.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Private Chefs & Experience Creators</h3>
-                <p className="text-lg text-black/70">Offering ceremonial or intimate gatherings.</p>
+                <p className="text-lg text-black/70">offering ceremonial or intimate gatherings.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Cultural Venues & Fashion Shows</h3>
-                <p className="text-lg text-black/70">Staging talks, previews or runway presentations.</p>
+                <p className="text-lg text-black/70">staging talks, previews or runway presentations.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Brands & Individuals</h3>
-                <p className="text-lg text-black/70">Who understand sound defines the experience.</p>
+                <p className="text-lg text-black/70">who understand sound defines the experience.</p>
               </div>
             </div>
 
