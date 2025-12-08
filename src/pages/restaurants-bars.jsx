@@ -355,12 +355,10 @@ export default function RestaurantsBars() {
 
             {/* Right: Image (Was Industry specific challenges) */}
             <div className="hidden lg:block">
-              <div className="w-[85%] mx-auto">
-                <img
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/dbf1c8542_c383f86fd572aa6ee623a8fd6ab443df.jpg"
-                  alt="Elegant dining scene with guests enjoying atmosphere"
-                  className="w-full h-auto rounded-2xl shadow-lg" />
-              </div>
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/74f06e87c_dbf1c8542_c383f86fd572aa6ee623a8fd6ab443df.jpg"
+                alt="Elegant dining scene with guests enjoying atmosphere"
+                className="w-full h-auto rounded-2xl shadow-lg" />
             </div>
           </div>
         </div>
