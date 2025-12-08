@@ -210,7 +210,7 @@ export default function HotelsResorts() {
             <div className="hidden lg:block">
               <div className="w-[85%] mx-auto">
                 <img
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/38fbe55aa_3ee69fa2c5ac47509c6d1d927c51b21c.jpg"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b32503d17_wi-cltcw-westin-charlotte-dogwood-13256_Classic-Hor1.jpg"
                   alt="Luxury hotel terrace with elegant atmosphere"
                   className="w-full h-auto rounded-2xl shadow-lg" />
               </div>
@@ -228,7 +228,7 @@ export default function HotelsResorts() {
             {/* Left: Image (Kept Silver Ear image) */}
             <div className="hidden lg:block">
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/95c488ed9_silver-ear-ear-ring.jpg"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7ba13d3db_95c488ed9_silver-ear-ear-ring.jpg"
                 alt="Silver ear sculpture representing listening and sonic branding"
                 className="w-full h-auto rounded-2xl shadow-lg" />
             </div>
