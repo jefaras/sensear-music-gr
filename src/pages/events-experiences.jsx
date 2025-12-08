@@ -285,17 +285,13 @@ export default function EventsExperiences() {
       {/* Intro Section - Black Background */}
       <section className="bg-black py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-[1fr_auto] gap-8 items-start">
-            {/* Right: Titles - appears first on mobile, second on desktop */}
-            <div className="lg:order-2 lg:min-w-[280px]">
-              <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-8 lg:mb-0">
-                Precisely timed music<br />
-                for every phase of your event
-              </h2>
-            </div>
+          <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-12">
+              Precisely timed music<br />
+              for every phase of your event
+            </h2>
             
-            {/* Left: Content - appears second on mobile, first on desktop */}
-            <div className="lg:order-1 lg:mt-[116px]">
+            <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
                 At events, sound connects the moments between arrival and finale.
               </p>
@@ -354,36 +350,38 @@ export default function EventsExperiences() {
         </div>
       </section>
 
-      {/* Event music is ideal for (Was Who this is for) */}
+      {/* Event music is ideal for */}
       <section className="py-20" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black">Event music is ideal for</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Event music is ideal for</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Content */}
-            <div>
-              <ul className="space-y-6 text-lg text-black/70">
-                <li className="flex items-start gap-3">
-                  <span className="text-black font-bold">•</span>
-                  <span><strong>Hotels, Resorts & Restaurants</strong><br />hosting launches, weddings or signature experiences.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-black font-bold">•</span>
-                  <span><strong>Event Organizers & Agencies</strong><br />designing immersive branded activations.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-black font-bold">•</span>
-                  <span><strong>Private Chefs & Experience Creators</strong><br />offering ceremonial or intimate gatherings.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-black font-bold">•</span>
-                  <span><strong>Cultural Venues & Fashion Shows</strong><br />staging talks, previews or runway presentations.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-black font-bold">•</span>
-                  <span><strong>Brands & Individuals</strong><br />who understand sound defines the experience.</span>
-                </li>
-              </ul>
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Hotels, Resorts & Restaurants</h3>
+                <p className="text-lg text-black/70">Hosting launches, weddings or signature experiences.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Event Organizers & Agencies</h3>
+                <p className="text-lg text-black/70">Designing immersive branded activations.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Private Chefs & Experience Creators</h3>
+                <p className="text-lg text-black/70">Offering ceremonial or intimate gatherings.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Cultural Venues & Fashion Shows</h3>
+                <p className="text-lg text-black/70">Staging talks, previews or runway presentations.</p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-3">Brands & Individuals</h3>
+                <p className="text-lg text-black/70">Who understand sound defines the experience.</p>
+              </div>
             </div>
 
             {/* Right: Image */}
@@ -398,10 +396,10 @@ export default function EventsExperiences() {
         </div>
       </section>
 
-      {/* How we help (Was Key Benefits) */}
+      {/* How we help */}
       <section className="py-20 bg-black">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-white text-right">How we help</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-white text-center">How we help</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image */}
