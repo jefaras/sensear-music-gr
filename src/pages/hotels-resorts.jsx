@@ -208,12 +208,10 @@ export default function HotelsResorts() {
 
             {/* Right: Image (Kept Terrace image) */}
             <div className="hidden lg:block">
-              <div className="w-[85%] mx-auto">
-                <img
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b32503d17_wi-cltcw-westin-charlotte-dogwood-13256_Classic-Hor1.jpg"
-                  alt="Luxury hotel terrace with elegant atmosphere"
-                  className="w-full h-auto rounded-2xl shadow-lg" />
-              </div>
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b32503d17_wi-cltcw-westin-charlotte-dogwood-13256_Classic-Hor1.jpg"
+                alt="Luxury hotel terrace with elegant atmosphere"
+                className="w-full h-auto rounded-2xl shadow-lg" />
             </div>
           </div>
         </div>
