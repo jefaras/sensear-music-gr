@@ -341,7 +341,7 @@ export default function EventsExperiences() {
             <div className="hidden lg:block">
               <div className="w-[76.5%] mx-auto">
                 <img
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/604e3a452_2eb02f6aa00cbdc92f835b115166f9fb.jpg"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/857dd2f02_604e3a452_2eb02f6aa00cbdc92f835b115166f9fb.jpg"
                   alt="Event sound technical challenge"
                   className="w-full h-auto rounded-2xl shadow-lg"
                 />
@@ -368,7 +368,7 @@ export default function EventsExperiences() {
             {/* Left: Image */}
             <div className="hidden lg:block">
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/72affbd7e_a4f32fd29f6b2f75dae0c99d5942d2c8.jpg"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ffade3ddd_72affbd7e_a4f32fd29f6b2f75dae0c99d5942d2c8.jpg"
                 alt="Event atmosphere with guests"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
@@ -432,7 +432,7 @@ export default function EventsExperiences() {
             {/* Right: Image */}
             <div className="hidden lg:block">
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f202eaf0e_410494315_375848528274698_8398961206007741661_ncropped.jpg"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9c0a5ab31_f202eaf0e_410494315_375848528274698_8398961206007741661_ncropped.jpg"
                 alt="Event experience with guests dancing"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
@@ -450,7 +450,7 @@ export default function EventsExperiences() {
             {/* Left: Image */}
             <div className="hidden lg:block">
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/312254f07_7d82256351ac82435f9645aa580c2f01cropped.jpg"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f26647cf5_312254f07_7d82256351ac82435f9645aa580c2f01cropped.jpg"
                 alt="Event atmosphere with guests enjoying"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
