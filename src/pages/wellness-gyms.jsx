@@ -332,11 +332,13 @@ export default function WellnessGyms() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image (Reusing Industry-specific challenges image) */}
             <div className="hidden lg:block">
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9f14b26a1_f30a161922bea03d96e30ad4f356dd81.jpg"
-                alt="Spa treatment room ambiance"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+              <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
+                <img
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ae7d85c74_9f14b26a1_f30a161922bea03d96e30ad4f356dd81.jpg"
+                  alt="Spa treatment room ambiance"
+                  className="w-full h-auto object-cover rounded-xl shadow-lg"
+                />
+              </div>
             </div>
 
             {/* Right: Content */}
@@ -442,11 +444,13 @@ export default function WellnessGyms() {
 
             {/* Right: Image (Reusing How SensEar solves this image) */}
             <div className="hidden lg:block">
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d3ccc7081_24ff3eb97d703e018840f54d6030eb58.jpg"
-                alt="Luxury wellness pool interior"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+              <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
+                <img
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/677b8f7ca_d3ccc7081_24ff3eb97d703e018840f54d6030eb58.jpg"
+                  alt="Luxury wellness pool interior"
+                  className="w-full h-auto object-cover rounded-xl shadow-lg"
+                />
+              </div>
             </div>
           </div>
         </div>
