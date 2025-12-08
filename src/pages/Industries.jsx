@@ -180,7 +180,7 @@ export default function Industries() {
                 </div>
                 <div className="mb-6">
                   <span className="font-bold text-black text-lg block mb-1">The result:</span>
-                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Guests mention your atmosphere in reviews and ask about your playlists at reception.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">The atmosphere reinforces what guests already love about your property.</p>
                 </div>
 
                 <div className="mt-8">
@@ -204,7 +204,7 @@ export default function Industries() {
                 </div>
                 <div className="mb-6">
                   <span className="font-bold text-black text-lg block mb-1">The result:</span>
-                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Service flows more smoothly and guests settle in for the complete experience</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Service flows more smoothly and guests settle in for the complete experience.</p>
                 </div>
 
                 <div className="mt-8">
@@ -246,7 +246,7 @@ export default function Industries() {
                 </div>
                 <div className="mb-6">
                   <span className="font-bold text-black text-lg block mb-1">The result:</span>
-                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Smooth transitions that guests don't notice but organizers appreciate</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Smooth transitions that guests don't notice but organizers appreciate.</p>
                 </div>
 
                 <div className="mt-8">
@@ -336,7 +336,7 @@ export default function Industries() {
                 </div>
                 <div className="mb-6">
                   <span className="font-bold text-black text-lg block mb-1">The result:</span>
-                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Visitors slow down, absorb more and share their experience afterwards</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Visitors slow down, absorb more and share their experience afterwards.</p>
                 </div>
 
                 <div className="mt-8">
@@ -394,11 +394,11 @@ export default function Industries() {
             <div className="order-1 lg:order-2">
               <div className="space-y-4 mb-8">
                 {[
-                  "Every venue's energy needs change throughout the day",
-                  "Multiple spaces or locations that should feel connected",
-                  "Teams need to focus on service, not soundtrack debates",
-                  "Creating memorable experiences that bring people back",
-                  "Knowing if your music actually works for your business"
+                  <span key="1">Every venue's <strong>energy needs change</strong> throughout the day</span>,
+                  <span key="2">Multiple spaces or locations that should <strong>feel connected</strong></span>,
+                  <span key="3">Teams need to <strong>focus on service</strong>, not soundtrack debates</span>,
+                  <span key="4">Creating memorable experiences that <strong>bring people back</strong></span>,
+                  <span key="5">Knowing if your <strong>music actually works</strong> for your business</span>
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3">
                     <div className="mt-1.5 w-5 h-5 rounded-full bg-black/5 flex items-center justify-center flex-shrink-0">
@@ -432,13 +432,11 @@ export default function Industries() {
               </AnimatedButton>
             </Link>
             
-            <div className="flex items-center gap-6">
-              <span className="text-black/60">or</span>
-              <Link to={createPageUrl("Services")} className="inline-flex items-center text-black font-bold text-lg group">
-                <span className="transition-transform group-hover:translate-x-1 inline-block hover:underline decoration-2 underline-offset-4">Explore our services</span>
-                <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
-              </Link>
-            </div>
+            <Link to={createPageUrl("Services")}>
+              <AnimatedButton className="w-full sm:w-auto h-14">
+                Explore our services
+              </AnimatedButton>
+            </Link>
           </div>
         </div>
       </section>
