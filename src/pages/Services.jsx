@@ -359,8 +359,8 @@ export default function Services() {
       }}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto">
-            <h2 id="services-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Choose your starting point</h2>
-            <p className="text-xl text-black/60 mb-12">Use this guide to see which music service fits you.</p>
+            <h2 id="services-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">Choose your starting point</h2>
+            <p className="text-xl text-black/60 font-medium mb-12">Use this guide to see which music service fits you.</p>
           </div>
 
           {/* Signature Playlists */}
@@ -531,7 +531,7 @@ export default function Services() {
       <section className="py-24 bg-[#faebe3]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto">
-            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">How our services deliver</h2>
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">How our services deliver</h2>
             <p className="text-xl text-black/60 font-medium mb-12">Working alone or together to meet your specific needs</p>
           </div>
 
