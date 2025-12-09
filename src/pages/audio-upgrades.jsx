@@ -215,7 +215,7 @@ export default function AudioUpgrades() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="w-full">
             <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-              Audio Upgrades:<br />Make your venue sound as good as it looks
+              Audio Upgrades:<br />Perfect your venue's audio system
             </h1>
           </div>
         </div>
@@ -263,10 +263,10 @@ export default function AudioUpgrades() {
             
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                We audit, redesign and tune your system so every seat hears clear, balanced sound that supports conversation and fits your space.
+                We <strong><em>audit, redesign & tune</em></strong> your audio system so people hear <strong><em>clear, balanced sound</em></strong> that facilitates interactions & fits your space.
               </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                Sound stops competing with your design and starts supporting it.
+                Sound now <strong><em>supports your design</em></strong> and people <strong><em>enjoy</em></strong> both the <strong><em>music</em></strong> & their <strong><em>conversations</em></strong>.
               </p>
             </div>
           </div>
