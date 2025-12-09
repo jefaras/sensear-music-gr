@@ -272,10 +272,10 @@ export default function RetailStores() {
             
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                The music in your store can affect how long people browse, what they notice & whether they buy.
+                The music in your store can <strong><em>affect how long people browse</em></strong>, what they notice & whether they buy.
               </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                Our music for stores support the flow of shopping and can influence how customers perceive your brand.
+                Our music for stores <strong><em>support the shopping flow</em></strong> and can influence how customers <strong><em>perceive your brand</em></strong>.
               </p>
             </div>
           </div>
