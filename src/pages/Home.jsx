@@ -343,7 +343,7 @@ export default function Home() {
                                     <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Event Soundtracks</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                 </Link>
                                 <p className="text-[19.125px] text-black/70 leading-relaxed">
-                                    Custom-designed music for launches, conferences & celebrations
+                                    Custom-designed music for launches, conferences & celebrations.
                                 </p>
                             </div>
                             {/* Service 3 */}
@@ -352,7 +352,7 @@ export default function Home() {
                                     <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Sonic Strategy</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                 </Link>
                                 <p className="text-[17px] text-black/70 leading-relaxed">
-                                    Your audio DNA, unified across all locations and communication channels.
+                                    Your audio DNA, unified across all locations & communication channels.
                                 </p>
                             </div>
                             {/* Service 4 */}
