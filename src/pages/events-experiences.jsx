@@ -300,19 +300,16 @@ export default function EventsExperiences() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
             <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-12">
-              Precisely timed music<br />
-              for every phase of your event
+              Carefully timed music<br />
+              for every event moment
             </h2>
             
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                At events, sound connects the moments between arrival and finale.
-              </p>
-              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                We design custom soundtracks, so every transition feels deliberate and energy flows naturally.
+                At events, <strong><em>music connects every moment</em></strong> from arrival to finale.
               </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                Music becomes part of the event rather than background.
+                We create sonic journeys that <strong><em>build atmosphere</em></strong> & move with your event’s timeline, making music <strong><em>important & memorable</em></strong>.
               </p>
             </div>
           </div>
