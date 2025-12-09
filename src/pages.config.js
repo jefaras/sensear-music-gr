@@ -41,6 +41,7 @@ import restaurantsBarsPrev from './pages/restaurants-bars-prev';
 import retailStoresPrev from './pages/retail-stores-prev';
 import wellnessGymsPrev from './pages/wellness-gyms-prev';
 import eventsExperiencesPrev from './pages/events-experiences-prev';
+import artMuseumsFashionPrev from './pages/art-museums-fashion-prev';
 import __Layout from './Layout.jsx';
 
 
@@ -88,6 +89,7 @@ export const PAGES = {
     "retail-stores-prev": retailStoresPrev,
     "wellness-gyms-prev": wellnessGymsPrev,
     "events-experiences-prev": eventsExperiencesPrev,
+    "art-museums-fashion-prev": artMuseumsFashionPrev,
 }
 
 export const pagesConfig = {
