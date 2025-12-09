@@ -419,7 +419,7 @@ export default function Industries() {
 
       {/* Discover Your Sound Potential */}
       <section className="py-20 animated-gradient">
-        <div className="max-w-4xl mx-auto px-6 text-center">
+        <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Discover Your Sound Potential</h2>
           <p className="text-xl text-black/60 mb-12 max-w-3xl mx-auto">
             Every venue has untapped atmospheric potential. Let's explore how strategic sound can transform your specific space and objectives.

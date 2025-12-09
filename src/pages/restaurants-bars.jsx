@@ -413,9 +413,9 @@ export default function RestaurantsBars() {
 
       {/* Final CTA */}
       <section className="py-20" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-        <div className="max-w-4xl mx-auto px-6 text-center">
+        <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Upgrade your restaurant's atmosphere</h2>
-          <p className="text-xl text-black/80 mb-8">
+          <p className="text-xl text-black/80 mb-8 max-w-3xl mx-auto">
             Need to tune your sound for better nights? We can review your current setup, service patterns & concept and propose a tailored approach.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
