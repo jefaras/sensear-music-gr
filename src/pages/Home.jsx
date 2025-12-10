@@ -49,7 +49,7 @@ const HeroCarousel = () => {
             <img 
               src={src} 
               alt={`Hero slide ${index + 1}`} 
-              className="w-full h-full object-cover" 
+              className={`w-full h-full ${src.includes('b042a0fd5_d879cafadbbf888b32b8923798fcbcf3-cropped.jpg') ? 'object-contain bg-white' : 'object-cover'}`}
             />
           </div>
         ))}
