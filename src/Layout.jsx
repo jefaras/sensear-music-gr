@@ -244,7 +244,14 @@ export default function Layout({ children }) {
 
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <Link to={createPageUrl("Home")} className="flex items-center gap-3 group">
-            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg" alt="SensEar Logo" className="w-12 h-12 rounded-full group-hover:scale-110 transition-transform" />
+            <img 
+              src={isScrolled 
+                ? "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/bdbf0fb5d_sensear-logo-avatar-white-transparent1.png" 
+                : "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/a42606150_sensear-logo-avatar-color1.png"
+              } 
+              alt="SensEar Logo" 
+              className="w-12 h-12 object-contain group-hover:scale-110 transition-transform" 
+            />
             <h1 className={`text-3xl font-bold tracking-wide font-syne transition-colors duration-300 ${
               isScrolled ? 'text-white' : 'text-black'
             }`}>SENSEAR</h1>
@@ -391,7 +398,7 @@ export default function Layout({ children }) {
             {/* Logo, Socials & Contact */}
             <div className="min-w-[300px] lg:w-1/3">
               <Link to={createPageUrl("Home")} className="flex items-center gap-3 group mb-6 w-fit">
-                <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg" alt="SensEar Logo" className="w-12 h-12 rounded-full group-hover:scale-110 transition-transform" />
+                <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/bdbf0fb5d_sensear-logo-avatar-white-transparent1.png" alt="SensEar Logo" className="w-12 h-12 object-contain group-hover:scale-110 transition-transform" />
                 <div>
                   <h1 className="text-3xl font-bold text-white tracking-wide font-syne">SENSEAR</h1>
                   <p className="text-xs text-white -mt-1 font-syne">Soundtracking Unique Experiences</p>
