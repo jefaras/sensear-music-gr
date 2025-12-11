@@ -4,9 +4,6 @@ import Blog from './pages/Blog';
 import CaseStudies from './pages/CaseStudies';
 import ContactUs from './pages/ContactUs';
 import FAQ from './pages/FAQ';
-import homeTestNew from './pages/Home-test-new';
-import home2711 from './pages/Home27_11';
-import homeTest from './pages/Home_test';
 import industriesV2 from './pages/Industries-v2';
 import Industries from './pages/Industries';
 import industriesOld from './pages/Industries_old';
@@ -14,6 +11,7 @@ import PlaylistsDemos from './pages/PlaylistsDemos';
 import servicesV2 from './pages/Services-v2';
 import Services from './pages/Services';
 import Sitemap from './pages/Sitemap';
+import artMuseumsFashionPrev from './pages/art-museums-fashion-prev';
 import artMuseumsFashion from './pages/art-museums-fashion';
 import audioUpgrades from './pages/audio-upgrades';
 import backgroundMusicShapesCustomerBehavior from './pages/background-music-shapes-customer-behavior';
@@ -53,9 +51,6 @@ export const PAGES = {
     "CaseStudies": CaseStudies,
     "ContactUs": ContactUs,
     "FAQ": FAQ,
-    "Home-test-new": homeTestNew,
-    "Home27_11": home2711,
-    "Home_test": homeTest,
     "Industries-v2": industriesV2,
     "Industries": Industries,
     "Industries_old": industriesOld,
@@ -63,6 +58,7 @@ export const PAGES = {
     "Services-v2": servicesV2,
     "Services": Services,
     "Sitemap": Sitemap,
+    "art-museums-fashion-prev": artMuseumsFashionPrev,
     "art-museums-fashion": artMuseumsFashion,
     "audio-upgrades": audioUpgrades,
     "background-music-shapes-customer-behavior": backgroundMusicShapesCustomerBehavior,
