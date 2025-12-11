@@ -4,13 +4,9 @@ import Blog from './pages/Blog';
 import CaseStudies from './pages/CaseStudies';
 import ContactUs from './pages/ContactUs';
 import FAQ from './pages/FAQ';
-import homeTestNew from './pages/Home-test-new';
-import home2711 from './pages/Home27_11';
-import homeTest from './pages/Home_test';
+import industriesV2 from './pages/Industries-v2';
 import Industries from './pages/Industries';
-import industriesOld from './pages/Industries_old';
 import PlaylistsDemos from './pages/PlaylistsDemos';
-import servicesV2 from './pages/Services-v2';
 import Services from './pages/Services';
 import Sitemap from './pages/Sitemap';
 import artMuseumsFashionPrev from './pages/art-museums-fashion-prev';
@@ -35,7 +31,6 @@ import restaurantsBars from './pages/restaurants-bars';
 import retailStoresPrev from './pages/retail-stores-prev';
 import retailStores from './pages/retail-stores';
 import serviceEnvironmentShapesWaitTime from './pages/service-environment-shapes-wait-time';
-import signaturePlaylistsTest from './pages/signature-playlists-test';
 import signaturePlaylists from './pages/signature-playlists';
 import sonicStrategy from './pages/sonic-strategy';
 import threeReasonsMakeMusicHospitality from './pages/three-reasons-make-music-hospitality';
@@ -53,13 +48,9 @@ export const PAGES = {
     "CaseStudies": CaseStudies,
     "ContactUs": ContactUs,
     "FAQ": FAQ,
-    "Home-test-new": homeTestNew,
-    "Home27_11": home2711,
-    "Home_test": homeTest,
+    "Industries-v2": industriesV2,
     "Industries": Industries,
-    "Industries_old": industriesOld,
     "PlaylistsDemos": PlaylistsDemos,
-    "Services-v2": servicesV2,
     "Services": Services,
     "Sitemap": Sitemap,
     "art-museums-fashion-prev": artMuseumsFashionPrev,
@@ -84,7 +75,6 @@ export const PAGES = {
     "retail-stores-prev": retailStoresPrev,
     "retail-stores": retailStores,
     "service-environment-shapes-wait-time": serviceEnvironmentShapesWaitTime,
-    "signature-playlists-test": signaturePlaylistsTest,
     "signature-playlists": signaturePlaylists,
     "sonic-strategy": sonicStrategy,
     "three-reasons-make-music-hospitality": threeReasonsMakeMusicHospitality,
