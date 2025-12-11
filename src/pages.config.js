@@ -1,95 +1,75 @@
 import Home from './pages/Home';
-import Services from './pages/Services';
-import Industries from './pages/Industries';
-import CaseStudies from './pages/CaseStudies';
-import Blog from './pages/Blog';
 import AboutUs from './pages/AboutUs';
+import Blog from './pages/Blog';
+import CaseStudies from './pages/CaseStudies';
 import ContactUs from './pages/ContactUs';
-import sonicStrategy from './pages/sonic-strategy';
+import FAQ from './pages/FAQ';
+import industriesV2 from './pages/Industries-v2';
+import Industries from './pages/Industries';
+import PlaylistsDemos from './pages/PlaylistsDemos';
+import Services from './pages/Services';
+import Sitemap from './pages/Sitemap';
+import artMuseumsFashion from './pages/art-museums-fashion';
+import audioUpgrades from './pages/audio-upgrades';
+import backgroundMusicShapesCustomerBehavior from './pages/background-music-shapes-customer-behavior';
+import beachHouseAntiparos from './pages/beach-house-antiparos';
+import blueBamboo from './pages/blue-bamboo';
+import brandMusicConvertsBrowsersBuyers from './pages/brand-music-converts-browsers-buyers';
+import buildingBrandPeopleCanHear from './pages/building-brand-people-can-hear';
+import eventSoundtracks from './pages/event-soundtracks';
+import eventsExperiences from './pages/events-experiences';
 import hotelsResorts from './pages/hotels-resorts';
+import howTopHospitalityBrandsDesignSound from './pages/how-top-hospitality-brands-design-sound';
+import klouviBar from './pages/klouvi-bar';
+import musicCurationCycleVenues from './pages/music-curation-cycle-venues';
+import pelicanosSifnosRestaurant from './pages/pelicanos-sifnos-restaurant';
 import restaurantsBars from './pages/restaurants-bars';
 import retailStores from './pages/retail-stores';
-import pelicanosSifnosRestaurant from './pages/pelicanos-sifnos-restaurant';
-import blueBamboo from './pages/blue-bamboo';
-import klouviBar from './pages/klouvi-bar';
-import beachHouseAntiparos from './pages/beach-house-antiparos';
-import FAQ from './pages/FAQ';
-import Sitemap from './pages/Sitemap';
-import PlaylistsDemos from './pages/PlaylistsDemos';
-import eventsExperiences from './pages/events-experiences';
-import musicCurationCycleVenues from './pages/music-curation-cycle-venues';
-import threeReasonsMakeMusicHospitality from './pages/three-reasons-make-music-hospitality';
-import brandMusicConvertsBrowsersBuyers from './pages/brand-music-converts-browsers-buyers';
-import whatExactlyDoesMusicCuratorDo from './pages/what-exactly-does-music-curator-do';
-import buildingBrandPeopleCanHear from './pages/building-brand-people-can-hear';
-import backgroundMusicShapesCustomerBehavior from './pages/background-music-shapes-customer-behavior';
 import serviceEnvironmentShapesWaitTime from './pages/service-environment-shapes-wait-time';
-import howTopHospitalityBrandsDesignSound from './pages/how-top-hospitality-brands-design-sound';
 import signaturePlaylists from './pages/signature-playlists';
-import audioUpgrades from './pages/audio-upgrades';
-import eventSoundtracks from './pages/event-soundtracks';
-import artMuseumsFashion from './pages/art-museums-fashion';
+import sonicStrategy from './pages/sonic-strategy';
+import threeReasonsMakeMusicHospitality from './pages/three-reasons-make-music-hospitality';
+import wellnessCenters from './pages/wellness-centers';
 import wellnessGyms from './pages/wellness-gyms';
-import servicesV2 from './pages/Services-v2';
-import homeTest from './pages/Home_test';
-import home2711 from './pages/Home27_11';
-import industriesOld from './pages/Industries_old';
-import signaturePlaylistsTest from './pages/signature-playlists-test';
-import homeTestNew from './pages/Home-test-new';
-import hotelsResortsPrev from './pages/hotels-resorts-prev';
-import restaurantsBarsPrev from './pages/restaurants-bars-prev';
-import retailStoresPrev from './pages/retail-stores-prev';
-import wellnessGymsPrev from './pages/wellness-gyms-prev';
-import eventsExperiencesPrev from './pages/events-experiences-prev';
-import artMuseumsFashionPrev from './pages/art-museums-fashion-prev';
+import whatExactlyDoesMusicCuratorDo from './pages/what-exactly-does-music-curator-do';
 import __Layout from './Layout.jsx';
 
 
 export const PAGES = {
     "Home": Home,
-    "Services": Services,
-    "Industries": Industries,
-    "CaseStudies": CaseStudies,
-    "Blog": Blog,
     "AboutUs": AboutUs,
+    "Blog": Blog,
+    "CaseStudies": CaseStudies,
     "ContactUs": ContactUs,
-    "sonic-strategy": sonicStrategy,
+    "FAQ": FAQ,
+    "Industries-v2": industriesV2,
+    "Industries": Industries,
+    "PlaylistsDemos": PlaylistsDemos,
+    "Services": Services,
+    "Sitemap": Sitemap,
+    "art-museums-fashion": artMuseumsFashion,
+    "audio-upgrades": audioUpgrades,
+    "background-music-shapes-customer-behavior": backgroundMusicShapesCustomerBehavior,
+    "beach-house-antiparos": beachHouseAntiparos,
+    "blue-bamboo": blueBamboo,
+    "brand-music-converts-browsers-buyers": brandMusicConvertsBrowsersBuyers,
+    "building-brand-people-can-hear": buildingBrandPeopleCanHear,
+    "event-soundtracks": eventSoundtracks,
+    "events-experiences": eventsExperiences,
     "hotels-resorts": hotelsResorts,
+    "how-top-hospitality-brands-design-sound": howTopHospitalityBrandsDesignSound,
+    "klouvi-bar": klouviBar,
+    "music-curation-cycle-venues": musicCurationCycleVenues,
+    "pelicanos-sifnos-restaurant": pelicanosSifnosRestaurant,
     "restaurants-bars": restaurantsBars,
     "retail-stores": retailStores,
-    "pelicanos-sifnos-restaurant": pelicanosSifnosRestaurant,
-    "blue-bamboo": blueBamboo,
-    "klouvi-bar": klouviBar,
-    "beach-house-antiparos": beachHouseAntiparos,
-    "FAQ": FAQ,
-    "Sitemap": Sitemap,
-    "PlaylistsDemos": PlaylistsDemos,
-    "events-experiences": eventsExperiences,
-    "music-curation-cycle-venues": musicCurationCycleVenues,
-    "three-reasons-make-music-hospitality": threeReasonsMakeMusicHospitality,
-    "brand-music-converts-browsers-buyers": brandMusicConvertsBrowsersBuyers,
-    "what-exactly-does-music-curator-do": whatExactlyDoesMusicCuratorDo,
-    "building-brand-people-can-hear": buildingBrandPeopleCanHear,
-    "background-music-shapes-customer-behavior": backgroundMusicShapesCustomerBehavior,
     "service-environment-shapes-wait-time": serviceEnvironmentShapesWaitTime,
-    "how-top-hospitality-brands-design-sound": howTopHospitalityBrandsDesignSound,
     "signature-playlists": signaturePlaylists,
-    "audio-upgrades": audioUpgrades,
-    "event-soundtracks": eventSoundtracks,
-    "art-museums-fashion": artMuseumsFashion,
+    "sonic-strategy": sonicStrategy,
+    "three-reasons-make-music-hospitality": threeReasonsMakeMusicHospitality,
+    "wellness-centers": wellnessCenters,
     "wellness-gyms": wellnessGyms,
-    "Services-v2": servicesV2,
-    "Home_test": homeTest,
-    "Home27_11": home2711,
-    "Industries_old": industriesOld,
-    "signature-playlists-test": signaturePlaylistsTest,
-    "Home-test-new": homeTestNew,
-    "hotels-resorts-prev": hotelsResortsPrev,
-    "restaurants-bars-prev": restaurantsBarsPrev,
-    "retail-stores-prev": retailStoresPrev,
-    "wellness-gyms-prev": wellnessGymsPrev,
-    "events-experiences-prev": eventsExperiencesPrev,
-    "art-museums-fashion-prev": artMuseumsFashionPrev,
+    "what-exactly-does-music-curator-do": whatExactlyDoesMusicCuratorDo,
 }
 
 export const pagesConfig = {
