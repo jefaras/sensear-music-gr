@@ -288,7 +288,7 @@ export default function SignaturePlaylists() {
             </h2>
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                We shape our <strong><em>playlists</em></strong> around your brand's <strong><em>character</em></strong> & your space's <strong><em>rhythm</em></strong>, keeping energy <strong><em>balanced</em></strong> for both guests & staff.
+                We shape your <strong><em>playlists</em></strong> around your brand's <strong><em>character</em></strong> & your space's <strong><em>rhythm</em></strong>, keeping energy <strong><em>balanced</em></strong> for both guests & staff.
               </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
                 Your sound <strong><em>becomes intentional</em></strong> & <strong><em>felt</em></strong> in the atmosphere, not lost in the background.
