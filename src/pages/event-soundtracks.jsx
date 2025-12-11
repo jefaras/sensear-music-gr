@@ -265,10 +265,10 @@ export default function EventSoundtracks() {
             
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                We design music that evolves to <strong><em>follow your show</em></strong>, ensuring the energy always <strong><em>matches</em></strong> the moment.
+                We design soundtracks to <strong><em>follow your event's plan</em></strong>, so energy always <strong><em>matches</em></strong> the moment.
               </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                Music <strong><em>carries the event forward</em></strong>, turning each moment into something guests <strong><em>experience & remember</em></strong>, not just hear.
+                Music <strong><em>carries the event forward</em></strong>, turning interactions into something guests <strong><em>enjoy & remember</em></strong>.
               </p>
             </div>
           </div>
