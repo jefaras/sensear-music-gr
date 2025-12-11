@@ -335,7 +335,7 @@ export default function Services() {
                   Every venue <strong>has a soundtrack</strong>, whether you designed it or not. SensEar ensures it tells <span className="text-black bg-white px-1">the right story</span>.
                 </p>
                 <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                  We shape sound for venues and events where <strong>atmosphere</strong> matters: influencing how guests <strong>feel</strong>, how long they <strong>stay</strong> and how they <strong>remember</strong> you.
+                  We shape sound for venues & events where <strong>atmosphere</strong> matters: guiding how guests <strong>feel</strong>, how long they <strong>stay</strong> and how they <strong>remember</strong> you.
                 </p>
               </div>
           </div>
@@ -375,7 +375,7 @@ export default function Services() {
 
                   <div>
                     <div className="mb-6">
-                      <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Curated playlists that evolve throughout the day, monthly updates and remote management.</p>
+                      <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Curated playlists that evolve throughout the day, monthly updates, remote management.</p>
                     </div>
                     <div className="mb-6">
                       <span className="font-bold text-black text-lg block mb-1">Ideal for:</span>
@@ -502,7 +502,7 @@ export default function Services() {
 
                   <div className="flex-1 flex flex-col">
                     <div className="mb-4">
-                      <p className="text-lg text-black/60 leading-relaxed">Acoustic and equipment guidance & installation.</p>
+                      <p className="text-lg text-black/60 leading-relaxed">Acoustic & equipment guidance with installation support.</p>
                     </div>
                     <div className="mb-4">
                       <span className="font-bold text-black text-base block mb-1">Ideal for:</span>
@@ -547,7 +547,7 @@ export default function Services() {
                 <div className="space-y-8">
                     <div className="mb-6">
                         <p className="text-xl md:text-2xl text-black/60 leading-relaxed">
-                             <Link to={createPageUrl("signature-playlists")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Signature Playlists</Link> <span className="text-[21.5px]">establish your daily atmosphere.</span>
+                             <Link to={createPageUrl("signature-playlists")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Signature Playlists</Link> <span className="text-[21.5px]">build your daily atmosphere.</span>
                         </p>
                     </div>
                     <div className="mb-6">
@@ -584,6 +584,7 @@ export default function Services() {
                 Discover your sound strategy
               </AnimatedButton>
             </Link>
+            <span className="text-black/60 font-medium">or</span>
             <Link to={createPageUrl("Industries")}>
               <AnimatedButton className="w-full sm:w-auto h-14">
                 See Industries we serve
