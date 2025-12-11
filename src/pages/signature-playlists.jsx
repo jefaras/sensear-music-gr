@@ -288,7 +288,7 @@ export default function SignaturePlaylists() {
             </h2>
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                We design fresh, engaging <strong><em>music playlists</em></strong> that reflect your <strong><em>brand</em></strong>, guide the <strong><em>energy</em></strong> in your spaces & keep guests and teams <strong><em>tuned in</em></strong>.
+                We create fresh, <strong><em>engaging music playlists</em></strong> that <strong><em>reflect</em></strong> your brand and keep the mood <strong><em>balanced</em></strong> throughout the day.
               </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
                 Your soundtrack <strong><em>becomes intentional</em></strong> & <strong><em>felt</em></strong> in the atmosphere, not lost in the background.
