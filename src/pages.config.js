@@ -14,6 +14,7 @@ import PlaylistsDemos from './pages/PlaylistsDemos';
 import servicesV2 from './pages/Services-v2';
 import Services from './pages/Services';
 import Sitemap from './pages/Sitemap';
+import artMuseumsFashionPrev from './pages/art-museums-fashion-prev';
 import artMuseumsFashion from './pages/art-museums-fashion';
 import audioUpgrades from './pages/audio-upgrades';
 import backgroundMusicShapesCustomerBehavior from './pages/background-music-shapes-customer-behavior';
@@ -22,25 +23,19 @@ import blueBamboo from './pages/blue-bamboo';
 import brandMusicConvertsBrowsersBuyers from './pages/brand-music-converts-browsers-buyers';
 import buildingBrandPeopleCanHear from './pages/building-brand-people-can-hear';
 import eventSoundtracks from './pages/event-soundtracks';
-import eventsExperiencesPrev from './pages/events-experiences-prev';
 import eventsExperiences from './pages/events-experiences';
-import hotelsResortsPrev from './pages/hotels-resorts-prev';
 import hotelsResorts from './pages/hotels-resorts';
 import howTopHospitalityBrandsDesignSound from './pages/how-top-hospitality-brands-design-sound';
 import klouviBar from './pages/klouvi-bar';
 import musicCurationCycleVenues from './pages/music-curation-cycle-venues';
 import pelicanosSifnosRestaurant from './pages/pelicanos-sifnos-restaurant';
-import restaurantsBarsPrev from './pages/restaurants-bars-prev';
 import restaurantsBars from './pages/restaurants-bars';
-import retailStoresPrev from './pages/retail-stores-prev';
 import retailStores from './pages/retail-stores';
 import serviceEnvironmentShapesWaitTime from './pages/service-environment-shapes-wait-time';
 import signaturePlaylistsTest from './pages/signature-playlists-test';
 import signaturePlaylists from './pages/signature-playlists';
 import sonicStrategy from './pages/sonic-strategy';
 import threeReasonsMakeMusicHospitality from './pages/three-reasons-make-music-hospitality';
-import wellnessCenters from './pages/wellness-centers';
-import wellnessGymsPrev from './pages/wellness-gyms-prev';
 import wellnessGyms from './pages/wellness-gyms';
 import whatExactlyDoesMusicCuratorDo from './pages/what-exactly-does-music-curator-do';
 import __Layout from './Layout.jsx';
@@ -63,6 +58,7 @@ export const PAGES = {
     "Services-v2": servicesV2,
     "Services": Services,
     "Sitemap": Sitemap,
+    "art-museums-fashion-prev": artMuseumsFashionPrev,
     "art-museums-fashion": artMuseumsFashion,
     "audio-upgrades": audioUpgrades,
     "background-music-shapes-customer-behavior": backgroundMusicShapesCustomerBehavior,
@@ -71,25 +67,19 @@ export const PAGES = {
     "brand-music-converts-browsers-buyers": brandMusicConvertsBrowsersBuyers,
     "building-brand-people-can-hear": buildingBrandPeopleCanHear,
     "event-soundtracks": eventSoundtracks,
-    "events-experiences-prev": eventsExperiencesPrev,
     "events-experiences": eventsExperiences,
-    "hotels-resorts-prev": hotelsResortsPrev,
     "hotels-resorts": hotelsResorts,
     "how-top-hospitality-brands-design-sound": howTopHospitalityBrandsDesignSound,
     "klouvi-bar": klouviBar,
     "music-curation-cycle-venues": musicCurationCycleVenues,
     "pelicanos-sifnos-restaurant": pelicanosSifnosRestaurant,
-    "restaurants-bars-prev": restaurantsBarsPrev,
     "restaurants-bars": restaurantsBars,
-    "retail-stores-prev": retailStoresPrev,
     "retail-stores": retailStores,
     "service-environment-shapes-wait-time": serviceEnvironmentShapesWaitTime,
     "signature-playlists-test": signaturePlaylistsTest,
     "signature-playlists": signaturePlaylists,
     "sonic-strategy": sonicStrategy,
     "three-reasons-make-music-hospitality": threeReasonsMakeMusicHospitality,
-    "wellness-centers": wellnessCenters,
-    "wellness-gyms-prev": wellnessGymsPrev,
     "wellness-gyms": wellnessGyms,
     "what-exactly-does-music-curator-do": whatExactlyDoesMusicCuratorDo,
 }
