@@ -338,7 +338,7 @@ export default function Home() {
             
               <div className="w-full text-center">
                 <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                  We are a team of Athens-based <strong><em>music strategists</em></strong> who create <strong><em>soundscapes for venues</em></strong> through <strong><em>music</em></strong> that is <strong><em>intentional</em></strong>, <strong><em>immersive</em></strong> and <strong><em>memorable</em></strong>.
+                  We are a team of Athens-based <strong><em>music experts</em></strong> who create <strong><em>soundtracks for venues</em></strong> through <strong><em>music</em></strong> that is <strong><em>intentional</em></strong>, <strong><em>immersive</em></strong> and <strong><em>memorable</em></strong>.
                 </p>
                 <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
                   Our core belief is that music shapes <strong>atmosphere</strong>, influences <strong>behaviour</strong> and builds lasting <strong>connections</strong> with guests.
