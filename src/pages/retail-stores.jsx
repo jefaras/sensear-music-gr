@@ -304,7 +304,7 @@ export default function RetailStores() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Journey-based playlists</h3>
-                <p className="text-lg text-black/70">Music designed to fit all your shop's areas, supporting natural discovery and decision-making.</p>
+                <p className="text-lg text-black/70">Music designed to fit all your shop's areas, supporting natural discovery & decision-making.</p>
               </div>
 
               <div>
@@ -394,17 +394,17 @@ export default function RetailStores() {
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Strengthen brand recognition</h3>
-                <p className="text-lg text-black/70">Sound, visuals and service tell the same, recognizable story across locations.</p>
+                <p className="text-lg text-black/70">Sound, visuals & service tell the same, recognizable story across locations.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Guide natural flow</h3>
-                <p className="text-lg text-black/70">Music helps move through sections, fitting rooms, and checkout without rushing.</p>
+                <p className="text-lg text-black/70">Music adjusts to day parts & helps move through sections without rushing.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Remove playlist management</h3>
-                <p className="text-lg text-black/70">Commercially licensed, centrally managed playlists let your team focus on customers, not songs or volume.</p>
+                <p className="text-lg text-black/70">Commercially licensed & centrally managed playlists let your team focus on clients, not songs.</p>
               </div>
             </div>
           </div>
