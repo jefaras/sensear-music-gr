@@ -232,22 +232,22 @@ export default function HotelsResorts() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Different energy for every hour & space</h3>
-                <p className="text-lg text-black/70">We design music that shifts naturally as your property's rhythm changes throughout the day.</p>
+                <p className="text-lg text-black/70">We design music that shifts naturally as your property's rhythm changes through the day.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Zone specific curation with one identity</h3>
-                <p className="text-lg text-black/70">We create distinct atmospheres tied by one recognizable identity, instead of playlists with no shared logic.</p>
+                <p className="text-lg text-black/70">We create distinct themes tied by one recognizable identity, instead of random playlists.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Signature themes that fit your brand</h3>
-                <p className="text-lg text-black/70">We translate your brand into melodies that match your interiors & service and feel intentionally yours.</p>
+                <p className="text-lg text-black/70">We bring your brand to life with melodies that match interiors & service and feel uniquely yours.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Central control instead of staff DJing</h3>
-                <p className="text-lg text-black/70">We handle music playback & commercial use licensing, so staff focus on guests, not volume and song selection.</p>
+                <p className="text-lg text-black/70">We handle music playback & commercial use licensing, so staff focus on guests, not volume & song selection.</p>
               </div>
             </div>
           </div>
