@@ -82,8 +82,11 @@ export default function CaseStudies() {
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                Listen to our clients'<br />stories unfold through music
+                Hear how sound<br />shapes real experiences
               </h1>
+              <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
+                Examples of how sound is applied across different environments.
+              </p>
             </div>
 
             {/* Right Column: Square Image */}

@@ -252,6 +252,9 @@ export default function AboutUs() {
               <h1 className="text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
                 The people behind your soundtrack
               </h1>
+              <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
+                We help venues define how they are heard and felt.
+              </p>
             </div>
 
             {/* Right Column: Square Image */}

@@ -341,6 +341,9 @@ This inquiry has been saved to the database and can be viewed in the admin panel
             <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
               Get in Touch
             </h1>
+            <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
+              Every space is different. Let's understand yours.
+            </p>
             
 
           </div>

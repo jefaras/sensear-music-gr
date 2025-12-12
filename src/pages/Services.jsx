@@ -297,6 +297,9 @@ export default function Services() {
                 Strategic sound,<br />
                 four proven approaches
               </h1>
+              <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
+                Practical sound services designed to complement the way spaces function and feel.
+              </p>
             </div>
 
             {/* Right Column: Square Image */}

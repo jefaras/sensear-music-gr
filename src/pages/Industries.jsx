@@ -94,6 +94,9 @@ export default function Industries() {
               <h1 className="text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
                 Curated music<br />tailored to your sector
               </h1>
+              <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
+                Distinct spaces require unique sound experiences.
+              </p>
             </div>
 
             {/* Right Column: Square Image */}
