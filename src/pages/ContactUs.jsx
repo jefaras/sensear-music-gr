@@ -331,6 +331,28 @@ This inquiry has been saved to the database and can be viewed in the admin panel
           animation: slideUp 0.8s ease-out 0.6s forwards;
           opacity: 0;
         }
+
+        @keyframes gradient-shift {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+
+        .animated-gradient {
+          background: linear-gradient(
+            135deg,
+            #f5d4c1 0%,
+            #e8c3b0 15%,
+            #d4c4b0 30%,
+            #c0c0c0 45%,
+            #d3d3d3 60%,
+            #f0d5d0 75%,
+            #e8c3b0 90%,
+            #f5d4c1 100%
+          );
+          background-size: 400% 400%;
+          animation: gradient-shift 10s ease infinite;
+        }
       `}</style>
 
       {/* Hero Section - Two Column Layout */}
