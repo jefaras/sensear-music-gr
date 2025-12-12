@@ -382,18 +382,18 @@ export default function Blog() {
             <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
               {/* Mobile/Tablet version - NO parallax */}
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1a8bb2cf4_8270df064_pxbee_2025-10-14_21-33-37cropprd-1.jpg"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1a8bb2cf4_8270df064_pxbee_2025-10-14_21-33-37cropprd-1.jpg 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1a8bb2cf4_8270df064_pxbee_2025-10-14_21-33-37cropprd-1.jpg 2400w"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/8270df064_pxbee_2025-10-14_21-33-37.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/8270df064_pxbee_2025-10-14_21-33-37.jpg 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/8270df064_pxbee_2025-10-14_21-33-37.jpg 2400w"
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Music curation blog insights and industry research articles"
                 className="absolute w-full h-full object-cover md:hidden"
               />
               {/* Desktop version - WITH parallax */}
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1a8bb2cf4_8270df064_pxbee_2025-10-14_21-33-37cropprd-1.jpg"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1a8bb2cf4_8270df064_pxbee_2025-10-14_21-33-37cropprd-1.jpg 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1a8bb2cf4_8270df064_pxbee_2025-10-14_21-33-37cropprd-1.jpg 2400w"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/8270df064_pxbee_2025-10-14_21-33-37.jpg"
+                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/8270df064_pxbee_2025-10-14_21-33-37.jpg 1800w,
+                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/8270df064_pxbee_2025-10-14_21-33-37.jpg 2400w"
                 sizes="(max-width: 1800px) 100vw, 1800px"
                 alt="Music curation blog insights and industry research articles"
                 className="absolute w-full h-full object-cover hidden md:block"
