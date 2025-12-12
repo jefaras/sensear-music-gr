@@ -121,7 +121,7 @@ export default function CaseStudies() {
                   All venues start with a <span className="text-black bg-white px-1">vision</span>; an <span className="text-black bg-white px-1">atmosphere</span> they imagined, a <span className="text-black bg-white px-1">feeling</span> they wanted guests to have.
                 </p>
                 <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                  We turn those visions into <strong>carefully crafted soundscapes</strong> that support your business while <strong>respecting the space</strong>.
+                  We turn those visions into <strong>carefully crafted soundscapes</strong> that support your business and <strong>respect the space</strong>.
                 </p>
               </div>
           </div>
