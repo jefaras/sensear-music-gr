@@ -412,7 +412,7 @@ export default function Services() {
                 <div className="lg:order-1">
                   <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                     <img
-                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d4a085ed9_EventSoundtracks-upsc2-cropped.jpg"
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/587b0ab41_IMG_20250801_204842.jpg"
                       alt="Event soundtracks and production"
                       className="w-full h-auto object-cover rounded-xl shadow-lg"
                     />
