@@ -300,13 +300,13 @@ export default function EventsExperiences() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
             <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-12">
-              Carefully timed music<br />
+              Music timed<br />
               for every event moment
             </h2>
             
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                At events, <strong><em>music connects every moment</em></strong> from arrival to finale.
+                At events, <strong><em>music connects each moment</em></strong> from arrival to finale.
               </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
                 We create sonic journeys that <strong><em>build atmosphere</em></strong> & move with your event’s timeline, making music <strong><em>important & memorable</em></strong>.
@@ -329,12 +329,12 @@ export default function EventsExperiences() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Run-of-show sound design</h3>
-                <p className="text-lg text-black/70">Multi-phase soundtracks that match each phase's energy and purpose from doors open to last track.</p>
+                <p className="text-lg text-black/70">Multi-phase soundtracks that match each phase's energy & purpose from doors open to last track.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Story-driven curation</h3>
-                <p className="text-lg text-black/70">Build anticipation, focus, and emotional peaks with music that evolves with your event's narrative.</p>
+                <p className="text-lg text-black/70">Build anticipation, focus & emotional peaks with music that evolves with your event's narrative.</p>
               </div>
 
               <div>
@@ -344,7 +344,7 @@ export default function EventsExperiences() {
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Single point of contact</h3>
-                <p className="text-lg text-black/70">We work with your venue on music curation and technical execution to reduce coordination stress.</p>
+                <p className="text-lg text-black/70">We work with your venue on music curation & technicalities to reduce coordination stress.</p>
               </div>
             </div>
 
@@ -434,13 +434,8 @@ export default function EventsExperiences() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-white mb-3">Reduce day-of stress</h3>
-                <p className="text-lg text-white/80">One team handles music & technical execution with pre-made decisions, so you can focus on hosting.</p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-white mb-3">Create repeatable frameworks</h3>
-                <p className="text-lg text-white/80">Once we design what works, you can adapt the sonic approach for future editions, locations or client events.</p>
+                <h3 className="text-2xl font-bold text-white mb-3">Reduce stress levels</h3>
+                <p className="text-lg text-white/80">Our team handles music & technical execution with pre-made decisions, so you can focus on hosting.</p>
               </div>
             </div>
           </div>
