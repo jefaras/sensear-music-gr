@@ -389,12 +389,12 @@ export default function RestaurantsBars() {
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Match your concept exactly</h3>
-                <p className="text-lg text-black/70">Music, lighting and service finally tell the same story, so your Mediterranean bistro sounds as authentic as it tastes.</p>
+                <p className="text-lg text-black/70">Music, interiors & service finally tell the same story, so your bistro sounds as authentic as it tastes.</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-3">Remove playlist friction</h3>
-                <p className="text-lg text-black/70">We supply the sound, you set the rules and staff focuses on guests, not scrambling for tracks mid-service.</p>
+                <p className="text-lg text-black/70">We supply sound, you set rules, staff focuses on guests, not searching for tracks mid-service.</p>
               </div>
             </div>
           </div>
