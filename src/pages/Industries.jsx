@@ -123,15 +123,15 @@ export default function Industries() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
               <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-white leading-tight mb-12">
-                The right energy<br />for every moment
+                The right atmosphere<br />for every space
               </h2>
             
               <div className="w-full text-center">
                 <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                  A <strong>hotel lobby</strong> needs <span className="text-black bg-white px-1 italic">different energy</span> than a <strong>cocktail bar</strong>. A <strong>restaurant</strong> demands <span className="text-black bg-white px-1 italic">rhythm that matches</span> service flow. A <strong>gallery</strong> requires <span className="text-black bg-white px-1 italic">respect</span> for the art.
+                  Hotels, restaurants, retail, gyms & culture all ask for their own atmosphere, shaped to how people move, feel & interact.
                 </p>
                 <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                  Different worlds, <em>shared truth:</em> the <strong>right music turns spaces</strong> from functional to <strong>unforgettable</strong>.
+                  Different worlds, <em>same truth:</em> the <strong>right music turns spaces</strong> into <strong>experiences</strong>.
                 </p>
               </div>
           </div>
