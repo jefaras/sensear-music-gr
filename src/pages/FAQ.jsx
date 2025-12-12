@@ -51,51 +51,33 @@ export default function FAQ() {
         }
       `}</style>
 
-      {/* Hero Section - New Format */}
-      <section className="relative pt-32 pb-20 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Frequently Asked Questions">
-        {/* Text content */}
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="w-full">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-6 leading-[1.1] slide-up-1">
-              Frequently Asked Questions
-            </h1>
-            
-            <div className="mb-8 max-w-4xl slide-up-2">
-              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
-                Your questions about music curation, licensing, and our services, answered. Find the information you need to make an informed decision.
+      {/* Hero Section - Two Column Layout */}
+      <section className="relative pt-32 pb-32 min-h-[90vh] flex flex-col justify-center overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Frequently Asked Questions">
+        <div className="w-full px-6 md:px-12 lg:px-16">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Column: H1 */}
+            <div className="flex flex-col justify-center text-left">
+              <h1 className="text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
+                Understanding how it works
+              </h1>
+              <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
+                Answers to common questions about sound, licensing & our services.
               </p>
             </div>
-          </div>
-        </div>
 
-        {/* Hero Image - Larger with parallax */}
-        <div className="w-full px-6 slide-up-4">
-          <div className="mx-auto" style={{ maxWidth: '1800px' }}>
-            <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
-              {/* Mobile/Tablet version - NO parallax */}
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/cc2be0306_c0d1799938e6c6836303a2d72580c5f8_earphones.jpg"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec93503a2d72580c5f8_earphones.jpg 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec93503a2d72580c5f8_earphones.jpg 2400w"
-                sizes="(max-width: 1800px) 100vw, 1800px"
-                alt="Music curation consultation and expert answers to frequently asked questions"
-                className="absolute w-full h-full object-cover md:hidden"
-              />
-              {/* Desktop version - WITH parallax */}
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/cc2be0306_c0d1799938e6c6836303a2d72580c5f8_earphones.jpg"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/cc2be0306_c0d1799938e6c6836303a2d72580c5f8_earphones.jpg 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/cc2be0306_c0d1799938e6c6836303a2d72580c5f8_earphones.jpg 2400w"
-                sizes="(max-width: 1800px) 100vw, 1800px"
-                alt="Music curation consultation and expert answers to frequently asked questions"
-                className="absolute w-full h-full object-cover hidden md:block"
-                style={{ 
-                  top: '-15%',
-                  height: '130%',
-                  transform: `translateY(${scrollY * 0.15}px)`,
-                  transformOrigin: 'center top'
-                }}
-              />
+            {/* Right Column: Square Image */}
+            <div className="w-full slide-up-4 flex justify-center lg:justify-end">
+              <div className="w-full lg:w-[93.5%]">
+                <div className="overflow-hidden rounded-2xl shadow-2xl">
+                  <div className="relative aspect-square">
+                    <img 
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/17b4a5b7d_seedream-40_high-resolution_professional_photography_image_with_precise_details_and_refined_-01-.jpg" 
+                      alt="Understanding music curation services and licensing" 
+                      className="w-full h-full object-cover" 
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
