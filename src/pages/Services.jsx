@@ -413,7 +413,7 @@ export default function Services() {
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/587b0ab41_IMG_20250801_204842.jpg"
                       alt="Event soundtracks and production"
-                      className="w-full h-auto object-cover rounded-xl shadow-lg"
+                      className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg"
                     />
                   </div>
                 </div>
