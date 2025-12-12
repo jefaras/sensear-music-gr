@@ -526,7 +526,7 @@ This inquiry has been saved to the database and can be viewed in the admin panel
               </div>
 
               <address className="grid md:grid-cols-3 gap-6 not-italic">
-                <Card className="p-6 border-none" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <Card className="p-6 border-none animated-gradient">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-black/5 rounded-full flex items-center justify-center flex-shrink-0" aria-hidden="true">
                       <Phone className="w-5 h-5 text-black" />
@@ -534,12 +534,12 @@ This inquiry has been saved to the database and can be viewed in the admin panel
                     <div>
                       <h4 className="font-semibold text-black mb-1">Phone</h4>
                       <p className="text-black/80"><a href="tel:+306976994212">+30 6976994212</a></p>
-                      <p className="text-sm text-black/60 mt-1">Mon-Fri, 9am-6pm EET</p>
+                      <p className="text-sm text-black/60 mt-1">Available Monday–Saturday, 10:00–18:00 (EET)</p>
                     </div>
                   </div>
                 </Card>
 
-                <Card className="p-6 border-none" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <Card className="p-6 border-none animated-gradient">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-black/5 rounded-full flex items-center justify-center flex-shrink-0" aria-hidden="true">
                       <Mail className="w-5 h-5 text-black" />
@@ -547,12 +547,12 @@ This inquiry has been saved to the database and can be viewed in the admin panel
                     <div>
                       <h4 className="font-semibold text-black mb-1">Email</h4>
                       <p className="text-black/80"><a href="mailto:hello@sensear.music">hello@sensear.music</a></p>
-                      <p className="text-sm text-black/60 mt-1">24-hour response time</p>
+                      <p className="text-sm text-black/60 mt-1">We usually reply within 24 hours</p>
                     </div>
                   </div>
                 </Card>
 
-                <Card className="p-6 border-none" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <Card className="p-6 border-none animated-gradient">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-black/5 rounded-full flex items-center justify-center flex-shrink-0" aria-hidden="true">
                       <MapPin className="w-5 h-5 text-black" />
@@ -560,7 +560,7 @@ This inquiry has been saved to the database and can be viewed in the admin panel
                     <div>
                       <h4 className="font-semibold text-black mb-1">Location</h4>
                       <p className="text-black/80">Athens, Greece</p>
-                      <p className="text-sm text-black/60 mt-1">Serving all Greek islands</p>
+                      <p className="text-sm text-black/60 mt-1">Working with brands across Greece and its islands.</p>
                     </div>
                   </div>
                 </Card>
