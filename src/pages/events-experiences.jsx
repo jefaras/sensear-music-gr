@@ -309,7 +309,7 @@ export default function EventsExperiences() {
                 At events, <strong><em>music connects each moment</em></strong> from arrival to finale.
               </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                We create sonic journeys that <strong><em>build atmosphere</em></strong> & move with your event’s timeline, making music <strong><em>important & memorable</em></strong>.
+                Our soundscapes <strong><em>build atmosphere</em></strong> & follow your event’s timeline, creating moments guests <strong><em>feel & recall</em></strong>.
               </p>
             </div>
           </div>
