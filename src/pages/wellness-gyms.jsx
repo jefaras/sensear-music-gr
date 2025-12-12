@@ -302,16 +302,16 @@ export default function WellnessGyms() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
             <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-12">
-              Soundscapes fine-tuned<br />
+              Music themes fine-tuned<br />
               for mind & body
             </h2>
             
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                Music in wellness and gym spaces <strong><em>guides focus & tempo</em></strong> during each session.
+                Music in wellness & gym spaces <strong><em>guides focus, pace & mindset</em></strong> during sessions.
               </p>
               <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                We design wellness & gym music that <strong><em>adapts to each space & intensity</em></strong> level, turning sound into a <strong><em>functional part</em></strong> of the experience.
+                Our mixes <strong><em>adapt to each zone & intensity</em></strong> level, helping guests <strong><em>stay present & engaged</em></strong>.
               </p>
             </div>
           </div>
