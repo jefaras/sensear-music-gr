@@ -218,7 +218,7 @@ export default function Industries() {
               <div className="order-2">
                 <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                   <img
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5d3a0fed6_gemini-25-flash-image_Add_a_waiter_carrying_dinner_and_a_couple_of_guests_having_their_drinks_in_a_tab-0.jpg"
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/361d4fa4c_Marmelo-by-Mitchell-Eades-Issue-18-Feature-The-Local-Project-Image-2-cropped-.jpg"
                     alt="Restaurants & Bars"
                     className="w-full h-auto object-cover rounded-xl shadow-lg" />
 
