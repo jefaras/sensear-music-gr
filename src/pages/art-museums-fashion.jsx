@@ -304,18 +304,15 @@ export default function ArtMuseumsFashion() {
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
             <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-12">
               Discreet precision<br />
-              for galleries, exhibitions & runways
+              for galleries & runways
             </h2>
             
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                From quiet galleries to runway finales, sound should feel present without competing.
-              </p>
-              <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed mb-6">
-                We design atmospheres for exhibitions, collections & presentations that respect the work while guiding how visitors experience each moment.
+                In galleries and runways alike, sound should feel present without competing.
               </p>
               <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                Music becomes part of how the work is perceived.
+                We create soundscapes that respect each piece & gently guide how visitors move & perceive the work.
               </p>
             </div>
           </div>
