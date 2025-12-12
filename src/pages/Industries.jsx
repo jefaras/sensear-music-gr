@@ -128,7 +128,7 @@ export default function Industries() {
             
               <div className="w-full text-center">
                 <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                  Hotels, restaurants, retail, gyms & culture all ask for their own atmosphere, shaped to how people move, feel & interact.
+                  Hotels, restaurants, retail, gyms & culture all ask for <strong><em>their own atmosphere</em></strong>, shaped to how people <strong><em>move, feel & interact</em></strong>.
                 </p>
                 <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
                   Different worlds, <em>same truth:</em> the <strong>right music turns spaces</strong> into <strong>experiences</strong>.
