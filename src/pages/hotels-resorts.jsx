@@ -82,7 +82,7 @@ export default function HotelsResorts() {
                 Soundtracks for every hour & space
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                Sound designed to support every part of the guest journey
+                Thoughtful sound that complements service, design & mood
               </p>
             </div>
 
