@@ -425,7 +425,7 @@ export default function Layout({ children }) {
 
               {/* Sonic Insights */}
               <div>
-                <h3 className="text-sm font-semibold text-peach mb-3 font-jakarta">Strategic sound, delivered monthly</h3>
+                <h3 className="text-sm font-semibold text-peach mb-3 font-jakarta">Curated sound, delivered monthly</h3>
                 <div className="flex gap-2">
                   <Input type="email" placeholder="Your email" className="bg-white/10 border-white/20 text-white placeholder:text-white/50 flex-1 text-sm h-9 max-w-[180px]" />
                   <FooterButton>Stay informed</FooterButton>
