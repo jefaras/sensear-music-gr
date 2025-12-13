@@ -234,46 +234,31 @@ export default function SignaturePlaylists() {
         }
       `}</style>
 
-      {/* Hero Section */}
-      <section className="relative pt-32 pb-20 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Signature Playlists section">
-        {/* Text content */}
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="w-full">
-            <h1 className="text-[2.7rem] sm:text-[3.6rem] md:text-[4.5rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-              Signature Playlists:<br />
-              Exceptional, custom music for your space
-            </h1>
-          </div>
-        </div>
+      {/* Hero Section - Two Column Layout */}
+      <section className="relative pt-32 pb-32 min-h-[90vh] flex flex-col justify-center overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Signature Playlists section">
+        <div className="w-full px-6 md:px-12 lg:px-16">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Column: H1 */}
+            <div className="flex flex-col justify-center text-left">
+              <h1 className="text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
+                Signature Playlists:<br />
+                Exceptional, custom music for your space
+              </h1>
+            </div>
 
-        {/* Hero Image - Larger with parallax */}
-        <div className="w-full px-6 slide-up-4">
-          <div className="mx-auto" style={{ maxWidth: '1800px' }}>
-            <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
-              {/* Mobile/Tablet version - NO parallax */}
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg 2400w"
-                sizes="(max-width: 1800px) 100vw, 1800px"
-                alt="Bespoke music curation and playlist creation for unique venue atmosphere"
-                className="absolute w-full h-full object-cover md:hidden" />
-
-              {/* Desktop version - WITH parallax */}
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b78efe258_f62cd7127a69c8a8a667cf33da146404.jpg 2400w"
-                sizes="(max-width: 1800px) 100vw, 1800px"
-                alt="Bespoke music curation and playlist creation for unique venue atmosphere"
-                className="absolute w-full h-full object-cover hidden md:block"
-                style={{
-                  top: '-15%',
-                  height: '130%',
-                  transform: `translateY(${scrollY * 0.15}px)`,
-                  transformOrigin: 'center top'
-                }} />
-
+            {/* Right Column: Square Image */}
+            <div className="w-full slide-up-4 flex justify-center lg:justify-end">
+              <div className="w-full lg:w-[93.5%]">
+                <div className="overflow-hidden rounded-2xl shadow-2xl">
+                  <div className="relative aspect-square">
+                    <img 
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/cb5c9be16_fe959a9eda0e3059a0b19f803958ba85-cropped.jpg" 
+                      alt="Bespoke music curation and playlist creation for unique venue atmosphere" 
+                      className="w-full h-full object-cover" 
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
