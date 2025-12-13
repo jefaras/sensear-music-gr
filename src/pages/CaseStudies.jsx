@@ -149,33 +149,33 @@ export default function CaseStudies() {
           </div>
 
           <div className="space-y-24">
-            {/* Yam Beach Club */}
+            {/* Beach House Antiparos */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
                 <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                   <img
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/2886fc06f_hyggelig-aftenstemningcropped-pxbee-minitools-enhance-20251212181718.jpg"
-                    alt="Yam Beach Club"
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/4246ff146_upscalemedia-transformed.png"
+                    alt="Beach House Antiparos"
                     className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
                 </div>
               </div>
               <div className="order-1 lg:order-2">
-                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Yam, Antiparos</h3>
+                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Beach House, Antiparos</h3>
                 
                 <div className="mb-8">
                   <p className="text-lg md:text-xl text-black/60 leading-loose mb-6">
-                    An iconic Antiparos venue since the late '90s, Yam sits on a beautiful scenery and an easy-going vibe.
+                    Beach House features traditional island style, the high-end restaurant CoocooVaya and a bar hovering above the sea, all with endless Aegean views.
                   </p>
                   <p className="text-xl md:text-2xl text-black/60 leading-relaxed font-medium">
-                    The girls in charge asked us to complement this special setting with <strong>music that evolves</strong> from lazy lunch to late night hangouts. We created a <strong>fine music experience</strong> for their after-dinner drinks and cocktails that captures the island's magic.
+                    We were delighted when asked to design the music: the stunning setting needed <strong>sound that complements</strong> and relaxes. Our playlists respect the peaceful atmosphere while <strong>keeping perfect energy</strong> across beach, restaurant & bar.
                   </p>
                 </div>
 
                 <div className="space-y-6">
-                  <a href="#yam-sample">
+                  <a href="#beach-house-sample">
                     <AnimatedButton className="w-full sm:w-auto">
                       <span className="inline-flex items-center gap-2 font-bold">
-                        <Music className="w-5 h-5" /> Listen to Yam's playlist
+                        <Music className="w-5 h-5" /> Listen to Beach House playlist
                       </span>
                     </AnimatedButton>
                   </a>
@@ -217,33 +217,33 @@ export default function CaseStudies() {
               </div>
             </div>
 
-            {/* Beach House Antiparos */}
+            {/* Yam Beach Club */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
                 <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                   <img
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/4246ff146_upscalemedia-transformed.png"
-                    alt="Beach House Antiparos"
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/2886fc06f_hyggelig-aftenstemningcropped-pxbee-minitools-enhance-20251212181718.jpg"
+                    alt="Yam Beach Club"
                     className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
                 </div>
               </div>
               <div className="order-1 lg:order-2">
-                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Beach House, Antiparos</h3>
+                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Yam, Antiparos</h3>
                 
                 <div className="mb-8">
                   <p className="text-lg md:text-xl text-black/60 leading-loose mb-6">
-                    Beach House features traditional island style, the high-end restaurant CoocooVaya and a bar hovering above the sea, all with endless Aegean views.
+                    An iconic Antiparos venue since the late '90s, Yam sits on a beautiful scenery and an easy-going vibe.
                   </p>
                   <p className="text-xl md:text-2xl text-black/60 leading-relaxed font-medium">
-                    We were delighted when asked to design the music: the stunning setting needed <strong>sound that complements</strong> and relaxes. Our playlists respect the peaceful atmosphere while <strong>keeping perfect energy</strong> across beach, restaurant & bar.
+                    The girls in charge asked us to complement this special setting with <strong>music that evolves</strong> from lazy lunch to late night hangouts. We created a <strong>fine music experience</strong> for their after-dinner drinks and cocktails that captures the island's magic.
                   </p>
                 </div>
 
                 <div className="space-y-6">
-                  <a href="#beach-house-sample">
+                  <a href="#yam-sample">
                     <AnimatedButton className="w-full sm:w-auto">
                       <span className="inline-flex items-center gap-2 font-bold">
-                        <Music className="w-5 h-5" /> Listen to Beach House playlist
+                        <Music className="w-5 h-5" /> Listen to Yam's playlist
                       </span>
                     </AnimatedButton>
                   </a>
