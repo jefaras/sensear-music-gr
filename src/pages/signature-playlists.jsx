@@ -395,7 +395,7 @@ export default function SignaturePlaylists() {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold text-black mb-3">On-brand, but also legal playlists</h3>
-              <p className="text-lg text-black/70">Consumer platforms like Spotify or YouTube are not licensed for commercial environments, which is why we provide music cleared for professional use.</p>
+              <p className="text-lg text-black/70">We provide music cleared for professional use which offers you an extra ease of mind.</p>
             </div>
           </div>
         </div>
