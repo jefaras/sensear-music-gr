@@ -429,11 +429,6 @@ export default function ArtMuseumsFashion() {
                 <h3 className="text-2xl font-bold text-white mb-3">Simplify event execution</h3>
                 <p className="text-lg text-white/80">Planning and reliable playback let teams focus on guests & artists rather than volume & transitions.</p>
               </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-white mb-3">Maintain cultural integrity</h3>
-                <p className="text-lg text-white/80">Proper licensing & context-aware selection safeguard sound as well as visuals.</p>
-              </div>
             </div>
           </div>
         </div>
