@@ -221,7 +221,7 @@ export default function EventSoundtracks() {
                 Music timed to your event's flow
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                Soundtracks designed to support each phase, from arrival to final moment.
+                Soundtracks designed to support each phase, from arrival to finale.
               </p>
             </div>
 
