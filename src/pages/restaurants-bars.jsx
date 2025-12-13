@@ -233,7 +233,7 @@ export default function RestaurantsBars() {
                 Designed to blend in with food & service
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                Selections that complement taste, timing and setting
+                Selections that complement taste, timing and setting.
               </p>
             </div>
 

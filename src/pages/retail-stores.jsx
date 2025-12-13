@@ -234,7 +234,7 @@ export default function RetailStores() {
                 Intended to welcome & inspire discovery
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                Rhythm curated to support exploration & brand image
+                Rhythm curated to support exploration & brand image.
               </p>
             </div>
 
