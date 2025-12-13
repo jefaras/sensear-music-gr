@@ -275,7 +275,7 @@ export default function WellnessGyms() {
                 <div className="overflow-hidden rounded-2xl shadow-2xl">
                   <div className="relative aspect-square">
                     <img 
-                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/93a25f522_seedream-40_Upscale_this_image_keeping_all_natural_contexts_and_add_two_small_and_discreet_s-0.jpg" 
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1328f3e9a_80sspa-1-1.jpg" 
                       alt="Luxury wellness spa interior with curated ambient music" 
                       className="w-full h-full object-cover" 
                     />
