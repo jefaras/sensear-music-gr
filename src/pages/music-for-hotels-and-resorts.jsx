@@ -25,7 +25,7 @@ export default function MusicForHotelsAndResorts() {
     
     // SEO Meta Tags
     const metaDescription = document.querySelector('meta[name="description"]');
-    const description = "Music for Hotels & Resorts designed to build atmosphere across spaces and time of day, with tunes that guests feel & remember.";
+    const description = "Music for Hotels & Resorts designed to build atmosphere across spaces and time of day, with soundscapes guests feel & remember.";
     if (metaDescription) {
       metaDescription.setAttribute('content', description);
     } else {
