@@ -329,8 +329,8 @@ export default function SonicStrategy() {
                   <span>needing one recognizable sound across properties.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("music-for-restaurants-and-bars")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Restaurants & Bars">Restaurant, Bar</Link> & <Link to={createPageUrl("retail-stores")} className="underline hover:text-black font-semibold text-2xl">Retail brands</Link>
-                  <span> growing, rebranding, or opening new locations.</span>
+                  <span className="block mb-1"><Link to={createPageUrl("music-for-restaurants-and-bars")} className="underline hover:text-black font-semibold text-2xl" aria-label="Music for Restaurants & Bars">Restaurant, Bar</Link> & <Link to={createPageUrl("retail-stores")} className="underline hover:text-black font-semibold text-2xl" aria-label="Music for Retail Stores">Retail brands</Link></span>
+                  <span>growing, rebranding, or opening new locations.</span>
                 </li>
                 <li className="block">
                   <Link to={createPageUrl("wellness-gyms")} className="underline hover:text-black font-semibold text-2xl block mb-1">Wellness & Cultural spaces</Link>
