@@ -207,12 +207,17 @@ export default function HotelsResorts() {
           animation: slideUp 0.8s ease-out forwards;
           opacity: 0;
         }
-
+        
         .slide-up-2 {
           animation: slideUp 0.8s ease-out 0.2s forwards;
           opacity: 0;
         }
-
+        
+        .slide-up-3 {
+          animation: slideUp 0.8s ease-out 0.4s forwards;
+          opacity: 0;
+        }
+        
         .slide-up-4 {
           animation: slideUp 0.8s ease-out 0.6s forwards;
           opacity: 0;
