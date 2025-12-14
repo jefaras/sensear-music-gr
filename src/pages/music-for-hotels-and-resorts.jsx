@@ -89,7 +89,7 @@ export default function HotelsResorts() {
     const ogTags = [
     { property: 'og:title', content: 'Music for Hotels & Resorts | Sensear' },
     { property: 'og:description', content: description },
-    { property: 'og:image', content: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b8b8c94c7_e0dd5f695_13e97d3def8d47a1efe25c37e0f29eb211.jpg' },
+    { property: 'og:image', content: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/62ec26fea_8beeb2c8a_bbaa31d7a_00fb18f4a_e0dd5f695_13e97d3def8d47a1efe25c37e0f29eb2111.jpg' },
     { property: 'og:url', content: 'https://sensear.music/music-for-hotels-and-resorts' }];
 
     ogTags.forEach((tag) => {
@@ -108,7 +108,7 @@ export default function HotelsResorts() {
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Music for Hotels & Resorts | Sensear' },
     { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b8b8c94c7_e0dd5f695_13e97d3def8d47a1efe25c37e0f29eb211.jpg' }];
+    { name: 'twitter:image', content: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/62ec26fea_8beeb2c8a_bbaa31d7a_00fb18f4a_e0dd5f695_13e97d3def8d47a1efe25c37e0f29eb2111.jpg' }];
 
     twitterTags.forEach((tag) => {
       let metaTag = document.querySelector(`meta[name="${tag.name}"]`);
@@ -240,7 +240,7 @@ export default function HotelsResorts() {
                 <div className="overflow-hidden rounded-2xl shadow-2xl">
                   <div className="relative aspect-square">
                     <img 
-                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e56a199c4_ac423ae7b75beed60a76ecc7a719d544croppedUPSCALED.jpg" 
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9a0c0e655_oc05rq3dnqgxdnnm7dsu-cropped.jpg" 
                       alt="Curated music for hotels and resorts creating memorable guest experiences" 
                       className="w-full h-full object-cover" 
                     />
@@ -307,7 +307,7 @@ export default function HotelsResorts() {
             {/* Right: Image */}
             <div className="hidden lg:block">
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b8b8c94c7_e0dd5f695_13e97d3def8d47a1efe25c37e0f29eb211.jpg"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/cfafaf7cd_b8b8c94c7_e0dd5f695_13e97d3def8d47a1efe25c37e0f29eb21111.jpg"
                 alt="Hotel music design and curation"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
@@ -371,7 +371,7 @@ export default function HotelsResorts() {
             {/* Left: Image */}
             <div className="hidden lg:block">
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/bbaa31d7a_00fb18f4a_e0dd5f695_13e97d3def8d47a1efe25c37e0f29eb2111.jpg"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/bbd3df07a_0a14a9b1b3a7b95a31d45e9bb84c86e5CROPPED-pxbee-minitools-enhance-2025112017829.jpg"
                 alt="Hotel guest experience"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
