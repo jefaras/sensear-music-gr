@@ -14,7 +14,6 @@ import brandMusicConvertsBrowsersBuyers from './pages/brand-music-converts-brows
 import buildingBrandPeopleCanHear from './pages/building-brand-people-can-hear';
 import eventSoundtracks from './pages/event-soundtracks';
 import eventsExperiences from './pages/events-experiences';
-import hotelsResorts from './pages/hotels-resorts';
 import howTopHospitalityBrandsDesignSound from './pages/how-top-hospitality-brands-design-sound';
 import musicCurationCycleVenues from './pages/music-curation-cycle-venues';
 import restaurantsBars from './pages/restaurants-bars';
@@ -26,6 +25,7 @@ import threeReasonsMakeMusicHospitality from './pages/three-reasons-make-music-h
 import wellnessCenters from './pages/wellness-centers';
 import wellnessGyms from './pages/wellness-gyms';
 import whatExactlyDoesMusicCuratorDo from './pages/what-exactly-does-music-curator-do';
+import musicForHotelsAndResorts from './pages/music-for-hotels-and-resorts';
 import __Layout from './Layout.jsx';
 
 
@@ -46,7 +46,6 @@ export const PAGES = {
     "building-brand-people-can-hear": buildingBrandPeopleCanHear,
     "event-soundtracks": eventSoundtracks,
     "events-experiences": eventsExperiences,
-    "hotels-resorts": hotelsResorts,
     "how-top-hospitality-brands-design-sound": howTopHospitalityBrandsDesignSound,
     "music-curation-cycle-venues": musicCurationCycleVenues,
     "restaurants-bars": restaurantsBars,
@@ -58,6 +57,7 @@ export const PAGES = {
     "wellness-centers": wellnessCenters,
     "wellness-gyms": wellnessGyms,
     "what-exactly-does-music-curator-do": whatExactlyDoesMusicCuratorDo,
+    "music-for-hotels-and-resorts": musicForHotelsAndResorts,
 }
 
 export const pagesConfig = {
