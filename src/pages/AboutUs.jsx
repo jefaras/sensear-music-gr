@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -474,7 +475,6 @@ export default function AboutUs() {
               />
             </div>
           </div>
-          
 
         </div>
       </section>
@@ -505,7 +505,7 @@ export default function AboutUs() {
           <h2 id="team-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center mb-4 animate-fade-in-up">Meet the team</h2>
           <p className="text-xl text-black/60 font-medium text-center mb-12 animate-fade-in-up">Music obsessed, hospitality minded</p>
 
-          {/* George Fameliaris */}
+          {/* George Fameliaris - FIRST */}
           <div className="mb-8" role="list">
             <article role="listitem" className="p-8 rounded-lg" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
               <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-center">
@@ -541,15 +541,15 @@ export default function AboutUs() {
             </article>
           </div>
 
-          {/* John E. Farazoumis */}
+          {/* John E. Farazoumis - SECOND */}
           <div className="mb-8" role="list">
             <article role="listitem" className="p-8 rounded-lg" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
               <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-center">
                 {/* Left: Image */}
                 <div className="lg:order-1 hidden lg:block">
                   <img
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9e1d5056f_398e0cca3_84887785_172252324195148_2160204890159185920_n1.jpg"
-                    alt="George Fameliaris - SensEar Co-Founder and Chief Music Curator"
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/98a0a7252_b24ebd26f_JEF_square_bw.png"
+                    alt="John E. Farazoumis - SensEar Co-Founder and Brand Strategy Director"
                     className="w-full h-auto rounded-2xl shadow-lg"
                   />
                 </div>
@@ -557,19 +557,19 @@ export default function AboutUs() {
                 {/* Right: Text Content */}
                 <div className="lg:order-2">
                   <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
-                    George Fameliaris
+                    John E. Farazoumis
                   </h3>
-                  <p className="text-xl font-semibold text-black/70 mb-10">Co-Founder, Chief Music Curator</p>
+                  <p className="text-xl font-semibold text-black/70 mb-10">Co-Founder, Brand Strategy, Client Service</p>
                   
                   <div>
                     <p className="text-[19.125px] text-black/70 leading-relaxed mb-4">
-                      G’s lifelong passion for music deepened with a Media & Communications BA and an MA in Popular Music in Film.
+                      From his early DJ sets to his studies in Hospitality Management, JEF has always been guided by music's magnetic pull.
                     </p>
                     <p className="text-[19.125px] text-black/70 leading-relaxed mb-4">
-                      He established himself in Athens as a DJ & music curator on radio, parties & venues residencies.
+                      He is a co-founder of a successful digital agency, with 25 years of experience in web services & understanding client needs.
                     </p>
                     <p className="text-[19.125px] text-black/70 leading-relaxed">
-                      At SensEar, he crafts each venue's musical identity with precision, rhythm and atmospheres that defines the brand's signature sound.
+                      At SensEar, he shapes the brand's strategic direction & connects creative vision with client experience.
                     </p>
                   </div>
                 </div>
@@ -577,7 +577,7 @@ export default function AboutUs() {
             </article>
           </div>
 
-          {/* Katerina Karali */}
+          {/* Katerina Karali - THIRD */}
           <div className="mb-8" role="list">
             <article role="listitem" className="p-8 rounded-lg" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
               <div className="grid lg:grid-cols-[1fr_1.2fr] gap-12 items-center">
