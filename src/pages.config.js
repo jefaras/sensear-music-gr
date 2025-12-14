@@ -16,7 +16,6 @@ import eventSoundtracks from './pages/event-soundtracks';
 import eventsExperiences from './pages/events-experiences';
 import howTopHospitalityBrandsDesignSound from './pages/how-top-hospitality-brands-design-sound';
 import musicCurationCycleVenues from './pages/music-curation-cycle-venues';
-import restaurantsBars from './pages/restaurants-bars';
 import retailStores from './pages/retail-stores';
 import serviceEnvironmentShapesWaitTime from './pages/service-environment-shapes-wait-time';
 import signaturePlaylists from './pages/signature-playlists';
@@ -49,7 +48,6 @@ export const PAGES = {
     "events-experiences": eventsExperiences,
     "how-top-hospitality-brands-design-sound": howTopHospitalityBrandsDesignSound,
     "music-curation-cycle-venues": musicCurationCycleVenues,
-    "restaurants-bars": restaurantsBars,
     "retail-stores": retailStores,
     "service-environment-shapes-wait-time": serviceEnvironmentShapesWaitTime,
     "signature-playlists": signaturePlaylists,

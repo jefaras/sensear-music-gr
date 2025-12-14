@@ -207,7 +207,7 @@ export default function Industries() {
                 </div>
 
                 <div className="mt-8">
-                  <Link to={createPageUrl("restaurants-bars")}>
+                  <Link to={createPageUrl("music-for-restaurants-and-bars")} aria-label="Music for Restaurants & Bars">
                     <AnimatedButton className="w-full sm:w-auto">
                       Upgrade your dining atmosphere
                     </AnimatedButton>

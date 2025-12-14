@@ -103,7 +103,7 @@ export default function Sitemap() {
       pages: [
         { name: "All Industries", path: createPageUrl("Industries") },
         { name: "Hotels & Resorts", path: createPageUrl("music-for-hotels-and-resorts"), ariaLabel: "Music for Hotels & Resorts" },
-        { name: "Restaurants & Bars", path: createPageUrl("restaurants-bars") },
+        { name: "Restaurants & Bars", path: createPageUrl("music-for-restaurants-and-bars"), ariaLabel: "Music for Restaurants & Bars" },
         { name: "Retail Stores", path: createPageUrl("retail-stores") },
         { name: "Wellness & Gyms", path: createPageUrl("wellness-gyms") },
         { name: "Events & Experiences", path: createPageUrl("events-experiences") },
