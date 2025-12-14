@@ -20,7 +20,6 @@ import musicCurationCycleVenues from './pages/music-curation-cycle-venues';
 import restaurantsBars from './pages/restaurants-bars';
 import retailStores from './pages/retail-stores';
 import serviceEnvironmentShapesWaitTime from './pages/service-environment-shapes-wait-time';
-import signaturePlaylistsTest from './pages/signature-playlists-test';
 import signaturePlaylists from './pages/signature-playlists';
 import sonicStrategy from './pages/sonic-strategy';
 import threeReasonsMakeMusicHospitality from './pages/three-reasons-make-music-hospitality';
@@ -54,7 +53,6 @@ export const PAGES = {
     "restaurants-bars": restaurantsBars,
     "retail-stores": retailStores,
     "service-environment-shapes-wait-time": serviceEnvironmentShapesWaitTime,
-    "signature-playlists-test": signaturePlaylistsTest,
     "signature-playlists": signaturePlaylists,
     "sonic-strategy": sonicStrategy,
     "three-reasons-make-music-hospitality": threeReasonsMakeMusicHospitality,
