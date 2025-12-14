@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -514,7 +513,7 @@ export default function AboutUs() {
                   <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
                     George Fameliaris
                   </h3>
-                  <p className="text-xl font-semibold text-black/70 mb-10">Co-Founder, Chief Music Curator</p>
+                  <p className="text-xl font-semibold text-black/70 mb-10">Co-founder, Chief music curator & AV expert</p>
                   
                   <div>
                     <p className="text-[19.125px] text-black/70 leading-relaxed mb-4">
@@ -559,7 +558,7 @@ export default function AboutUs() {
                   <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
                     John E. Farazoumis
                   </h3>
-                  <p className="text-xl font-semibold text-black/70 mb-10">Co-Founder, Brand Strategy, Client Service</p>
+                  <p className="text-xl font-semibold text-black/70 mb-10">Co-founder, Brand strategy, Client service</p>
                   
                   <div>
                     <p className="text-[19.125px] text-black/70 leading-relaxed mb-4">
@@ -586,7 +585,7 @@ export default function AboutUs() {
                   <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
                     Katerina Karali
                   </h3>
-                  <p className="text-xl font-semibold text-black/70 mb-10">Contributing Associate, DJ, Music Curator</p>
+                  <p className="text-xl font-semibold text-black/70 mb-10">Contributing associate, DJ, Music curator</p>
                   
                   <div>
                     <p className="text-[19.125px] text-black/70 leading-relaxed mb-4">
