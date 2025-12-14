@@ -17,7 +17,6 @@ import eventsExperiences from './pages/events-experiences';
 import hotelsResorts from './pages/hotels-resorts';
 import howTopHospitalityBrandsDesignSound from './pages/how-top-hospitality-brands-design-sound';
 import musicCurationCycleVenues from './pages/music-curation-cycle-venues';
-import restaurantsBarsPrev from './pages/restaurants-bars-prev';
 import restaurantsBars from './pages/restaurants-bars';
 import retailStoresPrev from './pages/retail-stores-prev';
 import retailStores from './pages/retail-stores';
@@ -53,7 +52,6 @@ export const PAGES = {
     "hotels-resorts": hotelsResorts,
     "how-top-hospitality-brands-design-sound": howTopHospitalityBrandsDesignSound,
     "music-curation-cycle-venues": musicCurationCycleVenues,
-    "restaurants-bars-prev": restaurantsBarsPrev,
     "restaurants-bars": restaurantsBars,
     "retail-stores-prev": retailStoresPrev,
     "retail-stores": retailStores,
