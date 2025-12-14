@@ -468,7 +468,7 @@ export default function Home() {
                 <div className="md:order-2 md:pl-12">
                     <div className="flex flex-col mb-12">
                         <div className="mb-8">
-                            <Link to={createPageUrl("hotels-resorts")} className="text-[31.5px] font-bold text-black block mb-2 group w-fit">
+                            <Link to={createPageUrl("music-for-hotels-and-resorts")} className="text-[31.5px] font-bold text-black block mb-2 group w-fit">
                                 <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Hotels & Resorts</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </Link>
                             <p className="text-[19.125px] text-black/70 leading-relaxed">
