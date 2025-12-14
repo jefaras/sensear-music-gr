@@ -325,7 +325,7 @@ export default function SonicStrategy() {
             <div>
               <ul className="space-y-8 text-lg text-black/70">
                 <li className="block">
-                  <Link to={createPageUrl("music-for-hotels-and-resorts")} className="underline hover:text-black font-semibold text-2xl block mb-1">Hotel & Resort Groups</Link>
+                  <Link to={createPageUrl("music-for-hotels-and-resorts")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Hotels & Resorts">Hotel & Resort Groups</Link>
                   <span>needing one recognizable sound across properties.</span>
                 </li>
                 <li className="block">

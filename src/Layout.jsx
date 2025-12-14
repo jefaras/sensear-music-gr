@@ -53,7 +53,7 @@ export default function Layout({ children }) {
       { name: "Audio Upgrades", path: createPageUrl("audio-upgrades") }
     ],
     industries: [
-      { name: "Hotels & Resorts", path: createPageUrl("music-for-hotels-and-resorts") },
+      { name: "Hotels & Resorts", path: createPageUrl("music-for-hotels-and-resorts"), ariaLabel: "Music for Hotels & Resorts" },
       { name: "Restaurants & Bars", path: createPageUrl("restaurants-bars") },
       { name: "Retail Stores", path: createPageUrl("retail-stores") },
       { name: "Wellness & Gyms", path: createPageUrl("wellness-gyms") },
@@ -452,7 +452,7 @@ export default function Layout({ children }) {
               </Link>
               <div className="space-y-2">
                 {footerNavItems.industries.map((item) => (
-                  <Link key={item.name} to={item.path} className="block text-white/70 hover:text-peach transition-colors text-base hover:underline decoration-1 underline-offset-4 font-jakarta">{item.name}</Link>
+                  <Link key={item.name} to={item.path} className="block text-white/70 hover:text-peach transition-colors text-base hover:underline decoration-1 underline-offset-4 font-jakarta" aria-label={item.ariaLabel || item.name}>{item.name}</Link>
                 ))}
               </div>
             </div>

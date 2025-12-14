@@ -102,7 +102,7 @@ export default function Sitemap() {
       icon: Building2,
       pages: [
         { name: "All Industries", path: createPageUrl("Industries") },
-        { name: "Hotels & Resorts", path: createPageUrl("music-for-hotels-and-resorts") },
+        { name: "Hotels & Resorts", path: createPageUrl("music-for-hotels-and-resorts"), ariaLabel: "Music for Hotels & Resorts" },
         { name: "Restaurants & Bars", path: createPageUrl("restaurants-bars") },
         { name: "Retail Stores", path: createPageUrl("retail-stores") },
         { name: "Wellness & Gyms", path: createPageUrl("wellness-gyms") },
