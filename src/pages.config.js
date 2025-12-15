@@ -3,7 +3,6 @@ import Blog from './pages/Blog';
 import CaseStudies from './pages/CaseStudies';
 import ContactUs from './pages/ContactUs';
 import FAQ from './pages/FAQ';
-import homeTestNew from './pages/Home-test-new';
 import Home from './pages/Home';
 import home2711 from './pages/Home27_11';
 import homeTest from './pages/Home_test';
@@ -56,7 +55,6 @@ export const PAGES = {
     "CaseStudies": CaseStudies,
     "ContactUs": ContactUs,
     "FAQ": FAQ,
-    "Home-test-new": homeTestNew,
     "Home": Home,
     "Home27_11": home2711,
     "Home_test": homeTest,
