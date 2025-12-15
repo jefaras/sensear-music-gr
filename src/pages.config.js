@@ -18,7 +18,6 @@ import howTopHospitalityBrandsDesignSound from './pages/how-top-hospitality-bran
 import musicCurationCycleVenues from './pages/music-curation-cycle-venues';
 import musicForHotelsAndResorts from './pages/music-for-hotels-and-resorts';
 import musicForRestaurantsAndBars from './pages/music-for-restaurants-and-bars';
-import retailStores from './pages/retail-stores';
 import serviceEnvironmentShapesWaitTime from './pages/service-environment-shapes-wait-time';
 import signaturePlaylists from './pages/signature-playlists';
 import sonicStrategy from './pages/sonic-strategy';
@@ -51,7 +50,6 @@ export const PAGES = {
     "music-curation-cycle-venues": musicCurationCycleVenues,
     "music-for-hotels-and-resorts": musicForHotelsAndResorts,
     "music-for-restaurants-and-bars": musicForRestaurantsAndBars,
-    "retail-stores": retailStores,
     "service-environment-shapes-wait-time": serviceEnvironmentShapesWaitTime,
     "signature-playlists": signaturePlaylists,
     "sonic-strategy": sonicStrategy,

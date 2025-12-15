@@ -55,7 +55,7 @@ export default function Layout({ children }) {
     industries: [
       { name: "Hotels & Resorts", path: createPageUrl("music-for-hotels-and-resorts"), ariaLabel: "Music for Hotels & Resorts" },
       { name: "Restaurants & Bars", path: createPageUrl("music-for-restaurants-and-bars"), ariaLabel: "Music for Restaurants & Bars" },
-      { name: "Retail Stores", path: createPageUrl("retail-stores") },
+      { name: "Retail Stores", path: createPageUrl("music-for-retail-stores") },
       { name: "Wellness & Gyms", path: createPageUrl("wellness-gyms") },
       { name: "Events & Experiences", path: createPageUrl("events-experiences") },
       { name: "Art, Museums & Fashion", path: createPageUrl("art-museums-fashion") }
@@ -89,8 +89,8 @@ export default function Layout({ children }) {
       document.title = "Hotels & Resorts | SensEar";
     } else if (location.pathname === createPageUrl("restaurants-bars")) {
       document.title = "Restaurants & Bars | SensEar";
-    } else if (location.pathname === createPageUrl("retail-stores")) {
-      document.title = "Retail Stores | SensEar";
+    } else if (location.pathname === createPageUrl("music-for-retail-stores")) {
+      document.title = "Music for Retail Stores | SensEar";
     } else if (location.pathname === createPageUrl("wellness-gyms")) { // Changed from wellness-centers
       document.title = "Wellness & Gyms | SensEar"; // Changed from Wellness Centers
     } else if (location.pathname === createPageUrl("events-experiences")) {

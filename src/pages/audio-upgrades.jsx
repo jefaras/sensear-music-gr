@@ -323,7 +323,7 @@ export default function AudioUpgrades() {
                   <span>with lobbies, pools or dining areas that sound uneven.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("retail-stores")} className="underline hover:text-black font-semibold text-2xl block mb-1">Retail Stores</Link>
+                  <Link to={createPageUrl("music-for-retail-stores")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Retail Stores">Retail Stores</Link>
                   <span>with dead corners & overpowering spots near speakers.</span>
                 </li>
                 <li className="block">

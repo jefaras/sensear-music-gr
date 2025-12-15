@@ -350,7 +350,7 @@ export default function SignaturePlaylists() {
                   <span>where atmosphere is a core part of the experience.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("retail-stores")} className="underline hover:text-black font-semibold text-2xl block mb-1">Retail stores</Link>
+                  <Link to={createPageUrl("music-for-retail-stores")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Retail Stores">Retail stores</Link>
                   <span>that want a soundtrack to fit their visual story.</span>
                 </li>
                 <li className="block">
