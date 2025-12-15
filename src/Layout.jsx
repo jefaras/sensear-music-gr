@@ -97,6 +97,16 @@ export default function Layout({ children }) {
       document.title = "Events & Experiences | SensEar";
     } else if (location.pathname === createPageUrl("art-museums-fashion")) {
       document.title = "Art, Museums & Fashion | SensEar";
+    } else if (location.pathname === createPageUrl("PlaylistsDemos")) {
+      document.title = "Playlists & Demos | SensEar";
+    } else if (location.pathname === createPageUrl("blue-bamboo")) {
+      document.title = "Blue Bamboo Case Study | SensEar";
+    } else if (location.pathname === createPageUrl("klouvi-bar")) {
+      document.title = "Klouvi Bar Case Study | SensEar";
+    } else if (location.pathname === createPageUrl("beach-house-antiparos")) {
+      document.title = "Beach House Antiparos Case Study | SensEar";
+    } else if (location.pathname === createPageUrl("pelicanos-sifnos-restaurant")) {
+      document.title = "Pelicanos Restaurant Case Study | SensEar";
     } else if (location.pathname === createPageUrl("AboutUs")) {
       document.title = "About Us | SensEar";
     } else if (location.pathname === createPageUrl("ContactUs")) {
@@ -374,7 +384,7 @@ export default function Layout({ children }) {
       <footer className="bg-black text-white relative overflow-hidden">
         <div 
           className={`absolute top-4 left-0 right-0 z-0 opacity-[0.1] pointer-events-none ${
-            (location.pathname === createPageUrl("Home") || location.pathname === "/") 
+            (location.pathname === createPageUrl("Home") || location.pathname.includes("Home_test") || location.pathname === "/") 
               ? 'bottom-[13vw]' 
               : 'bottom-4'
           }`}
@@ -467,7 +477,7 @@ export default function Layout({ children }) {
         </div>
         
         {/* Large Brand Name at the bottom - Only on Home Page */}
-        {(location.pathname === createPageUrl("Home") || location.pathname === "/") && (
+        {(location.pathname === createPageUrl("Home") || location.pathname.includes("Home_test") || location.pathname === "/") && (
           <div className="w-full overflow-hidden leading-none pb-2 select-none">
              <div className="text-[15vw] font-bold text-white text-center font-syne tracking-tight leading-[0.85]">
               SENSEAR
