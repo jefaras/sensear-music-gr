@@ -3,11 +3,13 @@ import Blog from './pages/Blog';
 import CaseStudies from './pages/CaseStudies';
 import ContactUs from './pages/ContactUs';
 import FAQ from './pages/FAQ';
+import homeTestNew from './pages/Home-test-new';
 import Home from './pages/Home';
-import homeTest from './pages/Home_test';
+import home2711 from './pages/Home27_11';
 import industriesV2 from './pages/Industries-v2';
 import Industries from './pages/Industries';
 import industriesOld from './pages/Industries_old';
+import PlaylistsDemos from './pages/PlaylistsDemos';
 import servicesV2 from './pages/Services-v2';
 import Services from './pages/Services';
 import Sitemap from './pages/Sitemap';
@@ -29,10 +31,12 @@ import klouviBar from './pages/klouvi-bar';
 import musicCurationCycleVenues from './pages/music-curation-cycle-venues';
 import musicForHotelsAndResorts from './pages/music-for-hotels-and-resorts';
 import musicForRestaurantsAndBars from './pages/music-for-restaurants-and-bars';
+import musicForRetailStores from './pages/music-for-retail-stores';
 import pelicanosSifnosRestaurant from './pages/pelicanos-sifnos-restaurant';
 import restaurantsBarsPrev from './pages/restaurants-bars-prev';
 import restaurantsBars from './pages/restaurants-bars';
 import retailStoresPrev from './pages/retail-stores-prev';
+import retailStores from './pages/retail-stores';
 import serviceEnvironmentShapesWaitTime from './pages/service-environment-shapes-wait-time';
 import signaturePlaylistsTest from './pages/signature-playlists-test';
 import signaturePlaylists from './pages/signature-playlists';
@@ -42,11 +46,6 @@ import wellnessCenters from './pages/wellness-centers';
 import wellnessGymsPrev from './pages/wellness-gyms-prev';
 import wellnessGyms from './pages/wellness-gyms';
 import whatExactlyDoesMusicCuratorDo from './pages/what-exactly-does-music-curator-do';
-import home2711 from './pages/Home27_11';
-import PlaylistsDemos from './pages/PlaylistsDemos';
-import homeTestNew from './pages/Home-test-new';
-import retailStores from './pages/retail-stores';
-import musicForRetailStores from './pages/music-for-retail-stores';
 import __Layout from './Layout.jsx';
 
 
@@ -56,11 +55,13 @@ export const PAGES = {
     "CaseStudies": CaseStudies,
     "ContactUs": ContactUs,
     "FAQ": FAQ,
+    "Home-test-new": homeTestNew,
     "Home": Home,
-    "Home_test": homeTest,
+    "Home27_11": home2711,
     "Industries-v2": industriesV2,
     "Industries": Industries,
     "Industries_old": industriesOld,
+    "PlaylistsDemos": PlaylistsDemos,
     "Services-v2": servicesV2,
     "Services": Services,
     "Sitemap": Sitemap,
@@ -82,10 +83,12 @@ export const PAGES = {
     "music-curation-cycle-venues": musicCurationCycleVenues,
     "music-for-hotels-and-resorts": musicForHotelsAndResorts,
     "music-for-restaurants-and-bars": musicForRestaurantsAndBars,
+    "music-for-retail-stores": musicForRetailStores,
     "pelicanos-sifnos-restaurant": pelicanosSifnosRestaurant,
     "restaurants-bars-prev": restaurantsBarsPrev,
     "restaurants-bars": restaurantsBars,
     "retail-stores-prev": retailStoresPrev,
+    "retail-stores": retailStores,
     "service-environment-shapes-wait-time": serviceEnvironmentShapesWaitTime,
     "signature-playlists-test": signaturePlaylistsTest,
     "signature-playlists": signaturePlaylists,
@@ -95,11 +98,6 @@ export const PAGES = {
     "wellness-gyms-prev": wellnessGymsPrev,
     "wellness-gyms": wellnessGyms,
     "what-exactly-does-music-curator-do": whatExactlyDoesMusicCuratorDo,
-    "Home27_11": home2711,
-    "PlaylistsDemos": PlaylistsDemos,
-    "Home-test-new": homeTestNew,
-    "retail-stores": retailStores,
-    "music-for-retail-stores": musicForRetailStores,
 }
 
 export const pagesConfig = {
