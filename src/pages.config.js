@@ -1,9 +1,9 @@
-import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import Blog from './pages/Blog';
 import CaseStudies from './pages/CaseStudies';
 import ContactUs from './pages/ContactUs';
 import FAQ from './pages/FAQ';
+import Home from './pages/Home';
 import Industries from './pages/Industries';
 import Services from './pages/Services';
 import Sitemap from './pages/Sitemap';
@@ -16,6 +16,8 @@ import eventSoundtracks from './pages/event-soundtracks';
 import eventsExperiences from './pages/events-experiences';
 import howTopHospitalityBrandsDesignSound from './pages/how-top-hospitality-brands-design-sound';
 import musicCurationCycleVenues from './pages/music-curation-cycle-venues';
+import musicForHotelsAndResorts from './pages/music-for-hotels-and-resorts';
+import musicForRestaurantsAndBars from './pages/music-for-restaurants-and-bars';
 import retailStores from './pages/retail-stores';
 import serviceEnvironmentShapesWaitTime from './pages/service-environment-shapes-wait-time';
 import signaturePlaylists from './pages/signature-playlists';
@@ -24,18 +26,17 @@ import threeReasonsMakeMusicHospitality from './pages/three-reasons-make-music-h
 import wellnessCenters from './pages/wellness-centers';
 import wellnessGyms from './pages/wellness-gyms';
 import whatExactlyDoesMusicCuratorDo from './pages/what-exactly-does-music-curator-do';
-import musicForHotelsAndResorts from './pages/music-for-hotels-and-resorts';
-import musicForRestaurantsAndBars from './pages/music-for-restaurants-and-bars';
+import musicForRetailStores from './pages/music-for-retail-stores';
 import __Layout from './Layout.jsx';
 
 
 export const PAGES = {
-    "Home": Home,
     "AboutUs": AboutUs,
     "Blog": Blog,
     "CaseStudies": CaseStudies,
     "ContactUs": ContactUs,
     "FAQ": FAQ,
+    "Home": Home,
     "Industries": Industries,
     "Services": Services,
     "Sitemap": Sitemap,
@@ -48,6 +49,8 @@ export const PAGES = {
     "events-experiences": eventsExperiences,
     "how-top-hospitality-brands-design-sound": howTopHospitalityBrandsDesignSound,
     "music-curation-cycle-venues": musicCurationCycleVenues,
+    "music-for-hotels-and-resorts": musicForHotelsAndResorts,
+    "music-for-restaurants-and-bars": musicForRestaurantsAndBars,
     "retail-stores": retailStores,
     "service-environment-shapes-wait-time": serviceEnvironmentShapesWaitTime,
     "signature-playlists": signaturePlaylists,
@@ -56,8 +59,7 @@ export const PAGES = {
     "wellness-centers": wellnessCenters,
     "wellness-gyms": wellnessGyms,
     "what-exactly-does-music-curator-do": whatExactlyDoesMusicCuratorDo,
-    "music-for-hotels-and-resorts": musicForHotelsAndResorts,
-    "music-for-restaurants-and-bars": musicForRestaurantsAndBars,
+    "music-for-retail-stores": musicForRetailStores,
 }
 
 export const pagesConfig = {
