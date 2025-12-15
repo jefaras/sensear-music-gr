@@ -22,10 +22,10 @@ export default function RetailStores() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Music for Retail Stores | SensEar";
+    document.title = "Retail Store Music Solutions | SensEar";
 
     const metaDescription = document.querySelector('meta[name="description"]');
-    const description = "Music for retail stores shaped to welcome customers, support browsing, items discovery and reinforce brand image without distracting from the shopping experience.";
+    const description = "Strategic retail music curation that increases customer engagement and sales. Create memorable shopping experiences with sonic branding.";
     if (metaDescription) {
       metaDescription.setAttribute('content', description);
     } else {
@@ -90,7 +90,7 @@ export default function RetailStores() {
     const newImageUrl = 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1e2c7c1d3_ignan-travel-thesquare-5-2048x1328-1-.jpg';
 
     const ogTags = [
-    { property: 'og:title', content: 'Music for Retail Stores | SensEar' },
+    { property: 'og:title', content: 'Retail Store Music Solutions | SensEar' },
     { property: 'og:description', content: description },
     { property: 'og:image', content: newImageUrl },
     { property: 'og:url', content: 'https://sensear.music/retail-stores' },
@@ -110,7 +110,7 @@ export default function RetailStores() {
 
     const twitterTags = [
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Music for Retail Stores | SensEar' },
+    { name: 'twitter:title', content: 'Retail Store Music Solutions | SensEar' },
     { name: 'twitter:description', content: description },
     { name: 'twitter:image', content: newImageUrl }];
 
