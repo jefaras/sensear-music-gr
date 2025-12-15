@@ -3,29 +3,29 @@ import Blog from './pages/Blog';
 import CaseStudies from './pages/CaseStudies';
 import ContactUs from './pages/ContactUs';
 import FAQ from './pages/FAQ';
+import homeTestNew from './pages/Home-test-new';
 import Home from './pages/Home';
+import home2711 from './pages/Home27_11';
+import homeTest from './pages/Home_test';
+import industriesV2 from './pages/Industries-v2';
 import Industries from './pages/Industries';
+import industriesOld from './pages/Industries_old';
+import PlaylistsDemos from './pages/PlaylistsDemos';
+import servicesV2 from './pages/Services-v2';
 import Services from './pages/Services';
 import Sitemap from './pages/Sitemap';
-import artMuseumsFashionPrev from './pages/art-museums-fashion-prev';
 import artMuseumsFashion from './pages/art-museums-fashion';
 import audioUpgrades from './pages/audio-upgrades';
 import backgroundMusicShapesCustomerBehavior from './pages/background-music-shapes-customer-behavior';
-import beachHouseAntiparos from './pages/beach-house-antiparos';
-import blueBamboo from './pages/blue-bamboo';
 import brandMusicConvertsBrowsersBuyers from './pages/brand-music-converts-browsers-buyers';
 import buildingBrandPeopleCanHear from './pages/building-brand-people-can-hear';
 import eventSoundtracks from './pages/event-soundtracks';
-import eventsExperiencesPrev from './pages/events-experiences-prev';
 import eventsExperiences from './pages/events-experiences';
-import hotelsResortsPrev from './pages/hotels-resorts-prev';
 import hotelsResorts from './pages/hotels-resorts';
 import howTopHospitalityBrandsDesignSound from './pages/how-top-hospitality-brands-design-sound';
-import klouviBar from './pages/klouvi-bar';
 import musicCurationCycleVenues from './pages/music-curation-cycle-venues';
 import musicForHotelsAndResorts from './pages/music-for-hotels-and-resorts';
 import musicForRestaurantsAndBars from './pages/music-for-restaurants-and-bars';
-import pelicanosSifnosRestaurant from './pages/pelicanos-sifnos-restaurant';
 import restaurantsBarsPrev from './pages/restaurants-bars-prev';
 import restaurantsBars from './pages/restaurants-bars';
 import retailStoresPrev from './pages/retail-stores-prev';
@@ -48,29 +48,29 @@ export const PAGES = {
     "CaseStudies": CaseStudies,
     "ContactUs": ContactUs,
     "FAQ": FAQ,
+    "Home-test-new": homeTestNew,
     "Home": Home,
+    "Home27_11": home2711,
+    "Home_test": homeTest,
+    "Industries-v2": industriesV2,
     "Industries": Industries,
+    "Industries_old": industriesOld,
+    "PlaylistsDemos": PlaylistsDemos,
+    "Services-v2": servicesV2,
     "Services": Services,
     "Sitemap": Sitemap,
-    "art-museums-fashion-prev": artMuseumsFashionPrev,
     "art-museums-fashion": artMuseumsFashion,
     "audio-upgrades": audioUpgrades,
     "background-music-shapes-customer-behavior": backgroundMusicShapesCustomerBehavior,
-    "beach-house-antiparos": beachHouseAntiparos,
-    "blue-bamboo": blueBamboo,
     "brand-music-converts-browsers-buyers": brandMusicConvertsBrowsersBuyers,
     "building-brand-people-can-hear": buildingBrandPeopleCanHear,
     "event-soundtracks": eventSoundtracks,
-    "events-experiences-prev": eventsExperiencesPrev,
     "events-experiences": eventsExperiences,
-    "hotels-resorts-prev": hotelsResortsPrev,
     "hotels-resorts": hotelsResorts,
     "how-top-hospitality-brands-design-sound": howTopHospitalityBrandsDesignSound,
-    "klouvi-bar": klouviBar,
     "music-curation-cycle-venues": musicCurationCycleVenues,
     "music-for-hotels-and-resorts": musicForHotelsAndResorts,
     "music-for-restaurants-and-bars": musicForRestaurantsAndBars,
-    "pelicanos-sifnos-restaurant": pelicanosSifnosRestaurant,
     "restaurants-bars-prev": restaurantsBarsPrev,
     "restaurants-bars": restaurantsBars,
     "retail-stores-prev": retailStoresPrev,
