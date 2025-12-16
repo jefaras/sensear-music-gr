@@ -63,7 +63,7 @@ export default function Layout({ children }) {
     company: [
       { name: "Case Studies", path: createPageUrl("case-studies"), ariaLabel: "Music curation case studies" },
       { name: "About", path: createPageUrl("about"), ariaLabel: "About SensEar" },
-      { name: "Contact", path: createPageUrl("ContactUs") },
+      { name: "Contact", path: createPageUrl("contact"), ariaLabel: "Contact SensEar" },
       { name: "Blog", path: createPageUrl("Blog") },
       { name: "FAQ", path: createPageUrl("FAQ") },
       { name: "Sitemap", path: createPageUrl("Sitemap") }
@@ -99,8 +99,8 @@ export default function Layout({ children }) {
       document.title = "Art, Museums & Fashion | SensEar";
     } else if (location.pathname === createPageUrl("about")) {
       document.title = "About SensEar | Music curation Team & Approach";
-    } else if (location.pathname === createPageUrl("ContactUs")) {
-      document.title = "Contact Us | SensEar";
+    } else if (location.pathname === createPageUrl("contact")) {
+      document.title = "Contact SensEar | Let's talk about your Space";
     } else if (location.pathname === createPageUrl("Blog")) {
       document.title = "Blog | SensEar";
     } else {
@@ -293,7 +293,7 @@ export default function Layout({ children }) {
             )}
             
             {/* Contact Button - Outline style with underline on hover, color inverts when scrolled */}
-            <Link to={createPageUrl("ContactUs")}>
+            <Link to={createPageUrl("contact")}>
               <Button 
                 variant="outline" 
                 className={`font-bold bg-transparent hover:bg-transparent transition-colors hover:underline decoration-1 underline-offset-4 font-jakarta ${
@@ -355,10 +355,10 @@ export default function Layout({ children }) {
               
               {/* Contact in Mobile Menu */}
               <Link
-                to={createPageUrl("ContactUs")}
+                to={createPageUrl("contact")}
                 onClick={() => setIsMenuOpen(false)}
                 className={`block text-base font-bold py-2 hover:underline decoration-1 underline-offset-4 font-jakarta ${
-                  location.pathname === createPageUrl("ContactUs") ? "text-white underline" : "text-white/90"}`
+                  location.pathname === createPageUrl("contact") ? "text-white underline" : "text-white/90"}`
                 }>
                 Contact
               </Link>

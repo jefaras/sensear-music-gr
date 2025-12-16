@@ -81,7 +81,7 @@ export default function Sitemap() {
         { name: "Industries", path: createPageUrl("Industries") },
         { name: "Case Studies", path: createPageUrl("case-studies"), ariaLabel: "Music curation case studies" },
         { name: "About Us", path: createPageUrl("about"), ariaLabel: "About SensEar" },
-        { name: "Contact Us", path: createPageUrl("ContactUs") },
+        { name: "Contact Us", path: createPageUrl("contact"), ariaLabel: "Contact SensEar" },
         { name: "Blog", path: createPageUrl("Blog") },
         { name: "FAQ", path: createPageUrl("FAQ") }
       ]

@@ -1,6 +1,5 @@
 import Blog from './pages/Blog';
 import CaseStudies from './pages/CaseStudies';
-import ContactUs from './pages/ContactUs';
 import FAQ from './pages/FAQ';
 import Home from './pages/Home';
 import Industries from './pages/Industries';
@@ -27,13 +26,13 @@ import threeReasonsMakeMusicHospitality from './pages/three-reasons-make-music-h
 import wellnessCenters from './pages/wellness-centers';
 import whatExactlyDoesMusicCuratorDo from './pages/what-exactly-does-music-curator-do';
 import about from './pages/about';
+import contact from './pages/contact';
 import __Layout from './Layout.jsx';
 
 
 export const PAGES = {
     "Blog": Blog,
     "CaseStudies": CaseStudies,
-    "ContactUs": ContactUs,
     "FAQ": FAQ,
     "Home": Home,
     "Industries": Industries,
@@ -60,6 +59,7 @@ export const PAGES = {
     "wellness-centers": wellnessCenters,
     "what-exactly-does-music-curator-do": whatExactlyDoesMusicCuratorDo,
     "about": about,
+    "contact": contact,
 }
 
 export const pagesConfig = {
