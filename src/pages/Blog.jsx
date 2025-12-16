@@ -25,7 +25,7 @@ export default function Blog() {
       link: createPageUrl("how-top-hospitality-brands-design-sound")
     },
     {
-      title: "Three Reasons to Make Music Part of Your Luxury Hospitality Marketing Strategy",
+      title: "Three reasons to make music part of your luxury hospitality strategy",
       excerpt: "Curated music is a practical way to shape how guests feel, what they remember, and how they spend.",
       image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9619c7d50_e56c8a322bf8043723ba7e215cf5e636.jpg",
       alt: "Luxury hotel interior showcasing music's role in hospitality marketing strategy",
@@ -455,7 +455,7 @@ export default function Blog() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8" role="list">
             {/* Article 1 */}
             <article role="listitem">
-              <Link to={createPageUrl("three-reasons-make-music-hospitality")} className="block" aria-label="Read more about: Three Reasons to Make Music Part of Your Luxury Hospitality Marketing Strategy">
+              <Link to={createPageUrl("three-reasons-make-music-hospitality")} className="block" aria-label="Read article explaining why music matters in luxury hospitality marketing">
                 <Card className="overflow-hidden hover:shadow-xl transition-all group cursor-pointer bg-white">
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <img
@@ -470,7 +470,7 @@ export default function Blog() {
                       Insights
                     </Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      Three Reasons to Make Music Part of Your Luxury Hospitality Marketing Strategy
+                      Three reasons to make music part of your luxury hospitality strategy
                     </h3>
                     <p className="text-black/70 mb-4 leading-relaxed">
                       Curated music is a practical way to shape how guests feel, what they remember, and how they spend.
