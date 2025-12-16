@@ -495,7 +495,7 @@ export default function Home() {
                                 <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Events & Experiences</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </Link>
                             <p className="text-[19.125px] text-black/70 leading-relaxed">
-                                Impactful, time-based, natural transitions.
+                                Impactful, time-based, natural track changes.
                             </p>
                         </div>
 
@@ -601,9 +601,7 @@ export default function Home() {
       <section className="py-24 bg-black overflow-hidden" aria-labelledby="clients-heading">
         <div className="max-w-7xl mx-auto px-6">
           <h2 id="clients-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center mb-4 text-white">Now playing in venues across Greece</h2>
-          <p className="text-xl text-white/70 font-medium text-center max-w-4xl mx-auto mb-12">
-            Trusted by venues like Pelicanos, Yam and Beach House in Athens and the Aegean.
-          </p>
+
           
           <div className="relative">
             <div className="flex gap-12 animate-scroll">
