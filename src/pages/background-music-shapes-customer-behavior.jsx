@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
@@ -417,7 +416,7 @@ export default function BackgroundMusicShapesCustomerBehavior() {
               Back to Blog
             </Button>
           </Link>
-          <Link to={createPageUrl("ContactUs")}>
+          <Link to={createPageUrl("contact")}>
             <Button className="bg-black hover:bg-black/80 text-white">
               Book a Sound Audit
             </Button>

@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
@@ -343,7 +342,7 @@ export default function BuildingBrandPeopleCanHear() {
             <h2 className="text-3xl font-bold text-black mt-12 mb-6">Ready To Make Your Brand Heard?</h2>
 
             <p className="text-black/80 leading-relaxed">
-              If you want <Link to={createPageUrl("signature-soundscapes")} className="text-black underline hover:text-black/70">playlists that perform</Link>, a <Link to={createPageUrl("sonic-strategy")} className="text-black underline hover:text-black/70">sound logo people remember</Link>, and <Link to={createPageUrl("Services")} className="text-black underline hover:text-black/70">audio guidelines</Link> your teams can apply everywhere, SensEar can help. <Link to={createPageUrl("ContactUs")} className="text-black underline hover:text-black/70">Book a discovery session</Link> and we will map your <Link to={createPageUrl("Industries")} className="text-black underline hover:text-black/70">customer journey</Link>, test what your audience responds to, and build a sonic branding system that lifts recognition, improves experience, and drives <Link to={createPageUrl("CaseStudies")} className="text-black underline hover:text-black/70">measurable results</Link>. Let's design the sound of your brand today.
+              If you want <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70">playlists that perform</Link>, a <Link to={createPageUrl("sonic-strategy")} className="text-black underline hover:text-black/70">sound logo people remember</Link>, and <Link to={createPageUrl("Services")} className="text-black underline hover:text-black/70">audio guidelines</Link> your teams can apply everywhere, SensEar can help. <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70">Book a discovery session</Link> and we will map your <Link to={createPageUrl("Industries")} className="text-black underline hover:text-black/70">customer journey</Link>, test what your audience responds to, and build a sonic branding system that lifts recognition, improves experience, and drives <Link to={createPageUrl("case-studies")} className="text-black underline hover:text-black/70">measurable results</Link>. Let's design the sound of your brand today.
             </p>
           </div>
         </Card>
@@ -355,7 +354,7 @@ export default function BuildingBrandPeopleCanHear() {
               Back to Blog
             </Button>
           </Link>
-          <Link to={createPageUrl("ContactUs")}>
+          <Link to={createPageUrl("contact")}>
             <Button className="bg-black hover:bg-black/80 text-white">
               Build Your Sonic Brand Identity
             </Button>

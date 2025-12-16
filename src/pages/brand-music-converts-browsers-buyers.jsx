@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
@@ -281,7 +280,7 @@ export default function BrandMusicConvertsBrowsersBuyers() {
             <h2 className="text-3xl font-bold text-black mt-12 mb-6">Beyond Background Noise: The Evidence for Brand-Fit Music</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Large-scale <a href="https://ideas.repec.org/p/hhs/huiwps/0121.html" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">field research</a> finally moved this question from hunch to hard numbers. In a multi-month experiment spanning 16 high-traffic <Link to={createPageUrl("restaurants-bars")} className="text-black underline hover:text-black/70 font-semibold">restaurants</Link>, playlists that matched the brand's personality outperformed random chart hits, lifting <a href="https://ideas.repec.org/p/hhs/huiwps/0121.html" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">revenues by ~9.1%</a>.
+              Large-scale <a href="https://ideas.repec.org/p/hhs/huiwps/0121.html" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">field research</a> finally moved this question from hunch to hard numbers. In a multi-month experiment spanning 16 high-traffic <Link to={createPageUrl("music-for-restaurants-and-bars")} className="text-black underline hover:text-black/70 font-semibold">restaurants</Link>, playlists that matched the brand's personality outperformed random chart hits, lifting <a href="https://ideas.repec.org/p/hhs/huiwps/0121.html" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">revenues by ~9.1%</a>.
             </p>
 
             <p className="text-black/80 leading-relaxed mb-8">
@@ -291,7 +290,7 @@ export default function BrandMusicConvertsBrowsersBuyers() {
             <h2 className="text-3xl font-bold text-black mt-12 mb-6">What "Brand-Fit" Actually Means</h2>
 
             <p className="text-black/80 leading-relaxed mb-8">
-              <Link to={createPageUrl("signature-soundscapes")} className="text-black underline hover:text-black/70 font-semibold">Brand fit music</Link> behaves like your interior palette, only for the ears: it reflects values, tone-of-voice, and desired pace, so the sound "feels" unmistakably like you. Customer fit - playing only what you think guests prefer - often dissolves into a beige mix that blurs distinctiveness, especially with diverse audiences.
+              <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70 font-semibold">Brand fit music</Link> behaves like your interior palette, only for the ears: it reflects values, tone-of-voice, and desired pace, so the sound "feels" unmistakably like you. Customer fit - playing only what you think guests prefer - often dissolves into a beige mix that blurs distinctiveness, especially with diverse audiences.
             </p>
 
             <h2 className="text-3xl font-bold text-black mt-12 mb-6">Why This Works: Multisensory Science, Not Marketing Magic</h2>
@@ -346,7 +345,7 @@ export default function BrandMusicConvertsBrowsersBuyers() {
             <h2 className="text-3xl font-bold text-black mt-12 mb-6">Ready to Hear the Difference?</h2>
 
             <p className="text-black/80 leading-relaxed">
-              If you're running a <Link to={createPageUrl("restaurants-bars")} className="text-black underline hover:text-black/70 font-semibold">bar</Link>, <Link to={createPageUrl("hotels-resorts")} className="text-black underline hover:text-black/70 font-semibold">hotel</Link>, or <Link to={createPageUrl("restaurants-bars")} className="text-black underline hover:text-black/70 font-semibold">restaurant</Link> and want measurable uplift, not just ambience, SensEar can design and operate your <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70 font-semibold">brand-fit music system</Link> end-to-end. Book a 20-minute <Link to={createPageUrl("ContactUs")} className="text-black underline hover:text-black/70 font-semibold">sound audit</Link> and get a custom audio DNA with quick-win recommendations for your venue today.
+              If you're running a <Link to={createPageUrl("music-for-restaurants-and-bars")} className="text-black underline hover:text-black/70 font-semibold">bar</Link>, <Link to={createPageUrl("music-for-hotels-and-resorts")} className="text-black underline hover:text-black/70 font-semibold">hotel</Link>, or <Link to={createPageUrl("music-for-restaurants-and-bars")} className="text-black underline hover:text-black/70 font-semibold">restaurant</Link> and want measurable uplift, not just ambience, SensEar can design and operate your <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70 font-semibold">brand-fit music system</Link> end-to-end. Book a 20-minute <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70 font-semibold">sound audit</Link> and get a custom audio DNA with quick-win recommendations for your venue today.
             </p>
           </div>
         </Card>
@@ -358,7 +357,7 @@ export default function BrandMusicConvertsBrowsersBuyers() {
               Back to Blog
             </Button>
           </Link>
-          <Link to={createPageUrl("ContactUs")}>
+          <Link to={createPageUrl("contact")}>
             <Button className="bg-black hover:bg-black/80 text-white">
               Discover Our Music Curation Services
             </Button>

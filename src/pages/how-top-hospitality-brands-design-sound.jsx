@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
@@ -377,7 +376,7 @@ export default function HowTopHospitalityBrandsDesignSound() {
             </p>
 
             <p className="text-black/80 leading-relaxed">
-              Ready to shape your property's sound strategy? <Link to={createPageUrl("ContactUs")} className="text-black underline hover:text-black/70 font-semibold">Contact us</Link> to get started.
+              Ready to shape your property's sound strategy? <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70 font-semibold">Contact us</Link> to get started.
             </p>
           </div>
         </Card>
@@ -389,7 +388,7 @@ export default function HowTopHospitalityBrandsDesignSound() {
               Back to Blog
             </Button>
           </Link>
-          <Link to={createPageUrl("ContactUs")}>
+          <Link to={createPageUrl("contact")}>
             <Button className="bg-black hover:bg-black/80 text-white group">
               Shape Your Property's Sound Strategy
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" aria-hidden="true" />

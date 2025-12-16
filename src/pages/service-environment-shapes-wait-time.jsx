@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
@@ -301,7 +300,7 @@ export default function ServiceEnvironmentShapesWaitTime() {
             <h2 className="text-3xl font-bold text-black mt-12 mb-6">Practical steps for managers</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Make ambient baselines a management priority. <a href="https://journals.itb.ac.id/index.php/ajht/article/view/25753/7113" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Calibrate lighting, temperature, music volume, and tempo to the setting and daypart</a>, then validate with guest feedback and metrics. Understand the affective profile of the music you select for your target market, and use <Link to={createPageUrl("signature-soundscapes")} className="text-black underline hover:text-black/70">playlists that align with desired mood and pace</Link> for each zone and queue type.
+              Make ambient baselines a management priority. <a href="https://journals.itb.ac.id/index.php/ajht/article/view/25753/7113" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Calibrate lighting, temperature, music volume, and tempo to the setting and daypart</a>, then validate with guest feedback and metrics. Understand the affective profile of the music you select for your target market, and use <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70">playlists that align with desired mood and pace</Link> for each zone and queue type.
             </p>
 
             <p className="text-black/80 leading-relaxed">
@@ -317,7 +316,7 @@ export default function ServiceEnvironmentShapesWaitTime() {
               Back to Blog
             </Button>
           </Link>
-          <Link to={createPageUrl("ContactUs")}>
+          <Link to={createPageUrl("contact")}>
             <Button className="bg-black hover:bg-black/80 text-white">
               Transform Your Service Environment
             </Button>

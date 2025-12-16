@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
@@ -280,7 +279,7 @@ export default function WhatExactlyDoesMusicCuratorDo() {
             <h3 className="text-2xl font-bold text-black mt-10 mb-4">1) Constant Listening With Intent</h3>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Curators live at the edge of culture, mapping new releases and catalog gems across genres, regions, and moods. The goal isn't just "good music" but is a musical fit. Tracks whose tempo, timbre, energy, and familiarity align with the <a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1236006/full" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">experience you want to produce</a>.
+              Curators live at the edge of culture, mapping new releases and catalog gems across genres, regions, and moods. The goal isn't just "good music" but musical fit. Tracks whose tempo, timbre, energy, and familiarity align with the <a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1236006/full" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">experience you want to produce</a>.
             </p>
 
             <p className="text-black/80 leading-relaxed mb-8">
@@ -355,7 +354,7 @@ export default function WhatExactlyDoesMusicCuratorDo() {
               Back to Blog
             </Button>
           </Link>
-          <Link to={createPageUrl("ContactUs")}>
+          <Link to={createPageUrl("contact")}>
             <Button className="bg-black hover:bg-black/80 text-white">
               Get Your Free Sonic Audit
             </Button>

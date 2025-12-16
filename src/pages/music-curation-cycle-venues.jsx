@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
@@ -339,7 +338,7 @@ export default function MusicCurationCycleVenues() {
             </ul>
 
             <p className="text-black/80 leading-relaxed">
-              Music changes how people move, connect, and remember. We make that power part of your venue's identity. Then we keep improving it, cycle after cycle. Ready to elevate your venue's sound strategy? <Link to={createPageUrl("ContactUs")} className="text-black underline hover:text-black/70 font-semibold">Contact us today</Link>!
+              Music changes how people move, connect, and remember. We make that power part of your venue's identity. Then we keep improving it, cycle after cycle. Ready to elevate your venue's sound strategy? <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70 font-semibold">Contact us today</Link>!
             </p>
           </div>
         </Card>
@@ -351,7 +350,7 @@ export default function MusicCurationCycleVenues() {
               Back to Blog
             </Button>
           </Link>
-          <Link to={createPageUrl("ContactUs")}>
+          <Link to={createPageUrl("contact")}>
             <Button className="bg-black hover:bg-black/80 text-white">
               Start Your Music Curation Journey
             </Button>
