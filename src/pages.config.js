@@ -23,7 +23,6 @@ import signaturePlaylists from './pages/signature-playlists';
 import sonicStrategy from './pages/sonic-strategy';
 import threeReasonsMakeMusicHospitality from './pages/three-reasons-make-music-hospitality';
 import wellnessCenters from './pages/wellness-centers';
-import wellnessGyms from './pages/wellness-gyms';
 import whatExactlyDoesMusicCuratorDo from './pages/what-exactly-does-music-curator-do';
 import musicForRetailStores from './pages/music-for-retail-stores';
 import musicForWellnessAndGyms from './pages/music-for-wellness-and-gyms';
@@ -56,7 +55,6 @@ export const PAGES = {
     "sonic-strategy": sonicStrategy,
     "three-reasons-make-music-hospitality": threeReasonsMakeMusicHospitality,
     "wellness-centers": wellnessCenters,
-    "wellness-gyms": wellnessGyms,
     "what-exactly-does-music-curator-do": whatExactlyDoesMusicCuratorDo,
     "music-for-retail-stores": musicForRetailStores,
     "music-for-wellness-and-gyms": musicForWellnessAndGyms,
