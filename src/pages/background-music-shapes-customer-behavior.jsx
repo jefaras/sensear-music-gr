@@ -10,14 +10,14 @@ export default function BackgroundMusicShapesCustomerBehavior() {
 
   useEffect(() => {
     // Updated based on the new content
-    const blogTitle = "Sound strategy that sells: how background music shapes behavior | SensEar Research";
+    const blogTitle = "How background music shapes customer behaviour | SensEar Blog";
     document.title = blogTitle;
 
-    const description = "Field research reveals how strategic background music increases sales and dwell time in retail and hospitality.";
+    const description = "Field research reveals how strategic background music affects dwell time, pace, and spending in retail and hospitality environments.";
     const pageUrl = 'https://sensear.music/background-music-shapes-customer-behavior';
     // Updated imageUrl
     const imageUrl = 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e9f53224a_ladies.png';
-    const blogPostingHeadline = "Sound strategy that sells: how background music shapes behavior";
+    const blogPostingHeadline = "Sound strategy that sells: how background music shapes behaviour";
     const publishedDate = "2025-03-08";
 
     const metaDescription = document.querySelector('meta[name="description"]');
@@ -254,10 +254,10 @@ export default function BackgroundMusicShapesCustomerBehavior() {
             <div className="flex flex-col justify-center text-left">
               <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
                 <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Sound strategy that sells:</span>
-                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">how background music shapes behavior</span>
+                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">how background music shapes behaviour</span>
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2 mb-6">
-                Field research reveals how strategic background music increases sales and dwell time in retail and hospitality.
+                Field research reveals how strategic background music affects dwell time, pace, and spending in retail and hospitality environments.
               </p>
               <div className="flex items-center gap-6 text-sm text-black/60 slide-up-2">
                 <div className="flex items-center gap-2">

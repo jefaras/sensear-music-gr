@@ -660,7 +660,7 @@ export default function Blog() {
 
             {/* Article 6 */}
             <article role="listitem">
-              <Link to={createPageUrl("background-music-shapes-customer-behavior")} className="block" aria-label="Read more about: Sound strategy that sells">
+              <Link to={createPageUrl("background-music-shapes-customer-behavior")} className="block" aria-label="Read research on how background music influences customer behaviour">
                 <Card className="overflow-hidden hover:shadow-xl transition-all group cursor-pointer bg-white">
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <img
@@ -675,7 +675,7 @@ export default function Blog() {
                       Research
                     </Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      Sound strategy that sells: how background music shapes customer behavior
+                      Sound strategy that sells: how background music shapes customer behaviour
                     </h3>
                     <p className="text-black/70 mb-4 leading-relaxed">
                       Field research reveals how strategic background music increases sales and dwell time in retail and hospitality environments.
