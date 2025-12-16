@@ -41,7 +41,7 @@ export default function Layout({ children }) {
     { name: "Services", path: createPageUrl("Services") },
     { name: "Industries", path: createPageUrl("Industries") },
     { name: "Case Studies", path: createPageUrl("case-studies") },
-    { name: "Blog", path: createPageUrl("Blog") },
+    { name: "Blog", path: createPageUrl("Blog"), ariaLabel: "SensEar blog on sound and space" },
     { name: "About", path: createPageUrl("about") }
   ];
 
@@ -262,7 +262,8 @@ export default function Layout({ children }) {
                   to={item.path} 
                   className={`py-2 text-base font-bold tracking-wide transition-colors relative flex items-center gap-2 hover:underline decoration-1 underline-offset-4 font-jakarta ${
                     isScrolled ? 'text-slate-50' : 'text-black'
-                  }`}>
+                  }`}
+                  aria-label={item.ariaLabel || item.name}>
 
                   {item.name}
                   {item.subItems && <ChevronDown className="w-4 h-4" />}
@@ -328,7 +329,8 @@ export default function Layout({ children }) {
                     onClick={() => !item.subItems && setIsMenuOpen(false)}
                     className={`block text-base font-bold py-2 hover:underline decoration-1 underline-offset-4 font-jakarta ${
                       location.pathname === item.path ? "text-white underline" : "text-white/90"}`
-                    }>
+                    }
+                    aria-label={item.ariaLabel || item.name}>
 
                     {item.name}
                   </Link>
