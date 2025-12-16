@@ -22,10 +22,10 @@ export default function WellnessGyms() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Wellness & Gyms Soundscapes | SensEar Music";
+    document.title = "Music for Wellness & Gyms";
 
     const metaDescription = document.querySelector('meta[name="description"]');
-    const description = "Therapeutic soundscapes for wellness centers and gyms. Curated ambient music that enhances relaxation, mindfulness, and client retention.";
+    const description = "Music for wellness and gyms curated around activity and intensity, supporting focus, calm and movement across treatments and training spaces.";
     if (metaDescription) {
       metaDescription.setAttribute('content', description);
     } else {
@@ -88,7 +88,7 @@ export default function WellnessGyms() {
     }
 
     const ogTags = [
-    { property: 'og:title', content: 'Wellness & Gyms Soundscapes | SensEar Music' },
+    { property: 'og:title', content: 'Music for Wellness & Gyms' },
     { property: 'og:description', content: description },
     { property: 'og:image', content: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1600&q=80' },
     { property: 'og:url', content: 'https://sensear.music/wellness-gyms' },
@@ -108,7 +108,7 @@ export default function WellnessGyms() {
 
     const twitterTags = [
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Wellness & Gyms Soundscapes | SensEar Music' },
+    { name: 'twitter:title', content: 'Music for Wellness & Gyms' },
     { name: 'twitter:description', content: description },
     { name: 'twitter:image', content: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1600&q=80' }];
 
