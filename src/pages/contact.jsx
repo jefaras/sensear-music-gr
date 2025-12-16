@@ -285,7 +285,7 @@ This inquiry has been saved to the database and can be viewed in the admin panel
             Thank You!
           </h2>
           <p className="text-lg text-black/70 mb-8">
-            We've received your inquiry and will get back to you within 24 hours. While you wait, explore our <Link to={createPageUrl("Blog")} className="underline hover:text-black font-semibold">latest insights</Link> or learn about our <Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">music curation services</Link>.
+            We've received your inquiry and will get back to you within 24 hours. While you wait, explore our <Link to={createPageUrl("Blog")} className="underline hover:text-black font-semibold" aria-label="SensEar blog on sound and space">latest insights</Link> or learn about our <Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">music curation services</Link>.
           </p>
           <Button
             onClick={() => setIsSuccess(false)}

@@ -786,7 +786,7 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <Link to={createPageUrl("Blog")}>
-              <AnimatedButton>
+              <AnimatedButton aria-label="SensEar blog on sound and space">
                 Discover more insights
               </AnimatedButton>
             </Link>

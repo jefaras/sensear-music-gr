@@ -64,7 +64,7 @@ export default function Layout({ children }) {
       { name: "Case Studies", path: createPageUrl("case-studies"), ariaLabel: "Music curation case studies" },
       { name: "About", path: createPageUrl("about"), ariaLabel: "About SensEar" },
       { name: "Contact", path: createPageUrl("contact"), ariaLabel: "Contact SensEar" },
-      { name: "Blog", path: createPageUrl("Blog") },
+      { name: "Blog", path: createPageUrl("Blog"), ariaLabel: "SensEar blog on sound and space" },
       { name: "FAQ", path: createPageUrl("FAQ") },
       { name: "Sitemap", path: createPageUrl("Sitemap") }
     ]
@@ -102,7 +102,7 @@ export default function Layout({ children }) {
     } else if (location.pathname === createPageUrl("contact")) {
       document.title = "Contact SensEar | Let's talk about your Space";
     } else if (location.pathname === createPageUrl("Blog")) {
-      document.title = "Blog | SensEar";
+      document.title = "Blog on Music, Space & Experience | SensEar";
     } else {
       document.title = "SensEar - Soundtracking Unique Experiences"; // Default
     }

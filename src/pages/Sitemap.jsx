@@ -82,7 +82,7 @@ export default function Sitemap() {
         { name: "Case Studies", path: createPageUrl("case-studies"), ariaLabel: "Music curation case studies" },
         { name: "About", path: createPageUrl("about"), ariaLabel: "About SensEar" },
         { name: "Contact", path: createPageUrl("contact"), ariaLabel: "Contact SensEar" },
-        { name: "Blog", path: createPageUrl("Blog") },
+        { name: "Blog", path: createPageUrl("Blog"), ariaLabel: "SensEar blog on sound and space" },
         { name: "FAQ", path: createPageUrl("FAQ") }
       ]
     },
@@ -114,7 +114,7 @@ export default function Sitemap() {
       title: "Blog Posts",
       icon: BookOpen,
       pages: [
-        { name: "All Blog Articles", path: createPageUrl("Blog") },
+        { name: "All Blog Articles", path: createPageUrl("Blog"), ariaLabel: "SensEar blog on sound and space" },
         { name: "How Top Hospitality Brands Design Their Sound", path: createPageUrl("how-top-hospitality-brands-design-sound") },
         { name: "Three Reasons Music Matters in Hospitality", path: createPageUrl("three-reasons-make-music-hospitality") },
         { name: "How Brand Music Increases Sales", path: createPageUrl("brand-music-converts-browsers-buyers") },
@@ -172,7 +172,7 @@ export default function Sitemap() {
                 Sitemap
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                Explore all pages and resources on SensEar.Music website. Find everything from our <Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">music curation services</Link> to <Link to={createPageUrl("Blog")} className="underline hover:text-black font-semibold">industry insights</Link>.
+                Explore all pages and resources on SensEar.Music website. Find everything from our <Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">music curation services</Link> to <Link to={createPageUrl("Blog")} className="underline hover:text-black font-semibold" aria-label="SensEar blog on sound and space">industry insights</Link>.
               </p>
             </div>
 

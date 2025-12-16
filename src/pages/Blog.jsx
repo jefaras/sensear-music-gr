@@ -104,10 +104,10 @@ export default function Blog() {
   ];
 
   useEffect(() => {
-    document.title = "Music Curation Blog | SensEar Insights & Research";
+    document.title = "Blog on Music, Space & Experience | SensEar";
 
     const metaDescription = document.querySelector('meta[name="description"]');
-    const description = "Expert insights on music curation, sonic branding, and hospitality atmosphere. Research-backed articles from SensEar's music experts.";
+    const description = "Articles and perspectives by SensEar on sound, space and experience, exploring how music works in real environments.";
     if (metaDescription) {
       metaDescription.setAttribute('content', description);
     } else {
@@ -175,7 +175,7 @@ export default function Blog() {
 
     // Open Graph tags
     const ogTags = [
-      { property: 'og:title', content: 'Music Curation Blog | SensEar Insights & Research' },
+      { property: 'og:title', content: 'Blog on Music, Space & Experience | SensEar' },
       { property: 'og:description', content: description },
       { property: 'og:image', content: 'https://images.unsplash.com/photo-1455734729978-db1ae4f687fc?w=1600&q=80' },
       { property: 'og:url', content: 'https://sensear.music/blog' },
@@ -197,7 +197,7 @@ export default function Blog() {
     // Twitter Card tags
     const twitterTags = [
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'Music Curation Blog | SensEar Insights & Research' },
+      { name: 'twitter:title', content: 'Blog on Music, Space & Experience | SensEar' },
       { name: 'twitter:description', content: description },
       { name: 'twitter:image', content: 'https://images.unsplash.com/photo-1455734729978-db1ae4f687fc?w=1600&q=80' }
     ];
@@ -750,7 +750,7 @@ export default function Blog() {
             Stay Updated
           </h2>
           <p className="text-xl text-black/70 mb-8">
-            <span>Subscribe to receive our latest insights and industry news. Learn more </span><Link to={createPageUrl("AboutUs")} className="underline hover:text-black font-semibold">about our team</Link><span> or </span><Link to={createPageUrl("ContactUs")} className="underline hover:text-black font-semibold">get in touch</Link><span> to discuss your project.</span>
+            <span>Subscribe to receive our latest insights and industry news. Learn more </span><Link to={createPageUrl("about")} className="underline hover:text-black font-semibold" aria-label="About SensEar">about our team</Link><span> or </span><Link to={createPageUrl("contact")} className="underline hover:text-black font-semibold" aria-label="Contact SensEar">get in touch</Link><span> to discuss your project.</span>
           </p>
           <form className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto" aria-label="Newsletter subscription form">
             <Input
