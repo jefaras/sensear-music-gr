@@ -27,6 +27,7 @@ import sonicStrategy from './pages/sonic-strategy';
 import threeReasonsMakeMusicHospitality from './pages/three-reasons-make-music-hospitality';
 import wellnessCenters from './pages/wellness-centers';
 import whatExactlyDoesMusicCuratorDo from './pages/what-exactly-does-music-curator-do';
+import about from './pages/about';
 import __Layout from './Layout.jsx';
 
 
@@ -60,6 +61,7 @@ export const PAGES = {
     "three-reasons-make-music-hospitality": threeReasonsMakeMusicHospitality,
     "wellness-centers": wellnessCenters,
     "what-exactly-does-music-curator-do": whatExactlyDoesMusicCuratorDo,
+    "about": about,
 }
 
 export const pagesConfig = {
