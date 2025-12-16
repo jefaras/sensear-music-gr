@@ -105,7 +105,7 @@ export default function Sitemap() {
         { name: "Hotels & Resorts", path: createPageUrl("music-for-hotels-and-resorts"), ariaLabel: "Music for Hotels & Resorts" },
         { name: "Restaurants & Bars", path: createPageUrl("music-for-restaurants-and-bars"), ariaLabel: "Music for Restaurants & Bars" },
         { name: "Retail Stores", path: createPageUrl("music-for-retail-stores"), ariaLabel: "Music for Retail Stores" },
-        { name: "Wellness & Gyms", path: createPageUrl("wellness-gyms") },
+        { name: "Wellness & Gyms", path: createPageUrl("music-for-wellness-and-gyms"), ariaLabel: "Music for Wellness & Gyms" },
         { name: "Events & Experiences", path: createPageUrl("events-experiences") },
         { name: "Art, Museums & Fashion", path: createPageUrl("art-museums-fashion") }
       ]

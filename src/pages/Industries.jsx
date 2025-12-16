@@ -315,7 +315,7 @@ export default function Industries() {
                 </div>
 
                 <div className="mt-8">
-                  <Link to={createPageUrl("wellness-gyms")}>
+                  <Link to={createPageUrl("music-for-wellness-and-gyms")} aria-label="Music for Wellness & Gyms">
                     <AnimatedButton className="w-full sm:w-auto">
                       Optimize your wellness space
                     </AnimatedButton>

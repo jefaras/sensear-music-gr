@@ -333,7 +333,7 @@ export default function SonicStrategy() {
                   <span>growing, rebranding, or opening new locations.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("wellness-gyms")} className="underline hover:text-black font-semibold text-2xl block mb-1">Wellness & Cultural spaces</Link>
+                  <Link to={createPageUrl("music-for-wellness-and-gyms")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Wellness & Gyms">Wellness & Cultural spaces</Link>
                   <span>wanting a defined sonic personality.</span>
                 </li>
                 <li className="block">

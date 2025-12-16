@@ -354,7 +354,7 @@ export default function SignaturePlaylists() {
                   <span>that want a soundtrack to fit their visual story.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("wellness-gyms")} className="underline hover:text-black font-semibold text-2xl block mb-1">Wellness spaces</Link>
+                  <Link to={createPageUrl("music-for-wellness-and-gyms")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Wellness & Gyms">Wellness spaces</Link>
                   <span>to support treatments or training sessions.</span>
                 </li>
                 <li className="block">

@@ -327,7 +327,7 @@ export default function AudioUpgrades() {
                   <span>with dead corners & overpowering spots near speakers.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("wellness-gyms")} className="underline hover:text-black font-semibold text-2xl block mb-1">Wellness Centers</Link>
+                  <Link to={createPageUrl("music-for-wellness-and-gyms")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Wellness & Gyms">Wellness Centers</Link>
                   <span>needing clear sound for classes without harshness.</span>
                 </li>
                 <li className="block">
