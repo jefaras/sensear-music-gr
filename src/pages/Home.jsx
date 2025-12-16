@@ -600,7 +600,7 @@ export default function Home() {
       {/* Trusted By Section */}
       <section className="py-24 bg-black overflow-hidden" aria-labelledby="clients-heading">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 id="clients-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center mb-4 text-white">Now playing in venues across Greece</h2>
+          <h2 id="clients-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center mb-20 text-white">Now playing in venues across Greece</h2>
 
           
           <div className="relative">
