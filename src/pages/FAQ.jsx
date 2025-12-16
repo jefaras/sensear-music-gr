@@ -127,15 +127,6 @@ export default function FAQ() {
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="item-3" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
-              <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
-                Does SensEar provide fully licensed music?
-              </AccordionTrigger>
-              <AccordionContent className="text-base text-black/70 pt-2 pb-4">
-                Yes. All our tracks are properly licensed for commercial settings, so you don't have to worry about legal pitfalls. We handle licensing, compliance, and usage reporting where required.
-              </AccordionContent>
-            </AccordionItem>
-
             <AccordionItem value="item-4" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
               <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
                 How long does it take to create a custom playlist?

@@ -5,11 +5,13 @@ import Home from './pages/Home';
 import Industries from './pages/Industries';
 import Services from './pages/Services';
 import Sitemap from './pages/Sitemap';
+import about from './pages/about';
 import audioUpgrades from './pages/audio-upgrades';
 import backgroundMusicShapesCustomerBehavior from './pages/background-music-shapes-customer-behavior';
 import brandMusicConvertsBrowsersBuyers from './pages/brand-music-converts-browsers-buyers';
 import buildingBrandPeopleCanHear from './pages/building-brand-people-can-hear';
 import caseStudies from './pages/case-studies';
+import contact from './pages/contact';
 import eventSoundtracks from './pages/event-soundtracks';
 import howTopHospitalityBrandsDesignSound from './pages/how-top-hospitality-brands-design-sound';
 import musicCurationCycleVenues from './pages/music-curation-cycle-venues';
@@ -25,8 +27,6 @@ import sonicStrategy from './pages/sonic-strategy';
 import threeReasonsMakeMusicHospitality from './pages/three-reasons-make-music-hospitality';
 import wellnessCenters from './pages/wellness-centers';
 import whatExactlyDoesMusicCuratorDo from './pages/what-exactly-does-music-curator-do';
-import about from './pages/about';
-import contact from './pages/contact';
 import __Layout from './Layout.jsx';
 
 
@@ -38,11 +38,13 @@ export const PAGES = {
     "Industries": Industries,
     "Services": Services,
     "Sitemap": Sitemap,
+    "about": about,
     "audio-upgrades": audioUpgrades,
     "background-music-shapes-customer-behavior": backgroundMusicShapesCustomerBehavior,
     "brand-music-converts-browsers-buyers": brandMusicConvertsBrowsersBuyers,
     "building-brand-people-can-hear": buildingBrandPeopleCanHear,
     "case-studies": caseStudies,
+    "contact": contact,
     "event-soundtracks": eventSoundtracks,
     "how-top-hospitality-brands-design-sound": howTopHospitalityBrandsDesignSound,
     "music-curation-cycle-venues": musicCurationCycleVenues,
@@ -58,8 +60,6 @@ export const PAGES = {
     "three-reasons-make-music-hospitality": threeReasonsMakeMusicHospitality,
     "wellness-centers": wellnessCenters,
     "what-exactly-does-music-curator-do": whatExactlyDoesMusicCuratorDo,
-    "about": about,
-    "contact": contact,
 }
 
 export const pagesConfig = {
