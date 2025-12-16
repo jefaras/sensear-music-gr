@@ -333,11 +333,11 @@ export default function SonicStrategy() {
                   <span>growing, rebranding, or opening new locations.</span>
                 </li>
                 <li className="block">
-                  <span className="block mb-1"><Link to={createPageUrl("music-for-wellness-and-gyms")} className="underline hover:text-black font-semibold text-2xl" aria-label="Music for Wellness & Gyms">Wellness</Link> <span className="text-2xl">&</span> <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="underline hover:text-black font-semibold text-2xl">Cultural spaces</Link></span>
+                  <span className="block mb-1"><Link to={createPageUrl("music-for-wellness-and-gyms")} className="underline hover:text-black font-semibold text-2xl" aria-label="Music for Wellness & Gyms">Wellness</Link> <span className="text-2xl">&</span> <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="underline hover:text-black font-semibold text-2xl" aria-label="Music for Art, Museums & Fashion">Cultural spaces</Link></span>
                   <span>wanting a defined sonic personality.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="underline hover:text-black font-semibold text-2xl block mb-1">Fashion & Lifestyle brands</Link>
+                  <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Art, Museums & Fashion">Fashion & Lifestyle brands</Link>
                   <span>with strong visual identity but undefined sound.</span>
                 </li>
                 <li className="block">

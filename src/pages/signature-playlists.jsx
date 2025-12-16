@@ -358,7 +358,7 @@ export default function SignaturePlaylists() {
                   <span>to support treatments or training sessions.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="underline hover:text-black font-semibold text-2xl block mb-1">Art & Culture spaces</Link>
+                  <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Art, Museums & Fashion">Art & Culture spaces</Link>
                   <span>that need engaging but unobtrusive sound.</span>
                 </li>
               </ul>

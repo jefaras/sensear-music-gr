@@ -327,7 +327,7 @@ export default function EventSoundtracks() {
                   <span>offering ceremonial or intimate dining.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="underline hover:text-black font-semibold text-2xl block mb-1">Cultural Venues & Galleries</Link>
+                  <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Art, Museums & Fashion">Cultural Venues & Galleries</Link>
                   <span>staging talks, previews or exhibition openings.</span>
                 </li>
                 <li className="block">
