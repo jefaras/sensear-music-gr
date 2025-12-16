@@ -216,9 +216,9 @@ export default function AudioUpgrades() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
-              <h1 className="text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                Audio Upgrades:<br />
-                Clear, balanced sound for your space
+              <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
+                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem] italic">Audio Upgrades:</span>
+                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70">Clear, balanced sound for your space</span>
                 </h1>
                 <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
                 Optimization designed to support atmosphere & conversations.
