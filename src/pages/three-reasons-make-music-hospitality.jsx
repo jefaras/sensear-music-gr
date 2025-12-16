@@ -277,9 +277,9 @@ export default function ThreeReasonsMakeMusicHospitality() {
 
         <div className="max-w-4xl mx-auto px-6 py-16">
           <section className="prose prose-lg max-w-none bg-white p-8 md:p-12 shadow-lg mb-12">
-            <p className="text-xl text-black/80 leading-relaxed mb-8">
-              Short take: curated music is a practical way to shape how guests feel, what they remember, and how they spend.
-            </p>
+            <h2 className="text-2xl font-bold text-black mb-8">
+              Short take: curated music is a practical way to shape how guests feel, what they remember, and how they spend
+            </h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
               Most leading luxury hotel brands treat the experience as a complete design system. Every decision is considered, from architecture to materials to the sound in each space.
@@ -297,7 +297,7 @@ export default function ThreeReasonsMakeMusicHospitality() {
               In recent years, more luxury brands have added music design to the core toolkit for guest engagement, atmosphere, and brand stature.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Music and the Guest Experience</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Music and the guest experience</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
               Music is a direct, cost-effective way to set mood and connect with your target audience. The right selections align with guest values, taste, and expectations.
@@ -311,13 +311,13 @@ export default function ThreeReasonsMakeMusicHospitality() {
               "Done with care, music is a simple way to improve the guest experience. A well-curated playlist lets a brand connect on a deeper emotional level."
             </blockquote>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Music and Brand Identity</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Music and brand identity</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
               Sound is part of brand memory. Consistent musical choices make a space feel on-brand and recognizable, the same way color, typography, and materials do. <a href="https://www.sciencedirect.com/science/article/pii/S0001691824002105" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Research in marketing and consumer psychology</a> shows that sonic branding and music cues can shape recall, perceived fit, and purchase intent. Aligning playlists with the environment and the brand's desired feel creates a <a href="https://etheses.whiterose.ac.uk/id/eprint/22404/1/Wong%202018%20-%20Sound%20Branding%20-%20FINAL%20DEC%202018.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">competitive edge</a> that generic background music cannot match.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Music and Employee Productivity</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Music and employee productivity</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
               Music also affects staff. <a href="https://hbr.org/2022/09/can-music-make-you-more-productive" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Reviews and practitioner summaries</a> suggest that background music can improve mood regulation and short-term performance on certain tasks, which is why clear listening policies and curation by daypart matter. <a href="https://cloudcovermusic.com/research/music-at-work-research" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Industry research</a> echoes this perception, with large shares of employees reporting they work better with appropriate music in the background.
