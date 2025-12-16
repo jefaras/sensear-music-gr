@@ -281,9 +281,9 @@ export default function WhatExactlyDoesMusicCuratorDo() {
               Music curators architect the soundtrack of a brand, designing purpose-built playlists and ambient soundscapes that shape emotion, guide behavior, and make spaces memorable. Unlike DJs who perform live and read a crowd in the moment, <a href="https://thearf-org-unified-admin.s3.amazonaws.com/ARF%20Councils/ARF_Creative_SonicBranding_2024_10.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">curators work upstream</a>: they translate strategy, context, and data into on-brand audio systems for retail, hospitality, offices, events, and installations.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">How SensEar Curates: Four Pillars of Strategic Sound</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">How SensEar curates: Four pillars of planned sound</h2>
 
-            <h3 className="text-2xl font-bold text-black mt-10 mb-4">1) Constant Listening With Intent</h3>
+            <h3 className="text-2xl font-bold text-black mt-10 mb-4">1) Constant listening with intent</h3>
 
             <p className="text-black/80 leading-relaxed mb-6">
               Curators live at the edge of culture, mapping new releases and catalog gems across genres, regions, and moods. The goal isn't just "good music" but musical fit. Tracks whose tempo, timbre, energy, and familiarity align with the <a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1236006/full" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">experience you want to produce</a>.
@@ -293,13 +293,13 @@ export default function WhatExactlyDoesMusicCuratorDo() {
               Beneath the art sits neuroscience: <a href="https://www.brainmusic.org/MBB91%20Webpage/Blood_Zatorre_2001.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">peak emotional responses</a> to music recruit the brain's reward circuitry (ventral striatum, amygdala, OFC), which is why the right song at the right moment can feel transformative.
             </p>
 
-            <h3 className="text-2xl font-bold text-black mt-10 mb-4">2) Brand & Space Diagnostics</h3>
+            <h3 className="text-2xl font-bold text-black mt-10 mb-4">2) Brand & space diagnostics</h3>
 
             <p className="text-black/80 leading-relaxed mb-8">
               Before a single track is placed, we interrogate context: vision, clientele, day-parts, acoustic constraints, and the behaviors you need (linger longer, browse deeper, buy, relax, socialize). The brief might include <a href="https://www.ioa.org.uk/system/files/proceedings/kp_roy_sound_masking_system_design_and_speech_privacy.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">speech-privacy</a> or confidentiality needs. Cases where curators partner with <a href="https://www.sciencedirect.com/science/article/pii/S2405844024130733" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">acoustic design</a> and <a href="https://cambridgesound.com/sound-masking-references/" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">sound masking</a> to ensure conversations remain private while keeping the room comfortable.
             </p>
 
-            <h3 className="text-2xl font-bold text-black mt-10 mb-4">3) Bespoke Playlist Systems, Not Templates</h3>
+            <h3 className="text-2xl font-bold text-black mt-10 mb-4">3) Bespoke playlist systems, not templates</h3>
 
             <p className="text-black/80 leading-relaxed mb-6">
               From a blank canvas, curators design adaptive playlists that express your audio identity across moments: opening calm, midday energy, golden-hour warmth, late-night minimalism. The mix calibrates:
@@ -316,13 +316,13 @@ export default function WhatExactlyDoesMusicCuratorDo() {
               We also consider brand personality cues. For example, sonic logos and short audio signatures can amplify perceived sincerity or ruggedness when <a href="https://www.sciencedirect.com/science/article/pii/S0148296323005283" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">musical features</a> are congruent with brand traits.
             </p>
 
-            <h3 className="text-2xl font-bold text-black mt-10 mb-4">4) Governance: Keep It Fresh, Measured, and On-Brand</h3>
+            <h3 className="text-2xl font-bold text-black mt-10 mb-4">4) Governance: keep it fresh, measured, and on-brand</h3>
 
             <p className="text-black/80 leading-relaxed mb-8">
               Curation isn't "set and forget." SensEar runs data-driven playlisting with scheduled rotation, seasonality, event spikes, and test-and-learn loops. We tag features (tempo/energy/mode), monitor skips and staff feedback, and align with brand KPIs (dwell time, NPS, conversion). Modern sonic branding programs <a href="https://thearf-org-unified-admin.s3.amazonaws.com/ARF%20Councils/ARF_Creative_SonicBranding_2024_10.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">measure memory</a>, recognition, and emotional lift, then iterate to improve asset recall and engagement.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Why It Works: The Evidence Behind Strategic Sound</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Why it works: the evidence behind strategic sound</h2>
 
             <p className="text-black/80 leading-relaxed mb-4">
               <strong>Tempo steers pace & spend.</strong> <a href="https://music2biz.com/wp-content/uploads/2017/04/Using-Background-Music-to-Affect-the-Behavior-of-Supermarket-Shoppers.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Slow-tempo music</a> can lengthen in-store time and increase sales; similar effects appear in <a href="https://academic.oup.com/jcr/article-abstract/13/2/286/1846377" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">restaurants</a> where slower music extends <a href="https://www.sciencedirect.com/science/article/pii/S0950329324000971" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">dining duration</a>.
@@ -346,7 +346,7 @@ export default function WhatExactlyDoesMusicCuratorDo() {
               DJs perform; curators pre-engineer the experience. Curators build scalable, context-aware retail soundscapes and experiential audio systems that teams can run daily; grounded in brand strategy, psychoacoustics, and <a href="https://thearf-org-unified-admin.s3.amazonaws.com/ARF%20Councils/ARF_Creative_SonicBranding_2024_10.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">measurement</a>.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Ready to Hear Your Brand?</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Ready to hear your brand?</h2>
 
             <p className="text-black/80 leading-relaxed">
               If you're designing a new space, refreshing an audio identity, or want measurable uplift from in-store music, SensEar can help; <Link to={createPageUrl("sonic-strategy")} className="text-black underline hover:text-black/70 font-semibold">strategy</Link>, <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70 font-semibold">curation</Link>, and governance included. Let's build a sound your customers remember and your team can run every day. Get your <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70 font-semibold">free sonic audit</Link> today.
