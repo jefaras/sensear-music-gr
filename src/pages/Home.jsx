@@ -493,7 +493,7 @@ export default function Home() {
                         </div>
 
                         <div className="mb-4">
-                            <Link to={createPageUrl("retail-stores")} className="text-xl font-bold text-black block mb-1 group w-fit">
+                            <Link to={createPageUrl("music-for-retail-stores")} className="text-xl font-bold text-black block mb-1 group w-fit" aria-label="Music for Retail Stores">
                                 <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Retail Stores</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </Link>
                             <p className="text-[17px] text-black/70 leading-relaxed">
