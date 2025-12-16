@@ -200,21 +200,48 @@ export default function WhatExactlyDoesMusicCuratorDo() {
 
   return (
     <div className="bg-[#faebe3] min-h-screen">
-      <section 
-        className="relative pt-24 pb-20 overflow-hidden"
-        style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
-        aria-label="What Exactly Does a Music Curator Do?">
+      <style>{`
+        @keyframes slideUp {
+          from {
+            opacity: 0;
+            transform: translateY(40px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        
+        .slide-up-1 {
+          animation: slideUp 0.8s ease-out forwards;
+          opacity: 0;
+        }
+        
+        .slide-up-2 {
+          animation: slideUp 0.8s ease-out 0.2s forwards;
+          opacity: 0;
+        }
+        
+        .slide-up-4 {
+          animation: slideUp 0.8s ease-out 0.6s forwards;
+          opacity: 0;
+        }
+      `}</style>
 
-        {/* Text content */}
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="w-full">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] font-bold text-black mb-6 leading-[1.1]">
-              What Exactly Does<br />
-              a Music Curator Do?
-            </h1>
-            
-            <div className="mb-8 max-w-4xl">
-              <div className="flex items-center gap-6 text-sm text-black/60 mb-4">
+      {/* Hero Section - Two Column Layout */}
+      <section className="relative pt-32 pb-32 min-h-[90vh] flex flex-col justify-center overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="What Exactly Does a Music Curator Do?">
+        <div className="w-full px-6 md:px-12 lg:px-16">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Column: H1 */}
+            <div className="flex flex-col justify-center text-left">
+              <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
+                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">What Exactly Does</span>
+                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">a Music Curator Do?</span>
+              </h1>
+              <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2 mb-6">
+                The SensEar approach to turning brand voice into living sound
+              </p>
+              <div className="flex items-center gap-6 text-sm text-black/60 slide-up-2">
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" aria-hidden="true" />
                   <time dateTime="2025-01-10">January 10, 2025</time>
@@ -227,41 +254,21 @@ export default function WhatExactlyDoesMusicCuratorDo() {
                   <span>6 min read</span>
                 </div>
               </div>
-              <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
-                The SensEar approach to turning brand voice into living sound
-              </p>
             </div>
-          </div>
-        </div>
 
-        {/* Hero Image - Larger with parallax */}
-        <div className="w-full px-6">
-          <div className="mx-auto" style={{ maxWidth: '1800px' }}>
-            <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
-              {/* Mobile/Tablet version - NO parallax */}
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9fc56aeca_aiease_1760529744739.jpg"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9fc56aeca_aiease_1760529744739.jpg 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9fc56aeca_aiease_1760529744739.jpg 2400w"
-                sizes="(max-width: 1800px) 100vw, 1800px"
-                alt="Professional music curator at work designing brand soundtracks and strategic playlists"
-                className="absolute w-full h-full object-cover md:hidden"
-              />
-              {/* Desktop version - WITH parallax */}
-              <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9fc56aeca_aiease_1760529744739.jpg"
-                srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9fc56aeca_aiease_1760529744739.jpg 1800w,
-                        https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9fc56aeca_aiease_1760529744739.jpg 2400w"
-                sizes="(max-width: 1800px) 100vw, 1800px"
-                alt="Professional music curator at work designing brand soundtracks and strategic playlists"
-                className="absolute w-full h-full object-cover hidden md:block"
-                style={{ 
-                  top: '-15%',
-                  height: '130%',
-                  transform: `translateY(${scrollY * 0.15}px)`,
-                  transformOrigin: 'center top'
-                }}
-              />
+            {/* Right Column: Square Image */}
+            <div className="w-full slide-up-4 flex justify-center lg:justify-end">
+              <div className="w-full lg:w-[93.5%]">
+                <div className="overflow-hidden rounded-2xl shadow-2xl">
+                  <div className="relative aspect-square">
+                    <img 
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/c4ed33ff8_gemini-25-flash-image_professional_photo_of_Upscale_this_image_carefully_keeping_the_natural_photo_sty-01.jpg" 
+                      alt="Professional music curator at work designing brand soundtracks and strategic playlists" 
+                      className="w-full h-full object-cover" 
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -342,7 +349,7 @@ export default function WhatExactlyDoesMusicCuratorDo() {
             <h2 className="text-3xl font-bold text-black mt-12 mb-6">Ready to Hear Your Brand?</h2>
 
             <p className="text-black/80 leading-relaxed">
-              If you're designing a new space, refreshing an audio identity, or want measurable uplift from in-store music, SensEar can help; <Link to={createPageUrl("sonic-strategy")} className="text-black underline hover:text-black/70 font-semibold">strategy</Link>, <Link to={createPageUrl("signature-soundscapes")} className="text-black underline hover:text-black/70 font-semibold">curation</Link>, and governance included. Let's build a sound your customers remember and your team can run every day. Get your <Link to={createPageUrl("ContactUs")} className="text-black underline hover:text-black/70 font-semibold">free sonic audit</Link> today.
+              If you're designing a new space, refreshing an audio identity, or want measurable uplift from in-store music, SensEar can help; <Link to={createPageUrl("sonic-strategy")} className="text-black underline hover:text-black/70 font-semibold">strategy</Link>, <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70 font-semibold">curation</Link>, and governance included. Let's build a sound your customers remember and your team can run every day. Get your <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70 font-semibold">free sonic audit</Link> today.
             </p>
           </div>
         </Card>
