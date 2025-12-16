@@ -111,18 +111,6 @@ export default function Sitemap() {
       ]
     },
     {
-      title: "Case Studies",
-      icon: FileText,
-      pages: [
-        { name: "All Case Studies", path: createPageUrl("CaseStudies") },
-        { name: "Blue Bamboo", path: createPageUrl("blue-bamboo") },
-        { name: "Klouvi", path: createPageUrl("klouvi-bar") },
-        { name: "Beach House", path: createPageUrl("beach-house-antiparos") },
-        { name: "Pelicanos", path: createPageUrl("pelicanos-sifnos-restaurant") },
-        { name: "Playlists Demos", path: createPageUrl("PlaylistsDemos") }
-      ]
-    },
-    {
       title: "Blog Posts",
       icon: BookOpen,
       pages: [
