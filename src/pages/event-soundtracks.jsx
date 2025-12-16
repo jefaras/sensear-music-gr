@@ -331,7 +331,7 @@ export default function EventSoundtracks() {
                   <span>staging talks, previews or exhibition openings.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("retail-stores")} className="underline hover:text-black font-semibold text-2xl block mb-1">Brands</Link>
+                  <Link to={createPageUrl("building-brand-people-can-hear")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Building a brand people can hear">Brands</Link>
                   <span>that want music to shape how guests feel, share & remember.</span>
                 </li>
               </ul>
