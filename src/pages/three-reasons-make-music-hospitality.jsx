@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
@@ -201,19 +200,49 @@ export default function ThreeReasonsMakeMusicHospitality() {
 
   return (
     <div className="bg-[#faebe3]">
+      <style>{`
+        @keyframes slideUp {
+          from {
+            opacity: 0;
+            transform: translateY(40px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        
+        .slide-up-1 {
+          animation: slideUp 0.8s ease-out forwards;
+          opacity: 0;
+        }
+        
+        .slide-up-2 {
+          animation: slideUp 0.8s ease-out 0.2s forwards;
+          opacity: 0;
+        }
+        
+        .slide-up-4 {
+          animation: slideUp 0.8s ease-out 0.6s forwards;
+          opacity: 0;
+        }
+      `}</style>
+
       <article>
-        {/* Hero Section - Similar to Home but smaller heading */}
-        <section className="relative pt-24 pb-20 overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Three Reasons Make Music Hospitality section">
-          {/* Text content */}
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="w-full">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] font-bold text-black mb-6 leading-[1.1]">
-                Three Reasons to Make Music<br />
-                Part of Your Luxury Hospitality Strategy
-              </h1>
-              
-              <div className="mb-8 max-w-4xl">
-                <div className="flex items-center gap-6 text-sm text-black/60 mb-4">
+        {/* Hero Section - Two Column Layout */}
+        <section className="relative pt-32 pb-32 min-h-[90vh] flex flex-col justify-center overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Three Reasons Make Music Hospitality section">
+          <div className="w-full px-6 md:px-12 lg:px-16">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              {/* Left Column: H1 */}
+              <div className="flex flex-col justify-center text-left">
+                <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
+                  <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Three Reasons to Make Music</span>
+                  <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">Part of Your Luxury Hospitality Strategy</span>
+                </h1>
+                <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2 mb-6">
+                  Why curated music is a practical way to shape how guests feel, what they remember, and how they spend.
+                </p>
+                <div className="flex items-center gap-6 text-sm text-black/60 slide-up-2">
                   <div className="flex items-center gap-2">
                     <Calendar className="w-4 h-4" aria-hidden="true" />
                     <time dateTime="2025-01-15">January 15, 2025</time>
@@ -226,41 +255,21 @@ export default function ThreeReasonsMakeMusicHospitality() {
                     <span>8 min read</span>
                   </div>
                 </div>
-                <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
-                  Why curated music is a practical way to shape how guests feel, what they remember, and how they spend.
-                </p>
               </div>
-            </div>
-          </div>
 
-          {/* Hero Image - Larger with parallax */}
-          <div className="w-full px-6">
-            <div className="mx-auto" style={{ maxWidth: '1800px' }}>
-              <div className="rounded-[2rem] overflow-hidden shadow-2xl relative bg-[#faebe3]" style={{ paddingBottom: '40%' }}>
-                {/* Mobile/Tablet version - NO parallax */}
-                <img
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9619c7d50_e56c8a322bf8043723ba7e215cf5e636.jpg"
-                  srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9619c7d50_e56c8a322bf8043723ba7e215cf5e636.jpg 1800w,
-                          https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9619c7d50_e56c8a322bf8043723ba7e215cf5e636.jpg 2400w"
-                  sizes="(max-width: 1800px) 100vw, 1800px"
-                  alt="Luxury hotel interior showcasing music's role in hospitality marketing strategy"
-                  className="absolute w-full h-full object-cover md:hidden"
-                />
-                {/* Desktop version - WITH parallax */}
-                <img
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9619c7d50_e56c8a322bf8043723ba7e215cf5e636.jpg"
-                  srcSet="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9619c7d50_e56c8a322bf8043723ba7e215cf5e636.jpg 1800w,
-                          https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9619c7d50_e56c8a322bf8043723ba7e215cf5e636.jpg 2400w"
-                  sizes="(max-width: 1800px) 100vw, 1800px"
-                  alt="Luxury hotel interior showcasing music's role in hospitality marketing strategy"
-                  className="absolute w-full h-full object-cover hidden md:block"
-                  style={{ 
-                    top: '-15%',
-                    height: '130%',
-                    transform: `translateY(${scrollY * 0.15}px)`,
-                    transformOrigin: 'center top'
-                  }}
-                />
+              {/* Right Column: Square Image */}
+              <div className="w-full slide-up-4 flex justify-center lg:justify-end">
+                <div className="w-full lg:w-[93.5%]">
+                  <div className="overflow-hidden rounded-2xl shadow-2xl">
+                    <div className="relative aspect-square">
+                      <img 
+                        src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/2d2243a41_seedream-40_Upscale_this_image_keeping_all_natural_contexts_and_add_two_small_and_discreet_s-0.jpg" 
+                        alt="Luxury hotel interior showcasing music's role in hospitality marketing strategy" 
+                        className="w-full h-full object-cover" 
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -319,7 +328,7 @@ export default function ThreeReasonsMakeMusicHospitality() {
             </p>
 
             <p className="text-black/80 leading-relaxed">
-              See what <Link to={createPageUrl("signature-soundscapes")} className="text-black underline hover:text-black/70 font-semibold">curated music</Link> can do for your brand. <Link to={createPageUrl("ContactUs")} className="text-black underline hover:text-black/70 font-semibold">Start here</Link>.
+              See what <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70 font-semibold">curated music</Link> can do for your brand. <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70 font-semibold">Start here</Link>.
             </p>
           </section>
 
@@ -328,7 +337,7 @@ export default function ThreeReasonsMakeMusicHospitality() {
             <p className="text-black/70 mb-6">
               Discover how SensEar can help you create a signature sound that defines your brand and delights your guests.
             </p>
-            <Link to={createPageUrl("ContactUs")}>
+            <Link to={createPageUrl("contact")}>
               <Button size="lg" className="bg-black text-white hover:bg-black/80 group" aria-label="Start Your Sound Journey">
                 Start Your Sound Journey
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
