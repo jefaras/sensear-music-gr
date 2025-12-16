@@ -9,7 +9,7 @@ export default function BrandMusicConvertsBrowsersBuyers() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "How Brand-Fit Music Converts Browsers into Buyers";
+    document.title = "How brand-fit music converts browsers into buyers";
     
     const metaDescription = document.querySelector('meta[name="description"]');
     const description = "Research-backed insights showing how brand-aligned music increases dwell time and lifts sales in hospitality and retail spaces.";
@@ -80,7 +80,7 @@ export default function BrandMusicConvertsBrowsersBuyers() {
 
     // Open Graph tags
     const ogTags = [
-      { property: 'og:title', content: 'How Brand-Fit Music Converts Browsers into Buyers' },
+      { property: 'og:title', content: 'How brand-fit music converts browsers into buyers' },
       { property: 'og:description', content: description },
       { property: 'og:image', content: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ef99620ec_3dcbb42176ccd5762fc415dc0d74dd2d.jpg' },
       { property: 'og:url', content: 'https://sensear.music/brand-music-converts-browsers-buyers' },
@@ -105,7 +105,7 @@ export default function BrandMusicConvertsBrowsersBuyers() {
     // Twitter Card tags
     const twitterTags = [
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'How Brand-Fit Music Converts Browsers into Buyers' },
+      { name: 'twitter:title', content: 'How brand-fit music converts browsers into buyers' },
       { name: 'twitter:description', content: description },
       { name: 'twitter:image', content: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ef99620ec_3dcbb42176ccd5762fc415dc0d74dd2d.jpg' }
     ];
@@ -138,7 +138,7 @@ export default function BrandMusicConvertsBrowsersBuyers() {
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "How Brand-Fit Music Converts Browsers into Buyers",
+        "headline": "How brand-fit music converts browsers into buyers",
         "description": "Research-backed insights showing how brand-aligned music increases dwell time and lifts sales in hospitality and retail spaces.",
         "image": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ef99620ec_3dcbb42176ccd5762fc415dc0d74dd2d.jpg",
         "author": {
@@ -277,13 +277,13 @@ export default function BrandMusicConvertsBrowsersBuyers() {
       <div className="max-w-4xl mx-auto px-6 py-16">
         <Card className="bg-white p-8 md:p-12 shadow-lg mb-12">
           <div className="prose prose-lg max-w-none">
-            <h2 className="text-3xl font-bold text-black mt-0 mb-6">Sound Is the Fastest Path to the Brain, and the Most Underused Lever in Retail</h2>
+            <h2 className="text-3xl font-bold text-black mt-0 mb-6">Sound is the fastest path to the brain, and the most underused lever in retail</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
               Walk into any bar, hotel, or restaurant and you'll feel the space before you read a single menu line: lighting, textures, layout. Yet the signal that hits your brain first is sound - an organizer for the rest of your senses - quietly steering attention, pace, and preference (<a href="https://www.jstor.org/stable/1252042" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Bitner's servicescape framework</a> situates music as a core ambient cue).
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Beyond Background Noise: The Evidence for Brand-Fit Music</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Beyond background noise: the evidence for brand-fit music</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
               Large-scale <a href="https://ideas.repec.org/p/hhs/huiwps/0121.html" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">field research</a> finally moved this question from hunch to hard numbers. In a multi-month experiment spanning 16 high-traffic <Link to={createPageUrl("music-for-restaurants-and-bars")} className="text-black underline hover:text-black/70 font-semibold">restaurants</Link>, playlists that matched the brand's personality outperformed random chart hits, lifting <a href="https://ideas.repec.org/p/hhs/huiwps/0121.html" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">revenues by ~9.1%</a>.
@@ -293,19 +293,19 @@ export default function BrandMusicConvertsBrowsersBuyers() {
               Earlier work already hinted that music changes shopper behavior: <a href="https://music2biz.com/wp-content/uploads/2017/04/Using-Background-Music-to-Affect-the-Behavior-of-Supermarket-Shoppers.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">slow-tempo soundtracks</a> reduced <a href="https://music2biz.com/wp-content/uploads/2017/04/Using-Background-Music-to-Affect-the-Behavior-of-Supermarket-Shoppers.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">walking speed</a> and increased <a href="https://music2biz.com/wp-content/uploads/2017/04/Using-Background-Music-to-Affect-the-Behavior-of-Supermarket-Shoppers.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">supermarket sales</a>. And context-congruent music can even tilt category choice; French vs. German <a href="https://archive.org/download/wikipedia-scholarly-sources-corpus/10.1037%252F0002-9432.71.2.245.zip/10.1037%252F0021-9010.84.2.271.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">wine sales</a> swung with the nationality of the music.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">What "Brand-Fit" Actually Means</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">What "brand-fit" actually means</h2>
 
             <p className="text-black/80 leading-relaxed mb-8">
               <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70 font-semibold">Brand fit music</Link> behaves like your interior palette, only for the ears: it reflects values, tone-of-voice, and desired pace, so the sound "feels" unmistakably like you. Customer fit - playing only what you think guests prefer - often dissolves into a beige mix that blurs distinctiveness, especially with diverse audiences.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Why This Works: Multisensory Science, Not Marketing Magic</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Why this works: multisensory science, not marketing magic</h2>
 
             <p className="text-black/80 leading-relaxed mb-8">
               Sound doesn't operate in a silo; it cross-talks with taste, time perception, and arousal. Reviews in multisensory perception show that sonic cues can reshape <a href="https://ora.ox.ac.uk/objects/uuid%3Af7af7995-1ba5-4557-bdb1-782dd9185583/download_file?safe_filename=Spence-et-al-2021-Commercializing-sonic-seasoning.pdf&type_of_work=Journal+article" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">flavour experience</a> ("sonic seasoning") and the overall hospitality moment. This sits squarely inside <a href="https://eclass-demo.aueb.gr/modules/document/file.php/MISC418/Lecture5_Reading_Servicescapes.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">servicescape theory</a>, where <a href="https://eclass-demo.aueb.gr/modules/document/file.php/MISC418/Lecture5_Reading_Servicescapes.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">ambient conditions</a> (music, scent, temperature) shape both customer and staff outcomes.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">What the Data Says In Plain Numbers</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">What the data says in plain numbers</h2>
 
             <p className="text-black/80 leading-relaxed mb-4">
               Brand-fit playlists beat random popular tracks, driving a <a href="https://ideas.repec.org/p/hhs/huiwps/0121.html" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">~9.1% sales lift</a> in a real-world restaurant chain.
@@ -320,27 +320,27 @@ export default function BrandMusicConvertsBrowsersBuyers() {
             </p>
 
             <div className="bg-black/5 p-8 rounded-lg my-10">
-              <h2 className="text-3xl font-bold text-black mb-6 text-center">The SensEar Playbook: From Soundcheck to Sales Impact</h2>
+              <h2 className="text-3xl font-bold text-black mb-6 text-center">The SensEar playbook: from soundcheck to sales impact</h2>
               <ol className="space-y-4 text-black/80">
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">1.</span>
-                  <span><strong>Brand Audio DNA</strong> - We translate your values and visual identity into audio attributes (tempo, timbre, energy, cultural cues).</span>
+                  <span><strong>Brand audio DNA</strong> - We translate your values and visual identity into audio attributes (tempo, timbre, energy, cultural cues).</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">2.</span>
-                  <span><strong>Adaptive, Brand-Fit Playlists</strong> - Dynamic programming that blends popular and emerging tracks while staying on-voice, hour-by-hour.</span>
+                  <span><strong>Adaptive, brand-fit playlists</strong> - Dynamic programming that blends popular and emerging tracks while staying on-voice, hour-by-hour.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">3.</span>
-                  <span><strong>Zonal Soundscapes</strong> - Different spaces, different intents: entrance, bar, dining, restrooms - each with a role in the journey.</span>
+                  <span><strong>Zonal soundscapes</strong> - Different spaces, different intents: entrance, bar, dining, restrooms - each with a role in the journey.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">4.</span>
-                  <span><strong>Licensing & Compliance</strong> - We handle rights so you stay protected while sounding premium.</span>
+                  <span><strong>Licensing & compliance</strong> - We handle rights so you stay protected while sounding premium.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">5.</span>
-                  <span><strong>A/B & Attribution</strong> - We correlate playlist variants with traffic, dwell, attachment, and category mix, not just "vibes."</span>
+                  <span><strong>A/B & attribution</strong> - We correlate playlist variants with traffic, dwell, attachment, and category mix, not just "vibes."</span>
                 </li>
               </ol>
               <p className="text-black/70 text-sm mt-6 text-center">
@@ -348,7 +348,7 @@ export default function BrandMusicConvertsBrowsersBuyers() {
               </p>
             </div>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Ready to Hear the Difference?</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Ready to hear the difference?</h2>
 
             <p className="text-black/80 leading-relaxed">
               If you're running a <Link to={createPageUrl("music-for-restaurants-and-bars")} className="text-black underline hover:text-black/70 font-semibold">bar</Link>, <Link to={createPageUrl("music-for-hotels-and-resorts")} className="text-black underline hover:text-black/70 font-semibold">hotel</Link>, or <Link to={createPageUrl("music-for-restaurants-and-bars")} className="text-black underline hover:text-black/70 font-semibold">restaurant</Link> and want measurable uplift, not just ambience, SensEar can design and operate your <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70 font-semibold">brand-fit music system</Link> end-to-end. Book a 20-minute <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70 font-semibold">sound audit</Link> and get a custom audio DNA with quick-win recommendations for your venue today.
@@ -365,7 +365,7 @@ export default function BrandMusicConvertsBrowsersBuyers() {
           </Link>
           <Link to={createPageUrl("contact")}>
             <Button className="bg-black hover:bg-black/80 text-white">
-              Discover Our Music Curation Services
+              Discover our music curation services
             </Button>
           </Link>
         </div>
