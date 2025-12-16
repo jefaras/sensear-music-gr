@@ -127,10 +127,10 @@ export default function Industries() {
             
               <div className="w-full text-center">
                 <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                  Hospitality, wellness & culture require atmospheres that reflect how people move, feel & interact.
+                  Hotels, restaurants, retail, gyms & culture all ask for their own atmosphere.
                 </p>
                 <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                  Different worlds, <em>same truth:</em> the <strong>right music turns spaces</strong> into <strong>experiences</strong>.
+                  The right music turns spaces into <strong>unique experiences</strong>.
                 </p>
               </div>
           </div>
@@ -178,7 +178,6 @@ export default function Industries() {
                   <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Music that shapes the complete guest journey: from morning coffee to midnight cocktails, across lobby, pool, spa and rooms.</p>
                 </div>
                 <div className="mb-6">
-                  <span className="font-bold text-black text-lg block mb-1">The result:</span>
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed">The atmosphere reinforces what guests already love about your property.</p>
                 </div>
 
@@ -202,7 +201,6 @@ export default function Industries() {
                   <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Sound that flows with your rhythms, encouraging conversation and longer visits.</p>
                 </div>
                 <div className="mb-6">
-                  <span className="font-bold text-black text-lg block mb-1">The result:</span>
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed">Service flows more smoothly and guests settle in for the complete experience.</p>
                 </div>
 
@@ -244,7 +242,6 @@ export default function Industries() {
                   <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Precisely timed music that frames every phase, so your event sounds as good as it looks.</p>
                 </div>
                 <div className="mb-6">
-                  <span className="font-bold text-black text-lg block mb-1">The result:</span>
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed">Smooth transitions that guests don't notice but organizers appreciate.</p>
                 </div>
 
@@ -268,7 +265,6 @@ export default function Industries() {
                   <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Music that guides customer journeys and helps your space tell its story through sound.</p>
                 </div>
                 <div className="mb-6">
-                  <span className="font-bold text-black text-lg block mb-1">The result:</span>
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed">Shoppers slow down, explore more corners & feel guided, not rushed.</p>
                 </div>
 
@@ -310,7 +306,6 @@ export default function Industries() {
                   <p className="text-xl md:text-2xl text-black/60 leading-relaxed">We calibrate music to support each activity, so each space has its optimal atmosphere.</p>
                 </div>
                 <div className="mb-6">
-                  <span className="font-bold text-black text-lg block mb-1">The result:</span>
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed">Members consider the atmosphere as part of what makes their practice feel complete.</p>
                 </div>
 
@@ -334,7 +329,6 @@ export default function Industries() {
                   <p className="text-xl md:text-2xl text-black/60 leading-relaxed">We create soundscapes that support without overwhelming and enrich the cultural experience.</p>
                 </div>
                 <div className="mb-6">
-                  <span className="font-bold text-black text-lg block mb-1">The result:</span>
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed">Visitors slow down, absorb more and share their experience afterwards.</p>
                 </div>
 
