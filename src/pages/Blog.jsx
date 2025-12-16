@@ -701,7 +701,7 @@ export default function Blog() {
 
             {/* Article 7 */}
             <article role="listitem">
-              <Link to={createPageUrl("service-environment-shapes-wait-time")} className="block" aria-label="Read more about: How your service environment shapes perceived wait time">
+              <Link to={createPageUrl("service-environment-shapes-wait-time")} className="block" aria-label="Read article on how music affects perceived wait time">
                 <Card className="overflow-hidden hover:shadow-xl transition-all group cursor-pointer bg-white">
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <img
