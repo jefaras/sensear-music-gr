@@ -22,7 +22,7 @@ export default function WellnessGyms() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Music for Wellness & Gyms";
+    document.title = "Music for Wellness and Gyms | SensEar";
 
     const metaDescription = document.querySelector('meta[name="description"]');
     const description = "Music for wellness and gyms curated around activity and intensity, supporting focus, calm and movement across treatments and training spaces.";
