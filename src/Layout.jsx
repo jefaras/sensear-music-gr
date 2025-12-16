@@ -40,7 +40,7 @@ export default function Layout({ children }) {
     { name: "Home", path: createPageUrl("Home") },
     { name: "Services", path: createPageUrl("Services") },
     { name: "Industries", path: createPageUrl("Industries") },
-    { name: "Case Studies", path: createPageUrl("CaseStudies") },
+    { name: "Case Studies", path: createPageUrl("case-studies") },
     { name: "Blog", path: createPageUrl("Blog") },
     { name: "About", path: createPageUrl("AboutUs") }
   ];
