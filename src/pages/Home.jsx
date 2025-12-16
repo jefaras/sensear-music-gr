@@ -314,7 +314,7 @@ export default function Home() {
               </h1>
               
               <div className="mb-8 max-w-xl slide-up-2">
-                <p className="text-xl sm:text-2xl md:text-[1.75rem] lg:text-[2.15rem] font-semibold text-black/70 leading-[2.2] mb-2 italic">
+                <p className="text-xl sm:text-2xl md:text-[1.75rem] lg:text-[2.15rem] font-semibold text-black/70 leading-[2.8] mb-2 italic">
                   Every venue has a story.<br />
                   Let music tell yours.
                 </p>
