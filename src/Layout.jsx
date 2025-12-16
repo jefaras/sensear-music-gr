@@ -66,7 +66,7 @@ export default function Layout({ children }) {
       { name: "Contact", path: createPageUrl("contact"), ariaLabel: "Contact SensEar" },
       { name: "Blog", path: createPageUrl("Blog"), ariaLabel: "SensEar blog on sound and space" },
       { name: "FAQ", path: createPageUrl("FAQ"), ariaLabel: "Frequently asked questions about music curation" },
-      { name: "Sitemap", path: createPageUrl("Sitemap") }
+      { name: "Sitemap", path: createPageUrl("Sitemap"), ariaLabel: "SensEar's Website sitemap" }
     ]
   };
 

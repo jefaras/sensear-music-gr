@@ -8,10 +8,10 @@ export default function Sitemap() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Sitemap | SensEar";
+    document.title = "Sitemap | Sensear";
     
     const metaDescription = document.querySelector('meta[name="description"]');
-    const description = "Complete sitemap of SensEar's website. Find all our services, industries, case studies, blog posts, and company pages.";
+    const description = "Browse all SensEar pages, services, industries, case studies and journal articles in one place.";
     if (metaDescription) {
       metaDescription.setAttribute('content', description);
     } else {
