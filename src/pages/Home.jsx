@@ -314,10 +314,10 @@ export default function Home() {
               </h1>
               
               <div className="mb-8 max-w-xl slide-up-2">
-                <p className="text-xl sm:text-2xl md:text-[1.75rem] lg:text-[2rem] font-semibold text-black/90 leading-relaxed mb-2">
+                <p className="text-xl sm:text-2xl md:text-[1.75rem] lg:text-[2rem] font-semibold text-black/70 leading-relaxed mb-2 italic">
                   Every venue has a story. Let music tell yours.
                 </p>
-                <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
+                <p className="text-lg sm:text-xl md:text-2xl text-black/65 leading-relaxed">
                   We create custom music playlists for places & experiences that refuse to sound generic.
                 </p>
               </div>
