@@ -57,7 +57,7 @@ export default function Layout({ children }) {
       { name: "Restaurants & Bars", path: createPageUrl("music-for-restaurants-and-bars"), ariaLabel: "Music for Restaurants & Bars" },
       { name: "Retail Stores", path: createPageUrl("music-for-retail-stores") },
       { name: "Wellness & Gyms", path: createPageUrl("music-for-wellness-and-gyms"), ariaLabel: "Music for Wellness & Gyms" },
-      { name: "Events & Experiences", path: createPageUrl("music-for-events-and-experiences") },
+      { name: "Events & Experiences", path: createPageUrl("music-for-events-and-experiences"), ariaLabel: "Music for Events" },
       { name: "Art, Museums & Fashion", path: createPageUrl("art-museums-fashion") }
     ],
     company: [
