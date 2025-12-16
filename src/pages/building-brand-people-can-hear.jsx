@@ -9,7 +9,7 @@ export default function BuildingBrandPeopleCanHear() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Building a Brand People Can Hear";
+    document.title = "Building a brand people can hear | SensEar blog";
 
     const description = "A strategic guide to sonic branding and audio identity, showing how sound strengthens brand recognition and emotional connection.";
     const pageUrl = 'https://sensear.music/building-brand-people-can-hear';
@@ -78,7 +78,7 @@ export default function BuildingBrandPeopleCanHear() {
     }
 
     const ogTags = [
-    { property: 'og:title', content: 'Building a Brand People Can Hear' },
+    { property: 'og:title', content: 'Building a brand people can hear | SensEar blog' },
     { property: 'og:description', content: description },
     { property: 'og:image', content: imageUrl },
     { property: 'og:url', content: pageUrl },
@@ -102,7 +102,7 @@ export default function BuildingBrandPeopleCanHear() {
 
     const twitterTags = [
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Building a Brand People Can Hear' },
+    { name: 'twitter:title', content: 'Building a brand people can hear | SensEar blog' },
     { name: 'twitter:description', content: description },
     { name: 'twitter:image', content: imageUrl }];
 
