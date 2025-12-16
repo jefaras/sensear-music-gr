@@ -69,7 +69,7 @@ export default function Blog() {
       link: createPageUrl("music-curation-cycle-venues")
     },
     {
-      title: "Building a Brand People Can Hear",
+      title: "Building a brand people can hear",
       excerpt: "Strategic guide to sonic branding and audio identity development. Create memorable brand experiences through music and sound design.",
       image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/3a329efef_gemini-25-flash-image_professional_photo_of_Upscale_this_image_carefully_keeping_the_natural_photo_sty-03.jpg",
       alt: "Sonic branding strategy building brand identity through music",
