@@ -175,7 +175,7 @@ export default function Industries() {
                 <p className="text-xl font-medium text-black/60 mb-8">Soundtracks for every hour & space</p>
                 
                 <div className="mb-6">
-                  <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Music that shapes the complete guest journey: from morning coffee to midnight cocktails, across lobby, pool, spa and rooms.</p>
+                  <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Music that shapes the complete guest journey: from morning coffee to midnight cocktails, across lobby, pool, spa, restaurant & bars.</p>
                 </div>
                 <div className="mb-6">
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed">The atmosphere reinforces what guests already love about your property.</p>
