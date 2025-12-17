@@ -711,7 +711,7 @@ export default function Home() {
 
                   </div>
                   <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">Insights</Badge>
+                    <Badge className="mb-3 bg-black/5 text-black border-black/10 hover:bg-black/5">Insights</Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
                       Three reasons music matters in hospitality
                     </h3>
@@ -738,7 +738,7 @@ export default function Home() {
 
                   </div>
                   <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">Research</Badge>
+                    <Badge className="mb-3 bg-black/5 text-black border-black/10 hover:bg-black/5">Research</Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
                       How brand-fit music converts browsers into buyers
                     </h3>
@@ -765,7 +765,7 @@ export default function Home() {
 
                   </div>
                   <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">Education</Badge>
+                    <Badge className="mb-3 bg-black/5 text-black border-black/10 hover:bg-black/5">Education</Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
                       What exactly does a music curator do?
                     </h3>
