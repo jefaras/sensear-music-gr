@@ -127,10 +127,10 @@ export default function Industries() {
             
               <div className="w-full text-center">
                 <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                  Hotels, restaurants, retail, gyms & culture all ask for their own atmosphere.
+                  Hotels, restaurants, retail, gyms & culture all ask for <strong><em>their own atmosphere</em></strong>.
                 </p>
                 <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                  The right music turns spaces into <strong>unique experiences</strong>.
+                  <strong><em>The right music</em></strong> turns spaces into <strong>unique experiences</strong>.
                 </p>
               </div>
           </div>
