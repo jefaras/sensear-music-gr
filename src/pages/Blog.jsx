@@ -11,7 +11,7 @@ import Breadcrumbs from "../components/Breadcrumbs";
 const AnimatedButton = ({ children, className = "", ...props }) => (
   <Button
     variant="outline"
-    className={`group relative bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-10 h-16 text-lg font-semibold rounded-full transition-all duration-300 overflow-hidden flex items-center justify-center ${className}`}
+    className={`group relative bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-10 h-16 text-lg font-semibold rounded-xl transition-all duration-300 overflow-hidden flex items-center justify-center ${className}`}
     {...props}
   >
     <span className="transition-transform duration-300 group-hover:-translate-x-3 inline-block">
@@ -769,7 +769,7 @@ export default function Blog() {
             <Input
               type="email"
               placeholder="Enter your email"
-              className="flex-1 px-8 h-16 text-lg rounded-full text-black bg-white border-black/20"
+              className="flex-1 px-8 h-16 text-lg rounded-xl text-black bg-white border-black/20"
               aria-label="Email address"
               required
             />
