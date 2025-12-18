@@ -4,6 +4,19 @@ import { createPageUrl } from '@/utils';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, ArrowRight, Calendar, User } from 'lucide-react';
 
+const AnimatedButton = ({ children, className = "", ...props }) => (
+  <Button
+    variant="outline"
+    className={`group relative bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-10 h-16 text-lg font-semibold rounded-xl transition-all duration-300 overflow-hidden flex items-center justify-center ${className}`}
+    {...props}
+  >
+    <span className="transition-transform duration-300 group-hover:-translate-x-3 inline-block">
+      {children}
+    </span>
+    <ArrowRight className="absolute right-6 w-5 h-5 opacity-0 translate-x-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0" />
+  </Button>
+);
+
 export default function ThreeReasonsMakeMusicHospitality() {
   const [scrollY, setScrollY] = useState(0);
 
@@ -338,10 +351,9 @@ export default function ThreeReasonsMakeMusicHospitality() {
               Discover how SensEar can help you create a signature sound that defines your brand and delights your guests.
             </p>
             <Link to={createPageUrl("contact")}>
-              <Button size="lg" className="bg-black text-white hover:bg-black/80 group" aria-label="Start Your Sound Journey">
+              <AnimatedButton aria-label="Start Your Sound Journey">
                 Start Your Sound Journey
-                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
-              </Button>
+              </AnimatedButton>
             </Link>
           </footer>
 

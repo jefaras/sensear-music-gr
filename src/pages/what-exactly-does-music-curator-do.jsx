@@ -2,8 +2,21 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, Calendar, User } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Calendar, User } from 'lucide-react';
 import { Card } from '@/components/ui/card';
+
+const AnimatedButton = ({ children, className = "", ...props }) => (
+  <Button
+    variant="outline"
+    className={`group relative bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-10 h-16 text-lg font-semibold rounded-xl transition-all duration-300 overflow-hidden flex items-center justify-center ${className}`}
+    {...props}
+  >
+    <span className="transition-transform duration-300 group-hover:-translate-x-3 inline-block">
+      {children}
+    </span>
+    <ArrowRight className="absolute right-6 w-5 h-5 opacity-0 translate-x-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0" />
+  </Button>
+);
 
 export default function WhatExactlyDoesMusicCuratorDo() {
   const [scrollY, setScrollY] = useState(0);
@@ -362,9 +375,9 @@ export default function WhatExactlyDoesMusicCuratorDo() {
             </Button>
           </Link>
           <Link to={createPageUrl("contact")}>
-            <Button className="bg-black hover:bg-black/80 text-white">
+            <AnimatedButton>
               Get Your Free Sonic Audit
-            </Button>
+            </AnimatedButton>
           </Link>
         </div>
       </div>
