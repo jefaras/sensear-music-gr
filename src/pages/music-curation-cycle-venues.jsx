@@ -297,7 +297,7 @@ export default function MusicCurationCycleVenues() {
         </div>
       </section>
 
-      <div className="max-w-4xl mx-auto px-6 py-16">
+      <div className="max-w-7xl mx-auto px-6 py-16">
         <Card className="bg-white p-8 md:p-12 shadow-lg mb-12">
           <div className="prose prose-lg max-w-none">
             <p className="text-black/80 leading-relaxed mb-6">

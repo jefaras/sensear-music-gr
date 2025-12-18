@@ -305,7 +305,7 @@ export default function BackgroundMusicShapesCustomerBehavior() {
         </div>
       </section>
 
-      <div className="max-w-4xl mx-auto px-6 py-16">
+      <div className="max-w-7xl mx-auto px-6 py-16">
         <Card className="bg-white p-8 md:p-12 shadow-lg mb-12">
           <div className="prose prose-lg max-w-none">
             <h2 className="text-3xl font-bold text-black mt-12 mb-6">Quick take</h2>
