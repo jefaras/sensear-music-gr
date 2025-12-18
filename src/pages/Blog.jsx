@@ -430,7 +430,7 @@ export default function Blog() {
                     />
                   </div>
                   <div className="p-8 lg:p-12 flex flex-col justify-center">
-                    <Badge className="w-fit mb-4 bg-black/5 text-black border-black/10">
+                    <Badge className="w-fit mb-4 bg-black/5 text-black border-black/10 hover:bg-black/5 hover:text-black">
                       Insights
                     </Badge>
                     <h2 id="featured-heading" className="text-3xl lg:text-4xl font-bold text-black mb-4 leading-[1.25]">
@@ -479,7 +479,7 @@ export default function Blog() {
                     <div className="absolute inset-0" />
                   </div>
                   <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">
+                    <Badge className="mb-3 bg-black/5 text-black border-black/10 hover:bg-black/5 hover:text-black">
                       Insights
                     </Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
@@ -520,7 +520,7 @@ export default function Blog() {
                     <div className="absolute inset-0" />
                   </div>
                   <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">
+                    <Badge className="mb-3 bg-black/5 text-black border-black/10 hover:bg-black/5 hover:text-black">
                       Research
                     </Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
@@ -561,7 +561,7 @@ export default function Blog() {
                     <div className="absolute inset-0" />
                   </div>
                   <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">
+                    <Badge className="mb-3 bg-black/5 text-black border-black/10 hover:bg-black/5 hover:text-black">
                       Education
                     </Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
@@ -602,7 +602,7 @@ export default function Blog() {
                     <div className="absolute inset-0" />
                   </div>
                   <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">
+                    <Badge className="mb-3 bg-black/5 text-black border-black/10 hover:bg-black/5 hover:text-black">
                       Strategy
                     </Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
@@ -643,7 +643,7 @@ export default function Blog() {
                     <div className="absolute inset-0" />
                   </div>
                   <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">
+                    <Badge className="mb-3 bg-black/5 text-black border-black/10 hover:bg-black/5 hover:text-black">
                       Branding
                     </Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
@@ -684,7 +684,7 @@ export default function Blog() {
                     <div className="absolute inset-0" />
                   </div>
                   <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">
+                    <Badge className="mb-3 bg-black/5 text-black border-black/10 hover:bg-black/5 hover:text-black">
                       Research
                     </Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
@@ -725,7 +725,7 @@ export default function Blog() {
                     <div className="absolute inset-0" />
                   </div>
                   <div className="p-6">
-                    <Badge className="mb-3 bg-black/5 text-black border-black/10">
+                    <Badge className="mb-3 bg-black/5 text-black border-black/10 hover:bg-black/5 hover:text-black">
                       Research
                     </Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
