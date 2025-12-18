@@ -8,6 +8,19 @@ import { Link } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import Breadcrumbs from "../components/Breadcrumbs";
 
+const AnimatedButton = ({ children, className = "", ...props }) => (
+  <Button
+    variant="outline"
+    className={`group relative bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-10 py-6 text-lg font-semibold rounded-full transition-all duration-300 overflow-hidden ${className}`}
+    {...props}
+  >
+    <span className="transition-transform duration-300 group-hover:-translate-x-3 inline-block">
+      {children}
+    </span>
+    <ArrowRight className="absolute right-6 w-5 h-5 opacity-0 translate-x-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0" />
+  </Button>
+);
+
 export default function Blog() {
   const [scrollY, setScrollY] = useState(0);
 
@@ -756,13 +769,13 @@ export default function Blog() {
             <Input
               type="email"
               placeholder="Enter your email"
-              className="flex-1 px-6 py-4 rounded-lg text-black bg-white border-black/20"
+              className="flex-1 px-8 py-6 text-lg rounded-full text-black bg-white border-black/20 h-auto"
               aria-label="Email address"
               required
             />
-            <Button className="bg-black hover:bg-black/80 text-white px-8 py-4 rounded-lg font-semibold transition-colors" aria-label="Subscribe to newsletter">
+            <AnimatedButton aria-label="Subscribe to newsletter">
               Subscribe
-            </Button>
+            </AnimatedButton>
           </form>
         </div>
       </section>
