@@ -290,8 +290,9 @@ export default function WhatExactlyDoesMusicCuratorDo() {
       <div className="max-w-7xl mx-auto px-6 py-16">
         <Card className="bg-white p-8 md:p-12 shadow-lg mb-12">
           <div className="prose prose-lg max-w-none">
+            <h2 className="text-3xl font-bold text-black mt-0 mb-6">Music curators architect the soundtrack of a brand</h2>
             <p className="text-xl text-black/80 leading-relaxed mb-8">
-              Music curators architect the soundtrack of a brand, designing purpose-built playlists and ambient soundscapes that shape emotion, guide behavior, and make spaces memorable. Unlike DJs who perform live and read a crowd in the moment, <a href="https://thearf-org-unified-admin.s3.amazonaws.com/ARF%20Councils/ARF_Creative_SonicBranding_2024_10.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">curators work upstream</a>: they translate strategy, context, and data into on-brand audio systems for retail, hospitality, offices, events, and installations.
+              They design purpose-built playlists and ambient soundscapes that shape emotion, guide behavior, and make spaces memorable. Unlike DJs who perform live and read a crowd in the moment, <a href="https://thearf-org-unified-admin.s3.amazonaws.com/ARF%20Councils/ARF_Creative_SonicBranding_2024_10.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">curators work upstream</a>: they translate strategy, context, and data into on-brand audio systems for retail, hospitality, offices, events, and installations.
             </p>
 
             <h2 className="text-3xl font-bold text-black mt-12 mb-6">How SensEar curates: Four pillars of planned sound</h2>
