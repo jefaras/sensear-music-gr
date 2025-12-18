@@ -200,7 +200,7 @@ export default function FAQ() {
             <p className="text-black/80 mb-6">Let's talk about how we can elevate your brand's sound.</p>
             <Link to={createPageUrl("contact")}>
               <AnimatedButton>
-                Still Have Questions? Let's Talk
+                Contact us
               </AnimatedButton>
             </Link>
           </div>
