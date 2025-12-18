@@ -255,13 +255,17 @@ export default function CaseStudies() {
                 </div>
 
                 <div className="space-y-6">
-                  <a href="#yam-sample">
-                    <AnimatedButton className="w-full sm:w-auto">
-                      <span className="inline-flex items-center gap-2 font-bold">
-                        <Music className="w-5 h-5" /> Listen to Yam's playlist
-                      </span>
-                    </AnimatedButton>
-                  </a>
+                  <iframe 
+                    width="100%" 
+                    height="166" 
+                    scrolling="no" 
+                    frameBorder="no" 
+                    allow="autoplay" 
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2231292317%3Fsecret_token%3Ds-un8Lzx2ibpI&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+                  ></iframe>
+                  <div style={{fontSize: '10px', color: '#cccccc', lineBreak: 'anywhere', wordBreak: 'normal', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis', fontFamily: 'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif', fontWeight: '100'}}>
+                    <a href="https://soundcloud.com/sensear_music" title="SensEar.Music" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>SensEar.Music</a> · <a href="https://soundcloud.com/sensear_music/yam-antiparos-night-playlist-2/s-un8Lzx2ibpI" title="YAM Antiparos night playlist" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>YAM Antiparos night playlist</a>
+                  </div>
                 </div>
               </div>
             </div>
