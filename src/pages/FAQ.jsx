@@ -5,6 +5,19 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
+const AnimatedButton = ({ children, className = "", ...props }) => (
+  <Button
+    variant="outline"
+    className={`group relative bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-10 py-6 text-lg font-semibold rounded-full transition-all duration-300 overflow-hidden ${className}`}
+    {...props}
+  >
+    <span className="transition-transform duration-300 group-hover:-translate-x-3 inline-block">
+      {children}
+    </span>
+    <ArrowRight className="absolute right-6 w-5 h-5 opacity-0 translate-x-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0" />
+  </Button>
+);
+
 export default function FAQ() {
   const [scrollY, setScrollY] = useState(0);
 
@@ -186,10 +199,9 @@ export default function FAQ() {
             <h3 className="text-2xl font-bold text-black mb-4">Still Have Questions? Let's Talk</h3>
             <p className="text-black/80 mb-6">Let's talk about how we can elevate your brand's sound.</p>
             <Link to={createPageUrl("contact")}>
-              <Button size="lg" className="bg-black text-white hover:bg-black/80 group">
+              <AnimatedButton>
                 Still Have Questions? Let's Talk
-                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
+              </AnimatedButton>
             </Link>
           </div>
         </div>
