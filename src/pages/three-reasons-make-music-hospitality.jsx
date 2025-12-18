@@ -345,7 +345,7 @@ export default function ThreeReasonsMakeMusicHospitality() {
             </p>
           </section>
 
-          <footer className="mt-16 pt-8 border-t border-black/10">
+          <footer className="mt-16 pt-8 border-t border-black/10 flex flex-col items-center text-center">
             <h2 className="text-2xl font-bold mb-4">Ready to elevate your hospitality brand?</h2>
             <p className="text-black/70 mb-6">
               Discover how SensEar can help you create a signature sound that defines your brand and delights your guests.
