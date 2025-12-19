@@ -560,7 +560,7 @@ This inquiry has been saved to the database and can be viewed in the admin panel
                     </div>
                     <div>
                       <h4 className="font-semibold text-black mb-1">Phone</h4>
-                      <p className="text-black/80"><a href="tel:+306976994212">+30 6976994212</a></p>
+                      <p className="text-black/80"><a href="tel:+306976994212"><img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e3c81d312_picturetopeopleorg-355f6af418441f63cf63a77c1c7ea970e79fa84e662ff9f5aa.png" alt="+30 6976994212" className="h-7 w-auto" /></a></p>
                       <p className="text-sm text-black/60 mt-1">Available Monday–Saturday, 10:00–18:00 (EET)</p>
                     </div>
                   </div>
@@ -573,7 +573,7 @@ This inquiry has been saved to the database and can be viewed in the admin panel
                     </div>
                     <div>
                       <h4 className="font-semibold text-black mb-1">Email</h4>
-                      <p className="text-black/80"><a href="mailto:hello@sensear.music">hello@sensear.music</a></p>
+                      <p className="text-black/80"><a href="mailto:hello@sensear.music"><img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fd5f41fc6_picturetopeopleorg-25458b840e777c46f3ff5bf44acedb770a3037a5492b0d1343.png" alt="hello@sensear.music" className="h-7 w-auto" /></a></p>
                       <p className="text-sm text-black/60 mt-1">We usually reply within 24 hours</p>
                     </div>
                   </div>
