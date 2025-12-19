@@ -163,12 +163,10 @@ export default function CaseStudies() {
             {/* Beach House Antiparos */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
-                <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/4246ff146_upscalemedia-transformed.png"
                     alt="Beach House Antiparos"
                     className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
-                </div>
               </div>
               <div className="order-1 lg:order-2">
                 <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Beach House, Antiparos</h3>
@@ -227,24 +225,20 @@ export default function CaseStudies() {
                 </div>
               </div>
               <div className="order-2">
-                <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/5b48f2dce_pelicanos-2-5.png"
                     alt="Pelicanos Sifnos"
                     className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
-                </div>
               </div>
             </div>
 
             {/* Yam Beach Club */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
-                <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/2886fc06f_hyggelig-aftenstemningcropped-pxbee-minitools-enhance-20251212181718.jpg"
                     alt="Yam Beach Club"
                     className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
-                </div>
               </div>
               <div className="order-1 lg:order-2">
                 <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Yam, Antiparos</h3>
@@ -303,12 +297,10 @@ export default function CaseStudies() {
                 </div>
               </div>
               <div className="order-2">
-                <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/d36a8c70d_2e5887651_Levantis1.png"
                     alt="Levantis Gallery"
                     className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
-                </div>
               </div>
             </div>
 
