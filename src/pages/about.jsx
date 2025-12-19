@@ -321,7 +321,7 @@ export default function AboutUs() {
                       </div>
                     </div>
                     <div className="flex-grow min-w-0 bg-peach/30 rounded-xl p-6 backdrop-blur-sm">
-                      <p className="text-base text-black/80 leading-relaxed"><strong>George and Katerina</strong> meet while curating music for an upscale wedding. Their shared passion for <strong>discovering hidden grooves</strong> sparks a creative partnership.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed"><strong>George and Katerina</strong> meet while curating music for an upscale wedding. Their shared passion for <strong>discovering hidden grooves</strong> sparks a creative partnership.</p>
                     </div>
                   </div>
 
@@ -336,7 +336,7 @@ export default function AboutUs() {
                     
                     {/* Right side - Content */}
                     <div className="flex-grow pt-2">
-                      <p className="text-lg text-black/80 leading-relaxed"><strong>George and Katerina</strong> meet while curating music for an upscale wedding. Their shared passion for <strong>discovering hidden grooves</strong> sparks a creative partnership.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed"><strong>George and Katerina</strong> meet while curating music for an upscale wedding. Their shared passion for <strong>discovering hidden grooves</strong> sparks a creative partnership.</p>
                     </div>
                   </div>
                 </article>
@@ -351,7 +351,7 @@ export default function AboutUs() {
                       </div>
                     </div>
                     <div className="flex-grow min-w-0 bg-peach/30 rounded-xl p-6 backdrop-blur-sm">
-                      <p className="text-base text-black/80 leading-relaxed">As <strong>Midnight City</strong>, they host and DJ <strong>exclusive parties</strong> focusing in cross-genre discoveries from the '70s to today, building a devoted following.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">As <strong>Midnight City</strong>, they host and DJ <strong>exclusive parties</strong> focusing in cross-genre discoveries from the '70s to today, building a devoted following.</p>
                     </div>
                   </div>
 
@@ -366,7 +366,7 @@ export default function AboutUs() {
                     
                     {/* Right side - Content */}
                     <div className="flex-grow pt-2">
-                      <p className="text-lg text-black/80 leading-relaxed">As <strong>Midnight City</strong>, they host and DJ <strong>exclusive parties</strong> focusing in cross-genre discoveries from the '70s to today, building a devoted following.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">As <strong>Midnight City</strong>, they host and DJ <strong>exclusive parties</strong> focusing in cross-genre discoveries from the '70s to today, building a devoted following.</p>
                     </div>
                   </div>
                 </article>
@@ -381,7 +381,7 @@ export default function AboutUs() {
                       </div>
                     </div>
                     <div className="flex-grow min-w-0 bg-peach/30 rounded-xl p-6 backdrop-blur-sm">
-                      <p className="text-base text-black/80 leading-relaxed">JEF discovers M.C. at one of their signature events. The vibe and deep-track selections make him an instant <strong>devotee</strong>.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">JEF discovers M.C. at one of their signature events. The vibe and deep-track selections make him an instant <strong>devotee</strong>.</p>
                     </div>
                   </div>
 
@@ -396,7 +396,7 @@ export default function AboutUs() {
                     
                     {/* Right side - Content */}
                     <div className="flex-grow pt-2">
-                      <p className="text-lg text-black/80 leading-relaxed">JEF discovers M.C. at one of their signature events. The vibe and deep-track selections make him an instant <strong>devotee</strong>.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">JEF discovers M.C. at one of their signature events. The vibe and deep-track selections make him an instant <strong>devotee</strong>.</p>
                     </div>
                   </div>
                 </article>
@@ -411,7 +411,7 @@ export default function AboutUs() {
                       </div>
                     </div>
                     <div className="flex-grow min-w-0 bg-peach/30 rounded-xl p-6 backdrop-blur-sm">
-                      <p className="text-base text-black/80 leading-relaxed">JEF and George align on a vision: <strong>transformative music curation</strong> and DJ sets for venues that are mindful about their atmosphere.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">JEF and George align on a vision: <strong>transformative music curation</strong> and DJ sets for venues that are mindful about their atmosphere.</p>
                     </div>
                   </div>
 
@@ -426,7 +426,7 @@ export default function AboutUs() {
                     
                     {/* Right side - Content */}
                     <div className="flex-grow pt-2">
-                      <p className="text-lg text-black/80 leading-relaxed">JEF and George align on a vision: <strong>transformative music curation</strong> and DJ sets for venues that are mindful about their atmosphere.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">JEF and George align on a vision: <strong>transformative music curation</strong> and DJ sets for venues that are mindful about their atmosphere.</p>
                     </div>
                   </div>
                 </article>
@@ -441,7 +441,7 @@ export default function AboutUs() {
                       </div>
                     </div>
                     <div className="flex-grow min-w-0 bg-peach/30 rounded-xl p-6 backdrop-blur-sm">
-                      <p className="text-base text-black/80 leading-relaxed"><strong>SensEar launches</strong>. First clients confirm what we believed: venues deserve soundtracks designed with intention and expertise.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed"><strong>SensEar launches</strong>. First clients confirm what we believed: venues deserve soundtracks designed with intention and expertise.</p>
                     </div>
                   </div>
 
@@ -456,7 +456,7 @@ export default function AboutUs() {
                     
                     {/* Right side - Content */}
                     <div className="flex-grow pt-2">
-                      <p className="text-lg text-black/80 leading-relaxed"><strong>SensEar launches</strong>. First clients confirm what we believed: venues deserve soundtracks designed with intention and expertise.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed"><strong>SensEar launches</strong>. First clients confirm what we believed: venues deserve soundtracks designed with intention and expertise.</p>
                     </div>
                   </div>
                 </article>
@@ -516,13 +516,13 @@ export default function AboutUs() {
                   <p className="text-xl font-semibold text-black/70 mb-10">Co-founder, Chief music curator & AV expert</p>
                   
                   <div>
-                    <p className="text-[19.125px] text-black/70 leading-relaxed mb-4">
+                    <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-4">
                       G's lifelong passion for music deepened with a Media & Communications BA and an MA in Popular Music in Film.
                     </p>
-                    <p className="text-[19.125px] text-black/70 leading-relaxed mb-4">
+                    <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-4">
                       He established himself in Athens as a DJ & music curator on radio, parties & venues residencies.
                     </p>
-                    <p className="text-[19.125px] text-black/70 leading-relaxed">
+                    <p className="text-lg md:text-xl text-black/60 leading-relaxed">
                       At SensEar, he crafts each venue's musical identity with precision, rhythm and atmospheres that defines the brand's signature sound.
                     </p>
                   </div>
@@ -561,13 +561,13 @@ export default function AboutUs() {
                   <p className="text-xl font-semibold text-black/70 mb-10">Co-founder, Brand strategy, Client service</p>
                   
                   <div>
-                    <p className="text-[19.125px] text-black/70 leading-relaxed mb-4">
+                    <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-4">
                       From his early DJ sets to his studies in Hospitality Management, JEF has always been guided by music's magnetic pull.
                     </p>
-                    <p className="text-[19.125px] text-black/70 leading-relaxed mb-4">
+                    <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-4">
                       He is a co-founder of a successful digital agency, with 25 years of experience in web services & understanding client needs.
                     </p>
-                    <p className="text-[19.125px] text-black/70 leading-relaxed">
+                    <p className="text-lg md:text-xl text-black/60 leading-relaxed">
                       At SensEar, he shapes the brand's strategic direction & connects creative vision with client experience.
                     </p>
                   </div>
@@ -588,13 +588,13 @@ export default function AboutUs() {
                   <p className="text-xl font-semibold text-black/70 mb-10">Contributing associate, DJ, Music curator</p>
                   
                   <div>
-                    <p className="text-[19.125px] text-black/70 leading-relaxed mb-4">
+                    <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-4">
                       Kat combines visual design & sound narrative with a refined artistic sensibility.
                     </p>
-                    <p className="text-[19.125px] text-black/70 leading-relaxed mb-4">
+                    <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-4">
                       A veteran multimedia art director, she helps curate soundscapes for films, exhibitions & private events.
                     </p>
-                    <p className="text-[19.125px] text-black/70 leading-relaxed">
+                    <p className="text-lg md:text-xl text-black/60 leading-relaxed">
                       Known for her instinctive selections & taste for rare grooves, she brings depth, texture and a touch of the unexpected to SensEar.
                     </p>
                   </div>

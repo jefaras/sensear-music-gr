@@ -374,7 +374,7 @@ export default function Services() {
 
                   <div>
                     <div className="mb-6">
-                      <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Curated playlists that evolve throughout the day, monthly updates, remote management.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Curated playlists that evolve throughout the day, monthly updates, remote management.</p>
                     </div>
                     <div className="mb-6">
                       <span className="font-bold text-black text-lg block mb-1">Ideal for:</span>
@@ -422,7 +422,7 @@ export default function Services() {
 
                   <div>
                     <div className="mb-6">
-                      <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Precisely planned music for every moment, AV direction & support.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Precisely planned music for every moment, AV direction & support.</p>
                     </div>
                     <div className="mb-6">
                       <span className="font-bold text-black text-lg block mb-1">Ideal for:</span>
@@ -541,23 +541,23 @@ export default function Services() {
              <div className="order-1 lg:order-2">
                 <div className="space-y-8">
                     <div className="mb-6">
-                        <p className="text-xl md:text-2xl text-black/60 leading-relaxed">
-                             <Link to={createPageUrl("signature-playlists")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Signature Playlists</Link> <span className="text-[21.5px]">build your daily atmosphere.</span>
+                        <p className="text-lg md:text-xl text-black/60 leading-relaxed">
+                             <Link to={createPageUrl("signature-playlists")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Signature Playlists</Link> <span >build your daily atmosphere.</span>
                         </p>
                     </div>
                     <div className="mb-6">
-                        <p className="text-xl md:text-2xl text-black/60 leading-relaxed">
-                             <Link to={createPageUrl("sonic-strategy")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Sonic Strategy</Link> <span className="text-[21.5px]">unifies your brand's sound.</span>
+                        <p className="text-lg md:text-xl text-black/60 leading-relaxed">
+                             <Link to={createPageUrl("sonic-strategy")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Sonic Strategy</Link> <span >unifies your brand's sound.</span>
                         </p>
                     </div>
                     <div className="mb-6">
-                        <p className="text-xl md:text-2xl text-black/60 leading-relaxed">
-                             <Link to={createPageUrl("event-soundtracks")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Event Soundtracks</Link> <span className="text-[21.5px]">choreograph special moments.</span>
+                        <p className="text-lg md:text-xl text-black/60 leading-relaxed">
+                             <Link to={createPageUrl("event-soundtracks")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Event Soundtracks</Link> <span >choreograph special moments.</span>
                         </p>
                     </div>
                     <div className="mb-6">
-                        <p className="text-xl md:text-2xl text-black/60 leading-relaxed">
-                             <Link to={createPageUrl("audio-upgrades")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Audio Upgrades</Link> <span className="text-[21.5px]">optimize acoustic quality.</span>
+                        <p className="text-lg md:text-xl text-black/60 leading-relaxed">
+                             <Link to={createPageUrl("audio-upgrades")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Audio Upgrades</Link> <span >optimize acoustic quality.</span>
                         </p>
                     </div>
                 </div>

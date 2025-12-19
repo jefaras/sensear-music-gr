@@ -94,7 +94,7 @@ export default function Industries() {
               <h1 className="text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
                 Curated music<br />tailored to your sector
               </h1>
-              <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
+              <p className="text-lg md:text-xl text-black/60 leading-relaxed slide-up-2">
                 Distinct spaces require unique sound experiences.
               </p>
             </div>
@@ -172,7 +172,7 @@ export default function Industries() {
                 <p className="text-xl font-medium text-black/60 mb-8">Soundtracks for every hour & space</p>
                 
                 <div className="mb-6">
-                  <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Music that shapes the complete guest journey: from morning coffee to midnight cocktails, across lobby, pool, spa, restaurant & bars.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Music that shapes the complete guest journey: from morning coffee to midnight cocktails, across lobby, pool, spa, restaurant & bars.</p>
                 </div>
                 <div className="mb-6">
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed">The atmosphere reinforces what guests already love about your property.</p>
@@ -195,7 +195,7 @@ export default function Industries() {
                 <p className="text-xl font-medium text-black/60 mb-8">The invisible maître d'</p>
                 
                 <div className="mb-6">
-                  <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Sound that flows with your rhythms, encouraging conversation and longer visits.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Sound that flows with your rhythms, encouraging conversation and longer visits.</p>
                 </div>
                 <div className="mb-6">
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed">Service flows more smoothly and guests settle in for the complete experience.</p>
@@ -230,7 +230,7 @@ export default function Industries() {
                 <p className="text-xl font-medium text-black/60 mb-8">Choreographed precision for unforgettable moments</p>
                 
                 <div className="mb-6">
-                  <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Precisely timed music that frames every phase, so your event sounds as good as it looks.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Precisely timed music that frames every phase, so your event sounds as good as it looks.</p>
                 </div>
                 <div className="mb-6">
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed">Smooth transitions that guests don't notice but organizers appreciate.</p>
@@ -253,7 +253,7 @@ export default function Industries() {
                 <p className="text-xl font-medium text-black/60 mb-8">Soundscapes that inspire discovery</p>
                 
                 <div className="mb-6">
-                  <p className="text-xl md:text-2xl text-black/60 leading-relaxed">Music that guides customer journeys and helps your space tell its story through sound.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Music that guides customer journeys and helps your space tell its story through sound.</p>
                 </div>
                 <div className="mb-6">
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed">Shoppers slow down, explore more corners & feel guided, not rushed.</p>
@@ -288,7 +288,7 @@ export default function Industries() {
                 <p className="text-xl font-medium text-black/60 mb-8">The perfect soundtrack for every practice</p>
                 
                 <div className="mb-6">
-                  <p className="text-xl md:text-2xl text-black/60 leading-relaxed">We calibrate music to support each activity, so each space has its optimal atmosphere.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">We calibrate music to support each activity, so each space has its optimal atmosphere.</p>
                 </div>
                 <div className="mb-6">
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed">Members consider the atmosphere as part of what makes their practice feel complete.</p>
@@ -311,7 +311,7 @@ export default function Industries() {
                 <p className="text-xl font-medium text-black/60 mb-8">Subtle atmospheres that deepen appreciation</p>
                 
                 <div className="mb-6">
-                  <p className="text-xl md:text-2xl text-black/60 leading-relaxed">We create soundscapes that support without overwhelming and enrich the cultural experience.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">We create soundscapes that support without overwhelming and enrich the cultural experience.</p>
                 </div>
                 <div className="mb-6">
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed">Visitors slow down, absorb more and share their experience afterwards.</p>
@@ -377,7 +377,7 @@ export default function Industries() {
                     <div className="mt-1.5 w-5 h-5 rounded-full bg-black/5 flex items-center justify-center flex-shrink-0">
                       <Check className="w-3 h-3 text-black" />
                     </div>
-                    <p className="text-xl md:text-2xl text-black/70 leading-relaxed">{item}</p>
+                    <p className="text-lg md:text-xl text-black/60 leading-relaxed">{item}</p>
                   </div>
                 ))}
               </div>

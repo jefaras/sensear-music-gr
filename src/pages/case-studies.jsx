@@ -172,10 +172,10 @@ export default function CaseStudies() {
                 <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Beach House, Antiparos</h3>
                 
                 <div className="mb-8">
-                  <p className="text-xl md:text-2xl text-black/60 leading-relaxed mb-6">
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-6">
                     Beach House features traditional island style, the high-end restaurant CoocooVaya and a bar hovering above the sea, all with endless Aegean views.
                   </p>
-                  <p className="text-xl md:text-2xl text-black/60 leading-relaxed font-medium">
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed font-medium">
                     We were delighted when asked to design the music: the stunning setting needed <strong>sound that complements</strong> and relaxes. Our playlists respect the peaceful atmosphere while <strong>keeping perfect energy</strong> across beach, restaurant & bar.
                   </p>
                 </div>
@@ -202,10 +202,10 @@ export default function CaseStudies() {
                 <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Pelicanos, Sifnos</h3>
                 
                 <div className="mb-8">
-                  <p className="text-xl md:text-2xl text-black/60 leading-relaxed mb-6">
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-6">
                     Fine dining has taken off on Sifnos, an island known for its culinary tradition. Pelicanos is a sophisticated all-day restaurant in the fishing village of Faros, that needed music to match its ambition.
                   </p>
-                  <p className="text-xl md:text-2xl text-black/60 leading-relaxed font-medium">
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed font-medium">
                     Yorgos, the owner, chef and part-time music head, trusted us to <strong>enrich the soundtrack</strong> with fresh discoveries & elegant classics that create a <strong>complete dining experience</strong> by the sea.
                   </p>
                 </div>
@@ -244,10 +244,10 @@ export default function CaseStudies() {
                 <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Yam, Antiparos</h3>
                 
                 <div className="mb-8">
-                  <p className="text-xl md:text-2xl text-black/60 leading-relaxed mb-6">
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-6">
                     An iconic Antiparos venue since the late '90s, Yam sits on a beautiful scenery and an easy-going vibe.
                   </p>
-                  <p className="text-xl md:text-2xl text-black/60 leading-relaxed font-medium">
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed font-medium">
                     The girls in charge asked us to complement this special setting with <strong>music that evolves</strong> from lazy lunch to late night hangouts. We created a <strong>fine music experience</strong> for their after-dinner drinks and cocktails that captures the island's magic.
                   </p>
                 </div>
@@ -274,10 +274,10 @@ export default function CaseStudies() {
                 <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Levantis, Paros</h3>
                 
                 <div className="mb-8">
-                  <p className="text-xl md:text-2xl text-black/60 leading-relaxed mb-6">
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-6">
                     Neva Bergman assigned us to create atmospheric support for her "Quiet Testimony" exhibition opening at Levantis restaurant's gallery space in Paros.
                   </p>
-                  <p className="text-xl md:text-2xl text-black/60 leading-relaxed font-medium">
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed font-medium">
                     The custom ambient soundscape we designed <strong>enriched viewing & discussions</strong> without distraction. The artist loved how the <strong>music matched her work's</strong> emotions and kept visitors engaged longer.
                   </p>
                 </div>
