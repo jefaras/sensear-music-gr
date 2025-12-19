@@ -9,7 +9,7 @@ import ScrollToTop from "./components/ScrollToTop";
 const FooterButton = ({ children, className = "", ...props }) => (
   <Button
     variant="outline"
-    className={`group relative bg-transparent border-2 border-white text-white hover:bg-white hover:text-black px-4 py-2 text-xs font-semibold rounded-full transition-all duration-300 overflow-hidden h-9 ${className}`}
+    className={`group relative bg-transparent border-2 border-white text-white hover:bg-white hover:text-black px-8 py-2 text-xs font-semibold rounded-full transition-all duration-300 overflow-hidden h-9 ${className}`}
     {...props}
   >
     <span className="transition-transform duration-300 group-hover:-translate-x-2 inline-block">
