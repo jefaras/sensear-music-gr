@@ -384,7 +384,7 @@ export default function Blog() {
               
               <div className="mb-8 max-w-xl slide-up-2">
                 <p className="text-lg sm:text-xl md:text-2xl text-black/80 leading-relaxed">
-                  Insights, trends, and expertise from the world of luxury music curation.
+                  Insights, trends and expertise from the world of luxury music curation.
                 </p>
               </div>
             </div>
