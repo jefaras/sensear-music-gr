@@ -410,8 +410,10 @@ export default function Layout({ children }) {
                 <div>
                   <a href="mailto:hello@sensear.music" className="text-white/70 hover:text-peach transition-colors hover:underline decoration-1 underline-offset-4 font-jakarta">hello@sensear.music</a>
                 </div>
-                <div>
-                  <a href="tel:+306976994212" className="text-white/70 hover:text-peach transition-colors hover:underline decoration-1 underline-offset-4 font-jakarta">+30 6976994212</a>
+                <div className="group">
+                  <a href="tel:+306976994212" className="block w-[147px] h-[25px] overflow-hidden">
+                    <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e8d990408_image.png" alt="Phone Number" className="w-full h-full object-contain object-left transition-transform duration-300 group-hover:-translate-y-[25px]" />
+                  </a>
                 </div>
               </div>
 
