@@ -392,13 +392,11 @@ export default function Services() {
                 </div>
 
                 <div className="lg:order-2">
-                  <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ad6308d11_402461766_1151218075859356_9152177816492568307_n.jpg"
                       alt="Bespoke music curation"
                       className="w-full h-auto object-cover rounded-xl shadow-lg"
                     />
-                  </div>
                 </div>
               </div>
             </article>
@@ -409,13 +407,11 @@ export default function Services() {
             <article role="listitem">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="lg:order-1">
-                  <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/587b0ab41_IMG_20250801_204842.jpg"
                       alt="Event soundtracks and production"
                       className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg"
                     />
-                  </div>
                 </div>
 
                 <div className="lg:order-2">

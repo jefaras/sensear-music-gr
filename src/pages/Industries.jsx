@@ -162,13 +162,10 @@ export default function Industries() {
             {/* Hotels & Resorts */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
-                <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b8b8c94c7_e0dd5f695_13e97d3def8d47a1efe25c37e0f29eb211.jpg"
                     alt="Hotels & Resorts"
                     className="w-full h-auto object-cover rounded-xl shadow-lg" />
-
-                </div>
               </div>
               <div className="order-1 lg:order-2">
                 <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Hotels & Resorts</h3>
@@ -213,26 +210,20 @@ export default function Industries() {
                 </div>
               </div>
               <div className="order-2">
-                <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/361d4fa4c_Marmelo-by-Mitchell-Eades-Issue-18-Feature-The-Local-Project-Image-2-cropped-.jpg"
                     alt="Restaurants & Bars"
                     className="w-full h-auto object-cover rounded-xl shadow-lg" />
-
-                </div>
               </div>
             </div>
 
             {/* Events & Experiences - Moved up */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
-                <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e61f3b993_efeae9e53_56bb71da7fa44cbf6f001204format-webpwidth-1440_wWzsf3qJ3dJMkxWN-11.jpg"
                     alt="Events & Experiences"
                     className="w-full h-auto object-cover rounded-xl shadow-lg" />
-
-                </div>
               </div>
               <div className="order-1 lg:order-2">
                 <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Events & Experiences</h3>
@@ -277,26 +268,20 @@ export default function Industries() {
                 </div>
               </div>
               <div className="order-2">
-                <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/edb073e85_upscalemedia-transformed.jpg"
                     alt="Retail Stores"
                     className="w-full h-auto object-cover rounded-xl shadow-lg" />
-
-                </div>
               </div>
             </div>
 
             {/* Wellness Centers - previously Wellness & Gyms */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
-                <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ace50e7b5_E_HryzeWYAUw8vR-2CROPPED.jpg"
                     alt="Wellness Centers"
                     className="w-full h-auto object-cover rounded-xl shadow-lg" />
-
-                </div>
               </div>
               <div className="order-1 lg:order-2">
                 <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Wellness Centers</h3>
@@ -341,13 +326,10 @@ export default function Industries() {
                 </div>
               </div>
               <div className="order-2">
-                <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e8678d8d0_ec55631fd_204f0aeb3f27e1d66d7e764876f0fa4a11.jpg"
                     alt="Art, Museums & Fashion"
                     className="w-full h-auto object-cover rounded-xl shadow-lg" />
-
-                </div>
               </div>
             </div>
           </div>
@@ -377,12 +359,10 @@ export default function Industries() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
-              <div className="bg-[#faebe3] rounded-2xl p-1 overflow-hidden w-full">
                 <img
                   src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/c66f2842d_a6bc0a060_car-21.png"
                   alt="Connected worlds"
                   className="w-full h-auto object-cover rounded-xl shadow-lg" />
-              </div>
             </div>
             <div className="order-1 lg:order-2">
               <div className="space-y-4 mb-8">
