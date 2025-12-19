@@ -323,7 +323,7 @@ export default function EventSoundtracks() {
                   <span>creating immersive branded experiences.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("restaurants-bars")} className="underline hover:text-black font-semibold text-2xl block mb-1">Private Chefs & Hosts</Link>
+                  <Link to={createPageUrl("music-for-restaurants-and-bars")} className="underline hover:text-black font-semibold text-2xl block mb-1">Private Chefs & Hosts</Link>
                   <span>offering ceremonial or intimate dining.</span>
                 </li>
                 <li className="block">
