@@ -1,6 +1,7 @@
 import Blog from './pages/Blog';
 import CaseStudies from './pages/CaseStudies';
 import FAQ from './pages/FAQ';
+import Home from './pages/Home';
 import Industries from './pages/Industries';
 import Services from './pages/Services';
 import Sitemap from './pages/Sitemap';
@@ -26,7 +27,6 @@ import sonicStrategy from './pages/sonic-strategy';
 import threeReasonsMakeMusicHospitality from './pages/three-reasons-make-music-hospitality';
 import wellnessCenters from './pages/wellness-centers';
 import whatExactlyDoesMusicCuratorDo from './pages/what-exactly-does-music-curator-do';
-import Home from './pages/Home';
 import __Layout from './Layout.jsx';
 
 
@@ -34,6 +34,7 @@ export const PAGES = {
     "Blog": Blog,
     "CaseStudies": CaseStudies,
     "FAQ": FAQ,
+    "Home": Home,
     "Industries": Industries,
     "Services": Services,
     "Sitemap": Sitemap,
@@ -59,7 +60,6 @@ export const PAGES = {
     "three-reasons-make-music-hospitality": threeReasonsMakeMusicHospitality,
     "wellness-centers": wellnessCenters,
     "what-exactly-does-music-curator-do": whatExactlyDoesMusicCuratorDo,
-    "Home": Home,
 }
 
 export const pagesConfig = {
