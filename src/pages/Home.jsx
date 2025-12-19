@@ -315,12 +315,13 @@ export default function Home() {
               
               <div className="mb-8 max-w-xl slide-up-2">
                 <div className="mb-5">
-                  <p className="text-lg sm:text-xl md:text-2xl text-black/65 leading-relaxed">
+                  <p className="text-lg sm:text-xl md:text-2xl text-black/65 leading-relaxed font-bold">
                     Every venue has a story.
                   </p>
-                  <p className="text-lg sm:text-xl md:text-2xl text-black/65 leading-relaxed">
+                  <p className="text-lg sm:text-xl md:text-2xl text-black/65 leading-relaxed font-bold">
                     Let music tell yours.
                   </p>
+                </div>
                 <p className="text-lg sm:text-xl md:text-2xl text-black/65 leading-relaxed">
                   Sophisticated music curation services for places and experiences that "refuse" to sound generic.
                 </p>
