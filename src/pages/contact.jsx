@@ -28,13 +28,6 @@ const AnimatedButton = ({ children, className = "", ...props }) => (
 export default function ContactUs() {
   const [scrollY, setScrollY] = useState(0);
 
-  const _c_parts = {
-    e: ["hello", "sensear.music"],
-    p: ["+30", "6976994212"]
-  };
-  const _contact_email = _c_parts.e.join("@");
-  const _contact_phone = _c_parts.p.join("");
-
   useEffect(() => {
     document.title = "Contact SensEar | Let's talk about your Space";
 
@@ -157,8 +150,8 @@ export default function ContactUs() {
       "name": "SensEar",
       "image": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/23e1cb39d_2021ef69ab7c3df8f2f35f2532f4ec65.jpg", // Updated hero image URL
       "url": "https://www.sensear.music", // Assuming this is the main domain
-      "telephone": _contact_phone,
-      "email": _contact_email,
+      "telephone": "+30" + "6976994212",
+      "email": "hello" + "@" + "sensear.music",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Athens",
@@ -567,7 +560,7 @@ This inquiry has been saved to the database and can be viewed in the admin panel
                     </div>
                     <div>
                       <h4 className="font-semibold text-black mb-1">Phone</h4>
-                      <p className="text-black/80"><a href={`tel:${_contact_phone}`}>{_contact_phone.slice(0, 3)} {_contact_phone.slice(3)}</a></p>
+                      <p className="text-black/80"><a href={"tel:" + "+30" + "6976994212"}>{"+30" + " 6976994212"}</a></p>
                       <p className="text-sm text-black/60 mt-1">Available Monday–Saturday, 10:00–18:00 (EET)</p>
                     </div>
                   </div>
@@ -580,7 +573,7 @@ This inquiry has been saved to the database and can be viewed in the admin panel
                     </div>
                     <div>
                       <h4 className="font-semibold text-black mb-1">Email</h4>
-                      <p className="text-black/80"><a href={`mailto:${_contact_email}`}>{_contact_email}</a></p>
+                      <p className="text-black/80"><a href={"mailto:" + "hello" + "@" + "sensear.music"}>{"hello" + "@" + "sensear.music"}</a></p>
                       <p className="text-sm text-black/60 mt-1">We usually reply within 24 hours</p>
                     </div>
                   </div>
