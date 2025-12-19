@@ -183,12 +183,7 @@ export default function Home() {
         "addressLocality": "Athens",
         "addressCountry": "GR"
       },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+30-6976994212",
-        "email": "hello@sensear.music",
-        "contactType": "Customer Service"
-      },
+
       "sameAs": [
       "https://www.facebook.com/61575909304249/",
       "https://www.instagram.com/sensear.music",
