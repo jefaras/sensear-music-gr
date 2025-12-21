@@ -405,7 +405,7 @@ export default function Services() {
           <div className="mb-24" role="list">
             <article role="listitem">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <div className="lg:order-1">
+                <div className="order-2 lg:order-1">
                     <img
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/587b0ab41_IMG_20250801_204842.jpg"
                       alt="Event soundtracks and production"
@@ -413,7 +413,7 @@ export default function Services() {
                     />
                 </div>
 
-                <div className="lg:order-2">
+                <div className="order-1 lg:order-2">
                   <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
                                             Event Soundtracks
                                           </h3>
