@@ -295,7 +295,7 @@ export default function Layout({ children }) {
             <Link to={createPageUrl("contact")}>
               <Button 
                 variant="outline" 
-                className={`font-bold bg-transparent hover:bg-transparent transition-colors hover:underline decoration-1 underline-offset-4 font-jakarta ${
+                className={`text-base font-bold bg-transparent hover:bg-transparent transition-colors hover:underline decoration-1 underline-offset-4 font-jakarta ${
                   isScrolled 
                     ? 'border-white text-white hover:border-white hover:text-white' 
                     : 'border-black text-black hover:border-black hover:text-black'
