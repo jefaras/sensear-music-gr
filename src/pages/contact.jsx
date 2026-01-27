@@ -29,9 +29,9 @@ export default function ContactUs() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Contact SensEar | Let's talk about your Space";
+    document.title = "Επικοινωνία SensEar | Ας μιλήσουμε για τον χώρο σας";
 
-    const description = "Get in touch to discuss your space and explore how sound can support atmosphere, flow and experience.";
+    const description = "Επικοινωνήστε μαζί μας για να συζητήσουμε για τον χώρο σας και να εξερευνήσουμε πώς ο ήχος μπορεί να υποστηρίξει την ατμόσφαιρα, τη ροή και την εμπειρία.";
     const pageUrl = 'https://sensear.music/contact';
     const imageUrl = 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/23e1cb39d_2021ef69ab7c3df8f2f35f2532f4ec65.jpg'; // Updated hero image
 
@@ -365,10 +365,10 @@ This inquiry has been saved to the database and can be viewed in the admin panel
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                Let's talk about your space
+                Ας μιλήσουμε για τον χώρο σας
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                Tell us about your space and what you'd like people to feel.
+                Πείτε μας λίγα λόγια για τον χώρο σας και το συναίσθημα που θέλετε να αφήνει.
               </p>
             </div>
 
@@ -403,10 +403,10 @@ This inquiry has been saved to the database and can be viewed in the admin panel
           {/* New heading and text above the contact form */}
           <div className="text-center mb-12 max-w-4xl mx-auto">
             <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-6">
-              Exploring how music could support your space or event?
+              Σκέφτεστε πώς η μουσική θα μπορούσε να υποστηρίξει τον χώρο ή την εκδήλωσή σας;
             </h2>
             <p className="text-xl text-black/60 font-medium mb-12">
-              We'll listen, ask the right questions and see whether sound has a role to play.
+              Ακούμε, κάνουμε τις σωστές ερωτήσεις και εξετάζουμε αν, και πώς, ο ήχος μπορεί να παίξει ρόλο.
             </p>
           </div>
 
@@ -417,23 +417,23 @@ This inquiry has been saved to the database and can be viewed in the admin panel
             <div className="max-w-3xl mx-auto">
               <Card className="p-8 shadow-lg bg-white">
                 <h3 className="text-2xl font-bold text-black mb-2">
-                  Share a few details
+                  Μοιραστείτε λίγες λεπτομέρειες
                 </h3>
                 <p className="text-base text-black/60 mb-6">
-                  This is an initial conversation. No commitments, no assumptions.
+                  Πρόκειται για μια πρώτη συζήτηση. Χωρίς δεσμεύσεις, χωρίς υποθέσεις.
                 </p>
 
                 <form onSubmit={handleSubmit} className="space-y-6" aria-label="Contact inquiry form">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm font-medium text-black mb-2">
-                        Name *
+                        Όνομα *
                       </label>
                       <Input
                         required
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        placeholder="Your full name"
+                        placeholder="Ονοματεπώνυμο"
                         className="border-black/20 focus:bg-white"
                         style={{ backgroundColor: 'rgba(240, 223, 213, 0.5)' }} />
                       
@@ -456,7 +456,7 @@ This inquiry has been saved to the database and can be viewed in the admin panel
 
                   <div>
                     <label className="block text-sm font-medium text-black mb-2">
-                      Phone Number
+                      Τηλέφωνο
                     </label>
                     <Input
                       value={formData.phone}
@@ -470,7 +470,7 @@ This inquiry has been saved to the database and can be viewed in the admin panel
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm font-medium text-black mb-2">
-                        Venue Type *
+                        Τύπος χώρου *
                       </label>
                       <Select
                         required
@@ -478,24 +478,24 @@ This inquiry has been saved to the database and can be viewed in the admin panel
                         onValueChange={(value) => setFormData({ ...formData, venue_type: value })}>
                         
                         <SelectTrigger className="border-black/20 focus:bg-white" style={{ backgroundColor: 'rgba(240, 223, 213, 0.5)' }}>
-                          <SelectValue placeholder="Select venue type" />
+                          <SelectValue placeholder="Επιλέξτε τύπο χώρου" />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="hotel">Hotel</SelectItem>
-                          <SelectItem value="restaurant">Restaurant</SelectItem>
+                          <SelectItem value="hotel">Ξενοδοχείο</SelectItem>
+                          <SelectItem value="restaurant">Εστιατόριο</SelectItem>
                           <SelectItem value="bar">Bar</SelectItem>
-                          <SelectItem value="wellness">Wellness Center</SelectItem>
-                          <SelectItem value="retail">Retail Space</SelectItem>
-                          <SelectItem value="private_event">Private Event</SelectItem>
-                          <SelectItem value="corporate_event">Corporate Event</SelectItem>
-                          <SelectItem value="other">Other</SelectItem>
+                          <SelectItem value="wellness">Κέντρο Ευεξίας</SelectItem>
+                          <SelectItem value="retail">Κατάστημα Λιανικής</SelectItem>
+                          <SelectItem value="private_event">Ιδιωτική Εκδήλωση</SelectItem>
+                          <SelectItem value="corporate_event">Εταιρική Εκδήλωση</SelectItem>
+                          <SelectItem value="other">Άλλο</SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
 
                     <div>
                       <label className="block text-sm font-medium text-black mb-2">
-                        Service Interest *
+                        Ενδιαφέρον για υπηρεσία *
                       </label>
                       <Select
                         required
@@ -503,13 +503,13 @@ This inquiry has been saved to the database and can be viewed in the admin panel
                         onValueChange={(value) => setFormData({ ...formData, service_interest: value })}>
                         
                         <SelectTrigger className="border-black/20 focus:bg-white" style={{ backgroundColor: 'rgba(240, 223, 213, 0.5)' }}>
-                          <SelectValue placeholder="Select service" />
+                          <SelectValue placeholder="Επιλέξτε υπηρεσία" />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="playlists_creation">Playlists creation</SelectItem>
-                          <SelectItem value="music_event">Music for event</SelectItem>
-                          <SelectItem value="sound_strategy">Sound strategy</SelectItem>
-                          <SelectItem value="av_upgrade">AV upgrade</SelectItem>
+                          <SelectItem value="playlists_creation">Δημιουργία Playlists</SelectItem>
+                          <SelectItem value="music_event">Μουσική για εκδήλωση</SelectItem>
+                          <SelectItem value="sound_strategy">Στρατηγική ήχου</SelectItem>
+                          <SelectItem value="av_upgrade">Αναβάθμιση AV</SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
@@ -517,13 +517,13 @@ This inquiry has been saved to the database and can be viewed in the admin panel
 
                   <div>
                     <label className="block text-sm font-medium text-black mb-2">
-                      Message *
+                      Μήνυμα *
                     </label>
                     <Textarea
                       required
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      placeholder="Tell us about your project..."
+                      placeholder="Πείτε μας λίγα λόγια για το project σας…"
                       rows={6}
                       className="border-black/20 focus:bg-white"
                       style={{ backgroundColor: 'rgba(240, 223, 213, 0.5)' }} />
@@ -536,7 +536,7 @@ This inquiry has been saved to the database and can be viewed in the admin panel
                     className="w-full"
                     aria-label={isSubmitting ? "Sending your message" : "Send message"}>
                     
-                    {isSubmitting ? "Sending..." : "Send Message"}
+                    {isSubmitting ? "Αποστολή..." : "Αποστολή μηνύματος"}
                   </AnimatedButton>
                 </form>
               </Card>
@@ -546,7 +546,7 @@ This inquiry has been saved to the database and can be viewed in the admin panel
             <div className="space-y-8">
               <div className="text-center">
                 <h3 className="text-3xl font-bold text-black mb-6">
-                  Contact Information
+                  Στοιχεία επικοινωνίας
                 </h3>
               </div>
 
@@ -557,9 +557,9 @@ This inquiry has been saved to the database and can be viewed in the admin panel
                       <Phone className="w-5 h-5 text-black" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-black mb-1">Phone</h4>
+                      <h4 className="font-semibold text-black mb-1">Τηλέφωνο</h4>
                       <p className="text-black/80"><img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e3c81d312_picturetopeopleorg-355f6af418441f63cf63a77c1c7ea970e79fa84e662ff9f5aa.png" alt="+30 6976994212" className="h-5 w-auto" /></p>
-                      <p className="text-sm text-black/60 mt-1">Available Monday–Saturday, 10:00–18:00 (EET)</p>
+                      <p className="text-sm text-black/60 mt-1">Δευτέρα–Σάββατο, 10:00–18:00 (EET)</p>
                     </div>
                   </div>
                 </Card>
@@ -572,7 +572,7 @@ This inquiry has been saved to the database and can be viewed in the admin panel
                     <div>
                       <h4 className="font-semibold text-black mb-1">Email</h4>
                       <p className="text-black/80"><img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fd5f41fc6_picturetopeopleorg-25458b840e777c46f3ff5bf44acedb770a3037a5492b0d1343.png" alt="hello@sensear.music" className="h-5 w-auto" /></p>
-                      <p className="text-sm text-black/60 mt-1">We usually reply within 24 hours</p>
+                      <p className="text-sm text-black/60 mt-1">Απαντάμε συνήθως εντός 24 ωρών</p>
                     </div>
                   </div>
                 </Card>
@@ -583,9 +583,9 @@ This inquiry has been saved to the database and can be viewed in the admin panel
                       <MapPin className="w-5 h-5 text-black" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-black mb-1">Location</h4>
-                      <p className="text-black/80">Athens, Greece</p>
-                      <p className="text-sm text-black/60 mt-1">Working with brands across Greece and its islands.</p>
+                      <h4 className="font-semibold text-black mb-1">Τοποθεσία</h4>
+                      <p className="text-black/80">Αθήνα, Ελλάδα</p>
+                      <p className="text-sm text-black/60 mt-1">Συνεργαζόμαστε με brands σε όλη την Ελλάδα και τα νησιά.</p>
                     </div>
                   </div>
                 </Card>
@@ -599,53 +599,53 @@ This inquiry has been saved to the database and can be viewed in the admin panel
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 id="faq-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center text-black mb-12">
-              Frequently Asked Questions
+              Συχνές Ερωτήσεις
             </h2>
             <p className="text-xl text-black/60 font-medium text-center mb-12">
-              <span>Find answers to common questions about our </span><Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">music curation services</Link><span>.</span>
+              <span>Βρείτε απαντήσεις σε συχνές ερωτήσεις σχετικά με τις </span><Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">υπηρεσίες μουσικής επιμέλειας</Link><span>.</span>
             </p>
           </div>
           <Accordion type="single" collapsible className="w-full space-y-4">
             <AccordionItem value="item-0" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
               <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
-                What is the difference between background music and bespoke curation?
+                Ποια είναι η διαφορά ανάμεσα στη γενική μουσική υπόκρουση και την εξατομικευμένη επιμέλεια;
               </AccordionTrigger>
               <AccordionContent className="text-base text-black/70 pt-2 pb-4">
-                Background Music offers pre-curated, automated playlists for a seamless ambiance, ideal for general business needs. Bespoke Curation is a fully customized music strategy, crafted to reflect a brand's identity and create a unique, immersive experience. It is ideal for luxury venues, boutique spaces, and businesses seeking a signature sound experience.
+                Η γενική μουσική υπόκρουση βασίζεται σε προεπιλεγμένες, αυτοματοποιημένες playlists για μια ομαλή ατμόσφαιρα και καλύπτει βασικές επαγγελματικές ανάγκες. Η εξατομικευμένη επιμέλεια είναι μια πλήρως προσαρμοσμένη μουσική στρατηγική, σχεδιασμένη να εκφράζει την ταυτότητα του brand και να δημιουργεί μια μοναδική, βιωματική εμπειρία. Είναι ιδανική για luxury χώρους, boutique concepts και επιχειρήσεις που αναζητούν χαρακτηριστικό ήχο.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-1" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
               <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
-                How long does it take to create a custom playlist?
+                Πόσος χρόνος χρειάζεται για τη δημιουργία μιας προσαρμοσμένης playlist;
               </AccordionTrigger>
               <AccordionContent className="text-base text-black/70 pt-2 pb-4">
-                It varies. For a single venue with a clear music profile, it may take just a few days. For larger or multi-location clients, it can take a week or more to finalize the whole process.
+                Εξαρτάται. Για έναν μεμονωμένο χώρο με ξεκάθαρο μουσικό προφίλ, μπορεί να χρειαστούν λίγες ημέρες. Για μεγαλύτερα projects ή χώρους με πολλαπλές τοποθεσίες, η ολοκλήρωση μπορεί να διαρκέσει μία εβδομάδα ή και περισσότερο.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-2" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
               <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
-                Do I need special equipment for playing your music playlists?
+                Χρειάζομαι ειδικό εξοπλισμό για να αναπαράγω τις μουσικές playlists;
               </AccordionTrigger>
               <AccordionContent className="text-base text-black/70 pt-2 pb-4">
-                Basic sound systems work just fine, but if you want specialized audio-visual solutions, we can provide design, purchase, and installation services. For more info see our AV Design & Integration section.
+                Στις περισσότερες περιπτώσεις, ένα βασικό ηχητικό σύστημα είναι αρκετό. Αν όμως χρειάζεστε πιο εξειδικευμένες λύσεις ήχου και εικόνας, μπορούμε να αναλάβουμε τον σχεδιασμό, την προμήθεια και την εγκατάσταση. Για περισσότερα δείτε την ενότητα Σχεδιασμός & Ενσωμάτωση AV.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-3" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
               <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
-                Do you offer support after setup?
+                Παρέχετε υποστήριξη μετά την εγκατάσταση;
               </AccordionTrigger>
               <AccordionContent className="text-base text-black/70 pt-2 pb-4">
-                Yes. We are available for ongoing support, updates, and any adjustments you need along the way. Just send us a message and we will talk about it.
+                Ναι. Παρέχουμε συνεχή υποστήριξη, ενημερώσεις και προσαρμογές όποτε χρειαστεί. Απλώς στείλτε μας ένα μήνυμα και το συζητάμε.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
           <div className="text-center mt-12">
             <Link to={createPageUrl("FAQ")}>
               <AnimatedButton>
-                Read all FAQs
+                Διαβάστε όλες τις συχνές ερωτήσεις
               </AnimatedButton>
             </Link>
           </div>
