@@ -294,11 +294,11 @@ export default function Services() {
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                Strategic sound,<br />
-                four proven approaches
+                Στρατηγικός σχεδιασμός ήχου,<br />
+                με τέσσερις δοκιμασμένες προσεγγίσεις
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                Practical sound services designed to complement the way spaces function and feel.
+                Μουσικές υπηρεσίες σχεδιασμένες να συμπληρώνουν τον τρόπο λειτουργίας και εμπειρίας κάθε χώρου.
               </p>
             </div>
 
@@ -325,16 +325,16 @@ export default function Services() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
               <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-white leading-tight mb-12">
-                Music is already <br />
-                shaping your business
+                Η μουσική παίζει ήδη ρόλο <br />
+                στην επιχείρησή σας
               </h2>
             
               <div className="w-full text-center">
                 <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                  Every venue <strong>has a soundtrack</strong>, whether you designed it or not. <strong><em>SensEar</em></strong> helps ensure it tells <strong><em>the right story</em></strong>.
+                  Κάθε χώρος έχει τον ήχο του, ακόμα κι αν δεν έχει σχεδιαστεί συνειδητά. <strong><em>SensEar</em></strong> βοηθάει ώστε ο ήχος να εκφράζει την ταυτότητά σας.
                 </p>
                 <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                  We shape sound for venues & events where <strong>atmosphere</strong> matters: guiding how guests <strong>feel</strong>, how long they <strong>stay</strong> and how they <strong>remember</strong> you.
+                  Σχεδιάζουμε ήχο για χώρους και εκδηλώσεις που δίνουν αξία στην εμπειρία, ενισχύοντας το πώς οι επισκέπτες σας βιώνουν και πως θυμούνται το χώρο σας.
                 </p>
               </div>
           </div>
@@ -358,8 +358,8 @@ export default function Services() {
       }}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto">
-            <h2 id="services-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">Choose your starting point</h2>
-            <p className="text-xl text-black/60 font-medium mb-12 max-w-3xl mx-auto">Use this guide to see which music service fits you.</p>
+            <h2 id="services-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">Επιλέξτε το σημείο εκκίνησης σας</h2>
+            <p className="text-xl text-black/60 font-medium mb-12 max-w-3xl mx-auto">Χρησιμοποιήστε τον παρακάτω οδηγό για να δείτε ποια μουσική υπηρεσία ταιριάζει καλύτερα στις ανάγκες σας.</p>
           </div>
 
           {/* Signature Playlists */}
@@ -368,23 +368,23 @@ export default function Services() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="order-1 lg:order-1">
                   <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
-                                            Signature Playlists
+                                            Επιμελημένες playlists
                                           </h3>
-                  <p className="text-xl font-medium text-black/60 mb-8">Your daily soundtrack</p>
+                  <p className="text-xl font-medium text-black/60 mb-8">Η καθημερινή μουσική σας βάση</p>
 
                   <div>
                     <div className="mb-6">
-                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Curated playlists that evolve throughout the day, monthly updates, remote management.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Playlists που εξελίσσονται μέσα στη μέρα, με τακτικές ενημερώσεις και απομακρυσμένη διαχείριση.</p>
                     </div>
                     <div className="mb-6">
-                                                <p className="text-lg md:text-xl text-black/60 leading-relaxed">For venues ready to move beyond generic background music.</p>
+                                                <p className="text-lg md:text-xl text-black/60 leading-relaxed">Ιδανικό για: <br/>Χώρους που θέλουν να ξεφύγουν από τη γενική, απρόσωπη μουσική.</p>
                                               </div>
 
 
 
                     <Link to={createPageUrl("signature-playlists")}>
                       <AnimatedButton className="w-full sm:w-auto">
-                        Explore Signature Playlists
+                        Ανακαλύψτε τις Επιμελημένες playlists
                       </AnimatedButton>
                     </Link>
                   </div>
@@ -415,23 +415,23 @@ export default function Services() {
 
                 <div className="order-1 lg:order-2">
                   <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
-                                            Event Soundtracks
+                                            Μουσική επιμέλεια εκδηλώσεων
                                           </h3>
-                  <p className="text-xl font-medium text-black/60 mb-8">Music for moments that matter</p>
+                  <p className="text-xl font-medium text-black/60 mb-8">Μουσική για στιγμές που μετρούν</p>
 
                   <div>
                     <div className="mb-6">
-                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Precisely planned music for every moment, AV direction & support.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Σχεδιασμένος ήχος για κάθε στάδιο της εκδήλωσης, με κατεύθυνση και υποστήριξη AV.</p>
                     </div>
                     <div className="mb-6">
-                                                <p className="text-lg md:text-xl text-black/60 leading-relaxed">For conferences, launches, weddings and special occasions.</p>
+                                                <p className="text-lg md:text-xl text-black/60 leading-relaxed">Ιδανικό για: <br/>Συνέδρια, παρουσιάσεις, γάμους και ξεχωριστές διοργανώσεις.</p>
                                               </div>
 
 
 
                     <Link to={createPageUrl("event-soundtracks")}>
                       <AnimatedButton className="w-full sm:w-auto">
-                        Explore Event Soundtracks
+                        Ανακαλύψτε τη Μουσική επιμέλεια εκδηλώσεων
                       </AnimatedButton>
                     </Link>
                   </div>
@@ -453,23 +453,23 @@ export default function Services() {
                 />
                 <div className="flex-1 flex flex-col order-1 xl:order-2">
                   <h3 className="text-3xl font-bold text-black leading-tight mb-2">
-                    Sonic Strategy
+                    Σχεδιασμός ηχητικής ταυτότητας
                   </h3>
-                  <p className="text-lg font-medium text-black/60 mb-6">Your audio DNA</p>
+                  <p className="text-lg font-medium text-black/60 mb-6">Ηχητικό DNA του brand σας</p>
 
                   <div className="flex-1 flex flex-col">
                     <div className="mb-4">
-                      <p className="text-lg text-black/60 leading-relaxed">Guidelines & roadmap for consistent sound.</p>
+                      <p className="text-lg text-black/60 leading-relaxed">Κατευθυντήριες γραμμές και χάρτης εφαρμογής για συνεπή ήχο παντού.</p>
                     </div>
                     <div className="mb-4">
-                                                <p className="text-base text-black/60 leading-relaxed">For brands with multiple locations or marketing channels.</p>
+                                                <p className="text-base text-black/60 leading-relaxed">Ιδανικό για: <br/>Brands με πολλαπλούς χώρους ή κανάλια επικοινωνίας.</p>
                                               </div>
 
                     
                     <div className="mt-6">
                         <Link to={createPageUrl("sonic-strategy")}>
                             <AnimatedButtonSmall className="w-full sm:w-auto">
-                            Explore Sonic Strategy
+                            Ανακαλύψτε τον Σχεδιασμό ηχητικής ταυτότητας
                             </AnimatedButtonSmall>
                         </Link>
                     </div>
@@ -488,23 +488,23 @@ export default function Services() {
                 />
                 <div className="flex-1 flex flex-col order-1 xl:order-2">
                   <h3 className="text-3xl font-bold text-black leading-tight mb-2">
-                    Audio Upgrades
+                    Ακουστική αναβάθμιση
                   </h3>
-                  <p className="text-lg font-medium text-black/60 mb-6">Acoustic excellence</p>
+                  <p className="text-lg font-medium text-black/60 mb-6">Ακουστική αρτιότητα</p>
 
                   <div className="flex-1 flex flex-col">
                     <div className="mb-4">
-                      <p className="text-lg text-black/60 leading-relaxed">Acoustic & equipment guidance with installation support.</p>
+                      <p className="text-lg text-black/60 leading-relaxed">Καθοδήγηση για ακουστική και εξοπλισμό, με υποστήριξη εγκατάστασης.</p>
                     </div>
                     <div className="mb-4">
-                                                <p className="text-base text-black/60 leading-relaxed">For venues where sound quality needs refinement.</p>
+                                                <p className="text-base text-black/60 leading-relaxed">Ιδανικό για: <br/>Χώρους όπου η ποιότητα του ήχου χρειάζεται βελτίωση.</p>
                                               </div>
 
 
                     <div className="mt-6">
                         <Link to={createPageUrl("audio-upgrades")}>
                             <AnimatedButtonSmall className="w-full sm:w-auto">
-                            Explore audio upgrades
+                            Ανακαλύψτε την Ακουστική αναβάθμιση
                             </AnimatedButtonSmall>
                         </Link>
                     </div>
@@ -522,8 +522,8 @@ export default function Services() {
       <section className="py-24 bg-[#faebe3]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto">
-            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">How our services deliver</h2>
-            <p className="text-xl text-black/60 font-medium mb-12 max-w-3xl mx-auto">Working alone or together to meet your specific needs</p>
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">Πώς λειτουργούν οι υπηρεσίες μας</h2>
+            <p className="text-xl text-black/60 font-medium mb-12 max-w-3xl mx-auto">Οι υπηρεσίες μας μπορούν να λειτουργήσουν αυτόνομα ή συνδυαστικά, ανάλογα με τις ανάγκες του χώρου σας.</p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -538,22 +538,22 @@ export default function Services() {
                 <div className="space-y-8">
                     <div className="mb-6">
                         <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                             <Link to={createPageUrl("signature-playlists")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Signature Playlists</Link> <span >build your daily atmosphere.</span>
+                             <Link to={createPageUrl("signature-playlists")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Επιμελημένες playlists</Link> <span >Διαμορφώνουν την καθημερινή ατμόσφαιρα του χώρου σας.</span>
                         </p>
                     </div>
                     <div className="mb-6">
                         <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                             <Link to={createPageUrl("sonic-strategy")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Sonic Strategy</Link> <span >unifies your brand's sound.</span>
+                             <Link to={createPageUrl("sonic-strategy")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Σχεδιασμός ηχητικής ταυτότητας</Link> <span >Ενοποιεί τον ήχο του brand σας σε όλους τους χώρους και τα κανάλια.</span>
                         </p>
                     </div>
                     <div className="mb-6">
                         <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                             <Link to={createPageUrl("event-soundtracks")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Event Soundtracks</Link> <span >choreograph special moments.</span>
+                             <Link to={createPageUrl("event-soundtracks")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Μουσική επιμέλεια εκδηλώσεων</Link> <span >Χορογραφεί τις ξεχωριστές στιγμές με ακρίβεια και ροή.</span>
                         </p>
                     </div>
                     <div className="mb-6">
                         <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                             <Link to={createPageUrl("audio-upgrades")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Audio Upgrades</Link> <span >optimize acoustic quality.</span>
+                             <Link to={createPageUrl("audio-upgrades")} className="font-bold underline decoration-2 underline-offset-4 hover:text-black/70 text-black">Ακουστική αναβάθμιση</Link> <span >Βελτιστοποιεί την ποιότητα και την καθαρότητα του ήχου.</span>
                         </p>
                     </div>
                 </div>
@@ -565,20 +565,20 @@ export default function Services() {
       {/* Final CTA - Let's explore your possibilities */}
       <section className="py-20 animated-gradient">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Let's explore your possibilities</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Ας εξερευνήσουμε τις δυνατότητές σας</h2>
           <p className="text-xl text-black/60 mb-12 max-w-3xl mx-auto">
-            Which service aligns with your vision? We will assess your current atmosphere and recommend the ideal starting point.
+            Ποια υπηρεσία ευθυγραμμίζεται με το όραμά σας; Αξιολογούμε την υπάρχουσα ατμόσφαιρα και προτείνουμε το ιδανικό σημείο εκκίνησης.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <Link to={createPageUrl("contact")}>
-              <AnimatedButton className="w-full sm:w-auto h-14" aria-label="Discover your sound strategy">
-                Discover your sound strategy
+              <AnimatedButton className="w-full sm:w-auto h-14" aria-label="Ανακαλύψτε τη στρατηγική ήχου σας">
+                Ανακαλύψτε τη στρατηγική ήχου σας
               </AnimatedButton>
             </Link>
-            <span className="text-black/60 font-medium">or</span>
+            <span className="text-black/60 font-medium">ή</span>
             <Link to={createPageUrl("Industries")}>
               <AnimatedButton className="w-full sm:w-auto h-14">
-                See Industries we serve
+                Δείτε τους κλάδους που εξυπηρετούμε
               </AnimatedButton>
             </Link>
           </div>
