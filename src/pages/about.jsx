@@ -23,10 +23,10 @@ export default function AboutUs() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "About SensEar | Music curation Team & Approach";
+    document.title = "Σχετικά με τη SensEar | Η ομάδα μουσικής επιμέλειας & η προσέγγισή μας";
 
     const metaDescription = document.querySelector('meta[name="description"]');
-    const description = "Learn how SensEar approaches music curation with clarity and intent, shaping how spaces are felt through sound.";
+    const description = "Μάθετε πώς η SensEar προσεγγίζει τη μουσική επιμέλεια με σαφήνεια και πρόθεση, διαμορφώνοντας την αίσθηση των χώρων μέσω του ήχου.";
     if (metaDescription) {
       metaDescription.setAttribute('content', description);
     } else {
@@ -250,10 +250,10 @@ export default function AboutUs() {
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                The people behind your soundtrack
+                Οι άνθρωποι πίσω από το soundtrack σας
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                We help venues define how they are heard and felt.
+                Βοηθάμε τους χώρους να διαμορφώσουν το πώς ακούγονται και πώς βιώνονται.
               </p>
             </div>
 
@@ -264,7 +264,7 @@ export default function AboutUs() {
                   <div className="relative aspect-square">
                     <img 
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/738905847_gemini-image-2_Photography_of_a_candid_scene_with_a_blue_background_featuring_a_woman_s_figure_-0.jpg" 
-                      alt="SensEar music curation team" 
+                      alt="Η ομάδα μουσικής επιμέλειας της SensEar" 
                       className="w-full h-full object-cover" 
                     />
                   </div>
@@ -280,15 +280,15 @@ export default function AboutUs() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
             <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-white leading-tight mb-12">
-              Our philosophy
+              Η φιλοσοφία μας
             </h2>
           
             <div className="w-full text-center">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                <strong>SensEar</strong> treats music as a <strong><em>core part</em></strong> of the <strong><em>experience</em></strong>:
+                Στη <strong>SensEar</strong> αντιμετωπίζουμε τη μουσική ως <strong><em>βασικό στοιχείο</em></strong> της <strong><em>εμπειρίας</em></strong>.
               </p>
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
-                <em>Music is not background</em>, but <strong>atmosphere</strong>, <strong>memory</strong> and <strong>emotion</strong> that can <strong><em>influence</em></strong> how guests <strong><em>feel & behave</em></strong>.
+                Η μουσική <em>δεν είναι απλό υπόβαθρο</em>, αλλά <strong>ατμόσφαιρα</strong>, <strong>μνήμη</strong> και <strong>συναίσθημα</strong>, που επηρεάζει το πώς <strong><em>νιώθουν</em></strong> και <strong><em>συμπεριφέρονται</em></strong> οι επισκέπτες.
               </p>
             </div>
           </div>
@@ -298,8 +298,8 @@ export default function AboutUs() {
       {/* Timeline */}
       <section className="py-20 bg-white" aria-labelledby="timeline-heading">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 id="timeline-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center text-black mb-4">Our journey</h2>
-          <p className="text-xl text-black/60 font-medium text-center mb-12">From DJ collective & digital services to strategic sound design</p>
+          <h2 id="timeline-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center text-black mb-4">Η διαδρομή μας</h2>
+          <p className="text-xl text-black/60 font-medium text-center mb-12">Από DJ collective και digital υπηρεσίες, στον στρατηγικό σχεδιασμό ήχου</p>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             {/* Left: Timeline content */}
@@ -321,7 +321,7 @@ export default function AboutUs() {
                       </div>
                     </div>
                     <div className="flex-grow min-w-0 bg-peach/30 rounded-xl p-6 backdrop-blur-sm">
-                      <p className="text-lg md:text-xl text-black/60 leading-relaxed"><strong>George and Katerina</strong> meet while curating music for an upscale wedding. Their shared passion for <strong>discovering hidden grooves</strong> sparks a creative partnership.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Ο <strong>Γιώργος και η Κατερίνα</strong> γνωρίζονται επιμελούμενοι μουσική για έναν upscale γάμο. Η κοινή τους αγάπη για <strong>κρυμμένα grooves</strong> γίνεται η αρχή μιας δημιουργικής συνεργασίας.</p>
                     </div>
                   </div>
 
@@ -336,7 +336,7 @@ export default function AboutUs() {
                     
                     {/* Right side - Content */}
                     <div className="flex-grow pt-2">
-                      <p className="text-lg md:text-xl text-black/60 leading-relaxed"><strong>George and Katerina</strong> meet while curating music for an upscale wedding. Their shared passion for <strong>discovering hidden grooves</strong> sparks a creative partnership.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Ο <strong>Γιώργος και η Κατερίνα</strong> γνωρίζονται επιμελούμενοι μουσική για έναν upscale γάμο. Η κοινή τους αγάπη για <strong>κρυμμένα grooves</strong> γίνεται η αρχή μιας δημιουργικής συνεργασίας.</p>
                     </div>
                   </div>
                 </article>
@@ -351,7 +351,7 @@ export default function AboutUs() {
                       </div>
                     </div>
                     <div className="flex-grow min-w-0 bg-peach/30 rounded-xl p-6 backdrop-blur-sm">
-                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">As <strong>Midnight City</strong>, they host and DJ <strong>exclusive parties</strong> focusing in cross-genre discoveries from the '70s to today, building a devoted following.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Ως <strong>Midnight City</strong>, διοργανώνουν και παίζουν μουσική σε <strong>επιλεγμένα parties</strong>, εστιάζοντας σε cross-genre ανακαλύψεις από τα ’70s μέχρι σήμερα, δημιουργώντας ένα αφοσιωμένο κοινό.</p>
                     </div>
                   </div>
 
@@ -366,7 +366,7 @@ export default function AboutUs() {
                     
                     {/* Right side - Content */}
                     <div className="flex-grow pt-2">
-                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">As <strong>Midnight City</strong>, they host and DJ <strong>exclusive parties</strong> focusing in cross-genre discoveries from the '70s to today, building a devoted following.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Ως <strong>Midnight City</strong>, διοργανώνουν και παίζουν μουσική σε <strong>επιλεγμένα parties</strong>, εστιάζοντας σε cross-genre ανακαλύψεις από τα ’70s μέχρι σήμερα, δημιουργώντας ένα αφοσιωμένο κοινό.</p>
                     </div>
                   </div>
                 </article>
@@ -381,7 +381,7 @@ export default function AboutUs() {
                       </div>
                     </div>
                     <div className="flex-grow min-w-0 bg-peach/30 rounded-xl p-6 backdrop-blur-sm">
-                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">JEF discovers M.C. at one of their signature events. The vibe and deep-track selections make him an instant <strong>devotee</strong>.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Ο JEF ανακαλύπτει τους M.C. σε ένα από τα χαρακτηριστικά τους events. Το vibe και οι deep επιλογές τον κερδίζουν αμέσως.</p>
                     </div>
                   </div>
 
@@ -396,7 +396,7 @@ export default function AboutUs() {
                     
                     {/* Right side - Content */}
                     <div className="flex-grow pt-2">
-                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">JEF discovers M.C. at one of their signature events. The vibe and deep-track selections make him an instant <strong>devotee</strong>.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Ο JEF ανακαλύπτει τους M.C. σε ένα από τα χαρακτηριστικά τους events. Το vibe και οι deep επιλογές τον κερδίζουν αμέσως.</p>
                     </div>
                   </div>
                 </article>
@@ -411,7 +411,7 @@ export default function AboutUs() {
                       </div>
                     </div>
                     <div className="flex-grow min-w-0 bg-peach/30 rounded-xl p-6 backdrop-blur-sm">
-                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">JEF and George align on a vision: <strong>transformative music curation</strong> and DJ sets for venues that are mindful about their atmosphere.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Ο JEF και ο Γιώργος ευθυγραμμίζονται σε ένα κοινό όραμα: <strong>μεταμορφωτική μουσική επιμέλεια</strong> και DJ sets για χώρους που δίνουν σημασία στην ατμόσφαιρα.</p>
                     </div>
                   </div>
 
@@ -426,7 +426,7 @@ export default function AboutUs() {
                     
                     {/* Right side - Content */}
                     <div className="flex-grow pt-2">
-                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">JEF and George align on a vision: <strong>transformative music curation</strong> and DJ sets for venues that are mindful about their atmosphere.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Ο JEF και ο Γιώργος ευθυγραμμίζονται σε ένα κοινό όραμα: <strong>μεταμορφωτική μουσική επιμέλεια</strong> και DJ sets για χώρους που δίνουν σημασία στην ατμόσφαιρα.</p>
                     </div>
                   </div>
                 </article>
@@ -441,7 +441,7 @@ export default function AboutUs() {
                       </div>
                     </div>
                     <div className="flex-grow min-w-0 bg-peach/30 rounded-xl p-6 backdrop-blur-sm">
-                      <p className="text-lg md:text-xl text-black/60 leading-relaxed"><strong>SensEar launches</strong>. First clients confirm what we believed: venues deserve soundtracks designed with intention and expertise.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Η <strong>SensEar ξεκινά</strong>. Οι πρώτοι πελάτες επιβεβαιώνουν αυτό που πιστεύαμε εξαρχής: οι χώροι αξίζουν soundtracks σχεδιασμένα με πρόθεση και εξειδίκευση.</p>
                     </div>
                   </div>
 
@@ -456,7 +456,7 @@ export default function AboutUs() {
                     
                     {/* Right side - Content */}
                     <div className="flex-grow pt-2">
-                      <p className="text-lg md:text-xl text-black/60 leading-relaxed"><strong>SensEar launches</strong>. First clients confirm what we believed: venues deserve soundtracks designed with intention and expertise.</p>
+                      <p className="text-lg md:text-xl text-black/60 leading-relaxed">Η <strong>SensEar ξεκινά</strong>. Οι πρώτοι πελάτες επιβεβαιώνουν αυτό που πιστεύαμε εξαρχής: οι χώροι αξίζουν soundtracks σχεδιασμένα με πρόθεση και εξειδίκευση.</p>
                     </div>
                   </div>
                 </article>
@@ -469,7 +469,7 @@ export default function AboutUs() {
             <div className="hidden lg:block">
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/92f0d2705_16685b806_pexels-monstera-1408089.jpg"
-                alt="SensEar music curation journey"
+                alt="Το ταξίδι μουσικής επιμέλειας της SensEar"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
             </div>
@@ -483,15 +483,15 @@ export default function AboutUs() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
             <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-white leading-tight mb-12">
-              Our vision
+              Το όραμά μας
             </h2>
             
             <div className="w-full text-center">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                To become the <strong>leading music partner</strong> for eclectic hospitality brands & events seeking to express <strong>identity</strong>, elevate <strong>atmosphere</strong> & create lasting guest <strong>connections</strong>.
+                Να γίνουμε ο <strong>κορυφαίος μουσικός συνεργάτης</strong> για εκλεκτικά brands φιλοξενίας και εκδηλώσεις που θέλουν να εκφράσουν την <strong>ταυτότητά τους</strong>, να αναβαθμίσουν την <strong>ατμόσφαιρα</strong> και να δημιουργήσουν ουσιαστικούς δεσμούς με τους <strong>επισκέπτες</strong>.
               </p>
               <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                <span>Learn more about our </span><Link to={createPageUrl("sonic-strategy")} className="underline hover:text-peach font-semibold">sonic strategy service</Link><span>.</span>
+                <span>Μάθετε περισσότερα για τη </span><Link to={createPageUrl("sonic-strategy")} className="underline hover:text-peach font-semibold">Στρατηγική ηχητικής ταυτότητας</Link><span>.</span>
               </p>
             </div>
           </div>
@@ -501,8 +501,8 @@ export default function AboutUs() {
       {/* Team Section */}
       <section className="py-24" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="team-heading">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 id="team-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center mb-4 animate-fade-in-up">Meet the team</h2>
-          <p className="text-xl text-black/60 font-medium text-center mb-12 animate-fade-in-up">Music obsessed, hospitality minded</p>
+          <h2 id="team-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center mb-4 animate-fade-in-up">Γνωρίστε την ομάδα</h2>
+          <p className="text-xl text-black/60 font-medium text-center mb-12 animate-fade-in-up">Παθιασμένοι με τη μουσική, προσανατολισμένοι στη φιλοξενία</p>
 
           {/* George Fameliaris - FIRST */}
           <div className="mb-8" role="list">
@@ -513,17 +513,17 @@ export default function AboutUs() {
                   <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
                     George Fameliaris
                   </h3>
-                  <p className="text-xl font-semibold text-black/70 mb-10">Co-founder, Chief music curator & AV expert</p>
+                  <p className="text-xl font-semibold text-black/70 mb-10">Συνιδρυτής, Επικεφαλής μουσικής επιμέλειας & AV expert</p>
                   
                   <div>
                     <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-4">
-                      G's lifelong passion for music deepened with a Media & Communications BA and an MA in Popular Music in Film.
+                      Η δια βίου σχέση του με τη μουσική ενισχύθηκε μέσα από σπουδές Media & Communications και μεταπτυχιακό στην Popular Music στον κινηματογράφο.
                     </p>
                     <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-4">
-                      He established himself in Athens as a DJ & music curator on radio, parties & venues residencies.
+                      Έχει εδραιωθεί στην Αθήνα ως DJ και music curator σε ραδιόφωνο, events και μόνιμες συνεργασίες με χώρους.
                     </p>
                     <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                      At SensEar, he crafts each venue's musical identity with precision, rhythm and atmospheres that defines the brand's signature sound.
+                      Στη SensEar, διαμορφώνει τη μουσική ταυτότητα κάθε χώρου με ακρίβεια, ρυθμό και ατμόσφαιρα που ορίζουν το signature sound του brand.
                     </p>
                   </div>
                 </div>
@@ -532,7 +532,7 @@ export default function AboutUs() {
                 <div className="lg:order-2 hidden lg:block">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/9e1d5056f_398e0cca3_84887785_172252324195148_2160204890159185920_n1.jpg"
-                    alt="George Fameliaris - SensEar Co-Founder and Chief Music Curator"
+                    alt="Γιώργος Φαμελιάρης - Συνιδρυτής και Επικεφαλής Μουσικής Επιμέλειας SensEar"
                     className="w-full h-auto rounded-2xl shadow-lg"
                   />
                 </div>
@@ -548,7 +548,7 @@ export default function AboutUs() {
                 <div className="lg:order-1 hidden lg:block">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/98a0a7252_b24ebd26f_JEF_square_bw.png"
-                    alt="John E. Farazoumis - SensEar Co-Founder and Brand Strategy Director"
+                    alt="John E. Farazoumis - Συνιδρυτής και Διευθυντής Brand Strategy SensEar"
                     className="w-full h-auto rounded-2xl shadow-lg"
                   />
                 </div>
@@ -558,17 +558,17 @@ export default function AboutUs() {
                   <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
                     John E. Farazoumis
                   </h3>
-                  <p className="text-xl font-semibold text-black/70 mb-10">Co-founder, Brand strategy, Client service</p>
+                  <p className="text-xl font-semibold text-black/70 mb-10">Συνιδρυτής, Brand Strategy & Client Service</p>
                   
                   <div>
                     <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-4">
-                      From his early DJ sets to his studies in Hospitality Management, JEF has always been guided by music's magnetic pull.
+                      Από τα πρώτα DJ sets μέχρι τις σπουδές του στη Διοίκηση Φιλοξενίας, η μουσική υπήρξε πάντα καθοριστική.
                     </p>
                     <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-4">
-                      He is a co-founder of a successful digital agency, with 25 years of experience in web services & understanding client needs.
+                      Συνιδρυτής επιτυχημένου digital agency, με 25 χρόνια εμπειρίας σε web services και κατανόηση αναγκών πελατών.
                     </p>
                     <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                      At SensEar, he shapes the brand's strategic direction & connects creative vision with client experience.
+                      Στη SensEar, χαράσσει τη στρατηγική κατεύθυνση του brand και γεφυρώνει το δημιουργικό όραμα με την εμπειρία πελάτη.
                     </p>
                   </div>
                 </div>
@@ -585,17 +585,17 @@ export default function AboutUs() {
                   <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
                     Katerina Karali
                   </h3>
-                  <p className="text-xl font-semibold text-black/70 mb-10">Contributing associate, DJ, Music curator</p>
+                  <p className="text-xl font-semibold text-black/70 mb-10">Συνεργαζόμενη συνεργάτιδα, DJ & Music Curator</p>
                   
                   <div>
                     <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-4">
-                      Kat combines visual design & sound narrative with a refined artistic sensibility.
+                      Συνδυάζει τον οπτικό σχεδιασμό με την ηχητική αφήγηση, με εκλεπτυσμένη καλλιτεχνική ματιά.
                     </p>
                     <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-4">
-                      A veteran multimedia art director, she helps curate soundscapes for films, exhibitions & private events.
+                      Έμπειρη multimedia art director, επιμελείται ηχητικά τοπία για ταινίες, εκθέσεις και ιδιωτικές εκδηλώσεις.
                     </p>
                     <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                      Known for her instinctive selections & taste for rare grooves, she brings depth, texture and a touch of the unexpected to SensEar.
+                      Γνωστή για το ένστικτο και την αγάπη της για σπάνια grooves, προσθέτει βάθος, υφή και απρόσμενο χαρακτήρα στη SensEar.
                     </p>
                   </div>
                 </div>
@@ -604,7 +604,7 @@ export default function AboutUs() {
                 <div className="lg:order-2 hidden lg:block">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/a4ebc438b_73ba1e2e2_86455570_172252364195144_3083930653335486464_n1.jpg"
-                    alt="Katerina Karali - SensEar Art Director and Music Curator"
+                    alt="Κατερίνα Καραλή - Art Director και Music Curator SensEar"
                     className="w-full h-auto rounded-2xl shadow-lg"
                   />
                 </div>
@@ -613,22 +613,23 @@ export default function AboutUs() {
           </div>
 
           <p className="text-center mt-32 text-2xl md:text-3xl lg:text-4xl max-w-5xl mx-auto text-black leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
-            Together, we form SensEar, a team committed to uplifting spaces through compelling, memorable music.
+            Μαζί, αποτελούμε τη SensEar.
+            Μια ομάδα αφοσιωμένη στο να αναβαθμίζει χώρους μέσα από ουσιαστική, αξέχαστη μουσική.
           </p>
           
           <div className="text-center mt-12 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
             <p className="text-lg max-w-3xl mx-auto text-black/80 mb-8">
-              See how we work with clients or contact us to discuss your project.
+              Δείτε πώς συνεργαζόμαστε με πελάτες ή επικοινωνήστε μαζί μας για το project σας.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <Link to={createPageUrl("case-studies")} aria-label="Music curation case studies">
                 <AnimatedButton className="w-full sm:w-auto">
-                  Read case studies
+                  Διαβάστε Παραδείγματα
                 </AnimatedButton>
               </Link>
               <Link to={createPageUrl("contact")}>
                 <AnimatedButton className="w-full sm:w-auto">
-                  Get in touch
+                  Επικοινωνήστε μαζί μας
                 </AnimatedButton>
               </Link>
             </div>
@@ -638,15 +639,15 @@ export default function AboutUs() {
 
       <section className="bg-[#faebe3] text-black py-24" aria-labelledby="differentiators-heading">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 id="differentiators-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center mb-4 animate-fade-in-up">What sets us apart</h2>
-          <p className="text-xl text-black/60 font-medium text-center mb-12 animate-fade-in-up">Four principles that guide everything we do</p>
+          <h2 id="differentiators-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center mb-4 animate-fade-in-up">Τι μας ξεχωρίζει</h2>
+          <p className="text-xl text-black/60 font-medium text-center mb-12 animate-fade-in-up">Τέσσερις αρχές που καθοδηγούν ό,τι κάνουμε</p>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image */}
             <div className="hidden lg:block">
               <img
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/df442a3bc_f12d13b47_IMG_20250722_165530.jpg"
-                alt="SensEar unique approach"
+                alt="Η μοναδική προσέγγιση της SensEar"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
             </div>
@@ -661,8 +662,8 @@ export default function AboutUs() {
                   <Lightbulb className="w-6 h-6 text-black" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-3 text-black">Branding music</h3>
-                  <p className="text-black/70">We translate your vision into music that feels natural and completely on-brand.</p>
+                  <h3 className="text-2xl font-bold mb-3 text-black">Μουσική ως branding</h3>
+                  <p className="text-black/70">Μεταφράζουμε το όραμά σας σε μουσική που ακούγεται φυσική και απόλυτα ταιριαστή στο brand.</p>
                 </div>
               </div>
             </article>
@@ -674,8 +675,8 @@ export default function AboutUs() {
                   <Building2 className="w-6 h-6 text-black" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-3 text-black">Covering all sectors</h3>
-                  <p className="text-black/70">Music designed to complete guest journeys in all spaces that value atmosphere.</p>
+                  <h3 className="text-2xl font-bold mb-3 text-black">Κάλυψη όλων των κλάδων</h3>
+                  <p className="text-black/70">Μουσική σχεδιασμένη για να ολοκληρώνει το ταξίδι του επισκέπτη σε κάθε χώρο που δίνει αξία στην ατμόσφαιρα.</p>
                 </div>
               </div>
             </article>
@@ -687,8 +688,8 @@ export default function AboutUs() {
                   <SlidersHorizontal className="w-6 h-6 text-black" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-3 text-black">Personalizing services</h3>
-                  <p className="text-black/70">Our approach adapts to your style, team & needs across multiple locations.</p>
+                  <h3 className="text-2xl font-bold mb-3 text-black">Προσαρμοσμένες υπηρεσίες</h3>
+                  <p className="text-black/70">Η προσέγγισή μας προσαρμόζεται στο στυλ, την ομάδα και τις ανάγκες σας, ακόμη και σε πολλαπλές τοποθεσίες.</p>
                 </div>
               </div>
             </article>
@@ -700,8 +701,8 @@ export default function AboutUs() {
                   <Heart className="w-6 h-6 text-black" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-3 text-black">Using music's unique powers</h3>
-                  <p className="text-black/70">We understand how music shifts moods, shapes spaces and connects people.</p>
+                  <h3 className="text-2xl font-bold mb-3 text-black">Η δύναμη της μουσικής</h3>
+                  <p className="text-black/70">Κατανοούμε πώς η μουσική αλλάζει τη διάθεση, διαμορφώνει χώρους και συνδέει ανθρώπους.</p>
                 </div>
               </div>
             </article>
@@ -715,19 +716,20 @@ export default function AboutUs() {
       {/* Final CTA */}
       <section className="py-20 animated-gradient">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Discover your sound path</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Ανακαλύψτε τη διαδρομή του ήχου σας</h2>
           <p className="text-xl text-black/60 mb-12 max-w-3xl mx-auto">
-            Explore further our unique approach through playlists curation or discover what we do for your sector.
+            Εξερευνήστε τη μοναδική μας προσέγγιση μέσα από τις Επιμελημένες playlists
+            ή δείτε τι κάνουμε για τον κλάδο σας.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <Link to={createPageUrl("signature-playlists")}>
               <AnimatedButton className="w-full sm:w-auto">
-                Signature playlists
+                Επιμελημένες playlists
               </AnimatedButton>
             </Link>
             <Link to={createPageUrl("Industries")}>
               <AnimatedButton className="w-full sm:w-auto">
-                Industries we serve
+                Κλάδοι που εξυπηρετούμε
               </AnimatedButton>
             </Link>
           </div>
