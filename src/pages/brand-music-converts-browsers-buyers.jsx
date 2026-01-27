@@ -22,41 +22,46 @@ export default function BrandMusicConvertsBrowsersBuyers() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "How brand-fit music converts browsers into buyers";
+    const pageTitle = "Πώς η μουσική που ταιριάζει στο brand μετατρέπει τους επισκέπτες σε πελάτες | SensEar";
+    const description = "Έρευνα βασισμένη σε δεδομένα δείχνει πώς η μουσική ευθυγραμμισμένη με το brand αυξάνει τις πωλήσεις κατά 9,1% σε χώρους φιλοξενίας.";
+    const pageUrl = 'https://sensear.music/brand-music-converts-browsers-buyers';
+    const imageUrl = 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ef99620ec_3dcbb42176ccd5762fc415dc0d74dd2d.jpg';
+    const publishedDate = '2021-01-20';
+
+    document.title = pageTitle;
     
-    const metaDescription = document.querySelector('meta[name="description"]');
-    const description = "Research-backed insights showing how brand-aligned music increases dwell time and lifts sales in hospitality and retail spaces.";
+    let metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content', description);
     } else {
-      const meta = document.createElement('meta');
-      meta.name = 'description';
-      meta.content = description;
-      document.head.appendChild(meta);
+      metaDescription = document.createElement('meta');
+      metaDescription.name = 'description';
+      metaDescription.content = description;
+      document.head.appendChild(metaDescription);
     }
 
     // Add locale and language meta tags
     const localeTag = document.querySelector('meta[property="og:locale"]');
     if (localeTag) {
-      localeTag.setAttribute('content', 'en_US');
+      localeTag.setAttribute('content', 'el_GR');
     } else {
       const meta = document.createElement('meta');
       meta.setAttribute('property', 'og:locale');
-      meta.content = 'en_US';
+      meta.content = 'el_GR';
       document.head.appendChild(meta);
     }
 
-    const languageTag = document.querySelector('meta[http-equiv="content-language"]');
+    let languageTag = document.querySelector('meta[http-equiv="content-language"]');
     if (languageTag) {
-      languageTag.setAttribute('content', 'en');
+      languageTag.setAttribute('content', 'el');
     } else {
-      const meta = document.createElement('meta');
-      meta.setAttribute('http-equiv', 'content-language');
-      meta.content = 'en';
-      document.head.appendChild(meta);
+      languageTag = document.createElement('meta');
+      languageTag.setAttribute('http-equiv', 'content-language');
+      languageTag.content = 'el';
+      document.head.appendChild(languageTag);
     }
 
-    document.documentElement.lang = 'en';
+    document.documentElement.lang = 'el';
 
     // Add robots meta tag - BLOG ARTICLE: index, follow
     let robotsMeta = document.querySelector('meta[name="robots"]');
@@ -69,7 +74,6 @@ export default function BrandMusicConvertsBrowsersBuyers() {
       document.head.appendChild(robotsMeta);
     }
 
-    // Add googlebot specific tag
     let googlebotMeta = document.querySelector('meta[name="googlebot"]');
     if (googlebotMeta) {
       googlebotMeta.setAttribute('content', 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
@@ -80,25 +84,24 @@ export default function BrandMusicConvertsBrowsersBuyers() {
       document.head.appendChild(googlebotMeta);
     }
 
-    // Add canonical link
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (canonicalLink) {
-      canonicalLink.setAttribute('href', 'https://sensear.music/brand-music-converts-browsers-buyers');
+      canonicalLink.setAttribute('href', pageUrl);
     } else {
       canonicalLink = document.createElement('link');
       canonicalLink.rel = 'canonical';
-      canonicalLink.href = 'https://sensear.music/brand-music-converts-browsers-buyers';
+      canonicalLink.href = pageUrl;
       document.head.appendChild(canonicalLink);
     }
 
     // Open Graph tags
     const ogTags = [
-      { property: 'og:title', content: 'How brand-fit music converts browsers into buyers' },
+      { property: 'og:title', content: pageTitle },
       { property: 'og:description', content: description },
-      { property: 'og:image', content: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ef99620ec_3dcbb42176ccd5762fc415dc0d74dd2d.jpg' },
-      { property: 'og:url', content: 'https://sensear.music/brand-music-converts-browsers-buyers' },
+      { property: 'og:image', content: imageUrl },
+      { property: 'og:url', content: pageUrl },
       { property: 'og:type', content: 'article' },
-      { property: 'article:published_time', content: '2021-01-20T09:00:00Z' },
+      { property: 'article:published_time', content: `${publishedDate}T09:00:00Z` },
       { property: 'article:author', content: 'Zoe Burnard' },
       { property: 'article:section', content: 'Research' }
     ];
@@ -118,9 +121,9 @@ export default function BrandMusicConvertsBrowsersBuyers() {
     // Twitter Card tags
     const twitterTags = [
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'How brand-fit music converts browsers into buyers' },
+      { name: 'twitter:title', content: pageTitle },
       { name: 'twitter:description', content: description },
-      { name: 'twitter:image', content: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ef99620ec_3dcbb42176ccd5762fc415dc0d74dd2d.jpg' }
+      { name: 'twitter:image', content: imageUrl }
     ];
 
     twitterTags.forEach(tag => {
@@ -151,9 +154,9 @@ export default function BrandMusicConvertsBrowsersBuyers() {
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "How brand-fit music converts browsers into buyers",
-        "description": "Research-backed insights showing how brand-aligned music increases dwell time and lifts sales in hospitality and retail spaces.",
-        "image": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/ef99620ec_3dcbb42176ccd5762fc415dc0d74dd2d.jpg",
+        "headline": "Πώς η μουσική που ταιριάζει στο brand μετατρέπει τους επισκέπτες σε πελάτες",
+        "description": description,
+        "image": imageUrl,
         "author": {
           "@type": "Person",
           "name": "Zoe Burnard"
@@ -166,8 +169,12 @@ export default function BrandMusicConvertsBrowsersBuyers() {
             "url": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg"
           }
         },
-        "datePublished": "2021-01-20",
-        "dateModified": "2021-01-20"
+        "datePublished": publishedDate,
+        "dateModified": publishedDate,
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": pageUrl
+        }
       },
       {
         "@context": "https://schema.org",
@@ -188,8 +195,8 @@ export default function BrandMusicConvertsBrowsersBuyers() {
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "How Brand-Fit Music Converts Browsers into Buyers",
-            "item": "https://sensear.music/brand-music-converts-browsers-buyers"
+            "name": "Πώς η μουσική που ταιριάζει στο brand μετατρέπει τους επισκέπτες σε πελάτες",
+            "item": pageUrl
           }
         ]
       }
@@ -205,7 +212,6 @@ export default function BrandMusicConvertsBrowsersBuyers() {
       document.head.appendChild(structuredDataScript);
     }
 
-    // Add scroll event listener for parallax
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -248,23 +254,23 @@ export default function BrandMusicConvertsBrowsersBuyers() {
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">How brand-fit music</span>
-                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">converts browsers into buyers</span>
+                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Πώς η μουσική που ταιριάζει στο brand</span>
+                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">μετατρέπει τους επισκέπτες σε πελάτες</span>
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2 mb-6">
-                Evidence-based research showing how brand-aligned music increases sales by 9.1% in hospitality venues.
+                Έρευνα βασισμένη σε δεδομένα δείχνει πώς η μουσική ευθυγραμμισμένη με το brand αυξάνει τις πωλήσεις κατά 9,1% σε χώρους φιλοξενίας.
               </p>
               <div className="flex items-center gap-6 text-sm text-black/60 slide-up-2">
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" aria-hidden="true" />
-                  <time dateTime="2021-01-20">January 20, 2021</time>
+                  <time dateTime="2021-01-20">20 Ιανουαρίου 2021</time>
                 </div>
                 <div className="flex items-center gap-2">
                   <User className="w-4 h-4" aria-hidden="true" />
                   <span>Zoe Burnard</span>
                 </div>
                 <div className="text-black/50">
-                  <span>6 min read</span>
+                  <span>6 λεπτά ανάγνωσης</span>
                 </div>
               </div>
             </div>
@@ -276,7 +282,7 @@ export default function BrandMusicConvertsBrowsersBuyers() {
                   <div className="relative aspect-square">
                     <img 
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/f0b3de4b5_gemini-25-flash-image_professional_photo_of_Upscale_this_image_carefully_keeping_the_natural_photo_sty-0.jpg" 
-                      alt="Restaurant ambiance demonstrating music's impact on customer sales and behavior" 
+                      alt="Ατμόσφαιρα εστιατορίου που αναδεικνύει τον αντίκτυπο της μουσικής στις πωλήσεις και τη συμπεριφορά των πελατών" 
                       className="w-full h-full object-cover" 
                     />
                   </div>
@@ -290,81 +296,78 @@ export default function BrandMusicConvertsBrowsersBuyers() {
       <div className="max-w-5xl mx-auto px-6 py-16">
         <Card className="bg-white p-8 md:p-12 shadow-lg mb-12">
           <div className="prose prose-lg max-w-none">
-            <h2 className="text-3xl font-bold text-black mt-0 mb-6">Sound is the fastest path to the brain, and the most underused lever in retail</h2>
+            <h2 className="text-3xl font-bold text-black mt-0 mb-6">Ο ήχος είναι ο πιο γρήγορος δρόμος προς τον εγκέφαλο και το πιο υποτιμημένο εργαλείο στο retail</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Walk into any bar, hotel, or restaurant and you'll feel the space before you read a single menu line: lighting, textures, layout. Yet the signal that hits your brain first is sound - an organizer for the rest of your senses - quietly steering attention, pace, and preference (<a href="https://www.jstor.org/stable/1252042" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Bitner's servicescape framework</a> situates music as a core ambient cue).
+              Μπαίνοντας σε ένα bar, ξενοδοχείο ή εστιατόριο, νιώθετε τον χώρο πριν διαβάσετε καν τον κατάλογο: φωτισμός, υφές, διάταξη. Όμως το πρώτο ερέθισμα που φτάνει στον εγκέφαλο είναι ο ήχος — ο συντονιστής όλων των υπόλοιπων αισθήσεων — που κατευθύνει διακριτικά την προσοχή, τον ρυθμό και τις επιλογές. Στο πλαίσιο του μοντέλου <a href="https://www.jstor.org/stable/1252042" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">servicescape της Bitner</a>, η μουσική αναγνωρίζεται ως βασικό στοιχείο της ατμόσφαιρας.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Beyond background noise: the evidence for brand-fit music</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Πέρα από τον «ήχο στο βάθος»: τα δεδομένα πίσω από τη μουσική που ταιριάζει στο brand</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Large-scale <a href="https://ideas.repec.org/p/hhs/huiwps/0121.html" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">field research</a> finally moved this question from hunch to hard numbers. In a multi-month experiment spanning 16 high-traffic <Link to={createPageUrl("music-for-restaurants-and-bars")} className="text-black underline hover:text-black/70 font-semibold">restaurants</Link>, playlists that matched the brand's personality outperformed random chart hits, lifting <a href="https://ideas.repec.org/p/hhs/huiwps/0121.html" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">revenues by ~9.1%</a>.
+              Μεγάλης κλίμακας <a href="https://ideas.repec.org/p/hhs/huiwps/0121.html" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">έρευνες πεδίου</a> μετέτρεψαν επιτέλους τη διαίσθηση σε μετρήσιμα αποτελέσματα. Σε πολυμήνα πείραμα σε 16 <Link to={createPageUrl("music-for-restaurants-and-bars")} className="text-black underline hover:text-black/70 font-semibold">εστιατόρια</Link> υψηλής επισκεψιμότητας, playlists ευθυγραμμισμένες με την προσωπικότητα του brand ξεπέρασαν τις τυχαίες δημοφιλείς επιλογές, αυξάνοντας τα <a href="https://ideas.repec.org/p/hhs/huiwps/0121.html" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">έσοδα κατά περίπου 9,1%</a>.
             </p>
 
             <p className="text-black/80 leading-relaxed mb-8">
-              Earlier work already hinted that music changes shopper behavior: <a href="https://music2biz.com/wp-content/uploads/2017/04/Using-Background-Music-to-Affect-the-Behavior-of-Supermarket-Shoppers.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">slow-tempo soundtracks</a> reduced <a href="https://music2biz.com/wp-content/uploads/2017/04/Using-Background-Music-to-Affect-the-Behavior-of-Supermarket-Shoppers.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">walking speed</a> and increased <a href="https://music2biz.com/wp-content/uploads/2017/04/Using-Background-Music-to-Affect-the-Behavior-of-Supermarket-Shoppers.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">supermarket sales</a>. And context-congruent music can even tilt category choice; French vs. German <a href="https://archive.org/download/wikipedia-scholarly-sources-corpus/10.1037%252F0002-9432.71.2.245.zip/10.1037%252F0021-9010.84.2.271.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">wine sales</a> swung with the nationality of the music.
+              Προηγούμενες μελέτες είχαν ήδη δείξει ότι η μουσική επηρεάζει τη συμπεριφορά: <a href="https://music2biz.com/wp-content/uploads/2017/04/Using-Background-Music-to-Affect-the-Behavior-of-Supermarket-Shoppers.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">αργός ρυθμός</a> μειώνει την <a href="https://music2biz.com/wp-content/uploads/2017/04/Using-Background-Music-to-Affect-the-Behavior-of-Supermarket-Shoppers.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">ταχύτητα κίνησης</a> και αυξάνει τις <a href="https://music2biz.com/wp-content/uploads/2017/04/Using-Background-Music-to-Affect-the-Behavior-of-Supermarket-Shoppers.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πωλήσεις στα σούπερ μάρκετ</a>, ενώ μουσική που ταιριάζει πολιτισμικά μπορεί να επηρεάσει ακόμη και την επιλογή προϊόντων, όπως στην περίπτωση <a href="https://archive.org/download/wikipedia-scholarly-sources-corpus/10.1037%252F0002-9432.71.2.245.zip/10.1037%252F0021-9010.84.2.271.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">γαλλικών και γερμανικών κρασιών</a>.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">What "brand-fit" actually means</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Τι σημαίνει πραγματικά «μουσική που ταιριάζει στο brand»</h2>
 
             <p className="text-black/80 leading-relaxed mb-8">
-              <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70 font-semibold">Brand fit music</Link> behaves like your interior palette, only for the ears: it reflects values, tone-of-voice, and desired pace, so the sound "feels" unmistakably like you. Customer fit - playing only what you think guests prefer - often dissolves into a beige mix that blurs distinctiveness, especially with diverse audiences.
+              Η <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70 font-semibold">μουσική που ταιριάζει στο brand</Link> λειτουργεί όπως η χρωματική παλέτα του χώρου — αλλά για τα αυτιά. Αντανακλά αξίες, ύφος και επιθυμητό ρυθμό, ώστε ο ήχος να «ακούγεται» ξεκάθαρα δικός σας. Αντίθετα, η προσέγγιση που βασίζεται μόνο στις υποτιθέμενες προτιμήσεις των πελατών συχνά οδηγεί σε μια άχρωμη μίξη χωρίς χαρακτήρα, ειδικά σε χώρους με ετερόκλητο κοινό.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Why this works: multisensory science, not marketing magic</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Γιατί λειτουργεί: πολυαισθητηριακή επιστήμη, όχι marketing τρικ</h2>
 
             <p className="text-black/80 leading-relaxed mb-8">
-              Sound doesn't operate in a silo; it cross-talks with taste, time perception, and arousal. Reviews in multisensory perception show that sonic cues can reshape <a href="https://ora.ox.ac.uk/objects/uuid%3Af7af7995-1ba5-4557-bdb1-782dd9185583/download_file?safe_filename=Spence-et-al-2021-Commercializing-sonic-seasoning.pdf&type_of_work=Journal+article" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">flavour experience</a> ("sonic seasoning") and the overall hospitality moment. This sits squarely inside <a href="https://eclass-demo.aueb.gr/modules/document/file.php/MISC418/Lecture5_Reading_Servicescapes.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">servicescape theory</a>, where <a href="https://eclass-demo.aueb.gr/modules/document/file.php/MISC418/Lecture5_Reading_Servicescapes.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">ambient conditions</a> (music, scent, temperature) shape both customer and staff outcomes.
+              Ο ήχος δεν λειτουργεί απομονωμένα. Αλληλεπιδρά με τη γεύση, την αντίληψη του χρόνου και το επίπεδο διέγερσης. Έρευνες στην πολυαισθητηριακή αντίληψη δείχνουν ότι τα ηχητικά ερεθίσματα μπορούν να αλλάξουν ακόμη και την <a href="https://ora.ox.ac.uk/objects/uuid%3Af7af7995-1ba5-4557-bdb1-782dd9185583/download_file?safe_filename=Spence-et-al-2021-Commercializing-sonic-seasoning.pdf&type_of_work=Journal+article" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">εμπειρία της γεύσης</a> (sonic seasoning), καθώς και τη συνολική εμπειρία φιλοξενίας. Όλα αυτά εντάσσονται στη θεωρία του <a href="https://eclass-demo.aueb.gr/modules/document/file.php/MISC418/Lecture5_Reading_Servicescapes.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">servicescape</a>, όπου οι <a href="https://eclass-demo.aueb.gr/modules/document/file.php/MISC418/Lecture5_Reading_Servicescapes.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">περιβαλλοντικοί παράγοντες</a> (μουσική, άρωμα, θερμοκρασία) επηρεάζουν τόσο τους πελάτες όσο και το προσωπικό.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">What the data says in plain numbers</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Τι δείχνουν τα δεδομένα, με απλά λόγια</h2>
 
             <p className="text-black/80 leading-relaxed mb-4">
-              Brand-fit playlists beat random popular tracks, driving a <a href="https://ideas.repec.org/p/hhs/huiwps/0121.html" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">~9.1% sales lift</a> in a real-world restaurant chain.
+              • Playlists που ταιριάζουν στο brand ξεπερνούν τυχαία δημοφιλή κομμάτια, αυξάνοντας τις <a href="https://ideas.repec.org/p/hhs/huiwps/0121.html" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πωλήσεις κατά περίπου 9,1%</a>.
             </p>
 
             <p className="text-black/80 leading-relaxed mb-4">
-              Blending recognizable and lesser-known tracks - so long as both fit the brand - further improves results by avoiding listener fatigue while preserving identity.
+              • Ο συνδυασμός αναγνωρίσιμων και λιγότερο γνωστών κομματιών, όταν ευθυγραμμίζονται με το brand, μειώνει την κόπωση και διατηρεί την ταυτότητα.
             </p>
 
             <p className="text-black/80 leading-relaxed mb-8">
-              Tempo and congruency matter: <a href="https://music2biz.com/wp-content/uploads/2017/04/Using-Background-Music-to-Affect-the-Behavior-of-Supermarket-Shoppers.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">slower music</a> can increase dwell and basket size; culturally congruent music can nudge <a href="https://archive.org/download/wikipedia-scholarly-sources-corpus/10.1037%252F0002-9432.71.2.245.zip/10.1037%252F0021-9010.84.2.271.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">category selection</a>.
+              • Ο ρυθμός και η πολιτισμική συνάφεια έχουν σημασία: <a href="https://music2biz.com/wp-content/uploads/2017/04/Using-Background-Music-to-Affect-the-Behavior-of-Supermarket-Shoppers.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πιο αργή μουσική</a> αυξάνει τον χρόνο παραμονής και το καλάθι αγορών, ενώ η πολιτισμικά ταιριαστή μουσική επηρεάζει τις <a href="https://archive.org/download/wikipedia-scholarly-sources-corpus/10.1037%252F0002-9432.71.2.245.zip/10.1037%252F0021-9010.84.2.271.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">επιλογές</a>.
             </p>
 
             <div className="bg-black/5 p-8 rounded-lg my-10">
-              <h2 className="text-3xl font-bold text-black mb-6 text-center">The SensEar playbook: from soundcheck to sales impact</h2>
+              <h2 className="text-3xl font-bold text-black mb-6 text-center">Το playbook της SensEar: από τον ήχο στις μετρήσιμες πωλήσεις</h2>
               <ol className="space-y-4 text-black/80">
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">1.</span>
-                  <span><strong>Brand audio DNA</strong> - We translate your values and visual identity into audio attributes (tempo, timbre, energy, cultural cues).</span>
+                  <span><strong>Ηχητικό DNA του brand</strong> - Μεταφράζουμε αξίες και οπτική ταυτότητα σε ηχητικά χαρακτηριστικά: ρυθμό, υφή, ενέργεια και πολιτισμικές αναφορές.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">2.</span>
-                  <span><strong>Adaptive, brand-fit playlists</strong> - Dynamic programming that blends popular and emerging tracks while staying on-voice, hour-by-hour.</span>
+                  <span><strong>Προσαρμοσμένες playlists με ταυτότητα</strong> - Δυναμικός προγραμματισμός που συνδυάζει γνωστά και ανερχόμενα κομμάτια, με συνέπεια ώρα με την ώρα.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">3.</span>
-                  <span><strong>Zonal soundscapes</strong> - Different spaces, different intents: entrance, bar, dining, restrooms - each with a role in the journey.</span>
+                  <span><strong>Ηχητικά τοπία ανά ζώνη</strong> - Διαφορετικοί χώροι, διαφορετικοί ρόλοι: είσοδος, bar, σάλα, τουαλέτες — όλα ενταγμένα στο ταξίδι του επισκέπτη.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">4.</span>
-                  <span><strong>Licensing & compliance</strong> - We handle rights so you stay protected while sounding premium.</span>
+                  <span><strong>Αδειοδότηση & συμμόρφωση</strong> - Διαχειριζόμαστε τα δικαιώματα ώστε ο ήχος να είναι premium και απολύτως νόμιμος.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-black font-bold">5.</span>
-                  <span><strong>A/B & attribution</strong> - We correlate playlist variants with traffic, dwell, attachment, and category mix, not just "vibes."</span>
+                  <span><strong>A/B δοκιμές & συσχέτιση αποτελεσμάτων</strong> - Συνδέουμε παραλλαγές playlists με επισκεψιμότητα, χρόνο παραμονής και επιλογές προϊόντων — όχι απλώς με «αίσθηση».</span>
                 </li>
               </ol>
-              <p className="text-black/70 text-sm mt-6 text-center">
-                (This approach aligns with the field-experimental evidence on brand-music congruence and servicescape outcomes)
-              </p>
             </div>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Ready to hear the difference?</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Έτοιμοι να ακούσετε τη διαφορά;</h2>
 
             <p className="text-black/80 leading-relaxed">
-              If you're running a <Link to={createPageUrl("music-for-restaurants-and-bars")} className="text-black underline hover:text-black/70 font-semibold">bar</Link>, <Link to={createPageUrl("music-for-hotels-and-resorts")} className="text-black underline hover:text-black/70 font-semibold">hotel</Link>, or <Link to={createPageUrl("music-for-restaurants-and-bars")} className="text-black underline hover:text-black/70 font-semibold">restaurant</Link> and want measurable uplift, not just ambience, SensEar can design and operate your <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70 font-semibold">brand-fit music system</Link> end-to-end. Book a 20-minute <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70 font-semibold">sound audit</Link> and get a custom audio DNA with quick-win recommendations for your venue today.
+              Αν διαχειρίζεστε <Link to={createPageUrl("music-for-restaurants-and-bars")} className="text-black underline hover:text-black/70 font-semibold">bar</Link>, <Link to={createPageUrl("music-for-hotels-and-resorts")} className="text-black underline hover:text-black/70 font-semibold">ξενοδοχείο</Link> ή <Link to={createPageUrl("music-for-restaurants-and-bars")} className="text-black underline hover:text-black/70 font-semibold">εστιατόριο</Link> και θέλετε μετρήσιμα αποτελέσματα, όχι απλώς ατμόσφαιρα, η SensEar μπορεί να σχεδιάσει και να υλοποιήσει το <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70 font-semibold">σύστημα μουσικής</Link> του brand σας από άκρη σε άκρη. Κλείστε έναν 20λεπτο <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70 font-semibold">ηχητικό έλεγχο</Link> και λάβετε το δικό σας ηχητικό DNA με άμεσες, πρακτικές προτάσεις.
             </p>
           </div>
         </Card>
@@ -373,12 +376,12 @@ export default function BrandMusicConvertsBrowsersBuyers() {
           <Link to={createPageUrl("Blog")}>
             <Button variant="outline" className="bg-transparent border-black text-black hover:bg-black hover:text-white">
               <ArrowLeft className="w-4 h-4 mr-2" />
-              Back to Blog
+              Πίσω στο Blog
             </Button>
           </Link>
           <Link to={createPageUrl("contact")}>
             <AnimatedButton>
-              Discover our music curation services
+              Ανακαλύψτε τις υπηρεσίες μουσικής επιμέλειας μας
             </AnimatedButton>
           </Link>
         </div>
