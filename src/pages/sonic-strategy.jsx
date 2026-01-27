@@ -21,7 +21,7 @@ export default function SonicStrategy() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Sonic Strategy & Audio Branding | SensEar";
+    document.title = "Σχεδιασμός ηχητικής ταυτότητας | SensEar";
 
     const metaDescription = document.querySelector('meta[name="description"]');
     const description = "Develop your brand's sonic identity. Strategic audio branding and sound design that defines how your brand should feel and be remembered.";
@@ -227,11 +227,11 @@ export default function SonicStrategy() {
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Sonic Strategy:</span>
-                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">Defining how your brand sounds.</span>
+                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Ηχητική ταυτότητα:</span>
+                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">Σχεδιάζουμε το πώς ακούγεται το brand σας</span>
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                A practical audio blueprint that keeps your label distinct & consistent.
+                Ένα πρακτικό ηχητικό πλαίσιο που κρατά τη μουσική που χρησιμοποιεί το brand σας διακριτό και συνεπές.
               </p>
             </div>
 
@@ -258,15 +258,15 @@ export default function SonicStrategy() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
             <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-12">
-              Sonic action plan<br />for consistent brand identity
+              Ηχητικό πλάνο δράσης<br />για σταθερή ταυτότητα brand
             </h2>
             
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                We translate your brand vision into a <strong><em>practical audio guide</em></strong> that works for <strong><em>every space & channel</em></strong>.
+                Μεταφράζουμε το όραμα του brand σας σε έναν <strong><em>πρακτικό οδηγό ήχου</em></strong> που λειτουργεί σε κάθε χώρο και κανάλι.
               </p>
               <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                Your firm gains a <strong><em>clear sonic identity</em></strong>, consistent across <strong><em>spaces</em></strong>, <strong><em>social media</em></strong> & <strong><em>ads</em></strong>.
+                Το brand σας αποκτά ξεκάθαρη <strong><em>ηχητική ταυτότητα</em></strong>, συνεπή σε χώρους, social media και διαφημίσεις.
               </p>
             </div>
           </div>
@@ -276,8 +276,7 @@ export default function SonicStrategy() {
       {/* What we do */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-4 text-black text-center">What we do</h2>
-          <p className="text-xl text-black/60 font-medium text-center mb-12">Brand audio strategy and implementation</p>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Τι προσφέρουμε</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image - kept from previous "What you get" */}
@@ -292,23 +291,23 @@ export default function SonicStrategy() {
             {/* Right: Content */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Sonic DNA workshop</h3>
-                <p className="text-lg text-black/70">Guided session exploring brand values, guest profiles, and emotional targets through mood boards and reference tracks.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Κατάρτιση ηχητικού DNA</h3>
+                <p className="text-lg text-black/70">Μαθαίνουμε τις αξίες του brand σας, το προφίλ των επισκεπτών και τους συναισθηματικούς σας στόχους, με mood boards και μουσικές αναφορές.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Space and journey map</h3>
-                <p className="text-lg text-black/70">Clear plan for how each space and time of day should sound, supporting arrivals, service flow, and key touchpoints.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Χάρτης χώρων & διαδρομών</h3>
+                <p className="text-lg text-black/70">Σαφές πλάνο για το πώς πρέπει να «ακούγεται» κάθε χώρος και στιγμή της ημέρας.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Guidelines for teams</h3>
-                <p className="text-lg text-black/70">Concise sonic framework that keeps music choices on brand across internal teams, agencies, and partners.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Οδηγίες για ομάδες</h3>
+                <p className="text-lg text-black/70">Συνοπτικό πλαίσιο που κρατά τις μουσικές επιλογές συνεπείς στο προσωπικό, τους συνεργάτες και το τμήμα marketing σας.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Implementation roadmap</h3>
-                <p className="text-lg text-black/70">Practical path from current sound to new identity, aligned with your brand calendar and rollout timeline.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Χρονοδιάγραμμα υλοποίησης</h3>
+                <p className="text-lg text-black/70">Ρεαλιστική μετάβαση από τον υπάρχοντα ήχο στη νέα ταυτότητα, ευθυγραμμισμένη με το ημερολόγιο σας.</p>
               </div>
             </div>
           </div>
@@ -318,31 +317,31 @@ export default function SonicStrategy() {
       {/* Perfect for */}
       <section className="py-20" style={{ backgroundImage: "linear-gradient(to top, #ffffff 0%, rgba(255,255,255,0) 15%), url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Perfect for</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Ιδανικό για</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Content */}
             <div>
               <ul className="space-y-8 text-lg text-black/70">
                 <li className="block">
-                  <Link to={createPageUrl("music-for-hotels-and-resorts")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Hotels & Resorts">Hotel & Resort groups</Link>
-                  <span>needing one recognizable sound across properties.</span>
+                  <Link to={createPageUrl("music-for-hotels-and-resorts")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Hotels & Resorts">Ξενοδοχειακούς ομίλους</Link>
+                  <span>Ενιαία ηχητική ταυτότητα σε πολλαπλές μονάδες.</span>
                 </li>
                 <li className="block">
-                  <span className="block mb-1"><Link to={createPageUrl("music-for-restaurants-and-bars")} className="underline hover:text-black font-semibold text-2xl" aria-label="Music for Restaurants & Bars">Restaurant, Bar</Link> <span className="text-2xl">&</span> <Link to={createPageUrl("music-for-retail-stores")} className="underline hover:text-black font-semibold text-2xl" aria-label="Music for Retail Stores">Retail brands</Link></span>
-                  <span>growing, rebranding, or opening new locations.</span>
+                  <span className="block mb-1"><Link to={createPageUrl("music-for-restaurants-and-bars")} className="underline hover:text-black font-semibold text-2xl" aria-label="Music for Restaurants & Bars">Εστιατόρια, Bar</Link> <span className="text-2xl">&</span> <Link to={createPageUrl("music-for-retail-stores")} className="underline hover:text-black font-semibold text-2xl" aria-label="Music for Retail Stores">Retail brands</Link></span>
+                  <span>Ανάπτυξη, επανατοποθέτηση ή άνοιγμα νέων χώρων.</span>
                 </li>
                 <li className="block">
-                  <span className="block mb-1"><Link to={createPageUrl("music-for-wellness-and-gyms")} className="underline hover:text-black font-semibold text-2xl" aria-label="Music for Wellness & Gyms">Wellness</Link> <span className="text-2xl">&</span> <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="underline hover:text-black font-semibold text-2xl" aria-label="Music for Art, Museums & Fashion">Cultural spaces</Link></span>
-                  <span>wanting a defined sonic personality.</span>
+                  <span className="block mb-1"><Link to={createPageUrl("music-for-wellness-and-gyms")} className="underline hover:text-black font-semibold text-2xl" aria-label="Music for Wellness & Gyms">Χώρους ευεξίας</Link> <span className="text-2xl">&</span> <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="underline hover:text-black font-semibold text-2xl" aria-label="Music for Art, Museums & Fashion">πολιτισμού</Link></span>
+                  <span>Καθορισμένη ηχητική προσωπικότητα.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Art, Museums & Fashion">Fashion & Lifestyle brands</Link>
-                  <span>with strong visual identity but undefined sound.</span>
+                  <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Art, Museums & Fashion">Brands μόδας & lifestyle</Link>
+                  <span>Ισχυρή οπτική ταυτότητα με ξεκάθαρο ήχο.</span>
                 </li>
                 <li className="block">
                   <span className="font-semibold text-2xl block mb-1 text-black">Marketing agencies</span>
-                  <span>with brand vision but no in-house audio expertise.</span>
+                  <span>Brand στρατηγική χωρίς in-house audio expertise.</span>
                 </li>
               </ul>
             </div>
@@ -362,7 +361,7 @@ export default function SonicStrategy() {
       {/* Strategically defined identity */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Strategically defined identity</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Ταυτότητα με ξεκάθαρους στόχους</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image - kept from previous "How it works" */}
@@ -377,8 +376,8 @@ export default function SonicStrategy() {
             {/* Right: Content */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Coherent, but also flexible</h3>
-                <p className="text-lg text-black/70">Your brand sounds recognizable at all locations & media while respecting what makes each space unique.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Συνεκτική αλλά ευέλικτη ταυτότητα</h3>
+                <p className="text-lg text-black/70">Το brand σας ακούγεται αναγνωρίσιμο παντού, σεβόμενο παράλληλα τη μοναδικότητα κάθε χώρου.</p>
               </div>
             </div>
           </div>
@@ -388,19 +387,19 @@ export default function SonicStrategy() {
       {/* Final CTA */}
       <section className="py-20" style={{ backgroundImage: "linear-gradient(to bottom, #faebe3 0%, rgba(250, 235, 227, 0) 15%), url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Let us define your brand's sonic identity</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Ας ορίσουμε την ηχητική ταυτότητα του brand σας</h2>
           <p className="text-xl text-black/70 mb-8 max-w-3xl mx-auto">
-            Require a sound strategy as considered as your design?
+            Χρειάζεστε στρατηγική ήχου με την ίδια προσοχή που δίνετε στον σχεδιασμό;
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link to={createPageUrl("contact")}>
               <AnimatedButton className="w-full sm:w-auto" aria-label="Start your sonic strategy">
-                Start your sonic strategy
+                Ξεκινήστε τον σχεδιασμό ηχητικής ταυτότητας
               </AnimatedButton>
             </Link>
           </div>
           <p className="text-black/70 mt-8">
-            Explore how our <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">Signature Playlists</Link> & <Link to={createPageUrl("audio-upgrades")} className="underline hover:text-black font-semibold">Audio Upgrades</Link> bring your strategy to life.
+            Δείτε πώς οι <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">Επιμελημένες playlists</Link> και η <Link to={createPageUrl("audio-upgrades")} className="underline hover:text-black font-semibold">Ακουστική αναβάθμιση</Link> ζωντανεύουν τη στρατηγική σας.
           </p>
         </div>
       </section>
