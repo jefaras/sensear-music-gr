@@ -22,8 +22,8 @@ export default function HowTopHospitalityBrandsDesignSound() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    const pageTitle = "How top hospitality brands design their sound on purpose | SensEar";
-    const description = "How leading hospitality brands use strategic music curation and sonic branding to shape guest experience, memory, and brand identity.";
+    const pageTitle = "Πώς τα κορυφαία brands φιλοξενίας σχεδιάζουν τον ήχο τους με πρόθεση | SensEar";
+    const description = "Ανακαλύψτε πώς luxury brands φιλοξενίας αξιοποιούν τη στρατηγική μουσική επιμέλεια και το sonic branding για να δημιουργούν διακριτές εμπειρίες επισκεπτών.";
     const pageUrl = 'https://sensear.music/how-top-hospitality-brands-design-sound';
     const imageUrl = 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/0109106f5_HowTopHospitalityBrandsDesignTheirSoundOnPurpose.png';
     const publishedDate = '2025-01-12';
@@ -42,25 +42,25 @@ export default function HowTopHospitalityBrandsDesignSound() {
 
     const localeTag = document.querySelector('meta[property="og:locale"]');
     if (localeTag) {
-      localeTag.setAttribute('content', 'en_US');
+      localeTag.setAttribute('content', 'el_GR');
     } else {
       const meta = document.createElement('meta');
       meta.setAttribute('property', 'og:locale');
-      meta.content = 'en_US';
+      meta.content = 'el_GR';
       document.head.appendChild(meta);
     }
 
     const languageTag = document.querySelector('meta[http-equiv="content-language"]');
     if (languageTag) {
-      languageTag.setAttribute('content', 'en');
+      languageTag.setAttribute('content', 'el');
     } else {
       const meta = document.createElement('meta');
       meta.setAttribute('http-equiv', 'content-language');
-      meta.content = 'en';
+      meta.content = 'el';
       document.head.appendChild(meta);
     }
 
-    document.documentElement.lang = 'en';
+    document.documentElement.lang = 'el';
 
     let robotsMeta = document.querySelector('meta[name="robots"]');
     if (robotsMeta) {
@@ -149,7 +149,7 @@ export default function HowTopHospitalityBrandsDesignSound() {
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "How top hospitality brands design their sound on purpose",
+        "headline": "Πώς τα κορυφαία brands φιλοξενίας σχεδιάζουν τον ήχο τους με πρόθεση",
         "description": description,
         "image": imageUrl,
         "author": {
@@ -190,7 +190,7 @@ export default function HowTopHospitalityBrandsDesignSound() {
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "How top hospitality brands design their sound on purpose",
+            "name": "Πώς τα κορυφαία brands φιλοξενίας σχεδιάζουν τον ήχο τους με πρόθεση",
             "item": pageUrl
           }
         ]
@@ -242,29 +242,29 @@ export default function HowTopHospitalityBrandsDesignSound() {
         }
       `}</style>
       {/* Hero Section - Two Column Layout */}
-      <section className="relative pt-32 pb-32 min-h-[90vh] flex flex-col justify-center overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="How top hospitality brands design their sound on purpose">
+      <section className="relative pt-32 pb-32 min-h-[90vh] flex flex-col justify-center overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Πώς τα κορυφαία brands φιλοξενίας σχεδιάζουν τον ήχο τους με πρόθεση">
         <div className="w-full px-6 md:px-12 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">How top hospitality brands</span>
-                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">design their sound on purpose</span>
+                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Πώς τα κορυφαία brands φιλοξενίας</span>
+                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">σχεδιάζουν τον ήχο τους με πρόθεση</span>
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2 mb-6">
-                Learn how luxury hospitality brands use strategic music curation and sonic branding to create distinctive customer experiences.
+                Ανακαλύψτε πώς luxury brands φιλοξενίας αξιοποιούν τη στρατηγική μουσική επιμέλεια και το sonic branding για να δημιουργούν διακριτές εμπειρίες επισκεπτών.
               </p>
               <div className="flex items-center gap-6 text-sm text-black/60 slide-up-2">
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" aria-hidden="true" />
-                  <time dateTime="2025-01-12">January 12, 2025</time>
+                  <time dateTime="2025-01-12">12 Ιανουαρίου 2025</time>
                 </div>
                 <div className="flex items-center gap-2">
                   <User className="w-4 h-4" aria-hidden="true" />
-                  <span>SensEar Team</span>
+                  <span>Ομάδα SensEar</span>
                 </div>
                 <div className="text-black/50">
-                  <span>7 min read</span>
+                  <span>7 λεπτά ανάγνωσης</span>
                 </div>
               </div>
             </div>
@@ -290,113 +290,116 @@ export default function HowTopHospitalityBrandsDesignSound() {
       <div className="max-w-5xl mx-auto px-6 py-16">
         <Card className="bg-white p-8 md:p-12 shadow-lg mb-12">
           <div className="prose prose-lg max-w-none">
-            <h2 className="text-3xl font-bold text-black mt-0 mb-6">Luxury and lifestyle hotels are not leaving music to chance</h2>
+            <h2 className="text-3xl font-bold text-black mt-0 mb-6">Τα luxury και lifestyle ξενοδοχεία δεν αφήνουν τη μουσική στην τύχη.</h2>
             <p className="text-xl text-black/80 leading-relaxed mb-8">
-              They treat sound as part of the brand system: researched, tested, and iterated to steer mood, memory, and spend.
+              Αντιμετωπίζουν τον ήχο ως μέρος του brand system: με έρευνα, δοκιμές και συνεχή εξέλιξη, ώστε να επηρεάζουν τη διάθεση, τη μνήμη και τη συμπεριφορά των επισκεπτών.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Eight examples to learn from</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Οκτώ παραδείγματα που αξίζει να μελετήσετε</h2>
 
             <h3 className="text-2xl font-bold text-black mt-8 mb-4">W Hotels</h3>
             <p className="text-black/80 leading-relaxed mb-6">
-              Music is baked into the brand, from artist partnerships to purpose-built recording spaces like the W Sound Suite that hosts <a href="https://w-hotels.marriott.com/article/behind-the-dj-booth-with-uner/" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">sessions and programming</a> in select properties.
+              Η μουσική είναι ενσωματωμένη στο brand, από συνεργασίες με καλλιτέχνες έως ειδικά διαμορφωμένους χώρους όπως το W Sound Suite, που φιλοξενεί <a href="https://w-hotels.marriott.com/article/behind-the-dj-booth-with-uner/" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">sessions και προγραμματισμό</a> σε επιλεγμένα ξενοδοχεία.
             </p>
 
             <h3 className="text-2xl font-bold text-black mt-8 mb-4">Soho House</h3>
             <p className="text-black/80 leading-relaxed mb-6">
-              In-house music leads curate evolving playlists that mirror the look and feel of each House and its dayparts, and <a href="https://www.sohohouse.com/house-notes/issue-4/dom-chung-soho-house-playlist" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">distribute them across major platforms</a> so members can take the sound anywhere.
+              Εσωτερικές ομάδες μουσικής επιμέλειας δημιουργούν playlists που εξελίσσονται μέσα στη μέρα και αντικατοπτρίζουν τον χαρακτήρα κάθε House. <a href="https://www.sohohouse.com/house-notes/issue-4/dom-chung-soho-house-playlist" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Οι playlists διατίθενται και online</a>, ώστε τα μέλη να «παίρνουν τον ήχο μαζί τους».
             </p>
 
             <h3 className="text-2xl font-bold text-black mt-8 mb-4">The Standard Hotels</h3>
             <p className="text-black/80 leading-relaxed mb-6">
-              For 25 years the group has treated music as part of the stay, recently archiving that approach with <a href="https://www.standardhotels.com/culture/the-standard-soundtrack" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">"The Standard Soundtrack"</a>, a series that captures the brand's sonic point of view year by year.
+              Εδώ και 25 χρόνια αντιμετωπίζουν τη μουσική ως αναπόσπαστο κομμάτι της διαμονής. Πρόσφατα κατέγραψαν αυτή τη φιλοσοφία στο <a href="https://www.standardhotels.com/culture/the-standard-soundtrack" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">The Standard Soundtrack</a>, μια σειρά που αποτυπώνει τη μουσική ταυτότητα του brand ανά έτος.
             </p>
 
             <h3 className="text-2xl font-bold text-black mt-8 mb-4">Ace Hotel</h3>
             <p className="text-black/80 leading-relaxed mb-6">
-              A long-running music culture shows up in label collabs, live sessions, and branded streams that <a href="https://www.cntraveler.com/stories/2015-09-10/ace-hotel-cranks-the-cool-up-to-11-with-vinyl" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">extend the property vibe</a> beyond the lobby.
+              Μια μακροχρόνια μουσική κουλτούρα εκφράζεται μέσα από συνεργασίες με labels, live sessions και branded streams που <a href="https://www.cntraveler.com/stories/2015-09-10/ace-hotel-cranks-the-cool-up-to-11-with-vinyl" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">επεκτείνουν την εμπειρία</a> πέρα από το lobby.
             </p>
 
-            <h3 className="text-2xl font-bold text-black mt-8 mb-4">Rosewood Hotels (Scarfes Bar, London)</h3>
+            <h3 className="text-2xl font-bold text-black mt-8 mb-4">Rosewood Hotels (Scarfes Bar, Λονδίνο)</h3>
             <p className="text-black/80 leading-relaxed mb-6">
-              Partnered with specialist agency Music Concierge to craft venue-specific soundtracks; Scarfes Bar is widely cited for atmosphere and live jazz programming that <a href="https://www.musicconcierge.co.uk/case-study/rosewood/" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">anchors the bar's identity</a>.
+              Σε συνεργασία με εξειδικευμένο agency μουσικής επιμέλειας, δημιούργησαν venue-specific soundtracks. Το Scarfes Bar αναφέρεται συχνά ως σημείο αναφοράς για την ατμόσφαιρα και το live jazz πρόγραμμα που <a href="https://www.musicconcierge.co.uk/case-study/rosewood/" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">ορίζει την ταυτότητά του</a>.
             </p>
 
             <h3 className="text-2xl font-bold text-black mt-8 mb-4">25hours Hotels</h3>
             <p className="text-black/80 leading-relaxed mb-6">
-              Publishes <a href="https://open.spotify.com/playlist/2GYyzEKnynSVi5eO2f6eGL" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">"25hours Music DNA,"</a> a living playlist identity that aligns the brand's playful personality across properties.
+              Δημοσιεύουν το <a href="https://open.spotify.com/playlist/2GYyzEKnynSVi5eO2f6eGL" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">25hours Music DNA</a>, μια ζωντανή μουσική ταυτότητα που ευθυγραμμίζει τον παιχνιδιάρικο χαρακτήρα του brand σε όλα τα ξενοδοχεία.
             </p>
 
             <h3 className="text-2xl font-bold text-black mt-8 mb-4">EDITION Hotels</h3>
             <p className="text-black/80 leading-relaxed mb-6">
-              Maintains branded mixes and sets on official channels, reflecting a curated, contemporary point of view that tracks with the brand's cultural positioning. Check their <a href="https://soundcloud.com/editionhotels" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">public mixtapes</a> on SoundCloud.
+              Διατηρούν <a href="https://soundcloud.com/editionhotels" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">branded μουσικά mixes</a> στα επίσημα κανάλια τους, αποτυπώνοντας μια σύγχρονη, επιμελημένη αισθητική που συνδέεται άμεσα με τη συνολική τοποθέτηση του brand.
             </p>
 
             <h3 className="text-2xl font-bold text-black mt-8 mb-4">Mama Shelter</h3>
             <p className="text-black/80 leading-relaxed mb-8">
-              Regular DJ programming and <a href="https://www.mixcloud.com/mamashelter/playlists/mama-loves-music/" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">public mixtapes</a> keep energy calibrated to each location's vibe while showcasing resident talent.
+              Σταθερό DJ programming και <a href="https://www.mixcloud.com/mamashelter/playlists/mama-loves-music/" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">δημόσιες playlists</a> κρατούν την ενέργεια ρυθμισμένη σε κάθε τοποθεσία, ενώ παράλληλα αναδεικνύουν τοπικούς DJs.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Two more to watch</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Δύο ακόμη brands που αξίζει να παρακολουθείτε</h2>
 
             <h3 className="text-2xl font-bold text-black mt-8 mb-4">Virgin Hotels</h3>
             <p className="text-black/80 leading-relaxed mb-6">
-              Runs ongoing music initiatives and publishes <a href="https://virginhotels.com/hearthis/" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">official playlists</a>, often tailoring selections to each city and venue, with third-party curation support at the portfolio level.
+              Αναπτύσσουν συνεχή μουσικά initiatives και δημοσιεύουν <a href="https://virginhotels.com/hearthis/" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">επίσημες playlists</a>, προσαρμόζοντας τον ήχο σε κάθε πόλη και χώρο.
             </p>
 
             <h3 className="text-2xl font-bold text-black mt-8 mb-4">Moxy Hotels</h3>
             <p className="text-black/80 leading-relaxed mb-8">
-              Uses public, <a href="https://open.spotify.com/playlist/18e07cRHXIDILrMizuN3Ye" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">branded playlists</a> to express a youthful, high-energy identity that syncs with the social lobby concept.
+              Χρησιμοποιούν <a href="https://open.spotify.com/playlist/18e07cRHXIDILrMizuN3Ye" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">δημόσιες branded playlists</a> για να εκφράσουν μια νεανική, υψηλής ενέργειας ταυτότητα, σε απόλυτη ευθυγράμμιση με το social lobby concept.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">What leaders do differently</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Τι κάνουν διαφορετικά οι leaders</h2>
 
             <ul className="space-y-4 text-black/80 mb-8">
               <li className="flex items-start gap-3">
                 <span className="text-black font-bold mt-1">•</span>
-                <span><strong>They treat sound like design.</strong> Music has guidelines, ownership, and a roadmap, just like interiors and scent.</span>
+                <span><strong>Αντιμετωπίζουν τον ήχο όπως τον σχεδιασμό.</strong> Ο ήχος έχει κατευθυντήριες γραμμές, υπευθυνότητα και roadmap, όπως τα interiors ή το scent design.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-black font-bold mt-1">•</span>
-                <span><strong>They program by context.</strong> Dayparts, zones, and guest profiles drive tempo, energy, and genre choices.</span>
+                <span><strong>Προγραμματίζουν με βάση το πλαίσιο.</strong> Ώρες ημέρας, ζώνες και προφίλ επισκεπτών καθορίζουν tempo, ενέργεια και είδη.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-black font-bold mt-1">•</span>
-                <span><strong>They combine human taste with data.</strong> Curators "read the room," then validate with dwell, sales, and feedback.</span>
+                <span><strong>Συνδυάζουν ανθρώπινη αισθητική με δεδομένα.</strong> Οι curators «διαβάζουν τον χώρο» και επιβεβαιώνουν επιλογές με στοιχεία παραμονής, πωλήσεων και feedback.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-black font-bold mt-1">•</span>
-                <span><strong>They publish and extend.</strong> Playlists and recordings travel beyond the property, reinforcing memory and brand stickiness.</span>
+                <span><strong>Επεκτείνουν τον ήχο πέρα από τον χώρο.</strong> Playlists και ηχογραφήσεις ταξιδεύουν εκτός ξενοδοχείου, ενισχύοντας τη μνήμη και τη σύνδεση με το brand.</span>
               </li>
             </ul>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">How to apply this to your property</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Πώς να το εφαρμόσετε στον δικό σας χώρο</h2>
 
             <ol className="space-y-4 text-black/80 mb-8">
               <li className="flex items-start gap-3">
                 <span className="text-black font-bold">1.</span>
-                <span><strong>Define the brief.</strong> Space types, dayparts, guest profiles, and brand attributes.</span>
+                <span><strong>Ορίστε το brief.</strong> Τύποι χώρων, ώρες ημέρας, προφίλ επισκεπτών και χαρακτηριστικά brand.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-black font-bold">2.</span>
-                <span><strong>Build the library.</strong> Curated crates that cover your experience map, including seasonal and event-based sets.</span>
+                <span><strong>Δημιουργήστε τη μουσική βιβλιοθήκη.</strong> Επιμελημένα σύνολα που καλύπτουν όλη την εμπειρία, με εποχικές και event-based επιλογές.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-black font-bold">3.</span>
-                <span><strong>Pilot and measure.</strong> Test in-venue, track dwell and spend where appropriate, and gather staff feedback.</span>
+                <span><strong>Δοκιμάστε και μετρήστε.</strong> Εφαρμογή στον χώρο, παρακολούθηση συμπεριφοράς και συλλογή feedback από την ομάδα.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-black font-bold">4.</span>
-                <span><strong>Maintain freshness.</strong> Monthly trims and adds keep relevance high and repeat visits rewarding.</span>
+                <span><strong>Διατηρήστε τη φρεσκάδα.</strong> Τακτικές ανανεώσεις κρατούν τον ήχο σχετικό και ανταμείβουν τις επαναλαμβανόμενες επισκέψεις.</span>
               </li>
             </ol>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Music changes how people move, connect, and remember. We make that power part of your venue's identity. Then we keep improving it, cycle after cycle.
+              Η μουσική αλλάζει τον τρόπο που οι άνθρωποι κινούνται, συνδέονται και θυμούνται.
+            </p>
+            <p className="text-black/80 leading-relaxed mb-6">
+              Εμείς κάνουμε αυτή τη δύναμη μέρος της ταυτότητας του χώρου σας και τη βελτιώνουμε συνεχώς.
             </p>
 
             <p className="text-black/80 leading-relaxed">
-              Ready to shape your property's sound strategy? <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70 font-semibold">Contact us</Link> to get started.
+              Έτοιμοι να διαμορφώσετε τη στρατηγική ήχου του χώρου σας; <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70 font-semibold">Επικοινωνήστε μαζί μας</Link> για να ξεκινήσουμε.
             </p>
           </div>
         </Card>
@@ -405,12 +408,12 @@ export default function HowTopHospitalityBrandsDesignSound() {
           <Link to={createPageUrl("Blog")}>
             <Button variant="outline" className="bg-transparent border-black text-black hover:bg-black hover:text-white">
               <ArrowLeft className="w-4 h-4 mr-2" />
-              Back to Blog
+              Πίσω στο blog
             </Button>
           </Link>
           <Link to={createPageUrl("contact")}>
             <AnimatedButton>
-              Shape Your Property's Sound Strategy
+              Διαμορφώστε τη στρατηγική ήχου του χώρου σας
             </AnimatedButton>
           </Link>
         </div>
