@@ -37,36 +37,36 @@ export default function Layout({ children }) {
   }, []);
 
   const navItems = [
-    { name: "Home", path: createPageUrl("Home") },
-    { name: "Services", path: createPageUrl("Services") },
-    { name: "Industries", path: createPageUrl("Industries") },
+    { name: "Αρχική", path: createPageUrl("Home") },
+    { name: "Υπηρεσίες", path: createPageUrl("Services") },
+    { name: "Κλάδοι", path: createPageUrl("Industries") },
     { name: "Case Studies", path: createPageUrl("case-studies") },
-    { name: "Blog", path: createPageUrl("Blog"), ariaLabel: "SensEar blog on sound and space" },
-    { name: "About", path: createPageUrl("about") }
+    { name: "Blog", path: createPageUrl("Blog"), ariaLabel: "Το blog της SensEar για τον ήχο και τον χώρο" },
+    { name: "Σχετικά", path: createPageUrl("about") }
   ];
 
   const footerNavItems = {
     services: [
-      { name: "Signature Playlists", path: createPageUrl("signature-playlists") },
-      { name: "Event Soundtracks", path: createPageUrl("event-soundtracks") },
-      { name: "Sonic Strategy", path: createPageUrl("sonic-strategy") },
-      { name: "Audio Upgrades", path: createPageUrl("audio-upgrades") }
+      { name: "Επιμελημένες playlists", path: createPageUrl("signature-playlists") },
+      { name: "Ηχητική επιμέλεια εκδηλώσεων", path: createPageUrl("event-soundtracks") },
+      { name: "Σχεδιασμός ηχητικής ταυτότητας", path: createPageUrl("sonic-strategy") },
+      { name: "Ακουστική αναβάθμιση", path: createPageUrl("audio-upgrades") }
     ],
     industries: [
-      { name: "Hotels & Resorts", path: createPageUrl("music-for-hotels-and-resorts"), ariaLabel: "Music for Hotels & Resorts" },
-      { name: "Restaurants & Bars", path: createPageUrl("music-for-restaurants-and-bars"), ariaLabel: "Music for Restaurants & Bars" },
-      { name: "Retail Stores", path: createPageUrl("music-for-retail-stores") },
-      { name: "Wellness & Gyms", path: createPageUrl("music-for-wellness-and-gyms"), ariaLabel: "Music for Wellness & Gyms" },
-      { name: "Events & Experiences", path: createPageUrl("music-for-events-and-experiences"), ariaLabel: "Music for Events" },
-      { name: "Art, Museums & Fashion", path: createPageUrl("music-for-art-museums-and-fashion"), ariaLabel: "Music for Art, Museums & Fashion" }
+      { name: "Ξενοδοχεία & Θέρετρα", path: createPageUrl("music-for-hotels-and-resorts"), ariaLabel: "Μουσική για Ξενοδοχεία & Θέρετρα" },
+      { name: "Εστιατόρια & Bar", path: createPageUrl("music-for-restaurants-and-bars"), ariaLabel: "Μουσική για Εστιατόρια & Bar" },
+      { name: "Καταστήματα λιανικής", path: createPageUrl("music-for-retail-stores") },
+      { name: "Wellness & Γυμναστήρια", path: createPageUrl("music-for-wellness-and-gyms"), ariaLabel: "Μουσική για Wellness & Γυμναστήρια" },
+      { name: "Εκδηλώσεις & Εμπειρίες", path: createPageUrl("music-for-events-and-experiences"), ariaLabel: "Μουσική για Εκδηλώσεις" },
+      { name: "Τέχνη, Μουσεία & Μόδα", path: createPageUrl("music-for-art-museums-and-fashion"), ariaLabel: "Μουσική για Τέχνη, Μουσεία & Μόδα" }
     ],
     company: [
-      { name: "Case Studies", path: createPageUrl("case-studies"), ariaLabel: "Music curation case studies" },
-      { name: "About", path: createPageUrl("about"), ariaLabel: "About SensEar" },
-      { name: "Contact", path: createPageUrl("contact"), ariaLabel: "Contact SensEar" },
-      { name: "Blog", path: createPageUrl("Blog"), ariaLabel: "SensEar blog on sound and space" },
-      { name: "FAQ", path: createPageUrl("FAQ"), ariaLabel: "Frequently asked questions about music curation" },
-      { name: "Sitemap", path: createPageUrl("Sitemap"), ariaLabel: "SensEar's Website sitemap" }
+      { name: "Case Studies", path: createPageUrl("case-studies"), ariaLabel: "Μελέτες περίπτωσης μουσικής επιμέλειας" },
+      { name: "Σχετικά", path: createPageUrl("about"), ariaLabel: "Σχετικά με τη SensEar" },
+      { name: "Επικοινωνία", path: createPageUrl("contact"), ariaLabel: "Επικοινωνήστε με τη SensEar" },
+      { name: "Blog", path: createPageUrl("Blog"), ariaLabel: "Το blog της SensEar για τον ήχο και τον χώρο" },
+      { name: "Συχνές ερωτήσεις", path: createPageUrl("FAQ"), ariaLabel: "Συχνές ερωτήσεις για τη μουσική επιμέλεια" },
+      { name: "Χάρτης ιστοτόπου", path: createPageUrl("Sitemap"), ariaLabel: "Χάρτης ιστοτόπου της SensEar" }
     ]
   };
 
@@ -300,7 +300,7 @@ export default function Layout({ children }) {
                     ? 'border-white text-white hover:border-white hover:text-white' 
                     : 'border-black text-black hover:border-black hover:text-black'
                 }`}>
-                Contact
+                Επικοινωνία
               </Button>
             </Link>
           </div>
@@ -360,7 +360,7 @@ export default function Layout({ children }) {
                 className={`block text-base font-bold py-2 hover:underline decoration-1 underline-offset-4 font-jakarta ${
                   location.pathname === createPageUrl("contact") ? "text-white underline" : "text-white/90"}`
                 }>
-                Contact
+                Επικοινωνία
               </Link>
             </div>
           </div>
@@ -393,7 +393,7 @@ export default function Layout({ children }) {
                 <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/bdbf0fb5d_sensear-logo-avatar-white-transparent1.png" alt="SensEar Logo" className="w-16 h-16 object-contain group-hover:scale-110 transition-transform" />
                 <div>
                   <h1 className="text-3xl font-bold text-white tracking-wide font-syne">SENSEAR</h1>
-                  <p className="text-xs text-white -mt-1 font-syne">Soundtracking Unique Experiences</p>
+                  <p className="text-xs text-white -mt-1 font-syne">Μουσική επιμέλεια για ξεχωριστές εμπειρίες</p>
                 </div>
               </Link>
               <div className="flex gap-6 mb-6">
@@ -415,10 +415,10 @@ export default function Layout({ children }) {
 
               {/* Sonic Insights */}
               <div>
-                <h3 className="text-sm font-semibold text-peach mb-3 font-jakarta">Curated sound, delivered monthly</h3>
+                <h3 className="text-sm font-semibold text-peach mb-3 font-jakarta">Μουσική ενημέρωση, κάθε μήνα</h3>
                 <div className="flex gap-2">
-                  <Input type="email" placeholder="Your email" className="bg-white/10 border-white/20 text-white placeholder:text-white/50 flex-1 text-sm h-9 max-w-[180px]" />
-                  <FooterButton>Stay informed</FooterButton>
+                  <Input type="email" placeholder="Το email σας" className="bg-white/10 border-white/20 text-white placeholder:text-white/50 flex-1 text-sm h-9 max-w-[180px]" />
+                  <FooterButton>Εγγραφή</FooterButton>
                 </div>
               </div>
             </div>
@@ -426,7 +426,7 @@ export default function Layout({ children }) {
             {/* Services */}
             <div>
               <Link to={createPageUrl("Services")} className="text-sm font-semibold text-peach mb-4 uppercase tracking-wider hover:underline decoration-1 underline-offset-4 inline-block font-jakarta">
-                Services
+                Υπηρεσίες
               </Link>
               <div className="space-y-2">
                 {footerNavItems.services.map((item) => (
@@ -438,7 +438,7 @@ export default function Layout({ children }) {
             {/* Industries */}
             <div>
               <Link to={createPageUrl("Industries")} className="text-sm font-semibold text-peach mb-4 uppercase tracking-wider hover:underline decoration-1 underline-offset-4 inline-block font-jakarta">
-                Industries
+                Κλάδοι
               </Link>
               <div className="space-y-2">
                 {footerNavItems.industries.map((item) => (
@@ -451,7 +451,7 @@ export default function Layout({ children }) {
 
             {/* Company */}
             <div>
-              <h3 className="text-sm font-semibold text-peach mb-4 uppercase tracking-wider font-jakarta">Company</h3>
+              <h3 className="text-sm font-semibold text-peach mb-4 uppercase tracking-wider font-jakarta">Εταιρεία</h3>
               <div className="space-y-2">
                 {footerNavItems.company.map((item) => (
                   <Link key={item.name} to={item.path} className="block text-white/70 hover:text-peach transition-colors text-base hover:underline decoration-1 underline-offset-4 font-jakarta" aria-label={item.ariaLabel || item.name}>{item.name}</Link>
@@ -461,7 +461,7 @@ export default function Layout({ children }) {
           </div>
 
           <div className="border-t border-white/20 mt-12 pt-8">
-            <p className="text-xs text-white/50 text-center leading-relaxed">SensEar Music Curation G.P. is a registered company in the E.U. operating in Athens, Greece (Registration No. ELGEMI.183951803000). The company is authorized and regulated by the Corporate Registry (GEMI) and governed by Greek commercial and corporate law, as handled through the Athens Chamber of Tradesmen. All consulting services provided by SensEar adhere to Greek and E.U. regulations, ensuring compliance and ethical business practices.
+            <p className="text-xs text-white/50 text-center leading-relaxed">Η SensEar Music Curation Ε.Ε. είναι εγγεγραμμένη εταιρεία στην Ε.Ε. με έδρα την Αθήνα, Ελλάδα (Αρ. ΓΕΜΗ 183951803000). Η εταιρεία ελέγχεται από το Γενικό Εμπορικό Μητρώο (ΓΕΜΗ) και διέπεται από το ελληνικό εμπορικό και εταιρικό δίκαιο, όπως διαχειρίζεται από το Επαγγελματικό Επιμελητήριο Αθηνών. Όλες οι συμβουλευτικές υπηρεσίες που παρέχονται από τη SensEar τηρούν τους ελληνικούς και ευρωπαϊκούς κανονισμούς, διασφαλίζοντας τη συμμόρφωση και τις ηθικές επιχειρηματικές πρακτικές.
             </p>
           </div>
         </div>
