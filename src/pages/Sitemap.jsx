@@ -22,10 +22,10 @@ export default function Sitemap() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Sitemap | Sensear";
+    document.title = "Χάρτης ιστότοπου | Sensear";
     
     const metaDescription = document.querySelector('meta[name="description"]');
-    const description = "Browse all SensEar pages, services, industries, case studies and journal articles in one place.";
+    const description = "Εξερευνήστε όλες τις σελίδες και τις πληροφορίες του ιστότοπου SensEar.Music. Βρείτε τα πάντα, από τις υπηρεσίες μουσικής επιμέλειας έως άρθρα και insights ανά κλάδο.";
     if (metaDescription) {
       metaDescription.setAttribute('content', description);
     } else {
@@ -38,25 +38,25 @@ export default function Sitemap() {
     // Add locale and language meta tags
     const localeTag = document.querySelector('meta[property="og:locale"]');
     if (localeTag) {
-      localeTag.setAttribute('content', 'en_US');
+      localeTag.setAttribute('content', 'el_GR');
     } else {
       const meta = document.createElement('meta');
       meta.setAttribute('property', 'og:locale');
-      meta.content = 'en_US';
+      meta.content = 'el_GR';
       document.head.appendChild(meta);
     }
 
-    const languageTag = document.querySelector('meta[http-equiv="content-language"]');
+    let languageTag = document.querySelector('meta[http-equiv="content-language"]');
     if (languageTag) {
-      languageTag.setAttribute('content', 'en');
+      languageTag.setAttribute('content', 'el');
     } else {
       const meta = document.createElement('meta');
       meta.setAttribute('http-equiv', 'content-language');
-      meta.content = 'en';
+      meta.content = 'el';
       document.head.appendChild(meta);
     }
 
-    document.documentElement.lang = 'en';
+    document.documentElement.lang = 'el';
 
     // Add robots meta tag
     let robotsMeta = document.querySelector('meta[name="robots"]');
@@ -87,56 +87,56 @@ export default function Sitemap() {
 
   const sitemapSections = [
     {
-      title: "Main Pages",
+      title: "Κύριες Σελίδες",
       icon: Home,
       pages: [
-        { name: "Home", path: createPageUrl("Home") },
-        { name: "Services", path: createPageUrl("Services") },
-        { name: "Industries", path: createPageUrl("Industries") },
-        { name: "Case Studies", path: createPageUrl("case-studies"), ariaLabel: "Music curation case studies" },
-        { name: "About", path: createPageUrl("about"), ariaLabel: "About SensEar" },
-        { name: "Contact", path: createPageUrl("contact"), ariaLabel: "Contact SensEar" },
-        { name: "Blog", path: createPageUrl("Blog"), ariaLabel: "SensEar blog on sound and space" },
-        { name: "FAQ", path: createPageUrl("FAQ"), ariaLabel: "Frequently asked questions about music curation" }
+        { name: "Αρχική", path: createPageUrl("Home") },
+        { name: "Υπηρεσίες", path: createPageUrl("Services") },
+        { name: "Κλάδοι", path: createPageUrl("Industries") },
+        { name: "Παραδείγματα", path: createPageUrl("case-studies"), ariaLabel: "Μελέτες περίπτωσης μουσικής επιμέλειας" },
+        { name: "Σχετικά με εμάς", path: createPageUrl("about"), ariaLabel: "Σχετικά με τη SensEar" },
+        { name: "Επικοινωνία", path: createPageUrl("contact"), ariaLabel: "Επικοινωνία με τη SensEar" },
+        { name: "Blog", path: createPageUrl("Blog"), ariaLabel: "Το blog της SensEar για τον ήχο και τον χώρο" },
+        { name: "Συχνές Ερωτήσεις", path: createPageUrl("FAQ"), ariaLabel: "Συχνές ερωτήσεις για τη μουσική επιμέλεια" }
       ]
     },
     {
-      title: "Services",
+      title: "Υπηρεσίες",
       icon: Briefcase,
       pages: [
-        { name: "All Services", path: createPageUrl("Services") },
-        { name: "Signature Playlists", path: createPageUrl("signature-playlists") },
-        { name: "Event Soundtracks", path: createPageUrl("event-soundtracks") },
-        { name: "Sonic Strategy", path: createPageUrl("sonic-strategy") },
-        { name: "Audio Upgrades", path: createPageUrl("audio-upgrades") }
+        { name: "Όλες οι Υπηρεσίες", path: createPageUrl("Services") },
+        { name: "Επιμελημένες playlists", path: createPageUrl("signature-playlists") },
+        { name: "Μουσική επιμέλεια εκδηλώσεων", path: createPageUrl("event-soundtracks") },
+        { name: "Σχεδιασμός ηχητικής ταυτότητας", path: createPageUrl("sonic-strategy") },
+        { name: "Ακουστική αναβάθμιση", path: createPageUrl("audio-upgrades") }
       ]
     },
     {
-      title: "Industries",
+      title: "Κλάδοι",
       icon: Building2,
       pages: [
-        { name: "All Industries", path: createPageUrl("Industries") },
-        { name: "Hotels & Resorts", path: createPageUrl("music-for-hotels-and-resorts"), ariaLabel: "Music for Hotels & Resorts" },
-        { name: "Restaurants & Bars", path: createPageUrl("music-for-restaurants-and-bars"), ariaLabel: "Music for Restaurants & Bars" },
-        { name: "Retail Stores", path: createPageUrl("music-for-retail-stores"), ariaLabel: "Music for Retail Stores" },
-        { name: "Wellness & Gyms", path: createPageUrl("music-for-wellness-and-gyms"), ariaLabel: "Music for Wellness & Gyms" },
-        { name: "Events & Experiences", path: createPageUrl("music-for-events-and-experiences"), ariaLabel: "Music for Events" },
-        { name: "Art, Museums & Fashion", path: createPageUrl("music-for-art-museums-and-fashion"), ariaLabel: "Music for Art, Museums & Fashion" }
+        { name: "Όλοι οι Κλάδοι", path: createPageUrl("Industries") },
+        { name: "Ξενοδοχεία & Θέρετρα", path: createPageUrl("music-for-hotels-and-resorts"), ariaLabel: "Μουσική για Ξενοδοχεία & Θέρετρα" },
+        { name: "Εστιατόρια & Bar", path: createPageUrl("music-for-restaurants-and-bars"), ariaLabel: "Μουσική για Εστιατόρια & Bar" },
+        { name: "Καταστήματα Λιανικής", path: createPageUrl("music-for-retail-stores"), ariaLabel: "Μουσική για Καταστήματα Λιανικής" },
+        { name: "Wellness & Γυμναστήρια", path: createPageUrl("music-for-wellness-and-gyms"), ariaLabel: "Μουσική για Wellness & Γυμναστήρια" },
+        { name: "Εκδηλώσεις & Εμπειρίες", path: createPageUrl("music-for-events-and-experiences"), ariaLabel: "Μουσική για Εκδηλώσεις" },
+        { name: "Τέχνη, Μουσεία & Μόδα", path: createPageUrl("music-for-art-museums-and-fashion"), ariaLabel: "Μουσική για Τέχνη, Μουσεία & Μόδα" }
       ]
     },
     {
-      title: "Blog Posts",
+      title: "Άρθρα Blog",
       icon: BookOpen,
       pages: [
-        { name: "All Blog Articles", path: createPageUrl("Blog"), ariaLabel: "SensEar blog on sound and space" },
-        { name: "How Top Hospitality Brands Design Their Sound", path: createPageUrl("how-top-hospitality-brands-design-sound") },
-        { name: "Three Reasons Music Matters in Hospitality", path: createPageUrl("three-reasons-make-music-hospitality") },
-        { name: "How Brand Music Increases Sales", path: createPageUrl("brand-music-converts-browsers-buyers") },
-        { name: "What Does a Music Curator Do?", path: createPageUrl("what-exactly-does-music-curator-do") },
-        { name: "Analyze and Optimize Music Curation", path: createPageUrl("music-curation-cycle-venues") },
-        { name: "Building Your Brand Through Sound", path: createPageUrl("building-brand-people-can-hear") },
-        { name: "Music Influence on Consumer Behavior", path: createPageUrl("background-music-shapes-customer-behavior") },
-        { name: "Waiting Time Perception & Music", path: createPageUrl("service-environment-shapes-wait-time") }
+        { name: "Όλα τα Άρθρα", path: createPageUrl("Blog"), ariaLabel: "Το blog της SensEar για τον ήχο και τον χώρο" },
+        { name: "Πώς τα κορυφαία brands φιλοξενίας σχεδιάζουν τον ήχο τους", path: createPageUrl("how-top-hospitality-brands-design-sound") },
+        { name: "Τρεις λόγοι που η μουσική έχει σημασία στη φιλοξενία", path: createPageUrl("three-reasons-make-music-hospitality") },
+        { name: "Πώς η μουσική του brand αυξάνει τις πωλήσεις", path: createPageUrl("brand-music-converts-browsers-buyers") },
+        { name: "Τι ακριβώς κάνει ένας music curator;", path: createPageUrl("what-exactly-does-music-curator-do") },
+        { name: "Ανάλυση και βελτιστοποίηση μουσικής επιμέλειας", path: createPageUrl("music-curation-cycle-venues") },
+        { name: "Χτίζοντας το brand σας μέσα από τον ήχο", path: createPageUrl("building-brand-people-can-hear") },
+        { name: "Η επίδραση της μουσικής στη συμπεριφορά των καταναλωτών", path: createPageUrl("background-music-shapes-customer-behavior") },
+        { name: "Αντίληψη χρόνου αναμονής & μουσική", path: createPageUrl("service-environment-shapes-wait-time") }
       ]
     }
   ];
@@ -177,16 +177,16 @@ export default function Sitemap() {
       `}</style>
 
       {/* Hero Section - Two Column Layout */}
-      <section className="relative pt-32 pb-32 min-h-[90vh] flex flex-col justify-center overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Sitemap section">
+      <section className="relative pt-32 pb-32 min-h-[90vh] flex flex-col justify-center overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Ενότητα Χάρτη Ιστότοπου">
         <div className="w-full px-6 md:px-12 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                Sitemap
+                Χάρτης ιστότοπου
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                Explore all pages and resources on SensEar.Music website. Find everything from our <Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">music curation services</Link> to <Link to={createPageUrl("Blog")} className="underline hover:text-black font-semibold" aria-label="SensEar blog on sound and space">industry insights</Link>.
+                Εξερευνήστε όλες τις σελίδες και τις πληροφορίες του ιστότοπου SensEar.Music. Βρείτε τα πάντα, από τις <Link to={createPageUrl("Services")} className="underline hover:text-black font-semibold">υπηρεσίες μουσικής επιμέλειας</Link> έως άρθρα και <Link to={createPageUrl("Blog")} className="underline hover:text-black font-semibold" aria-label="Το blog της SensEar για τον ήχο και τον χώρο">insights ανά κλάδο</Link>.
               </p>
             </div>
 
@@ -197,7 +197,7 @@ export default function Sitemap() {
                   <div className="relative aspect-square">
                     <img 
                       src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/70c619556_handling-sensear-sitemap.jpg" 
-                      alt="Explore SensEar website sitemap" 
+                      alt="Εξερευνήστε τον χάρτη ιστότοπου της SensEar" 
                       className="w-full h-full object-cover" 
                     />
                   </div>
@@ -239,21 +239,21 @@ export default function Sitemap() {
 
           <div className="mt-12 text-center flex flex-col items-center gap-6">
             <p className="text-black/70 text-lg">
-              Can't find what you are looking for?
+              Δεν βρίσκετε αυτό που ψάχνετε;
             </p>
             
             <div className="flex flex-wrap items-center justify-center gap-4">
               <Link to={createPageUrl("contact")}>
-                <AnimatedButton aria-label="Contact SensEar">
-                  Contact us
+                <AnimatedButton aria-label="Επικοινωνήστε με τη SensEar">
+                  Επικοινωνήστε μαζί μας
                 </AnimatedButton>
               </Link>
 
-              <span className="text-black/70 font-medium">or check our</span>
+              <span className="text-black/70 font-medium">ή δείτε τη σελίδα</span>
 
               <Link to={createPageUrl("FAQ")}>
-                <AnimatedButton aria-label="Frequently asked questions about music curation">
-                  FAQ page
+                <AnimatedButton aria-label="Συχνές ερωτήσεις για τη μουσική επιμέλεια">
+                  Συχνές Ερωτήσεις
                 </AnimatedButton>
               </Link>
             </div>
