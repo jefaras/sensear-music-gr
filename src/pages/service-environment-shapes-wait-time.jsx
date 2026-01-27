@@ -22,13 +22,13 @@ export default function ServiceEnvironmentShapesWaitTime() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    const newTitle = "How music shapes perceived wait time | SensEar blog";
+    const newTitle = "Πώς το περιβάλλον εξυπηρέτησης διαμορφώνει τον αντιλαμβανόμενο χρόνο αναμονής | SensEar blog";
     document.title = newTitle;
     
-    const description = "Discover how music and environmental design reduce perceived waiting time and improve customer satisfaction in service spaces.";
+    const description = "Πώς η μουσική και ο περιβαλλοντικός σχεδιασμός μπορούν να μεταμορφώσουν την εμπειρία της αναμονής και να αυξήσουν την ικανοποίηση.";
     const ogImage = 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1472df5cb_aiease_1760708154014.jpg';
     const pageUrl = 'https://sensear.music/service-environment-shapes-wait-time';
-    const publishedDate = '2025-01-15T09:00:00Z';
+    const publishedDate = '2025-03-15T09:00:00Z';
 
     const updateOrCreateMeta = (name, content, isProperty = false) => {
       let meta;
@@ -72,8 +72,7 @@ export default function ServiceEnvironmentShapesWaitTime() {
       { property: 'og:image', content: ogImage },
       { property: 'og:url', content: pageUrl },
       { property: 'og:type', content: 'article' },
-      { property: 'og:locale', content: 'en_US' },
-      { property: 'og:locale:alternate', content: 'en_GB' },
+      { property: 'og:locale', content: 'el_GR' },
       { property: 'article:published_time', content: publishedDate },
       { property: 'article:modified_time', content: publishedDate },
       { property: 'article:author', content: 'SensEar' },
@@ -94,15 +93,15 @@ export default function ServiceEnvironmentShapesWaitTime() {
 
     let languageMeta = document.querySelector('meta[http-equiv="content-language"]');
     if (languageMeta) {
-      languageMeta.setAttribute('content', 'en');
+      languageMeta.setAttribute('content', 'el');
     } else {
       languageMeta = document.createElement('meta');
       languageMeta.setAttribute('http-equiv', 'content-language');
-      languageMeta.setAttribute('content', 'en');
+      languageMeta.setAttribute('content', 'el');
       document.head.appendChild(languageMeta);
     }
 
-    document.documentElement.lang = 'en';
+    document.documentElement.lang = 'el';
 
     const structuredData = [
       {
@@ -119,7 +118,7 @@ export default function ServiceEnvironmentShapesWaitTime() {
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": newTitle,
+        "headline": "Πώς το περιβάλλον εξυπηρέτησης διαμορφώνει τον αντιλαμβανόμενο χρόνο αναμονής",
         "description": description,
         "image": ogImage,
         "author": {
@@ -134,8 +133,8 @@ export default function ServiceEnvironmentShapesWaitTime() {
             "url": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg"
           }
         },
-        "datePublished": "2025-01-15",
-        "dateModified": "2025-01-15"
+        "datePublished": "2025-03-15",
+        "dateModified": "2025-03-15"
       },
       {
         "@context": "https://schema.org",
@@ -156,7 +155,7 @@ export default function ServiceEnvironmentShapesWaitTime() {
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "How Service Environments Shape Perceived Waiting Time",
+            "name": "Πώς το περιβάλλον εξυπηρέτησης διαμορφώνει τον αντιλαμβανόμενο χρόνο αναμονής",
             "item": "https://sensear.music/service-environment-shapes-wait-time"
           }
         ]
@@ -232,29 +231,29 @@ export default function ServiceEnvironmentShapesWaitTime() {
       `}</style>
 
       {/* Hero Section - Two Column Layout */}
-      <section className="relative pt-32 pb-32 min-h-[90vh] flex flex-col justify-center overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Service Environment Shapes Wait Time section">
+      <section className="relative pt-32 pb-32 min-h-[90vh] flex flex-col justify-center overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Πώς το περιβάλλον εξυπηρέτησης διαμορφώνει τον αντιλαμβανόμενο χρόνο αναμονής">
         <div className="w-full px-6 md:px-12 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">How your service environment</span>
-                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">shapes perceived wait time</span>
+                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Πώς το περιβάλλον εξυπηρέτησης</span>
+                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">διαμορφώνει τον αντιλαμβανόμενο χρόνο αναμονής</span>
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2 mb-6">
-                How music and environmental design can transform the waiting experience and improve satisfaction.
+                Πώς η μουσική και ο περιβαλλοντικός σχεδιασμός μπορούν να μεταμορφώσουν την εμπειρία της αναμονής και να αυξήσουν την ικανοποίηση.
               </p>
               <div className="flex items-center gap-6 text-sm text-black/60 slide-up-2">
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" aria-hidden="true" />
-                  <time dateTime="2025-03-15">March 15, 2025</time>
+                  <time dateTime="2025-03-15">15 Μαρτίου 2025</time>
                 </div>
                 <div className="flex items-center gap-2">
                   <User className="w-4 h-4" aria-hidden="true" />
-                  <span>Research Team</span>
+                  <span>Ομάδα Έρευνας</span>
                 </div>
                 <div className="text-black/50">
-                  <span>7 min read</span>
+                  <span>7 λεπτά ανάγνωσης</span>
                 </div>
               </div>
             </div>
@@ -280,55 +279,55 @@ export default function ServiceEnvironmentShapesWaitTime() {
       <div className="max-w-5xl mx-auto px-6 py-16">
         <Card className="bg-white p-8 md:p-12 shadow-lg mb-12">
           <div className="prose prose-lg max-w-none">
-            <h2 className="text-3xl font-bold text-black mt-0 mb-6">Managing how customers feel about waiting can be as important as reducing the clock time itself</h2>
+            <h2 className="text-3xl font-bold text-black mt-0 mb-6">Σχεδιασμός περιβάλλοντος εξυπηρέτησης με χρήση μουσικής για βελτίωση της εμπειρίας αναμονής</h2>
             <p className="text-xl text-black/80 leading-relaxed mb-8">
-              A short wait to a manager can feel long to a guest if the environment works against them.
+              Η διαχείριση του πώς βιώνουν οι πελάτες την αναμονή μπορεί να είναι εξίσου σημαντική με τη μείωση του πραγματικού χρόνου. Μια σύντομη αναμονή για έναν υπεύθυνο μπορεί να μοιάζει μεγάλη για έναν επισκέπτη, αν το περιβάλλον λειτουργεί εις βάρος της εμπειρίας.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Why waiting feels longer than it is</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Γιατί η αναμονή μοιάζει μεγαλύτερη απ’ ό,τι είναι</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              <a href="https://www.researchgate.net/profile/Ale-Smidts/publication/247220346_Effects_of_waiting_on_the_satisfaction_with_the_service_Beyond_objective_time_measures/links/5cc83a9e4585156cd7bc091c/Effects-of-waiting-on-the-satisfaction-with-the-service-Beyond-objective-time-measures.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Customers often overestimate how long they have waited</a>, and satisfaction drops as perceived wait length grows. Traditional fixes focus on operations that cut actual queue time, but <a href="https://www.researchgate.net/profile/Naveen-Donthu/publication/242337184_Closing_the_gap_between_perceived_and_actual_waiting_times_in_a_call_center_Results_from_a_field_study/links/64bff61a8de7ed28bac2b9e0/Closing-the-gap-between-perceived-and-actual-waiting-times-in-a-call-center-Results-from-a-field-study.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">research shows the setting and information during the wait also shape satisfaction</a>, sometimes more than small shifts in seconds or minutes.
+              <a href="https://www.researchgate.net/profile/Ale-Smidts/publication/247220346_Effects_of_waiting_on_the_satisfaction_with_the_service_Beyond_objective_time_measures/links/5cc83a9e4585156cd7bc091c/Effects-of-waiting-on-the-satisfaction-with-the-service-Beyond-objective-time-measures.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Οι πελάτες συχνά υπερεκτιμούν τον χρόνο που περίμεναν</a> και η ικανοποίηση μειώνεται όσο αυξάνεται ο αντιλαμβανόμενος χρόνος αναμονής. Οι παραδοσιακές λύσεις εστιάζουν στη λειτουργία και στη μείωση της ουράς, όμως <a href="https://www.researchgate.net/profile/Naveen-Donthu/publication/242337184_Closing_the_gap_between_perceived_and_actual_waiting_times_in_a_call_center_Results_from_a_field_study/links/64bff61a8de7ed28bac2b9e0/Closing-the-gap-between-perceived-and-actual-waiting-times-in-a-call_center-Results-from-a-field_study.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">έρευνες δείχνουν ότι το περιβάλλον και οι πληροφορίες κατά τη διάρκεια της αναμονής επηρεάζουν την ικανοποίηση</a>, πολλές φορές περισσότερο από μικρές διαφορές σε δευτερόλεπτα ή λεπτά.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">How the environment shapes perception</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Πώς το περιβάλλον διαμορφώνει την αντίληψη</h2>
 
             <p className="text-black/80 leading-relaxed mb-8">
-              The physical and sensory setting affects emotional, cognitive, and physiological responses that drive evaluations and behaviors. <a href="https://eclass-demo.aueb.gr/modules/document/file.php/MISC418/Lecture5_Reading_Servicescapes.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Servicescape research ties these effects to core pleasure and arousal states</a> that color time perception and satisfaction.
+              Το φυσικό και αισθητηριακό περιβάλλον επηρεάζει συναισθηματικές, γνωστικές και φυσιολογικές αντιδράσεις, οι οποίες καθορίζουν τις αξιολογήσεις και τη συμπεριφορά. <a href="https://eclass-demo.aueb.gr/modules/document/file.php/MISC418/Lecture5_Reading_Servicescapes.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Η έρευνα γύρω από το servicescape συνδέει αυτά τα αποτελέσματα με βασικές καταστάσεις ευχαρίστησης και διέγερσης</a>, που χρωματίζουν την αντίληψη του χρόνου και την ικανοποίηση.
             </p>
 
             <div className="bg-black/5 p-8 rounded-lg my-10">
-              <h3 className="text-2xl font-bold text-black mb-6">The environmental factors that matter</h3>
+              <h3 className="text-2xl font-bold text-black mb-6">Οι περιβαλλοντικοί παράγοντες που κάνουν τη διαφορά</h3>
               <div className="space-y-6">
                 <div>
-                  <h4 className="font-bold text-lg text-black mb-2">Ambient Elements</h4>
-                  <p className="text-black/70"><a href="https://journals.itb.ac.id/index.php/ajht/article/view/25753/7113" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Lighting, temperature, music, scent, and background noise set the sensory baseline</a> and can shift satisfaction and perceived time in hospitality and retail settings.</p>
+                  <h4 className="font-bold text-lg text-black mb-2">Ατμοσφαιρικά στοιχεία</h4>
+                  <p className="text-black/70"><a href="https://journals.itb.ac.id/index.php/ajht/article/view/25753/7113" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Ο φωτισμός, η θερμοκρασία, η μουσική, οι οσμές και ο θόρυβος του περιβάλλοντος θέτουν τη βασική αισθητηριακή γραμμή</a> και μπορούν να μεταβάλουν τόσο την ικανοποίηση όσο και τον αντιλαμβανόμενο χρόνο αναμονής σε χώρους φιλοξενίας και λιανικής.</p>
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg text-black mb-2">Design Elements</h4>
-                  <p className="text-black/70"><a href="https://www.sciencedirect.com/science/article/pii/S0278431918310430" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Color, furnishings, signage, and spatial layout guide flow and expectations</a>, influencing attention and affect during waits.</p>
+                  <h4 className="font-bold text-lg text-black mb-2">Στοιχεία σχεδιασμού</h4>
+                  <p className="text-black/70"><a href="https://www.sciencedirect.com/science/article/pii/S0278431918310430" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Τα χρώματα, η επίπλωση, η σήμανση και η χωρική διάταξη καθοδηγούν τη ροή και τις προσδοκίες</a>, επηρεάζοντας την προσοχή και το συναίσθημα κατά την αναμονή.</p>
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg text-black mb-2">Social Elements</h4>
-                  <p className="text-black/70">Who is present matters. <a href="https://philpapers.org/rec/PRUCRT" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">The presence of staff and other guests can soften the experience</a>, and waiting with others can improve acceptability during longer waits.</p>
+                  <h4 className="font-bold text-lg text-black mb-2">Κοινωνικά στοιχεία</h4>
+                  <p className="text-black/70">Η παρουσία άλλων έχει σημασία. <a href="https://philpapers.org/rec/PRUCRT" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Η παρουσία προσωπικού και άλλων επισκεπτών μπορεί να απαλύνει την εμπειρία</a>, ενώ η αναμονή μαζί με άλλους συχνά γίνεται πιο αποδεκτή όταν διαρκεί περισσότερο.</p>
                 </div>
               </div>
             </div>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">How music changes perceived wait time</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Πώς η μουσική αλλάζει τον αντιλαμβανόμενο χρόνο αναμονής</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              <a href="https://chaireomerdesserres.hec.ca/wp-content/uploads/2020/05/The-Impact-of-Music-on-Consumers-Reactions-to-Waiting-for-Services.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Music that creates positive affect tends to shorten perceived wait</a>, while poorly matched music can lengthen it. The mechanism combines <a href="https://www.sciencedirect.com/science/article/pii/S1071581921001749" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">attention capture, mood regulation, and tempo effects that influence internal timekeeping</a>. Identifying what works for a specific segment and context requires testing and professional curation, since <a href="https://www.sciencedirect.com/science/article/pii/S0022435997900166" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">responses vary by genre, volume, and tempo</a>.
+              <a href="https://chaireomerdesserres.hec.ca/wp-content/uploads/2020/05/The-Impact-of-Music-on-Consumers-Reactions-to-Waiting-for-Services.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Η μουσική που δημιουργεί θετικό συναίσθημα τείνει να μειώνει τον αντιλαμβανόμενο χρόνο αναμονής</a>, ενώ η ακατάλληλη μουσική μπορεί να τον επιμηκύνει. Ο μηχανισμός συνδυάζει <a href="https://www.sciencedirect.com/science/article/pii/S1071581921001749" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">την απόσπαση της προσοχής, τη ρύθμιση της διάθεσης και τα αποτελέσματα του ρυθμού, που επηρεάζουν τον εσωτερικό μας «χρονόμετρο»</a>. Το τι λειτουργεί για κάθε κοινό και πλαίσιο απαιτεί δοκιμές και επαγγελματική επιμέλεια, καθώς <a href="https://www.sciencedirect.com/science/article/pii/S0022435997900166" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">οι αντιδράσεις διαφέρουν ανάλογα με το είδος, την ένταση και τον ρυθμό</a>.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Practical steps for managers</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Πρακτικά βήματα για managers</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Make ambient baselines a management priority. <a href="https://journals.itb.ac.id/index.php/ajht/article/view/25753/7113" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Calibrate lighting, temperature, music volume, and tempo to the setting and daypart</a>, then validate with guest feedback and metrics. Understand the affective profile of the music you select for your target market, and use <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70">playlists that align with desired mood and pace</Link> for each zone and queue type.
+              Θέστε τα ατμοσφαιρικά στοιχεία ως προτεραιότητα διαχείρισης. <a href="https://journals.itb.ac.id/index.php/ajht/article/view/25753/7113" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Ρυθμίστε φωτισμό, θερμοκρασία, ένταση και ρυθμό της μουσικής ανάλογα με τον χώρο και την ώρα της ημέρας</a> και επιβεβαιώστε τις επιλογές με feedback επισκεπτών και μετρήσεις. Κατανοήστε το συναισθηματικό προφίλ της μουσικής που επιλέγετε για το κοινό-στόχο σας και χρησιμοποιήστε <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70">playlists που ευθυγραμμίζονται με τη διάθεση και τον επιθυμητό ρυθμό</Link> για κάθε ζώνη και τύπο αναμονής.
             </p>
 
             <p className="text-black/80 leading-relaxed">
-              The right music does more than fill silence. It improves the waiting experience, reduces perceived wait time, and supports higher satisfaction. This is where <Link to={createPageUrl("Services")} className="text-black underline hover:text-black/70">professional music curation</Link> delivers measurable value in <Link to={createPageUrl("Industries")} className="text-black underline hover:text-black/70">service environments</Link>.
+              Η σωστή μουσική δεν απλώς γεμίζει τη σιωπή. Βελτιώνει την εμπειρία αναμονής, μειώνει τον αντιλαμβανόμενο χρόνο και υποστηρίζει υψηλότερα επίπεδα ικανοποίησης. Εδώ ακριβώς η <Link to={createPageUrl("Services")} className="text-black underline hover:text-black/70">επαγγελματική μουσική επιμέλεια</Link> προσφέρει μετρήσιμη αξία σε <Link to={createPageUrl("Industries")} className="text-black underline hover:text-black/70">περιβάλλοντα εξυπηρέτησης</Link>.
             </p>
           </div>
         </Card>
@@ -337,12 +336,12 @@ export default function ServiceEnvironmentShapesWaitTime() {
           <Link to={createPageUrl("Blog")}>
             <Button variant="outline" className="bg-transparent border-black text-black hover:bg-black hover:text-white">
               <ArrowLeft className="w-4 h-4 mr-2" />
-              Back to Blog
+              Επιστροφή στο blog
             </Button>
           </Link>
           <Link to={createPageUrl("contact")}>
             <AnimatedButton>
-              Transform Your Service Environment
+              Μεταμορφώστε το περιβάλλον εξυπηρέτησής σας
             </AnimatedButton>
           </Link>
         </div>
