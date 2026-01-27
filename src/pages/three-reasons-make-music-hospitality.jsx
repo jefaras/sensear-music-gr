@@ -21,9 +21,14 @@ export default function ThreeReasonsMakeMusicHospitality() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Why Music Belongs in Luxury Hospitality Marketing";
+    const pageTitle = "Τρεις λόγοι να εντάξετε τη μουσική στη στρατηγική luxury φιλοξενίας σας | SensEar";
+    const description = "Γιατί η επιμελημένη μουσική είναι ένας πρακτικός τρόπος να διαμορφώνετε το πώς νιώθουν οι επισκέπτες, τι θυμούνται και πώς ξοδεύουν.";
+    const pageUrl = 'https://sensear.music/three-reasons-make-music-hospitality';
+    const imageUrl = 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7e961365e_e56c8a322bf8043723ba7e215cf5e636.jpg';
+    const publishedDate = '2025-01-15';
+
+    document.title = pageTitle;
     
-    const description = "Three evidence-based reasons curated music improves guest experience, brand perception, and spending in luxury hospitality venues.";
     let metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content', description);
@@ -37,25 +42,25 @@ export default function ThreeReasonsMakeMusicHospitality() {
     // Add locale and language meta tags
     const localeTag = document.querySelector('meta[property="og:locale"]');
     if (localeTag) {
-      localeTag.setAttribute('content', 'en_US');
+      localeTag.setAttribute('content', 'el_GR');
     } else {
       const meta = document.createElement('meta');
       meta.setAttribute('property', 'og:locale');
-      meta.content = 'en_US';
+      meta.content = 'el_GR';
       document.head.appendChild(meta);
     }
 
     let languageTag = document.querySelector('meta[http-equiv="content-language"]');
     if (languageTag) {
-      languageTag.setAttribute('content', 'en');
+      languageTag.setAttribute('content', 'el');
     } else {
       languageTag = document.createElement('meta');
       languageTag.setAttribute('http-equiv', 'content-language');
-      languageTag.content = 'en';
+      languageTag.content = 'el';
       document.head.appendChild(languageTag);
     }
 
-    document.documentElement.lang = 'en';
+    document.documentElement.lang = 'el';
 
     // Add robots meta tag - BLOG ARTICLE: index, follow
     let robotsMeta = document.querySelector('meta[name="robots"]');
@@ -80,22 +85,22 @@ export default function ThreeReasonsMakeMusicHospitality() {
 
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (canonicalLink) {
-      canonicalLink.setAttribute('href', 'https://sensear.music/three-reasons-make-music-hospitality');
+      canonicalLink.setAttribute('href', pageUrl);
     } else {
       canonicalLink = document.createElement('link');
       canonicalLink.rel = 'canonical';
-      canonicalLink.href = 'https://sensear.music/three-reasons-make-music-hospitality';
+      canonicalLink.href = pageUrl;
       document.head.appendChild(canonicalLink);
     }
 
     // Open Graph tags
     const ogTags = [
-      { property: 'og:title', content: 'Why Music Belongs in Luxury Hospitality Marketing' },
+      { property: 'og:title', content: pageTitle },
       { property: 'og:description', content: description },
-      { property: 'og:image', content: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7e961365e_e56c8a322bf8043723ba7e215cf5e636.jpg' },
-      { property: 'og:url', content: 'https://sensear.music/three-reasons-make-music-hospitality' },
+      { property: 'og:image', content: imageUrl },
+      { property: 'og:url', content: pageUrl },
       { property: 'og:type', content: 'article' },
-      { property: 'article:published_time', content: '2025-01-15T09:00:00Z' },
+      { property: 'article:published_time', content: `${publishedDate}T09:00:00Z` },
       { property: 'article:author', content: 'SensEar Team' },
       { property: 'article:section', content: 'Insights' }
     ];
@@ -115,9 +120,9 @@ export default function ThreeReasonsMakeMusicHospitality() {
     // Twitter Card tags
     const twitterTags = [
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'Why Music Belongs in Luxury Hospitality Marketing' },
+      { name: 'twitter:title', content: pageTitle },
       { name: 'twitter:description', content: description },
-      { name: 'twitter:image', content: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7e961365e_e56c8a322bf8043723ba7e215cf5e636.jpg' }
+      { name: 'twitter:image', content: imageUrl }
     ];
 
     twitterTags.forEach(tag => {
@@ -148,9 +153,9 @@ export default function ThreeReasonsMakeMusicHospitality() {
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "Three reasons to make music part of your luxury hospitality strategy",
+        "headline": "Τρεις λόγοι να εντάξετε τη μουσική στη στρατηγική luxury φιλοξενίας σας",
         "description": description,
-        "image": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7e961365e_e56c8a322bf8043723ba7e215cf5e636.jpg",
+        "image": imageUrl,
         "author": {
           "@type": "Organization",
           "name": "SensEar"
@@ -163,11 +168,11 @@ export default function ThreeReasonsMakeMusicHospitality() {
             "url": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg"
           }
         },
-        "datePublished": "2025-01-15",
-        "dateModified": "2025-01-15",
+        "datePublished": publishedDate,
+        "dateModified": publishedDate,
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://sensear.music/three-reasons-make-music-hospitality"
+          "@id": pageUrl
         }
       },
       {
@@ -189,8 +194,8 @@ export default function ThreeReasonsMakeMusicHospitality() {
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Three reasons to make music part of your luxury hospitality strategy",
-            "item": "https://sensear.music/three-reasons-make-music-hospitality"
+            "name": "Τρεις λόγοι να εντάξετε τη μουσική στη στρατηγική luxury φιλοξενίας σας",
+            "item": pageUrl
           }
         ]
       }
@@ -243,29 +248,29 @@ export default function ThreeReasonsMakeMusicHospitality() {
 
       <article>
         {/* Hero Section - Two Column Layout */}
-        <section className="relative pt-32 pb-32 min-h-[90vh] flex flex-col justify-center overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Three Reasons Make Music Hospitality section">
+        <section className="relative pt-32 pb-32 min-h-[90vh] flex flex-col justify-center overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Τρεις λόγοι να εντάξετε τη μουσική στη στρατηγική luxury φιλοξενίας σας">
           <div className="w-full px-6 md:px-12 lg:px-16">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Left Column: H1 */}
               <div className="flex flex-col justify-center text-left">
                 <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                  <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Three reasons to make music</span>
-                  <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">part of your luxury hospitality strategy</span>
+                  <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Τρεις λόγοι να εντάξετε τη μουσική</span>
+                  <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">στη στρατηγική luxury φιλοξενίας σας</span>
                 </h1>
                 <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2 mb-6">
-                  Why curated music is a practical way to shape how guests feel, what they remember, and how they spend.
+                  Γιατί η επιμελημένη μουσική είναι ένας πρακτικός τρόπος να διαμορφώνετε το πώς νιώθουν οι επισκέπτες, τι θυμούνται και πώς ξοδεύουν.
                 </p>
                 <div className="flex items-center gap-6 text-sm text-black/60 slide-up-2">
                   <div className="flex items-center gap-2">
                     <Calendar className="w-4 h-4" aria-hidden="true" />
-                    <time dateTime="2025-01-15">January 15, 2025</time>
+                    <time dateTime="2025-01-15">15 Ιανουαρίου 2025</time>
                   </div>
                   <div className="flex items-center gap-2">
                     <User className="w-4 h-4" aria-hidden="true" />
-                    <span>SensEar Team</span>
+                    <span>Ομάδα SensEar</span>
                   </div>
                   <div className="text-black/50">
-                    <span>8 min read</span>
+                    <span>8 λεπτά ανάγνωσης</span>
                   </div>
                 </div>
               </div>
@@ -291,68 +296,72 @@ export default function ThreeReasonsMakeMusicHospitality() {
         <div className="max-w-5xl mx-auto px-6 py-16">
           <section className="prose prose-lg max-w-none bg-white p-8 md:p-12 shadow-lg mb-12">
             <h2 className="text-2xl font-bold text-black mb-8">
-              Short take: curated music is a practical way to shape how guests feel, what they remember, and how they spend
+              Σύντομη εκδοχή
             </h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Most leading luxury hotel brands treat the experience as a complete design system. Every decision is considered, from architecture to materials to the sound in each space.
+              Η επιμελημένη μουσική είναι ένας πρακτικός τρόπος να επηρεάζετε το συναίσθημα των επισκεπτών, τη μνήμη που δημιουργούν και τη συμπεριφορά τους στον χώρο.
+            </p>
+
+            <p className="text-black/80 leading-relaxed mb-6">
+              Τα κορυφαία luxury ξενοδοχειακά brands αντιμετωπίζουν την εμπειρία ως ένα ολοκληρωμένο σύστημα σχεδιασμού. Κάθε απόφαση μετρά: από την αρχιτεκτονική και τα υλικά, μέχρι τον ήχο σε κάθε χώρο.
             </p>
 
             <blockquote className="border-l-4 border-black pl-6 italic text-black/80 my-8">
-              "Music design has become a vital component for luxury brands that want to stand out."
+              "Ο σχεδιασμός μουσικής έχει εξελιχθεί σε βασικό στοιχείο για luxury brands που θέλουν να ξεχωρίσουν."
             </blockquote>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Consider W Hotels, or The Standard Hotels. Location choices, interior design, and the playlists heard across their venues are intentional choices that support a distinctive identity.
+              Χαρακτηριστικά παραδείγματα είναι τα W Hotels και τα The Standard Hotels. Η επιλογή τοποθεσίας, ο εσωτερικός σχεδιασμός και οι playlists που ακούγονται στους χώρους τους αποτελούν συνειδητές αποφάσεις που στηρίζουν μια ξεκάθαρη ταυτότητα.
             </p>
 
             <p className="text-black/80 leading-relaxed mb-8">
-              In recent years, more luxury brands have added music design to the core toolkit for guest engagement, atmosphere, and brand stature.
+              Τα τελευταία χρόνια, όλο και περισσότερα luxury brands εντάσσουν τον μουσικό σχεδιασμό στον βασικό τους εξοπλισμό για engagement, ατμόσφαιρα και brand κύρος.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Music and the guest experience</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Μουσική και εμπειρία επισκέπτη</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Music is a direct, cost-effective way to set mood and connect with your target audience. The right selections align with guest values, taste, and expectations.
+              Η μουσική είναι ένας άμεσος και οικονομικά αποδοτικός τρόπος να ορίσετε τη διάθεση και να συνδεθείτε με το κοινό σας. Οι σωστές επιλογές ευθυγραμμίζονται με τις αξίες, το γούστο και τις προσδοκίες των επισκεπτών.
             </p>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              <a href="https://academic.oup.com/jcr/article-abstract/13/2/286/1846377" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Slow background music</a> can lengthen dwell and lift sales in certain contexts, while <a href="https://www.deepdyve.com/lp/sage/using-background-music-to-affect-the-behavior-of-supermarket-shoppers-0MSfbyjTU0" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">faster tempos</a> help accelerate pace when turnover is a priority. Music can also alter <a href="https://www.sciencedirect.com/science/article/pii/S014829639900003X" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">perceived time</a> and influence evaluations of the environment and merchandise, which is useful for <a href="https://journals.sagepub.com/doi/pdf/10.1177/00222437221150930" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">managing service flow</a> and guest satisfaction.
+              <a href="https://academic.oup.com/jcr/article-abstract/13/2/286/1846377" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Αργή μουσική υπόκρουση</a> μπορεί να αυξήσει τον χρόνο παραμονής και τις πωλήσεις σε συγκεκριμένα περιβάλλοντα, ενώ <a href="https://www.deepdyve.com/lp/sage/using-background-music-to-affect-the-behavior-of-supermarket-shoppers-0MSfbyjTU0" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πιο γρήγοροι ρυθμοί</a> βοηθούν στην επιτάχυνση της ροής όταν η εναλλαγή είναι προτεραιότητα. Η μουσική επηρεάζει επίσης την <a href="https://www.sciencedirect.com/science/article/pii/S014829639900003X" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">αντίληψη του χρόνου</a> και τον τρόπο που αξιολογείται το περιβάλλον και τα προϊόντα, κάτι ιδιαίτερα χρήσιμο για τη <a href="https://journals.sagepub.com/doi/pdf/10.1177/00222437221150930" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">διαχείριση του service</a> και της ικανοποίησης των επισκεπτών.
             </p>
 
             <blockquote className="border-l-4 border-black pl-6 italic text-black/80 my-8">
-              "Done with care, music is a simple way to improve the guest experience. A well-curated playlist lets a brand connect on a deeper emotional level."
+              "Όταν γίνεται με φροντίδα, η μουσική είναι ένας απλός τρόπος να βελτιωθεί η εμπειρία του επισκέπτη. Μια σωστά επιμελημένη playlist επιτρέπει στο brand να συνδεθεί σε βαθύτερο συναισθηματικό επίπεδο."
             </blockquote>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Music and brand identity</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Μουσική και ταυτότητα brand</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Sound is part of brand memory. Consistent musical choices make a space feel on-brand and recognizable, the same way color, typography, and materials do. <a href="https://www.sciencedirect.com/science/article/pii/S0001691824002105" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Research in marketing and consumer psychology</a> shows that sonic branding and music cues can shape recall, perceived fit, and purchase intent. Aligning playlists with the environment and the brand's desired feel creates a <a href="https://etheses.whiterose.ac.uk/id/eprint/22404/1/Wong%202018%20-%20Sound%20Branding%20-%20FINAL%20DEC%202018.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">competitive edge</a> that generic background music cannot match.
+              Ο ήχος αποτελεί μέρος της μνήμης του brand. Σταθερές μουσικές επιλογές κάνουν έναν χώρο αναγνωρίσιμο, όπως ακριβώς το χρώμα, η τυπογραφία και τα υλικά. <a href="https://www.sciencedirect.com/science/article/pii/S0001691824002105" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Έρευνες στο marketing και την ψυχολογία καταναλωτή</a> δείχνουν ότι το sonic branding και τα μουσικά cues επηρεάζουν την ανάκληση, την αίσθηση «ταιριάσματος» και την πρόθεση αγοράς. Όταν οι playlists ευθυγραμμίζονται με το περιβάλλον και το επιθυμητό συναίσθημα του brand, δημιουργείται <a href="https://etheses.whiterose.ac.uk/id/eprint/22404/1/Wong%202018%20-%20Sound%20Branding%20-%20FINAL%20DEC%202018.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">ανταγωνιστικό πλεονέκτημα</a> που η γενική background μουσική δεν μπορεί να προσφέρει.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Music and employee productivity</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Μουσική και παραγωγικότητα προσωπικού</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Music also affects staff. <a href="https://hbr.org/2022/09/can-music-make-you-more-productive" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Reviews and practitioner summaries</a> suggest that background music can improve mood regulation and short-term performance on certain tasks, which is why clear listening policies and curation by daypart matter. <a href="https://cloudcovermusic.com/research/music-at-work-research" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Industry research</a> echoes this perception, with large shares of employees reporting they work better with appropriate music in the background.
+              Η μουσική επηρεάζει και το προσωπικό. <a href="https://hbr.org/2022/09/can-music-make-you-more-productive" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Αξιολογήσεις και επαγγελματικές μελέτες</a> δείχνουν ότι η κατάλληλη μουσική υπόκρουση μπορεί να βελτιώσει τη διάθεση και τη βραχυπρόθεσμη απόδοση σε συγκεκριμένες εργασίες. Γι’ αυτό είναι κρίσιμες οι ξεκάθαρες πολιτικές ακρόασης και η επιμέλεια ανά ώρα της ημέρας. <a href="https://cloudcovermusic.com/research/music-at-work-research" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Έρευνες του κλάδου</a> επιβεβαιώνουν αυτή την εικόνα, με μεγάλο ποσοστό εργαζομένων να δηλώνει ότι αποδίδει καλύτερα όταν η μουσική στο περιβάλλον είναι σωστά επιλεγμένη.
             </p>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              <Link to={createPageUrl("sonic-strategy")} className="text-black underline hover:text-black/70 font-semibold">Music design</Link> belongs alongside visual and olfactory design in luxury hospitality. It enhances guest experience, can support sales and revenue outcomes, and contributes to higher employee morale and productivity. <a href="https://academic.oup.com/jcr/article-abstract/13/2/286/1846377" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Studies in retail and restaurants</a> show that getting tempo and style right changes pace, time perception, and spend, which <a href="https://www.sciencedirect.com/science/article/pii/S014829639900003X" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">translates well to luxury venues</a> when applied with care.
+              Ο <Link to={createPageUrl("sonic-strategy")} className="text-black underline hover:text-black/70 font-semibold">μουσικός σχεδιασμός</Link> ανήκει δίπλα στον οπτικό και τον οσφρητικό σχεδιασμό στη luxury φιλοξενία. Ενισχύει την εμπειρία επισκέπτη, μπορεί να στηρίξει έσοδα και πωλήσεις, και συμβάλλει σε υψηλότερο ηθικό και παραγωγικότητα του προσωπικού. <a href="https://academic.oup.com/jcr/article-abstract/13/2/286/1846377" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Μελέτες σε retail και εστιατόρια</a> δείχνουν ότι ο σωστός ρυθμός και το σωστό ύφος επηρεάζουν τον ρυθμό κίνησης, την αντίληψη του χρόνου και τη δαπάνη. Όταν εφαρμόζονται με φροντίδα, αυτά τα ευρήματα <a href="https://www.sciencedirect.com/science/article/pii/S014829639900003X" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">μεταφράζονται εξαιρετικά</a> και σε luxury χώρους.
             </p>
 
             <p className="text-black/80 leading-relaxed">
-              See what <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70 font-semibold">curated music</Link> can do for your brand. <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70 font-semibold">Start here</Link>.
+              Δείτε τι μπορεί να κάνει η <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70 font-semibold">επιμελημένη μουσική</Link> για το brand σας. <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70 font-semibold">Ξεκινήστε εδώ</Link>.
             </p>
           </section>
 
           <footer className="mt-16 pt-8 border-t border-black/10 flex flex-col items-center text-center">
-            <h2 className="text-2xl font-bold mb-4">Ready to elevate your hospitality brand?</h2>
+            <h2 className="text-2xl font-bold mb-4">Έτοιμοι να αναβαθμίσετε το hospitality brand σας;</h2>
             <p className="text-black/70 mb-6">
-              Discover how SensEar can help you create a signature sound that defines your brand and delights your guests.
+              Ανακαλύψτε πώς η SensEar μπορεί να σας βοηθήσει να δημιουργήσετε έναν signature ήχο που ορίζει το brand σας και ενθουσιάζει τους επισκέπτες.
             </p>
             <Link to={createPageUrl("contact")}>
               <AnimatedButton aria-label="Start Your Sound Journey">
-                Start Your Sound Journey
+                Ξεκινήστε το ηχητικό σας ταξίδι
               </AnimatedButton>
             </Link>
           </footer>
@@ -361,7 +370,7 @@ export default function ThreeReasonsMakeMusicHospitality() {
             <Link to={createPageUrl("Blog")}>
               <Button variant="outline" className="bg-transparent border-black text-black hover:bg-black hover:text-white">
                 <ArrowLeft className="w-4 h-4 mr-2" aria-hidden="true" />
-                Back to Articles
+                Επιστροφή στα άρθρα
               </Button>
             </Link>
           </nav>
