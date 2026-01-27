@@ -307,29 +307,29 @@ export default function Home() {
             {/* Left Column: H1 and CTA */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                Soundtracking <br />Unique Experiences
+                Μουσική επιμέλεια <br />για ξεχωριστές εμπειρίες
               </h1>
               
               <div className="mb-8 max-w-xl slide-up-2">
                   <p className="text-lg sm:text-xl md:text-2xl text-black/65 leading-relaxed">
-                    Every venue has a story.
+                    Κάθε χώρος έχει τη δική του ιστορία.
                   </p>
                   <p className="text-lg sm:text-xl md:text-2xl text-black/65 leading-relaxed">
-                    Let music tell yours.
+                    Αφήστε τη μουσική να την αφηγηθεί.
                   </p>
                 <p className="text-lg sm:text-xl md:text-2xl text-black/65 leading-relaxed">
-                  Sophisticated music curation services for places and experiences that "refuse" to sound generic.
+                  Εξειδικευμένη μουσική επιμέλεια με χαρακτήρα, για χώρους και εμπειρίες που ξεφεύγουν από τα συνηθισμένα.
                 </p>
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4 mb-12 slide-up-3">
                 <Link to={createPageUrl("Services")}>
-                  <AnimatedButton className="w-full sm:w-auto h-14" aria-label="Explore our services">
+                  <AnimatedButton className="w-full sm:w-auto h-14" aria-label="Ανακαλύψτε τις υπηρεσίες μας">
                     <span className="relative inline-flex items-center mr-2 align-middle">
                       <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e5fb8532d_sensear-logo-avatar-color1.png" className="w-10 h-10 object-contain group-hover:hidden" alt="" />
                       <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/7a2f42e1a_sensear-logo-avatar-white-transparent1.png" className="w-10 h-10 object-contain hidden group-hover:block" alt="" />
                     </span>
-                    Explore our services
+                    Ανακαλύψτε τις υπηρεσίες μας
                   </AnimatedButton>
                 </Link>
               </div>
@@ -357,15 +357,15 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
               <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-white leading-tight mb-12">
-                Who we are
+                Ποιοι είμαστε
               </h2>
             
               <div className="w-full text-center">
                 <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                  We are a team of passionate <strong><em>music experts</em></strong> who create <strong><em>soundtracks for venues</em></strong> through <strong><em>music</em></strong> that is <strong><em>intentional</em></strong>, <strong><em>immersive</em></strong> & <strong><em>memorable</em></strong>.
+                  Είμαστε μια ομάδα ειδικών στον ήχο με βαθιά μουσική κουλτούρα, που επενδύει χώρους και εκδηλώσεις με στοχευμένη, βιωματική μουσική που μένει στη μνήμη.
                 </p>
                 <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                  Our core belief is that music shapes <strong>atmosphere</strong>, influences <strong>behaviour</strong> and builds lasting <strong>connections</strong> with guests.
+                  Η μουσική, για εμάς, διαμορφώνει την ατμόσφαιρα, επηρεάζει τη συμπεριφορά και ενισχύει τη σύνδεση με τους επισκέπτες.
                 </p>
               </div>
           </div>
@@ -376,10 +376,10 @@ export default function Home() {
       <section className="py-24" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="services-heading">
         <div className="max-w-7xl mx-auto px-6">
             <h2 id="services-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4 text-center">
-                Four ways we reimagine venues
+                Τέσσερις τρόποι με τους οποίους επαναπροσδιορίζουμε τους χώρους
             </h2>
             <p className="text-xl text-black/60 font-medium mb-12 text-center max-w-5xl mx-auto">
-                Our music services shape behaviour, create atmosphere and build loyalty through sound.
+                Οι μουσικές μας υπηρεσίες διαμορφώνουν τον τρόπο που βιώνεται ο χώρος, δημιουργούν ατμόσφαιρα και καλλιεργούν σύνδεση με το brand σας, μέσα από τη μουσική και τον ήχο.
             </p>
             <article role="listitem">
                 <div className="grid md:grid-cols-[1fr_1.2fr] gap-12 items-center">
@@ -389,44 +389,44 @@ export default function Home() {
                             {/* Service 1 */}
                             <div className="mb-8">
                                 <Link to={createPageUrl("signature-playlists")} className="text-[31.5px] font-bold text-black block mb-2 group w-fit">
-                                    <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Signature Playlists</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                    <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Επιμελημένες playlists</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                 </Link>
                                 <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                                    Your daily soundtrack, from morning energy to evening atmosphere.
+                                    Η καθημερινή μουσική ταυτότητα του χώρου σας, προσαρμοσμένη στη ροή της ημέρας.
                                 </p>
                             </div>
                             {/* Service 2 */}
                             <div className="mb-8">
                                 <Link to={createPageUrl("event-soundtracks")} className="text-[31.5px] font-bold text-black block mb-2 group w-fit">
-                                    <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Event Soundtracks</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                    <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Ηχητική επιμέλεια εκδηλώσεων</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                 </Link>
                                 <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                                    Exclusive playlists & DJ sets for launches, conferences & celebrations.
+                                    Μουσικά soundtracks και DJ sets που δίνουν συνοχή και χαρακτήρα σε κάθε εκδήλωση.
                                 </p>
                             </div>
                             {/* Service 3 */}
                             <div className="mb-4">
                                 <Link to={createPageUrl("sonic-strategy")} className="text-xl font-bold text-black block mb-1 group w-fit">
-                                    <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Sonic Strategy</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                    <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Σχεδιασμός ηχητικής ταυτότητας</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                 </Link>
                                 <p className="text-[17px] text-black/70 leading-relaxed">
-                                    Your music identity, unified across all locations & communication channels.
+                                    Ένα ξεκάθαρο ηχητικό πλαίσιο για όλους τους χώρους και τα κανάλια επικοινωνίας σας.
                                 </p>
                             </div>
                             {/* Service 4 */}
                             <div>
                                 <Link to={createPageUrl("audio-upgrades")} className="text-xl font-bold text-black block mb-1 group w-fit">
-                                    <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Audio Upgrades</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                    <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Ακουστική αναβάθμιση</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                 </Link>
                                 <p className="text-[17px] text-black/70 leading-relaxed">
-                                    Acoustic refinement & support for crystal-clear, memorable sound.
+                                    Προτάσεις για βελτιώσεις και υποστήριξη για τον χώρου σας, για καθαρό, ισορροπημένο ήχο.
                                 </p>
                             </div>
                         </div>
                         
                         <Link to={createPageUrl("Services")}>
-                            <AnimatedButton aria-label="Explore all services">
-                                Explore all services
+                            <AnimatedButton aria-label="Εξερευνήστε τις υπηρεσίες μας">
+                                Εξερευνήστε τις υπηρεσίες μας
                             </AnimatedButton>
                         </Link>
                     </div>
@@ -447,10 +447,10 @@ export default function Home() {
       <section className="py-24 animated-gradient">
         <div className="max-w-7xl mx-auto px-6">
             <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4 text-center">
-                Your world, our expertise
+                Ο κόσμος σας, η εξειδίκευσή μας
             </h2>
             <p className="text-xl text-black/60 font-medium mb-12 text-center mx-auto max-w-5xl">
-                We understand how rhythm, energy & atmosphere influence the hospitality experience.
+                Κατανοούμε πώς ο ρυθμός, η ενέργεια και η ατμόσφαιρα διαμορφώνουν την ελληνική εμπειρία φιλοξενίας.
             </p>
             <div className="grid md:grid-cols-[1.2fr_1fr] gap-20 items-center">
                 {/* Left: Image */}
@@ -467,58 +467,58 @@ export default function Home() {
                     <div className="flex flex-col mb-12">
                         <div className="mb-8">
                             <Link to={createPageUrl("music-for-hotels-and-resorts")} className="text-[31.5px] font-bold text-black block mb-2 group w-fit" aria-label="Music for Hotels & Resorts">
-                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Hotels & Resorts</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Ξενοδοχεία & Θέρετρα</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </Link>
                             <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                                Music for every time of day and area.
+                                Μουσική για κάθε ώρα της ημέρας και κάθε χώρο.
                             </p>
                         </div>
                         <div className="mb-8">
                             <Link to={createPageUrl("music-for-restaurants-and-bars")} className="text-[31.5px] font-bold text-black block mb-2 group w-fit" aria-label="Music for Restaurants & Bars">
-                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Restaurants & Bars</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Εστιατόρια & Bar</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </Link>
                             <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                                Match your service flow, keep guests longer.
+                                Ήχος που ακολουθεί τον ρυθμό του service και κρατά τους επισκέπτες περισσότερο.
                             </p>
                         </div>
                         <div className="mb-8">
                             <Link to={createPageUrl("music-for-events-and-experiences")} className="text-[31.5px] font-bold text-black block mb-2 group w-fit" aria-label="Music for Events">
-                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Events & Experiences</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Εκδηλώσεις & Εμπειρίες</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </Link>
                             <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                                Impactful, time-based, natural track changes.
+                                Μουσικές μεταβάσεις με ακρίβεια, ροή και φυσικό timing.
                             </p>
                         </div>
 
                         <div className="mb-8">
                             <Link to={createPageUrl("music-for-retail-stores")} className="text-[31.5px] font-bold text-black block mb-2 group w-fit" aria-label="Music for Retail Stores">
-                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Retail Stores</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Καταστήματα λιανικής</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </Link>
                             <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                                Promote browsing and brand identity.
+                                Μουσική που ενισχύει την περιήγηση και την ταυτότητα του brand.
                             </p>
                         </div>
                         <div className="mb-8">
                             <Link to={createPageUrl("music-for-wellness-and-gyms")} className="text-[31.5px] font-bold text-black block mb-2 group w-fit" aria-label="Music for Wellness & Gyms">
-                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Wellness & Gyms</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Wellness & Γυμναστήρια</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </Link>
                             <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                                Calibrated for relaxation, focus or motivation.
+                                Ήχος προσαρμοσμένος στη χαλάρωση, τη συγκέντρωση ή την ενέργεια.
                             </p>
                         </div>
                         <div>
                             <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="text-[31.5px] font-bold text-black block mb-2 group w-fit" aria-label="Music for Art, Museums & Fashion">
-                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Art, Museums & Fashion</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                <span className="group-hover:translate-x-1 group-hover:underline transition-transform inline-block decoration-1 underline-offset-4">Τέχνη, Μουσεία & Μόδα</span> <ArrowRight className="inline ml-2 w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </Link>
                             <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                                Smooth, precise, unobtrusive melodies.
+                                Διακριτικές, ακριβείς μουσικές επιλογές που σέβονται τον χώρο και το έργο.
                             </p>
                         </div>
                     </div>
                     
                     <Link to={createPageUrl("Industries")}>
                         <AnimatedButton>
-                            Find your industry
+                            Δείτε τον κλάδο που σας αφορά
                         </AnimatedButton>
                     </Link>
                 </div>
@@ -530,10 +530,10 @@ export default function Home() {
       <section className="py-24" style={{ backgroundImage: "linear-gradient(to bottom, #ffffff 0%, rgba(255,255,255,0) 15%), url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="enhance-heading">
         <div className="max-w-7xl mx-auto px-6">
           <h2 id="enhance-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center mb-4 text-black">
-            How we redefine your venue
+            Πώς επαναπροσδιορίζουμε τον χώρο σας
           </h2>
           <p className="text-xl text-black/60 font-medium mb-12 text-center max-w-5xl mx-auto">
-            Innovative sound design that works as intentionally as every other aspect of your business.
+            Στρατηγικός σχεδιασμός ήχου που λειτουργεί με την ίδια πρόθεση και ακρίβεια όπως κάθε άλλο στοιχείο της επιχείρησής σας.
           </p>
           
           <div className="grid md:grid-cols-[1fr_1.2fr] gap-12 items-center">
@@ -542,27 +542,27 @@ export default function Home() {
                 <div className="space-y-10 mb-12" role="list">
                   <article role="listitem" className="flex gap-4">
                     <div>
-                        <h3 className="text-[31.5px] font-bold text-black mb-2">Brand elevation</h3>
+                        <h3 className="text-[31.5px] font-bold text-black mb-2">Αναβάθμιση του brand</h3>
                         <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                        Improve brand perception & loyalty with a memorable ambiance.
+                        Ενισχύστε την εικόνα και την αξία του brand σας μέσα από μια ατμόσφαιρα που μένει στη μνήμη.
                         </p>
                     </div>
                   </article>
 
                   <article role="listitem" className="flex gap-4">
                     <div>
-                        <h3 className="text-[31.5px] font-bold text-black mb-2">Maximum control</h3>
+                        <h3 className="text-[31.5px] font-bold text-black mb-2">Απόλυτος έλεγχος</h3>
                         <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                        Take full control of your venue's music style, flow & sound levels.
+                        Έχετε πλήρη έλεγχο στο μουσικό ύφος, τη ροή και τα επίπεδα έντασης του ήχου.
                         </p>
                     </div>
                   </article>
 
                   <article role="listitem" className="flex gap-4">
                     <div>
-                        <h3 className="text-[31.5px] font-bold text-black mb-2">Consistent experience</h3>
+                        <h3 className="text-[31.5px] font-bold text-black mb-2">Συνεπής εμπειρία</h3>
                         <p className="text-lg md:text-xl text-black/60 leading-relaxed">
-                        Ensure a smooth music journey across locations & marketing channels.
+                        Εξασφαλίζετε ένα ενιαίο μουσικό ταξίδι σε όλους τους χώρους και τα κανάλια επικοινωνίας σας.
                         </p>
                     </div>
                   </article>
@@ -570,7 +570,7 @@ export default function Home() {
 
                 <Link to={createPageUrl("case-studies")} aria-label="Music curation case studies">
                     <AnimatedButton>
-                        View Case Studies
+                        Δείτε τα Case Studies
                     </AnimatedButton>
                 </Link>
             </div>
@@ -589,7 +589,10 @@ export default function Home() {
       {/* Trusted By Section */}
       <section className="py-24 bg-black overflow-hidden" aria-labelledby="clients-heading">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 id="clients-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center mb-20 text-white">Now playing in venues across Greece</h2>
+          <h2 id="clients-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-center mb-10 text-white">Χώροι που μας εμπιστεύονται για τη μουσική τους</h2>
+          <p className="text-xl text-white/80 font-medium mb-20 text-center mx-auto max-w-5xl">
+            Χώροι σε Αθήνα και Αιγαίο μας εμπιστεύονται για τη μουσική τους, επιλέγοντας ήχο με χαρακτήρα και συνέπεια.
+          </p>
 
           
           <div className="relative">
@@ -599,7 +602,7 @@ export default function Home() {
                   <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b8c4f5bc6_Klouvi-Bar_final.jpg" alt="Klouvi Bar logo" className="max-w-full max-h-full object-contain" />
                 </div>
                 <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Klouvi Bar</p>
-                <p className="text-sm text-white/60 mt-1">Athens</p>
+                <p className="text-sm text-white/60 mt-1">Αθήνα</p>
               </div>
               
               <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
@@ -607,7 +610,7 @@ export default function Home() {
                   <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/17f736607_Blue-Bamboo_final.jpg" alt="Blue Bamboo logo" className="max-w-full max-h-full object-contain" />
                 </div>
                 <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Blue Bamboo</p>
-                <p className="text-sm text-white/60 mt-1">Athens-Serifos</p>
+                <p className="text-sm text-white/60 mt-1">Αθήνα - Σέριφος</p>
               </div>
               
               <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
@@ -615,7 +618,7 @@ export default function Home() {
                   <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/730cfd91d_Beach-House_final.jpg" alt="Beach House logo" className="max-w-full max-h-full object-contain" />
                 </div>
                 <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Beach House</p>
-                <p className="text-sm text-white/60 mt-1">Antiparos</p>
+                <p className="text-sm text-white/60 mt-1">Αντίπαρος</p>
               </div>
               
               <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
@@ -623,7 +626,7 @@ export default function Home() {
                   <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fc48e3d65_Pelicanos_final.jpg" alt="Pelicanos logo" className="max-w-full max-h-full object-contain" />
                 </div>
                 <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Pelicanos</p>
-                <p className="text-sm text-white/60 mt-1">Sifnos</p>
+                <p className="text-sm text-white/60 mt-1">Σίφνος</p>
               </div>
               
               <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
@@ -631,7 +634,7 @@ export default function Home() {
                   <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/65422bc1d_fav.png" alt="Yam logo" className="max-w-full max-h-full object-contain" />
                 </div>
                 <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Yam</p>
-                <p className="text-sm text-white/60 mt-1">Antiparos</p>
+                <p className="text-sm text-white/60 mt-1">Αντίπαρος</p>
               </div>
               
               <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
@@ -639,7 +642,7 @@ export default function Home() {
                   <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/b8c4f5bc6_Klouvi-Bar_final.jpg" alt="Klouvi Bar logo" className="max-w-full max-h-full object-contain" />
                 </div>
                 <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Klouvi Bar</p>
-                <p className="text-sm text-white/60 mt-1">Athens</p>
+                <p className="text-sm text-white/60 mt-1">Αθήνα</p>
               </div>
               
               <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
@@ -647,7 +650,7 @@ export default function Home() {
                   <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/17f736607_Blue-Bamboo_final.jpg" alt="Blue Bamboo logo" className="max-w-full max-h-full object-contain" />
                 </div>
                 <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Blue Bamboo</p>
-                <p className="text-sm text-white/60 mt-1">Athens-Serifos</p>
+                <p className="text-sm text-white/60 mt-1">Αθήνα - Σέριφος</p>
               </div>
               
               <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
@@ -655,7 +658,7 @@ export default function Home() {
                   <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/730cfd91d_Beach-House_final.jpg" alt="Beach House logo" className="max-w-full max-h-full object-contain" />
                 </div>
                 <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Beach House</p>
-                <p className="text-sm text-white/60 mt-1">Antiparos</p>
+                <p className="text-sm text-white/60 mt-1">Αντίπαρος</p>
               </div>
               
               <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
@@ -663,7 +666,7 @@ export default function Home() {
                   <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/fc48e3d65_Pelicanos_final.jpg" alt="Pelicanos logo" className="max-w-full max-h-full object-contain" />
                 </div>
                 <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Pelicanos</p>
-                <p className="text-sm text-white/60 mt-1">Sifnos</p>
+                <p className="text-sm text-white/60 mt-1">Σίφνος</p>
               </div>
               
               <div className="flex-shrink-0 text-center" style={{ width: '180px' }}>
@@ -671,7 +674,7 @@ export default function Home() {
                   <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/65422bc1d_fav.png" alt="Yam logo" className="max-w-full max-h-full object-contain" />
                 </div>
                 <p className="text-lg font-semibold text-white/90 tracking-widest uppercase">Yam</p>
-                <p className="text-sm text-white/60 mt-1">Antiparos</p>
+                <p className="text-sm text-white/60 mt-1">Αντίπαρος</p>
               </div>
             </div>
           </div>
@@ -682,9 +685,9 @@ export default function Home() {
       <section className="py-24 bg-white" aria-labelledby="blog-heading">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 id="blog-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">Our blog: The curation journal</h2>
+            <h2 id="blog-heading" className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">Το περιοδικό της Μουσικής Επιμέλειας</h2>
             <p className="text-xl text-black/60 font-medium max-w-5xl mx-auto">
-              Read how music shapes perception, emotion and brand identity through sound.
+              Διαβάστε πώς η μουσική διαμορφώνει την αντίληψη, το συναίσθημα και την ταυτότητα των brands μέσα από τον ήχο.
             </p>
           </div>
 
@@ -702,13 +705,13 @@ export default function Home() {
                   <div className="p-6">
                     <Badge className="mb-3 bg-black/5 text-black border-black/10 hover:bg-black/5">Insights</Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      Three reasons music matters in hospitality
+                      Τρεις λόγοι που η μουσική έχει σημασία στη φιλοξενία
                     </h3>
                     <p className="text-black/70 mb-4 leading-relaxed">
-                      Curated music is a practical way to shape how guests feel, what they remember and how they spend.
+                      Η επιμελημένη μουσική είναι ένας πρακτικός τρόπος να διαμορφώνεται το πώς νιώθουν οι επισκέπτες, τι θυμούνται και πώς κινούνται στον χώρο.
                     </p>
                     <div className="inline-flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
-                      <span>Read More</span>
+                      <span>Διαβάστε περισσότερα</span>
                       <ArrowRight className="ml-2 w-4 h-4" />
                     </div>
                   </div>
@@ -729,13 +732,13 @@ export default function Home() {
                   <div className="p-6">
                     <Badge className="mb-3 bg-black/5 text-black border-black/10 hover:bg-black/5">Research</Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      How brand-fit music converts browsers into buyers
+                      Πώς η μουσική που ταιριάζει στο brand μετατρέπει επισκέπτες σε πελάτες
                     </h3>
                     <p className="text-black/70 mb-4 leading-relaxed">
-                      Evidence-based research shows how brand-aligned music boosts revenues in hospitality venues.
+                      Έρευνες δείχνουν πώς η σωστά ευθυγραμμισμένη μουσική αυξάνει τα έσοδα σε χώρους φιλοξενίας.
                     </p>
                     <div className="inline-flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
-                      <span>Read More</span>
+                      <span>Διαβάστε περισσότερα</span>
                       <ArrowRight className="ml-2 w-4 h-4" />
                     </div>
                   </div>
@@ -756,13 +759,13 @@ export default function Home() {
                   <div className="p-6">
                     <Badge className="mb-3 bg-black/5 text-black border-black/10 hover:bg-black/5">Education</Badge>
                     <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black/80 transition-colors">
-                      What exactly does a music curator do?
+                      Τι ακριβώς κάνει ένας music curator;
                     </h3>
                     <p className="text-black/70 mb-4 leading-relaxed">
-                      Learn how professional music curators architect brand soundtracks through strategic curation and data-driven sonic branding.
+                      Μάθετε πώς επαγγελματίες music curators σχεδιάζουν μουσικές ταυτότητες μέσα από στρατηγική επιμέλεια και δεδομένα.
                     </p>
                     <div className="inline-flex items-center text-black font-medium group-hover:translate-x-2 transition-transform">
-                      <span>Read More</span>
+                      <span>Διαβάστε περισσότερα</span>
                       <ArrowRight className="ml-2 w-4 h-4" />
                     </div>
                   </div>
@@ -774,7 +777,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link to={createPageUrl("Blog")}>
               <AnimatedButton aria-label="SensEar blog on sound and space">
-                Discover more insights
+                Ανακαλύψτε περισσότερα άρθρα
               </AnimatedButton>
             </Link>
           </div>
