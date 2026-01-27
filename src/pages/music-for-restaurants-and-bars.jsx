@@ -21,7 +21,7 @@ export default function RestaurantsBars() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Music for Restaurants & Bars | SensEar";
+    document.title = "Μουσική για Εστιατόρια & Bar | SensEar";
 
     const metaDescription = document.querySelector('meta[name="description"]');
     const description = "Music for Restaurants and Bars that blends naturally with food and service, supporting dining flow, conversation and the overall setting.";
@@ -229,11 +229,11 @@ export default function RestaurantsBars() {
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Music for Restaurants & Bars:</span>
-                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">Designed to blend in with food & service.</span>
+                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Μουσική για Εστιατόρια & Bar:</span>
+                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">Σχεδιασμένη να δένει με το φαγητό και το service</span>
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                Selections that complement taste, timing and setting.
+                Μουσικές επιλογές που συμπληρώνουν τη γεύση, τον χρονισμό και το περιβάλλον.
               </p>
             </div>
 
@@ -260,15 +260,15 @@ export default function RestaurantsBars() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
             <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-12">
-              Atmosphere curated<br />for every service moment
+              Ατμόσφαιρα επιμελημένη<br />για κάθε στιγμή του service
             </h2>
             
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                Music <strong><em>shapes the dining atmosphere</em></strong> as much as décor or lighting.
+                Η μουσική <strong><em>διαμορφώνει την εμπειρία του φαγητού</em></strong> όσο και η διακόσμηση ή ο φωτισμός.
               </p>
               <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                Our music <strong><em>follows your menu & service rhythm</em></strong>, from first orders to last call, becoming <strong><em>part of the delight</em></strong> guests return for.
+                Ο ήχος μας <strong><em>ακολουθεί το μενού και τον ρυθμό του service</em></strong> και γίνεται <strong><em>μέρος της απόλαυσης</em></strong>, χωρίς να αποσπά από το φαγητό ή τη συζήτηση.
               </p>
             </div>
           </div>
@@ -279,8 +279,8 @@ export default function RestaurantsBars() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">What we do</h2>
-            <p className="text-xl text-black/60 font-medium">Restaurant & bar music strategy and implementation</p>
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">Τι κάνουμε</h2>
+            <p className="text-xl text-black/60 font-medium">Σχεδιασμό και υλοποίηση μουσικής για εστιατόρια & bar</p>
           </div>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -295,23 +295,23 @@ export default function RestaurantsBars() {
             {/* Right: Content */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Service-flow playlists</h3>
-                <p className="text-lg text-black/70">Music designed for opening till close, with energy that follows your service's rhythm.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Playlists με βάση τη ροή του service</h3>
+                <p className="text-lg text-black/70">Μουσική σχεδιασμένη από το άνοιγμα έως το κλείσιμο, με ενέργεια που ακολουθεί τον ρυθμό της κουζίνας και της σάλας.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Tempo & volume adjustment</h3>
-                <p className="text-lg text-black/70">Sound levels that let guests talk easily, staff move efficiently & keep a steady, inviting energy.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Ρύθμιση tempo & έντασης</h3>
+                <p className="text-lg text-black/70">Επίπεδα ήχου που επιτρέπουν άνετη συζήτηση, ομαλή κίνηση του προσωπικού και σταθερή, φιλόξενη ενέργεια.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Brand-aligned selections</h3>
-                <p className="text-lg text-black/70">Playlists specific to your concept, that support the experience you want to be known for.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Μουσικές επιλογές ευθυγραμμισμένες με το brand</h3>
+                <p className="text-lg text-black/70">Playlists ειδικά για το concept σας, που υποστηρίζουν την εμπειρία για την οποία θέλετε να σας θυμούνται.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Fresh rotations</h3>
-                <p className="text-lg text-black/70">Regular updates keep music engaging for regulars & staff and maintain your signature sound.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Συχνές ανανεώσεις</h3>
+                <p className="text-lg text-black/70">Τακτικές αλλαγές που κρατούν τη μουσική φρέσκια για τους τακτικούς πελάτες και το προσωπικό, διατηρώντας τον χαρακτήρα σας.</p>
               </div>
             </div>
           </div>
@@ -321,27 +321,27 @@ export default function RestaurantsBars() {
       {/* Restaurant & bar music is ideal for */}
       <section className="py-20" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Restaurant & bar music is ideal for</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Ιδανικό για μουσική εστιατορίων & bar</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Content */}
             <div>
               <ul className="space-y-8 text-lg text-black/70">
                 <li className="block">
-                  <span className="font-semibold text-2xl block mb-1 text-black">Casual & Fine dining venues</span>
-                  <span>that live on repeat guests and atmosphere.</span>
+                  <span className="font-semibold text-2xl block mb-1 text-black">Casual & fine dining εστιατόρια</span>
+                  <span>Που βασίζονται στην ατμόσφαιρα και στους επαναλαμβανόμενους επισκέπτες.</span>
                 </li>
                 <li className="block">
-                  <span className="font-semibold text-2xl block mb-1 text-black">Cocktail & Wine bars</span>
-                  <span>needing the right vibe from aperitivo to last order.</span>
+                  <span className="font-semibold text-2xl block mb-1 text-black">Cocktail & wine bars</span>
+                  <span>Που χρειάζονται τη σωστή διάθεση από το aperitivo έως την τελευταία παραγγελία.</span>
                 </li>
                 <li className="block">
-                  <span className="font-semibold text-2xl block mb-1 text-black">Hotel Restaurants</span>
-                  <span>balancing hotel guests, locals and private events.</span>
+                  <span className="font-semibold text-2xl block mb-1 text-black">Ξενοδοχειακά εστιατόρια</span>
+                  <span>Που εξυπηρετούν τους επισκέπτες τους, locals και ιδιωτικές εκδηλώσεις.</span>
                 </li>
                 <li className="block">
-                  <span className="font-semibold text-2xl block mb-1 text-black">Multi-venue groups</span>
-                  <span>wanting consistent audio identity across locations.</span>
+                  <span className="font-semibold text-2xl block mb-1 text-black">Όμιλοι με πολλαπλούς χώρους</span>
+                  <span>Που θέλουν συνεπή ηχητική ταυτότητα σε όλα τα σημεία.</span>
                 </li>
               </ul>
             </div>
@@ -360,7 +360,7 @@ export default function RestaurantsBars() {
       {/* How we help */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">How we help</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Πώς βοηθάμε</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image (Was How SensEar solves this) */}
@@ -374,33 +374,33 @@ export default function RestaurantsBars() {
             {/* Right: Content */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Build energy on slower nights</h3>
-                <p className="text-lg text-black/70">We create atmospheres where energy comes from sound, not just from guest count.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Χτίζουμε ενέργεια σε ήσυχες βραδιές</h3>
+                <p className="text-lg text-black/70">Δημιουργούμε ατμόσφαιρα όπου η ενέργεια προκύπτει από τον ήχο, όχι μόνο από τον αριθμό των επισκεπτών.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Guide pace & orders naturally</h3>
-                <p className="text-lg text-black/70">We calibrate sound so tables may order another round or dessert when the moment feels right.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Καθοδηγούμε φυσικά τον ρυθμό και τις παραγγελίες</h3>
+                <p className="text-lg text-black/70">Ρυθμίζουμε τον ήχο ώστε το επόμενο ποτό ή επιδόρπιο να έρχεται τη σωστή στιγμή.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Match your concept exactly</h3>
-                <p className="text-lg text-black/70">Music, interiors & service finally tell the same story, so your bistro sounds as authentic as it tastes.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Ταιριάζουμε απόλυτα στο concept σας</h3>
+                <p className="text-lg text-black/70">Μουσική, χώρος και service αφηγούνται την ίδια ιστορία, ώστε το εστιατόριο να ακούγεται τόσο αυθεντικό όσο και η κουζίνα του.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Remove playlist friction</h3>
-                <p className="text-lg text-black/70">We supply sound, you set rules, staff focuses on guests, not searching for tracks mid-service.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Αφαιρούμε την τριβή των playlists</h3>
+                <p className="text-lg text-black/70">Εμείς παρέχουμε τη μουσική, εσείς θέτετε τους κανόνες και το προσωπικό εστιάζει στους επισκέπτες, όχι στην αναζήτηση κομματιών.</p>
               </div>
             </div>
           </div>
 
           <div className="max-w-2xl mx-auto mt-16 text-center">
-            <h3 className="text-2xl md:text-3xl font-bold text-black mb-4">Hear this industry in action</h3>
-            <p className="text-lg md:text-xl text-black/70 mb-6">Read our client's stories and listen to their playlists samples.</p>
+            <h3 className="text-2xl md:text-3xl font-bold text-black mb-4">Ακούστε τον κλάδο στην πράξη</h3>
+            <p className="text-lg md:text-xl text-black/70 mb-6">Διαβάστε ιστορίες πελατών και ακούστε δείγματα από τις playlists τους.</p>
             <Link to={createPageUrl("case-studies")}>
               <AnimatedButton className="px-8">
-                Explore our Case Studies
+                Δείτε τα Παραδείγματα
               </AnimatedButton>
             </Link>
           </div>
@@ -410,19 +410,20 @@ export default function RestaurantsBars() {
       {/* Final CTA */}
       <section className="py-20" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Upgrade your restaurant's atmosphere</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Αναβαθμίστε την ατμόσφαιρα του εστιατορίου σας</h2>
           <p className="text-xl text-black/80 mb-8 max-w-3xl mx-auto">
-            Need to tune your sound for better nights? We can review your current setup, service patterns & concept and propose a tailored approach.
+            Χρειάζεστε καλύτερο ήχο για πιο δυνατές βραδιές;
+            Αξιολογούμε τον υπάρχοντα ήχο, τη ροή του service και το concept σας και προτείνουμε μια προσαρμοσμένη προσέγγιση.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link to={createPageUrl("contact")}>
               <AnimatedButton className="w-full sm:w-auto" aria-label="Book a music consultation">
-                Book a music consultation
+                Κλείστε μια μουσική συμβουλευτική
               </AnimatedButton>
             </Link>
           </div>
           <p className="text-black/70 mt-8">
-            Explore how our <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">Signature Playlists</Link> and <Link to={createPageUrl("audio-upgrades")} className="underline hover:text-black font-semibold">Audio Upgrades</Link> work for restaurants & bars.
+            Δείτε πώς οι <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">Επιμελημένες playlists</Link> και η <Link to={createPageUrl("audio-upgrades")} className="underline hover:text-black font-semibold">Ακουστική αναβάθμιση</Link> λειτουργούν για εστιατόρια & bar.
           </p>
         </div>
       </section>
