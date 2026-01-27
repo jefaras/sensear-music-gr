@@ -22,7 +22,7 @@ export default function WellnessGyms() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Music for Wellness and Gyms | SensEar";
+    document.title = "Μουσική για Σπα & Γυμναστήρια | SensEar";
 
     const metaDescription = document.querySelector('meta[name="description"]');
     const description = "Music for wellness and gyms curated around activity and intensity, supporting focus, calm and movement across treatments and training spaces.";
@@ -261,11 +261,11 @@ export default function WellnessGyms() {
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Music for Wellness & Gyms:</span>
-                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">Designed around activity & intensity.</span>
+                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Μουσική για Σπα & Γυμναστήρια:</span>
+                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">Σχεδιασμένη γύρω από τη δραστηριότητα και την ένταση</span>
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                Thoughtful music that promotes focus across spaces & activities.
+                Στοχευμένη μουσική που ενισχύει τη συγκέντρωση σε όλους τους χώρους και τις πρακτικές.
               </p>
             </div>
 
@@ -292,16 +292,16 @@ export default function WellnessGyms() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
             <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-12">
-              Music themes fine-tuned<br />
-              for mind & body
+              Μουσικά θέματα ρυθμισμένα<br />
+              για σώμα και νου
             </h2>
             
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                Music in wellness & gym spaces <strong><em>guides focus, pace & mindset</em></strong> during sessions.
+                Η μουσική σε χώρους ευεξίας και άσκησης <strong><em>καθοδηγεί τη συγκέντρωση, τον ρυθμό και τη νοητική κατάσταση</em></strong> κατά τη διάρκεια των συνεδριών.
               </p>
               <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                Our mixes <strong><em>adapt to each zone & intensity</em></strong> level, helping guests <strong><em>stay present & engaged</em></strong>.
+                Οι μίξεις μας <strong><em>προσαρμόζονται σε κάθε ζώνη και επίπεδο έντασης</em></strong>, βοηθώντας τους επισκέπτες να <strong><em>παραμένουν παρόντες και ενεργοί</em></strong>.
               </p>
             </div>
           </div>
@@ -312,8 +312,8 @@ export default function WellnessGyms() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">What we do</h2>
-            <p className="text-xl text-black/60 font-medium">Wellness & gym music strategy and implementation</p>
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">Τι κάνουμε</h2>
+            <p className="text-xl text-black/60 font-medium">Στρατηγική και υλοποίηση μουσικής για Σπα & γυμναστήρια</p>
           </div>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -329,23 +329,23 @@ export default function WellnessGyms() {
             {/* Right: Content */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Treatment room soundscapes</h3>
-                <p className="text-lg text-black/70">Ambient & therapeutic sound design help clients relax and stay present.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Ηχητικά τοπία για χώρους θεραπειών</h3>
+                <p className="text-lg text-black/70">Ambient και θεραπευτικός ηχητικός σχεδιασμός που βοηθά τους επισκέπτες να χαλαρώσουν και να παραμείνουν συγκεντρωμένοι.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Class & training playlists</h3>
-                <p className="text-lg text-black/70">Energy-matched music for yoga, Pilates, strength & cardio, helps following the sessions naturally.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Playlists για classes & προπονήσεις</h3>
+                <p className="text-lg text-black/70">Μουσική προσαρμοσμένη στην ενέργεια για yoga, Pilates, ενδυνάμωση και cardio, που βοηθά τη φυσική ροή της συνεδρίας.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Schedule-aware programming</h3>
-                <p className="text-lg text-black/70">Music that follows your daily rhythm: from gentle mornings to energizing evenings, across all spaces.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Προγραμματισμός βάσει ωραρίου</h3>
+                <p className="text-lg text-black/70">Μουσική που ακολουθεί τον ημερήσιο ρυθμό: από ήρεμα πρωινά έως πιο ενεργητικά απογεύματα, σε όλους τους χώρους.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Zone-specific calibration</h3>
-                <p className="text-lg text-black/70">Reception, treatment rooms & gym floor each get their own sound while sharing one recognizable identity.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Ρύθμιση ανά ζώνη</h3>
+                <p className="text-lg text-black/70">Υποδοχή, χώροι θεραπειών και αίθουσες άσκησης αποκτούν τον δικό τους ήχο, διατηρώντας μία κοινή, αναγνωρίσιμη ταυτότητα.</p>
               </div>
             </div>
           </div>
@@ -355,31 +355,31 @@ export default function WellnessGyms() {
       {/* Ideal For - Bg Image (Who this is for) */}
       <section className="py-20" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Wellness & gym music is ideal for</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Ιδανικό για μουσική wellness & γυμναστηρίων</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Content */}
             <div>
               <ul className="space-y-8 text-lg text-black/70">
                 <li className="block">
-                  <span className="font-semibold text-2xl block mb-1 text-black">Spas & Wellness Centers</span>
-                  <span>where sound supports healing and restoration.</span>
+                  <span className="font-semibold text-2xl block mb-1 text-black">Spa & Κέντρα Ευεξίας</span>
+                  <span>Όπου ο ήχος υποστηρίζει τη θεραπεία και την αποκατάσταση.</span>
                 </li>
                 <li className="block">
-                  <span className="font-semibold text-2xl block mb-1 text-black">Yoga, Pilates & Meditation Studios</span>
-                  <span>needing an atmosphere that deepens practice.</span>
+                  <span className="font-semibold text-2xl block mb-1 text-black">Στούντιο Yoga, Pilates & Διαλογισμού</span>
+                  <span>Που χρειάζονται ατμόσφαιρα που εμβαθύνει την πρακτική.</span>
                 </li>
                 <li className="block">
-                  <span className="font-semibold text-2xl block mb-1 text-black">Boutique Gyms & Training Studios</span>
-                  <span>focused on member experience and retention.</span>
+                  <span className="font-semibold text-2xl block mb-1 text-black">Boutique Γυμναστήρια & Στούντιο Προπόνησης</span>
+                  <span>Με έμφαση στην εμπειρία και τη διατήρηση μελών.</span>
                 </li>
                 <li className="block">
-                  <span className="font-semibold text-2xl block mb-1 text-black">Multi-Location Wellness Brands</span>
-                  <span>wanting consistent sound across sites.</span>
+                  <span className="font-semibold text-2xl block mb-1 text-black">Brands Ευεξίας με πολλαπλές τοποθεσίες</span>
+                  <span>Που θέλουν συνεπή ήχο σε όλα τα σημεία.</span>
                 </li>
                 <li className="block">
-                  <span className="font-semibold text-2xl block mb-1 text-black">Hybrid Spaces</span>
-                  <span>balancing both treatment rooms and active training areas.</span>
+                  <span className="font-semibold text-2xl block mb-1 text-black">Υβριδικούς χώρους</span>
+                  <span>Που συνδυάζουν θεραπείες και ενεργή άσκηση.</span>
                 </li>
               </ul>
             </div>
@@ -399,7 +399,7 @@ export default function WellnessGyms() {
       {/* How we help - Animated Gradient */}
       <section className="py-20 animated-gradient">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">How we help</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Πώς βοηθάμε</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image (Reusing How SensEar solves this image) */}
@@ -414,23 +414,23 @@ export default function WellnessGyms() {
             {/* Right: Content */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Support deeper sessions</h3>
-                <p className="text-lg text-black/70">Audio design helps clients relax and focus during treatments and practice, creating memorable sessions.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Υποστηρίζουμε βαθύτερες συνεδρίες</h3>
+                <p className="text-lg text-black/70">Ο ηχητικός σχεδιασμός βοηθά τη χαλάρωση και τη συγκέντρωση, δημιουργώντας συνεδρίες που μένουν στη μνήμη.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Match energy to activity</h3>
-                <p className="text-lg text-black/70">Music that rises and falls with effort supports members throughout classes and workouts.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Ταιριάζουμε την ενέργεια με τη δραστηριότητα</h3>
+                <p className="text-lg text-black/70">Η μουσική ανεβαίνει και πέφτει μαζί με την ένταση, υποστηρίζοντας κάθε άσκηση.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Create cohesive brand atmosphere</h3>
-                <p className="text-lg text-black/70">All your rooms & locations sound intentional, from reception to last stretch.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Δημιουργούμε συνεκτική ατμόσφαιρα brand</h3>
+                <p className="text-lg text-black/70">Όλοι οι χώροι και οι τοποθεσίες ακούγονται με πρόθεση, από την υποδοχή έως το τελευταίο stretch.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Remove playlist management</h3>
-                <p className="text-lg text-black/70">Staff focus on clients & members while we handle music selection, updates and commercial licensing.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Αφαιρούμε τη διαχείριση των playlists</h3>
+                <p className="text-lg text-black/70">Το προσωπικό εστιάζει σε πελάτες και μέλη, ενώ εμείς αναλαμβάνουμε επιλογές μουσικής, ανανεώσεις και επαγγελματική αδειοδότηση.</p>
               </div>
             </div>
           </div>
@@ -442,19 +442,20 @@ export default function WellnessGyms() {
       {/* Final CTA */}
       <section className="py-20" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Upgrade your wellness atmosphere</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Αναβαθμίστε την ατμόσφαιρα ευεξίας σας</h2>
           <p className="text-xl text-black/80 mb-8 max-w-3xl mx-auto">
-            Ready to design sound for healing & training? We review your current setup, your sessions & member journey and propose a tailored approach.
+            Έτοιμοι να σχεδιάσουμε ήχο για θεραπεία και προπόνηση;
+            Αξιολογούμε το υπάρχον setup, τις συνεδρίες και το ταξίδι των μελών και προτείνουμε μια προσαρμοσμένη προσέγγιση.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link to={createPageUrl("contact")}>
               <AnimatedButton className="w-full sm:w-auto" aria-label="Book a music consultation">
-                Book a music consultation
+                Κλείστε μια μουσική συμβουλευτική
               </AnimatedButton>
             </Link>
           </div>
           <p className="text-black/70 mt-8">
-            Explore how our <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">Signature Playlists</Link> and <Link to={createPageUrl("sonic-strategy")} className="underline hover:text-black font-semibold">Sonic Strategy</Link> work for wellness & gyms.
+            Δείτε πώς οι <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">Επιμελημένες playlists</Link> και ο <Link to={createPageUrl("sonic-strategy")} className="underline hover:text-black font-semibold">Σχεδιασμός ηχητικής ταυτότητας</Link> λειτουργούν για wellness & γυμναστήρια.
           </p>
         </div>
       </section>
