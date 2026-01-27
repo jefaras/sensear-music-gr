@@ -21,7 +21,7 @@ export default function AudioUpgrades() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Audio Upgrades | SensEar";
+    document.title = "Ακουστική αναβάθμιση | SensEar";
 
     const metaDescription = document.querySelector('meta[name="description"]');
     const description = "Professional audio assessment, design and tuning for venues. We upgrade your sound system so it matches your design quality.";
@@ -217,11 +217,11 @@ export default function AudioUpgrades() {
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Audio Upgrades:</span>
-                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">Clear, balanced sound for your space.</span>
+                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Ακουστική αναβάθμιση:</span>
+                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">Καθαρός, ισορροπημένος ήχος για τον χώρο σας</span>
                 </h1>
                 <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                Optimization designed to support atmosphere & conversations.
+                Βελτιστοποίηση του ήχου με στόχο τη διευκόλυνση της συνομιλίας και την αναβάθμιση της συνολικής εμπειρίας.
                 </p>
             </div>
 
@@ -248,15 +248,15 @@ export default function AudioUpgrades() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
             <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-12">
-              Audio optimization<br />for an inviting atmosphere
+              Ακουστική βελτιστοποίηση<br />για φιλόξενη ατμόσφαιρα
             </h2>
             
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                We <strong><em>refine</em></strong> your audio system, to achieve <strong><em>clear, balanced sound</em></strong> allover your space.
+                Αναβαθμίζουμε τον ηχητικό εξοπλισμό και την ακουστική του χώρου, ώστε ο ήχος να ακούγεται <strong><em>καθαρά</em></strong> και <strong><em>ισορροπημένα</em></strong> σε κάθε σημείο.
               </p>
               <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                Optimised audio <strong><em>elevates your design</em></strong>, letting people <strong><em>enjoy</em></strong> their <strong><em>conversations</em></strong> & <strong><em>music</em></strong> comfortably.
+                Η σωστή ακουστική <strong><em>αναδεικνύει τον σχεδιασμό</em></strong> του χώρου και επιτρέπει στους ανθρώπους να <strong><em>απολαμβάνουν</em></strong> τη <strong><em>μουσική</em></strong> και τη <strong><em>συζήτηση</em></strong> χωρίς ένταση.
               </p>
             </div>
           </div>
@@ -266,8 +266,7 @@ export default function AudioUpgrades() {
       {/* What we do */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-4 text-black text-center">What we do</h2>
-          <p className="text-xl text-black/60 font-medium text-center mb-12">Professional audio assessment and implementation</p>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Τι προσφέρουμε</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image */}
@@ -282,23 +281,23 @@ export default function AudioUpgrades() {
             {/* Right: Content */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">On-site acoustic assessment</h3>
-                <p className="text-lg text-black/70">We walk the space, listen from key seats and test your setup to identify gaps & issues.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Επιτόπια ακουστική αξιολόγηση</h3>
+                <p className="text-lg text-black/70">Ακούμε τη μουσική στον χώρο από κάθε σημείο και εντοπίζουμε προβλήματα κάλυψης και καθαρότητας.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Tailored AV proposals</h3>
-                <p className="text-lg text-black/70">Clear plan for speakers, zones and control that fits your layout, budget & aesthetic.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Προτάσεις AV προσαρμοσμένες στον χώρο</h3>
+                <p className="text-lg text-black/70">Σαφές πλάνο για ηχεία, ζώνες και έλεγχο, με βάση τη διάταξη, το budget και την αισθητική.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Coordinated installation</h3>
-                <p className="text-lg text-black/70">We manage equipment sourcing & installation with AV partners, so you avoid multiple suppliers.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Συντονισμένη εγκατάσταση</h3>
+                <p className="text-lg text-black/70">Διαχείριση εξοπλισμού και εγκατάστασης σε συνεργασία με AV partners.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">System tuning & training</h3>
-                <p className="text-lg text-black/70">Calibration under live conditions plus guidance, so your team runs it confidently day to day.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Ρύθμιση και εκπαίδευση</h3>
+                <p className="text-lg text-black/70">Τελική ρύθμιση σε πραγματικές συνθήκες και καθοδήγηση της ομάδας για καθημερινή χρήση.</p>
               </div>
             </div>
           </div>
@@ -308,31 +307,31 @@ export default function AudioUpgrades() {
       {/* Perfect for */}
       <section className="py-20" style={{ backgroundImage: "linear-gradient(to top, #ffffff 0%, rgba(255,255,255,0) 15%), url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Perfect for</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Ιδανικό για</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Content */}
             <div>
               <ul className="space-y-8 text-lg text-black/70">
                 <li className="block">
-                  <Link to={createPageUrl("music-for-restaurants-and-bars")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Restaurants & Bars">Restaurants & Bars</Link>
-                  <span>where guests struggle to talk over music.</span>
+                  <Link to={createPageUrl("music-for-restaurants-and-bars")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Restaurants & Bars">Εστιατόρια & Bar</Link>
+                  <span>Όπου η συζήτηση δυσκολεύεται λόγω της έντασης.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("music-for-hotels-and-resorts")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Hotels & Resorts">Hotels & Resorts</Link>
-                  <span>with lobbies, pools or dining areas that sound uneven.</span>
+                  <Link to={createPageUrl("music-for-hotels-and-resorts")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Hotels & Resorts">Ξενοδοχεία & Θέρετρα</Link>
+                  <span>Lobby, πισίνες και εστιατόρια με άνισο ήχο.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("music-for-retail-stores")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Retail Stores">Retail Stores</Link>
-                  <span>with dead corners & overpowering spots near speakers.</span>
+                  <Link to={createPageUrl("music-for-retail-stores")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Retail Stores">Καταστήματα λιανικής</Link>
+                  <span>Σημεία με «νεκρές» ζώνες ή υπερβολική ένταση.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("music-for-wellness-and-gyms")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Wellness & Gyms">Wellness Centers</Link>
-                  <span>needing clear sound for classes without harshness.</span>
+                  <Link to={createPageUrl("music-for-wellness-and-gyms")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Wellness & Gyms">Χώρους ευεξίας</Link>
+                  <span>Καθαρός ήχος για μαθήματα χωρίς σκληρό ήχο.</span>
                 </li>
                 <li className="block">
-                  <span className="font-semibold text-2xl block mb-1 text-black">Venues</span>
-                  <span>that invested in interiors but feel sound lowers the experience.</span>
+                  <span className="font-semibold text-2xl block mb-1 text-black">Χώρους</span>
+                  <span>Που έχουν επενδύσει στο design αλλά ο ήχος υποβαθμίζει την εμπειρία.</span>
                 </li>
               </ul>
             </div>
@@ -352,7 +351,7 @@ export default function AudioUpgrades() {
       {/* Designed for clarity */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Designed for clarity</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Ήχος σχεδιασμένος για καθαρότητα</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image */}
@@ -367,8 +366,8 @@ export default function AudioUpgrades() {
             {/* Right: Content */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Balanced coverage, not just volume</h3>
-                <p className="text-lg text-black/70">Guests talk comfortably, move naturally through spaces & remember atmosphere instead of loudness.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Ισορροπημένη κάλυψη, χωρίς επιπλέον ένταση</h3>
+                <p className="text-lg text-black/70">Οι επισκέπτες κινούνται άνετα, συνομιλούν φυσικά και θυμούνται την ατμόσφαιρα, όχι τη δυνατή μουσική.</p>
               </div>
             </div>
           </div>
@@ -378,19 +377,19 @@ export default function AudioUpgrades() {
       {/* Final CTA */}
       <section className="py-20" style={{ backgroundImage: "linear-gradient(to bottom, #faebe3 0%, rgba(250, 235, 227, 0) 15%), url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Let us upgrade your venue's sound</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Ας αναβαθμίσουμε τον ήχο του χώρου σας</h2>
           <p className="text-xl text-black/70 mb-8 max-w-3xl mx-auto">
-            Need audio that matches your design quality?
+            Χρειάζεστε ήχο αντάξιο του σχεδιασμού σας;
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link to={createPageUrl("contact")}>
               <AnimatedButton className="w-full sm:w-auto" aria-label="Book your audio assessment">
-                Book your audio assessment
+                Κλείστε μια ακουστική αξιολόγηση
               </AnimatedButton>
             </Link>
           </div>
           <p className="text-black/70 mt-8">
-            Pair with our <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">Signature Playlists</Link> & <Link to={createPageUrl("sonic-strategy")} className="underline hover:text-black font-semibold">Sonic Strategy</Link> for complete audio identity.
+            Συνδυάστε την Ακουστική αναβάθμιση με τις <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">Επιμελημένες playlists</Link> και τον <Link to={createPageUrl("sonic-strategy")} className="underline hover:text-black font-semibold">Σχεδιασμό ηχητικής ταυτότητας</Link> για ολοκληρωμένο αποτέλεσμα.
           </p>
         </div>
       </section>
