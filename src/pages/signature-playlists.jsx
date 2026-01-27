@@ -23,7 +23,7 @@ export default function SignaturePlaylists() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Signature Playlists | Custom Playlists by SensEar";
+    document.title = "Επιμελημένες playlists | Custom Playlists by SensEar";
 
     const metaDescription = document.querySelector('meta[name="description"]');
     const description = "Bespoke, brand-exclusive playlists from rare archives. Hand-curated music that transforms your venue's atmosphere. Monthly updates included.";
@@ -241,11 +241,11 @@ export default function SignaturePlaylists() {
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Signature Playlists:</span>
-                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">Custom music for your space.</span>
+                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Επιμελημένες playlists:</span>
+                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">Μουσική προσαρμοσμένη στον χώρο σας</span>
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                Curated playlists that follow your brand, space & daily rhythm.
+                Προσεγμένες μουσικές playlists που ακολουθούν το brand, τον χώρο και τον καθημερινό του ρυθμό.
               </p>
             </div>
 
@@ -272,14 +272,14 @@ export default function SignaturePlaylists() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
             <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-white leading-tight mb-12">
-              Playlist creation for<br />unique venue atmosphere
+              Δημιουργία playlists<br />για μοναδική ατμόσφαιρα χώρου
             </h2>
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                We create <strong><em>playlists</em></strong> in tune with your brand's <strong><em>character</em></strong> and space's <strong><em>rhythm</em></strong>, to balance <strong><em>energy</em></strong> for both guests & staff.
+                Διαμορφώνουμε <strong><em>playlists</em></strong> με βάση τον <strong><em>χαρακτήρα</em></strong> του brand και τον <strong><em>ρυθμό</em></strong> του χώρου, ώστε η <strong><em>ενέργεια</em></strong> να είναι ισορροπημένη για επισκέπτες και προσωπικό.
               </p>
               <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                Your sound <strong><em>becomes intentional</em></strong> & <strong><em>felt</em></strong> in the atmosphere, not lost in the background.
+                Ο ήχος <strong><em>γίνεται συνειδητός</em></strong> και <strong><em>αισθητός</em></strong>, μέρος της ατμόσφαιρας και όχι απλό υπόβαθρο.
               </p>
             </div>
           </div>
@@ -289,7 +289,7 @@ export default function SignaturePlaylists() {
       {/* What we do */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">What we do</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Τι προσφέρουμε</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image */}
@@ -304,28 +304,28 @@ export default function SignaturePlaylists() {
             {/* Right: Content */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Your own, unique sound</h3>
-                <p className="text-lg text-black/70">Rare tracks you won't hear on generic playlists, chosen especially for you.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Ο δικός σας, μοναδικός ήχος</h3>
+                <p className="text-lg text-black/70">Σπάνιες επιλογές, ειδικά επιλεγμένες για εσάς που δεν θα βρείτε σε έτοιμες playlists.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Amplify your brand</h3>
-                <p className="text-lg text-black/70">Music designed to echo your aesthetics & tell your brand story</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Ενισχύουμε το brand σας</h3>
+                <p className="text-lg text-black/70">Μουσική που αντικατοπτρίζει την αισθητική και αφηγείται την ιστορία του brand.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Match your space</h3>
-                <p className="text-lg text-black/70">Tracks arranged to follow your venue’s flow, concept & guest profiles.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Προσαρμογή στον χώρο σας</h3>
+                <p className="text-lg text-black/70">Επιλογές που ακολουθούν τη ροή, το concept και το κοινό του χώρου.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Keep your vibe fresh</h3>
-                <p className="text-lg text-black/70">Regular updates that keep your sound exciting & recognizable.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Διατηρούμε τον ήχο φρέσκο</h3>
+                <p className="text-lg text-black/70">Τακτικές ενημερώσεις που κρατούν τη μουσική σας αναγνωρίσιμη και ζωντανή.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Total control & support</h3>
-                <p className="text-lg text-black/70">Clear rules, central management & direct access to us when needed.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Πλήρης έλεγχος & υποστήριξη</h3>
+                <p className="text-lg text-black/70">Ξεκάθαρο πλαίσιο, κεντρική διαχείριση και άμεση επικοινωνία μαζί μας.</p>
               </div>
             </div>
           </div>
@@ -335,31 +335,31 @@ export default function SignaturePlaylists() {
       {/* Perfect for */}
       <section className="py-20" style={{ backgroundImage: "linear-gradient(to top, #ffffff 0%, rgba(255,255,255,0) 15%), url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Perfect for</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Ιδανικό για</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Content */}
             <div>
               <ul className="space-y-8 text-lg text-black/70">
                 <li className="block">
-                  <Link to={createPageUrl("music-for-hotels-and-resorts")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Hotels & Resorts">Hotels & Resorts</Link>
-                  <span>that need smooth shifts throughout the day.</span>
+                  <Link to={createPageUrl("music-for-hotels-and-resorts")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Hotels & Resorts">Ξενοδοχεία & Θέρετρα</Link>
+                  <span>που χρειάζονται ομαλές μεταβάσεις μέσα στη μέρα.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("music-for-restaurants-and-bars")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Restaurants & Bars">Restaurants & Bars</Link>
-                  <span>where atmosphere is a core part of the experience.</span>
+                  <Link to={createPageUrl("music-for-restaurants-and-bars")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Restaurants & Bars">Εστιατόρια & Bar</Link>
+                  <span>όπου η ατμόσφαιρα αποτελεί βασικό μέρος της εμπειρίας.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("music-for-retail-stores")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Retail Stores">Retail stores</Link>
-                  <span>that want a soundtrack to fit their visual story.</span>
+                  <Link to={createPageUrl("music-for-retail-stores")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Retail Stores">Καταστήματα Λιανικής</Link>
+                  <span>που θέλουν μουσική που να υποστηρίζει την οπτική ταυτότητα.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("music-for-wellness-and-gyms")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Wellness & Gyms">Wellness spaces</Link>
-                  <span>to support treatments or training sessions.</span>
+                  <Link to={createPageUrl("music-for-wellness-and-gyms")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Wellness & Gyms">Χώρους Ευεξίας</Link>
+                  <span>με ήχο που συνοδεύει θεραπείες και προπονήσεις.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Art, Museums & Fashion">Art & Culture spaces</Link>
-                  <span>that need engaging but unobtrusive sound.</span>
+                  <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Art, Museums & Fashion">Τέχνη & Πολιτισμό</Link>
+                  <span>για μια εμπλουτισμένη εμπειρία χωρίς παρεμβολές.</span>
                 </li>
               </ul>
             </div>
@@ -379,7 +379,7 @@ export default function SignaturePlaylists() {
       {/* Licensed for business use */}
       <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Licensed for business use</h2>
+        <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Αδειοδοτημένη μουσική για επαγγελματική χρήση</h2>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left: Image */}
@@ -394,8 +394,8 @@ export default function SignaturePlaylists() {
           {/* Right: Content */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-black mb-3">On-brand, but also legal playlists</h3>
-              <p className="text-lg text-black/70">We provide music cleared for professional use which offers you an extra ease of mind.</p>
+              <h3 className="text-2xl font-bold text-black mb-3">Playlists που σας καλύπτουν σε όλα</h3>
+              <p className="text-lg text-black/70">Παρέχουμε μουσική με τις απαραίτητες άδειες για επαγγελματική χρήση, ώστε να λειτουργείτε με ασφάλεια και σιγουριά.</p>
             </div>
           </div>
         </div>
@@ -405,19 +405,19 @@ export default function SignaturePlaylists() {
       {/* Final CTA */}
       <section className="py-20" style={{ backgroundImage: "linear-gradient(to bottom, #faebe3 0%, rgba(250, 235, 227, 0) 15%), url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Let us craft your signature sound</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Ας δημιουργήσουμε τον ήχο του χώρου σας</h2>
           <p className="text-xl text-black/70 mb-8 max-w-3xl mx-auto">
-            Need a perfect soundscape that reflects your brand and captivates your guests?
+            Χρειάζεστε ένα ηχητικό τοπίο που εκφράζει το brand σας και μένει στη μνήμη;
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link to={createPageUrl("contact")}>
               <AnimatedButton className="w-full sm:w-auto" aria-label="Create your signature sound">
-                Create your signature sound
+                Δημιουργήστε τον δικό σας ήχο
               </AnimatedButton>
             </Link>
           </div>
           <p className="text-black/70 mt-8">
-            Explore how our <Link to={createPageUrl("sonic-strategy")} className="underline hover:text-black font-semibold">Sonic Strategy</Link> & <Link to={createPageUrl("audio-upgrades")} className="underline hover:text-black font-semibold">Audio Upgrades</Link> build on your playlists.
+            Δείτε πώς ο <Link to={createPageUrl("sonic-strategy")} className="underline hover:text-black font-semibold">Σχεδιασμός ηχητικής ταυτότητας</Link> και η <Link to={createPageUrl("audio-upgrades")} className="underline hover:text-black font-semibold">Ακουστική αναβάθμιση</Link> συμπληρώνουν τις playlists σας.
           </p>
         </div>
       </section>
