@@ -22,41 +22,41 @@ export default function MusicCurationCycleVenues() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "The music curation cycle for venues | SensEar blog";
+    const pageTitle = "Ο κύκλος της μουσικής επιμέλειας: ανάλυση, βελτιστοποίηση και εξέλιξη | SensEar blog";
     
-    const description = "Learn how continuous music analysis and optimisation improves atmosphere, supports guest flow, and keeps venues sounding relevant.";
-    const metaDescription = document.querySelector('meta[name="description"]');
+    const description = "Πώς η συνεχής βελτιστοποίηση της μουσικής επιμέλειας αναβαθμίζει την ατμόσφαιρα ενός χώρου, μέσα από στρατηγικές βασισμένες σε δεδομένα.";
+    let metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content', description);
     } else {
-      const meta = document.createElement('meta');
-      meta.name = 'description';
-      meta.content = description;
-      document.head.appendChild(meta);
+      metaDescription = document.createElement('meta');
+      metaDescription.name = 'description';
+      metaDescription.content = description;
+      document.head.appendChild(metaDescription);
     }
 
     // Add locale and language meta tags
     const localeTag = document.querySelector('meta[property="og:locale"]');
     if (localeTag) {
-      localeTag.setAttribute('content', 'en_US');
+      localeTag.setAttribute('content', 'el_GR');
     } else {
       const meta = document.createElement('meta');
       meta.setAttribute('property', 'og:locale');
-      meta.content = 'en_US';
+      meta.content = 'el_GR';
       document.head.appendChild(meta);
     }
 
-    const languageTag = document.querySelector('meta[http-equiv="content-language"]');
+    let languageTag = document.querySelector('meta[http-equiv="content-language"]');
     if (languageTag) {
-      languageTag.setAttribute('content', 'en');
+      languageTag.setAttribute('content', 'el');
     } else {
-      const meta = document.createElement('meta');
-      meta.setAttribute('http-equiv', 'content-language');
-      meta.content = 'en';
-      document.head.appendChild(meta);
+      languageTag = document.createElement('meta');
+      languageTag.setAttribute('http-equiv', 'content-language');
+      languageTag.content = 'el';
+      document.head.appendChild(languageTag);
     }
 
-    document.documentElement.lang = 'en';
+    document.documentElement.lang = 'el';
 
     // Add robots meta tag - BLOG ARTICLE: index, follow
     let robotsMeta = document.querySelector('meta[name="robots"]');
@@ -93,13 +93,11 @@ export default function MusicCurationCycleVenues() {
 
     // Open Graph tags
     const ogTags = [
-      { property: 'og:title', content: 'The music curation cycle for venues | SensEar blog' },
+      { property: 'og:title', content: pageTitle },
       { property: 'og:description', content: description },
       { property: 'og:image', content: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e0fc2b036_43b114fc2a27cb08c8b377305973c588_X-Design.png' },
       { property: 'og:url', content: 'https://sensear.music/music-curation-cycle-venues' },
       { property: 'og:type', content: 'article' },
-      { property: 'og:locale', content: 'en_US' },
-      { property: 'og:locale:alternate', content: 'en_GB' },
       { property: 'article:published_time', content: '2025-01-15T09:00:00Z' },
       { property: 'article:modified_time', content: '2025-01-15T09:00:00Z' },
       { property: 'article:author', content: 'SensEar Team' },
@@ -121,7 +119,7 @@ export default function MusicCurationCycleVenues() {
     // Twitter Card tags
     const twitterTags = [
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'The music curation cycle for venues | SensEar blog' },
+      { name: 'twitter:title', content: pageTitle },
       { name: 'twitter:description', content: description },
       { name: 'twitter:image', content: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e0fc2b036_43b114fc2a27cb08c8b377305973c588_X-Design.png' },
       { name: 'twitter:url', content: 'https://sensear.music/music-curation-cycle-venues' },
@@ -157,7 +155,7 @@ export default function MusicCurationCycleVenues() {
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "The music curation cycle: analyze, optimize & evolve your sonic identity",
+        "headline": "Ο κύκλος της μουσικής επιμέλειας: ανάλυση, βελτιστοποίηση και εξέλιξη",
         "description": description,
         "image": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/e0fc2b036_43b114fc2a27cb08c8b377305973c588_X-Design.png",
         "author": {
@@ -198,7 +196,7 @@ export default function MusicCurationCycleVenues() {
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "The music curation cycle: analyze, optimize & evolve your sonic identity",
+            "name": "Ο κύκλος της μουσικής επιμέλειας: ανάλυση, βελτιστοποίηση και εξέλιξη",
             "item": "https://sensear.music/music-curation-cycle-venues"
           }
         ]
@@ -252,29 +250,29 @@ export default function MusicCurationCycleVenues() {
       `}</style>
 
       {/* Hero Section - Two Column Layout */}
-      <section className="relative pt-32 pb-32 min-h-[90vh] flex flex-col justify-center overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="The Music Curation Cycle for Venues">
+      <section className="relative pt-32 pb-32 min-h-[90vh] flex flex-col justify-center overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-label="Ο κύκλος της μουσικής επιμέλειας">
         <div className="w-full px-6 md:px-12 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">The music curation cycle:</span>
-                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">analyze, optimize & evolve</span>
+                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Ο κύκλος της μουσικής επιμέλειας:</span>
+                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">ανάλυση, βελτιστοποίηση και εξέλιξη</span>
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2 mb-6">
-                How continuous music curation optimization enhances venue atmosphere with data-driven strategies.
+                Πώς η συνεχής βελτιστοποίηση της μουσικής επιμέλειας αναβαθμίζει την ατμόσφαιρα ενός χώρου, μέσα από στρατηγικές βασισμένες σε δεδομένα.
               </p>
               <div className="flex items-center gap-6 text-sm text-black/60 slide-up-2">
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" aria-hidden="true" />
-                  <time dateTime="2025-01-15">January 15, 2025</time>
+                  <time dateTime="2025-01-15">15 Ιανουαρίου 2025</time>
                 </div>
                 <div className="flex items-center gap-2">
                   <User className="w-4 h-4" aria-hidden="true" />
-                  <span>SensEar Team</span>
+                  <span>Ομάδα SensEar</span>
                 </div>
                 <div className="text-black/50">
-                  <span>5 min read</span>
+                  <span>5 λεπτά ανάγνωσης</span>
                 </div>
               </div>
             </div>
@@ -300,66 +298,71 @@ export default function MusicCurationCycleVenues() {
       <div className="max-w-5xl mx-auto px-6 py-16">
         <Card className="bg-white p-8 md:p-12 shadow-lg mb-12">
           <div className="prose prose-lg max-w-none">
-            <h2 className="text-3xl font-bold text-black mt-0 mb-6">Music is more than ambience</h2>
+            <h2 className="text-3xl font-bold text-black mt-0 mb-6">Αναλυτικά δεδομένα για τη βελτιστοποίηση και την απόδοση της μουσικής</h2>
             <p className="text-black/80 leading-relaxed mb-6">
-              The right track at the right moment can reshape how a room feels. In the lobby, use calm, mid-tempo selections to ease arrivals and reduce noise fatigue (<a href="https://www.sciencedirect.com/science/article/pii/S0969698923002345" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">source</a>). In the dining room, steady rhythmic music supports conversational comfort and smooth service pacing (<a href="https://academic.oup.com/jcr/article-abstract/13/2/286/1846377" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">source</a>). For late sets, increase energy and tempo to keep guests engaged for longer and encourage an extra round (<a href="https://www.tandfonline.com/doi/pdf/10.1080/1750984X.2011.631026" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">source</a>).
+              Η μουσική είναι κάτι περισσότερο από ατμόσφαιρα. Το σωστό κομμάτι, τη σωστή στιγμή, μπορεί να αλλάξει ριζικά το πώς βιώνεται ένας χώρος. Στο lobby, ήρεμες επιλογές με μεσαίο tempo διευκολύνουν τις αφίξεις και μειώνουν την ακουστική κόπωση (<a href="https://www.sciencedirect.com/science/article/pii/S0969698923002345" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πηγή</a>). Στον χώρο εστίασης, σταθερός ρυθμός υποστηρίζει την άνετη συζήτηση και τη ροή του service (<a href="https://academic.oup.com/jcr/article-abstract/13/2/286/1846377" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πηγή</a>). Σε πιο βραδινές ώρες, αυξημένη ενέργεια και tempo κρατούν τους επισκέπτες ενεργούς περισσότερο και ενθαρρύνουν την παραμονή (<a href="https://www.tandfonline.com/doi/pdf/10.1080/1750984X.2011.631026" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πηγή</a>).
             </p>
 
             <p className="text-black/80 leading-relaxed mb-8">
-              At SensEar, we design those shifts on purpose. For venues that care about guest experience and brand voice, curated music strengthens sonic identity, increases dwell time, and supports repeat visits.
+              Στη SensEar, αυτές οι μεταβάσεις σχεδιάζονται συνειδητά. Για χώρους που δίνουν σημασία στην εμπειρία επισκέπτη και στη φωνή του brand, η επιμελημένη μουσική ενισχύει την ηχητική ταυτότητα, αυξάνει τον χρόνο παραμονής και υποστηρίζει τις επαναλαμβανόμενες επισκέψεις.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Curation is a loop, not a checkbox</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Η επιμέλεια είναι κύκλος, όχι checkbox</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Great programming is never "set it and forget it." It starts with a launch and continues through measurement and refinement. We review performance regularly, remove tracks that feel tired or trigger skips, and add new material that matches your audience. Slow-paced selections can increase time on site and spending in certain contexts (<a href="https://music2biz.com/wp-content/uploads/2017/04/Using-Background-Music-to-Affect-the-Behavior-of-Supermarket-Shoppers.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">source</a>). In restaurants, slower music has been linked with guests staying longer and ordering more, while faster tempos can speed table turnover when needed (<a href="https://academic.oup.com/jcr/article-abstract/13/2/286/1846377" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">source</a>).
+              Η ποιοτική μουσική επιμέλεια δεν είναι ποτέ «βάζω και ξεχνάω». Ξεκινά με το λανσάρισμα και συνεχίζεται με μέτρηση και βελτίωση. Αναλύουμε την απόδοση τακτικά, αφαιρούμε κομμάτια που κουράζουν ή παραλείπονται και προσθέτουμε νέο υλικό που ταιριάζει στο κοινό σας. Σε συγκεκριμένα περιβάλλοντα, πιο αργοί ρυθμοί αυξάνουν τον χρόνο παραμονής και τη δαπάνη (<a href="https://music2biz.com/wp-content/uploads/2017/04/Using-Background-Music-to-Affect-the-Behavior-of-Supermarket-Shoppers.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πηγή</a>). Στα εστιατόρια, η πιο αργή μουσική έχει συσχετιστεί με μεγαλύτερη παραμονή και περισσότερες παραγγελίες, ενώ οι γρηγορότεροι ρυθμοί μπορούν να επιταχύνουν την εναλλαγή τραπεζιών όταν χρειάζεται (<a href="https://academic.oup.com/jcr/article-abstract/13/2/286/1846377" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πηγή</a>).
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Humans in the mix</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Οι άνθρωποι μέσα στο σύστημα</h2>
 
             <p className="text-black/80 leading-relaxed mb-8">
-              Our curators are musicians, DJs, and ethnomusicologists with backgrounds in labels, radio, classical stages, and tech. They spend time in your space to understand the flow of service and daily rhythms. We test in context: pacing a fitness studio to verify tempo curves for classes (<a href="https://www.sciencedirect.com/science/article/pii/S1469029224000554" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">source</a>), running a full dinner service to validate energy arcs for peak hours (<a href="https://academic.oup.com/jcr/article-abstract/13/2/286/1846377" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">source</a>), or evaluating quiet sets for spa settings to avoid listener fatigue (<a href="https://www.tandfonline.com/doi/pdf/10.1080/1750984X.2011.631026" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">source</a>).
+              Οι επιμελητές μας είναι μουσικοί, DJs και εθνομουσικολόγοι με εμπειρία σε δισκογραφικές, ραδιόφωνο, κλασικές σκηνές και τεχνολογία. Περνούν χρόνο στον χώρο σας για να κατανοήσουν τη ροή του service και τους καθημερινούς ρυθμούς. Δοκιμάζουμε πάντα στο πραγματικό περιβάλλον:
             </p>
+            <ul className="list-disc list-inside space-y-2 text-black/80 leading-relaxed mb-8">
+              <li>ρυθμίζουμε tempo σε fitness studios για να επιβεβαιώσουμε τις καμπύλες έντασης των μαθημάτων (<a href="https://www.sciencedirect.com/science/article/pii/S1469029224000554" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πηγή</a>)</li>
+              <li>παρακολουθούμε πλήρες dinner service για να ελέγξουμε τα ενεργειακά arcs των ωρών αιχμής (<a href="https://academic.oup.com/jcr/article-abstract/13/2/286/1846377" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πηγή</a>)</li>
+              <li>αξιολογούμε ήσυχες λίστες σε spa ώστε να αποφεύγεται η ακουστική κόπωση (<a href="https://www.tandfonline.com/doi/pdf/10.1080/1750984X.2011.631026" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πηγή</a>)</li>
+            </ul>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Stay current. Stay relevant.</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Επίκαιρη μουσική. Σχετική εμπειρία.</h2>
 
             <p className="text-black/80 leading-relaxed mb-8">
-              What works today can feel dated in a few months. Culture moves and tastes shift. Matching music to context can also steer choices. For example, when background music aligns with cultural cues, guests are more likely to choose congruent products, such as French music increasing French wine selection in a retail test (<a href="https://archive.org/download/wikipedia-scholarly-sources-corpus/10.1037%252F0002-9432.71.2.245.zip/10.1037%252F0021-9010.84.2.271.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">source</a>). Programming benefits from tracking trends and audience response in real time rather than relying only on static algorithms.
+              Ό,τι λειτουργεί σήμερα μπορεί να ακούγεται ξεπερασμένο σε λίγους μήνες. Η κουλτούρα κινείται, τα γούστα αλλάζουν. Όταν η μουσική ευθυγραμμίζεται με πολιτισμικά συμφραζόμενα, μπορεί να επηρεάζει και τις επιλογές. Για παράδειγμα, δοκιμές στο retail έδειξαν ότι η γαλλική μουσική αύξησε την επιλογή γαλλικών κρασιών (<a href="https://archive.org/download/wikipedia-scholarly-sources-corpus/10.1037%252F0002-9432.71.2.245.zip/10.1037%252F0021-9010.84.2.271.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πηγή</a>). Η σωστή επιμέλεια βασίζεται στην παρακολούθηση τάσεων και αντιδράσεων σε πραγματικό χρόνο, όχι μόνο σε στατικούς αλγορίθμους.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">The craft and the science</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Η τέχνη και η επιστήμη</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Every set is shaped by feel and by data. We look at tempo, intensity, cadence, and bpm to match the arc of your environment. Music also changes how time is perceived. Retail experiments show background music can alter both perceived and actual shopping duration, which affects evaluations and spend (<a href="https://rybn.org/ANTI/ADMXI/documentation/ALGORITHM_DOCUMENTATION/HARMONY_OF_THE_SPEARS/BACKGROUND_MUSIC_STUDIES/EFFECT_ON_CONSUMPTION/2000_The_Effects_of_Music_in_a_Retail_Setting_on_Real_and_Perceived_Shopping_Times.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">source</a>).
+              Κάθε set διαμορφώνεται με αίσθηση αλλά και με δεδομένα. Αναλύουμε tempo, ένταση, cadence και BPM ώστε να ταιριάζουν στη δυναμική του χώρου. Η μουσική επηρεάζει και την αντίληψη του χρόνου. Έρευνες στο retail δείχνουν ότι μπορεί να αλλάξει τόσο τον αντιλαμβανόμενο όσο και τον πραγματικό χρόνο παραμονής, επηρεάζοντας την εμπειρία και τη δαπάνη (<a href="https://rybn.org/ANTI/ADMXI/documentation/ALGORITHM_DOCUMENTATION/HARMONY_OF_THE_SPEARS/BACKGROUND_MUSIC_STUDIES/EFFECT_ON_CONSUMPTION/2000_The_Effects_of_Music_in_a_Retail_Setting_on_Real_and_Perceived_Shopping_Times.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πηγή</a>).
             </p>
 
             <p className="text-black/80 leading-relaxed mb-4">
-              <strong>Fitness studios:</strong> Plan build-ups, peaks, and recovery moments. Faster tempos tend to align better as intensity rises and can improve affect and perceived exertion (<a href="https://www.sciencedirect.com/science/article/pii/S1469029224000554" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">source</a>) (<a href="https://www.tandfonline.com/doi/pdf/10.1080/1750984X.2011.631026" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">source</a>).
+              <strong>Fitness studios:</strong> Σχεδιάζουμε build-ups, κορυφώσεις και αποκατάσταση. Ταχύτεροι ρυθμοί συνδέονται με υψηλότερη ένταση και καλύτερη αντίληψη προσπάθειας (<a href="https://www.sciencedirect.com/science/article/pii/S1469029224000554" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πηγή</a>) (<a href="https://www.tandfonline.com/doi/pdf/10.1080/1750984X.2011.631026" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πηγή</a>).
             </p>
 
             <p className="text-black/80 leading-relaxed mb-4">
-              <strong>Restaurants and bars:</strong> Use slower tempos to lengthen stays when desired, and increase pace to support faster turns during rush periods (<a href="https://academic.oup.com/jcr/article-abstract/13/2/286/1846377" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">source</a>).
+              <strong>Εστιατόρια & bar:</strong> Χρησιμοποιούμε πιο αργά tempo για μεγαλύτερη παραμονή όταν το επιθυμούμε και αυξάνουμε τον ρυθμό σε ώρες αιχμής (<a href="https://academic.oup.com/jcr/article-abstract/13/2/286/1846377" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πηγή</a>).
             </p>
 
             <p className="text-black/80 leading-relaxed mb-4">
-              <strong>Spas and lounges:</strong> Favor gentle entries, stable mid-sections, and unhurried fades to maintain calm without dulling the space (<a href="https://www.tandfonline.com/doi/pdf/10.1080/1750984X.2011.631026" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">source</a>).
+              <strong>Spa & lounge χώροι:</strong> Ήπιες εισαγωγές, σταθερή μέση και ήρεμα κλεισίματα για διατήρηση της χαλάρωσης χωρίς να «νεκρώνει» ο χώρος (<a href="https://www.tandfonline.com/doi/pdf/10.1080/1750984X.2011.631026" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πηγή</a>).
             </p>
 
             <p className="text-black/80 leading-relaxed mb-8">
-              <strong>Retail and gallery spaces:</strong> Align cues across the environment. When scent and music arousal levels match, shopper evaluations improve, which shows the value of tuning the whole atmosphere, not just the playlist (<a href="https://www.sciencedirect.com/science/article/pii/S0022435901000422" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">source</a>). A public preprint is also available <a href="https://www.researchgate.net/profile/Jochen-Wirtz/publication/222542870_Congruency_of_Scent_and_Music_as_a_Driver_of_In-Store_Evaluations_and_Behavior/links/59f47c0a458515547c21c2be/Congruency-of-Scent-and-Music-as-a-Driver-of-In-Store-Evaluations-and-Behavior.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">here for easy access</a>.
+              <strong>Retail & χώροι τέχνης:</strong> Ευθυγραμμίζουμε όλα τα ερεθίσματα. Όταν άρωμα και μουσική έχουν παρόμοιο επίπεδο διέγερσης, η αξιολόγηση του χώρου βελτιώνεται αισθητά (<a href="https://www.sciencedirect.com/science/article/pii/S0022435901000422" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">πηγή</a>). Δείτε μια δημοσιευμένη προδημοσίευση <a href="https://www.researchgate.net/profile/Jochen-Wirtz/publication/222542870_Congruency_of_Scent_and_Music_as_a_Driver_of_In-Store_Evaluations_and_Behavior/links/59f47c0a458515547c21c2be/Congruency-of-Scent-and-Music-as-a-Driver-of-In-Store-Evaluations-and-Behavior.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">εδώ για εύκολη πρόσβαση</a>.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">What you get with SensEar</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Τι προσφέρει η SensEar</h2>
 
             <ul className="list-disc list-inside space-y-2 text-black/80 leading-relaxed mb-8">
-              <li>Programming that evolves with your clientele and dayparts</li>
-              <li>Specialists who test music inside your real-world service flow</li>
-              <li>Frequent updates that keep sets fresh and culturally tuned</li>
-              <li>A balance of analytics and expert taste that outperforms one-size-fits-all music</li>
+              <li>Μουσική που εξελίσσεται μαζί με το κοινό και τις ώρες της ημέρας</li>
+              <li>Ειδικούς που δοκιμάζουν τον ήχο μέσα στη πραγματική ροή του service</li>
+              <li>Συχνές ενημερώσεις που κρατούν τη μουσική φρέσκια και πολιτισμικά επίκαιρη</li>
+              <li>Ισορροπία δεδομένων και έμπειρου γούστου που ξεπερνά τις λύσεις «μία για όλους»</li>
             </ul>
 
             <p className="text-black/80 leading-relaxed">
-              Music changes how people move, connect, and remember. We make that power part of your venue's identity. Then we keep improving it, cycle after cycle. Ready to elevate your venue's sound strategy? <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70 font-semibold">Contact us today</Link>!
+              Η μουσική αλλάζει το πώς οι άνθρωποι κινούνται, συνδέονται και θυμούνται. Εμείς κάνουμε αυτή τη δύναμη μέρος της ταυτότητας του χώρου σας — και τη βελτιώνουμε, κύκλο με τον κύκλο. Θέλετε να αναβαθμίσετε τη στρατηγική ήχου του χώρου σας; <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70 font-semibold">Επικοινωνήστε μαζί μας</Link>.
             </p>
           </div>
         </Card>
@@ -368,12 +371,12 @@ export default function MusicCurationCycleVenues() {
           <Link to={createPageUrl("Blog")}>
             <Button variant="outline" className="bg-transparent border-black text-black hover:bg-black hover:text-white">
               <ArrowLeft className="w-4 h-4 mr-2" />
-              Back to Blog
+              Επιστροφή στο blog
             </Button>
           </Link>
           <Link to={createPageUrl("contact")}>
             <AnimatedButton>
-              Start Your Music Curation Journey
+              Ξεκινήστε το ταξίδι στην μουσική επιμέλεια
             </AnimatedButton>
           </Link>
         </div>
