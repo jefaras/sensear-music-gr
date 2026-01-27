@@ -22,9 +22,9 @@ export default function BuildingBrandPeopleCanHear() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Building a brand people can hear | SensEar blog";
+    const pageTitle = "Χτίζοντας ένα brand που ακούγεται | SensEar blog";
 
-    const description = "A strategic guide to sonic branding and audio identity, showing how sound strengthens brand recognition and emotional connection.";
+    const description = "Στρατηγικός οδηγός για το sonic branding και την ανάπτυξη ηχητικής ταυτότητας μέσα από τη μουσική και τον σχεδιασμό ήχου.";
     const pageUrl = 'https://sensear.music/building-brand-people-can-hear';
     const imageUrl = 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/1749ad78f_BuildingaBrandPeopleCanHear-TheSensEarGuidetoSonicBranding.png';
 
@@ -40,25 +40,25 @@ export default function BuildingBrandPeopleCanHear() {
 
     const localeTag = document.querySelector('meta[property="og:locale"]');
     if (localeTag) {
-      localeTag.setAttribute('content', 'en_US');
+      localeTag.setAttribute('content', 'el_GR');
     } else {
       const meta = document.createElement('meta');
       meta.setAttribute('property', 'og:locale');
-      meta.content = 'en_US';
+      meta.content = 'el_GR';
       document.head.appendChild(meta);
     }
 
     const languageTag = document.querySelector('meta[http-equiv="content-language"]');
     if (languageTag) {
-      languageTag.setAttribute('content', 'en');
+      languageTag.setAttribute('content', 'el');
     } else {
       const meta = document.createElement('meta');
       meta.setAttribute('http-equiv', 'content-language');
-      meta.content = 'en';
+      meta.content = 'el';
       document.head.appendChild(meta);
     }
 
-    document.documentElement.lang = 'en';
+    document.documentElement.lang = 'el';
 
     let robotsMeta = document.querySelector('meta[name="robots"]');
     if (robotsMeta) {
@@ -91,12 +91,12 @@ export default function BuildingBrandPeopleCanHear() {
     }
 
     const ogTags = [
-    { property: 'og:title', content: 'Building a brand people can hear | SensEar blog' },
+    { property: 'og:title', content: pageTitle },
     { property: 'og:description', content: description },
     { property: 'og:image', content: imageUrl },
     { property: 'og:url', content: pageUrl },
     { property: 'og:type', content: 'article' },
-    { property: 'article:published_time', content: '2025-01-13T09:00:00Z' },
+    { property: 'article:published_time', content: '2025-02-12T09:00:00Z' },
     { property: 'article:author', content: 'SensEar Team' },
     { property: 'article:section', content: 'Branding' }];
 
@@ -115,7 +115,7 @@ export default function BuildingBrandPeopleCanHear() {
 
     const twitterTags = [
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Building a brand people can hear | SensEar blog' },
+    { name: 'twitter:title', content: pageTitle },
     { name: 'twitter:description', content: description },
     { name: 'twitter:image', content: imageUrl }];
 
@@ -147,7 +147,7 @@ export default function BuildingBrandPeopleCanHear() {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "headline": "Building a Brand People Can Hear",
+      "headline": "Χτίζοντας ένα brand που ακούγεται",
       "description": description,
       "image": imageUrl,
       "author": {
@@ -162,8 +162,8 @@ export default function BuildingBrandPeopleCanHear() {
           "url": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/16dd574fc_se-profile-silver-profile-1.jpg"
         }
       },
-      "datePublished": "2025-01-13",
-      "dateModified": "2025-01-13",
+      "datePublished": "2025-02-12",
+      "dateModified": "2025-02-12",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": pageUrl
@@ -188,7 +188,7 @@ export default function BuildingBrandPeopleCanHear() {
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Building a Brand People Can Hear",
+        "name": "Χτίζοντας ένα brand που ακούγεται",
         "item": pageUrl
       }]
 
@@ -247,23 +247,23 @@ export default function BuildingBrandPeopleCanHear() {
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Building a brand</span>
-                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">people can hear</span>
+                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Χτίζοντας ένα brand</span>
+                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">που ακούγεται</span>
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2 mb-6">
-                Strategic guide to sonic branding and audio identity development through music and sound design.
+                Στρατηγικός οδηγός για το sonic branding και την ανάπτυξη ηχητικής ταυτότητας μέσα από τη μουσική και τον σχεδιασμό ήχου.
               </p>
               <div className="flex items-center gap-6 text-sm text-black/60 slide-up-2">
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" aria-hidden="true" />
-                  <time dateTime="2025-02-12">February 12, 2025</time>
+                  <time dateTime="2025-02-12">12 Φεβρουαρίου 2025</time>
                 </div>
                 <div className="flex items-center gap-2">
                   <User className="w-4 h-4" aria-hidden="true" />
                   <span>SensEar Team</span>
                 </div>
                 <div className="text-black/50">
-                  <span>7 min read</span>
+                  <span>7 λεπτά ανάγνωσης</span>
                 </div>
               </div>
             </div>
@@ -289,77 +289,93 @@ export default function BuildingBrandPeopleCanHear() {
       <div className="max-w-5xl mx-auto px-6 py-16">
         <Card className="bg-white p-8 md:p-12 shadow-lg mb-12">
           <div className="prose prose-lg max-w-none">
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Why sound is your most underrated brand asset</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Στρατηγική sonic branding: χτίζοντας brand ταυτότητα μέσα από τη μουσική</h2>
+            <h3 className="text-2xl font-bold text-black mt-6 mb-4">Γιατί ο ήχος είναι το πιο υποτιμημένο περιουσιακό στοιχείο του brand σας</h3>
+
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Η ταυτότητα ενός brand δεν είναι μόνο οπτική</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Brand identity is more than visuals. It is the total set of signals that help people recognize you and trust what you deliver. That includes name, logo, typography, color, packaging, and physical spaces. But in a crowded market, consistent sound cues cut through faster, travel further, and stick longer in memory. <a href="https://www.sciencedirect.com/science/article/pii/S1057740811000830" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Sensory marketing research</a> shows that engaging multiple senses strengthens perception, judgment, and behavior, and sound is uniquely efficient at doing this at scale.
+              Η ταυτότητα ενός brand είναι κάτι πολύ περισσότερο από την εικόνα του. Είναι το σύνολο των σημάτων που βοηθούν τους ανθρώπους να σας αναγνωρίζουν και να εμπιστεύονται αυτό που προσφέρετε. Σε αυτά περιλαμβάνονται το όνομα, το λογότυπο, η τυπογραφία, τα χρώματα, η συσκευασία και οι φυσικοί χώροι.
+            </p>
+            <p className="text-black/80 leading-relaxed mb-6">
+              Σε ένα περιβάλλον με έντονο ανταγωνισμό, ο συνεπής ήχος ξεχωρίζει πιο γρήγορα, ταξιδεύει πιο μακριά και μένει περισσότερο στη μνήμη. Έρευνες στο sensory marketing δείχνουν ότι η ενεργοποίηση πολλαπλών αισθήσεων ενισχύει την αντίληψη, την κρίση και τη συμπεριφορά, με τον ήχο να είναι ιδιαίτερα αποτελεσματικός σε μεγάλη κλίμακα.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">What a brand really is</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Τι είναι πραγματικά ένα brand</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              A brand is a promise people can identify instantly and rely on consistently. Customers use brand cues to infer benefits and quality before they buy. Visual consistency matters, and color is often cited as boosting recognition, though <a href="https://reviewinc.com/2024/08/14/color-increases-brand-recognition/" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">that specific 80 percent statistic is frequently misquoted</a> and context dependent, originally tied to <a href="https://www.insights4print.ceo/2019/02/color-increases-brand-recognition-by-80-the-real-contents-of-the-loyola-study-revealed/" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">document processing rather than logos alone</a>.
+              Ένα brand είναι μια υπόσχεση που οι άνθρωποι μπορούν να αναγνωρίσουν άμεσα και να εμπιστευτούν σταθερά. Οι καταναλωτές χρησιμοποιούν τα brand cues για να εκτιμήσουν αξία και ποιότητα πριν ακόμα αγοράσουν.
+            </p>
+            <p className="text-black/80 leading-relaxed mb-6">
+              Η οπτική συνέπεια είναι σημαντική και συχνά αναφέρεται ότι το χρώμα αυξάνει την αναγνωρισιμότητα. Ωστόσο, το γνωστό ποσοστό του 80% συχνά παρατίθεται εκτός πλαισίου, καθώς προέρχεται από έρευνες επεξεργασίας εγγράφων και όχι αποκλειστικά από λογότυπα.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">The power of sonic branding</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Η δύναμη του sonic branding</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Music and sound are immediate, emotional, and memorable. Field experiments show that background music can shape traffic flow and lift sales, especially when tempo and musical mode are intentionally selected for context, not chosen at random. For example, <a href="https://music2biz.com/wp-content/uploads/2017/04/Using-Background-Music-to-Affect-the-Behavior-of-Supermarket-Shoppers.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">research in a supermarket</a> found that slow tempo music lengthened shopping time and increased sales volume compared to fast tempo tracks. <a href="https://www.researchgate.net/profile/Klemens-Knoeferle/publication/227451750_It_is_all_in_the_mix_The_interactive_effect_of_music_tempo_and_mode_on_in-store_sales/links/0a85e530360b6bd8a7000000/It-is-all-in-the-mix-The-interactive-effect-of-music-tempo-and-mode-on-in-store-sales.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Interaction effects of tempo and mode</a> can also influence in-store sales outcomes, suggesting playlists should be composed with both parameters in mind for the desired behavioral effect.
+              Η μουσική και ο ήχος λειτουργούν άμεσα, συναισθηματικά και με υψηλή μνημονικότητα. Πειραματικές μελέτες δείχνουν ότι η μουσική υπόκρουση μπορεί να επηρεάσει τη ροή κίνησης και να αυξήσει τις πωλήσεις, ειδικά όταν το tempo και το μουσικό ύφος επιλέγονται συνειδητά και όχι τυχαία.
+            </p>
+            <p className="text-black/80 leading-relaxed mb-6">
+              Για παράδειγμα, έρευνα σε supermarket έδειξε ότι μουσική με αργό tempo αύξησε τον χρόνο παραμονής και τον όγκο πωλήσεων σε σύγκριση με γρήγορα κομμάτια. Ο συνδυασμός ρυθμού και μουσικού τρόπου επηρεάζει επίσης τη συμπεριφορά, κάτι που σημαίνει ότι οι playlists πρέπει να σχεδιάζονται με σαφή στόχο.
+            </p>
+            <p className="text-black/80 leading-relaxed mb-6">
+              Η συνάφεια παίζει καθοριστικό ρόλο. Όταν η μουσική ταιριάζει με το προϊόν ή το περιβάλλον, οι επιλογές των καταναλωτών ευθυγραμμίζονται με αυτό το ηχητικό μήνυμα. Σε κλασική μελέτη σε τμήμα κρασιών, η γαλλική μουσική αύξησε τις πωλήσεις γαλλικών κρασιών, ενώ η γερμανική μουσική ενίσχυσε τις αντίστοιχες γερμανικές επιλογές — χωρίς ούτε μία λέξη επικοινωνίας.
+            </p>
+            <p className="text-black/80 leading-relaxed mb-8">
+              Τα sonic logos ενισχύουν ακόμη περισσότερο αυτό το φαινόμενο, λειτουργώντας ως σύντομες και αναγνωρίσιμες ηχητικές υπογραφές. Σύγχρονες έρευνες συνδέουν τα καλοσχεδιασμένα sonic logos με αυξημένη ανάκληση μνήμης και καλύτερη αντιστοίχιση με την προσωπικότητα του brand.
             </p>
 
-            <p className="text-black/80 leading-relaxed mb-8">
-              Congruence matters. When the music fits the offer, people choose in line with that cue. In a <a href="https://archive.org/download/wikipedia-scholarly-sources-corpus/10.1037%252F0002-9432.71.2.245.zip/10.1037%252F0021-9010.84.2.271.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">classic wine aisle study</a>, French music increased French wine sales while German music increased German wine sales, demonstrating that culturally congruent sound nudges product choice without a single spoken word.
-            </p>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Ένα πρακτικό πλαίσιο για στρατηγική brand με αφετηρία τον ήχο</h2>
 
             <p className="text-black/80 leading-relaxed mb-8">
-              Sonic logos amplify this effect by giving your brand a short, distinctive audio signature that boosts recall and recognition. <a href="https://www.sciencedirect.com/science/article/pii/S0148296323005283" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Recent research</a> links well designed sonic logos to stronger memory and brand personality fit, including attributes like sincerity or ruggedness when the <a href="https://idj.journals.ekb.eg/article_340785_a40c2229d0f8979f8c85180171b7e998.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">musical features align with brand strategy</a>, supported by additional <a href="https://journal.ipb.ac.id/index.php/jcs/article/view/57484" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">branding studies</a>.
-            </p>
-
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">A practical framework for sound-first brand strategy</h2>
-
-            <p className="text-black/80 leading-relaxed mb-8">
-              Use this six-step process to align sound with your brand promise and performance goals.
+              Ακολουθήστε αυτή τη διαδικασία έξι βημάτων για να ευθυγραμμίσετε τον ήχο με την υπόσχεση και τους στόχους του brand σας.
             </p>
 
             <div className="bg-black/5 p-8 rounded-lg my-10">
               <ol className="space-y-6 text-black/80">
                 <li>
-                  <strong className="text-black text-lg">1. Identify your priority customers and motivational triggers</strong>
-                  <p className="mt-2">Use qualitative interviews and journey mapping to uncover when and why sound will help reduce friction or heighten emotion. Anchor findings in <a href="https://www.sciencedirect.com/science/article/pii/S1057740811000830" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">sensory marketing principles</a> so you are designing for perception and behavior, not just taste in music.</p>
+                  <strong className="text-black text-lg">1. Προσδιορίστε το κοινό και τα κίνητρά του</strong>
+                  <p className="mt-2">Χρησιμοποιήστε ποιοτικές συνεντεύξεις και χαρτογράφηση εμπειρίας για να κατανοήσετε πότε και γιατί ο ήχος μειώνει την τριβή ή ενισχύει το συναίσθημα. Σχεδιάστε με βάση την αντίληψη και τη συμπεριφορά, όχι μόνο το γούστο.</p>
                 </li>
                 <li>
-                  <strong className="text-black text-lg">2. Define a value proposition people can hear</strong>
-                  <p className="mt-2">Translate your value proposition into sonic territories. If you stand for calm expertise, consider slower tempos and stable modes. If you stand for energetic discovery, explore higher tempos with bright timbres. <a href="https://www.researchgate.net/profile/Klemens-Knoeferle/publication/227451750_It_is_all_in_the_mix_The_interactive_effect_of_music_tempo_and_mode_on_in-store_sales/links/0a85e530360b6bd8a7000000/It-is-all-in-the-mix-The-interactive-effect-of-music-tempo-and-mode-on-in-store-sales.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Evidence shows</a> tempo and mode influence pace and purchase behavior, so plan accordingly.</p>
+                  <strong className="text-black text-lg">2. Ορίστε μια αξιακή πρόταση που ακούγεται</strong>
+                  <p className="mt-2">Μεταφράστε την αξία του brand σε ηχητικά πεδία. Ηρεμία και αξιοπιστία συνδέονται με πιο αργούς ρυθμούς, ενώ η ανακάλυψη και η ενέργεια με πιο φωτεινά timbres και υψηλότερο tempo.</p>
                 </li>
                 <li>
-                  <strong className="text-black text-lg">3. Assess competitor soundscapes</strong>
-                  <p className="mt-2">Audit competitors' playlists, voice and tone, and any sound logos. <a href="https://www.tandfonline.com/doi/pdf/10.1080/02650487.2023.2273075" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Sonic branding is still under-researched</a> relative to impact, which means there is room to differentiate with evidence-led craft rather than copycat playlists.</p>
+                  <strong className="text-black text-lg">3. Αξιολογήστε τα ηχητικά τοπία του ανταγωνισμού</strong>
+                  <p className="mt-2">Καταγράψτε playlists, φωνή, τόνο και sonic logos. Το sonic branding παραμένει υπο-αξιοποιημένο, αφήνοντας χώρο για διαφοροποίηση με στρατηγική και τεκμηρίωση.</p>
                 </li>
                 <li>
-                  <strong className="text-black text-lg">4. Design core sonic assets</strong>
-                  <p className="mt-2">Create a modular system: a primary sonic logo, mnemonic stingers, UX sounds, and environment-specific playlists. Ensure <a href="https://www.sciencedirect.com/science/article/pii/S0148296323005283" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">musical features align with your brand personality</a> so the audio signature signals the same traits your visuals do.</p>
+                  <strong className="text-black text-lg">4. Σχεδιάστε βασικά ηχητικά στοιχεία</strong>
+                  <p className="mt-2">Δημιουργήστε ένα modular σύστημα: sonic logo, ηχητικά μοτίβα, UX sounds και playlists ανά περιβάλλον, με μουσικά χαρακτηριστικά ευθυγραμμισμένα με την προσωπικότητα του brand.</p>
                 </li>
                 <li>
-                  <strong className="text-black text-lg">5. Craft a clear, testable brand promise</strong>
-                  <p className="mt-2">Articulate how sound supports the promise. For instance, promise a calmer check-in experience in hospitality by using low-arousal tracks in lobbies and rooms. Test against behavioral KPIs like dwell time, service ratings, and repeat visit intent. <a href="https://music2biz.com/wp-content/uploads/2017/04/Using-Background-Music-to-Affect-the-Behavior-of-Supermarket-Shoppers.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">Supermarket studies</a> demonstrate that music can measurably change pace and purchases, so treat playlists as performance media, not background filler.</p>
+                  <strong className="text-black text-lg">5. Διατυπώστε μια ξεκάθαρη, μετρήσιμη υπόσχεση</strong>
+                  <p className="mt-2">Ορίστε πώς ο ήχος υποστηρίζει την εμπειρία. Για παράδειγμα, πιο ήρεμο check-in μέσω low-arousal μουσικής. Μετρήστε αποτελέσματα όπως χρόνος παραμονής, αξιολογήσεις υπηρεσίας και επαναλαμβανόμενες επισκέψεις.</p>
                 </li>
                 <li>
-                  <strong className="text-black text-lg">6. Activate the right brand touchpoints</strong>
-                  <p className="mt-2">Prioritize high-impact touchpoints where customers can hear and feel your promise. In hospitality and retail, that includes entrances, lobbies, dining areas, fitting rooms, mobile apps, IVR systems, and short-form video. Make congruency your rule. The <a href="https://archive.org/download/wikipedia-scholarly-sources-corpus/10.1037%252F0002-9432.71.2.245.zip/10.1037%252F0021-9010.84.2.271.pdf" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">wine aisle study</a> shows how aligning music with context quietly tilts choice in your favor.</p>
+                  <strong className="text-black text-lg">6. Ενεργοποιήστε τα σωστά σημεία επαφής</strong>
+                  <p className="mt-2">Δώστε προτεραιότητα σε σημεία όπου ο ήχος έχει πραγματικό αντίκτυπο: είσοδοι, lobby, χώροι εστίασης, δοκιμαστήρια, apps, IVR και σύντομα βίντεο. Η συνέπεια είναι ο κανόνας.</p>
                 </li>
               </ol>
             </div>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Brand touchpoints to prioritize: the sonic experience</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Ο ήχος ως βασικό brand touchpoint</h2>
 
             <p className="text-black/80 leading-relaxed mb-6">
-              Sound is one of the most powerful brand touchpoints because it works instantly, sets emotional temperature, and is easy to standardize across locations and channels. When thoughtfully integrated into your brand system, your music and sonic logo do more than decorate a space. They become the voice of your brand that customers recognize before they even look up. For hospitality brands, this translates into consistent quality cues that reduce uncertainty and increase loyalty over time, supported by a growing body of work in <a href="https://www.sciencedirect.com/science/article/pii/S1057740811000830" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">sensory marketing</a> and <a href="https://www.tandfonline.com/doi/pdf/10.1080/02650487.2023.2273075" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-black/70">sonic branding research</a>.
+              Ο ήχος λειτουργεί άμεσα, ρυθμίζει το συναίσθημα και εφαρμόζεται εύκολα σε πολλαπλές τοποθεσίες και κανάλια. Όταν ενσωματώνεται σωστά, η μουσική και το sonic logo δεν διακοσμούν απλώς έναν χώρο. Γίνονται η φωνή του brand, αναγνωρίσιμη πριν καν κοιτάξει κάποιος γύρω του.
+            </p>
+            <p className="text-black/80 leading-relaxed mb-6">
+              Για brands φιλοξενίας, αυτό μεταφράζεται σε σταθερά σήματα ποιότητας που μειώνουν την αβεβαιότητα και ενισχύουν τη μακροχρόνια πιστότητα.
             </p>
 
-            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Ready to make your brand heard?</h2>
+            <h2 className="text-3xl font-bold text-black mt-12 mb-6">Έτοιμοι να κάνετε το brand σας να ακούγεται;</h2>
 
             <p className="text-black/80 leading-relaxed">
-              If you want <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70">playlists that perform</Link>, a <Link to={createPageUrl("sonic-strategy")} className="text-black underline hover:text-black/70">sound logo people remember</Link>, and <Link to={createPageUrl("Services")} className="text-black underline hover:text-black/70">audio guidelines</Link> your teams can apply everywhere, SensEar can help. <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70">Book a discovery session</Link> and we will map your <Link to={createPageUrl("Industries")} className="text-black underline hover:text-black/70">customer journey</Link>, test what your audience responds to, and build a sonic branding system that lifts recognition, improves experience, and drives <Link to={createPageUrl("case-studies")} className="text-black underline hover:text-black/70">measurable results</Link>. Let's design the sound of your brand today.
+              Αν θέλετε <Link to={createPageUrl("signature-playlists")} className="text-black underline hover:text-black/70">playlists που αποδίδουν</Link>, <Link to={createPageUrl("sonic-strategy")} className="text-black underline hover:text-black/70">sonic logos που μένουν στη μνήμη</Link> και <Link to={createPageUrl("Services")} className="text-black underline hover:text-black/70">ηχητικές οδηγίες</Link> που εφαρμόζονται παντού, η SensEar μπορεί να σας βοηθήσει. <Link to={createPageUrl("contact")} className="text-black underline hover:text-black/70">Χαρτογραφούμε το ταξίδι του επισκέπτη</Link>, δοκιμάζουμε τι λειτουργεί για το κοινό σας και χτίζουμε ένα σύστημα sonic branding που ενισχύει την αναγνωρισιμότητα, βελτιώνει την εμπειρία και φέρνει <Link to={createPageUrl("case-studies")} className="text-black underline hover:text-black/70">μετρήσιμα αποτελέσματα</Link>.
+            </p>
+            <p className="text-black/80 leading-relaxed">
+              Σχεδιάστε σήμερα τον ήχο του brand σας.
             </p>
           </div>
         </Card>
@@ -368,12 +384,12 @@ export default function BuildingBrandPeopleCanHear() {
           <Link to={createPageUrl("Blog")}>
             <Button variant="outline" className="bg-transparent border-black text-black hover:bg-black hover:text-white">
               <ArrowLeft className="w-4 h-4 mr-2" />
-              Back to Blog
+              Επιστροφή στο Blog
             </Button>
           </Link>
           <Link to={createPageUrl("contact")}>
             <AnimatedButton>
-              Build Your Sonic Brand Identity
+              Χτίστε τη Sonic Ταυτότητα του Brand σας
             </AnimatedButton>
           </Link>
         </div>
