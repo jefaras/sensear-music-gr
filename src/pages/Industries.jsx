@@ -92,10 +92,10 @@ export default function Industries() {
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                Curated music<br />tailored to your sector
+                Επιμελημένη μουσική<br />προσαρμοσμένη στον κλάδο σας
               </h1>
               <p className="text-lg md:text-xl text-black/60 leading-relaxed slide-up-2">
-                Distinct spaces require unique sound experiences.
+                Γιατί διαφορετικοί χώροι απαιτούν διαφορετικές ηχητικές εμπειρίες.
               </p>
             </div>
 
@@ -122,15 +122,15 @@ export default function Industries() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
               <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-white leading-tight mb-12">
-                The right atmosphere<br />for every space
+                Η κατάλληλη ατμόσφαιρα<br />για κάθε χώρο
               </h2>
             
               <div className="w-full text-center">
                 <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                  Hotels, restaurants, retail, gyms & culture all ask for <strong><em>their own atmosphere</em></strong>.
+                  Ξενοδοχεία, εστιατόρια, καταστήματα, χώροι ευεξίας και πολιτισμού έχουν διαφορετικές ανάγκες, διαμορφωμένες από τον τρόπο που οι άνθρωποι κινούνται, νιώθουν και αλληλεπιδρούν.
                 </p>
                 <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                  <strong><em>The right music</em></strong> turns spaces into <strong>unique experiences</strong>.
+                  Η σωστή μουσική μετατρέπει τους χώρους σε εμπειρίες.
                 </p>
               </div>
           </div>
@@ -154,8 +154,8 @@ export default function Industries() {
       }}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto">
-            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">Your industry, our expertise</h2>
-            <p className="text-xl text-black/60 font-medium mb-12 max-w-3xl mx-auto">Potent music selected for the specific needs of your world.</p>
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">Ο κλάδος σας, η εξειδίκευσή μας</h2>
+            <p className="text-xl text-black/60 font-medium mb-12 max-w-3xl mx-auto">Προσεκτικές μουσικές επιλογές, προσαρμοσμένες στις ανάγκες του δικού σας κόσμου.</p>
           </div>
 
           <div className="space-y-20">
@@ -168,20 +168,20 @@ export default function Industries() {
                     className="w-full h-auto object-cover rounded-xl shadow-lg" />
               </div>
               <div className="order-1 lg:order-2">
-                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Hotels & Resorts</h3>
-                <p className="text-xl font-medium text-black/60 mb-8">Soundtracks for every hour & space</p>
+                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Ξενοδοχεία & Θέρετρα</h3>
+                <p className="text-xl font-medium text-black/60 mb-8">Soundtracks για κάθε ώρα και χώρο</p>
                 
                 <div className="mb-6">
-                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Music that shapes the complete guest journey: from morning coffee to midnight cocktails, across lobby, pool, spa, restaurant & bars.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Μουσική που συνοδεύει ολόκληρο το ταξίδι του επισκέπτη, από τον πρώτο καφέ έως το βραδινό ποτό, σε lobby, πισίνα, spa, εστιατόριο και bar.</p>
                 </div>
                 <div className="mb-6">
-                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">The atmosphere reinforces what guests already love about your property.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Αποτέλεσμα:<br/>Η ατμόσφαιρα ενισχύει όσα ήδη αγαπούν οι επισκέπτες στο κατάλυμά σας.</p>
                 </div>
 
                 <div className="mt-8">
                   <Link to={createPageUrl("music-for-hotels-and-resorts")} aria-label="Music for Hotels & Resorts">
                     <AnimatedButton className="w-full sm:w-auto">
-                      Create your signature atmosphere
+                      Δημιουργήστε τη δική σας υπογραφή ήχου
                     </AnimatedButton>
                   </Link>
                 </div>
@@ -191,20 +191,20 @@ export default function Industries() {
             {/* Restaurants & Bars */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-1">
-                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Restaurants & Bars</h3>
-                <p className="text-xl font-medium text-black/60 mb-8">The invisible maître d'</p>
+                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Εστιατόρια & Bar</h3>
+                <p className="text-xl font-medium text-black/60 mb-8">Ο αόρατος maître d’</p>
                 
                 <div className="mb-6">
-                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Sound that flows with your rhythms, encouraging conversation and longer visits.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Ήχος που ακολουθεί τον ρυθμό του service, ενθαρρύνει τη συζήτηση και κρατά τους επισκέπτες περισσότερο.</p>
                 </div>
                 <div className="mb-6">
-                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Service flows more smoothly and guests settle in for the complete experience.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Αποτέλεσμα:<br/>Η ροή του service γίνεται πιο ομαλή και οι επισκέπτες ζουν την εμπειρία μέχρι τέλους.</p>
                 </div>
 
                 <div className="mt-8">
                   <Link to={createPageUrl("music-for-restaurants-and-bars")} aria-label="Music for Restaurants & Bars">
                     <AnimatedButton className="w-full sm:w-auto">
-                      Upgrade your dining atmosphere
+                      Αναβαθμίστε την ατμόσφαιρα του χώρου σας
                     </AnimatedButton>
                   </Link>
                 </div>
@@ -226,20 +226,20 @@ export default function Industries() {
                     className="w-full h-auto object-cover rounded-xl shadow-lg" />
               </div>
               <div className="order-1 lg:order-2">
-                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Events & Experiences</h3>
-                <p className="text-xl font-medium text-black/60 mb-8">Choreographed precision for unforgettable moments</p>
+                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Εκδηλώσεις & Εμπειρίες</h3>
+                <p className="text-xl font-medium text-black/60 mb-8">Χορογραφημένη ακρίβεια για αξέχαστες στιγμές</p>
                 
                 <div className="mb-6">
-                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Precisely timed music that frames every phase, so your event sounds as good as it looks.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Μουσική με ακριβή χρονισμό που πλαισιώνει κάθε φάση της εκδήλωσης.</p>
                 </div>
                 <div className="mb-6">
-                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Smooth transitions that guests don't notice but organizers appreciate.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Αποτέλεσμα:<br/>Ομαλές μεταβάσεις που οι επισκέπτες δεν προσέχουν, αλλά οι διοργανωτές εκτιμούν.</p>
                 </div>
 
                 <div className="mt-8">
                   <Link to={createPageUrl("music-for-events-and-experiences")} aria-label="Music for Events">
                     <AnimatedButton className="w-full sm:w-auto">
-                      Perfect your next event
+                      Τελειοποιήστε την επόμενη εκδήλωσή σας
                     </AnimatedButton>
                   </Link>
                 </div>
@@ -249,20 +249,20 @@ export default function Industries() {
             {/* Retail Stores */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-1">
-                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Retail Stores</h3>
-                <p className="text-xl font-medium text-black/60 mb-8">Soundscapes that inspire discovery</p>
+                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Καταστήματα Λιανικής</h3>
+                <p className="text-xl font-medium text-black/60 mb-8">Ηχητικά τοπία που ενθαρρύνουν την ανακάλυψη</p>
                 
                 <div className="mb-6">
-                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Music that guides customer journeys and helps your space tell its story through sound.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Μουσική που καθοδηγεί τη διαδρομή του πελάτη και βοηθά τον χώρο να αφηγηθεί την ιστορία του μέσα από τον ήχο.</p>
                 </div>
                 <div className="mb-6">
-                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Shoppers slow down, explore more corners & feel guided, not rushed.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Αποτέλεσμα:<br/>Οι επισκέπτες κινούνται πιο αργά, εξερευνούν περισσότερο και νιώθουν καθοδήγηση, όχι πίεση.</p>
                 </div>
 
                 <div className="mt-8">
                   <Link to={createPageUrl("music-for-retail-stores")} aria-label="Music for Retail Stores">
                     <AnimatedButton className="w-full sm:w-auto">
-                      Transform your retail experience
+                      Μεταμορφώστε την εμπειρία αγορών
                     </AnimatedButton>
                   </Link>
                 </div>
@@ -284,20 +284,20 @@ export default function Industries() {
                     className="w-full h-auto object-cover rounded-xl shadow-lg" />
               </div>
               <div className="order-1 lg:order-2">
-                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Wellness Centers</h3>
-                <p className="text-xl font-medium text-black/60 mb-8">The perfect soundtrack for every practice</p>
+                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Wellness & Γυμναστήρια</h3>
+                <p className="text-xl font-medium text-black/60 mb-8">Το ιδανικό soundtrack για κάθε δραστηριότητα</p>
                 
                 <div className="mb-6">
-                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">We calibrate music to support each activity, so each space has its optimal atmosphere.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Ρυθμίζουμε τη μουσική ώστε να υποστηρίζει κάθε πρακτική και επίπεδο έντασης, δίνοντας σε κάθε χώρο τη σωστή αίσθηση.</p>
                 </div>
                 <div className="mb-6">
-                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Members consider the atmosphere as part of what makes their practice feel complete.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Αποτέλεσμα:<br/>Η ατμόσφαιρα γίνεται μέρος της συνολικής εμπειρίας άσκησης ή χαλάρωσης.</p>
                 </div>
 
                 <div className="mt-8">
                   <Link to={createPageUrl("music-for-wellness-and-gyms")} aria-label="Music for Wellness & Gyms">
                     <AnimatedButton className="w-full sm:w-auto">
-                      Optimize your wellness space
+                      Βελτιστοποιήστε τον χώρο ευεξίας σας
                     </AnimatedButton>
                   </Link>
                 </div>
@@ -307,20 +307,20 @@ export default function Industries() {
             {/* Art, Museums & Fashion */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-1">
-                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Art, Museums & Fashion</h3>
-                <p className="text-xl font-medium text-black/60 mb-8">Subtle atmospheres that deepen appreciation</p>
+                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-4">Τέχνη, Μουσεία & Μόδα</h3>
+                <p className="text-xl font-medium text-black/60 mb-8">Διακριτικές ατμόσφαιρες που ενισχύουν την εμπειρία</p>
                 
                 <div className="mb-6">
-                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">We create soundscapes that support without overwhelming and enrich the cultural experience.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Ηχητικά τοπία που υποστηρίζουν το έργο χωρίς να το επισκιάζουν και ενισχύουν τη συγκέντρωση και την αισθητική εμπειρία.</p>
                 </div>
                 <div className="mb-6">
-                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Visitors slow down, absorb more and share their experience afterwards.</p>
+                  <p className="text-lg md:text-xl text-black/60 leading-relaxed">Αποτέλεσμα:<br/>Οι επισκέπτες παραμένουν περισσότερο, απορροφούν βαθύτερα και μοιράζονται την εμπειρία τους.</p>
                 </div>
 
                 <div className="mt-8">
                   <Link to={createPageUrl("music-for-art-museums-and-fashion")} aria-label="Music for Art, Museums & Fashion">
                     <AnimatedButton className="w-full sm:w-auto">
-                      Frame your exhibitions
+                      Πλαισιώστε τις εκθέσεις σας
                     </AnimatedButton>
                   </Link>
                 </div>
@@ -353,8 +353,8 @@ export default function Industries() {
       }}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto">
-            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">What connects these worlds</h2>
-            <p className="text-xl text-black/60 font-medium mb-12 max-w-3xl mx-auto">Six industries, shared opportunities to transform through music.</p>
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">Τι συνδέει όλους αυτούς τους κόσμους</h2>
+            <p className="text-xl text-black/60 font-medium mb-12 max-w-3xl mx-auto">Έξι διαφορετικοί κλάδοι, με κοινές προκλήσεις που λύνονται μέσω της μουσικής:</p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -367,11 +367,11 @@ export default function Industries() {
             <div className="order-1 lg:order-2">
               <div className="space-y-4 mb-8">
                 {[
-                  <span key="1">Every venue's <strong>energy needs change</strong> throughout the day.</span>,
-                  <span key="2">Multiple spaces or locations that should <strong>feel connected</strong>.</span>,
-                  <span key="3">Teams need to <strong>focus on service</strong>, not soundtrack debates.</span>,
-                  <span key="4">Creating memorable experiences that <strong>bring people back</strong>.</span>,
-                  <span key="5">Knowing if your <strong>music actually works</strong> for your business.</span>
+                  <span key="1">Η ενέργεια του χώρου αλλάζει μέσα στη μέρα</span>,
+                  <span key="2">Πολλοί χώροι ή σημεία που πρέπει να “δένουν” μεταξύ τους</span>,
+                  <span key="3">Οι ομάδες πρέπει να εστιάζουν στο service, όχι στις playlists</span>,
+                  <span key="4">Η εμπειρία πρέπει να μένει στη μνήμη και να φέρνει επιστροφή</span>,
+                  <span key="5">Χρειάζεται να γνωρίζετε αν η μουσική λειτουργεί πραγματικά για τον χώρο σας</span>
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3">
                     <div className="mt-1.5 w-5 h-5 rounded-full bg-black/5 flex items-center justify-center flex-shrink-0">
@@ -383,7 +383,7 @@ export default function Industries() {
               </div>
 
               <p className="text-xl font-medium text-black/80 italic">
-                Different industries express these differently, but strategic sound solves them all.
+                Διαφορετικά περιβάλλοντα, ίδια αλήθεια:<br/>ο στρατηγικός ήχος τα ενώνει όλα.
               </p>
             </div>
           </div>
@@ -393,21 +393,21 @@ export default function Industries() {
       {/* Discover Your Sound Potential */}
       <section className="py-20 animated-gradient">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Discover Your Sound Potential</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Ανακαλύψτε τις δυνατότητες του ήχου σας</h2>
           <p className="text-xl text-black/60 mb-12 max-w-3xl mx-auto">
-            Every venue has untapped atmospheric potential. Let's explore how strategic sound can transform your specific space and objectives.
+            Κάθε χώρος έχει ανεκμετάλλευτο δυναμικό ατμόσφαιρας. Ας δούμε πώς ο στρατηγικός ήχος μπορεί να το αναδείξει, σύμφωνα με τους στόχους σας.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <Link to={createPageUrl("contact")}>
-              <AnimatedButton className="w-full sm:w-auto h-14" aria-label="Discover your sound strategy">
-                Discover Your Sound Strategy
+              <AnimatedButton className="w-full sm:w-auto h-14" aria-label="Ανακαλύψτε τη στρατηγική ήχου σας">
+                Ανακαλύψτε τη στρατηγική ήχου σας
               </AnimatedButton>
             </Link>
             
             <Link to={createPageUrl("Services")}>
               <AnimatedButton className="w-full sm:w-auto h-14">
-                Explore our services
+                Δείτε τις υπηρεσίες μας
               </AnimatedButton>
             </Link>
           </div>
