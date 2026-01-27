@@ -22,10 +22,10 @@ export default function FAQ() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => { // Corrected syntax from useEffect() => { to useEffect(() => {
-    document.title = "Questions & Answers | Music Curation FAQ | SensEar";
+    document.title = "Συχνές ερωτήσεις | SensEar";
 
     const metaDescription = document.querySelector('meta[name="description"]');
-    const description = "Clear answers to common questions about music curation, licensing, services and how we work.";
+    const description = "Απαντήσεις σε συχνές ερωτήσεις σχετικά με τον ήχο, την αδειοδότηση και τις υπηρεσίες μας.";
     if (metaDescription) {
       metaDescription.setAttribute('content', description);
     } else {
@@ -82,10 +82,10 @@ export default function FAQ() {
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                Understanding how it works
+                Κατανοώντας πως λειτουργεί στην πράξη
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                Answers to common questions about sound, licensing & our services.
+                Απαντήσεις σε συχνές ερωτήσεις σχετικά με τον ήχο, την αδειοδότηση και τις υπηρεσίες μας.
               </p>
             </div>
 
@@ -110,97 +110,97 @@ export default function FAQ() {
       <section className="py-20" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="faq-section-heading">
         <div className="max-w-4xl mx-auto px-6">
           <h2 id="faq-section-heading" className="text-4xl font-bold text-center text-black mb-12">
-            Your Questions, Answered
+            Οι ερωτήσεις σας, απαντημένες
           </h2>
           <Accordion type="single" collapsible className="w-full space-y-4">
             <AccordionItem value="item-0" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
               <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
-                Is it legal to play music from Spotify, YouTube, or Apple Music in my restaurant/bar/hotel?
+                Είναι νόμιμο να παίζω μουσική από Spotify, YouTube ή Apple Music στο εστιατόριο / bar / ξενοδοχείο μου;
               </AccordionTrigger>
               <AccordionContent className="text-base text-black/70 pt-2 pb-4">
-                Typically, consumer streaming platforms (like Spotify Free/Premium, YouTube, Apple Music, etc.) are licensed only for personal use, meaning they do not cover public performance rights in a commercial setting. You'll need a business license or properly licensed service to legally play music for your patrons.
+                Συνήθως όχι. Οι καταναλωτικές πλατφόρμες streaming (όπως Spotify Free/Premium, YouTube, Apple Music κ.λπ.) έχουν άδεια μόνο για προσωπική χρήση και δεν καλύπτουν τη δημόσια εκτέλεση μουσικής σε επαγγελματικούς χώρους. Για να παίζετε μουσική νόμιμα στους πελάτες σας, απαιτείται επαγγελματική άδεια ή κατάλληλα αδειοδοτημένη υπηρεσία.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-1" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
               <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
-                Why can't I just use my personal Spotify or Apple Music subscription?
+                Γιατί δεν μπορώ να χρησιμοποιήσω τον προσωπικό μου λογαριασμό Spotify ή Apple Music;
               </AccordionTrigger>
               <AccordionContent className="text-base text-black/70 pt-2 pb-4">
-                Personal subscriptions don't include public performance or commercial use rights. Using them in a public venue can violate copyright law and may lead to fines or legal complications. Commercial music services, by contrast, include the necessary licenses for public playback.
+                Οι προσωπικές συνδρομές δεν περιλαμβάνουν δικαιώματα δημόσιας εκτέλεσης ή εμπορικής χρήσης. Η χρήση τους σε επαγγελματικό χώρο μπορεί να παραβιάζει τη νομοθεσία περί πνευματικών δικαιωμάτων και να οδηγήσει σε πρόστιμα ή νομικά ζητήματα. Οι επαγγελματικές μουσικές υπηρεσίες περιλαμβάνουν τις απαραίτητες άδειες για δημόσια αναπαραγωγή.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-2" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
               <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
-                What is a public performance license, and why do I need it?
+                Τι είναι η άδεια δημόσιας εκτέλεσης και γιατί τη χρειάζομαι;
               </AccordionTrigger>
               <AccordionContent className="text-base text-black/70 pt-2 pb-4">
-                A Public Performance License is an agreement that compensates artists, songwriters, and music publishers when their work is played in a public venue. You must utilize it to legally broadcast or perform music in restaurants, bars, hotels, retail stores, etc. SensEar can help you navigate or secure these licenses for peace of mind.
+                Η άδεια δημόσιας εκτέλεσης αποζημιώνει καλλιτέχνες, δημιουργούς και εκδότες όταν το έργο τους παίζεται σε δημόσιο χώρο. Είναι απαραίτητη για τη νόμιμη αναπαραγωγή μουσικής σε εστιατόρια, bar, ξενοδοχεία, καταστήματα λιανικής κ.ά. Η SensEar μπορεί να σας καθοδηγήσει ή να σας βοηθήσει να εξασφαλίσετε τις σωστές άδειες.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-4" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
               <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
-                How long does it take to create a custom playlist?
+                Πόσος χρόνος χρειάζεται για τη δημιουργία μιας μουσικής playlist στα μέτρα μου;
               </AccordionTrigger>
               <AccordionContent className="text-base text-black/70 pt-2 pb-4">
-                It varies. For a single venue with a clear music profile, it may take just a few days. For larger or multi-location clients, it can take a week or more to finalize the whole process.
+                Εξαρτάται. Για έναν μεμονωμένο χώρο με ξεκάθαρο μουσικό προφίλ, μπορεί να χρειαστούν λίγες ημέρες. Για μεγαλύτερους οργανισμούς ή πολλαπλές τοποθεσίες, η διαδικασία μπορεί να διαρκέσει μία εβδομάδα ή και περισσότερο.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-5" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
               <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
-                Is your music fully licensed?
+                Η μουσική που παρέχετε είναι πλήρως αδειοδοτημένη;
               </AccordionTrigger>
               <AccordionContent className="text-base text-black/70 pt-2 pb-4">
-                Yes. All tracks are properly licensed so you can focus on running your business without any legal concerns.
+                Ναι. Όλα τα κομμάτια είναι σωστά αδειοδοτημένα, ώστε να λειτουργείτε χωρίς νομικές ανησυχίες και να εστιάζετε στην επιχείρησή σας.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-6" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
               <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
-                Can I update the music playlists myself?
+                Μπορώ να ενημερώνω μόνος μου τις μουσικές playlists;
               </AccordionTrigger>
               <AccordionContent className="text-base text-black/70 pt-2 pb-4">
-                Absolutely. Our user-friendly platform allows you to make quick changes, adjust settings, or schedule different playlists for specific times.
+                Φυσικά. Η εύχρηστη πλατφόρμα μας σάς επιτρέπει να κάνετε γρήγορες αλλαγές, να ρυθμίζετε παραμέτρους ή να προγραμματίζετε διαφορετικές playlists για συγκεκριμένες ώρες.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-7" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
               <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
-                Do I need special equipment for playing your music playlists?
+                Χρειάζομαι ειδικό εξοπλισμό για να παίζω τις μουσικές playlists;
               </AccordionTrigger>
               <AccordionContent className="text-base text-black/70 pt-2 pb-4">
-                Basic sound systems work just fine, but if you want specialized audio-visual solutions, we can provide design, purchase, and installation services. For more info see our AV Design & Integration section.
+                Ένα βασικό ηχητικό σύστημα είναι συνήθως αρκετό. Αν όμως χρειάζεστε εξειδικευμένες λύσεις ήχου και εικόνας, μπορούμε να αναλάβουμε τον σχεδιασμό, την προμήθεια και την εγκατάσταση. Για περισσότερες πληροφορίες δείτε την ενότητα Σχεδιασμός & Ενσωμάτωση AV.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-8" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
               <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
-                Do you offer support after setup?
+                Παρέχετε υποστήριξη μετά την αρχική εγκατάσταση;
               </AccordionTrigger>
               <AccordionContent className="text-base text-black/70 pt-2 pb-4">
-                Yes. We are available for ongoing support, updates, and any adjustments you need along the way. Just send us a message and we will talk about it.
+                Ναι. Προσφέρουμε συνεχή υποστήριξη, ενημερώσεις και προσαρμογές όποτε τις χρειαστείτε. Απλώς επικοινωνήστε μαζί μας.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-9" className="bg-white/80 border-b-0 rounded-lg shadow-sm px-6">
               <AccordionTrigger className="text-lg font-semibold text-left hover:no-underline">
-                What is the difference between background music and bespoke curation?
+                Ποια είναι η διαφορά ανάμεσα στη γενική background μουσική και την εξατομικευμένη επιμέλεια;
               </AccordionTrigger>
               <AccordionContent className="text-base text-black/70 pt-2 pb-4">
-                Background Music offers pre-curated, automated playlists for a seamless ambiance, ideal for general business needs. Bespoke Curation is a fully customized music strategy, crafted to reflect a brand's identity and create a unique, immersive experience. It is ideal for luxury venues, boutique spaces, and businesses seeking a signature sound experience.
+                Η background μουσική βασίζεται σε έτοιμες, αυτοματοποιημένες playlists για μια ευχάριστη και ουδέτερη ατμόσφαιρα. Η εξατομικευμένη μουσική επιμέλεια είναι μια πλήρως προσαρμοσμένη στρατηγική ήχου, σχεδιασμένη να εκφράζει την ταυτότητα του brand και να δημιουργεί μια μοναδική, βιωματική εμπειρία. Είναι ιδανική για luxury χώρους, boutique concepts και επιχειρήσεις που θέλουν ξεχωριστό ηχητικό αποτύπωμα.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
 
           <div className="text-center mt-12 bg-white/50 p-8 rounded-lg">
-            <h3 className="text-2xl font-bold text-black mb-4">Still Have Questions? Let's Talk</h3>
-            <p className="text-black/80 mb-6">Let's talk about how we can elevate your brand's sound.</p>
+            <h3 className="text-2xl font-bold text-black mb-4">Έχετε κι άλλες ερωτήσεις; Ας μιλήσουμε</h3>
+            <p className="text-black/80 mb-6">Ας συζητήσουμε πώς μπορούμε να αναβαθμίσουμε τον ήχο του brand σας.</p>
             <Link to={createPageUrl("contact")}>
               <AnimatedButton>
-                Contact us
+                Επικοινωνήστε μαζί μας
               </AnimatedButton>
             </Link>
           </div>
