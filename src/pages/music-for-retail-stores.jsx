@@ -22,7 +22,7 @@ export default function RetailStores() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Music for Retail Stores | SensEar";
+    document.title = "Μουσική για Καταστήματα Λιανικής | SensEar";
 
     const metaDescription = document.querySelector('meta[name="description"]');
     const description = "Music for retail stores shaped to welcome customers, support browsing and reinforce brand image without distracting from the shopping experience.";
@@ -230,11 +230,11 @@ export default function RetailStores() {
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Music for Retail Stores:</span>
-                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">Intended to welcome & inspire discovery.</span>
+                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Μουσική για Καταστήματα Λιανικής:</span>
+                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">Σχεδιασμένη να υποδέχεται και να εμπνέει την ανακάλυψη</span>
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                Rhythm curated to support exploration & brand image.
+                Ρυθμός επιμελημένος ώστε να υποστηρίζει την περιήγηση στο κατάστημα και την εικόνα του brand.
               </p>
             </div>
 
@@ -261,16 +261,16 @@ export default function RetailStores() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
             <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-12">
-              Music that inspires<br />
-              the shopping journey
+              Μουσική που εμπνέει<br />
+              το ταξίδι αγορών
             </h2>
             
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                Music in your store <strong><em>influences how long people browse</em></strong>, what they notice & whether they buy.
+                Η μουσική στο κατάστημά σας <strong><em>επηρεάζει τον χρόνο παραμονής</em></strong>, το τι προσέχουν οι επισκέπτες και το αν θα προχωρήσουν σε αγορά.
               </p>
               <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                Our tunes <strong><em>elegantly moves</em></strong> with your store's rhythm, forming how clients <strong><em>perceive your brand</em></strong>.
+                Οι μουσικές μας επιλογές <strong><em>κινούνται κομψά</em></strong> με τον ρυθμό του καταστήματος και διαμορφώνουν τον τρόπο με τον οποίο οι πελάτες <strong><em>αντιλαμβάνονται το brand σας</em></strong>.
               </p>
             </div>
           </div>
@@ -281,8 +281,8 @@ export default function RetailStores() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">What we do</h2>
-            <p className="text-xl text-black/60 font-medium">Retail music strategy and implementation</p>
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">Τι κάνουμε</h2>
+            <p className="text-xl text-black/60 font-medium">Στρατηγική και υλοποίηση μουσικής για καταστήματα λιανικής</p>
           </div>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -298,23 +298,23 @@ export default function RetailStores() {
             {/* Right: Content */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Journey-based playlists</h3>
-                <p className="text-lg text-black/70">Music designed to fit all your shop's areas, supporting natural discovery & decision-making.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Playlists με βάση τη διαδρομή του πελάτη</h3>
+                <p className="text-lg text-black/70">Μουσική σχεδιασμένη για κάθε σημείο του καταστήματος, που υποστηρίζει τη φυσική περιήγηση και τη λήψη αποφάσεων.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Tempo & energy calibration</h3>
-                <p className="text-lg text-black/70">Shopping music that relaxes & energizes clients to browse sections without rushing.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Ρύθμιση tempo και ενέργειας</h3>
+                <p className="text-lg text-black/70">Ήχος που χαλαρώνει και ενεργοποιεί, επιτρέποντας στους πελάτες να εξερευνούν χωρίς βιασύνη.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Brand-aligned selections</h3>
-                <p className="text-lg text-black/70">Audio that complements your positioning, visuals, and customer profile.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Μουσικές επιλογές ευθυγραμμισμένες με το brand</h3>
+                <p className="text-lg text-black/70">Ήχος που συμπληρώνει τη θέση σας στην αγορά, τα visuals και το προφίλ του κοινού σας.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Seasonal rotations</h3>
-                <p className="text-lg text-black/70">Playlists that evolve with seasons, collections & sales while keeping your signature sound.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Εποχιακές ανανεώσεις</h3>
+                <p className="text-lg text-black/70">Playlists που εξελίσσονται με τις συλλογές, τις σεζόν και τις περιόδους προσφορών, διατηρώντας τον χαρακτήρα σας.</p>
               </div>
             </div>
           </div>
@@ -324,31 +324,31 @@ export default function RetailStores() {
       {/* Retail music is ideal for */}
       <section className="py-20" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Retail music is ideal for</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Ιδανικό για μουσική λιανικής</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Content */}
             <div>
               <ul className="space-y-8 text-lg text-black/70">
                 <li className="block">
-                  <span className="font-semibold text-2xl block mb-1 text-black">Fashion & Lifestyle Boutiques</span>
-                  <span>that live on discovery and curation.</span>
+                  <span className="font-semibold text-2xl block mb-1 text-black">Boutiques μόδας & lifestyle</span>
+                  <span>Που βασίζονται στην ανακάλυψη και την επιμέλεια.</span>
                 </li>
                 <li className="block">
-                  <span className="font-semibold text-2xl block mb-1 text-black">Flagship Stores</span>
-                  <span>needing signature atmosphere across multiple floors.</span>
+                  <span className="font-semibold text-2xl block mb-1 text-black">Flagship καταστήματα</span>
+                  <span>Με ανάγκη για χαρακτηριστική ατμόσφαιρα σε πολλαπλά επίπεδα.</span>
                 </li>
                 <li className="block">
-                  <span className="font-semibold text-2xl block mb-1 text-black">Multi-Store Brands</span>
-                  <span>wanting consistent sound with local character.</span>
+                  <span className="font-semibold text-2xl block mb-1 text-black">Brands με πολλαπλά καταστήματα</span>
+                  <span>Που θέλουν συνεπή ήχο με τοπικό χαρακτήρα.</span>
                 </li>
                 <li className="block">
-                  <span className="font-semibold text-2xl block mb-1 text-black">Concept & Editorial Spaces</span>
-                  <span>that change themes, art and installations regularly.</span>
+                  <span className="font-semibold text-2xl block mb-1 text-black">Concept & editorial χώροι</span>
+                  <span>Που αλλάζουν θεματολογία, τέχνη και εγκαταστάσεις συχνά.</span>
                 </li>
                 <li className="block">
-                  <span className="font-semibold text-2xl block mb-1 text-black">Pop-Up stores</span>
-                  <span>that must make an impression from day one.</span>
+                  <span className="font-semibold text-2xl block mb-1 text-black">Pop-up καταστήματα</span>
+                  <span>Που πρέπει να αφήσουν ισχυρή εντύπωση από την πρώτη μέρα.</span>
                 </li>
               </ul>
             </div>
@@ -368,7 +368,7 @@ export default function RetailStores() {
       {/* How we help */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">How we help</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Πώς βοηθάμε</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image */}
@@ -383,23 +383,23 @@ export default function RetailStores() {
             {/* Right: Content */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Encourage deeper browsing</h3>
-                <p className="text-lg text-black/70">Our relaxed, well-paced atmosphere inspires longer stays & more exploration.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Ενθαρρύνουμε βαθύτερη περιήγηση</h3>
+                <p className="text-lg text-black/70">Δημιουργούμε ήρεμη, σωστά ρυθμισμένη ατμόσφαιρα που παρατείνει την παραμονή και την εξερεύνηση.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Strengthen brand recognition</h3>
-                <p className="text-lg text-black/70">Sound, visuals & service tell the same, recognizable story across locations.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Ενισχύουμε την αναγνωρισιμότητα του brand</h3>
+                <p className="text-lg text-black/70">Ήχος, εικόνα και εξυπηρέτηση αφηγούνται την ίδια, συνεπή ιστορία σε όλα τα σημεία.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Guide natural flow</h3>
-                <p className="text-lg text-black/70">Music adjusts to day parts & helps move through sections without rushing.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Καθοδηγούμε τη φυσική ροή</h3>
+                <p className="text-lg text-black/70">Η μουσική προσαρμόζεται στις ώρες της ημέρας και βοηθά την κίνηση χωρίς πίεση.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Remove playlist management</h3>
-                <p className="text-lg text-black/70">Commercially licensed & centrally managed playlists let your team focus on clients, not songs.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Αφαιρούμε τη διαχείριση playlists</h3>
+                <p className="text-lg text-black/70">Αδειοδοτημένες και κεντρικά διαχειριζόμενες playlists επιτρέπουν στην ομάδα να εστιάζει στους πελάτες, όχι στα τραγούδια.</p>
               </div>
             </div>
           </div>
@@ -411,19 +411,20 @@ export default function RetailStores() {
       {/* Final CTA */}
       <section className="py-20" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Upgrade your retail atmosphere</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Αναβαθμίστε την ατμόσφαιρα του καταστήματός σας</h2>
           <p className="text-xl text-black/80 mb-8 max-w-3xl mx-auto">
-            Ready to make music work for your store? We evaluate your sound, map your customer journey, and provide a brand-specific approach.
+            Θέλετε η μουσική να δουλεύει πραγματικά για τον χώρο σας;
+            Αξιολογούμε τον υπάρχοντα ήχο, χαρτογραφούμε τη διαδρομή του πελάτη και προτείνουμε μια προσέγγιση ειδικά για το brand σας.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link to={createPageUrl("contact")}>
               <AnimatedButton className="w-full sm:w-auto" aria-label="Book a music consultation">
-                Book a music consultation
+                Κλείστε μια μουσική συμβουλευτική
               </AnimatedButton>
             </Link>
           </div>
           <p className="text-black/70 mt-8">
-            Explore how our <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">Signature Playlists</Link> and <Link to={createPageUrl("sonic-strategy")} className="underline hover:text-black font-semibold">Sonic Strategy</Link> work for retail stores.
+            Δείτε πώς οι <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">Επιμελημένες playlists</Link> και ο <Link to={createPageUrl("sonic-strategy")} className="underline hover:text-black font-semibold">Σχεδιασμός ηχητικής ταυτότητας</Link> λειτουργούν για καταστήματα λιανικής.
           </p>
         </div>
       </section>
