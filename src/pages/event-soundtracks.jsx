@@ -21,7 +21,7 @@ export default function EventSoundtracks() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    document.title = "Event Soundtracks & Live DJ Sets | SensEar";
+    document.title = "Μουσική επιμέλεια εκδηλώσεων | SensEar";
 
     const metaDescription = document.querySelector('meta[name="description"]');
     const description = "Custom event soundtracks and live DJ programming that follow your event timeline. Immersive audio experiences for launches, ceremonies, and celebrations.";
@@ -217,11 +217,11 @@ export default function EventSoundtracks() {
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Event Soundtracks:</span>
-                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">Music timed to your event's flow.</span>
+                <span className="block text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem]">Μουσική επιμέλεια εκδηλώσεων:</span>
+                <span className="block text-[1.6rem] sm:text-[2.4rem] md:text-[3rem] lg:text-[3.6rem] text-black/70 italic">Επιλογές που ακολουθούν τη ροή της εκδήλωσης</span>
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                Soundtracks designed to support each phase, from arrival to finale.
+                Soundtracks και DJ sets σχεδιασμένα να υποστηρίζουν κάθε στάδιο, από την άφιξη έως το φινάλε.
               </p>
             </div>
 
@@ -248,16 +248,16 @@ export default function EventSoundtracks() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
             <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-white leading-tight mb-12">
-              Music that moves<br />
-              with your event's timeline
+              Μουσική που κινείται<br />
+              μαζί με τον χρόνο της εκδήλωσης
             </h2>
             
             <div className="w-full">
               <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                We design soundtracks to <strong><em>follow your event's plan</em></strong>, so energy always <strong><em>matches</em></strong> the moment.
+                Σχεδιάζουμε τη μουσική με βάση το πλάνο και τη ροή της εκδήλωσης, ώστε η ενέργεια να ταιριάζει σε κάθε στιγμή.
               </p>
               <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                Music <strong><em>carries the event forward</em></strong>, turning interactions into something guests <strong><em>enjoy & remember</em></strong>.
+                Ο ήχος οδηγεί την εμπειρία, μετατρέποντας κάθε αλληλεπίδραση σε κάτι που οι επισκέπτες απολαμβάνουν και θυμούνται.
               </p>
             </div>
           </div>
@@ -267,7 +267,7 @@ export default function EventSoundtracks() {
       {/* What we do */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">What we do</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Τι προσφέρουμε</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image - kept from previous "What you get" */}
@@ -282,23 +282,23 @@ export default function EventSoundtracks() {
             {/* Right: Content */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Follow your event timeline</h3>
-                <p className="text-lg text-black/70">Custom multi-part music themes that match your event's sequence & happenings.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Ακολουθούμε το χρονοδιάγραμμα</h3>
+                <p className="text-lg text-black/70">Μουσικά θέματα που αντιστοιχούν σε κάθε φάση και happening της εκδήλωσης.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Playlists, DJ sets or both</h3>
-                <p className="text-lg text-black/70">Music that fits your concept and audience, delivered as you need it.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Playlists, DJ sets (ή και τα δύο)</h3>
+                <p className="text-lg text-black/70">Μουσική προσαρμοσμένη στο concept και το κοινό σας.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Total sound confidence</h3>
-                <p className="text-lg text-black/70">AV direction, sound checks, and playback management so nothing is left to chance.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Σιγουριά στον ήχο</h3>
+                <p className="text-lg text-black/70">Κατεύθυνση για τον ήχο, sound checks και διαχείριση της ροής της μουσικής.</p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Optional venue audit</h3>
-                <p className="text-lg text-black/70">Inspection of your space for coverage & clarity issues or upgrade needs.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Προαιρετικός έλεγχος χώρου</h3>
+                <p className="text-lg text-black/70">Αξιολόγηση κάλυψης και καθαρότητας ήχου, με προτάσεις βελτίωσης.</p>
               </div>
             </div>
           </div>
@@ -308,31 +308,31 @@ export default function EventSoundtracks() {
       {/* Perfect for */}
       <section className="py-20" style={{ backgroundImage: "linear-gradient(to top, #ffffff 0%, rgba(255,255,255,0) 15%), url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Perfect for</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Ιδανικό για</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Content */}
             <div>
               <ul className="space-y-8 text-lg text-black/70">
                 <li className="block">
-                  <Link to={createPageUrl("music-for-hotels-and-resorts")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Hotels & Resorts">Hotels & Resorts</Link>
-                  <span>hosting launches, weddings, or signature dinners.</span>
+                  <Link to={createPageUrl("music-for-hotels-and-resorts")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Hotels & Resorts">Ξενοδοχεία & Θέρετρα</Link>
+                  <span>που φιλοξενούν παρουσιάσεις, γάμους και ξεχωριστά δείπνα.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("music-for-events-and-experiences")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Events">Event Organisers & Agencies</Link>
-                  <span>creating immersive branded experiences.</span>
+                  <Link to={createPageUrl("music-for-events-and-experiences")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Events">Διοργανωτές events & Agencies</Link>
+                  <span>που παρέχουν εμπειρικές branded εκδηλώσεις.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("music-for-restaurants-and-bars")} className="underline hover:text-black font-semibold text-2xl block mb-1">Private Chefs & Hosts</Link>
-                  <span>offering ceremonial or intimate dining.</span>
+                  <Link to={createPageUrl("music-for-restaurants-and-bars")} className="underline hover:text-black font-semibold text-2xl block mb-1">Πριβέ chefs & Ιδιώτες</Link>
+                  <span>που κάνουν εορταστικά ή πιο προσωπικά δείπνα.</span>
                 </li>
                 <li className="block">
-                  <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Art, Museums & Fashion">Cultural Venues & Galleries</Link>
-                  <span>staging talks, previews or exhibition openings.</span>
+                  <Link to={createPageUrl("music-for-art-museums-and-fashion")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Music for Art, Museums & Fashion">Πολιτιστικούς Χώρους & Γκαλερί</Link>
+                  <span>που διεξάγουν ομιλίες, previews και εγκαίνια.</span>
                 </li>
                 <li className="block">
                   <Link to={createPageUrl("building-brand-people-can-hear")} className="underline hover:text-black font-semibold text-2xl block mb-1" aria-label="Building a brand people can hear">Brands</Link>
-                  <span>that want music to shape how guests feel, share & remember.</span>
+                  <span>που θέλουν οι εκδηλώσεις τους να μείνουν στη μνήμη και να σχολιαστούν.</span>
                 </li>
               </ul>
             </div>
@@ -352,7 +352,7 @@ export default function EventSoundtracks() {
       {/* Professionally managed staging */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Professionally managed staging</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold mb-12 text-black text-center">Επαγγελματική επιμέλεια και εκτέλεση</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Image - kept from previous "How it works" */}
@@ -367,8 +367,8 @@ export default function EventSoundtracks() {
             {/* Right: Content */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-black mb-3">Creative, but also precise</h3>
-                <p className="text-lg text-black/70">We manage or supervise scheduling, sound checks and live adjustments so key moments land as planned and you focus on hosting.</p>
+                <h3 className="text-2xl font-bold text-black mb-3">Δημιουργικά, αλλά και με ακρίβεια</h3>
+                <p className="text-lg text-black/70">Διαχειριζόμαστε τον ήχο και τον τεχνικό συντονισμό ώστε οι σημαντικές στιγμές να «κουμπώνουν» σωστά, ενώ εσείς επικεντρώνεστε στη φιλοξενία.</p>
               </div>
             </div>
           </div>
@@ -378,19 +378,19 @@ export default function EventSoundtracks() {
       {/* Final CTA */}
       <section className="py-20" style={{ backgroundImage: "linear-gradient(to bottom, #faebe3 0%, rgba(250, 235, 227, 0) 15%), url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Let us design your event's sonic journey</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Ας σχεδιάσουμε το ηχητικό ταξίδι της εκδήλωσής σας</h2>
           <p className="text-xl text-black/70 mb-8 max-w-3xl mx-auto">
-            Need a soundtrack that feels as curated as everything else?
+            Χρειάζεστε μουσική με την ίδια φροντίδα που δίνετε σε κάθε λεπτομέρεια;
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link to={createPageUrl("contact")}>
               <AnimatedButton className="w-full sm:w-auto" aria-label="Book your event consultation">
-                Book your event consultation
+                Κλείστε μια συζήτηση για την εκδήλωσή σας
               </AnimatedButton>
             </Link>
           </div>
           <p className="text-black/70 mt-8">
-            Explore how our <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">Signature Playlists</Link> & <Link to={createPageUrl("audio-upgrades")} className="underline hover:text-black font-semibold">Audio Upgrades</Link> support event experiences.
+            Δείτε πώς οι <Link to={createPageUrl("signature-playlists")} className="underline hover:text-black font-semibold">Επιμελημένες playlists</Link> και η <Link to={createPageUrl("audio-upgrades")} className="underline hover:text-black font-semibold">Ακουστική αναβάθμιση</Link> υποστηρίζουν τις εκδηλώσεις.
           </p>
         </div>
       </section>
