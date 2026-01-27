@@ -93,10 +93,10 @@ export default function CaseStudies() {
             {/* Left Column: H1 */}
             <div className="flex flex-col justify-center text-left">
               <h1 className="text-[2.2rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.8rem] font-extrabold text-black mb-6 leading-[1.1] slide-up-1">
-                Hear how sound<br />shapes real experiences
+                Πώς ο ήχος<br />διαμορφώνει πραγματικές εμπειρίες
               </h1>
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed slide-up-2">
-                Examples of how sound is applied across different environments.
+                Παραδείγματα εφαρμογής του ήχου σε διαφορετικά περιβάλλοντα και ανάγκες.
               </p>
             </div>
 
@@ -123,15 +123,15 @@ export default function CaseStudies() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
               <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-white leading-tight mb-12">
-                From vision to sound & beyond
+                Από το όραμα<br />στον ήχο — και πέρα από αυτό
               </h2>
             
               <div className="w-full text-center">
                 <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                  All venues start with a <strong><em>vision</em></strong>; an <strong><em>atmosphere</em></strong> they imagined, a <strong><em>feeling</em></strong> they wanted guests to have.
+                  Κάθε χώρος ξεκινά από ένα όραμα: μια ατμόσφαιρα που θέλει να δημιουργήσει, ένα συναίσθημα που θέλει να αφήσει.
                 </p>
                 <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                  We turn those visions into <strong>carefully crafted soundscapes</strong> that support your business and <strong>respect the space</strong>.
+                  Εμείς το μεταφράζουμε σε επιμελημένα ηχητικά τοπία που υποστηρίζουν την εμπειρία, σέβονται τον χώρο και λειτουργούν στην πράξη.
                 </p>
               </div>
           </div>
@@ -155,8 +155,8 @@ export default function CaseStudies() {
       }}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto">
-            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">Four venues, four journeys</h2>
-            <p className="text-xl text-black/60 font-medium mb-12">Each with its own character, needs and musical solution.</p>
+            <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-4">Τέσσερις χώροι, τέσσερις διαφορετικές διαδρομές</h2>
+            <p className="text-xl text-black/60 font-medium mb-12">Κάθε ένας με τον δικό του χαρακτήρα, τις ανάγκες και τη μουσική του λύση.</p>
           </div>
 
           <div className="space-y-24">
@@ -169,14 +169,14 @@ export default function CaseStudies() {
                     className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
               </div>
               <div className="order-1 lg:order-2">
-                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Beach House, Antiparos</h3>
+                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Beach House, Αντίπαρος</h3>
                 
                 <div className="mb-8">
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-6">
-                    Beach House features traditional island style, the high-end restaurant CoocooVaya and a bar hovering above the sea, all with endless Aegean views.
+                    Το Beach House συνδυάζει την παραδοσιακή κυκλαδίτικη αισθητική με το υψηλής ποιότητας εστιατόριο CoocooVaya και ένα bar κυριολεκτικά πάνω στη θάλασσα.
                   </p>
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed font-medium">
-                    We were delighted when asked to design the music: the stunning setting needed <strong>sound that complements</strong> and relaxes. Our playlists respect the peaceful atmosphere while <strong>keeping perfect energy</strong> across beach, restaurant & bar.
+                    Η μουσική έπρεπε να συμπληρώνει το τοπίο και να χαλαρώνει, διατηρώντας παράλληλα τη σωστή ενέργεια σε παραλία, εστιατόριο και bar.
                   </p>
                 </div>
 
@@ -190,7 +190,7 @@ export default function CaseStudies() {
                     src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2232613925&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
                   ></iframe>
                   <div style={{fontSize: '10px', color: '#cccccc', lineBreak: 'anywhere', wordBreak: 'normal', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis', fontFamily: 'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif', fontWeight: '100'}}>
-                    <a href="https://soundcloud.com/sensear_music" title="SensEar.Music" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>SensEar.Music</a> · <a href="https://soundcloud.com/sensear_music/beach-house-antiparos-morning-playlist-sample" title="Beach House Antiparos morning playlist sample" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>Beach House Antiparos morning playlist sample</a>
+                    <a href="https://soundcloud.com/sensear_music" title="SensEar.Music" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>SensEar.Music</a> · <a href="https://soundcloud.com/sensear_music/beach-house-antiparos-morning-playlist-sample" title="Ακούστε την ατμόσφαιρα του Beach House" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>Ακούστε την ατμόσφαιρα του Beach House</a>
                   </div>
                 </div>
               </div>
@@ -199,14 +199,14 @@ export default function CaseStudies() {
             {/* Pelicanos */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-1">
-                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Pelicanos, Sifnos</h3>
+                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Pelicanos, Σίφνος</h3>
                 
                 <div className="mb-8">
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-6">
-                    Fine dining has taken off on Sifnos, an island known for its culinary tradition. Pelicanos is a sophisticated all-day restaurant in the fishing village of Faros, that needed music to match its ambition.
+                    Σε ένα νησί με ισχυρή γαστρονομική ταυτότητα, το Pelicanos χρειαζόταν μουσική αντάξια της φιλοδοξίας του.
                   </p>
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed font-medium">
-                    Yorgos, the owner, chef and part-time music head, trusted us to <strong>enrich the soundtrack</strong> with fresh discoveries & elegant classics that create a <strong>complete dining experience</strong> by the sea.
+                    Εμπλουτίσαμε το soundtrack με σύγχρονες ανακαλύψεις και διαχρονικές επιλογές, δημιουργώντας μια ολοκληρωμένη εμπειρία fine dining δίπλα στη θάλασσα.
                   </p>
                 </div>
 
@@ -220,7 +220,7 @@ export default function CaseStudies() {
                     src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2231292320%3Fsecret_token%3Ds-nZKQRmscC5Z&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
                   ></iframe>
                   <div style={{fontSize: '10px', color: '#cccccc', lineBreak: 'anywhere', wordBreak: 'normal', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis', fontFamily: 'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif', fontWeight: '100'}}>
-                    <a href="https://soundcloud.com/sensear_music" title="SensEar.Music" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>SensEar.Music</a> · <a href="https://soundcloud.com/sensear_music/pelicanos-sifnos-jazzy-playlist-1/s-nZKQRmscC5Z" title="Pelicanos Sifnos jazzy playlist" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>Pelicanos Sifnos jazzy playlist</a>
+                    <a href="https://soundcloud.com/sensear_music" title="SensEar.Music" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>SensEar.Music</a> · <a href="https://soundcloud.com/sensear_music/pelicanos-sifnos-jazzy-playlist-1/s-nZKQRmscC5Z" title="Ακούστε την ατμόσφαιρα του Pelicanos" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>Ακούστε την ατμόσφαιρα του Pelicanos</a>
                   </div>
                 </div>
               </div>
@@ -241,14 +241,14 @@ export default function CaseStudies() {
                     className="w-full aspect-[3/4] object-cover rounded-xl shadow-lg" />
               </div>
               <div className="order-1 lg:order-2">
-                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Yam, Antiparos</h3>
+                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Yam, Αντίπαρος</h3>
                 
                 <div className="mb-8">
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-6">
-                    An iconic Antiparos venue since the late '90s, Yam sits on a beautiful scenery and an easy-going vibe.
+                    Ένα εμβληματικό σημείο της Αντιπάρου από τα τέλη των ’90s, με χαλαρή διάθεση και μοναδικό σκηνικό.
                   </p>
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed font-medium">
-                    The girls in charge asked us to complement this special setting with <strong>music that evolves</strong> from lazy lunch to late night hangouts. We created a <strong>fine music experience</strong> for their after-dinner drinks and cocktails that captures the island's magic.
+                    Σχεδιάσαμε μια μουσική εμπειρία που εξελίσσεται φυσικά από το μεσημεριανό χαλάρωμα έως τα βραδινά cocktails, αποτυπώνοντας τη μαγεία του νησιού.
                   </p>
                 </div>
 
@@ -262,7 +262,7 @@ export default function CaseStudies() {
                     src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2231292317%3Fsecret_token%3Ds-un8Lzx2ibpI&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
                   ></iframe>
                   <div style={{fontSize: '10px', color: '#cccccc', lineBreak: 'anywhere', wordBreak: 'normal', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis', fontFamily: 'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif', fontWeight: '100'}}>
-                    <a href="https://soundcloud.com/sensear_music" title="SensEar.Music" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>SensEar.Music</a> · <a href="https://soundcloud.com/sensear_music/yam-antiparos-night-playlist-2/s-un8Lzx2ibpI" title="YAM Antiparos night playlist" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>YAM Antiparos night playlist</a>
+                    <a href="https://soundcloud.com/sensear_music" title="SensEar.Music" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>SensEar.Music</a> · <a href="https://soundcloud.com/sensear_music/yam-antiparos-night-playlist-2/s-un8Lzx2ibpI" title="Ακούστε την ατμόσφαιρα του Yam" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>Ακούστε την ατμόσφαιρα του Yam</a>
                   </div>
                 </div>
               </div>
@@ -271,14 +271,14 @@ export default function CaseStudies() {
             {/* Levantis Gallery */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-1">
-                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Levantis, Paros</h3>
+                <h3 className="text-4xl md:text-[48px] font-bold text-black mb-10">Levantis, Πάρος</h3>
                 
                 <div className="mb-8">
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-6">
-                    Neva Bergman assigned us to create atmospheric support for her "Quiet Testimony" exhibition opening at Levantis restaurant's gallery space in Paros.
+                    Για τα εγκαίνια της έκθεσης Quiet Testimony της Neva Bergman, σχεδιάσαμε ένα διακριτικό ambient ηχητικό τοπίο για τον εκθεσιακό χώρο του Levantis.
                   </p>
                   <p className="text-lg md:text-xl text-black/60 leading-relaxed font-medium">
-                    The custom ambient soundscape we designed <strong>enriched viewing & discussions</strong> without distraction. The artist loved how the <strong>music matched her work's</strong> emotions and kept visitors engaged longer.
+                    Η μουσική ενίσχυσε τη συγκέντρωση και τη συζήτηση χωρίς να αποσπά, κρατώντας τους επισκέπτες περισσότερο μέσα στο έργο.
                   </p>
                 </div>
 
@@ -292,7 +292,7 @@ export default function CaseStudies() {
                     src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2231959406&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
                   ></iframe>
                   <div style={{fontSize: '10px', color: '#cccccc', lineBreak: 'anywhere', wordBreak: 'normal', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis', fontFamily: 'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif', fontWeight: '100'}}>
-                    <a href="https://soundcloud.com/sensear_music" title="SensEar.Music" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>SensEar.Music</a> · <a href="https://soundcloud.com/sensear_music/levantis-sample" title="Levantis Paros playlist sample" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>Levantis Paros playlist sample</a>
+                    <a href="https://soundcloud.com/sensear_music" title="SensEar.Music" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>SensEar.Music</a> · <a href="https://soundcloud.com/sensear_music/levantis-sample" title="Ακούστε την ατμόσφαιρα του Levantis" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>Ακούστε την ατμόσφαιρα του Levantis</a>
                   </div>
                 </div>
               </div>
@@ -311,21 +311,21 @@ export default function CaseStudies() {
       {/* Final CTA - Your Transformation Starts Here */}
       <section className="py-20 animated-gradient">
         <div className="w-full mx-auto px-6 text-center">
-          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Your venue's sound journey starts here</h2>
+          <h2 className="text-[2.7rem] md:text-[3.45rem] font-bold text-black mb-12">Το ηχητικό ταξίδι του χώρου σας ξεκινά εδώ</h2>
           <p className="text-xl text-black/60 mb-12 mx-auto">
-            Let's explore how music can work specifically for your space and goals.
+            Ας δούμε πώς η μουσική μπορεί να λειτουργήσει ουσιαστικά για τον δικό σας χώρο και τους στόχους σας.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <Link to={createPageUrl("contact")}>
               <AnimatedButton className="w-full sm:w-auto h-14">
-                Discover Your Sound Strategy
+                Ανακαλύψτε τη στρατηγική ήχου σας
               </AnimatedButton>
             </Link>
-            
+            <span className="text-black/60 font-medium">ή</span>
             <Link to={createPageUrl("Services")}>
               <AnimatedButton className="w-full sm:w-auto h-14">
-                Explore our services
+                Δείτε τις υπηρεσίες μας
               </AnimatedButton>
             </Link>
           </div>
