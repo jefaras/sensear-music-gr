@@ -558,7 +558,7 @@ export default function AboutUs() {
                   <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
                     John E. Farazoumis
                   </h3>
-                  <p className="text-xl font-semibold text-black/70 mb-10">Συνιδρυτής, Brand Strategy & Client Service</p>
+                  <p className="text-xl font-semibold text-black/70 mb-10">Συνιδρυτής, Στρατηγική & Επικοινωνία</p>
                   
                   <div>
                     <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-4">
@@ -585,7 +585,7 @@ export default function AboutUs() {
                   <h3 className="text-[2.7rem] md:text-[48px] font-bold text-black leading-tight mb-2">
                     Katerina Karali
                   </h3>
-                  <p className="text-xl font-semibold text-black/70 mb-10">Συνεργαζόμενη συνεργάτιδα, DJ & Music Curator</p>
+                  <p className="text-xl font-semibold text-black/70 mb-10">Συνεργάτιδα, DJ & Μουσική Επιμελήτρια</p>
                   
                   <div>
                     <p className="text-lg md:text-xl text-black/60 leading-relaxed mb-4">
