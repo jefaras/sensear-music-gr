@@ -123,7 +123,7 @@ export default function CaseStudies() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
               <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-white leading-tight mb-12">
-                Από το όραμα<br />στον ήχο — και πέρα από αυτό
+                Από το όραμα<br />στον ήχο, και πέρα από αυτόν
               </h2>
             
               <div className="w-full text-center">
