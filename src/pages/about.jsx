@@ -275,19 +275,39 @@ export default function AboutUs() {
         </div>
       </section>
 
-      {/* Intro Section - Black Background */}
+      {/* Vision Section */}
       <section className="bg-black py-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
             <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-white leading-tight mb-12">
+              Το όραμά μας
+            </h2>
+            
+            <div className="w-full text-center">
+              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
+                Να γίνουμε ο <strong>κορυφαίος μουσικός συνεργάτης</strong> για εκλεκτικά brands φιλοξενίας και εκδηλώσεις που θέλουν να εκφράσουν την <strong>ταυτότητά τους</strong>, να αναβαθμίσουν την <strong>ατμόσφαιρα</strong> και να δημιουργήσουν ουσιαστικούς δεσμούς με τους <strong>επισκέπτες</strong>.
+              </p>
+              <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
+                <span>Μάθετε περισσότερα για τη </span><Link to={createPageUrl("sonic-strategy")} className="underline hover:text-peach font-semibold">Στρατηγική ηχητικής ταυτότητας</Link><span>.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Intro Section - Philosophy */}
+      <section className="animated-gradient py-20">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
+            <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-black leading-tight mb-12">
               Η φιλοσοφία μας
             </h2>
           
             <div className="w-full text-center">
-              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
+              <p className="text-2xl md:text-3xl lg:text-4xl text-black leading-relaxed mb-6">
                 Στη <strong>SensEar</strong> αντιμετωπίζουμε τη μουσική ως <strong><em>βασικό στοιχείο</em></strong> της <strong><em>εμπειρίας</em></strong>.
               </p>
-              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed">
+              <p className="text-2xl md:text-3xl lg:text-4xl text-black leading-relaxed">
                 Η μουσική <em>δεν είναι απλό υπόβαθρο</em>, αλλά <strong>ατμόσφαιρα</strong>, <strong>μνήμη</strong> και <strong>συναίσθημα</strong>, που επηρεάζει το πώς <strong><em>νιώθουν</em></strong> και <strong><em>συμπεριφέρονται</em></strong> οι επισκέπτες.
               </p>
             </div>
@@ -613,7 +633,7 @@ export default function AboutUs() {
           </div>
 
           <p className="text-center mt-32 text-2xl md:text-3xl lg:text-4xl max-w-5xl mx-auto text-black leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
-            Μαζί, αποτελούμε τη SensEar.
+            Μαζί, αποτελούμε τη <strong>SensEar</strong>.
             Μια ομάδα αφοσιωμένη στο να αναβαθμίζει χώρους μέσα από ουσιαστική, αξέχαστη μουσική.
           </p>
           
