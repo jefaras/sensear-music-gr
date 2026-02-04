@@ -498,26 +498,6 @@ export default function AboutUs() {
         </div>
       </section>
       
-      {/* Vision Section */}
-      <section className="bg-black py-20">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
-            <h2 className="text-[2rem] md:text-[2.8rem] lg:text-[3.45rem] font-bold text-white leading-tight mb-12">
-              Το όραμά μας
-            </h2>
-            
-            <div className="w-full text-center">
-              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                Να γίνουμε ο <strong>κορυφαίος μουσικός συνεργάτης</strong> για εκλεκτικά brands φιλοξενίας και εκδηλώσεις που θέλουν να εκφράσουν την <strong>ταυτότητά τους</strong>, να αναβαθμίσουν την <strong>ατμόσφαιρα</strong> και να δημιουργήσουν ουσιαστικούς δεσμούς με τους <strong>επισκέπτες</strong>.
-              </p>
-              <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                <span>Μάθετε περισσότερα για τη </span><Link to={createPageUrl("sonic-strategy")} className="underline hover:text-peach font-semibold">Στρατηγική ηχητικής ταυτότητας</Link><span>.</span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Team Section */}
       <section className="py-24" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e53c2bf0c2fbec935083b6/178049824_warmsilverfoilsample-Picsart-AiImageEnhancer.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }} aria-labelledby="team-heading">
         <div className="max-w-7xl mx-auto px-6">
