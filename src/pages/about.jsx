@@ -284,14 +284,9 @@ export default function AboutUs() {
             </h2>
             
             <div className="w-full text-center">
-              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-6">
-                Να γίνουμε ο <strong>κορυφαίος μουσικός συνεργάτης</strong> για εκλεκτικά brands φιλοξενίας & εκδηλώσεις που θέλουν:
+              <p className="text-2xl md:text-3xl lg:text-4xl text-white leading-relaxed mb-10">
+                Να γίνουμε ο κορυφαίος συνεργάτης μουσικής για brands & εκδηλώσεις με χαρακτήρα, που θέλουν ταυτότητα, ατμόσφαιρα και ουσιαστική σύνδεση με τους επισκέπτες τους.
               </p>
-              <ul className="text-xl md:text-2xl lg:text-3xl text-white leading-relaxed mb-10 list-disc text-left inline-block max-w-4xl px-6">
-                <li className="mb-2 pl-2">να εκφράσουν την <strong>ταυτότητά τους</strong>,</li>
-                <li className="mb-2 pl-2">να αναβαθμίσουν την <strong>ατμόσφαιρα</strong> τους</li>
-                <li className="pl-2">να δημιουργήσουν <strong>ουσιαστικούς δεσμούς</strong> με τους <strong>επισκέπτες</strong> τους.</li>
-              </ul>
               <p className="text-lg md:text-xl lg:text-2xl text-white/80 leading-relaxed">
                 <span>Μάθετε περισσότερα για την </span><Link to={createPageUrl("sonic-strategy")} className="underline hover:text-peach font-semibold">Ηχητική ταυτότητα</Link><span>.</span>
               </p>
