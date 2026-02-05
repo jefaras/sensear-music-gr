@@ -288,7 +288,7 @@ export default function AboutUs() {
                 Να γίνουμε ο <strong>κορυφαίος μουσικός συνεργάτης</strong> για εκλεκτικά brands φιλοξενίας και εκδηλώσεις που θέλουν να εκφράσουν την <strong>ταυτότητά τους</strong>, να αναβαθμίσουν την <strong>ατμόσφαιρα</strong> και να δημιουργήσουν ουσιαστικούς δεσμούς με τους <strong>επισκέπτες</strong>.
               </p>
               <p className="text-xl md:text-2xl lg:text-3xl text-white/80 leading-relaxed">
-                <span>Μάθετε περισσότερα για τη </span><Link to={createPageUrl("sonic-strategy")} className="underline hover:text-peach font-semibold">Στρατηγική ηχητικής ταυτότητας</Link><span>.</span>
+                <span>Μάθετε περισσότερα για την </span><Link to={createPageUrl("sonic-strategy")} className="underline hover:text-peach font-semibold">Ηχητική ταυτότητα</Link><span>.</span>
               </p>
             </div>
           </div>
