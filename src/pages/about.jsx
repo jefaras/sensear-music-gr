@@ -289,7 +289,7 @@ export default function AboutUs() {
               </p>
               <ul className="text-xl md:text-2xl lg:text-3xl text-white leading-relaxed mb-10 list-disc text-left inline-block max-w-4xl px-6">
                 <li className="mb-2 pl-2">να εκφράσουν την <strong>ταυτότητά τους</strong>,</li>
-                <li className="mb-2 pl-2">να αναβαθμίσουν την <strong>ατμόσφαιρα</strong>, και</li>
+                <li className="mb-2 pl-2">να αναβαθμίσουν την <strong>ατμόσφαιρα</strong></li>
                 <li className="pl-2">να δημιουργήσουν ουσιαστικούς δεσμούς με τους <strong>επισκέπτες</strong>.</li>
               </ul>
               <p className="text-lg md:text-xl lg:text-2xl text-white/80 leading-relaxed">
